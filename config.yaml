@@ -1,11 +1,15 @@
 ---
-baseurl: "http://mose.github.io/mobla"
-languageCode: "en-us"
-title: "Mose Bla"
-theme: puehurgo
-
+baseurl: http://mose.github.io/mobla
+languageCode: en-us
+title: Mose Bla
+theme: purehugo
+metaDataFormat: yaml
 params:
-  description: "Personal rants from Mose."
+  description: Personal rants from Mose.
   keywords: "mose, geek, french, taiwan"
-  github: "mose"
-  twitter: "mo5e"
+  github: mose
+  twitter: mo5e
+taxomonies:
+  tag: tags
+permalinks:
+  post: /:year/:month/:day/:title

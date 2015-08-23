@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-puremose"]
+	path = themes/hugo-theme-puremose
+	url = git@github.com:mose/hugo-theme-puremose.git

@@ -1,0 +1,10 @@
+---
+baseurl: "http://mose.github.io/mobla"
+languageCode: "en-us"
+title: "Mose Bla"
+
+params:
+  description: "Personal rants from Mose."
+  keywords: "mose, geek, french, taiwan"
+  github: "mose"
+  twitter: "mo5e"

@@ -2,6 +2,7 @@
 baseurl: "http://mose.github.io/mobla"
 languageCode: "en-us"
 title: "Mose Bla"
+theme: puehurgo
 
 params:
   description: "Personal rants from Mose."

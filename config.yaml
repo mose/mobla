@@ -4,6 +4,7 @@ languageCode: en-us
 title: Mose Bla
 theme: hugo-theme-puremose
 metaDataFormat: yaml
+it: "-----------------------------"
 params:
   description: Personal rants from Mose.
   keywords: "mose, geek, french, taiwan"
@@ -11,5 +12,7 @@ params:
   twitter: mo5e
 taxomonies:
   tag: tags
+cloudinary:
+  prefix: http://res.cloudinary.com/mosepix/image/upload
 permalinks:
   post: /:year/:month/:day/:title

@@ -10,9 +10,9 @@ params:
   keywords: "mose, geek, french, taiwan"
   github: mose
   twitter: mo5e
+  cloudinary:
+    prefix: http://res.cloudinary.com/mosepix/image/upload
 taxomonies:
   tag: tags
-cloudinary:
-  prefix: http://res.cloudinary.com/mosepix/image/upload
 permalinks:
   post: /:year/:month/:day/:title

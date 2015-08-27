@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Less first &middot; Mose Bla</title>
+
+  <meta name="description" content="">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Less first &middot; Mose Bla">
+  <meta name="twitter:description" content="">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Less first &middot; Mose Bla">
+  <meta property="og:description" content="">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://mose.github.io/mobla/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Mose Bla" href="http://mose.github.io/mobla/index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://mose.github.io/mobla">Mose Bla</a></h1>
+      <h2 class="brand-tagline">Personal rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://mose.github.io/mobla/index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        <h1 class="content-subhead">
+  2014-06-19
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://mose.github.io/mobla/origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://mose.github.io/mobla/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+
+        <section class="post">
+          
+<div class="post-share">
+  <div class="post-share-links">
+
+
+    <a href="#" data-type="facebook" data-url="http://mose.github.io/mobla/2014/06/19/less-first" data-title="Less first" data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+    <a href="#" data-type="googleplus" data-url="http://mose.github.io/mobla/2014/06/19/less-first" data-description="" class="prettySocial fa fa-google-plus"></a>
+
+    <a href="#" data-type="twitter" data-url="http://mose.github.io/mobla/2014/06/19/less-first" data-description="" data-via="mo5e" class="prettySocial fa fa-twitter"></a>
+
+    
+  </div>
+</div>
+
+
+          
+          <header class="post-header">
+            <a href="http://mose.github.io/mobla/2014/06/19/less-first" class="post-title">Less first</a>
+          </header>
+
+          <div class="post-description">
+            
+
+<p>When working on a remote server, I use <code>less</code> instead of <code>tail</code> or <code>vi</code> to check files, the more I can.</p>
+
+<h2 id="filter:3480f0a86761ef50d1ed36f6b3b46e94">filter</h2>
+
+<ul>
+<li>with <code>&amp;searchstring</code> it will hide all lines not matching searchstring, like a very simple grep from the console</li>
+<li>just <code>&amp;</code> with nothing to get back to full view</li>
+</ul>
+
+<h2 id="edit-file:3480f0a86761ef50d1ed36f6b3b46e94">edit file</h2>
+
+<ul>
+<li>when in <code>less /etc/hosts</code> if I find out I need to edit it I just type <code>v</code> it opens it in vi</li>
+<li>when you quit the editor you are back in less</li>
+</ul>
+
+<h2 id="follow-mode:3480f0a86761ef50d1ed36f6b3b46e94">follow mode</h2>
+
+<ul>
+<li>when in <code>less production.log</code>, if you want to follow incoming changes type <code>F</code> it will become like a <code>tail -f</code> but it keeps the syntax highlighting that was made with a <code>/</code> search - when in follow mode with <code>F</code> you can <code>ctrl-c</code> any time and examine the new stuff</li>
+<li>note that if you are in filter mode the follow respects it (like if you did a <code>grep something/var/log/auth.log | grep 'Invalid user'</code>)</li>
+</ul>
+
+<h2 id="multifiles:3480f0a86761ef50d1ed36f6b3b46e94">multifiles</h2>
+
+<ul>
+<li>you can open several file and navigate like in vim with <code>:n</code> and <code>:p</code></li>
+<li>when less is open you can open a new file with <code>:e</code></li>
+</ul>
+
+<h2 id="call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94">call options inside less</h2>
+
+<ul>
+<li>you can call any launch option from inside less, one I use often is <code>-S</code> that will enable/disable wrapping of long lines, very useful when parsing web server log files</li>
+<li>to disable/enable search highlighting just <code>-G</code></li>
+<li>any other launch option can be called from inside less, pretty convenient</li>
+</ul>
+
+          </div>
+          
+        </section>
+      </div>
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://mose.github.io/mobla/js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

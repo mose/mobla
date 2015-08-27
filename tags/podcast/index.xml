@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on Mose Bla</title>
+    <link>http://mose.github.io/mobla/tags/podcast/</link>
+    <description>Recent content in Podcast on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2013 09:10:31 +0800</lastBuildDate>
+    <atom:link href="http://mose.github.io/mobla/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Geeky podcasts</title>
+      <link>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</link>
+      <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</guid>
+      <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
+
+&lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyrogues.com&#34;&gt;http://rubyrogues.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyshow.com&#34;&gt;http://rubyshow.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learn.thoughtbot.com/podcast&#34;&gt;http://learn.thoughtbot.com/podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ruby5.envylabs.com&#34;&gt;http://ruby5.envylabs.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All was good and then I checked out podcast clients for my environment (linux with ubuntu) and I found out &lt;a href=&#34;http://gpodder.net&#34;&gt;http://gpodder.net&lt;/a&gt; which is exactly the kind of software I like. I does not much but what it does is well done. The website is a nice optional addition, only focused on podcasts and has a nice simple design and is free.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install gpodder
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I discovered a few other podcasts for hackers, or oriented towards science and knowledge. And I removed the rss feed I had in my thunderbird for listening to some French-speaking radio shows (like la-bas si j&amp;rsquo;y suis).&lt;/p&gt;
+
+&lt;p&gt;The website makes possible to publish your subscription list, here is my list of very geeky selection:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gpodder.net/user/mose/subscriptions&#34;&gt;https://gpodder.net/user/mose/subscriptions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

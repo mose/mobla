@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Mose Bla</title>
+    <link>http://mose.github.io/mobla/tags/ruby/</link>
+    <description>Recent content in Ruby on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jun 2014 09:10:31 +0800</lastBuildDate>
+    <atom:link href="http://mose.github.io/mobla/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>S3 backups</title>
+      <link>http://mose.github.io/mobla/2014/06/12/s3-backups</link>
+      <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2014/06/12/s3-backups</guid>
+      <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://meskyanichi.github.io/backup/v4/&#34;&gt;http://meskyanichi.github.io/backup/v4/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).&lt;/p&gt;
+
+&lt;p&gt;So I added a small trick there:&lt;/p&gt;
+
+&lt;p&gt;in &lt;code&gt;Backup/models/backup_audio.rb&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;module Backup::Syncer::Cloud
+  class Base &amp;lt; Syncer::Base
+    def process_orphans
+      if @orphans.is_a?(Queue)
+        @orphans = @orphans.size.times.map { @orphans.shift }
+      end
+      &amp;quot;Older Files: #{ @orphans.count }&amp;quot;
+    end
+  end
+end
+
+Backup::Model.new(:backup_audio, &#39;Audio files Backup to S3&#39;) do
+
+  before do
+    system(&amp;quot;/Backup/latest_audio.sh&amp;quot;)
+  end
+
+  after do
+    FileUtils.rm_rf(&amp;quot;/tmp/streams&amp;quot;)
+  end
+
+  ##
+  # Amazon Simple Storage Service [Syncer]
+  #
+  sync_with Cloud::S3 do |s3|
+    s3.access_key_id     = &amp;quot;xxx&amp;quot;
+    s3.secret_access_key = &amp;quot;xxx&amp;quot;
+    s3.bucket            = &amp;quot;bucket_backup&amp;quot;
+    s3.region            = &amp;quot;us-east-1&amp;quot;
+    s3.path              = &amp;quot;/mb_audio_backup&amp;quot;
+    s3.mirror            = false
+    s3.thread_count      = 50
+
+    s3.directories do |directory|
+      directory.add &amp;quot;/tmp/streams&amp;quot;
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and in &lt;code&gt;Backup/latest_audio.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
+# isolate files changed in the last 3 days
+
+TMPDIR=/tmp/streams
+
+mkdir $TMPDIR
+for i in `find /storage/audio/ -type f -cmin -4320`; do
+  ln -s $i $TMPDIR
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &amp;lsquo;amazonian&amp;rsquo; reason) it will be caught on the next daily backup.&lt;/p&gt;
+
+&lt;p&gt;The result was pretty obvious on our disk usage with our daily backups:&lt;/p&gt;
+
+&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png&#34; alt=&#34;graph&#34; /&gt;
+
+
+
+&lt;p&gt;in the logs:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[2014/06/10 07:00:25][info] Summary:
+[2014/06/10 07:00:25][info]   Transferred Files: 5
+[2014/06/10 07:00:25][info]   Older Files: 22371
+[2014/06/10 07:00:25][info]   Unchanged Files: 16
+[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
+[2014/06/10 07:00:25][info] Backup for &#39;Audio files Backup to S3 (backup_audio)&#39; Completed Successfully in 00:00:22
+[2014/06/10 07:00:25][info] After Hook Starting...
+[2014/06/10 07:00:25][info] After Hook Finished.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Make a gem</title>
+      <link>http://mose.github.io/mobla/2014/06/04/make-a-gem</link>
+      <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2014/06/04/make-a-gem</guid>
+      <description>
+
+&lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
+
+&lt;h2 id=&#34;make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Make a Rubygems account&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;first ensure create an ccount on &lt;a href=&#34;https://rubygems.org/&#34;&gt;https://rubygems.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;initialize your credentials:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials
+Enter host password for user &#39;username&#39;:
+
+chmod 0600 ~/.gem/credentials
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Prepare the code&lt;/h2&gt;
+
+&lt;p&gt;These steps are my typical path, nothing is really mandatory there.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;create a repo at github (or wherever you want)&lt;/li&gt;
+&lt;li&gt;create a base gem skeleton &lt;code&gt;bundle gem mycoolgem&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information&lt;/li&gt;
+&lt;li&gt;create a CHANGELOG.md because when you publish something you need a clear log of your version changes&lt;/li&gt;
+&lt;li&gt;enable the tracking on &lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt;, &lt;a href=&#34;https://travis-ci.org/&#34;&gt;travis&lt;/a&gt;, &lt;a href=&#34;https://coveralls.io/&#34;&gt;coveralls&lt;/a&gt;, &lt;a href=&#34;https://gemnasium.com&#34;&gt;gemnasium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;add badges from &lt;a href=&#34;http://shields.io&#34;&gt;http://shields.io&lt;/a&gt; in the README.md because it helps to qualify the state of the code quickly&lt;/li&gt;
+&lt;li&gt;when the gem code don&amp;rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with &lt;code&gt;spec.version  = File.read(File.expand_path(&#39;../CHANGELOG.md&#39;, __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]&lt;/code&gt;
+(so then when I version bump there is only one file to edit)&lt;/li&gt;
+&lt;li&gt;write the code (or copy it from the private app you extract it from)&lt;/li&gt;
+&lt;li&gt;add a spec/ or test/ dir and write some tests and try to reach a decent coverage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;release-it:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Release it&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add the date in the changelog for the current version&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rake release&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;bump the version to the next increment in the changelog (and version file if any)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall with the initial bundle command and the final rake task for release, it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
+
+&lt;p&gt;Also check &lt;a href=&#34;http://guides.rubygems.org/make-your-own-gem/&#34;&gt;http://guides.rubygems.org/make-your-own-gem/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gem reverse dependencies</title>
+      <link>http://mose.github.io/mobla/2014/05/27/gem-reverse-dependencies</link>
+      <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2014/05/27/gem-reverse-dependencies</guid>
+      <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
+     -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39;
+
+[&amp;quot;metric_fu&amp;quot;,
+ &amp;quot;flyerhzm-metric_fu&amp;quot;,
+ &amp;quot;edouard-metric_fu&amp;quot;,
+ &amp;quot;devver-metric_fu&amp;quot;,
+ &amp;quot;goldstar-metric_fu&amp;quot;,
+ &amp;quot;socializer&amp;quot;,
+ &amp;quot;trollface&amp;quot;,
+ &amp;quot;guard-rails_best_practices&amp;quot;,
+ &amp;quot;rferraz-metric_fu&amp;quot;,
+ &amp;quot;git-hooks-helper&amp;quot;,
+ &amp;quot;odor&amp;quot;,
+ &amp;quot;rake_check&amp;quot;,
+ &amp;quot;koality&amp;quot;,
+ &amp;quot;danmayer-metric_fu&amp;quot;,
+ &amp;quot;bf4-metric_fu&amp;quot;,
+ &amp;quot;metrics_satellite&amp;quot;,
+ &amp;quot;code_hunter&amp;quot;,
+ &amp;quot;kinit&amp;quot;,
+ &amp;quot;rails-audit&amp;quot;,
+ &amp;quot;pronto-rails_best_practices&amp;quot;,
+ &amp;quot;free_disk_space&amp;quot;,
+ &amp;quot;warder&amp;quot;,
+ &amp;quot;ruby_osx_app&amp;quot;,
+ &amp;quot;sanelint&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Out of curiosity I counted some wellknown gems usages by adding a &lt;code&gt;.count&lt;/code&gt; at the end:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake:    23766
+rails:   6283
+thor:    2786
+pry:     2870
+sinatra: 1964
+devise:  422 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackpad cli</title>
+      <link>http://mose.github.io/mobla/2014/05/22/hackpad-cli</link>
+      <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2014/05/22/hackpad-cli</guid>
+      <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mose/hackpad-cli&#34;&gt;https://github.com/mose/hackpad-cli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geeky podcasts</title>
+      <link>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</link>
+      <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</guid>
+      <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
+
+&lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyrogues.com&#34;&gt;http://rubyrogues.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyshow.com&#34;&gt;http://rubyshow.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learn.thoughtbot.com/podcast&#34;&gt;http://learn.thoughtbot.com/podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ruby5.envylabs.com&#34;&gt;http://ruby5.envylabs.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All was good and then I checked out podcast clients for my environment (linux with ubuntu) and I found out &lt;a href=&#34;http://gpodder.net&#34;&gt;http://gpodder.net&lt;/a&gt; which is exactly the kind of software I like. I does not much but what it does is well done. The website is a nice optional addition, only focused on podcasts and has a nice simple design and is free.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install gpodder
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I discovered a few other podcasts for hackers, or oriented towards science and knowledge. And I removed the rss feed I had in my thunderbird for listening to some French-speaking radio shows (like la-bas si j&amp;rsquo;y suis).&lt;/p&gt;
+
+&lt;p&gt;The website makes possible to publish your subscription list, here is my list of very geeky selection:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gpodder.net/user/mose/subscriptions&#34;&gt;https://gpodder.net/user/mose/subscriptions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2012</title>
+      <link>http://mose.github.io/mobla/2012/12/10/rubyconf-2012</link>
+      <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2012/12/10/rubyconf-2012</guid>
+      <description>&lt;div class=&#34;gallery&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+
+
+
+
+&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/1-xenor&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/1-xenor&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Xenor&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+
+
+&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/2-talk&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;800x1280&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/2-talk&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Talks&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+
+
+&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/3-restau&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/3-restau&#34; itemprop=&#34;thumbnail&#34; alt=&#34;At restaurant&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+
+
+&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/4-benxenor&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/4-benxenor&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Xenor and benjamin&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+
+
+&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/5-conf&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/5-conf&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Conference&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://mose.github.io/mobla/css/photoswipe.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://mose.github.io/mobla/css/photoswipe-skin/default-skin.css&#34;&gt;
+&lt;script src=&#34;http://mose.github.io/mobla/js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://mose.github.io/mobla/js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://mose.github.io/mobla/js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+  &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+      &lt;div class=&#34;pswp__container&#34;&gt;
+        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+      &lt;div class=&#34;pswp__top-bar&#34;&gt;
+        &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+        &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+        &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+        &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+        &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+        &lt;div class=&#34;pswp__preloader&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+              &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+        &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+      &lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+      &lt;/button&gt;
+      &lt;div class=&#34;pswp__caption&#34;&gt;
+        &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  initPhotoSwipeFromDOM(&#39;.gallery&#39;);
+&lt;/script&gt;
+
+
+&lt;p&gt;Ruby Conf Taiwan 2012. Quite a great event.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rubyconf.tw/2012/&#34;&gt;http://rubyconf.tw/2012/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

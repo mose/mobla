@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sublimetext2, plugins, sshfs &middot; Mose Bla</title>
+
+  <meta name="description" content="">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Sublimetext2, plugins, sshfs &middot; Mose Bla">
+  <meta name="twitter:description" content="">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Sublimetext2, plugins, sshfs &middot; Mose Bla">
+  <meta property="og:description" content="">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://mose.github.io/mobla/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Mose Bla" href="http://mose.github.io/mobla/index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://mose.github.io/mobla">Mose Bla</a></h1>
+      <h2 class="brand-tagline">Personal rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://mose.github.io/mobla/index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        <h1 class="content-subhead">
+  2012-10-28
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://mose.github.io/mobla/origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-sublimetext" href="http://mose.github.io/mobla/tags/sublimetext">sublimetext</a>
+    
+    
+  </p>
+</h1>
+
+
+        <section class="post">
+          
+<div class="post-share">
+  <div class="post-share-links">
+
+
+    <a href="#" data-type="facebook" data-url="http://mose.github.io/mobla/2012/10/28/sublimetext2-plugins-sshfs" data-title="Sublimetext2, plugins, sshfs" data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+    <a href="#" data-type="googleplus" data-url="http://mose.github.io/mobla/2012/10/28/sublimetext2-plugins-sshfs" data-description="" class="prettySocial fa fa-google-plus"></a>
+
+    <a href="#" data-type="twitter" data-url="http://mose.github.io/mobla/2012/10/28/sublimetext2-plugins-sshfs" data-description="" data-via="mo5e" class="prettySocial fa fa-twitter"></a>
+
+    
+  </div>
+</div>
+
+
+          
+          <header class="post-header">
+            <a href="http://mose.github.io/mobla/2012/10/28/sublimetext2-plugins-sshfs" class="post-title">Sublimetext2, plugins, sshfs</a>
+          </header>
+
+          <div class="post-description">
+            
+
+<p>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.</p>
+
+<p>But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called <a href="http://www.sublimetext.com/2">sublimetext2</a>. And I have to say it just works fine for me (even if I will always keep my Vim not far). And I don’t feel any loss in control !</p>
+
+<p>Here are a few tuning that I made or got from friends that I want to keep in memory, so I figured I should post about it.</p>
+
+<h2 id="enable-plugins-manager:aeac908f260033eeab91183dfa6f1c81">Enable plugins manager</h2>
+
+<p>It’s not on by default and can be enable by copy-pasting this line into the console (view / console in the menu)</p>
+
+<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not  os.path.exists(ipp) else None;  urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print   'Please restart Sublime Text to finish installation'
+</code></pre>
+
+<p>Then just relaunch sublimetext and you can access the plugin manager using shift-ctrl-P and type ‘install’.</p>
+
+<p>There is a damn long list of plugins you can add there (a list is on <a href="http://wbond.net/sublime_packages/community">http://wbond.net/sublime_packages/community</a>) and a few of them were advised to me that I should use: brackethighliter, docblockr, sublimecodeintel, sublimelinter, vintageex, git</p>
+
+<p>sublimecodeintel seems to be the one that really does a lot of magic in there. The rest is for convenience and display of blocks in a more visual way,</p>
+
+<h2 id="use-sshfs-for-remote-editing:aeac908f260033eeab91183dfa6f1c81">Use sshfs for remote editing</h2>
+
+<p>Well this is not related to sublimetext but makes it easy to remote edit a dir when you have an ssh access. On Ubuntu you can just</p>
+
+<pre><code>apt-get install sshfs
+</code></pre>
+
+<p>and then</p>
+
+<pre><code>mkdir workdir &amp;&amp; sshfs you@server:/path/to/dir workdir
+</code></pre>
+
+<p>so the remote dir pretends to be local now and can be opened by sublimetext easily. It’s of course adding some response time as the editor refreshes the file you browse each time you focus on it, but it works pretty fine for me.</p>
+
+<p><em>Special thanks to beve that provided me those nice tricks.</em></p>
+
+          </div>
+          
+        </section>
+      </div>
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://mose.github.io/mobla/js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

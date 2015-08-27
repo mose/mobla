@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Greenruby on Mose Bla</title>
+    <link>http://mose.github.io/mobla/tags/greenruby/</link>
+    <description>Recent content in Greenruby on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Apr 2013 09:10:31 +0800</lastBuildDate>
+    <atom:link href="http://mose.github.io/mobla/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Green Ruby</title>
+      <link>http://mose.github.io/mobla/2013/04/07/about-green-ruby</link>
+      <pubDate>Sun, 07 Apr 2013 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2013/04/07/about-green-ruby</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://greenruby.org/&#34;&gt;Green Ruby&lt;/a&gt; is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.&lt;/p&gt;
+
+&lt;h2 id=&#34;genesis:1c34dfda6e65228c3dbbf6fb2d30812e&#34;&gt;Genesis&lt;/h2&gt;
+
+&lt;p&gt;The Newsletter began in june 2012 from the habit I had to send weekly newsletter in &lt;a href=&#34;http://codegreenit.com/&#34;&gt;Codegreen&lt;/a&gt; for our team to know what is happening in our company,. That was purely a teamwork tool for general transparency. But with time passing I also included there some links to what I was finding around that would be of interest for my geek colleagues.&lt;/p&gt;
+
+&lt;p&gt;That CodeGreen Internal newsletter began to be cluttered with various links at the bottom of it. So I decided to separate that links gathering bunch in another newsletter. But then it could also be useful for my friends, out of the scope of our team.&lt;/p&gt;
+
+&lt;h2 id=&#34;green-birth:1c34dfda6e65228c3dbbf6fb2d30812e&#34;&gt;Green Birth&lt;/h2&gt;
+
+&lt;p&gt;At that time I had to test &lt;a href=&#34;http://mailchimp.com/&#34;&gt;Mailchimp&lt;/a&gt; service for one of our projects, so because they offer a free package when volume is not too big, I thought I should just create that newsletter as a public freely available publication.&lt;/p&gt;
+
+&lt;p&gt;So in february 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well, mostly our team :) Then it became a weekly habit, so I got a domain name for it, and organically it’s growing slowly.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-redactor-gear:1c34dfda6e65228c3dbbf6fb2d30812e&#34;&gt;The redactor gear&lt;/h2&gt;
+
+&lt;p&gt;Codegreen paid for my &lt;a href=&#34;http://newsblur.com/&#34;&gt;Newsblur&lt;/a&gt; account so I can follow a bunch of feeds. Google reader was my first tool but well, they are closing, and actually Newsblur is much better. It’s open source and the guy that makes it does a great job (too bad it’s in python and not in ruby).&lt;/p&gt;
+
+&lt;p&gt;I’m also loading a bunch of podcasts on my phone and after having tried a lot of podcast softwares I’m really happy with &lt;a href=&#34;http://www.podkicker.com/&#34;&gt;Podkicker&lt;/a&gt;, it’s just very convenient and it has all I need with the free version. So in my 40 minutes commuting to go to work, I just get the ears busy. I tried to use &lt;a href=&#34;https://gpodder.net/user/mose&#34;&gt;Gpodder&lt;/a&gt; but it’s not totally perfect and the support in podcast clients is not as good as it should be. So I don’t stick on it, maybe it will evolve and I will get back to it.&lt;/p&gt;
+
+&lt;p&gt;But I also get a lot of news by just wandering around on &lt;a href=&#34;https://geekli.st/&#34;&gt;Geekli.st&lt;/a&gt;, on &lt;a href=&#34;https://coderbits.com/&#34;&gt;Coderbits&lt;/a&gt;, hacker news, and I subscribed to a bunch of various newsletters. I also watch teh new gems feeds from &lt;a href=&#34;https://twitter.com/RubyGemsAlt&#34;&gt;@rubygems-alt&lt;/a&gt; and I retweet stuff of interest on &lt;a href=&#34;https://twitter.com/cogtw&#34;&gt;@cogtw&lt;/a&gt; account (those 2 are my alternate twitter identities).&lt;/p&gt;
+
+&lt;p&gt;Each week &lt;a href=&#34;https://github.com/tubaxenor&#34;&gt;William&lt;/a&gt; (aka xenor) also sends me a list of links. But I definitely don’t use any facebook feeds. For some reason, this is a place I avoid the most I can.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-next:1c34dfda6e65228c3dbbf6fb2d30812e&#34;&gt;What next ?&lt;/h2&gt;
+
+&lt;p&gt;My ambition there is to keep it non-commercial, and change it to be more community driven. The preparation of the letter is eating a big part of my saturdays for the last 13 weeks and I don’t think I can keep up the same pace for long time.&lt;/p&gt;
+
+&lt;p&gt;The idea I have about the community driven thing is by engineering some automation on the news gathering (to replace newsblur), have a place where the news can be triaged by various people, a little bit like it is on &lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;Hacker News&lt;/a&gt; with a vote system. But the gathering won’t limit to blog posts and rss feeds, there would also be podcasts and video feeds. There is now a lot of possibilities in automation on feeds aggregation. I worked on a project that already does that feeds aggregation, named “the Blux”. And I expect to replicate parts of it for my Green Ruby Engine.&lt;/p&gt;
+
+&lt;p&gt;But also, as usual, this project is also an occasion to play with recent technologies or stuff I want to know more about, otherwise where is the fun ? So here comes &lt;a href=&#34;http://emberjs.com/&#34;&gt;Ember.js&lt;/a&gt;, on the top of &lt;a href=&#34;http://www.sinatrarb.com/&#34;&gt;Sinatra&lt;/a&gt; with &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;mongoDB&lt;/a&gt;, and there will be much more on the road (thinking about trying &lt;a href=&#34;http://af83.github.io/sponges/&#34;&gt;Sponges&lt;/a&gt; too).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

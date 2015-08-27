@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Mose Bla</title>
+    <link>http://mose.github.io/mobla/tags/sql/</link>
+    <description>Recent content in Sql on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2014 14:10:31 +0800</lastBuildDate>
+    <atom:link href="http://mose.github.io/mobla/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SQL in a shell</title>
+      <link>http://mose.github.io/mobla/2014/07/04/sql-in-a-shell</link>
+      <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2014/07/04/sql-in-a-shell</guid>
+      <description>&lt;p&gt;There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called &lt;code&gt;parallel&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install parallel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or on mac&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install parallel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;parallel&lt;/code&gt; command is a pretty complex beast, but the package also comes with the &lt;code&gt;sql&lt;/code&gt; command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.&lt;/p&gt;
+
+&lt;p&gt;I first setup my dburl in &lt;code&gt;.sql/aliases&lt;/code&gt; as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:dbmb mysql:///managebac
+:dboa mysql:///openapply
+:dbis psql://isis:password@localhost/intersis
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I can then use those aliases for quick sql commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sql :dbmb &amp;quot;select count(*) from users&amp;quot;
+sql --show-processlist :dbis
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check &lt;a href=&#34;http://www.gnu.org/software/parallel/sql.html&#34;&gt;http://www.gnu.org/software/parallel/sql.html&lt;/a&gt; for more examples of use. Also check &lt;a href=&#34;http://www.gnu.org/software/parallel/package&#34;&gt;http://www.gnu.org/software/parallel/package&lt;/a&gt; it&amp;rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

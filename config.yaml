@@ -4,7 +4,8 @@ languageCode: en-us
 title: Mose Bla
 theme: hugo-theme-puremose
 metaDataFormat: yaml
-it: "-----------------------------"
+verbose: true
+canonifyurls: true
 params:
   description: Personal rants from Mose.
   keywords: "mose, geek, french, taiwan"

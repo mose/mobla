@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Mose Bla</title>
-    <link>http://mose.github.io/mobla/tags/ruby/</link>
+    <link>http://localhost:1313/mobla/tags/ruby/</link>
     <description>Recent content in Ruby on Mose Bla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Jun 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://mose.github.io/mobla/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/mobla/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>S3 backups</title>
-      <link>http://mose.github.io/mobla/2014/06/12/s3-backups</link>
+      <link>http://localhost:1313/mobla/2014/06/12/s3-backups</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/06/12/s3-backups</guid>
+      <guid>http://localhost:1313/mobla/2014/06/12/s3-backups</guid>
       <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
 
 &lt;ul&gt;
@@ -84,7 +84,7 @@ done
 
 &lt;p&gt;The result was pretty obvious on our disk usage with our daily backups:&lt;/p&gt;
 
-&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png&#34; alt=&#34;graph&#34; /&gt;
+&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png&#34; alt=&#34;graph&#34; class=&#34;pure-img&#34; /&gt;
 
 
 
@@ -104,10 +104,10 @@ done
     
     <item>
       <title>Make a gem</title>
-      <link>http://mose.github.io/mobla/2014/06/04/make-a-gem</link>
+      <link>http://localhost:1313/mobla/2014/06/04/make-a-gem</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/06/04/make-a-gem</guid>
+      <guid>http://localhost:1313/mobla/2014/06/04/make-a-gem</guid>
       <description>
 
 &lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
@@ -158,10 +158,10 @@ chmod 0600 ~/.gem/credentials
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://mose.github.io/mobla/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://localhost:1313/mobla/2014/05/27/gem-reverse-dependencies</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/05/27/gem-reverse-dependencies</guid>
+      <guid>http://localhost:1313/mobla/2014/05/27/gem-reverse-dependencies</guid>
       <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
@@ -207,10 +207,10 @@ devise:  422
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://mose.github.io/mobla/2014/05/22/hackpad-cli</link>
+      <link>http://localhost:1313/mobla/2014/05/22/hackpad-cli</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/05/22/hackpad-cli</guid>
+      <guid>http://localhost:1313/mobla/2014/05/22/hackpad-cli</guid>
       <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -221,10 +221,10 @@ devise:  422
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</link>
+      <link>http://localhost:1313/mobla/2013/02/10/geeky-podcasts</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2013/02/10/geeky-podcasts</guid>
+      <guid>http://localhost:1313/mobla/2013/02/10/geeky-podcasts</guid>
       <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
 
 &lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
@@ -253,10 +253,10 @@ devise:  422
     
     <item>
       <title>RubyConf 2012</title>
-      <link>http://mose.github.io/mobla/2012/12/10/rubyconf-2012</link>
+      <link>http://localhost:1313/mobla/2012/12/10/rubyconf-2012</link>
       <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2012/12/10/rubyconf-2012</guid>
+      <guid>http://localhost:1313/mobla/2012/12/10/rubyconf-2012</guid>
       <description>&lt;div class=&#34;gallery&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 
 
@@ -288,11 +288,11 @@ devise:  422
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://mose.github.io/mobla/css/photoswipe.css&#34;&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://mose.github.io/mobla/css/photoswipe-skin/default-skin.css&#34;&gt;
-&lt;script src=&#34;http://mose.github.io/mobla/js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://mose.github.io/mobla/js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://mose.github.io/mobla/js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/mobla//css/photoswipe.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/mobla//css/photoswipe-skin/default-skin.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/mobla//js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://localhost:1313/mobla//js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://localhost:1313/mobla//js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
 
 &lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
   &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;

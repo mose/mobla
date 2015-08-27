@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on Mose Bla</title>
-    <link>http://mose.github.io/mobla/tags/devops/</link>
+    <link>http://localhost:1313/mobla/tags/devops/</link>
     <description>Recent content in Devops on Mose Bla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Aug 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://mose.github.io/mobla/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/mobla/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Digitalocean CLI</title>
-      <link>http://mose.github.io/mobla/2014/08/07/digitalocean-cli</link>
+      <link>http://localhost:1313/mobla/2014/08/07/digitalocean-cli</link>
       <pubDate>Thu, 07 Aug 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/08/07/digitalocean-cli</guid>
+      <guid>http://localhost:1313/mobla/2014/08/07/digitalocean-cli</guid>
       <description>&lt;p&gt;We host some dev boxes on Digitalocean, and I tried varioous CLI because I like to stay in the console. Recently I was pretty happy to find Tugboat, as it saves default droplet size, region and image, and convers the whole API. Its fuzzy droplet name matching also can find great usage.&lt;/p&gt;
 
 &lt;p&gt;The only problem it has, is its counter-intuitive damn name (I forgot how to launch it 2 hours after using it the first time haha).&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/pearkes/tugboat&#34;&gt;https://github.com/pearkes/tugboat&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-08-07-tugboat.png&#34; alt=&#34;tugboat&#34; /&gt;
+&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-08-07-tugboat.png&#34; alt=&#34;tugboat&#34; class=&#34;pure-img&#34; /&gt;
 
 
 </description>
@@ -31,10 +31,10 @@
     
     <item>
       <title>Knife remote command</title>
-      <link>http://mose.github.io/mobla/2014/06/26/knife-remote-command</link>
+      <link>http://localhost:1313/mobla/2014/06/26/knife-remote-command</link>
       <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://mose.github.io/mobla/2014/06/26/knife-remote-command</guid>
+      <guid>http://localhost:1313/mobla/2014/06/26/knife-remote-command</guid>
       <description>&lt;p&gt;Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the &lt;code&gt;fabric&lt;/code&gt; scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.&lt;/p&gt;
 
 &lt;p&gt;So I created a new file in &lt;code&gt;.chef/plugins/knife/&lt;/code&gt; named &lt;code&gt;apt.rb&lt;/code&gt; for a test:&lt;/p&gt;

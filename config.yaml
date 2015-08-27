@@ -13,7 +13,13 @@ params:
   twitter: mo5e
   cloudinary:
     prefix: http://res.cloudinary.com/mosepix/image/upload
+  share:
+    - facebook
+    - google-plus
+    - twitter
 taxomonies:
   tag: tags
+  origin: origins
+  category: categories
 permalinks:
   post: /:year/:month/:day/:title

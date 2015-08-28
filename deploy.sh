@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -o errexit #abort if any command fails
 
 rm -rf public
 

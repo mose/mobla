@@ -3,7 +3,6 @@ set -o errexit #abort if any command fails
 
 hugo
 
-git rm -r public/.gitmodules public/themes
 cp CNAME public
 
 git add .

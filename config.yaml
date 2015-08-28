@@ -13,6 +13,7 @@ params:
   twitter: mo5e
   cloudinary:
     prefix: http://res.cloudinary.com/mosepix/image/upload
+    mainImage: mose/mose.jpg
   share:
     - facebook
     - google-plus

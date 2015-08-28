@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moselog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://blog.mose.com/</link>
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Aug 2015 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Moving to Hugo</title>
-      <link>http://localhost:1313/2015/08/28/moving-to-hugo</link>
+      <link>http://blog.mose.com/2015/08/28/moving-to-hugo</link>
       <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/28/moving-to-hugo</guid>
+      <guid>http://blog.mose.com/2015/08/28/moving-to-hugo</guid>
       <description>&lt;p&gt;As I love website pre-generation concept I have been using &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; and &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; quite a lot. But now I wanted to give a try to &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I wanted to see how it was made. Then I had a period of time where I was publishing tips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt; newsletter.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Greenruby 133</title>
-      <link>http://localhost:1313/2015/08/23/greenruby-133</link>
+      <link>http://blog.mose.com/2015/08/23/greenruby-133</link>
       <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/23/greenruby-133</guid>
+      <guid>http://blog.mose.com/2015/08/23/greenruby-133</guid>
       <description>
 
 &lt;h2 id=&#34;just-met-hugo:7f9ce9f83e9126826117a493b10fad98&#34;&gt;Just met Hugo&lt;/h2&gt;
@@ -67,10 +67,10 @@ repo and publish it at the same time.&lt;/p&gt;
     
     <item>
       <title>Greenruby 132</title>
-      <link>http://localhost:1313/2015/08/16/greenruby-132</link>
+      <link>http://blog.mose.com/2015/08/16/greenruby-132</link>
       <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/16/greenruby-132</guid>
+      <guid>http://blog.mose.com/2015/08/16/greenruby-132</guid>
       <description>
 
 &lt;h2 id=&#34;sexism-and-competition:db2c111cf24dad5b31c1182c9980822d&#34;&gt;Sexism and competition&lt;/h2&gt;
@@ -130,10 +130,10 @@ doubt there is that much people reading those line hahaha.&lt;/p&gt;
     
     <item>
       <title>Greenruby 131</title>
-      <link>http://localhost:1313/2015/08/09/greenruby-131</link>
+      <link>http://blog.mose.com/2015/08/09/greenruby-131</link>
       <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/09/greenruby-131</guid>
+      <guid>http://blog.mose.com/2015/08/09/greenruby-131</guid>
       <description>
 
 &lt;h2 id=&#34;octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d&#34;&gt;Octopress 3 and other thoughts&lt;/h2&gt;
@@ -174,10 +174,10 @@ you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@gree
     
     <item>
       <title>Greenruby 130</title>
-      <link>http://localhost:1313/2015/08/02/greenruby-130</link>
+      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
       <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/02/greenruby-130</guid>
+      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
       <description>
 
 &lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
@@ -207,10 +207,10 @@ stock. So then we can make new ones.&lt;/p&gt;
     
     <item>
       <title>Greenruby 129</title>
-      <link>http://localhost:1313/2015/07/26/greenruby-129</link>
+      <link>http://blog.mose.com/2015/07/26/greenruby-129</link>
       <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/26/greenruby-129</guid>
+      <guid>http://blog.mose.com/2015/07/26/greenruby-129</guid>
       <description>
 
 &lt;h2 id=&#34;back-on-tweeting:7ae99486640ad70a650c6bd616a3b6cb&#34;&gt;Back on tweeting&lt;/h2&gt;
@@ -237,10 +237,10 @@ been possible without my buddies. Thanks so much for their contribution.&lt;/p&g
     
     <item>
       <title>Greenruby 128</title>
-      <link>http://localhost:1313/2015/07/19/greenruby-128</link>
+      <link>http://blog.mose.com/2015/07/19/greenruby-128</link>
       <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/19/greenruby-128</guid>
+      <guid>http://blog.mose.com/2015/07/19/greenruby-128</guid>
       <description>
 
 &lt;h2 id=&#34;rubyconf-taiwan-2015-cfp:abd434c0512885455cdb7b8467442df0&#34;&gt;RubyConf Taiwan 2015 CFP&lt;/h2&gt;
@@ -262,10 +262,10 @@ interesting move.&lt;/p&gt;
     
     <item>
       <title>Greenruby 127</title>
-      <link>http://localhost:1313/2015/07/12/greenruby-127</link>
+      <link>http://blog.mose.com/2015/07/12/greenruby-127</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/12/greenruby-127</guid>
+      <guid>http://blog.mose.com/2015/07/12/greenruby-127</guid>
       <description>
 
 &lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
@@ -318,10 +318,10 @@ years.&lt;/p&gt;
     
     <item>
       <title>Greenruby 126</title>
-      <link>http://localhost:1313/2015/07/05/greenruby-126</link>
+      <link>http://blog.mose.com/2015/07/05/greenruby-126</link>
       <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/05/greenruby-126</guid>
+      <guid>http://blog.mose.com/2015/07/05/greenruby-126</guid>
       <description>
 
 &lt;h2 id=&#34;digital-generations:2aa08ef814c13d38c5b673b5d5882db4&#34;&gt;Digital Generations&lt;/h2&gt;
@@ -386,10 +386,10 @@ any effort to include you if you drag your feet.&lt;/p&gt;
     
     <item>
       <title>Greenruby 125</title>
-      <link>http://localhost:1313/2015/06/28/greenruby-125</link>
+      <link>http://blog.mose.com/2015/06/28/greenruby-125</link>
       <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/06/28/greenruby-125</guid>
+      <guid>http://blog.mose.com/2015/06/28/greenruby-125</guid>
       <description>
 
 &lt;h2 id=&#34;a-taste-of-freebsd:2e9f17a4684b1292d2dd8dbb76b48337&#34;&gt;a taste of FreeBSD&lt;/h2&gt;
@@ -420,10 +420,10 @@ its reputation seems to convey.&lt;/p&gt;
     
     <item>
       <title>Greenruby 124</title>
-      <link>http://localhost:1313/2015/06/21/greenruby-124</link>
+      <link>http://blog.mose.com/2015/06/21/greenruby-124</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/06/21/greenruby-124</guid>
+      <guid>http://blog.mose.com/2015/06/21/greenruby-124</guid>
       <description>
 
 &lt;h2 id=&#34;the-yin-and-yang-of-software-development:aff213456bcfa77c48418a9edd40a18a&#34;&gt;The yin and yang of software development&lt;/h2&gt;
@@ -474,10 +474,10 @@ you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt
     
     <item>
       <title>Greenruby 123</title>
-      <link>http://localhost:1313/2015/06/14/greenruby-123</link>
+      <link>http://blog.mose.com/2015/06/14/greenruby-123</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/06/14/greenruby-123</guid>
+      <guid>http://blog.mose.com/2015/06/14/greenruby-123</guid>
       <description>
 
 &lt;h2 id=&#34;a-word-about-project-gardening:3f19ca908c642cafd8c3253d0dfb2a28&#34;&gt;A word about project gardening&lt;/h2&gt;
@@ -536,10 +536,10 @@ mythical beast.&lt;/p&gt;
     
     <item>
       <title>Greenruby 122</title>
-      <link>http://localhost:1313/2015/06/07/greenruby-122</link>
+      <link>http://blog.mose.com/2015/06/07/greenruby-122</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/06/07/greenruby-122</guid>
+      <guid>http://blog.mose.com/2015/06/07/greenruby-122</guid>
       <description>
 
 &lt;h2 id=&#34;thought-about-python-fron-a-rubyist:cdf97fab83b684f4dce127ec09f067df&#34;&gt;Thought about python fron a rubyist&lt;/h2&gt;
@@ -592,10 +592,10 @@ gives a good perspective on you usual world.&lt;/p&gt;
     
     <item>
       <title>Greenruby 121</title>
-      <link>http://localhost:1313/2015/05/31/greenruby-121</link>
+      <link>http://blog.mose.com/2015/05/31/greenruby-121</link>
       <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/05/31/greenruby-121</guid>
+      <guid>http://blog.mose.com/2015/05/31/greenruby-121</guid>
       <description>
 
 &lt;h2 id=&#34;linux-trick-too-many-logs:195c338923f21c367264a5b5fb00e8a9&#34;&gt;linux trick: too many logs&lt;/h2&gt;
@@ -644,10 +644,10 @@ with live processes.&lt;/p&gt;
     
     <item>
       <title>Greenruby 120</title>
-      <link>http://localhost:1313/2015/05/24/greenruby-120</link>
+      <link>http://blog.mose.com/2015/05/24/greenruby-120</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/05/24/greenruby-120</guid>
+      <guid>http://blog.mose.com/2015/05/24/greenruby-120</guid>
       <description>
 
 &lt;h2 id=&#34;the-side-effects-of-recruitment:849328e7dfc904a2b6d861e0036f0df4&#34;&gt;The side effects of recruitment&lt;/h2&gt;

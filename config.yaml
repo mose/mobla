@@ -1,14 +1,14 @@
 ---
 baseurl: http://log.mose.com
 languageCode: en-us
-title: Mose Bla
+title: Moselog
 theme: hugo-theme-puremose
 metaDataFormat: yaml
 verbose: true
 canonifyurls: true
 params:
-  description: Personal rants from Mose.
-  keywords: "mose, geek, french, taiwan"
+  description: Various rants from Mose.
+  keywords: "mose, geek, french, taiwan, dev, devops, linux, opensource"
   github: mose
   twitter: mo5e
   cloudinary:

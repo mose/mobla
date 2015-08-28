@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on Mose Bla</title>
-    <link>http://log.mose.com/tags/vim/</link>
-    <description>Recent content in Vim on Mose Bla</description>
+    <title>Vim on Moselog</title>
+    <link>http://localhost:1313/tags/vim/</link>
+    <description>Recent content in Vim on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 May 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://log.mose.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Eddie Vim and rcfiles</title>
-      <link>http://log.mose.com/2014/05/15/eddie-vim-and-rcfiles</link>
+      <link>http://localhost:1313/2014/05/15/eddie-vim-and-rcfiles</link>
       <pubDate>Thu, 15 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://log.mose.com/2014/05/15/eddie-vim-and-rcfiles</guid>
+      <guid>http://localhost:1313/2014/05/15/eddie-vim-and-rcfiles</guid>
       <description>&lt;p&gt;Mose sometimes uses vim on the side of ST3, and can&amp;rsquo;t do it without the pretty good eddie kao set of config files.&lt;/p&gt;
 
 &lt;p&gt;Check it out at &lt;a href=&#34;https://github.com/kaochenlong/eddie-vim&#34;&gt;https://github.com/kaochenlong/eddie-vim&lt;/a&gt; it&amp;rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo &lt;a href=&#34;https://github.com/mose/rcfiles&#34;&gt;https://github.com/mose/rcfiles&lt;/a&gt; with an installer that I runs when I install a new server.&lt;/p&gt;

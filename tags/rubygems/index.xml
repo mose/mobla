@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rubygems on Mose Bla</title>
-    <link>http://log.mose.com/tags/rubygems/</link>
-    <description>Recent content in Rubygems on Mose Bla</description>
+    <title>Rubygems on Moselog</title>
+    <link>http://localhost:1313/tags/rubygems/</link>
+    <description>Recent content in Rubygems on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jun 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://log.mose.com/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Make a gem</title>
-      <link>http://log.mose.com/2014/06/04/make-a-gem</link>
+      <link>http://localhost:1313/2014/06/04/make-a-gem</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://log.mose.com/2014/06/04/make-a-gem</guid>
+      <guid>http://localhost:1313/2014/06/04/make-a-gem</guid>
       <description>
 
 &lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
@@ -65,10 +65,10 @@ chmod 0600 ~/.gem/credentials
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://log.mose.com/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://localhost:1313/2014/05/27/gem-reverse-dependencies</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://log.mose.com/2014/05/27/gem-reverse-dependencies</guid>
+      <guid>http://localhost:1313/2014/05/27/gem-reverse-dependencies</guid>
       <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
@@ -114,10 +114,10 @@ devise:  422
     
     <item>
       <title>Rubygems back on twitter</title>
-      <link>http://log.mose.com/2012/09/16/rubygems-back-on-twitter</link>
+      <link>http://localhost:1313/2012/09/16/rubygems-back-on-twitter</link>
       <pubDate>Sun, 16 Sep 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://log.mose.com/2012/09/16/rubygems-back-on-twitter</guid>
+      <guid>http://localhost:1313/2012/09/16/rubygems-back-on-twitter</guid>
       <description>&lt;p&gt;I was used to checkout the new gems on twitter while in public transportation, but the flow stopped 2 weeks ago. So after a while I just wrote my own webhook, that was amazingly easy and just took 2 hours (well it’s not elaborated and test-backed and all but it works)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/mose/rubygems-alt&#34;&gt;https://github.com/mose/rubygems-alt&lt;/a&gt;&lt;/p&gt;

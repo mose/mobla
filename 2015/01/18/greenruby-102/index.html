@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenruby 102 &middot; Moselog</title>
+
+  <meta name="description" content="">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Greenruby 102 &middot; Moselog">
+  <meta name="twitter:description" content="">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Greenruby 102 &middot; Moselog">
+  <meta property="og:description" content="">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://blog.mose.com/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://blog.mose.com/index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://blog.mose.com">Moselog</a></h1>
+      <h2 class="brand-tagline">Various rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://blog.mose.com/index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        <h1 class="content-subhead">
+  2015-01-18
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
+
+
+        <section class="post">
+          
+<div class="post-share">
+  <div class="post-share-links">
+
+
+    <a href="#" data-type="facebook" data-url="http://blog.mose.com/2015/01/18/greenruby-102" data-title="Greenruby 102" data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+    <a href="#" data-type="googleplus" data-url="http://blog.mose.com/2015/01/18/greenruby-102" data-description="" class="prettySocial fa fa-google-plus"></a>
+
+    <a href="#" data-type="twitter" data-url="http://blog.mose.com/2015/01/18/greenruby-102" data-description="" data-via="mo5e" class="prettySocial fa fa-twitter"></a>
+
+    
+  </div>
+</div>
+
+
+          
+          <header class="post-header">
+            <a href="http://blog.mose.com/2015/01/18/greenruby-102" class="post-title">Greenruby 102</a>
+          </header>
+
+          <div class="post-description">
+            
+
+<h2 id="while42:7b1eab39a4e6e397eafd98271e67cb67">While42</h2>
+
+<p>This week I got in contact with Sylvain from <a href="http://while42.org">while42</a>. It&rsquo;s a social
+network for french tech engineers, but with a special touch on it. There is no
+facebook page or google group. They intentionally decided to be irl-first. For
+people that are most likely to be online all the time, this sounds so
+therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
+If you want to know more (and are french, engineer, and living in Taipei) just
+drop me a mail.</p>
+
+<h2 id="traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67">Traveling ruby</h2>
+
+<p>This is a project from the <a href="http://www.phusion.nl/">Phusion</a> people, called <a href="https://github.com/phusion/traveling-ruby">Traveling ruby</a>.
+Its purpose is to make it easy to build auto-sustaining tarballs for ruby
+programms, including ruby binary and all gems in it. That way you can publish
+a tarball and your customer/user will just launch whatever you put in it. No
+need to install ruby or any gems.</p>
+
+<p>I gave it a try yesterday on my <a href="https://github.com/eduvo/zabbix-ruby-client">zabbix-ruby-client</a> gem, and after a few
+tweaks (mostly because I wanted to use an unpublished version of my gem), it
+all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
+old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
+reminded me a bit of the feeling when you upload a go executable on the
+server. Really neat.</p>
+
+<h2 id="palm-control:7b1eab39a4e6e397eafd98271e67cb67">Palm control</h2>
+
+<p>There are tiny things that can change a lot. My recent tiny thing is the palm
+control technique. Every sunday when I prepare Green Ruby I do a huge amount
+of copy pasting all over the place. Recently I found on a post about keyboard
+someone talking about the palm control technique for avoiding the copypaste
+fatigue.</p>
+
+<p>Well, you need to have a keyboard that makes it possible. Mine is a <a href="http://support.logitech.com/en_us/product/10104">Logitech washable k310</a>.
+I already liked its look, and even better, it&rsquo;s perfect for
+this palm thing because keys are prominent. Use the palm to push control and
+then it&rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
+my life!</p>
+
+          </div>
+          
+        </section>
+      </div>
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://blog.mose.com/js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

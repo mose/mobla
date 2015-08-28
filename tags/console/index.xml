@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Console on Moselog</title>
-    <link>http://localhost:1313/tags/console/</link>
+    <link>http://log.mose.com/tags/console/</link>
     <description>Recent content in Console on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Sep 2014 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/console/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://log.mose.com/tags/console/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Console columns</title>
-      <link>http://localhost:1313/2014/09/10/console-columns</link>
+      <link>http://log.mose.com/2014/09/10/console-columns</link>
       <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/09/10/console-columns</guid>
+      <guid>http://log.mose.com/2014/09/10/console-columns</guid>
       <description>&lt;p&gt;When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The &lt;code&gt;column&lt;/code&gt; command was recently brought to my attention by &lt;a href=&#34;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&#34;&gt;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&lt;/a&gt; and despite years of console life, godamn I was unaware of this simple tool.&lt;/p&gt;
 
 &lt;p&gt;It is very useful for displaying csv files in a readable way, for example:&lt;/p&gt;
@@ -53,10 +53,10 @@ LATITUDE  LONGITUDE  CC  REGION
     
     <item>
       <title>Pretty json</title>
-      <link>http://localhost:1313/2014/09/10/pretty-json</link>
+      <link>http://log.mose.com/2014/09/10/pretty-json</link>
       <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/09/10/pretty-json</guid>
+      <guid>http://log.mose.com/2014/09/10/pretty-json</guid>
       <description>&lt;p&gt;JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;
@@ -94,10 +94,10 @@ LATITUDE  LONGITUDE  CC  REGION
     
     <item>
       <title>Tree command</title>
-      <link>http://localhost:1313/2014/07/11/tree-command</link>
+      <link>http://log.mose.com/2014/07/11/tree-command</link>
       <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/07/11/tree-command</guid>
+      <guid>http://log.mose.com/2014/07/11/tree-command</guid>
       <description>&lt;p&gt;There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s &lt;code&gt;tree&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;apt-get install tree
@@ -168,10 +168,10 @@ projects/lolita
     
     <item>
       <title>SQL in a shell</title>
-      <link>http://localhost:1313/2014/07/04/sql-in-a-shell</link>
+      <link>http://log.mose.com/2014/07/04/sql-in-a-shell</link>
       <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/07/04/sql-in-a-shell</guid>
+      <guid>http://log.mose.com/2014/07/04/sql-in-a-shell</guid>
       <description>&lt;p&gt;There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called &lt;code&gt;parallel&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;apt-get install parallel
@@ -203,10 +203,10 @@ sql --show-processlist :dbis
     
     <item>
       <title>Less first</title>
-      <link>http://localhost:1313/2014/06/19/less-first</link>
+      <link>http://log.mose.com/2014/06/19/less-first</link>
       <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/19/less-first</guid>
+      <guid>http://log.mose.com/2014/06/19/less-first</guid>
       <description>
 
 &lt;p&gt;When working on a remote server, I use &lt;code&gt;less&lt;/code&gt; instead of &lt;code&gt;tail&lt;/code&gt; or &lt;code&gt;vi&lt;/code&gt; to check files, the more I can.&lt;/p&gt;
@@ -251,10 +251,10 @@ sql --show-processlist :dbis
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://localhost:1313/2014/05/22/hackpad-cli</link>
+      <link>http://log.mose.com/2014/05/22/hackpad-cli</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/22/hackpad-cli</guid>
+      <guid>http://log.mose.com/2014/05/22/hackpad-cli</guid>
       <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -265,10 +265,10 @@ sql --show-processlist :dbis
     
     <item>
       <title>SSH to socket</title>
-      <link>http://localhost:1313/2014/05/01/ssh-to-socket</link>
+      <link>http://log.mose.com/2014/05/01/ssh-to-socket</link>
       <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/01/ssh-to-socket</guid>
+      <guid>http://log.mose.com/2014/05/01/ssh-to-socket</guid>
       <description>&lt;p&gt;I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your &lt;code&gt;.ssh/config&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host *

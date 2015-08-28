@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greenruby on Moselog</title>
-    <link>http://localhost:1313/tags/greenruby/</link>
+    <link>http://blog.mose.com/tags/greenruby/</link>
     <description>Recent content in Greenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2013 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Green Ruby</title>
-      <link>http://localhost:1313/2013/04/07/about-green-ruby</link>
+      <link>http://blog.mose.com/2013/04/07/about-green-ruby</link>
       <pubDate>Sun, 07 Apr 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/04/07/about-green-ruby</guid>
+      <guid>http://blog.mose.com/2013/04/07/about-green-ruby</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://greenruby.org/&#34;&gt;Green Ruby&lt;/a&gt; is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.&lt;/p&gt;

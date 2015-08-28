@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logs on Moselog</title>
+    <link>http://blog.mose.com/tags/logs/</link>
+    <description>Recent content in Logs on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Jan 2015 12:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/logs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 101</title>
+      <link>http://blog.mose.com/2015/01/11/greenruby-101</link>
+      <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/01/11/greenruby-101</guid>
+      <description>
+
+&lt;h2 id=&#34;1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;1000 subscribers&lt;/h2&gt;
+
+&lt;p&gt;After the 100th Greenruby last week, we get the 1000th subscriber to the email
+newsletter this week. Welcome George :) So for the occasion I refreshed the
+&lt;a href=&#34;http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map&#34;&gt;subscribers map&lt;/a&gt; on cartodb. About half of the subscribers are in the US,
+but there is a total of 73 countries represented, which is pretty neat. But
+this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.&lt;/p&gt;
+
+&lt;h2 id=&#34;fighting-logs-pollution:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Fighting logs pollution&lt;/h2&gt;
+
+&lt;p&gt;Some time ago, on edition 82, I posted a link to my webalizer stats for the
+greenruby website. Fatal mistake, I had referrers stats enabled and I got
+somehow listed somewhere. The consequence was a lot of fake traffic with only
+purpose to get links listed in my referrers section. After removing this
+section from webalizer config, and moving the url, the fake traffic was still
+there. Like a blind wave. This was pretty annoying.&lt;/p&gt;
+
+&lt;p&gt;So I began to take some drastic measures. Because I didn&amp;rsquo;t have referrers
+anymore in my stats, I went to my apache logs (yes it&amp;rsquo;s an old server, still
+running apache2) and fire up a:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tail -5000 greenruby.org-access.log | cut -d&#39; &#39; -f11 | sort | uniq -c | sort -n
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This give me a nice view of the recent referrers. Fake ones are easy to
+notice. And that the fake traffic was only coming from a handful of ips, so I
+just made a few:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iptables -A INPUT -s &amp;lt;ip&amp;gt; -j DROP
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result was radically efficient. Certainly I had less volume but it&amp;rsquo;s now
+much cleaner. But it makes it clear that having clean volume stats for traffic
+on your website is not that easy. There are a bunch of fake traffic sources
+that you may not suspect.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-server-soon:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;New server soon&lt;/h2&gt;
+
+&lt;p&gt;I got a new job 2 month ago at &lt;a href=&#34;http://gandi.net&#34;&gt;gandi&lt;/a&gt;, and there is some nice &lt;a href=&#34;https://www.gandi.net/hosting/iaas&#34;&gt;VPS
+hosting&lt;/a&gt; there. I can have a machine just for Green Ruby there. It can be
+neat and open some options. Green Ruby website is still very static. Various
+attempts to improve it with a search engine didn&amp;rsquo;t end up to something
+concluding yet. Maybe this time it will.&lt;/p&gt;
+
+&lt;p&gt;That also may be the occasion to build up a distribution system and move out
+of mailchimp. I looked around and all I found was php based. So I will
+probably just write my own ruby scripts, the &lt;a href=&#34;https://github.com/mikel/mail&#34;&gt;mail gem&lt;/a&gt; looks great and the
+rest is a question of configuring a postfix with correct &lt;a href=&#34;http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF&#34;&gt;SPF and DKIM
+setup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;je-suis-charlie:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Je suis Charlie&lt;/h2&gt;
+
+&lt;p&gt;Well, this tragedy that happened this Thursday in France impacts a lot of
+people. Somehow, it perhaps impacts me more than the average. When I was
+younger I went to art school to become a cartoonist, and finally I changed my
+mind. But I knew the work of the victims of this slaughter. They were icons in
+the French cartoon world.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s really sad, first because this is murder, second because the irrational
+impact it will have on society. This is crazy how a handful of brain-dead
+punks can bend history. Now France is going to become even more paranoid. I
+already was so uncomfortable when they began to send military with assault
+rifles wander in the train stations in Paris. It&amp;rsquo;s not going to get better.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

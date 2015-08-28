@@ -1,6 +1,5 @@
-Mose Bla
+Mose Blog
 ============
 
-To be honest this is a pretrext to do some testing with Hugo, the content generator in Go.
-
+Meta-blog gathering various rants from Mose in a Hugo generated blog using purecss.
 

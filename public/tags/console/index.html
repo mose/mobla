@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console &middot; Mose Bla</title>
+
+  <meta name="description" content="Personal rants from Mose.">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Console &middot; Mose Bla">
+  <meta name="twitter:description" content="Personal rants from Mose.">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Console &middot; Mose Bla">
+  <meta property="og:description" content="Personal rants from Mose.">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://localhost:1313/mobla//css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Mose Bla" href="http://localhost:1313/mobla//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://localhost:1313/mobla/">Mose Bla</a></h1>
+      <h2 class="brand-tagline">Personal rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://localhost:1313/mobla//index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        
+          <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/09/10/console-columns" class="post-title">Console columns</a>
+            </header>
+
+            <div class="post-description">
+              <p>When you live in your console, it&rsquo;s always good to find ways to stay there. The <code>column</code> command was recently brought to my attention by <a href="https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr">https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr</a> and despite years of console life, godamn I was unaware of this simple tool.</p>
+
+<p>It is very useful for displaying csv files in a readable way, for example:</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv
+LATITUDE,LONGITUDE,CC,REGION
+24.7798,120.93,TW,HSZ
+52.0927,5.1158,NL,UT
+25.0389,121.509,TW,TPE
+47.6836,-122.122,US,WA
+24.1403,120.682,TW,TXG
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+26.1405,-80.1738,US,FL
+</code></pre>
+
+<p>yuck. Let&rsquo;s prettify it.</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv | column -t -s,
+LATITUDE  LONGITUDE  CC  REGION
+24.7798   120.93     TW  HSZ
+52.0927   5.1158     NL  UT
+25.0389   121.509    TW  TPE
+47.6836   -122.122   US  WA
+24.1403   120.682    TW  TXG
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+26.1405   -80.1738   US  FL
+</code></pre>
+
+<p>ohh, my world just changed!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/09/10/pretty-json" class="post-title">Pretty json</a>
+            </header>
+
+            <div class="post-description">
+              <p>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:</p>
+
+<pre><code class="language-ruby">ruby -rjson -ropen-uri -rawesome_print -e &quot;ap JSON.load(open('http://jsonip.com/'))&quot;
+</code></pre>
+
+<pre><code class="language-ruby">{
+       &quot;ip&quot; =&gt; &quot;59.115.120.166&quot;,
+    &quot;about&quot; =&gt; &quot;/about&quot;,
+     &quot;Pro!&quot; =&gt; &quot;http://getjsonip.com&quot;
+}
+</code></pre>
+
+<p>because when you are rubyist everything can be solve with ruby, obviously.</p>
+
+<p>But well, then one day I did</p>
+
+<pre><code>pip install pjson
+</code></pre>
+
+<p>and then</p>
+
+<pre><code class="language-ruby">curl -s http://jsonip.com | pjson
+</code></pre>
+
+<pre><code class="language-json">{
+  &quot;Pro!&quot;: &quot;http://getjsonip.com&quot;,
+  &quot;about&quot;: &quot;/about&quot;,
+  &quot;ip&quot;: &quot;59.115.120.166&quot;
+}
+</code></pre>
+
+<p>Faster, easier, happier.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-07-11
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/07/11/tree-command" class="post-title">Tree command</a>
+            </header>
+
+            <div class="post-description">
+              <p>There is a shell tool that I install systematically on any new machine/server, it&rsquo;s <code>tree</code>.</p>
+
+<pre><code>apt-get install tree
+</code></pre>
+
+<p>or</p>
+
+<pre><code>brew install tree
+</code></pre>
+
+<p>Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to <code>find</code> sometimes. But I mostly use it for having a quick overview of the content of a dir.</p>
+
+<pre><code>mose@momac &gt; ~ &gt; tree projects/lolita
+projects/lolita
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── config.default.yml
+├── config.yml
+├── lita-faria
+│   ├── Gemfile
+│   ├── LICENSE
+│   ├── README.md
+│   ├── Rakefile
+│   ├── lib 
+│   │   ├── lita
+│   │   │   └── handlers
+│   │   │       └── faria.rb
+│   │   └── lita-faria.rb
+│   ├── lita-faria.gemspec
+│   └── spec
+│       ├── lita
+│       │   └── handlers
+│       │       └── faria_spec.rb
+│       └── spec_helper.rb
+├── lita_config.rb
+├── log 
+└── tmp 
+
+9 directories, 15 files
+</code></pre>
+
+<p>Some options:</p>
+
+<pre><code>mose@momac &gt; ~ &gt; tree projects/lolita -hfih -I 'spec|lib' --du
+projects/lolita
+[ 164]  projects/lolita/Gemfile
+[1.2K]  projects/lolita/Gemfile.lock
+[1.2K]  projects/lolita/README.md
+[ 177]  projects/lolita/config.default.yml
+[ 222]  projects/lolita/config.yml
+[2.6K]  projects/lolita/lita-faria
+[  39]  projects/lolita/lita-faria/Gemfile
+[1.0K]  projects/lolita/lita-faria/LICENSE
+[ 357]  projects/lolita/lita-faria/README.md
+[ 117]  projects/lolita/lita-faria/Rakefile
+[ 769]  projects/lolita/lita-faria/lita-faria.gemspec
+[1.2K]  projects/lolita/lita_config.rb
+[ 102]  projects/lolita/log
+[ 102]  projects/lolita/tmp
+
+ 7.4K used in 3 directories, 11 files
+</code></pre>
+
+<p><code>man tree</code> for more (but the basic tree view is the real deal, for more detailled listings, <code>find</code> is better).</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-07-04
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a><a class="post-tags post-tags-sql" href="http://localhost:1313/mobla//tags/sql">sql</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/07/04/sql-in-a-shell" class="post-title">SQL in a shell</a>
+            </header>
+
+            <div class="post-description">
+              <p>There is a package that is not installed by default that I now grab systematically, it&rsquo;s called <code>parallel</code>.</p>
+
+<pre><code>apt-get install parallel
+</code></pre>
+
+<p>or on mac</p>
+
+<pre><code>brew install parallel
+</code></pre>
+
+<p>The <code>parallel</code> command is a pretty complex beast, but the package also comes with the <code>sql</code> command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.</p>
+
+<p>I first setup my dburl in <code>.sql/aliases</code> as:</p>
+
+<pre><code>:dbmb mysql:///managebac
+:dboa mysql:///openapply
+:dbis psql://isis:password@localhost/intersis
+</code></pre>
+
+<p>And I can then use those aliases for quick sql commands:</p>
+
+<pre><code>sql :dbmb &quot;select count(*) from users&quot;
+sql --show-processlist :dbis
+</code></pre>
+
+<p>Check <a href="http://www.gnu.org/software/parallel/sql.html">http://www.gnu.org/software/parallel/sql.html</a> for more examples of use. Also check <a href="http://www.gnu.org/software/parallel/package">http://www.gnu.org/software/parallel/package</a> it&rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-06-19
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/06/19/less-first" class="post-title">Less first</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>When working on a remote server, I use <code>less</code> instead of <code>tail</code> or <code>vi</code> to check files, the more I can.</p>
+
+<h2 id="filter:3480f0a86761ef50d1ed36f6b3b46e94">filter</h2>
+
+<ul>
+<li>with <code>&amp;searchstring</code> it will hide all lines not matching searchstring, like a very simple grep from the console</li>
+<li>just <code>&amp;</code> with nothing to get back to full view</li>
+</ul>
+
+<h2 id="edit-file:3480f0a86761ef50d1ed36f6b3b46e94">edit file</h2>
+
+<ul>
+<li>when in <code>less /etc/hosts</code> if I find out I need to edit it I just type <code>v</code> it opens it in vi</li>
+<li>when you quit the editor you are back in less</li>
+</ul>
+
+<h2 id="follow-mode:3480f0a86761ef50d1ed36f6b3b46e94">follow mode</h2>
+
+<ul>
+<li>when in <code>less production.log</code>, if you want to follow incoming changes type <code>F</code> it will become like a <code>tail -f</code> but it keeps the syntax highlighting that was made with a <code>/</code> search - when in follow mode with <code>F</code> you can <code>ctrl-c</code> any time and examine the new stuff</li>
+<li>note that if you are in filter mode the follow respects it (like if you did a <code>grep something/var/log/auth.log | grep 'Invalid user'</code>)</li>
+</ul>
+
+<h2 id="multifiles:3480f0a86761ef50d1ed36f6b3b46e94">multifiles</h2>
+
+<ul>
+<li>you can open several file and navigate like in vim with <code>:n</code> and <code>:p</code></li>
+<li>when less is open you can open a new file with <code>:e</code></li>
+</ul>
+
+<h2 id="call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94">call options inside less</h2>
+
+<ul>
+<li>you can call any launch option from inside less, one I use often is <code>-S</code> that will enable/disable wrapping of long lines, very useful when parsing web server log files</li>
+<li>to disable/enable search highlighting just <code>-G</code></li>
+<li>any other launch option can be called from inside less, pretty convenient</li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-22
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://localhost:1313/mobla//tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/22/hackpad-cli" class="post-title">Hackpad cli</a>
+            </header>
+
+            <div class="post-description">
+              <p>In Faria we use hackpad a lot, it&rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.</p>
+
+<ul>
+<li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a><a class="post-tags post-tags-ssh" href="http://localhost:1313/mobla//tags/ssh">ssh</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/01/ssh-to-socket" class="post-title">SSH to socket</a>
+            </header>
+
+            <div class="post-description">
+              <p>I use a special trick because he&rsquo;s often ssh&rsquo;ing all over the place. Add in your <code>.ssh/config</code></p>
+
+<pre><code>Host *
+  ControlMaster auto
+  ControlPath /tmp/%r@%h:%p
+</code></pre>
+
+<p>It will save your first connection to a host as a socket in <code>/tmp</code> and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.</p>
+
+            </div>
+          </section>
+        
+      </div>
+      
+
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://localhost:1313/mobla//js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

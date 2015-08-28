@@ -1,0 +1,25 @@
+---
+baseurl: http://mose.github.io/mobla
+languageCode: en-us
+title: Mose Bla
+theme: hugo-theme-puremose
+metaDataFormat: yaml
+verbose: true
+canonifyurls: true
+params:
+  description: Personal rants from Mose.
+  keywords: "mose, geek, french, taiwan"
+  github: mose
+  twitter: mo5e
+  cloudinary:
+    prefix: http://res.cloudinary.com/mosepix/image/upload
+  share:
+    - facebook
+    - google-plus
+    - twitter
+taxomonies:
+  tag: tags
+  origin: origins
+  category: categories
+permalinks:
+  post: /:year/:month/:day/:title

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Console on Mose Bla</title>
+    <link>http://localhost:1313/mobla/tags/console/</link>
+    <description>Recent content in Console on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2014 12:10:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/mobla/tags/console/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Console columns</title>
+      <link>http://localhost:1313/mobla/2014/09/10/console-columns</link>
+      <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/09/10/console-columns</guid>
+      <description>&lt;p&gt;When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The &lt;code&gt;column&lt;/code&gt; command was recently brought to my attention by &lt;a href=&#34;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&#34;&gt;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&lt;/a&gt; and despite years of console life, godamn I was unaware of this simple tool.&lt;/p&gt;
+
+&lt;p&gt;It is very useful for displaying csv files in a readable way, for example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ head members_export_0bfc48c38f.csv
+LATITUDE,LONGITUDE,CC,REGION
+24.7798,120.93,TW,HSZ
+52.0927,5.1158,NL,UT
+25.0389,121.509,TW,TPE
+47.6836,-122.122,US,WA
+24.1403,120.682,TW,TXG
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+26.1405,-80.1738,US,FL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;yuck. Let&amp;rsquo;s prettify it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ head members_export_0bfc48c38f.csv | column -t -s,
+LATITUDE  LONGITUDE  CC  REGION
+24.7798   120.93     TW  HSZ
+52.0927   5.1158     NL  UT
+25.0389   121.509    TW  TPE
+47.6836   -122.122   US  WA
+24.1403   120.682    TW  TXG
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+26.1405   -80.1738   US  FL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ohh, my world just changed!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pretty json</title>
+      <link>http://localhost:1313/mobla/2014/09/10/pretty-json</link>
+      <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/09/10/pretty-json</guid>
+      <description>&lt;p&gt;JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;{
+       &amp;quot;ip&amp;quot; =&amp;gt; &amp;quot;59.115.120.166&amp;quot;,
+    &amp;quot;about&amp;quot; =&amp;gt; &amp;quot;/about&amp;quot;,
+     &amp;quot;Pro!&amp;quot; =&amp;gt; &amp;quot;http://getjsonip.com&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;because when you are rubyist everything can be solve with ruby, obviously.&lt;/p&gt;
+
+&lt;p&gt;But well, then one day I did&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install pjson
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;curl -s http://jsonip.com | pjson
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;Pro!&amp;quot;: &amp;quot;http://getjsonip.com&amp;quot;,
+  &amp;quot;about&amp;quot;: &amp;quot;/about&amp;quot;,
+  &amp;quot;ip&amp;quot;: &amp;quot;59.115.120.166&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Faster, easier, happier.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tree command</title>
+      <link>http://localhost:1313/mobla/2014/07/11/tree-command</link>
+      <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/07/11/tree-command</guid>
+      <description>&lt;p&gt;There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s &lt;code&gt;tree&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install tree
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install tree
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to &lt;code&gt;find&lt;/code&gt; sometimes. But I mostly use it for having a quick overview of the content of a dir.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mose@momac &amp;gt; ~ &amp;gt; tree projects/lolita
+projects/lolita
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── config.default.yml
+├── config.yml
+├── lita-faria
+│   ├── Gemfile
+│   ├── LICENSE
+│   ├── README.md
+│   ├── Rakefile
+│   ├── lib 
+│   │   ├── lita
+│   │   │   └── handlers
+│   │   │       └── faria.rb
+│   │   └── lita-faria.rb
+│   ├── lita-faria.gemspec
+│   └── spec
+│       ├── lita
+│       │   └── handlers
+│       │       └── faria_spec.rb
+│       └── spec_helper.rb
+├── lita_config.rb
+├── log 
+└── tmp 
+
+9 directories, 15 files
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Some options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mose@momac &amp;gt; ~ &amp;gt; tree projects/lolita -hfih -I &#39;spec|lib&#39; --du
+projects/lolita
+[ 164]  projects/lolita/Gemfile
+[1.2K]  projects/lolita/Gemfile.lock
+[1.2K]  projects/lolita/README.md
+[ 177]  projects/lolita/config.default.yml
+[ 222]  projects/lolita/config.yml
+[2.6K]  projects/lolita/lita-faria
+[  39]  projects/lolita/lita-faria/Gemfile
+[1.0K]  projects/lolita/lita-faria/LICENSE
+[ 357]  projects/lolita/lita-faria/README.md
+[ 117]  projects/lolita/lita-faria/Rakefile
+[ 769]  projects/lolita/lita-faria/lita-faria.gemspec
+[1.2K]  projects/lolita/lita_config.rb
+[ 102]  projects/lolita/log
+[ 102]  projects/lolita/tmp
+
+ 7.4K used in 3 directories, 11 files
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;man tree&lt;/code&gt; for more (but the basic tree view is the real deal, for more detailled listings, &lt;code&gt;find&lt;/code&gt; is better).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL in a shell</title>
+      <link>http://localhost:1313/mobla/2014/07/04/sql-in-a-shell</link>
+      <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/07/04/sql-in-a-shell</guid>
+      <description>&lt;p&gt;There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called &lt;code&gt;parallel&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install parallel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or on mac&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install parallel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;parallel&lt;/code&gt; command is a pretty complex beast, but the package also comes with the &lt;code&gt;sql&lt;/code&gt; command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.&lt;/p&gt;
+
+&lt;p&gt;I first setup my dburl in &lt;code&gt;.sql/aliases&lt;/code&gt; as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:dbmb mysql:///managebac
+:dboa mysql:///openapply
+:dbis psql://isis:password@localhost/intersis
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I can then use those aliases for quick sql commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sql :dbmb &amp;quot;select count(*) from users&amp;quot;
+sql --show-processlist :dbis
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check &lt;a href=&#34;http://www.gnu.org/software/parallel/sql.html&#34;&gt;http://www.gnu.org/software/parallel/sql.html&lt;/a&gt; for more examples of use. Also check &lt;a href=&#34;http://www.gnu.org/software/parallel/package&#34;&gt;http://www.gnu.org/software/parallel/package&lt;/a&gt; it&amp;rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Less first</title>
+      <link>http://localhost:1313/mobla/2014/06/19/less-first</link>
+      <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/06/19/less-first</guid>
+      <description>
+
+&lt;p&gt;When working on a remote server, I use &lt;code&gt;less&lt;/code&gt; instead of &lt;code&gt;tail&lt;/code&gt; or &lt;code&gt;vi&lt;/code&gt; to check files, the more I can.&lt;/p&gt;
+
+&lt;h2 id=&#34;filter:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;filter&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;with &lt;code&gt;&amp;amp;searchstring&lt;/code&gt; it will hide all lines not matching searchstring, like a very simple grep from the console&lt;/li&gt;
+&lt;li&gt;just &lt;code&gt;&amp;amp;&lt;/code&gt; with nothing to get back to full view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;edit-file:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;edit file&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;when in &lt;code&gt;less /etc/hosts&lt;/code&gt; if I find out I need to edit it I just type &lt;code&gt;v&lt;/code&gt; it opens it in vi&lt;/li&gt;
+&lt;li&gt;when you quit the editor you are back in less&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;follow-mode:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;follow mode&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;when in &lt;code&gt;less production.log&lt;/code&gt;, if you want to follow incoming changes type &lt;code&gt;F&lt;/code&gt; it will become like a &lt;code&gt;tail -f&lt;/code&gt; but it keeps the syntax highlighting that was made with a &lt;code&gt;/&lt;/code&gt; search - when in follow mode with &lt;code&gt;F&lt;/code&gt; you can &lt;code&gt;ctrl-c&lt;/code&gt; any time and examine the new stuff&lt;/li&gt;
+&lt;li&gt;note that if you are in filter mode the follow respects it (like if you did a &lt;code&gt;grep something/var/log/auth.log | grep &#39;Invalid user&#39;&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;multifiles:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;multifiles&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;you can open several file and navigate like in vim with &lt;code&gt;:n&lt;/code&gt; and &lt;code&gt;:p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;when less is open you can open a new file with &lt;code&gt;:e&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;call options inside less&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;you can call any launch option from inside less, one I use often is &lt;code&gt;-S&lt;/code&gt; that will enable/disable wrapping of long lines, very useful when parsing web server log files&lt;/li&gt;
+&lt;li&gt;to disable/enable search highlighting just &lt;code&gt;-G&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;any other launch option can be called from inside less, pretty convenient&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackpad cli</title>
+      <link>http://localhost:1313/mobla/2014/05/22/hackpad-cli</link>
+      <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/05/22/hackpad-cli</guid>
+      <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mose/hackpad-cli&#34;&gt;https://github.com/mose/hackpad-cli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SSH to socket</title>
+      <link>http://localhost:1313/mobla/2014/05/01/ssh-to-socket</link>
+      <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/05/01/ssh-to-socket</guid>
+      <description>&lt;p&gt;I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your &lt;code&gt;.ssh/config&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host *
+  ControlMaster auto
+  ControlPath /tmp/%r@%h:%p
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will save your first connection to a host as a socket in &lt;code&gt;/tmp&lt;/code&gt; and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

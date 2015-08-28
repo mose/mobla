@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL in a shell &middot; Mose Bla</title>
+
+  <meta name="description" content="">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="SQL in a shell &middot; Mose Bla">
+  <meta name="twitter:description" content="">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SQL in a shell &middot; Mose Bla">
+  <meta property="og:description" content="">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://localhost:1313/mobla//css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Mose Bla" href="http://localhost:1313/mobla//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://localhost:1313/mobla/">Mose Bla</a></h1>
+      <h2 class="brand-tagline">Personal rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://localhost:1313/mobla//index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        <h1 class="content-subhead">
+  2014-07-04
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a><a class="post-tags post-tags-sql" href="http://localhost:1313/mobla//tags/sql">sql</a>
+    
+    
+  </p>
+</h1>
+
+
+        <section class="post">
+          
+<div class="post-share">
+  <div class="post-share-links">
+
+
+    <a href="#" data-type="facebook" data-url="http://localhost:1313/mobla/2014/07/04/sql-in-a-shell" data-title="SQL in a shell" data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+    <a href="#" data-type="googleplus" data-url="http://localhost:1313/mobla/2014/07/04/sql-in-a-shell" data-description="" class="prettySocial fa fa-google-plus"></a>
+
+    <a href="#" data-type="twitter" data-url="http://localhost:1313/mobla/2014/07/04/sql-in-a-shell" data-description="" data-via="mo5e" class="prettySocial fa fa-twitter"></a>
+
+    
+  </div>
+</div>
+
+
+          
+          <header class="post-header">
+            <a href="http://localhost:1313/mobla/2014/07/04/sql-in-a-shell" class="post-title">SQL in a shell</a>
+          </header>
+
+          <div class="post-description">
+            <p>There is a package that is not installed by default that I now grab systematically, it&rsquo;s called <code>parallel</code>.</p>
+
+<pre><code>apt-get install parallel
+</code></pre>
+
+<p>or on mac</p>
+
+<pre><code>brew install parallel
+</code></pre>
+
+<p>The <code>parallel</code> command is a pretty complex beast, but the package also comes with the <code>sql</code> command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.</p>
+
+<p>I first setup my dburl in <code>.sql/aliases</code> as:</p>
+
+<pre><code>:dbmb mysql:///managebac
+:dboa mysql:///openapply
+:dbis psql://isis:password@localhost/intersis
+</code></pre>
+
+<p>And I can then use those aliases for quick sql commands:</p>
+
+<pre><code>sql :dbmb &quot;select count(*) from users&quot;
+sql --show-processlist :dbis
+</code></pre>
+
+<p>Check <a href="http://www.gnu.org/software/parallel/sql.html">http://www.gnu.org/software/parallel/sql.html</a> for more examples of use. Also check <a href="http://www.gnu.org/software/parallel/package">http://www.gnu.org/software/parallel/package</a> it&rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.</p>
+
+          </div>
+          
+        </section>
+      </div>
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://localhost:1313/mobla//js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

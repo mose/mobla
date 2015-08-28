@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Moselog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://log.mose.com/post/</link>
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Aug 2015 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://log.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Moving to Hugo</title>
-      <link>http://localhost:1313/2015/08/28/moving-to-hugo</link>
+      <link>http://log.mose.com/2015/08/28/moving-to-hugo</link>
       <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/28/moving-to-hugo</guid>
+      <guid>http://log.mose.com/2015/08/28/moving-to-hugo</guid>
       <description>&lt;p&gt;As I love website pre-generation concept I have been using &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; and &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; quite a lot. But now I wanted to give a try to &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I wanted to see how it was made. Then I had a period of time where I was publishing tips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt; newsletter.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Console columns</title>
-      <link>http://localhost:1313/2014/09/10/console-columns</link>
+      <link>http://log.mose.com/2014/09/10/console-columns</link>
       <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/09/10/console-columns</guid>
+      <guid>http://log.mose.com/2014/09/10/console-columns</guid>
       <description>&lt;p&gt;When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The &lt;code&gt;column&lt;/code&gt; command was recently brought to my attention by &lt;a href=&#34;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&#34;&gt;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&lt;/a&gt; and despite years of console life, godamn I was unaware of this simple tool.&lt;/p&gt;
 
 &lt;p&gt;It is very useful for displaying csv files in a readable way, for example:&lt;/p&gt;
@@ -69,10 +69,10 @@ LATITUDE  LONGITUDE  CC  REGION
     
     <item>
       <title>Pretty json</title>
-      <link>http://localhost:1313/2014/09/10/pretty-json</link>
+      <link>http://log.mose.com/2014/09/10/pretty-json</link>
       <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/09/10/pretty-json</guid>
+      <guid>http://log.mose.com/2014/09/10/pretty-json</guid>
       <description>&lt;p&gt;JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;
@@ -110,10 +110,10 @@ LATITUDE  LONGITUDE  CC  REGION
     
     <item>
       <title>Digitalocean CLI</title>
-      <link>http://localhost:1313/2014/08/07/digitalocean-cli</link>
+      <link>http://log.mose.com/2014/08/07/digitalocean-cli</link>
       <pubDate>Thu, 07 Aug 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/08/07/digitalocean-cli</guid>
+      <guid>http://log.mose.com/2014/08/07/digitalocean-cli</guid>
       <description>&lt;p&gt;We host some dev boxes on Digitalocean, and I tried varioous CLI because I like to stay in the console. Recently I was pretty happy to find Tugboat, as it saves default droplet size, region and image, and convers the whole API. Its fuzzy droplet name matching also can find great usage.&lt;/p&gt;
 
 &lt;p&gt;The only problem it has, is its counter-intuitive damn name (I forgot how to launch it 2 hours after using it the first time haha).&lt;/p&gt;
@@ -130,10 +130,10 @@ LATITUDE  LONGITUDE  CC  REGION
     
     <item>
       <title>Tree command</title>
-      <link>http://localhost:1313/2014/07/11/tree-command</link>
+      <link>http://log.mose.com/2014/07/11/tree-command</link>
       <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/07/11/tree-command</guid>
+      <guid>http://log.mose.com/2014/07/11/tree-command</guid>
       <description>&lt;p&gt;There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s &lt;code&gt;tree&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;apt-get install tree
@@ -204,10 +204,10 @@ projects/lolita
     
     <item>
       <title>SQL in a shell</title>
-      <link>http://localhost:1313/2014/07/04/sql-in-a-shell</link>
+      <link>http://log.mose.com/2014/07/04/sql-in-a-shell</link>
       <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/07/04/sql-in-a-shell</guid>
+      <guid>http://log.mose.com/2014/07/04/sql-in-a-shell</guid>
       <description>&lt;p&gt;There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called &lt;code&gt;parallel&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;apt-get install parallel
@@ -239,10 +239,10 @@ sql --show-processlist :dbis
     
     <item>
       <title>Knife remote command</title>
-      <link>http://localhost:1313/2014/06/26/knife-remote-command</link>
+      <link>http://log.mose.com/2014/06/26/knife-remote-command</link>
       <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/26/knife-remote-command</guid>
+      <guid>http://log.mose.com/2014/06/26/knife-remote-command</guid>
       <description>&lt;p&gt;Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the &lt;code&gt;fabric&lt;/code&gt; scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.&lt;/p&gt;
 
 &lt;p&gt;So I created a new file in &lt;code&gt;.chef/plugins/knife/&lt;/code&gt; named &lt;code&gt;apt.rb&lt;/code&gt; for a test:&lt;/p&gt;
@@ -304,10 +304,10 @@ end
     
     <item>
       <title>Less first</title>
-      <link>http://localhost:1313/2014/06/19/less-first</link>
+      <link>http://log.mose.com/2014/06/19/less-first</link>
       <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/19/less-first</guid>
+      <guid>http://log.mose.com/2014/06/19/less-first</guid>
       <description>
 
 &lt;p&gt;When working on a remote server, I use &lt;code&gt;less&lt;/code&gt; instead of &lt;code&gt;tail&lt;/code&gt; or &lt;code&gt;vi&lt;/code&gt; to check files, the more I can.&lt;/p&gt;
@@ -352,10 +352,10 @@ end
     
     <item>
       <title>S3 backups</title>
-      <link>http://localhost:1313/2014/06/12/s3-backups</link>
+      <link>http://log.mose.com/2014/06/12/s3-backups</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/12/s3-backups</guid>
+      <guid>http://log.mose.com/2014/06/12/s3-backups</guid>
       <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
 
 &lt;ul&gt;
@@ -445,10 +445,10 @@ done
     
     <item>
       <title>Make a gem</title>
-      <link>http://localhost:1313/2014/06/04/make-a-gem</link>
+      <link>http://log.mose.com/2014/06/04/make-a-gem</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/04/make-a-gem</guid>
+      <guid>http://log.mose.com/2014/06/04/make-a-gem</guid>
       <description>
 
 &lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
@@ -499,10 +499,10 @@ chmod 0600 ~/.gem/credentials
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://localhost:1313/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://log.mose.com/2014/05/27/gem-reverse-dependencies</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/27/gem-reverse-dependencies</guid>
+      <guid>http://log.mose.com/2014/05/27/gem-reverse-dependencies</guid>
       <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
@@ -548,10 +548,10 @@ devise:  422
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://localhost:1313/2014/05/22/hackpad-cli</link>
+      <link>http://log.mose.com/2014/05/22/hackpad-cli</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/22/hackpad-cli</guid>
+      <guid>http://log.mose.com/2014/05/22/hackpad-cli</guid>
       <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -562,10 +562,10 @@ devise:  422
     
     <item>
       <title>Eddie Vim and rcfiles</title>
-      <link>http://localhost:1313/2014/05/15/eddie-vim-and-rcfiles</link>
+      <link>http://log.mose.com/2014/05/15/eddie-vim-and-rcfiles</link>
       <pubDate>Thu, 15 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/15/eddie-vim-and-rcfiles</guid>
+      <guid>http://log.mose.com/2014/05/15/eddie-vim-and-rcfiles</guid>
       <description>&lt;p&gt;Mose sometimes uses vim on the side of ST3, and can&amp;rsquo;t do it without the pretty good eddie kao set of config files.&lt;/p&gt;
 
 &lt;p&gt;Check it out at &lt;a href=&#34;https://github.com/kaochenlong/eddie-vim&#34;&gt;https://github.com/kaochenlong/eddie-vim&lt;/a&gt; it&amp;rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo &lt;a href=&#34;https://github.com/mose/rcfiles&#34;&gt;https://github.com/mose/rcfiles&lt;/a&gt; with an installer that I runs when I install a new server.&lt;/p&gt;
@@ -574,10 +574,10 @@ devise:  422
     
     <item>
       <title>Dictionnary in sublimetext</title>
-      <link>http://localhost:1313/2014/05/08/dictionnary-in-sublimetext</link>
+      <link>http://log.mose.com/2014/05/08/dictionnary-in-sublimetext</link>
       <pubDate>Thu, 08 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/08/dictionnary-in-sublimetext</guid>
+      <guid>http://log.mose.com/2014/05/08/dictionnary-in-sublimetext</guid>
       <description>&lt;p&gt;I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to &lt;code&gt;cmd-shift-p&lt;/code&gt; and install a package called &lt;code&gt;Dictionnaries&lt;/code&gt;. Then by hitting &lt;code&gt;F6&lt;/code&gt; you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&amp;rsquo;t you ?).&lt;/p&gt;
 
 &lt;p&gt;The spellcheck auto-highlight can be enabled for specific file extensions (like .md files) by adding&lt;/p&gt;
@@ -591,10 +591,10 @@ devise:  422
     
     <item>
       <title>SSH to socket</title>
-      <link>http://localhost:1313/2014/05/01/ssh-to-socket</link>
+      <link>http://log.mose.com/2014/05/01/ssh-to-socket</link>
       <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/01/ssh-to-socket</guid>
+      <guid>http://log.mose.com/2014/05/01/ssh-to-socket</guid>
       <description>&lt;p&gt;I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your &lt;code&gt;.ssh/config&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host *

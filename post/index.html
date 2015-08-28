@@ -87,6 +87,36 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-08-28
+  <p class="post-meta">
+    
+    
+    
+      <a class="post-tags post-tags-hugo" href="http://mose.github.io/mobla/tags/hugo">hugo</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://mose.github.io/mobla/2015/08/28/moving-to-hugo" class="post-title">Moving to Hugo</a>
+            </header>
+
+            <div class="post-description">
+              <p>As I love website pre-generation concept I have been using <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://octopress.org">Octopress</a> quite a lot. But now I wanted to give a try to <a href="http://gohugo.io">Hugo</a>.</p>
+
+<p>Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I waanted to see how it was made. Then I had a period of time where I was publishing toips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the <a href="http://greenruby.org">Greenruby</a> newletter.</p>
+
+<p>Only the last on is still active, so I will crosspost things from there to here, whichg should not be too hard as they are both markdown.</p>
+
+<p>The first impression of Hugo is that there are still a lot of small weird things. But in some ways, I&rsquo;m kind of happy about it, I guess I will try to fix some of those, that will be an occasion to play a little with golang.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-08-23
   <p class="post-meta">
     
@@ -664,77 +694,6 @@ done
 [2014/06/10 07:00:25][info] After Hook Starting...
 [2014/06/10 07:00:25][info] After Hook Finished.
 </code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-04
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://mose.github.io/mobla/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://mose.github.io/mobla/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://mose.github.io/mobla/tags/rubygems">rubygems</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://mose.github.io/mobla/2014/06/04/make-a-gem" class="post-title">Make a gem</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<p>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:</p>
-
-<h2 id="make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e">Make a Rubygems account</h2>
-
-<ul>
-<li>first ensure create an ccount on <a href="https://rubygems.org/">https://rubygems.org/</a></li>
-<li>initialize your credentials:</li>
-</ul>
-
-<pre><code>curl -u username https://rubygems.org/api/v1/api_key.yaml &gt; ~/.gem/credentials
-Enter host password for user 'username':
-
-chmod 0600 ~/.gem/credentials
-</code></pre>
-
-<h2 id="prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e">Prepare the code</h2>
-
-<p>These steps are my typical path, nothing is really mandatory there.</p>
-
-<ul>
-<li>create a repo at github (or wherever you want)</li>
-<li>create a base gem skeleton <code>bundle gem mycoolgem</code></li>
-<li>update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information</li>
-<li>create a CHANGELOG.md because when you publish something you need a clear log of your version changes</li>
-<li>enable the tracking on <a href="https://codeclimate.com/">codeclimate</a>, <a href="https://travis-ci.org/">travis</a>, <a href="https://coveralls.io/">coveralls</a>, <a href="https://gemnasium.com">gemnasium</a></li>
-<li>add badges from <a href="http://shields.io">http://shields.io</a> in the README.md because it helps to qualify the state of the code quickly</li>
-<li>when the gem code don&rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with <code>spec.version  = File.read(File.expand_path('../CHANGELOG.md', __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]</code>
-(so then when I version bump there is only one file to edit)</li>
-<li>write the code (or copy it from the private app you extract it from)</li>
-<li>add a spec/ or test/ dir and write some tests and try to reach a decent coverage</li>
-</ul>
-
-<h2 id="release-it:a6c8c79e924ce88903bef7ff7392e41e">Release it</h2>
-
-<ul>
-<li>add the date in the changelog for the current version</li>
-<li><code>rake release</code></li>
-<li>bump the version to the next increment in the changelog (and version file if any)</li>
-</ul>
-
-<p>Overall with the initial bundle command and the final rake task for release, it&rsquo;s pretty straightforward.</p>
-
-<p>Also check <a href="http://guides.rubygems.org/make-your-own-gem/">http://guides.rubygems.org/make-your-own-gem/</a></p>
 
             </div>
           </section>

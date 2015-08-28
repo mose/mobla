@@ -6,8 +6,24 @@
     <description>Recent content in Hugo on Mose Bla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2015 09:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2015 09:10:31 +0800</lastBuildDate>
     <atom:link href="http://mose.github.io/mobla/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Moving to Hugo</title>
+      <link>http://mose.github.io/mobla/2015/08/28/moving-to-hugo</link>
+      <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2015/08/28/moving-to-hugo</guid>
+      <description>&lt;p&gt;As I love website pre-generation concept I have been using &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; and &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; quite a lot. But now I wanted to give a try to &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I waanted to see how it was made. Then I had a period of time where I was publishing toips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt; newletter.&lt;/p&gt;
+
+&lt;p&gt;Only the last on is still active, so I will crosspost things from there to here, whichg should not be too hard as they are both markdown.&lt;/p&gt;
+
+&lt;p&gt;The first impression of Hugo is that there are still a lot of small weird things. But in some ways, I&amp;rsquo;m kind of happy about it, I guess I will try to fix some of those, that will be an occasion to play a little with golang.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo experiment</title>

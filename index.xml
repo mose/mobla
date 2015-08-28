@@ -6,8 +6,24 @@
     <description>Recent content on Mose Bla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2015 09:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2015 09:10:31 +0800</lastBuildDate>
     <atom:link href="http://mose.github.io/mobla/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Moving to Hugo</title>
+      <link>http://mose.github.io/mobla/2015/08/28/moving-to-hugo</link>
+      <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
+      
+      <guid>http://mose.github.io/mobla/2015/08/28/moving-to-hugo</guid>
+      <description>&lt;p&gt;As I love website pre-generation concept I have been using &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; and &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; quite a lot. But now I wanted to give a try to &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I waanted to see how it was made. Then I had a period of time where I was publishing toips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt; newletter.&lt;/p&gt;
+
+&lt;p&gt;Only the last on is still active, so I will crosspost things from there to here, whichg should not be too hard as they are both markdown.&lt;/p&gt;
+
+&lt;p&gt;The first impression of Hugo is that there are still a lot of small weird things. But in some ways, I&amp;rsquo;m kind of happy about it, I guess I will try to fix some of those, that will be an occasion to play a little with golang.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo experiment</title>
@@ -584,23 +600,6 @@ devise:  422
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;in &lt;code&gt;preferences &amp;gt; Settings - more &amp;gt; Syntax specific - user&lt;/code&gt; (while having a markdown page open)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SSH to socket</title>
-      <link>http://mose.github.io/mobla/2014/05/01/ssh-to-socket</link>
-      <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://mose.github.io/mobla/2014/05/01/ssh-to-socket</guid>
-      <description>&lt;p&gt;I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your &lt;code&gt;.ssh/config&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Host *
-  ControlMaster auto
-  ControlPath /tmp/%r@%h:%p
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It will save your first connection to a host as a socket in &lt;code&gt;/tmp&lt;/code&gt; and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.&lt;/p&gt;
 </description>
     </item>
     

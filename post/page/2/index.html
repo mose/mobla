@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts &middot; Mose Bla</title>
+
+  <meta name="description" content="Personal rants from Mose.">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Posts &middot; Mose Bla">
+  <meta name="twitter:description" content="Personal rants from Mose.">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Posts &middot; Mose Bla">
+  <meta property="og:description" content="Personal rants from Mose.">
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://localhost:1313/mobla//css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Mose Bla" href="http://localhost:1313/mobla//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://localhost:1313/mobla/">Mose Bla</a></h1>
+      <h2 class="brand-tagline">Personal rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://localhost:1313/mobla//index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+    
+    <a href="http://localhost:1313/mobla/post/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+      <i class="fa fa-hand-o-left"></i>&nbsp;Newer
+    </a>
+    
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 3</span>
+    
+    <a href="http://localhost:1313/mobla/post/page/3/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+      Older&nbsp;<i class="fa fa-hand-o-right"></i>
+    </a>
+    
+  </nav>
+</div>
+
+
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        
+          <h1 class="content-subhead">
+  2014-05-27
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://localhost:1313/mobla//tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://localhost:1313/mobla//tags/rubygems">rubygems</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/27/gem-reverse-dependencies" class="post-title">Gem reverse dependencies</a>
+            </header>
+
+            <div class="post-description">
+              <p>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).</p>
+
+<pre><code class="language-ruby">ruby -ropen-uri -rpp -ryaml \
+     -e 'pp YAML.load(open(&quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&quot;))'
+
+[&quot;metric_fu&quot;,
+ &quot;flyerhzm-metric_fu&quot;,
+ &quot;edouard-metric_fu&quot;,
+ &quot;devver-metric_fu&quot;,
+ &quot;goldstar-metric_fu&quot;,
+ &quot;socializer&quot;,
+ &quot;trollface&quot;,
+ &quot;guard-rails_best_practices&quot;,
+ &quot;rferraz-metric_fu&quot;,
+ &quot;git-hooks-helper&quot;,
+ &quot;odor&quot;,
+ &quot;rake_check&quot;,
+ &quot;koality&quot;,
+ &quot;danmayer-metric_fu&quot;,
+ &quot;bf4-metric_fu&quot;,
+ &quot;metrics_satellite&quot;,
+ &quot;code_hunter&quot;,
+ &quot;kinit&quot;,
+ &quot;rails-audit&quot;,
+ &quot;pronto-rails_best_practices&quot;,
+ &quot;free_disk_space&quot;,
+ &quot;warder&quot;,
+ &quot;ruby_osx_app&quot;,
+ &quot;sanelint&quot;]
+</code></pre>
+
+<p>Out of curiosity I counted some wellknown gems usages by adding a <code>.count</code> at the end:</p>
+
+<pre><code>rake:    23766
+rails:   6283
+thor:    2786
+pry:     2870
+sinatra: 1964
+devise:  422 
+</code></pre>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-22
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://localhost:1313/mobla//tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/22/hackpad-cli" class="post-title">Hackpad cli</a>
+            </header>
+
+            <div class="post-description">
+              <p>In Faria we use hackpad a lot, it&rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.</p>
+
+<ul>
+<li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-15
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-vim" href="http://localhost:1313/mobla//tags/vim">vim</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/15/eddie-vim-and-rcfiles" class="post-title">Eddie Vim and rcfiles</a>
+            </header>
+
+            <div class="post-description">
+              <p>Mose sometimes uses vim on the side of ST3, and can&rsquo;t do it without the pretty good eddie kao set of config files.</p>
+
+<p>Check it out at <a href="https://github.com/kaochenlong/eddie-vim">https://github.com/kaochenlong/eddie-vim</a> it&rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo <a href="https://github.com/mose/rcfiles">https://github.com/mose/rcfiles</a> with an installer that I runs when I install a new server.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-sublimetext" href="http://localhost:1313/mobla//tags/sublimetext">sublimetext</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/08/dictionnary-in-sublimetext" class="post-title">Dictionnary in sublimetext</a>
+            </header>
+
+            <div class="post-description">
+              <p>I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to <code>cmd-shift-p</code> and install a package called <code>Dictionnaries</code>. Then by hitting <code>F6</code> you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&rsquo;t you ?).</p>
+
+<p>The spellcheck auto-highlight can be enabled for specific file extensions (like .md files) by adding</p>
+
+<pre><code>&quot;spell_check&quot;: true
+</code></pre>
+
+<p>in <code>preferences &gt; Settings - more &gt; Syntax specific - user</code> (while having a markdown page open)</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/faria-devtips">faria devtips</a>
+    
+    
+      <a class="post-tags post-tags-console" href="http://localhost:1313/mobla//tags/console">console</a><a class="post-tags post-tags-ssh" href="http://localhost:1313/mobla//tags/ssh">ssh</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2014/05/01/ssh-to-socket" class="post-title">SSH to socket</a>
+            </header>
+
+            <div class="post-description">
+              <p>I use a special trick because he&rsquo;s often ssh&rsquo;ing all over the place. Add in your <code>.ssh/config</code></p>
+
+<pre><code>Host *
+  ControlMaster auto
+  ControlPath /tmp/%r@%h:%p
+</code></pre>
+
+<p>It will save your first connection to a host as a socket in <code>/tmp</code> and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2013-04-07
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-greenruby" href="http://localhost:1313/mobla//tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2013/04/07/about-green-ruby" class="post-title">About Green Ruby</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p><a href="http://greenruby.org/">Green Ruby</a> is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.</p>
+
+<h2 id="genesis:1c34dfda6e65228c3dbbf6fb2d30812e">Genesis</h2>
+
+<p>The Newsletter began in june 2012 from the habit I had to send weekly newsletter in <a href="http://codegreenit.com/">Codegreen</a> for our team to know what is happening in our company,. That was purely a teamwork tool for general transparency. But with time passing I also included there some links to what I was finding around that would be of interest for my geek colleagues.</p>
+
+<p>That CodeGreen Internal newsletter began to be cluttered with various links at the bottom of it. So I decided to separate that links gathering bunch in another newsletter. But then it could also be useful for my friends, out of the scope of our team.</p>
+
+<h2 id="green-birth:1c34dfda6e65228c3dbbf6fb2d30812e">Green Birth</h2>
+
+<p>At that time I had to test <a href="http://mailchimp.com/">Mailchimp</a> service for one of our projects, so because they offer a free package when volume is not too big, I thought I should just create that newsletter as a public freely available publication.</p>
+
+<p>So in february 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well, mostly our team :) Then it became a weekly habit, so I got a domain name for it, and organically it’s growing slowly.</p>
+
+<h2 id="the-redactor-gear:1c34dfda6e65228c3dbbf6fb2d30812e">The redactor gear</h2>
+
+<p>Codegreen paid for my <a href="http://newsblur.com/">Newsblur</a> account so I can follow a bunch of feeds. Google reader was my first tool but well, they are closing, and actually Newsblur is much better. It’s open source and the guy that makes it does a great job (too bad it’s in python and not in ruby).</p>
+
+<p>I’m also loading a bunch of podcasts on my phone and after having tried a lot of podcast softwares I’m really happy with <a href="http://www.podkicker.com/">Podkicker</a>, it’s just very convenient and it has all I need with the free version. So in my 40 minutes commuting to go to work, I just get the ears busy. I tried to use <a href="https://gpodder.net/user/mose">Gpodder</a> but it’s not totally perfect and the support in podcast clients is not as good as it should be. So I don’t stick on it, maybe it will evolve and I will get back to it.</p>
+
+<p>But I also get a lot of news by just wandering around on <a href="https://geekli.st/">Geekli.st</a>, on <a href="https://coderbits.com/">Coderbits</a>, hacker news, and I subscribed to a bunch of various newsletters. I also watch teh new gems feeds from <a href="https://twitter.com/RubyGemsAlt">@rubygems-alt</a> and I retweet stuff of interest on <a href="https://twitter.com/cogtw">@cogtw</a> account (those 2 are my alternate twitter identities).</p>
+
+<p>Each week <a href="https://github.com/tubaxenor">William</a> (aka xenor) also sends me a list of links. But I definitely don’t use any facebook feeds. For some reason, this is a place I avoid the most I can.</p>
+
+<h2 id="what-next:1c34dfda6e65228c3dbbf6fb2d30812e">What next ?</h2>
+
+<p>My ambition there is to keep it non-commercial, and change it to be more community driven. The preparation of the letter is eating a big part of my saturdays for the last 13 weeks and I don’t think I can keep up the same pace for long time.</p>
+
+<p>The idea I have about the community driven thing is by engineering some automation on the news gathering (to replace newsblur), have a place where the news can be triaged by various people, a little bit like it is on <a href="https://news.ycombinator.com/">Hacker News</a> with a vote system. But the gathering won’t limit to blog posts and rss feeds, there would also be podcasts and video feeds. There is now a lot of possibilities in automation on feeds aggregation. I worked on a project that already does that feeds aggregation, named “the Blux”. And I expect to replicate parts of it for my Green Ruby Engine.</p>
+
+<p>But also, as usual, this project is also an occasion to play with recent technologies or stuff I want to know more about, otherwise where is the fun ? So here comes <a href="http://emberjs.com/">Ember.js</a>, on the top of <a href="http://www.sinatrarb.com/">Sinatra</a> with <a href="http://www.mongodb.org/">mongoDB</a>, and there will be much more on the road (thinking about trying <a href="http://af83.github.io/sponges/">Sponges</a> too).</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2013-03-22
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-bbb" href="http://localhost:1313/mobla//tags/bbb">bbb</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-12.04" class="post-title">Install BigBlueButton in a VM on Ubuntu 12.04</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p><a href="http://bigbluebutton.org/">BigBlueButton</a> is an amazing piece of free software, designed for virtual classrooms but can also be used for webinars, conferences, technical support and other uses. It gathers in the same place a video-conference system, with a shared PDF on which the presenter can doodle, an SIP bridge that make people can join using a phone, and a deskshare java applet for showing others pieces of your screen. Pretty neat. It’s around since 2007 and I had occasion to play with it with the Tikiwiki community.</p>
+
+<p>And now I need to install one at <a href="http://codegreenit.com/">Codegreen</a> for our customer support and maybe some other uses. Great. I go for the last version 0.80 and it only works on ubuntu 10.04 (there are 25 different free software projects embedded in the beast, quite hard to maintain all on many versions, so they stick to the old one for now it seems).</p>
+
+<p>So I get a new server just for that, and I try the install of the old 10.04 image. But it fails miserably for some new SATA drivers reasons, despite the more recent 12.04 works fine, the 10.04 just can’t see the hard drive. Bummer. After some fight then I need to use the alternative install method, using the <a href="http://code.google.com/p/bigbluebutton/wiki/BigBlueButtonVM">VM image</a> that BBB provides for VMWare.</p>
+
+<h2 id="install-the-bbb-vm:84bb7b31097e7dff868fbef479daafb5">Install the BBB VM</h2>
+
+<p>I don’t really like VMWare but I go get the free player and install it. The VMWare server that I wanted is discontinued they now only offer the VMWare player which requires a GUI install. Very lame, but ok. I get the VMWare Player image from their site and I install it without problem (the .bundle that I download needs to be executed after a chmod +x). Then I get the BBB VM 0.80 and launch it in the VMWare Player and tadaaa, it just works out of the box, magic.</p>
+
+<p>Note that I installed it under my own account, no need for root with that thing.</p>
+
+<h2 id="setup-the-startup-launch:84bb7b31097e7dff868fbef479daafb5">Setup the startup launch</h2>
+
+<p>Because the Player is a GUI application, I looked around and found the way to launch it from commandline using the VIX (that is downloadable on the same page as the player and installable the same way). Then I can use vmrun to control the player, feels much better. I add in the /etc/rc.local of the host:</p>
+
+<pre><code>sudo -u mose /usr/bin/vmrun -T player start /home/mose/vmware/bigbluebutton-vm/bigbluebutton-vm.vmx nogui
+</code></pre>
+
+<h2 id="handling-the-routing:84bb7b31097e7dff868fbef479daafb5">Handling the routing</h2>
+
+<p>Here is the tricky part. The Player has 3 ways to handle th routing of the VM (which is very poor compared to the options provided by VirtualBox). and the bridge method was not working for me, because I have a static IP for the server on one card, a dhcp address on internal network on a second card, and the bridge option in VMWare don’t let you specify which interface is going to be bridged.</p>
+
+<p>BBB says that you should use bridge, so the VM has its own IP and is like a first class member of your network, but it seemed that the NAT option was possible as far as you redirect some ports. So I’m going that way.</p>
+
+<p>So I setup the NAT option for the VM, in the VM I fix the ip to 192.168.96.6 (that on the host I aliased to vm-bbb in /etc/hosts), and I add the subdomain I plan to use in the /etc/hosts of the VM (that way the VM bypass the DNS search and assumes that his own natted IP is matching the subdomain reachable from outside). Note that this etc-hosts trick will spit some errors at next step that needs to be run on the VM:</p>
+
+<pre><code>bbb-conf --setip bbb.mydomain.com
+</code></pre>
+
+<p>Then I need to redirect some ports, like the 22 for ssh access, the 80 for access to the main application, and some others that I have no clue what they are useful for (but I got it from some blog posts). So I install rinetd and add to /etc/rinetd.conf:</p>
+
+<pre><code>0.0.0.0 2222 vm-bbb 22
+0.0.0.0 80   vm-bbb 80
+0.0.0.0 1935 vm-bbb 1935
+0.0.0.0 9123 vm-bbb 9123
+</code></pre>
+
+<p>and all is good. It seems to work fine, and I probably will have to test it more, but besides the sysadmin setup, the install of BBB was pretty straightforward. Great job !</p>
+
+<h2 id="links:84bb7b31097e7dff868fbef479daafb5">Links</h2>
+
+<ul>
+<li>Get VMWare player and VIX : <a href="https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/5_0">https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/5_0</a></li>
+<li>BBB website : <a href="http://bigbluebutton.org">http://bigbluebutton.org</a></li>
+<li>BBB VM instructions : <a href="http://code.google.com/p/bigbluebutton/wiki/BigBlueButtonVM">http://code.google.com/p/bigbluebutton/wiki/BigBlueButtonVM</a></li>
+<li>BBB VM Download : <a href="http://sourceforge.net/projects/bigbluebutton/files/">http://sourceforge.net/projects/bigbluebutton/files/</a></li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2013-02-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-podcast" href="http://localhost:1313/mobla//tags/podcast">podcast</a><a class="post-tags post-tags-ruby" href="http://localhost:1313/mobla//tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2013/02/10/geeky-podcasts" class="post-title">Geeky podcasts</a>
+            </header>
+
+            <div class="post-description">
+              <p>Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.</p>
+
+<p>I began this when starting working with rails, because that was a great flow of information, that had various sources:</p>
+
+<ul>
+<li><a href="http://rubyrogues.com">http://rubyrogues.com</a></li>
+<li><a href="http://rubyshow.com">http://rubyshow.com</a></li>
+<li><a href="http://learn.thoughtbot.com/podcast">http://learn.thoughtbot.com/podcast</a></li>
+<li><a href="http://ruby5.envylabs.com">http://ruby5.envylabs.com</a></li>
+</ul>
+
+<p>All was good and then I checked out podcast clients for my environment (linux with ubuntu) and I found out <a href="http://gpodder.net">http://gpodder.net</a> which is exactly the kind of software I like. I does not much but what it does is well done. The website is a nice optional addition, only focused on podcasts and has a nice simple design and is free.</p>
+
+<pre><code>apt-get install gpodder
+</code></pre>
+
+<p>Then I discovered a few other podcasts for hackers, or oriented towards science and knowledge. And I removed the rss feed I had in my thunderbird for listening to some French-speaking radio shows (like la-bas si j&rsquo;y suis).</p>
+
+<p>The website makes possible to publish your subscription list, here is my list of very geeky selection:</p>
+
+<ul>
+<li><a href="https://gpodder.net/user/mose/subscriptions">https://gpodder.net/user/mose/subscriptions</a></li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2012-12-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://localhost:1313/mobla//tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2012/12/10/rubyconf-2012" class="post-title">RubyConf 2012</a>
+            </header>
+
+            <div class="post-description">
+              <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+
+
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/1-xenor" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/1-xenor" itemprop="thumbnail" alt="Xenor" /></a></figure>
+
+
+
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/2-talk" itemprop="contentUrl" data-size="800x1280"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/2-talk" itemprop="thumbnail" alt="Talks" /></a></figure>
+
+
+
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/3-restau" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/3-restau" itemprop="thumbnail" alt="At restaurant" /></a></figure>
+
+
+
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/4-benxenor" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/4-benxenor" itemprop="thumbnail" alt="Xenor and benjamin" /></a></figure>
+
+
+
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/5-conf" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/5-conf" itemprop="thumbnail" alt="Conference" /></a></figure>
+
+
+</div>
+
+
+<link rel="stylesheet" href="http://localhost:1313/mobla//css/photoswipe.css">
+<link rel="stylesheet" href="http://localhost:1313/mobla//css/photoswipe-skin/default-skin.css">
+<script src="http://localhost:1313/mobla//js/photoswipe.min.js"></script>
+<script src="http://localhost:1313/mobla//js/photoswipe-ui-default.min.js"></script>
+<script src="http://localhost:1313/mobla//js/initphotoswipe.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  initPhotoSwipeFromDOM('.gallery');
+</script>
+
+
+<p>Ruby Conf Taiwan 2012. Quite a great event.</p>
+
+<p><a href="http://rubyconf.tw/2012/">http://rubyconf.tw/2012/</a></p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2012-10-28
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://localhost:1313/mobla//origin/old-tumblr-site">old tumblr site</a>
+    
+    
+      <a class="post-tags post-tags-sublimetext" href="http://localhost:1313/mobla//tags/sublimetext">sublimetext</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/mobla/2012/10/28/sublimetext2-plugins-sshfs" class="post-title">Sublimetext2, plugins, sshfs</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.</p>
+
+<p>But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called <a href="http://www.sublimetext.com/2">sublimetext2</a>. And I have to say it just works fine for me (even if I will always keep my Vim not far). And I don’t feel any loss in control !</p>
+
+<p>Here are a few tuning that I made or got from friends that I want to keep in memory, so I figured I should post about it.</p>
+
+<h2 id="enable-plugins-manager:aeac908f260033eeab91183dfa6f1c81">Enable plugins manager</h2>
+
+<p>It’s not on by default and can be enable by copy-pasting this line into the console (view / console in the menu)</p>
+
+<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not  os.path.exists(ipp) else None;  urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print   'Please restart Sublime Text to finish installation'
+</code></pre>
+
+<p>Then just relaunch sublimetext and you can access the plugin manager using shift-ctrl-P and type ‘install’.</p>
+
+<p>There is a damn long list of plugins you can add there (a list is on <a href="http://wbond.net/sublime_packages/community">http://wbond.net/sublime_packages/community</a>) and a few of them were advised to me that I should use: brackethighliter, docblockr, sublimecodeintel, sublimelinter, vintageex, git</p>
+
+<p>sublimecodeintel seems to be the one that really does a lot of magic in there. The rest is for convenience and display of blocks in a more visual way,</p>
+
+<h2 id="use-sshfs-for-remote-editing:aeac908f260033eeab91183dfa6f1c81">Use sshfs for remote editing</h2>
+
+<p>Well this is not related to sublimetext but makes it easy to remote edit a dir when you have an ssh access. On Ubuntu you can just</p>
+
+<pre><code>apt-get install sshfs
+</code></pre>
+
+<p>and then</p>
+
+<pre><code>mkdir workdir &amp;&amp; sshfs you@server:/path/to/dir workdir
+</code></pre>
+
+<p>so the remote dir pretends to be local now and can be opened by sublimetext easily. It’s of course adding some response time as the editor refreshes the file you browse each time you focus on it, but it works pretty fine for me.</p>
+
+<p><em>Special thanks to beve that provided me those nice tricks.</em></p>
+
+            </div>
+          </section>
+        
+      </div>
+      
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+    
+    <a href="http://localhost:1313/mobla/post/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+      <i class="fa fa-hand-o-left"></i>&nbsp;Newer
+    </a>
+    
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 3</span>
+    
+    <a href="http://localhost:1313/mobla/post/page/3/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+      Older&nbsp;<i class="fa fa-hand-o-right"></i>
+    </a>
+    
+  </nav>
+</div>
+
+
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://localhost:1313/mobla//js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

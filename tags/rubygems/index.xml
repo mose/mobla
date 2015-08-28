@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubygems on Mose Bla</title>
+    <link>http://localhost:1313/mobla/tags/rubygems/</link>
+    <description>Recent content in Rubygems on Mose Bla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2014 09:10:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/mobla/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Make a gem</title>
+      <link>http://localhost:1313/mobla/2014/06/04/make-a-gem</link>
+      <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/06/04/make-a-gem</guid>
+      <description>
+
+&lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
+
+&lt;h2 id=&#34;make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Make a Rubygems account&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;first ensure create an ccount on &lt;a href=&#34;https://rubygems.org/&#34;&gt;https://rubygems.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;initialize your credentials:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials
+Enter host password for user &#39;username&#39;:
+
+chmod 0600 ~/.gem/credentials
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Prepare the code&lt;/h2&gt;
+
+&lt;p&gt;These steps are my typical path, nothing is really mandatory there.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;create a repo at github (or wherever you want)&lt;/li&gt;
+&lt;li&gt;create a base gem skeleton &lt;code&gt;bundle gem mycoolgem&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information&lt;/li&gt;
+&lt;li&gt;create a CHANGELOG.md because when you publish something you need a clear log of your version changes&lt;/li&gt;
+&lt;li&gt;enable the tracking on &lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt;, &lt;a href=&#34;https://travis-ci.org/&#34;&gt;travis&lt;/a&gt;, &lt;a href=&#34;https://coveralls.io/&#34;&gt;coveralls&lt;/a&gt;, &lt;a href=&#34;https://gemnasium.com&#34;&gt;gemnasium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;add badges from &lt;a href=&#34;http://shields.io&#34;&gt;http://shields.io&lt;/a&gt; in the README.md because it helps to qualify the state of the code quickly&lt;/li&gt;
+&lt;li&gt;when the gem code don&amp;rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with &lt;code&gt;spec.version  = File.read(File.expand_path(&#39;../CHANGELOG.md&#39;, __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]&lt;/code&gt;
+(so then when I version bump there is only one file to edit)&lt;/li&gt;
+&lt;li&gt;write the code (or copy it from the private app you extract it from)&lt;/li&gt;
+&lt;li&gt;add a spec/ or test/ dir and write some tests and try to reach a decent coverage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;release-it:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Release it&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add the date in the changelog for the current version&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rake release&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;bump the version to the next increment in the changelog (and version file if any)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall with the initial bundle command and the final rake task for release, it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
+
+&lt;p&gt;Also check &lt;a href=&#34;http://guides.rubygems.org/make-your-own-gem/&#34;&gt;http://guides.rubygems.org/make-your-own-gem/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gem reverse dependencies</title>
+      <link>http://localhost:1313/mobla/2014/05/27/gem-reverse-dependencies</link>
+      <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2014/05/27/gem-reverse-dependencies</guid>
+      <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
+     -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39;
+
+[&amp;quot;metric_fu&amp;quot;,
+ &amp;quot;flyerhzm-metric_fu&amp;quot;,
+ &amp;quot;edouard-metric_fu&amp;quot;,
+ &amp;quot;devver-metric_fu&amp;quot;,
+ &amp;quot;goldstar-metric_fu&amp;quot;,
+ &amp;quot;socializer&amp;quot;,
+ &amp;quot;trollface&amp;quot;,
+ &amp;quot;guard-rails_best_practices&amp;quot;,
+ &amp;quot;rferraz-metric_fu&amp;quot;,
+ &amp;quot;git-hooks-helper&amp;quot;,
+ &amp;quot;odor&amp;quot;,
+ &amp;quot;rake_check&amp;quot;,
+ &amp;quot;koality&amp;quot;,
+ &amp;quot;danmayer-metric_fu&amp;quot;,
+ &amp;quot;bf4-metric_fu&amp;quot;,
+ &amp;quot;metrics_satellite&amp;quot;,
+ &amp;quot;code_hunter&amp;quot;,
+ &amp;quot;kinit&amp;quot;,
+ &amp;quot;rails-audit&amp;quot;,
+ &amp;quot;pronto-rails_best_practices&amp;quot;,
+ &amp;quot;free_disk_space&amp;quot;,
+ &amp;quot;warder&amp;quot;,
+ &amp;quot;ruby_osx_app&amp;quot;,
+ &amp;quot;sanelint&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Out of curiosity I counted some wellknown gems usages by adding a &lt;code&gt;.count&lt;/code&gt; at the end:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake:    23766
+rails:   6283
+thor:    2786
+pry:     2870
+sinatra: 1964
+devise:  422 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rubygems back on twitter</title>
+      <link>http://localhost:1313/mobla/2012/09/16/rubygems-back-on-twitter</link>
+      <pubDate>Sun, 16 Sep 2012 09:10:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobla/2012/09/16/rubygems-back-on-twitter</guid>
+      <description>&lt;p&gt;I was used to checkout the new gems on twitter while in public transportation, but the flow stopped 2 weeks ago. So after a while I just wrote my own webhook, that was amazingly easy and just took 2 hours (well it’s not elaborated and test-backed and all but it works)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mose/rubygems-alt&#34;&gt;https://github.com/mose/rubygems-alt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I can follow the feed again on &lt;a href=&#34;https://twitter.com/RubyGemsAlt&#34;&gt;https://twitter.com/RubyGemsAlt&lt;/a&gt; and even better, I can change the formatting of it haha.&lt;/p&gt;
+
+&lt;p&gt;I think next move would be to automatically add hashtags on the description from a list of known ones, like #rails or #sinatra. And I also need to daemonize it, right now it’s just running in a screen but daemonizing it would not be hard at all (with daemon gem).&lt;/p&gt;
+
+&lt;p&gt;But you are welcome to fork me and pull request and everything.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

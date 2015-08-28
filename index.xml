@@ -26,766 +26,608 @@
     </item>
     
     <item>
-      <title>Greenruby 103</title>
-      <link>http://blog.mose.com/2015/01/25/greenruby-103</link>
-      <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
+      <title>Greenruby 123</title>
+      <link>http://blog.mose.com/2015/06/14/greenruby-123</link>
+      <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/25/greenruby-103</guid>
+      <guid>http://blog.mose.com/2015/06/14/greenruby-123</guid>
       <description>
 
-&lt;h2 id=&#34;more-screens:d021634982f7dcb44b802e2a3d2040a7&#34;&gt;More Screens&lt;/h2&gt;
+&lt;h2 id=&#34;a-word-about-project-gardening:3f19ca908c642cafd8c3253d0dfb2a28&#34;&gt;A word about project gardening&lt;/h2&gt;
 
-&lt;p&gt;Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
-wanted to have on linux the same screen experience that I had with the macbook
-pro connected to 2 thunderbolts. So I got an &lt;a href=&#34;http://www.asus.com/us/Notebooks_Ultrabooks/ASUS_ZENBOOK_UX301LA/&#34;&gt;asus UX301L&lt;/a&gt; plus 2
-&lt;a href=&#34;http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&amp;amp;cs=audhs1&amp;amp;l=en&amp;amp;redirect=1&amp;amp;s=dhs&amp;amp;sku=210-40773&#34;&gt;Dell screens U2713HM&lt;/a&gt; who supports a 2560x1440 resolution. The laptop in itself
-is amazing, dazzling fast, and all worked well with an ubuntu install. This
-was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.&lt;/p&gt;
+&lt;p&gt;In the last 2 companies where I worked, there was this recurring issue.
+Actually I noticed it for a while but for some reasons it became more obvious
+to me with time passing. The project management role is usually badly
+fulfilled.&lt;/p&gt;
 
-&lt;p&gt;I struggled a bit to find the proper connectors so I could enable the extra
-large resolution on connected screens. I ended up using the mini-hdmi
-connector plus a mini-display port converter to DVI for the second one. And
-finally it worked last week. I had to &lt;a href=&#34;http://www.arunviswanathan.com/node/53&#34;&gt;force the resolution in xrandr&lt;/a&gt; and
-now I have a damn huge double display for a total of 7680x1440. What a blast!&lt;/p&gt;
+&lt;p&gt;But at some point, and even from the point of view of a developer, there is in
+projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s
+all about daily ungrateful clearing the bad weeds, making sure the soil is
+rich enough, and that the seeds are all planted where they should be planted,
+that soil pH is adequate for this or that variety. Having someone that is just
+doing moderation on projects also frees the productive people from lengthly
+and sometimes non technical meetings. It is the occasion to have someone that
+keeps track of specs, sometimes gather them or (re)write them down in a
+central place.&lt;/p&gt;
 
-&lt;h2 id=&#34;debian-i3wm-and-urxvt:d021634982f7dcb44b802e2a3d2040a7&#34;&gt;Debian, i3wm and urxvt&lt;/h2&gt;
+&lt;p&gt;The problem in the transition from waterfall to agile, is that in the
+waterfall model there is a hierarchic feeling in the role of the project
+manager. The Management word into it is misleading. It leads the developers to
+frown upon it. I have the impression that in agile teams, project management
+is supposed to be taken care of organically by the dev teams, sometimes by the
+scrum master or whatever facilitator is there for enforcing the agile process.
+Or the product owner will be technical enough to fill up that role. More or
+less.&lt;/p&gt;
 
-&lt;p&gt;Well this is an old story. Some time ago I switched from debian + fvwm2/ion to
-ubuntu + cinnamon just because I had to know about it. The goal was to be able
-to convince my wife (and some other non-techies) to switch to ubuntu. But I
-had to know how it worked on a daily basis. And it was a success for most of
-it.&lt;/p&gt;
+&lt;p&gt;But the reality is that project grooming is a full time job that may have to
+be re-invented. It certainly should take in account developers creativity and
+pertinence in the match of the objectives with the technical realities. But
+it&amp;rsquo;s necessary to have a person that is the reference on keeping track of the
+need and follow the quality process at all the stages. Well, at least when you
+begin to get many developers and many projects, and developers that work on
+many projects.&lt;/p&gt;
 
-&lt;p&gt;2 years ago at Faria I was given a mac. Well, it was good to know a bit more
-about it, my mac knowledge was dating from system 6.7 time. But if the
-hardware is really good, the OSX experience didn&amp;rsquo;t really satisfy the geek
-that was deep inside me.&lt;/p&gt;
+&lt;p&gt;I think it&amp;rsquo;s a question of scale. Companies with less than 30 people may never
+face that need because there is a natural fluidity internally and not that
+many projects. But when you get to 100 and you still don&amp;rsquo;t have people
+dedicated to projects, then you can see developers burning out. Projects
+become lousy because nobody has time to write specs. You also can see
+emergence of hero coders that can by miracle make it all happen. But you will
+postpone the problem because heroes are not scalable and can even be toxic on
+the long run (as any experienced practitioner already knows).&lt;/p&gt;
 
-&lt;p&gt;Then I got back into a team that is deeply attached to pure linux traditions,
-when I joined Gandi. I now switched back to a debian jessie with &lt;a href=&#34;https://i3wm.org/&#34;&gt;i3wm&lt;/a&gt; on
-my work laptop. Wow this feels good to be back to such a rude but flexible
-environment. As a matter of fact all went perfectly well and all the tricks I
-knew 10 years ago are still very valid.&lt;/p&gt;
-
-&lt;p&gt;I also took that occasion to get back into urxvt, for my terminal emulator.
-It&amp;rsquo;s a very badly documented over-powerful tool. But when you get the grasp on
-it, possibilities are much more satisfying than with gnome-terminal. I&amp;rsquo;m still
-working on &lt;a href=&#34;https://github.com/mose/rcfiles/blob/master/.Xdefaults&#34;&gt;my configuration&lt;/a&gt; to match few features that gnome terminal had
-(like font resizing, clipboard management). The &lt;a href=&#34;https://github.com/mose/rcfiles/blob/master/.urxvt/ext/notification&#34;&gt;notification plugin&lt;/a&gt;,
-combined with &lt;a href=&#34;http://knopwob.org/dunst/index.html&#34;&gt;dunst&lt;/a&gt;, gives amazing results.&lt;/p&gt;
-
-&lt;p&gt;It feels good to be back into the cave. To mark this change, I didn&amp;rsquo;t shave
-for 3 months so now I&amp;rsquo;m really bearded like the old-fashioned linux bears.
-Muhaha!&lt;/p&gt;
-
-&lt;p&gt;PS: no worry, I&amp;rsquo;m still fullstack at heart and I still love ruby!&lt;/p&gt;
+&lt;p&gt;Personally in my technical career I never liked the project managers that I
+met. But that is a long time I didn&amp;rsquo;t meet any. It dates from an age where
+agile was not there yet. But now that I don&amp;rsquo;t see them anymore, I feel that
+something is missing. It certainly exists in various places. And I can bet
+that many of them are as bad as they were in the last century. But maybe there
+is a new species of project curators out there that I didn&amp;rsquo;t meet yet. I read
+about those in various places, but in my (small) world, this is still a
+mythical beast.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Greenruby 102</title>
-      <link>http://blog.mose.com/2015/01/18/greenruby-102</link>
-      <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
+      <title>Greenruby 122</title>
+      <link>http://blog.mose.com/2015/06/07/greenruby-122</link>
+      <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/18/greenruby-102</guid>
+      <guid>http://blog.mose.com/2015/06/07/greenruby-122</guid>
       <description>
 
-&lt;h2 id=&#34;while42:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;While42&lt;/h2&gt;
+&lt;h2 id=&#34;thought-about-python-fron-a-rubyist:cdf97fab83b684f4dce127ec09f067df&#34;&gt;Thought about python fron a rubyist&lt;/h2&gt;
 
-&lt;p&gt;This week I got in contact with Sylvain from &lt;a href=&#34;http://while42.org&#34;&gt;while42&lt;/a&gt;. It&amp;rsquo;s a social
-network for french tech engineers, but with a special touch on it. There is no
-facebook page or google group. They intentionally decided to be irl-first. For
-people that are most likely to be online all the time, this sounds so
-therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
-If you want to know more (and are french, engineer, and living in Taipei) just
-drop me a mail.&lt;/p&gt;
+&lt;p&gt;This weekend there was a python conference here in Taipei (&lt;a href=&#34;https://tw.pycon.org/2015apac/en/&#34;&gt;pycon apac&lt;/a&gt;).
+As Gandi was sponsoring it, I &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/sets/72157653640049980&#34;&gt;went there&lt;/a&gt; and tried to
+figure out how python and ruby communities differ in my local area. As a
+matter of fact, I also push my python coding skills a bit. I kind of like to
+nurture a general polyglot approach.&lt;/p&gt;
 
-&lt;h2 id=&#34;traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Traveling ruby&lt;/h2&gt;
+&lt;p&gt;It first seems that the python community is more largely supported by sponsors
+than ruby one. It&amp;rsquo;s more mainstream in the general engineering world, I guess.
+There was google, facebook, microsoft, having a table and talking about their
+cloud things. But the general setup was pretty similar to the ruby or rails
+conf I&amp;rsquo;ve been in.&lt;/p&gt;
 
-&lt;p&gt;This is a project from the &lt;a href=&#34;http://www.phusion.nl/&#34;&gt;Phusion&lt;/a&gt; people, called &lt;a href=&#34;https://github.com/phusion/traveling-ruby&#34;&gt;Traveling ruby&lt;/a&gt;.
-Its purpose is to make it easy to build auto-sustaining tarballs for ruby
-programms, including ruby binary and all gems in it. That way you can publish
-a tarball and your customer/user will just launch whatever you put in it. No
-need to install ruby or any gems.&lt;/p&gt;
+&lt;p&gt;The topics in this conference were maybe a little more scientific and less
+web-oriented than we can find in ruby world. Python has tighter bindings with
+lower level languages. I think it&amp;rsquo;s not a specificity of the language because
+you also can build C extensions for ruby. But it&amp;rsquo;s more a result of the
+community interests.&lt;/p&gt;
 
-&lt;p&gt;I gave it a try yesterday on my &lt;a href=&#34;https://github.com/eduvo/zabbix-ruby-client&#34;&gt;zabbix-ruby-client&lt;/a&gt; gem, and after a few
-tweaks (mostly because I wanted to use an unpublished version of my gem), it
-all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
-old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
-reminded me a bit of the feeling when you upload a go executable on the
-server. Really neat.&lt;/p&gt;
+&lt;p&gt;I have the feeling that the ruby community dedicated more efforts towards the
+web front and other rails related principle like testing suites, DSL and
+meta-programming. But my general feeling is that there is no technical reason
+for that. It&amp;rsquo;s just how things happened over time, mostly given the weight of
+rails in the ruby communities.&lt;/p&gt;
 
-&lt;h2 id=&#34;palm-control:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Palm control&lt;/h2&gt;
+&lt;p&gt;Actually, I also had the feeling that pythonists don&amp;rsquo;t consider ruby as a
+&amp;lsquo;competitor&amp;rsquo;. They feel closer to java, node or golang, and at various
+occasion I had the impression that they consider ruby to be only the language
+behind rails.&lt;/p&gt;
 
-&lt;p&gt;There are tiny things that can change a lot. My recent tiny thing is the palm
-control technique. Every sunday when I prepare Green Ruby I do a huge amount
-of copy pasting all over the place. Recently I found on a post about keyboard
-someone talking about the palm control technique for avoiding the copypaste
-fatigue.&lt;/p&gt;
+&lt;p&gt;I also thought that the ruby community was special about its adoption of
+macbook laptops. Even if actually the python coder has more diversity, I
+evaluate around half macbooks, the rest split between ubuntu and windows. It&amp;rsquo;s
+less that in ruby confs where macbooks are kinda 90% and windows users are
+very few.&lt;/p&gt;
 
-&lt;p&gt;Well, you need to have a keyboard that makes it possible. Mine is a &lt;a href=&#34;http://support.logitech.com/en_us/product/10104&#34;&gt;Logitech washable k310&lt;/a&gt;.
-I already liked its look, and even better, it&amp;rsquo;s perfect for
-this palm thing because keys are prominent. Use the palm to push control and
-then it&amp;rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
-my life!&lt;/p&gt;
+&lt;p&gt;Also, I noticed a similar movement about diversity with &lt;a href=&#34;http://djangogirls.org/taipei/&#34;&gt;django girls&lt;/a&gt;
+and &lt;a href=&#34;http://www.meetup.com/PyLadiesTW/&#34;&gt;pyladies&lt;/a&gt;, comparable to the rails girls,
+which tries to close the gender gap in the engineering world.&lt;/p&gt;
+
+&lt;p&gt;Anyways that was good and interesting. Geeks are the same kind, whatever
+language they use (by trade or by taste). I strongly advise, if you have the
+occasion, to wander out of your usual communities and join other circles. It
+gives a good perspective on you usual world.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Greenruby 101</title>
-      <link>http://blog.mose.com/2015/01/11/greenruby-101</link>
-      <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
+      <title>Greenruby 121</title>
+      <link>http://blog.mose.com/2015/05/31/greenruby-121</link>
+      <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/11/greenruby-101</guid>
+      <guid>http://blog.mose.com/2015/05/31/greenruby-121</guid>
       <description>
 
-&lt;h2 id=&#34;1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;1000 subscribers&lt;/h2&gt;
+&lt;h2 id=&#34;linux-trick-too-many-logs:195c338923f21c367264a5b5fb00e8a9&#34;&gt;linux trick: too many logs&lt;/h2&gt;
 
-&lt;p&gt;After the 100th Greenruby last week, we get the 1000th subscriber to the email
-newsletter this week. Welcome George :) So for the occasion I refreshed the
-&lt;a href=&#34;http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map&#34;&gt;subscribers map&lt;/a&gt; on cartodb. About half of the subscribers are in the US,
-but there is a total of 73 countries represented, which is pretty neat. But
-this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.&lt;/p&gt;
+&lt;p&gt;Recently I found my self again in that situation on a linux server. The
+partition where logs are stored went 100%. In such case, It&amp;rsquo;s clever top purge
+old useless logfiles. Typical move for me would be to run logrotate manually
+with&lt;/p&gt;
 
-&lt;h2 id=&#34;fighting-logs-pollution:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Fighting logs pollution&lt;/h2&gt;
+&lt;p&gt;logrotate -f /etc/logrotate.conf&lt;/p&gt;
 
-&lt;p&gt;Some time ago, on edition 82, I posted a link to my webalizer stats for the
-greenruby website. Fatal mistake, I had referrers stats enabled and I got
-somehow listed somewhere. The consequence was a lot of fake traffic with only
-purpose to get links listed in my referrers section. After removing this
-section from webalizer config, and moving the url, the fake traffic was still
-there. Like a blind wave. This was pretty annoying.&lt;/p&gt;
+&lt;p&gt;But I had a case where that was not enough. A developer forgot to remove a
+debugging output and the logs were just gathering way too much information,
+more than what I could free with some janitoring.&lt;/p&gt;
 
-&lt;p&gt;So I began to take some drastic measures. Because I didn&amp;rsquo;t have referrers
-anymore in my stats, I went to my apache logs (yes it&amp;rsquo;s an old server, still
-running apache2) and fire up a:&lt;/p&gt;
+&lt;p&gt;To avoid losing logs, we can move the logfile where there is space and replace
+the file with a symbolic link. That&amp;rsquo;s good enough for until the partition gets
+resized of the logs get cleaned. But when it&amp;rsquo;s done on a live logfile, the
+running process that writes into it still has the same file descriptor. The
+process has to be relaunched so the new fd can be taken in account, on the new
+partition, as instructed by the symbolic link.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;tail -5000 greenruby.org-access.log | cut -d&#39; &#39; -f11 | sort | uniq -c | sort -n
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So a colleague pointed out that could be done without restart by using gdb.
+It&amp;rsquo;s a pretty neat trick (if you have gdb installed on your production server,
+which may not always be the case, and for good reasons). Anyways I had it at
+hand, and here is the sequence:&lt;/p&gt;
 
-&lt;p&gt;This give me a nice view of the recent referrers. Fake ones are easy to
-notice. And that the fake traffic was only coming from a handful of ips, so I
-just made a few:&lt;/p&gt;
+&lt;p&gt;touch /path/to/new/logfile&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;iptables -A INPUT -s &amp;lt;ip&amp;gt; -j DROP
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;gdb -p pid&lt;/p&gt;
 
-&lt;p&gt;The result was radically efficient. Certainly I had less volume but it&amp;rsquo;s now
-much cleaner. But it makes it clear that having clean volume stats for traffic
-on your website is not that easy. There are a bunch of fake traffic sources
-that you may not suspect.&lt;/p&gt;
+&lt;p&gt;(gdb) call dup(1)
+  $1 = 3
+  (gdb) call close(1)
+  $2 = 0
+  (gdb) call open(&amp;ldquo;/path/to/new/logfile&amp;rdquo;, 2)
+  $3 = 1
+  (gdb) call close($1)
+  $4 = 0
+  (gdb)&lt;/p&gt;
 
-&lt;h2 id=&#34;new-server-soon:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;New server soon&lt;/h2&gt;
-
-&lt;p&gt;I got a new job 2 month ago at &lt;a href=&#34;http://gandi.net&#34;&gt;gandi&lt;/a&gt;, and there is some nice &lt;a href=&#34;https://www.gandi.net/hosting/iaas&#34;&gt;VPS
-hosting&lt;/a&gt; there. I can have a machine just for Green Ruby there. It can be
-neat and open some options. Green Ruby website is still very static. Various
-attempts to improve it with a search engine didn&amp;rsquo;t end up to something
-concluding yet. Maybe this time it will.&lt;/p&gt;
-
-&lt;p&gt;That also may be the occasion to build up a distribution system and move out
-of mailchimp. I looked around and all I found was php based. So I will
-probably just write my own ruby scripts, the &lt;a href=&#34;https://github.com/mikel/mail&#34;&gt;mail gem&lt;/a&gt; looks great and the
-rest is a question of configuring a postfix with correct &lt;a href=&#34;http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF&#34;&gt;SPF and DKIM
-setup&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;je-suis-charlie:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Je suis Charlie&lt;/h2&gt;
-
-&lt;p&gt;Well, this tragedy that happened this Thursday in France impacts a lot of
-people. Somehow, it perhaps impacts me more than the average. When I was
-younger I went to art school to become a cartoonist, and finally I changed my
-mind. But I knew the work of the victims of this slaughter. They were icons in
-the French cartoon world.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s really sad, first because this is murder, second because the irrational
-impact it will have on society. This is crazy how a handful of brain-dead
-punks can bend history. Now France is going to become even more paranoid. I
-already was so uncomfortable when they began to send military with assault
-rifles wander in the train stations in Paris. It&amp;rsquo;s not going to get better.&lt;/p&gt;
+&lt;p&gt;This gave me the taste of digging up a little bit more on how gdb can interact
+with live processes.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Greenruby 100</title>
-      <link>http://blog.mose.com/2015/01/04/greenruby-100</link>
-      <pubDate>Sun, 04 Jan 2015 12:10:31 +0800</pubDate>
+      <title>Greenruby 120</title>
+      <link>http://blog.mose.com/2015/05/24/greenruby-120</link>
+      <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/04/greenruby-100</guid>
-      <description>&lt;p&gt;This week is the 100th edition of Green Ruby, it&amp;rsquo;s also the first one of 2015.
-This week the &lt;a href=&#34;http://sixgun.org/episodes/lo370&#34;&gt;Linux Outlaws&lt;/a&gt; broadcasted their last show, and Rebecca
-Watson left the &lt;a href=&#34;http://www.theskepticsguide.org/podcast/sgu/495&#34;&gt;Skeptics Guide to the Universe&lt;/a&gt;. Those are 2 podcasts that
-I never list in the Green Ruby list (they are not really on topic) but I
-rarely miss any of them. Too bad they leave. I thought about it too, but no, I
-will stay.&lt;/p&gt;
-
-&lt;p&gt;So, happy new year or, as we say in french: Bananier!&lt;/p&gt;
-
-&lt;p&gt;For 100 weeks already I gathered those links and sent them to whoever wants
-them. Every damn single week. Just for the fun of it. This is a kind of
-personal kata, it keeps me in the loop. I just make my exercise in a way I can
-share it. And my streak of never missing one week is a kind of personal
-challenge.&lt;/p&gt;
-
-&lt;p&gt;There is now 971 subscribers to the mail newsletter, a whole lot of people
-prefer to subscribe using the RSS feed, and the website has 8 or 9k visits per
-month. But this is still a side project, with no business behind it. Just one
-single guy and a couple of friends sharing the result of their weekly review
-of the news of their craft.&lt;/p&gt;
-
-&lt;p&gt;So, as you can notice, the edito becomes a rant, and is going to get a bit
-longer. For a while I was trying to keep it short just because it sits on the
-top of the letter. What matters are the links and not the ranting. By moving
-the blah blah at the bottom, I free myself from format constraints and can
-unleash my writing desires. muahaha. Not that I have much to say. But you can
-consider this new section of Green Ruby as the last screen displayed in &lt;a href=&#34;http://www.chucklorre.com/index-bbt.php&#34;&gt;The
-Big Bang Theory&lt;/a&gt;, where producers display some random thoughts, rants or
-anecdote. You need to pause the video for being able to read them. Yeah I know
-I could just blog like everybody else. But it&amp;rsquo;s just convenient for me to
-include this writing in my weekly process.&lt;/p&gt;
-
-&lt;p&gt;I also improved formatting for text-only diffusion. There is still something
-bugging me about the link tracking, which is mandatory when using the free
-tier of Mailchimp service. I guess I will have to find a way around: either I
-will get away from mailchimp, either I will find a sponsor to pay for removing
-the tracking (sounds funny when I say it that way, no?). Goddamn I hate
-tracking-by-default. Maybe I will end up setting up my own postfix with some
-mailman. Or use something? If you know a good free software self-hosted
-solution for newsletters feel free to drop me a mail.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s amazing how many times I saw dev add google analytics on their templates
-and at the end nobody was going to check stats except for volume metrics. If
-you only need volumetric data, use your web server logs! If you really need
-fine metrics, why not consider using self-hosted analytics like &lt;a href=&#34;http://piwik.org&#34;&gt;Piwik&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t get me wrong, I don&amp;rsquo;t hate analytics. What bothers me is what is made of
-those data. Many companies chose as a business model to consider the user as a
-merchandise. And most of the time they are not clear about it.&lt;/p&gt;
-
-&lt;p&gt;Oh, one last word, next week I will prepare an option so you can chose to
-receive only the links and no rant. Or only the rant and no links. Maybe I
-will make each section of the letter opt-out too, if you never listen to
-podcasts why should you get those, right? I just like choice.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Console columns</title>
-      <link>http://blog.mose.com/2014/09/10/console-columns</link>
-      <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/09/10/console-columns</guid>
-      <description>&lt;p&gt;When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The &lt;code&gt;column&lt;/code&gt; command was recently brought to my attention by &lt;a href=&#34;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&#34;&gt;https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr&lt;/a&gt; and despite years of console life, godamn I was unaware of this simple tool.&lt;/p&gt;
-
-&lt;p&gt;It is very useful for displaying csv files in a readable way, for example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ head members_export_0bfc48c38f.csv
-LATITUDE,LONGITUDE,CC,REGION
-24.7798,120.93,TW,HSZ
-52.0927,5.1158,NL,UT
-25.0389,121.509,TW,TPE
-47.6836,-122.122,US,WA
-24.1403,120.682,TW,TXG
-37.4055,-122.078,US,CA
-37.4055,-122.078,US,CA
-37.4055,-122.078,US,CA
-26.1405,-80.1738,US,FL
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;yuck. Let&amp;rsquo;s prettify it.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ head members_export_0bfc48c38f.csv | column -t -s,
-LATITUDE  LONGITUDE  CC  REGION
-24.7798   120.93     TW  HSZ
-52.0927   5.1158     NL  UT
-25.0389   121.509    TW  TPE
-47.6836   -122.122   US  WA
-24.1403   120.682    TW  TXG
-37.4055   -122.078   US  CA
-37.4055   -122.078   US  CA
-37.4055   -122.078   US  CA
-26.1405   -80.1738   US  FL
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;ohh, my world just changed!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pretty json</title>
-      <link>http://blog.mose.com/2014/09/10/pretty-json</link>
-      <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/09/10/pretty-json</guid>
-      <description>&lt;p&gt;JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;{
-       &amp;quot;ip&amp;quot; =&amp;gt; &amp;quot;59.115.120.166&amp;quot;,
-    &amp;quot;about&amp;quot; =&amp;gt; &amp;quot;/about&amp;quot;,
-     &amp;quot;Pro!&amp;quot; =&amp;gt; &amp;quot;http://getjsonip.com&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;because when you are rubyist everything can be solve with ruby, obviously.&lt;/p&gt;
-
-&lt;p&gt;But well, then one day I did&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;pip install pjson
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and then&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;curl -s http://jsonip.com | pjson
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
-  &amp;quot;Pro!&amp;quot;: &amp;quot;http://getjsonip.com&amp;quot;,
-  &amp;quot;about&amp;quot;: &amp;quot;/about&amp;quot;,
-  &amp;quot;ip&amp;quot;: &amp;quot;59.115.120.166&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Faster, easier, happier.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Digitalocean CLI</title>
-      <link>http://blog.mose.com/2014/08/07/digitalocean-cli</link>
-      <pubDate>Thu, 07 Aug 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/08/07/digitalocean-cli</guid>
-      <description>&lt;p&gt;We host some dev boxes on Digitalocean, and I tried varioous CLI because I like to stay in the console. Recently I was pretty happy to find Tugboat, as it saves default droplet size, region and image, and convers the whole API. Its fuzzy droplet name matching also can find great usage.&lt;/p&gt;
-
-&lt;p&gt;The only problem it has, is its counter-intuitive damn name (I forgot how to launch it 2 hours after using it the first time haha).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pearkes/tugboat&#34;&gt;https://github.com/pearkes/tugboat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-08-07-tugboat.png&#34; alt=&#34;tugboat&#34; class=&#34;pure-img&#34; /&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Tree command</title>
-      <link>http://blog.mose.com/2014/07/11/tree-command</link>
-      <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/07/11/tree-command</guid>
-      <description>&lt;p&gt;There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s &lt;code&gt;tree&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install tree
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install tree
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to &lt;code&gt;find&lt;/code&gt; sometimes. But I mostly use it for having a quick overview of the content of a dir.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mose@momac &amp;gt; ~ &amp;gt; tree projects/lolita
-projects/lolita
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── config.default.yml
-├── config.yml
-├── lita-faria
-│   ├── Gemfile
-│   ├── LICENSE
-│   ├── README.md
-│   ├── Rakefile
-│   ├── lib 
-│   │   ├── lita
-│   │   │   └── handlers
-│   │   │       └── faria.rb
-│   │   └── lita-faria.rb
-│   ├── lita-faria.gemspec
-│   └── spec
-│       ├── lita
-│       │   └── handlers
-│       │       └── faria_spec.rb
-│       └── spec_helper.rb
-├── lita_config.rb
-├── log 
-└── tmp 
-
-9 directories, 15 files
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Some options:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mose@momac &amp;gt; ~ &amp;gt; tree projects/lolita -hfih -I &#39;spec|lib&#39; --du
-projects/lolita
-[ 164]  projects/lolita/Gemfile
-[1.2K]  projects/lolita/Gemfile.lock
-[1.2K]  projects/lolita/README.md
-[ 177]  projects/lolita/config.default.yml
-[ 222]  projects/lolita/config.yml
-[2.6K]  projects/lolita/lita-faria
-[  39]  projects/lolita/lita-faria/Gemfile
-[1.0K]  projects/lolita/lita-faria/LICENSE
-[ 357]  projects/lolita/lita-faria/README.md
-[ 117]  projects/lolita/lita-faria/Rakefile
-[ 769]  projects/lolita/lita-faria/lita-faria.gemspec
-[1.2K]  projects/lolita/lita_config.rb
-[ 102]  projects/lolita/log
-[ 102]  projects/lolita/tmp
-
- 7.4K used in 3 directories, 11 files
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;man tree&lt;/code&gt; for more (but the basic tree view is the real deal, for more detailled listings, &lt;code&gt;find&lt;/code&gt; is better).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SQL in a shell</title>
-      <link>http://blog.mose.com/2014/07/04/sql-in-a-shell</link>
-      <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/07/04/sql-in-a-shell</guid>
-      <description>&lt;p&gt;There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called &lt;code&gt;parallel&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install parallel
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or on mac&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install parallel
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;parallel&lt;/code&gt; command is a pretty complex beast, but the package also comes with the &lt;code&gt;sql&lt;/code&gt; command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.&lt;/p&gt;
-
-&lt;p&gt;I first setup my dburl in &lt;code&gt;.sql/aliases&lt;/code&gt; as:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;:dbmb mysql:///managebac
-:dboa mysql:///openapply
-:dbis psql://isis:password@localhost/intersis
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And I can then use those aliases for quick sql commands:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sql :dbmb &amp;quot;select count(*) from users&amp;quot;
-sql --show-processlist :dbis
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Check &lt;a href=&#34;http://www.gnu.org/software/parallel/sql.html&#34;&gt;http://www.gnu.org/software/parallel/sql.html&lt;/a&gt; for more examples of use. Also check &lt;a href=&#34;http://www.gnu.org/software/parallel/package&#34;&gt;http://www.gnu.org/software/parallel/package&lt;/a&gt; it&amp;rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Knife remote command</title>
-      <link>http://blog.mose.com/2014/06/26/knife-remote-command</link>
-      <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/06/26/knife-remote-command</guid>
-      <description>&lt;p&gt;Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the &lt;code&gt;fabric&lt;/code&gt; scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.&lt;/p&gt;
-
-&lt;p&gt;So I created a new file in &lt;code&gt;.chef/plugins/knife/&lt;/code&gt; named &lt;code&gt;apt.rb&lt;/code&gt; for a test:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;chef/knife&#39;
-
-module KnifeOpenvpn
-  class Apt &amp;lt; Chef::Knife
-
-    banner &amp;quot;knife apt &amp;lt;update|upgrade|simulate&amp;gt; &amp;lt;nodename&amp;gt;&amp;quot;
-
-    deps do
-      require &#39;chef/knife/ssh&#39;
-      require &#39;chef/node&#39;
-      Chef::Knife::Ssh.load_deps
-    end
-
-    def run
-      if name_args.size == 2
-        command_arg = name_args.shift
-        server = name_args.shift
-      else
-        ui.fatal &amp;quot;Syntax: knife apt &amp;lt;update|upgrade|simulate&amp;gt; &amp;lt;nodename&amp;gt;&amp;quot;
-        ui.fatal &amp;quot;Where &amp;lt;nodename&amp;gt; is a node name.&amp;quot;
-        exit 1
-      end
-      command = case command_arg
-                when &#39;update&#39;
-                  &#39;update&#39;
-                when &#39;upgrade&#39;
-                  &#39;-y upgrade&#39;
-                when &#39;simulate&#39;
-                  &#39;-y -s upgrade&#39;
-                end
-      knife_ssh(Chef::Node.load(server).ipaddress, &amp;quot;sudo apt-get #{command}&amp;quot;).run
-    end
-
-    def knife_ssh(server, command)
-      ssh = Chef::Knife::Ssh.new
-      ssh.name_args = [ server, command ]
-      ssh.config[:ssh_user] = Chef::Config[:knife][:ssh_user]
-      ssh.config[:ssh_port] = Chef::Config[:knife][:ssh_port]
-      ssh.config[:identity_file] = Chef::Config[:knife][:identity_file]
-      ssh.config[:ssh_gateway] = Chef::Config[:knife][:ssh_gateway]
-      ssh.config[:manual] = true
-      ssh.config[:host_key_verify] = Chef::Config[:knife][:host_key_verify]
-      ssh.config[:on_error] = :raise
-      ssh
-    end
-
-  end
-
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then I just run a &lt;code&gt;knife apt simulate my-server&lt;/code&gt; to execute a &lt;code&gt;apt-get -s -y upgrade&lt;/code&gt; on the &lt;code&gt;my-server&lt;/code&gt; client node. Pretty useful. But I guess that&amp;rsquo;s only a beginning, I should extend it to run on various nodes at the same time and maybe inside threads or something like that, to match the &lt;code&gt;fabric&lt;/code&gt; power.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Less first</title>
-      <link>http://blog.mose.com/2014/06/19/less-first</link>
-      <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/06/19/less-first</guid>
+      <guid>http://blog.mose.com/2015/05/24/greenruby-120</guid>
       <description>
 
-&lt;p&gt;When working on a remote server, I use &lt;code&gt;less&lt;/code&gt; instead of &lt;code&gt;tail&lt;/code&gt; or &lt;code&gt;vi&lt;/code&gt; to check files, the more I can.&lt;/p&gt;
+&lt;h2 id=&#34;the-side-effects-of-recruitment:849328e7dfc904a2b6d861e0036f0df4&#34;&gt;The side effects of recruitment&lt;/h2&gt;
 
-&lt;h2 id=&#34;filter:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;filter&lt;/h2&gt;
+&lt;p&gt;Recently I had to look for a new devops for our team. I have been handling
+technical recruitment at many occasions, and each time I have to explain my
+colleagues that I have a special process. The fact is, the technical sphere is
+a small one, we are all linked, more or less, to a community. Well, in my
+case, I always have had to recruit people in companies that were hiring the
+kind of people that commit on github, have some kind of community activity, at
+least. I guess that in huge companies where people are just a set of
+checkboxes, things go a bit differently.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;with &lt;code&gt;&amp;amp;searchstring&lt;/code&gt; it will hide all lines not matching searchstring, like a very simple grep from the console&lt;/li&gt;
-&lt;li&gt;just &lt;code&gt;&amp;amp;&lt;/code&gt; with nothing to get back to full view&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;But anyways, in my case, and probably in the case of all recruiters in modern
+and small businesses, it&amp;rsquo;s not all about checkboxes and profiles. It&amp;rsquo;s about
+personality, compatibility, and mindset. So when I first get a contact with a
+candidate, I invite him (or much more rarely, her), to a chat online,
+preferably on irc or whatever real-time discussion media is more fit (for a
+linux geek, if you can&amp;rsquo;t go on irc, then there is a problem).&lt;/p&gt;
 
-&lt;h2 id=&#34;edit-file:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;edit file&lt;/h2&gt;
+&lt;p&gt;I noticed that during my past sessions of recruitment, I established contacts
+with very interesting people. By having an unformal discussion online, just
+chit-chating of what work we do and what we did before, it&amp;rsquo;s kind of easy to
+get an idea of what is the kind of relationship you will have with your
+potential future colleague. But beyond that, it&amp;rsquo;s all about making things
+personal. We are all unique. It cannot be computed, scripted, engineered in a
+way that non-technical people would be successful conducting that process. It
+takes a geek to recognize another geek.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;when in &lt;code&gt;less /etc/hosts&lt;/code&gt; if I find out I need to edit it I just type &lt;code&gt;v&lt;/code&gt; it opens it in vi&lt;/li&gt;
-&lt;li&gt;when you quit the editor you are back in less&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;At Gandi of course we have a HR person. But she usually appears at the very
+end of the process and not at the beginning. The peers are going to evaluate
+candidates, make their mind to see if they want to spend days and days
+collaborating with them. It matches with my way to do things, fortunately. If
+I have any doubt of the technical abilities on someone, I don&amp;rsquo;t do stupid
+technical tests, I try to find other people that know the candidate and get
+third party feedback. If not, then I try to use a meetup in a community
+related to the speciality in question, so we can discuss and be around other
+people where some tangent discussion can happen.&lt;/p&gt;
 
-&lt;h2 id=&#34;follow-mode:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;follow mode&lt;/h2&gt;
+&lt;p&gt;At the end, if all goes well, then the candidate is going to enter the more
+formal whatever the company uses as a recruitment flow. But that&amp;rsquo;s merely a
+formality. And after 20 years building up teams and recruiting people, I can
+affirm that instinct always wins, in my case. If I smell anything fishy in an
+unformal context, there is going to be problems. Well, the process is never
+perfect, it also can smell ok but stink after 3 months, too.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;when in &lt;code&gt;less production.log&lt;/code&gt;, if you want to follow incoming changes type &lt;code&gt;F&lt;/code&gt; it will become like a &lt;code&gt;tail -f&lt;/code&gt; but it keeps the syntax highlighting that was made with a &lt;code&gt;/&lt;/code&gt; search - when in follow mode with &lt;code&gt;F&lt;/code&gt; you can &lt;code&gt;ctrl-c&lt;/code&gt; any time and examine the new stuff&lt;/li&gt;
-&lt;li&gt;note that if you are in filter mode the follow respects it (like if you did a &lt;code&gt;grep something/var/log/auth.log | grep &#39;Invalid user&#39;&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;But the thing is that having those chats online with peers is pretty
+interesting. I learn a lot about how other companies work, how they handle
+their management, what kind of work conditions they have. Just because it&amp;rsquo;s
+part of the contact process. So I&amp;rsquo;m not really in hurry to make a final
+decision because, to be honest, I just enjoy those contacts.&lt;/p&gt;
 
-&lt;h2 id=&#34;multifiles:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;multifiles&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;you can open several file and navigate like in vim with &lt;code&gt;:n&lt;/code&gt; and &lt;code&gt;:p&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;when less is open you can open a new file with &lt;code&gt;:e&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;call options inside less&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;you can call any launch option from inside less, one I use often is &lt;code&gt;-S&lt;/code&gt; that will enable/disable wrapping of long lines, very useful when parsing web server log files&lt;/li&gt;
-&lt;li&gt;to disable/enable search highlighting just &lt;code&gt;-G&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;any other launch option can be called from inside less, pretty convenient&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;It certainly takes some time, I can&amp;rsquo;t be in constant recruitment, but from
+time to time, it&amp;rsquo;s very valuable. And not only for the effect of recruiting
+someone. It creates bonds with the industry, with people, with communities.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>S3 backups</title>
-      <link>http://blog.mose.com/2014/06/12/s3-backups</link>
-      <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
+      <title>Greenruby 119</title>
+      <link>http://blog.mose.com/2015/05/17/greenruby-119</link>
+      <pubDate>Sun, 17 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/12/s3-backups</guid>
-      <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://meskyanichi.github.io/backup/v4/&#34;&gt;http://meskyanichi.github.io/backup/v4/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).&lt;/p&gt;
-
-&lt;p&gt;So I added a small trick there:&lt;/p&gt;
-
-&lt;p&gt;in &lt;code&gt;Backup/models/backup_audio.rb&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;module Backup::Syncer::Cloud
-  class Base &amp;lt; Syncer::Base
-    def process_orphans
-      if @orphans.is_a?(Queue)
-        @orphans = @orphans.size.times.map { @orphans.shift }
-      end
-      &amp;quot;Older Files: #{ @orphans.count }&amp;quot;
-    end
-  end
-end
-
-Backup::Model.new(:backup_audio, &#39;Audio files Backup to S3&#39;) do
-
-  before do
-    system(&amp;quot;/Backup/latest_audio.sh&amp;quot;)
-  end
-
-  after do
-    FileUtils.rm_rf(&amp;quot;/tmp/streams&amp;quot;)
-  end
-
-  ##
-  # Amazon Simple Storage Service [Syncer]
-  #
-  sync_with Cloud::S3 do |s3|
-    s3.access_key_id     = &amp;quot;xxx&amp;quot;
-    s3.secret_access_key = &amp;quot;xxx&amp;quot;
-    s3.bucket            = &amp;quot;bucket_backup&amp;quot;
-    s3.region            = &amp;quot;us-east-1&amp;quot;
-    s3.path              = &amp;quot;/mb_audio_backup&amp;quot;
-    s3.mirror            = false
-    s3.thread_count      = 50
-
-    s3.directories do |directory|
-      directory.add &amp;quot;/tmp/streams&amp;quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and in &lt;code&gt;Backup/latest_audio.sh&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
-# isolate files changed in the last 3 days
-
-TMPDIR=/tmp/streams
-
-mkdir $TMPDIR
-for i in `find /storage/audio/ -type f -cmin -4320`; do
-  ln -s $i $TMPDIR
-done
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &amp;lsquo;amazonian&amp;rsquo; reason) it will be caught on the next daily backup.&lt;/p&gt;
-
-&lt;p&gt;The result was pretty obvious on our disk usage with our daily backups:&lt;/p&gt;
-
-&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png&#34; alt=&#34;graph&#34; class=&#34;pure-img&#34; /&gt;
-
-
-
-&lt;p&gt;in the logs:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[2014/06/10 07:00:25][info] Summary:
-[2014/06/10 07:00:25][info]   Transferred Files: 5
-[2014/06/10 07:00:25][info]   Older Files: 22371
-[2014/06/10 07:00:25][info]   Unchanged Files: 16
-[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
-[2014/06/10 07:00:25][info] Backup for &#39;Audio files Backup to S3 (backup_audio)&#39; Completed Successfully in 00:00:22
-[2014/06/10 07:00:25][info] After Hook Starting...
-[2014/06/10 07:00:25][info] After Hook Finished.
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Make a gem</title>
-      <link>http://blog.mose.com/2014/06/04/make-a-gem</link>
-      <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2014/06/04/make-a-gem</guid>
+      <guid>http://blog.mose.com/2015/05/17/greenruby-119</guid>
       <description>
 
-&lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
+&lt;h2 id=&#34;noobs-rule-the-planet:fb906e6159a53dc43f4de9d255805b75&#34;&gt;Noobs rule the planet&lt;/h2&gt;
 
-&lt;h2 id=&#34;make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Make a Rubygems account&lt;/h2&gt;
+&lt;p&gt;There is something that I always did in my career managing internet tools. I
+volunteer helping non-technical people to get a presence online, build up
+communities and such things. But I have to confess, this comes with a price. A
+price on your nerves when you realize that easy obvious things that you take
+for granted are actually not clear at all by the average Joe.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;first ensure create an ccount on &lt;a href=&#34;https://rubygems.org/&#34;&gt;https://rubygems.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;initialize your credentials:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Yeah sure they can post of facebook. For many of them, it&amp;rsquo;s pretty much all
+what internet means. But for the real things, they have no clue what they are
+doing. Talk about the merits of a chaos money to test your infrastructure.
+Well, the man on the street is pretty much the best you can get when it comes
+to chaos testing your design and workflow.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials
-Enter host password for user &#39;username&#39;:
+&lt;p&gt;But whatever infuriating it can be, it&amp;rsquo;s a great thing to keep in mind. People
+have no clue what they are doing. They don&amp;rsquo;t know what an url is. They think
+smileys are fun. They feel writing all in capitals is just a detail. When some
+popup appears they consider it&amp;rsquo;s all broken and there is no need to read
+what&amp;rsquo;s written on it because anyways that&amp;rsquo;s over their heads.&lt;/p&gt;
 
-chmod 0600 ~/.gem/credentials
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, when you design your applications, you may be lucky enough to face an
+educated population. But in many cases, you may not. Take it in account. Make
+things over-explicit and use images to bypass the inability of the modern
+average people to read anything that is more than a sentence of 5 words.&lt;/p&gt;
 
-&lt;h2 id=&#34;prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Prepare the code&lt;/h2&gt;
+&lt;p&gt;Go volunteer to help your fellow neighbors in your local non-tech communities.
+It&amp;rsquo;s hard, but it helps keep in touch with the reality.&lt;/p&gt;
 
-&lt;p&gt;These steps are my typical path, nothing is really mandatory there.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;create a repo at github (or wherever you want)&lt;/li&gt;
-&lt;li&gt;create a base gem skeleton &lt;code&gt;bundle gem mycoolgem&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information&lt;/li&gt;
-&lt;li&gt;create a CHANGELOG.md because when you publish something you need a clear log of your version changes&lt;/li&gt;
-&lt;li&gt;enable the tracking on &lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt;, &lt;a href=&#34;https://travis-ci.org/&#34;&gt;travis&lt;/a&gt;, &lt;a href=&#34;https://coveralls.io/&#34;&gt;coveralls&lt;/a&gt;, &lt;a href=&#34;https://gemnasium.com&#34;&gt;gemnasium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;add badges from &lt;a href=&#34;http://shields.io&#34;&gt;http://shields.io&lt;/a&gt; in the README.md because it helps to qualify the state of the code quickly&lt;/li&gt;
-&lt;li&gt;when the gem code don&amp;rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with &lt;code&gt;spec.version  = File.read(File.expand_path(&#39;../CHANGELOG.md&#39;, __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]&lt;/code&gt;
-(so then when I version bump there is only one file to edit)&lt;/li&gt;
-&lt;li&gt;write the code (or copy it from the private app you extract it from)&lt;/li&gt;
-&lt;li&gt;add a spec/ or test/ dir and write some tests and try to reach a decent coverage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;release-it:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Release it&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;add the date in the changelog for the current version&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rake release&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;bump the version to the next increment in the changelog (and version file if any)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Overall with the initial bundle command and the final rake task for release, it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
-
-&lt;p&gt;Also check &lt;a href=&#34;http://guides.rubygems.org/make-your-own-gem/&#34;&gt;http://guides.rubygems.org/make-your-own-gem/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And above all, keep patience. It&amp;rsquo;s not their fault. There has never been any
+economical incentive to educate users. The shortest path is always the best
+path. So for sure, you should make things easy. But if you get any occasion to
+provide your users some education, it&amp;rsquo;s never going to be on your spec sheets.
+You can do it as a natural thing to do. Add optional text to explain why
+things are the way they are. Few will read it, but they will learn from it.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Gem reverse dependencies</title>
-      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</link>
-      <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
+      <title>Greenruby 118</title>
+      <link>http://blog.mose.com/2015/05/10/greenruby-118</link>
+      <pubDate>Sun, 10 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</guid>
-      <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
+      <guid>http://blog.mose.com/2015/05/10/greenruby-118</guid>
+      <description>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
-     -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39;
+&lt;h2 id=&#34;letter-process-and-numbers:83d19966174428ef802df4954f70730e&#34;&gt;Letter process and numbers&lt;/h2&gt;
 
-[&amp;quot;metric_fu&amp;quot;,
- &amp;quot;flyerhzm-metric_fu&amp;quot;,
- &amp;quot;edouard-metric_fu&amp;quot;,
- &amp;quot;devver-metric_fu&amp;quot;,
- &amp;quot;goldstar-metric_fu&amp;quot;,
- &amp;quot;socializer&amp;quot;,
- &amp;quot;trollface&amp;quot;,
- &amp;quot;guard-rails_best_practices&amp;quot;,
- &amp;quot;rferraz-metric_fu&amp;quot;,
- &amp;quot;git-hooks-helper&amp;quot;,
- &amp;quot;odor&amp;quot;,
- &amp;quot;rake_check&amp;quot;,
- &amp;quot;koality&amp;quot;,
- &amp;quot;danmayer-metric_fu&amp;quot;,
- &amp;quot;bf4-metric_fu&amp;quot;,
- &amp;quot;metrics_satellite&amp;quot;,
- &amp;quot;code_hunter&amp;quot;,
- &amp;quot;kinit&amp;quot;,
- &amp;quot;rails-audit&amp;quot;,
- &amp;quot;pronto-rails_best_practices&amp;quot;,
- &amp;quot;free_disk_space&amp;quot;,
- &amp;quot;warder&amp;quot;,
- &amp;quot;ruby_osx_app&amp;quot;,
- &amp;quot;sanelint&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&amp;rsquo;s a few weeks now that we are getting organized better, with Xenor and
+Tysliu, on the preparation of this newsletter. The guys are now putting more
+attention to the news gathering and preformatting the &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/newsletters/grn.yml&#34;&gt;yaml source file&lt;/a&gt;
+that I use to generate the letter and the website. After
+some time of practice, it is much better for me, as now I don&amp;rsquo;t spend 5 hours
+each sunday anymore and I can manage the publication process in less than 2
+hours. I still gather some extra links after the editors push their
+contributions. Then I verify the links, the categories, edit the comments
+sometimes, add dots at the ends of line, such tiny things. A huge thanks to
+Xenor and Tysliu!&lt;/p&gt;
 
-&lt;p&gt;Out of curiosity I counted some wellknown gems usages by adding a &lt;code&gt;.count&lt;/code&gt; at the end:&lt;/p&gt;
+&lt;p&gt;Now we have 1312 subscribers to the newsletter. Plus an unknown number of RSS
+subscribers, maybe around 200. We get 250 visits per day on the website
+(according to webalizer), and most of them come from rss readers of many
+sorts. As the mailchimp is still free until we reach 2000, there is some
+margin. When we reach 1600 I think I swill begin a cleaning campaign, to help
+people that actually don&amp;rsquo;t read the letter to unsubscribe. I kind of like the
+idea of throwing accounts away. Usually in web business, an account is an
+asset and they are never thrown away. There is so much to be told about
+numbers, and their reality, in our industry.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;rake:    23766
-rails:   6283
-thor:    2786
-pry:     2870
-sinatra: 1964
-devise:  422 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But the reality about numbers is usually the consequence of the over
+simplification required by marketeers. Things are never so simple as just a
+single number. The technicians among us are always in pain when we need to
+provide numbers, because they come with a strict definition of what they
+count, and that definition is never respected by the people that just want to
+use the number and put a sexy label on it. When we say &amp;lsquo;registered accounts&amp;rsquo;
+they say &amp;lsquo;users&amp;rsquo;. Do you see the difference? Damn, I hate that system that
+forces salesmen to become a liars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 117</title>
+      <link>http://blog.mose.com/2015/05/03/greenruby-117</link>
+      <pubDate>Sun, 03 May 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/05/03/greenruby-117</guid>
+      <description>
+
+&lt;h2 id=&#34;rfid-world:662331cbc9868114293fb05e69319f30&#34;&gt;RFID world&lt;/h2&gt;
+
+&lt;p&gt;They begin to appear everywhere. I saw mine first on my passport, then I just
+got my new credit card and it has one in it. Those things are nice if you
+consider them naively. But the fact is that they are flawed and insecure. We
+carry around more and more of those items that can be read at a proximity by
+specially crafter devices. Gosh, did they not learn already from the ingenuity
+of our kids?&lt;/p&gt;
+
+&lt;p&gt;There have been myths in science fiction about human implanted with chips.
+Well, our phones for a while have been providing the same features. Call me
+paranoid, but I just don&amp;rsquo;t like the feeling. And I also don&amp;rsquo;t like not having
+any choice about it. Hopefully we can still &lt;a href=&#34;https://youtu.be/E_f5oRwaQew&#34;&gt;disable the credit cards RFID&lt;/a&gt;,
+&lt;a href=&#34;https://youtu.be/BEyRfjeE6ac&#34;&gt;craft some pockets&lt;/a&gt; to put our passport in
+it, or buy some &lt;a href=&#34;https://youtu.be/MhW-QLhmoVw&#34;&gt;faraday pockets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you pay attention, you can find or hear about phone apps called &amp;lsquo;electronic
+pickpocket apps&amp;rsquo;. This choice of a name if so relevant to the situation. Note
+that NFC, included in more and more phones, is a subcategory of RFID, operates
+in much smaller range (10 cm). But basic RFID tags can be detected beyond 100
+meters with proper antennas.&lt;/p&gt;
+
+&lt;p&gt;We talk about the Internet of Things. Sounds sexy. But clearly, we only are
+one of the Things of that Internet. Without any implant, just by carrying
+around passport and credit cards. Or by working at a company that uses that
+technology for &lt;a href=&#34;http://www.wavetrend.net/personnel-tracking.php&#34;&gt;staff monitoring&lt;/a&gt;. I don&amp;rsquo;t know about you,
+but for me, it&amp;rsquo;s scary as hell.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 116</title>
+      <link>http://blog.mose.com/2015/04/26/greenruby-116</link>
+      <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/04/26/greenruby-116</guid>
+      <description>
+
+&lt;h2 id=&#34;welcome-jessie:d9f4d66fbdcd986833b23a4199ad62c2&#34;&gt;Welcome Jessie&lt;/h2&gt;
+
+&lt;p&gt;Ok, right. Maybe you don&amp;rsquo;t care, but this saturday &lt;a href=&#34;https://www.debian.org/releases/jessie&#34;&gt;Jessie&lt;/a&gt; was
+officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and
+it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as
+fast as Ubuntu, but the stuff in there is more stable. And well, in my
+personal case, I work in a place where everything is in debian wheezy and can
+now finally get upgraded.&lt;/p&gt;
+
+&lt;p&gt;Actually I have been using Ubuntu on my desktop for some time. The reason was
+that I wanted to be able to help people to transition to linux, without being
+overloaded with support. So I had to know how ubuntu work. But last year I
+switched back to the original debian and I have been pretty happy about that.
+There is less cruft and opinionated choices (no freaking unity as a default
+window manager). And it&amp;rsquo;s pretty straightfoward in the install process. I
+suspect even non-techies could give it a try (I know some that did).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 115</title>
+      <link>http://blog.mose.com/2015/04/19/greenruby-115</link>
+      <pubDate>Sun, 19 Apr 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/04/19/greenruby-115</guid>
+      <description>
+
+&lt;h2 id=&#34;state-surveillance-in-france:2e160e3cd77d85bf5cb357e6e45cadd1&#34;&gt;State surveillance in France&lt;/h2&gt;
+
+&lt;p&gt;What happened this week in France is quite shocking. How can they be so long
+to make useful laws and so quick to pass harmful ones? Well the move began in
+&lt;a href=&#34;http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law&#34;&gt;December last year&lt;/a&gt;. Some call it a French Patriot act. This
+is not the first time there is an attempt from French government to enforce
+stronger control on the internet. The pressure of lobbies and media industries
+have been pushing hard to preserve their interests.&lt;/p&gt;
+
+&lt;p&gt;But this time, it&amp;rsquo;s just about copying the NSA, and get legal requirement for
+service providers to host the black boxes. Seems that the Snowden revelations
+gave the lawmakers some ideas. The impact is not anecdotal in the French
+society. Some service providers announce they will leave the country like
+&lt;a href=&#34;http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law&#34;&gt;Altern&lt;/a&gt; (French), others &lt;a href=&#34;http://blogs.mediapart.fr/blog/laurent-chemla/170415/lettre-ceux-qui-sen-foutent&#34;&gt;call to action&lt;/a&gt; (French). Both
+Valentin and Laurent are long time activists in the French landscape. I know
+them for a while. Funny how things turn out, I&amp;rsquo;m now working in the company
+they founded in 99 (and passed hands in 2005).&lt;/p&gt;
+
+&lt;p&gt;But all this makes me think that we are facing a technicality. The real thing
+is systemic. It seems that we failed, as a civilization, to regain control
+over our systems. The course of evolution is going to lead to more control to
+the machines, more dependence on the computerized information. Up to a point
+where our insignificance as human being will become really obvious.&lt;/p&gt;
+
+&lt;p&gt;We, as small makers of this computerized universe, should have some part of
+responsibility. Is there a way that we can bend the course of history by the
+small choices we make? Can we not take decisions in regard of how to implement
+solutions, in a way that we can preserve a margin of freedom and respect for
+the human species? I&amp;rsquo;m not sure, at this point, there is anything we can do.
+But if we don&amp;rsquo;t try, we will never know. Think about it. You build systems.
+You shape the world. Your choice matters.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 113</title>
+      <link>http://blog.mose.com/2015/04/05/greenruby-113</link>
+      <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/04/05/greenruby-113</guid>
+      <description>
+
+&lt;h2 id=&#34;multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98&#34;&gt;Multiple inheritance simulation&lt;/h2&gt;
+
+&lt;p&gt;This is a bit twisted. In ruby, as you know, you cannot use multiple
+inheritance. But the flexibility of the language, especially the
+metaprogramming aspect, opens the door for some cheating. Check out &lt;a href=&#34;https://gist.github.com/capitalist/473543b7ea24d461d030&#34;&gt;this
+code&lt;/a&gt;, it tricks it by declaring the first class as the super
+class and the remaining classes as modules included in that super class.
+Pretty acrobatic and elegant, imho.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-vaping:a9a546e37849f6a570839940ccf98c98&#34;&gt;About vaping&lt;/h2&gt;
+
+&lt;p&gt;Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it. But last
+week it finally ended. I quit smoking. But this was kindof a trick, as it was
+made possible by switching to &lt;a href=&#34;http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937&#34;&gt;vaping&lt;/a&gt;. It certainly doesn&amp;rsquo;t solve the
+nicotine addiction issue, but I&amp;rsquo;m very happy with this move and hopeful for a
+gradual freedom.&lt;/p&gt;
+
+&lt;p&gt;I also found out that this vaping practice is very geeky. The hardware part is
+quite elaborate, vaping devices are really neat piece of work, there are a
+bunch of vendors. The liquidware is also quite a subject of hacking.
+Technically it&amp;rsquo;s not that hard to do it yourself. Not surprising that I
+discovered this vaping practice in geeks circles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 112</title>
+      <link>http://blog.mose.com/2015/03/29/greenruby-112</link>
+      <pubDate>Sun, 29 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/29/greenruby-112</guid>
+      <description>
+
+&lt;h2 id=&#34;green-ruby-new-generation:e04937da80b109c53cab9bf63b0a6b99&#34;&gt;Green Ruby New Generation&lt;/h2&gt;
+
+&lt;p&gt;We had this week a very productive meeting with xenor and tysliu in our
+preferred coffee shop. I explained more in detail my workflow and my quality
+criterias. So now they can feed the links section and become the major editors
+of Green Ruby. I Still keep the role of the publisher. I get their links, I
+clean up stuff, verify freshness and reachability, remove superlatives, fix
+category if needed.&lt;/p&gt;
+
+&lt;p&gt;Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy
+lifting and they are the reason why Green Ruby is still in your mailbox every
+week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 111</title>
+      <link>http://blog.mose.com/2015/03/22/greenruby-111</link>
+      <pubDate>Sun, 22 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/22/greenruby-111</guid>
+      <description>
+
+&lt;h2 id=&#34;drones-and-makers:84bb7b31097e7dff868fbef479daafb5&#34;&gt;Drones and makers&lt;/h2&gt;
+
+&lt;p&gt;This is now obvious. We are going to get invaded by drones. Of course we will
+pretend we control them, for a while. But I can bet it&amp;rsquo;s not going to stand
+too long. Their autonomy is a competitive factor, and, in our current society,
+competitive is the Darwinian selective factor. It can be a bit scary.&lt;/p&gt;
+
+&lt;p&gt;But on another hand, when we geeks look at those things with our (never-aging)
+kids eyes, we see fun toys. Look at the &lt;a href=&#34;http://www.bgobeyond.co.uk/&#34;&gt;B Flying car&lt;/a&gt;. We can
+&lt;a href=&#34;http://diydrones.com/&#34;&gt;do them ourselves&lt;/a&gt;. Like we were able to tinker with the first computers, the
+first radio stations. But now we have 3D printing. Yet not that affordable,
+but it seems to get better. There is also that creepy &lt;a href=&#34;http://the3doodler.com/&#34;&gt;3Doodler&lt;/a&gt;
+thingie, and various other new techniques.&lt;/p&gt;
+
+&lt;p&gt;Maybe the Makers movement is the hope for humanity. Reclaim the daily small
+things! Check that &lt;a href=&#34;http://www.instructables.com/&#34;&gt;instructable&lt;/a&gt; website it&amp;rsquo;s a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Well yeah this all has nothing to do with webdev. Except from the fact that
+open standards made possible to people like me to do the web myself. After a
+time, it became a professional activity. Will we get professional makers in
+the future and see a revival of craftsmanship? I really wonder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 110</title>
+      <link>http://blog.mose.com/2015/03/15/greenruby-110</link>
+      <pubDate>Sun, 15 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/15/greenruby-110</guid>
+      <description>
+
+&lt;h2 id=&#34;time-to-upgrade:d4567cfa55308712270d1f5b73098130&#34;&gt;Time to upgrade&lt;/h2&gt;
+
+&lt;p&gt;This is a long time I plan to re-engineer the way Green Ruby is produced. Last
+week I told Xenor and Simon I was thinking about giving it a break. I&amp;rsquo;m not
+that much anymore in the flow. Now my days are full ops and not that much dev.
+But the guys didn&amp;rsquo;t want to let me stop.&lt;/p&gt;
+
+&lt;p&gt;So we are going to organize things a little differently. Xenor and Simon,
+which are full time rails developers, are going to handle the content more
+extensively, and I will just manage the publication, plus some devops links.
+So we need to get some tools ready to handle that new flow. Maybe, the time it
+gets ready, we will take some time off. Maybe not.&lt;/p&gt;
+
+&lt;p&gt;What I wish is to have a way to let more people jump in, too. Maybe we will
+get inspiration in how &lt;a href=&#34;http://thechangelog.com/trello-as-a-cms/&#34;&gt;the changelog&lt;/a&gt; manages their news
+flow. They based it on a &lt;a href=&#34;http://trello.com&#34;&gt;Trello&lt;/a&gt; and it&amp;rsquo;s quite clever. By chance I
+explored the trello API recently and I can tell it&amp;rsquo;s really good, very
+suitable for custom automation.&lt;/p&gt;
+
+&lt;p&gt;This week, I will play lazy on the podcasts. I don&amp;rsquo;t think they are that much
+interesting anyways, and all that copy-pasting is exhausting. When some
+podcasts stands out of the crowd, I will rather feature it in this rant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 109</title>
+      <link>http://blog.mose.com/2015/03/08/greenruby-109</link>
+      <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/08/greenruby-109</guid>
+      <description>
+
+&lt;h2 id=&#34;about-blogging:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;About blogging&lt;/h2&gt;
+
+&lt;p&gt;Well, since that whole blogging thing began, I never have been very active on
+it. Well, I have a &lt;a href=&#34;http://blog.mose.com&#34;&gt;blog&lt;/a&gt; on Tumblr because I wanted to know how they
+are doing it, I published various posts in the &lt;a href=&#34;http://devtips.faria.co/authors.html#mose-ref&#34;&gt;faria devtips&lt;/a&gt;, and
+after all, this rant could also count as a publication. So I think I will
+gather them all under one unique site. A Jekyll github-pages kind, easy and
+cheap.&lt;/p&gt;
+
+&lt;p&gt;After all, I&amp;rsquo;m not sure the devtips website will stay up any longer. There
+have been no post since the day I left. Too bad. It&amp;rsquo;s a demonstration that
+some collective actions can sometimes rely only on the energy of one person.&lt;/p&gt;
+
+&lt;p&gt;So, I made a &lt;a href=&#34;http://mose.github.io/blog&#34;&gt;new repo&lt;/a&gt; on github for it, and I will gather whatever
+stuff I can find that I wrote in there.&lt;/p&gt;
+
+&lt;h2 id=&#34;lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Lovely FreeBSD&lt;/h2&gt;
+
+&lt;p&gt;At our Gandi office in Taipei I had to install a &lt;a href=&#34;https://www.pfsense.org/&#34;&gt;pfsense&lt;/a&gt; server,
+which is based on &lt;a href=&#34;https://www.freebsd.org/&#34;&gt;FreeBSD&lt;/a&gt;. It was quite a pleasant experience,
+actually. Last time I played a bit with BSD that was 12 years ago, and that
+was not very smooth. I&amp;rsquo;m happy to be given that occasion to see how it goes
+now.&lt;/p&gt;
+
+&lt;p&gt;For now I&amp;rsquo;m going to use it like if it was an &lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWRT&lt;/a&gt; with some
+extra &lt;a href=&#34;https://openvpn.net/index.php/open-source.html&#34;&gt;OpenVPN&lt;/a&gt; abilities. And it will also be a file server for the
+LAN. Not sure yet how I will handle that.&lt;/p&gt;
+
+&lt;h2 id=&#34;ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Ruby package management&lt;/h2&gt;
+
+&lt;p&gt;When I got in my new job, I discovered a new way to manage server management.
+They didn&amp;rsquo;t want to use &lt;a href=&#34;http://rvm.io/&#34;&gt;rvm&lt;/a&gt;, or even &lt;a href=&#34;https://rubygems.org/&#34;&gt;ruby gems&lt;/a&gt;, or
+&lt;a href=&#34;https://pip.pypa.io/en/latest/&#34;&gt;pip&lt;/a&gt; or anything that is not debian packages. It may sound quite harsh.
+Since I came in ruby in 2010, rvm has been my best friend, bundle the second
+one. But this approach is very developer-based. When you maintain large and
+stable systems, it&amp;rsquo;s more likely that you will not trust the bleeding edge
+stuff and prefer confirmed publication of packages before using them. This is
+an interesting slap on my face.&lt;/p&gt;
+
+&lt;p&gt;Of course there are the &lt;a href=&#34;https://www.brightbox.com/docs/ruby/ubuntu/&#34;&gt;brightbox&lt;/a&gt; packages for Ubuntu, but that&amp;rsquo;s
+missing the point. A release has to be out for a certain time so it can be
+strengthened by security reviews and proper production usage. There is a part
+of the population for each language that is considering the instability of
+current releases a normal trade-off. but there is a huge lot of other
+companies that will wait patiently that things get stable enough for their
+taste.&lt;/p&gt;
 </description>
     </item>
     

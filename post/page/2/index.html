@@ -68,7 +68,7 @@
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 3</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 5</span>
     
     <a href="http://blog.mose.com/post/page/3/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
@@ -87,15 +87,15 @@
       <div class="posts">
         
           <h1 class="content-subhead">
-  2014-06-26
+  2015-04-05
   <p class="post-meta">
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
     
     
-      <a class="post-tags post-tags-chef" href="http://blog.mose.com/tags/chef">chef</a><a class="post-tags post-tags-devops" href="http://blog.mose.com/tags/devops">devops</a>
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
     
     
   </p>
@@ -104,145 +104,48 @@
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2014/06/26/knife-remote-command" class="post-title">Knife remote command</a>
-            </header>
-
-            <div class="post-description">
-              <p>Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the <code>fabric</code> scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&rsquo;t need fabric anymore.</p>
-
-<p>So I created a new file in <code>.chef/plugins/knife/</code> named <code>apt.rb</code> for a test:</p>
-
-<pre><code class="language-ruby">require 'chef/knife'
-
-module KnifeOpenvpn
-  class Apt &lt; Chef::Knife
-
-    banner &quot;knife apt &lt;update|upgrade|simulate&gt; &lt;nodename&gt;&quot;
-
-    deps do
-      require 'chef/knife/ssh'
-      require 'chef/node'
-      Chef::Knife::Ssh.load_deps
-    end
-
-    def run
-      if name_args.size == 2
-        command_arg = name_args.shift
-        server = name_args.shift
-      else
-        ui.fatal &quot;Syntax: knife apt &lt;update|upgrade|simulate&gt; &lt;nodename&gt;&quot;
-        ui.fatal &quot;Where &lt;nodename&gt; is a node name.&quot;
-        exit 1
-      end
-      command = case command_arg
-                when 'update'
-                  'update'
-                when 'upgrade'
-                  '-y upgrade'
-                when 'simulate'
-                  '-y -s upgrade'
-                end
-      knife_ssh(Chef::Node.load(server).ipaddress, &quot;sudo apt-get #{command}&quot;).run
-    end
-
-    def knife_ssh(server, command)
-      ssh = Chef::Knife::Ssh.new
-      ssh.name_args = [ server, command ]
-      ssh.config[:ssh_user] = Chef::Config[:knife][:ssh_user]
-      ssh.config[:ssh_port] = Chef::Config[:knife][:ssh_port]
-      ssh.config[:identity_file] = Chef::Config[:knife][:identity_file]
-      ssh.config[:ssh_gateway] = Chef::Config[:knife][:ssh_gateway]
-      ssh.config[:manual] = true
-      ssh.config[:host_key_verify] = Chef::Config[:knife][:host_key_verify]
-      ssh.config[:on_error] = :raise
-      ssh
-    end
-
-  end
-
-end
-</code></pre>
-
-<p>Then I just run a <code>knife apt simulate my-server</code> to execute a <code>apt-get -s -y upgrade</code> on the <code>my-server</code> client node. Pretty useful. But I guess that&rsquo;s only a beginning, I should extend it to run on various nodes at the same time and maybe inside threads or something like that, to match the <code>fabric</code> power.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-19
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/06/19/less-first" class="post-title">Less first</a>
+              <a href="http://blog.mose.com/2015/04/05/greenruby-113" class="post-title">Greenruby 113</a>
             </header>
 
             <div class="post-description">
               
 
-<p>When working on a remote server, I use <code>less</code> instead of <code>tail</code> or <code>vi</code> to check files, the more I can.</p>
+<h2 id="multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98">Multiple inheritance simulation</h2>
 
-<h2 id="filter:3480f0a86761ef50d1ed36f6b3b46e94">filter</h2>
+<p>This is a bit twisted. In ruby, as you know, you cannot use multiple
+inheritance. But the flexibility of the language, especially the
+metaprogramming aspect, opens the door for some cheating. Check out <a href="https://gist.github.com/capitalist/473543b7ea24d461d030">this
+code</a>, it tricks it by declaring the first class as the super
+class and the remaining classes as modules included in that super class.
+Pretty acrobatic and elegant, imho.</p>
 
-<ul>
-<li>with <code>&amp;searchstring</code> it will hide all lines not matching searchstring, like a very simple grep from the console</li>
-<li>just <code>&amp;</code> with nothing to get back to full view</li>
-</ul>
+<h2 id="about-vaping:a9a546e37849f6a570839940ccf98c98">About vaping</h2>
 
-<h2 id="edit-file:3480f0a86761ef50d1ed36f6b3b46e94">edit file</h2>
+<p>Well this has been my burden for 30 years, and I&rsquo;m not proud of it. But last
+week it finally ended. I quit smoking. But this was kindof a trick, as it was
+made possible by switching to <a href="http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937">vaping</a>. It certainly doesn&rsquo;t solve the
+nicotine addiction issue, but I&rsquo;m very happy with this move and hopeful for a
+gradual freedom.</p>
 
-<ul>
-<li>when in <code>less /etc/hosts</code> if I find out I need to edit it I just type <code>v</code> it opens it in vi</li>
-<li>when you quit the editor you are back in less</li>
-</ul>
-
-<h2 id="follow-mode:3480f0a86761ef50d1ed36f6b3b46e94">follow mode</h2>
-
-<ul>
-<li>when in <code>less production.log</code>, if you want to follow incoming changes type <code>F</code> it will become like a <code>tail -f</code> but it keeps the syntax highlighting that was made with a <code>/</code> search - when in follow mode with <code>F</code> you can <code>ctrl-c</code> any time and examine the new stuff</li>
-<li>note that if you are in filter mode the follow respects it (like if you did a <code>grep something/var/log/auth.log | grep 'Invalid user'</code>)</li>
-</ul>
-
-<h2 id="multifiles:3480f0a86761ef50d1ed36f6b3b46e94">multifiles</h2>
-
-<ul>
-<li>you can open several file and navigate like in vim with <code>:n</code> and <code>:p</code></li>
-<li>when less is open you can open a new file with <code>:e</code></li>
-</ul>
-
-<h2 id="call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94">call options inside less</h2>
-
-<ul>
-<li>you can call any launch option from inside less, one I use often is <code>-S</code> that will enable/disable wrapping of long lines, very useful when parsing web server log files</li>
-<li>to disable/enable search highlighting just <code>-G</code></li>
-<li>any other launch option can be called from inside less, pretty convenient</li>
-</ul>
+<p>I also found out that this vaping practice is very geeky. The hardware part is
+quite elaborate, vaping devices are really neat piece of work, there are a
+bunch of vendors. The liquidware is also quite a subject of hacking.
+Technically it&rsquo;s not that hard to do it yourself. Not surprising that I
+discovered this vaping practice in geeks circles.</p>
 
             </div>
           </section>
         
           <h1 class="content-subhead">
-  2014-06-12
+  2015-03-29
   <p class="post-meta">
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
     
     
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-s3" href="http://blog.mose.com/tags/s3">s3</a>
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
     
     
   </p>
@@ -251,179 +154,38 @@ end
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2014/06/12/s3-backups" class="post-title">S3 backups</a>
-            </header>
-
-            <div class="post-description">
-              <p>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).</p>
-
-<ul>
-<li><a href="http://meskyanichi.github.io/backup/v4/">http://meskyanichi.github.io/backup/v4/</a></li>
-</ul>
-
-<p>But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</p>
-
-<p>So I added a small trick there:</p>
-
-<p>in <code>Backup/models/backup_audio.rb</code></p>
-
-<pre><code class="language-ruby">module Backup::Syncer::Cloud
-  class Base &lt; Syncer::Base
-    def process_orphans
-      if @orphans.is_a?(Queue)
-        @orphans = @orphans.size.times.map { @orphans.shift }
-      end
-      &quot;Older Files: #{ @orphans.count }&quot;
-    end
-  end
-end
-
-Backup::Model.new(:backup_audio, 'Audio files Backup to S3') do
-
-  before do
-    system(&quot;/Backup/latest_audio.sh&quot;)
-  end
-
-  after do
-    FileUtils.rm_rf(&quot;/tmp/streams&quot;)
-  end
-
-  ##
-  # Amazon Simple Storage Service [Syncer]
-  #
-  sync_with Cloud::S3 do |s3|
-    s3.access_key_id     = &quot;xxx&quot;
-    s3.secret_access_key = &quot;xxx&quot;
-    s3.bucket            = &quot;bucket_backup&quot;
-    s3.region            = &quot;us-east-1&quot;
-    s3.path              = &quot;/mb_audio_backup&quot;
-    s3.mirror            = false
-    s3.thread_count      = 50
-
-    s3.directories do |directory|
-      directory.add &quot;/tmp/streams&quot;
-    end
-  end
-end
-</code></pre>
-
-<p>and in <code>Backup/latest_audio.sh</code></p>
-
-<pre><code class="language-bash">#!/bin/sh
-# isolate files changed in the last 3 days
-
-TMPDIR=/tmp/streams
-
-mkdir $TMPDIR
-for i in `find /storage/audio/ -type f -cmin -4320`; do
-  ln -s $i $TMPDIR
-done
-</code></pre>
-
-<p>It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &lsquo;amazonian&rsquo; reason) it will be caught on the next daily backup.</p>
-
-<p>The result was pretty obvious on our disk usage with our daily backups:</p>
-
-<img src="http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png" alt="graph" class="pure-img" />
-
-
-
-<p>in the logs:</p>
-
-<pre><code>[2014/06/10 07:00:25][info] Summary:
-[2014/06/10 07:00:25][info]   Transferred Files: 5
-[2014/06/10 07:00:25][info]   Older Files: 22371
-[2014/06/10 07:00:25][info]   Unchanged Files: 16
-[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
-[2014/06/10 07:00:25][info] Backup for 'Audio files Backup to S3 (backup_audio)' Completed Successfully in 00:00:22
-[2014/06/10 07:00:25][info] After Hook Starting...
-[2014/06/10 07:00:25][info] After Hook Finished.
-</code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-04
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/06/04/make-a-gem" class="post-title">Make a gem</a>
+              <a href="http://blog.mose.com/2015/03/29/greenruby-112" class="post-title">Greenruby 112</a>
             </header>
 
             <div class="post-description">
               
 
-<p>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:</p>
+<h2 id="green-ruby-new-generation:e04937da80b109c53cab9bf63b0a6b99">Green Ruby New Generation</h2>
 
-<h2 id="make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e">Make a Rubygems account</h2>
+<p>We had this week a very productive meeting with xenor and tysliu in our
+preferred coffee shop. I explained more in detail my workflow and my quality
+criterias. So now they can feed the links section and become the major editors
+of Green Ruby. I Still keep the role of the publisher. I get their links, I
+clean up stuff, verify freshness and reachability, remove superlatives, fix
+category if needed.</p>
 
-<ul>
-<li>first ensure create an ccount on <a href="https://rubygems.org/">https://rubygems.org/</a></li>
-<li>initialize your credentials:</li>
-</ul>
-
-<pre><code>curl -u username https://rubygems.org/api/v1/api_key.yaml &gt; ~/.gem/credentials
-Enter host password for user 'username':
-
-chmod 0600 ~/.gem/credentials
-</code></pre>
-
-<h2 id="prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e">Prepare the code</h2>
-
-<p>These steps are my typical path, nothing is really mandatory there.</p>
-
-<ul>
-<li>create a repo at github (or wherever you want)</li>
-<li>create a base gem skeleton <code>bundle gem mycoolgem</code></li>
-<li>update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information</li>
-<li>create a CHANGELOG.md because when you publish something you need a clear log of your version changes</li>
-<li>enable the tracking on <a href="https://codeclimate.com/">codeclimate</a>, <a href="https://travis-ci.org/">travis</a>, <a href="https://coveralls.io/">coveralls</a>, <a href="https://gemnasium.com">gemnasium</a></li>
-<li>add badges from <a href="http://shields.io">http://shields.io</a> in the README.md because it helps to qualify the state of the code quickly</li>
-<li>when the gem code don&rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with <code>spec.version  = File.read(File.expand_path('../CHANGELOG.md', __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]</code>
-(so then when I version bump there is only one file to edit)</li>
-<li>write the code (or copy it from the private app you extract it from)</li>
-<li>add a spec/ or test/ dir and write some tests and try to reach a decent coverage</li>
-</ul>
-
-<h2 id="release-it:a6c8c79e924ce88903bef7ff7392e41e">Release it</h2>
-
-<ul>
-<li>add the date in the changelog for the current version</li>
-<li><code>rake release</code></li>
-<li>bump the version to the next increment in the changelog (and version file if any)</li>
-</ul>
-
-<p>Overall with the initial bundle command and the final rake task for release, it&rsquo;s pretty straightforward.</p>
-
-<p>Also check <a href="http://guides.rubygems.org/make-your-own-gem/">http://guides.rubygems.org/make-your-own-gem/</a></p>
+<p>Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy
+lifting and they are the reason why Green Ruby is still in your mailbox every
+week.</p>
 
             </div>
           </section>
         
           <h1 class="content-subhead">
-  2014-05-27
+  2015-03-22
   <p class="post-meta">
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
     
     
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
     
     
   </p>
@@ -432,237 +194,515 @@ chmod 0600 ~/.gem/credentials
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2014/05/27/gem-reverse-dependencies" class="post-title">Gem reverse dependencies</a>
-            </header>
-
-            <div class="post-description">
-              <p>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).</p>
-
-<pre><code class="language-ruby">ruby -ropen-uri -rpp -ryaml \
-     -e 'pp YAML.load(open(&quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&quot;))'
-
-[&quot;metric_fu&quot;,
- &quot;flyerhzm-metric_fu&quot;,
- &quot;edouard-metric_fu&quot;,
- &quot;devver-metric_fu&quot;,
- &quot;goldstar-metric_fu&quot;,
- &quot;socializer&quot;,
- &quot;trollface&quot;,
- &quot;guard-rails_best_practices&quot;,
- &quot;rferraz-metric_fu&quot;,
- &quot;git-hooks-helper&quot;,
- &quot;odor&quot;,
- &quot;rake_check&quot;,
- &quot;koality&quot;,
- &quot;danmayer-metric_fu&quot;,
- &quot;bf4-metric_fu&quot;,
- &quot;metrics_satellite&quot;,
- &quot;code_hunter&quot;,
- &quot;kinit&quot;,
- &quot;rails-audit&quot;,
- &quot;pronto-rails_best_practices&quot;,
- &quot;free_disk_space&quot;,
- &quot;warder&quot;,
- &quot;ruby_osx_app&quot;,
- &quot;sanelint&quot;]
-</code></pre>
-
-<p>Out of curiosity I counted some wellknown gems usages by adding a <code>.count</code> at the end:</p>
-
-<pre><code>rake:    23766
-rails:   6283
-thor:    2786
-pry:     2870
-sinatra: 1964
-devise:  422 
-</code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-22
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/22/hackpad-cli" class="post-title">Hackpad cli</a>
-            </header>
-
-            <div class="post-description">
-              <p>In Faria we use hackpad a lot, it&rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.</p>
-
-<ul>
-<li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
-</ul>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-15
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-vim" href="http://blog.mose.com/tags/vim">vim</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles" class="post-title">Eddie Vim and rcfiles</a>
-            </header>
-
-            <div class="post-description">
-              <p>Mose sometimes uses vim on the side of ST3, and can&rsquo;t do it without the pretty good eddie kao set of config files.</p>
-
-<p>Check it out at <a href="https://github.com/kaochenlong/eddie-vim">https://github.com/kaochenlong/eddie-vim</a> it&rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo <a href="https://github.com/mose/rcfiles">https://github.com/mose/rcfiles</a> with an installer that I runs when I install a new server.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-08
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-sublimetext" href="http://blog.mose.com/tags/sublimetext">sublimetext</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext" class="post-title">Dictionnary in sublimetext</a>
-            </header>
-
-            <div class="post-description">
-              <p>I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to <code>cmd-shift-p</code> and install a package called <code>Dictionnaries</code>. Then by hitting <code>F6</code> you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&rsquo;t you ?).</p>
-
-<p>The spellcheck auto-highlight can be enabled for specific file extensions (like .md files) by adding</p>
-
-<pre><code>&quot;spell_check&quot;: true
-</code></pre>
-
-<p>in <code>preferences &gt; Settings - more &gt; Syntax specific - user</code> (while having a markdown page open)</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-01
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a><a class="post-tags post-tags-ssh" href="http://blog.mose.com/tags/ssh">ssh</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/01/ssh-to-socket" class="post-title">SSH to socket</a>
-            </header>
-
-            <div class="post-description">
-              <p>I use a special trick because he&rsquo;s often ssh&rsquo;ing all over the place. Add in your <code>.ssh/config</code></p>
-
-<pre><code>Host *
-  ControlMaster auto
-  ControlPath /tmp/%r@%h:%p
-</code></pre>
-
-<p>It will save your first connection to a host as a socket in <code>/tmp</code> and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2013-04-07
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/old-tumblr-site">old tumblr site</a>
-    
-    
-      <a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2013/04/07/about-green-ruby" class="post-title">About Green Ruby</a>
+              <a href="http://blog.mose.com/2015/03/22/greenruby-111" class="post-title">Greenruby 111</a>
             </header>
 
             <div class="post-description">
               
 
-<p><a href="http://greenruby.org/">Green Ruby</a> is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.</p>
+<h2 id="drones-and-makers:84bb7b31097e7dff868fbef479daafb5">Drones and makers</h2>
 
-<h2 id="genesis:1c34dfda6e65228c3dbbf6fb2d30812e">Genesis</h2>
+<p>This is now obvious. We are going to get invaded by drones. Of course we will
+pretend we control them, for a while. But I can bet it&rsquo;s not going to stand
+too long. Their autonomy is a competitive factor, and, in our current society,
+competitive is the Darwinian selective factor. It can be a bit scary.</p>
 
-<p>The Newsletter began in june 2012 from the habit I had to send weekly newsletter in <a href="http://codegreenit.com/">Codegreen</a> for our team to know what is happening in our company,. That was purely a teamwork tool for general transparency. But with time passing I also included there some links to what I was finding around that would be of interest for my geek colleagues.</p>
+<p>But on another hand, when we geeks look at those things with our (never-aging)
+kids eyes, we see fun toys. Look at the <a href="http://www.bgobeyond.co.uk/">B Flying car</a>. We can
+<a href="http://diydrones.com/">do them ourselves</a>. Like we were able to tinker with the first computers, the
+first radio stations. But now we have 3D printing. Yet not that affordable,
+but it seems to get better. There is also that creepy <a href="http://the3doodler.com/">3Doodler</a>
+thingie, and various other new techniques.</p>
 
-<p>That CodeGreen Internal newsletter began to be cluttered with various links at the bottom of it. So I decided to separate that links gathering bunch in another newsletter. But then it could also be useful for my friends, out of the scope of our team.</p>
+<p>Maybe the Makers movement is the hope for humanity. Reclaim the daily small
+things! Check that <a href="http://www.instructables.com/">instructable</a> website it&rsquo;s a lot of fun.</p>
 
-<h2 id="green-birth:1c34dfda6e65228c3dbbf6fb2d30812e">Green Birth</h2>
+<p>Well yeah this all has nothing to do with webdev. Except from the fact that
+open standards made possible to people like me to do the web myself. After a
+time, it became a professional activity. Will we get professional makers in
+the future and see a revival of craftsmanship? I really wonder.</p>
 
-<p>At that time I had to test <a href="http://mailchimp.com/">Mailchimp</a> service for one of our projects, so because they offer a free package when volume is not too big, I thought I should just create that newsletter as a public freely available publication.</p>
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-03-15
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
 
-<p>So in february 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well, mostly our team :) Then it became a weekly habit, so I got a domain name for it, and organically it’s growing slowly.</p>
+          <section class="post">
+            <header class="post-header">
 
-<h2 id="the-redactor-gear:1c34dfda6e65228c3dbbf6fb2d30812e">The redactor gear</h2>
+              <a href="http://blog.mose.com/2015/03/15/greenruby-110" class="post-title">Greenruby 110</a>
+            </header>
 
-<p>Codegreen paid for my <a href="http://newsblur.com/">Newsblur</a> account so I can follow a bunch of feeds. Google reader was my first tool but well, they are closing, and actually Newsblur is much better. It’s open source and the guy that makes it does a great job (too bad it’s in python and not in ruby).</p>
+            <div class="post-description">
+              
 
-<p>I’m also loading a bunch of podcasts on my phone and after having tried a lot of podcast softwares I’m really happy with <a href="http://www.podkicker.com/">Podkicker</a>, it’s just very convenient and it has all I need with the free version. So in my 40 minutes commuting to go to work, I just get the ears busy. I tried to use <a href="https://gpodder.net/user/mose">Gpodder</a> but it’s not totally perfect and the support in podcast clients is not as good as it should be. So I don’t stick on it, maybe it will evolve and I will get back to it.</p>
+<h2 id="time-to-upgrade:d4567cfa55308712270d1f5b73098130">Time to upgrade</h2>
 
-<p>But I also get a lot of news by just wandering around on <a href="https://geekli.st/">Geekli.st</a>, on <a href="https://coderbits.com/">Coderbits</a>, hacker news, and I subscribed to a bunch of various newsletters. I also watch teh new gems feeds from <a href="https://twitter.com/RubyGemsAlt">@rubygems-alt</a> and I retweet stuff of interest on <a href="https://twitter.com/cogtw">@cogtw</a> account (those 2 are my alternate twitter identities).</p>
+<p>This is a long time I plan to re-engineer the way Green Ruby is produced. Last
+week I told Xenor and Simon I was thinking about giving it a break. I&rsquo;m not
+that much anymore in the flow. Now my days are full ops and not that much dev.
+But the guys didn&rsquo;t want to let me stop.</p>
 
-<p>Each week <a href="https://github.com/tubaxenor">William</a> (aka xenor) also sends me a list of links. But I definitely don’t use any facebook feeds. For some reason, this is a place I avoid the most I can.</p>
+<p>So we are going to organize things a little differently. Xenor and Simon,
+which are full time rails developers, are going to handle the content more
+extensively, and I will just manage the publication, plus some devops links.
+So we need to get some tools ready to handle that new flow. Maybe, the time it
+gets ready, we will take some time off. Maybe not.</p>
 
-<h2 id="what-next:1c34dfda6e65228c3dbbf6fb2d30812e">What next ?</h2>
+<p>What I wish is to have a way to let more people jump in, too. Maybe we will
+get inspiration in how <a href="http://thechangelog.com/trello-as-a-cms/">the changelog</a> manages their news
+flow. They based it on a <a href="http://trello.com">Trello</a> and it&rsquo;s quite clever. By chance I
+explored the trello API recently and I can tell it&rsquo;s really good, very
+suitable for custom automation.</p>
 
-<p>My ambition there is to keep it non-commercial, and change it to be more community driven. The preparation of the letter is eating a big part of my saturdays for the last 13 weeks and I don’t think I can keep up the same pace for long time.</p>
+<p>This week, I will play lazy on the podcasts. I don&rsquo;t think they are that much
+interesting anyways, and all that copy-pasting is exhausting. When some
+podcasts stands out of the crowd, I will rather feature it in this rant.</p>
 
-<p>The idea I have about the community driven thing is by engineering some automation on the news gathering (to replace newsblur), have a place where the news can be triaged by various people, a little bit like it is on <a href="https://news.ycombinator.com/">Hacker News</a> with a vote system. But the gathering won’t limit to blog posts and rss feeds, there would also be podcasts and video feeds. There is now a lot of possibilities in automation on feeds aggregation. I worked on a project that already does that feeds aggregation, named “the Blux”. And I expect to replicate parts of it for my Green Ruby Engine.</p>
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-03-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
 
-<p>But also, as usual, this project is also an occasion to play with recent technologies or stuff I want to know more about, otherwise where is the fun ? So here comes <a href="http://emberjs.com/">Ember.js</a>, on the top of <a href="http://www.sinatrarb.com/">Sinatra</a> with <a href="http://www.mongodb.org/">mongoDB</a>, and there will be much more on the road (thinking about trying <a href="http://af83.github.io/sponges/">Sponges</a> too).</p>
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/03/08/greenruby-109" class="post-title">Greenruby 109</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="about-blogging:111d43eaf8a2a6adad496f0417e7f52c">About blogging</h2>
+
+<p>Well, since that whole blogging thing began, I never have been very active on
+it. Well, I have a <a href="http://blog.mose.com">blog</a> on Tumblr because I wanted to know how they
+are doing it, I published various posts in the <a href="http://devtips.faria.co/authors.html#mose-ref">faria devtips</a>, and
+after all, this rant could also count as a publication. So I think I will
+gather them all under one unique site. A Jekyll github-pages kind, easy and
+cheap.</p>
+
+<p>After all, I&rsquo;m not sure the devtips website will stay up any longer. There
+have been no post since the day I left. Too bad. It&rsquo;s a demonstration that
+some collective actions can sometimes rely only on the energy of one person.</p>
+
+<p>So, I made a <a href="http://mose.github.io/blog">new repo</a> on github for it, and I will gather whatever
+stuff I can find that I wrote in there.</p>
+
+<h2 id="lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c">Lovely FreeBSD</h2>
+
+<p>At our Gandi office in Taipei I had to install a <a href="https://www.pfsense.org/">pfsense</a> server,
+which is based on <a href="https://www.freebsd.org/">FreeBSD</a>. It was quite a pleasant experience,
+actually. Last time I played a bit with BSD that was 12 years ago, and that
+was not very smooth. I&rsquo;m happy to be given that occasion to see how it goes
+now.</p>
+
+<p>For now I&rsquo;m going to use it like if it was an <a href="https://openwrt.org/">OpenWRT</a> with some
+extra <a href="https://openvpn.net/index.php/open-source.html">OpenVPN</a> abilities. And it will also be a file server for the
+LAN. Not sure yet how I will handle that.</p>
+
+<h2 id="ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c">Ruby package management</h2>
+
+<p>When I got in my new job, I discovered a new way to manage server management.
+They didn&rsquo;t want to use <a href="http://rvm.io/">rvm</a>, or even <a href="https://rubygems.org/">ruby gems</a>, or
+<a href="https://pip.pypa.io/en/latest/">pip</a> or anything that is not debian packages. It may sound quite harsh.
+Since I came in ruby in 2010, rvm has been my best friend, bundle the second
+one. But this approach is very developer-based. When you maintain large and
+stable systems, it&rsquo;s more likely that you will not trust the bleeding edge
+stuff and prefer confirmed publication of packages before using them. This is
+an interesting slap on my face.</p>
+
+<p>Of course there are the <a href="https://www.brightbox.com/docs/ruby/ubuntu/">brightbox</a> packages for Ubuntu, but that&rsquo;s
+missing the point. A release has to be out for a certain time so it can be
+strengthened by security reviews and proper production usage. There is a part
+of the population for each language that is considering the instability of
+current releases a normal trade-off. but there is a huge lot of other
+companies that will wait patiently that things get stable enough for their
+taste.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-03-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/03/01/greenruby-108" class="post-title">Greenruby 108</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="working-abroad:a0091e7eb1dfeca477447c7e0b2e6425">Working abroad</h2>
+
+<p>Our craft as webdev is clearly in huge demand. This provides an opportunity
+for us to travel abroad, discover new cultures, widen our horizon. When I went
+to live in Taiwan, I was not worried about finding a job. But when hunting for
+a job abroad it can be tricky to find companies that will sponsor a visa, a
+work permit, or whatever legal requirement is involved in each countries.</p>
+
+<p>That&rsquo;s what the new initiative called <a href="http://techmeabroad.com">TechMeAbroad</a> aims to fix, by
+listing only job opportunities for which a work permit is sponsored. As
+<a href="http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad">Julien Barbier explains</a>, it will launch in march, and if you know of any
+job offers that includes a visa or such thing, please let him know (or send it
+to me I will pass it along), so we can feed that platform with some real data
+quickly.</p>
+
+<h2 id="so-long-ruby-1-9:a0091e7eb1dfeca477447c7e0b2e6425">So long ruby 1.9</h2>
+
+<p>As planned, it&rsquo;s now time to say <a href="https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/">byebye to ruby 1.9.3</a>. But there is still
+so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
+In wheezy, you have 1.9. And there are still many servers that will refuse to
+upgrade.</p>
+
+<h2 id="pick-your-hero:a0091e7eb1dfeca477447c7e0b2e6425">Pick your hero</h2>
+
+<p>The registration for <a href="http://rubyheroes.com/">Ruby Heroes 2015</a> is now open. Go vote for your
+favorite ruby influential dev. You have until <a href="http://railsconf.com/">railsconf</a> that will happen
+in april, in Atlanta this year.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-02-22
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/22/greenruby-107" class="post-title">Greenruby 107</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="happy-year-of-the-goat:a9be2ef830fd7cbccc6ae0de53135b81">Happy year of the Goat</h2>
+
+<p>Here it was Chinese New Year this week. A good occasion for those who are not
+familiar with chinese state of the web to read about its <a href="http://designbeep.com/2015/02/20/free-download-chinese-new-year-icon-pack-50-icons/">web design trends 2015</a>.
+This article is pretty deep and reflects accurately how China uses
+its connectivity.</p>
+
+<p>So, xin nian kuai le, and of course, gong xi fa cai. And if you need related
+icons, <a href="http://designbeep.com/2015/02/20/free-download-chinese-new-year-icon-pack-50-icons/">here are some</a>.</p>
+
+<h2 id="hello-in-firefox:a9be2ef830fd7cbccc6ae0de53135b81">Hello in Firefox</h2>
+
+<p>Now that I&rsquo;m working from Taiwan with a French company, I was have been
+searching for a decent solution for video conferencing. Because skype and
+google-hangouts are just not things I like to use. I found out that new
+versions of firefox include by default a one to one webrtc feature, named
+<a href="https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online">Hello</a>. It works pretty nicely. I also tried out <a href="https://glideroom.com/">Glideroom</a> and
+<a href="https://hu.tt/">Hutt</a>. There are also heavier solutions that I tried in the past like the
+<a href="http://bigbluebutton.org/">big blue button</a>.</p>
+
+<p>Unfortunately some dude in the ops team pointed out that webrtc was <a href="https://blog.ipvanish.com/webrtc-security-hole-leaks-real-ip-addresses/">not
+secure</a>, so it&rsquo;s not likely to become a standard for us. Hrum, well, that&rsquo;s
+debatable how proprietary solutions are more secure. There is no way to get it
+figured out. Anyways Webrtc became a <a href="http://www.w3.org/TR/2015/WD-webrtc-20150210/">w3c standard</a> recently, and the
+section 12, named security, says: TBD. Let&rsquo;s hope it will be done properly.</p>
+
+<p>Any of you have some first hand experience with any alternative video
+conference system, please send me a mail with your feedback.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-02-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/08/greenruby-105" class="post-title">Greenruby 105</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="damn-omnivore:f97d1953e92cfdfb05d8ef20de1a8b30">Damn omnivore</h2>
+
+<p>Last week Green Ruby was sent with a delay. For some obscure reason my
+publication was blocked by <a href="http://mailchimp.com/omnivore/">Omnivore</a> the automated fraud detection system
+from Mailchimp. My account was instantly blocked and it was pending a human
+review. Of course the human review made it clear that the publication was
+clean but it took 2 days and I still don&rsquo;t know why this omnivore beast went
+mad at me.</p>
+
+<p>They declare it&rsquo;s getting smarter everyday, but really, we are still safe. The
+reign of the intelligent computer over the human species is not close yet.</p>
+
+<h2 id="make-it-static:f97d1953e92cfdfb05d8ef20de1a8b30">Make it static</h2>
+
+<p>Dynamic websites are great. But that&rsquo;s a long time I wonder about the
+trade-off. If you update your blog every day, and have 500 visits, your
+dynamic setup is useful when you edit, and it&rsquo;s a cost for each visitor. There
+are so many web applications that could be more clever about it. Especially
+that now the computation is going more and more client side.</p>
+
+<p>Static pages have a really unbeatable response time, their security is really
+reliable, they are low dependencies and easy to deploy with a rsync.</p>
+
+<p>When I get to think about making a new website, I always ask myself if it&rsquo;s an
+application or a website. For sure some kind of applications are computation
+intensive. Making it all dynamic could make sense. But frankly, if it&rsquo;s a
+website, it can have some fancy dynamic features without a huge dynamic setup.</p>
+
+<p>I have seen so many websites made with php, mysql, 5 tables and 20 entries in
+each. Such site should have pre-generated content, data available as static
+json files, as a bit of js to make the magic happen. If there is a lot of
+data, fine, an API server makes sense.</p>
+
+<p>So next time you gotta prepare a website, ask yourself how easy it could be to
+generate it and use tools like <a href="http://jekyllrb.com/">Jekyll</a> or <a href="https://middlemanapp.com/">Middleman</a>. Or you can even
+handle things with custom rake tasks (<a href="https://github.com/greenruby/grn-static/blob/master/lib/builder.rb#L87">like I do for Green Ruby website</a>),
+that&rsquo;s not that hard. It&rsquo;s a matter of cyberspace ecology.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-02-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/01/greenruby-104" class="post-title">Greenruby 104</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="ghost:fba0bb1f68d1414085590cced7805ffa">Ghost</h2>
+
+<p>You certainly heard about it, this week there was a new huge Linux
+<a href="http://www.openwall.com/lists/oss-security/2015/01/27/9">vulnerability on glibc</a> revealed. Actually it was leaked by a stupid
+communication agency few hours before it should have been announced. When such
+big bug is discovered usually there is a small period of time where the news
+spread into some limited circles. They keep it embargoed until major distro
+vendors get patched packages ready. Well, it didn&rsquo;t go that well this time.</p>
+
+<p>This vulnerability is pretty nasty even if less obvious to exploit than
+Heartbleed or shellshock, it&rsquo;s probably in the same category. If you manage
+servers that are vulnerable (LTS and stable, less up to date versions,
+mostly), you better upgrade asap. When a bug gets its own name (this one is
+called Ghost), it seems to be the sign it requires immediate attention. How
+long is this trick going to work?</p>
+
+<p>And, as we talk about security, Hipchat users should read this (unnamed)
+<a href="https://blog.hipchat.com/2015/02/01/hipchat-security-notice-and-password-reset/">security notice</a>.</p>
+
+<h2 id="2-years:fba0bb1f68d1414085590cced7805ffa">2 years</h2>
+
+<p>This edition is marking the 2 years anniversary of Green Ruby. For 104 weeks
+I&rsquo;ve been sending out this newsletter every week. Last week I had a discussion
+with a friend, he was asking me what was my drive, and what was the reason of
+my consistency. Well, there are various reasons.</p>
+
+<p>First there is the routine aspect. It&rsquo;s like practicing Taichi or some kind of
+exercise. It keeps the mind fresh, and in this context where things change
+pretty fast, enforcing a weekly review gave me an overall feeling of symbiosis
+with the wave of what&rsquo;s going on.</p>
+
+<p>Second is the philosophy of it: this newsletter is a gift. The ruby world is
+very business oriented. There is a lot of open source in there but still the
+average spirit is based on a market economy. There are of course many
+exceptions, I wanted to be one of them, and I believe a gift economy would be
+more my thing. You get rich of what you give away, not always individually,
+but most definitely collectively. I like that feeling.</p>
+
+<p>Third, this media keeps me in touch with a bunch of my friends. It&rsquo;s like a
+beacon that I send to the people I left behind when I left France to go live
+in Taiwan. Or people I worked with in my past jobs in Taiwan, even. They don&rsquo;t
+often respond to it but I know they can perceive me through this weekly proof
+of existence.</p>
+
+<p>Also, there is the support from xenor and more recently from simon, which, by
+sending me a few links each weeks, validate the need to keep things going.</p>
+
+<h2 id="trello-and-irc:fba0bb1f68d1414085590cced7805ffa">Trello and irc</h2>
+
+<p>For as long as I remember, I always have been coding irc bots. In so many
+languages. I suspect there is some aspect of this that appeals to me. Maybe
+the creation of life-like pattern. Anyways, my last bot was of course in ruby,
+I called it <a href="https://github.com/mose/cogbot">cogbot</a>, and is based on the great <a href="https://github.com/cinchrb/cinch">cinch</a> framework. It has
+been sleepy for a while, since we were not using irc in Faria.</p>
+
+<p>But Gandi is heavy irc user, and our recent experiments on trello gave me an
+occasion to get cogbot out of the dust. As a matter of fact <a href="https://trello.com">Trello</a> has a
+really <a href="https://trello.com/docs/">great API</a>, and also supports webhooks. So I added a trello
+listener to cogbot, and it was a lot of fun. Maybe next I will add some cards
+creation and update features in that bot, but it requires some kind of users
+management, which, on an irc bot, is not that trivial to implement.</p>
+
+<h2 id="free-your-code:fba0bb1f68d1414085590cced7805ffa">Free your code</h2>
+
+<p>Do you have a side project? You should! Maybe the code you produce at work can
+be generic enough? This is a call for you to consider freeing your code. Open
+source community is plentiful but I know as a fact that 90% of the code that
+could be shared is not shared.</p>
+
+<p>There is something I noticed in my own code publication. Often in my work
+there are constraints of time that lead to trade-offs and code quality is
+never as good as I wish it was. By working on side projects, the pace is much
+more relaxed and I can spend hours focusing on non productive efforts to make
+my code better. Well, this is not to say that side project code is perfect,
+but the environment of producing it brings another mindset. And after a while,
+the code produced at work gets naturally more insightful because of this extra
+practice.</p>
+
+<p>Give it a try, if you happen to have some free time. If you don&rsquo;t have free
+time, you&rsquo;re doing something wrong. But that&rsquo;s another story.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-01-25
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      <a class="post-origin" href="http://blog.mose.com/origin/greenruby">Greenruby</a>
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-desktop" href="http://blog.mose.com/tags/desktop">desktop</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/01/25/greenruby-103" class="post-title">Greenruby 103</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="more-screens:d021634982f7dcb44b802e2a3d2040a7">More Screens</h2>
+
+<p>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
+wanted to have on linux the same screen experience that I had with the macbook
+pro connected to 2 thunderbolts. So I got an <a href="http://www.asus.com/us/Notebooks_Ultrabooks/ASUS_ZENBOOK_UX301LA/">asus UX301L</a> plus 2
+<a href="http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&amp;cs=audhs1&amp;l=en&amp;redirect=1&amp;s=dhs&amp;sku=210-40773">Dell screens U2713HM</a> who supports a 2560x1440 resolution. The laptop in itself
+is amazing, dazzling fast, and all worked well with an ubuntu install. This
+was not cheap but that was a while I didn&rsquo;t spend anything on hardware.</p>
+
+<p>I struggled a bit to find the proper connectors so I could enable the extra
+large resolution on connected screens. I ended up using the mini-hdmi
+connector plus a mini-display port converter to DVI for the second one. And
+finally it worked last week. I had to <a href="http://www.arunviswanathan.com/node/53">force the resolution in xrandr</a> and
+now I have a damn huge double display for a total of 7680x1440. What a blast!</p>
+
+<h2 id="debian-i3wm-and-urxvt:d021634982f7dcb44b802e2a3d2040a7">Debian, i3wm and urxvt</h2>
+
+<p>Well this is an old story. Some time ago I switched from debian + fvwm2/ion to
+ubuntu + cinnamon just because I had to know about it. The goal was to be able
+to convince my wife (and some other non-techies) to switch to ubuntu. But I
+had to know how it worked on a daily basis. And it was a success for most of
+it.</p>
+
+<p>2 years ago at Faria I was given a mac. Well, it was good to know a bit more
+about it, my mac knowledge was dating from system 6.7 time. But if the
+hardware is really good, the OSX experience didn&rsquo;t really satisfy the geek
+that was deep inside me.</p>
+
+<p>Then I got back into a team that is deeply attached to pure linux traditions,
+when I joined Gandi. I now switched back to a debian jessie with <a href="https://i3wm.org/">i3wm</a> on
+my work laptop. Wow this feels good to be back to such a rude but flexible
+environment. As a matter of fact all went perfectly well and all the tricks I
+knew 10 years ago are still very valid.</p>
+
+<p>I also took that occasion to get back into urxvt, for my terminal emulator.
+It&rsquo;s a very badly documented over-powerful tool. But when you get the grasp on
+it, possibilities are much more satisfying than with gnome-terminal. I&rsquo;m still
+working on <a href="https://github.com/mose/rcfiles/blob/master/.Xdefaults">my configuration</a> to match few features that gnome terminal had
+(like font resizing, clipboard management). The <a href="https://github.com/mose/rcfiles/blob/master/.urxvt/ext/notification">notification plugin</a>,
+combined with <a href="http://knopwob.org/dunst/index.html">dunst</a>, gives amazing results.</p>
+
+<p>It feels good to be back into the cave. To mark this change, I didn&rsquo;t shave
+for 3 months so now I&rsquo;m really bearded like the old-fashioned linux bears.
+Muhaha!</p>
+
+<p>PS: no worry, I&rsquo;m still fullstack at heart and I still love ruby!</p>
 
             </div>
           </section>
@@ -676,7 +716,7 @@ devise:  422
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 3</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 2 of 5</span>
     
     <a href="http://blog.mose.com/post/page/3/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>

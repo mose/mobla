@@ -6,8 +6,455 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2015 12:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2015 12:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 133</title>
+      <link>http://blog.mose.com/2015/08/23/greenruby-133</link>
+      <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/23/greenruby-133</guid>
+      <description>
+
+&lt;h2 id=&#34;just-met-hugo:7f9ce9f83e9126826117a493b10fad98&#34;&gt;Just met Hugo&lt;/h2&gt;
+
+&lt;p&gt;Some weeks ago I was talking about Octopress. I think pre-generation of
+websites is a very sensible approach. And I heard about &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; for some
+time now. It&amp;rsquo;s like a cousin of Jekyll but writen in Go. The author of
+Middleman (another site generation engine) confessed in a &lt;a href=&#34;https://changelog.com/169/&#34;&gt;recent podcast&lt;/a&gt;
+that he would try the Golang way if he had to start from
+scratch today.&lt;/p&gt;
+
+&lt;p&gt;I got interested into Hugo mostly because one of the side projects I&amp;rsquo;m working
+on. It involves a bunch of people that run on windows. Having a binary that
+runs everywhere is a big plus for a gGo solution. Installing ruby is possible
+on windows, but not really for noobs afaict.&lt;/p&gt;
+
+&lt;p&gt;Also, I want to check more Go projects. I have been playing in and out that
+language for a while now. Version 1.5 seems really great. So I upgraded my
+&lt;a href=&#34;https://github.com/moovweb/gvm&#34;&gt;gvm&lt;/a&gt; and installed the thing. Well, I could havce just used the Hugo
+binary, but where is the fun in that?&lt;/p&gt;
+
+&lt;p&gt;My first impression is very comfortable. It took a lot of the principles form
+Jekyll. But it seems to have some extra options and concepts that may be a
+little more advanced and seem very promising. The theming system is especially
+cool. I will probably first port my own blog under Hugo before porting my
+other project.&lt;/p&gt;
+
+&lt;p&gt;As a matter of fact, that&amp;rsquo;s a while I&amp;rsquo;m considering that I never feed my blog,
+but I should copy the rants I write here in there. It can be fun to add a rake
+task in the greenruby publication process to also add a page in a nearby hugo
+repo and publish it at the same time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 132</title>
+      <link>http://blog.mose.com/2015/08/16/greenruby-132</link>
+      <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/16/greenruby-132</guid>
+      <description>
+
+&lt;h2 id=&#34;sexism-and-competition:db2c111cf24dad5b31c1182c9980822d&#34;&gt;Sexism and competition&lt;/h2&gt;
+
+&lt;p&gt;The ruby community is quite blessed in the way that there are very vocal
+activist promoting diversity, especially on &lt;a href=&#34;http://railsgirls.com/&#34;&gt;gender parity&lt;/a&gt;. It&amp;rsquo;s
+not exclusive to ruby I noticed the same intention in other communities (like
+the &lt;a href=&#34;http://www.pyladies.com/&#34;&gt;pyladies&lt;/a&gt; in python).&lt;/p&gt;
+
+&lt;p&gt;Anybody that spent some years in IT cannot avoid to notice that there are
+mostly guys. The ladies are either frowned upon or very special cases. For
+ages I have been wondering why. My sister is a sysadmin at a university, there
+is nothing shocking about that and she does a damn good job.&lt;/p&gt;
+
+&lt;p&gt;So I paid attention on what are the people responsible for that. I identified
+various categories of people that I consider are responsible of our lack of
+parity. Well, not them directly but the behaviors they perpetuate are
+certainly part of the problem. If we could find a way to correct those
+behaviors, it would lead to a natural change in the group.&lt;/p&gt;
+
+&lt;p&gt;In all those people I know, and in all their behaviors, I think I detected
+something that is related to the Religion Of Competitiveness. Those people are
+believers that knowledge is power and they are not gonna share it more than
+necessary. They will find anything to avoid more people reach their level of
+knowledge. And if they can find some kind of reason to discard other people,
+either trivial and socially acceptable in the given group reason to discard
+other people, they will do. Gender is the first victim in such a schema. What
+is socially acceptable is a self-perpetuated meme.&lt;/p&gt;
+
+&lt;p&gt;Talking to those people is pointless, they are in denial. They see nothing
+wrong. You can&amp;rsquo;t change them. You have to change their environment, that will
+be the only way.&lt;/p&gt;
+
+&lt;p&gt;So it means that in a competition context, there are still ways to win, by
+playing the competition game and winning it. But to break the competition
+paradigm, there is a lot to do. Companies policies are not enough to enforce a
+more open mindset. But I believe that there is ways to organize the
+information in a way that keeping it for oneself devaluates it. And from the
+eradication of the tyranny of knowledge, we shall reach a less
+competition-based culture in IT. And all discrimination pretexts may vanish by
+themselves.&lt;/p&gt;
+
+&lt;p&gt;Rather than fighting for diversity, we should fight against the spirit of
+competition. It&amp;rsquo;s kind of not easy, I reckon, because our society tends to
+push people to be competitive. That&amp;rsquo;s what capitalism is all about. But IT
+population already has proven that the established system don&amp;rsquo;t take hold on
+them. Geeks and techies are educated people (often self-educated, but it&amp;rsquo;s the
+same) and they can think on their own, chose the path to follow. If you can
+find a way, in your context, to change the environment towards less power for
+the competitive type of people, that could deserve a try.&lt;/p&gt;
+
+&lt;p&gt;Well, that&amp;rsquo;s just a rant, a wild thought. Such a topic would deserve more
+space for development. But that&amp;rsquo;s what I wanted to share this week. Anyways I
+doubt there is that much people reading those line hahaha.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 131</title>
+      <link>http://blog.mose.com/2015/08/09/greenruby-131</link>
+      <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/09/greenruby-131</guid>
+      <description>
+
+&lt;h2 id=&#34;octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d&#34;&gt;Octopress 3 and other thoughts&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m currently involved in a community project and I installed a wordpress.
+From time to time I get one up to see how it evolves. But really this thing is
+not to my taste. To much trouble for making simple things. I reckon it can be
+useful for people with no technical knowledge but then they are going to mess
+up everything. The technical advisor still can&amp;rsquo;t be avoided.&lt;/p&gt;
+
+&lt;p&gt;So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the
+previous attempts, I will give a try to the new &lt;a href=&#34;http://octopress.org/&#34;&gt;octopress 3.0&lt;/a&gt;.
+The octopress author &lt;a href=&#34;http://octopress.org/2015/01/15/octopress-3.0-is-coming/&#34;&gt;explains&lt;/a&gt; that he&amp;rsquo;s been doing it all wrong and now
+on version 3.0 he gets back to sort of a collection of gems that plug into
+jekyll. I kind of like the idea.&lt;/p&gt;
+
+&lt;p&gt;Well to be honest I was also tempted to give a try to &lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;phoenix&lt;/a&gt;, but
+I know jekyll already and I don&amp;rsquo;t have that much server resources for that
+community project. Static web always have had my preference. But the idea
+behind Phoenix is appealing. Like any new project it includes the new things
+and don&amp;rsquo;t have to bother about legacy. The channels ideas, creating a stream
+between client and server, sounds very appealing.&lt;/p&gt;
+
+&lt;p&gt;But to get back to why I will prefer jekyll over wordpress, is that my
+contributors are a mess. They don&amp;rsquo;t care about styling, they copy-paste random
+html all over the place and the final look is totally inconsistent. My hope is
+that markdown would limit the possibilities of making a mess. But then I will
+have to propose them the github edit, as a backend, unless I cheat and use
+etherpad-lite as a pre-production backend.&lt;/p&gt;
+
+&lt;p&gt;That &lt;a href=&#34;http://etherpad.org/&#34;&gt;etherpad-lite&lt;/a&gt; thing is amazingly simple, I used sometimes and
+making it accessible behind a single password for everybody makes tings pretty
+direct. But totally unsafe, I reckon. I will probably have to write some kind
+of tool for managing the publication workflow. Hmm, that sounds like fun. If
+you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;share with me&lt;/a&gt; :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 130</title>
+      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
+      <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
+      <description>
+
+&lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
+
+&lt;p&gt;In September 11 and 12 there is a &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;Rubyconf here in Taiwan&lt;/a&gt;. I have
+been at some past editions and it&amp;rsquo;s always a good time to meet people. Because
+we are close to Japan there is usually pretty good ruby core contributors from
+there. We get to see Matz, father of ruby, at each edition. But this time it
+seems that the organizers pulled some kind of special trick and the famous
+&lt;a href=&#34;http://tenderlovemaking.com/&#34;&gt;Aaron Patterson&lt;/a&gt; will be present. And I remember having heard
+&lt;a href=&#34;http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen&#34;&gt;Sarah Allen on rubyrogues&lt;/a&gt; last year, it is the first time she joins
+us in Taiwan too. I think both of them will bring some unique taste to this
+years rubyconf.&lt;/p&gt;
+
+&lt;p&gt;If you looked for an occasion to visit Taiwan, that may be the right time. You
+won&amp;rsquo;t regret it. The ruby community in Taiwan is quite active and Taiwanese
+people are amazingly welcoming to westerners.&lt;/p&gt;
+
+&lt;p&gt;And, if you want to meet the 3 of us, we will all be there. Look around for
+Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
+tirelessly collect links and news, fresh from the week, about ruby and other
+things. And if you see someone with a Gandi T-Shirt, that will probably be me.
+We probably will distribute some green ruby stickers that I still have in
+stock. So then we can make new ones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 129</title>
+      <link>http://blog.mose.com/2015/07/26/greenruby-129</link>
+      <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/26/greenruby-129</guid>
+      <description>
+
+&lt;h2 id=&#34;back-on-tweeting:7ae99486640ad70a650c6bd616a3b6cb&#34;&gt;Back on tweeting&lt;/h2&gt;
+
+&lt;p&gt;I really don&amp;rsquo;t like my phone. As an old timer I&amp;rsquo;m reluctant to trust my
+android, but it would be the same on an iphone. The way applications require
+access to the device, on android, is especially annoying and dishonest. They
+make the slope slippery for the sake of saving seconds in adopting new apps,
+but it&amp;rsquo;s leading to a total remission of users control over their devices.&lt;/p&gt;
+
+&lt;p&gt;But well, I still have a commute several times a week and I use my phone to
+listen to various podcasts. But I recently configured some accounts and some
+news readers, so I also can just do some links curation along the way. So I
+suspect there will be more tweeting on the &lt;a href=&#34;https://twitter.com/greenrubist&#34;&gt;greenrubist&lt;/a&gt; account from
+now on. It helps quite a lot when I want to gather links on every sundays.&lt;/p&gt;
+
+&lt;p&gt;Well, nowadays, most of the links are actually gathered by xenor and tysliu,
+but I always add a few on my own (especially the devops ones). Those 2 guys
+are really doing an amazing demonstration of consistency. After 129 editions,
+we still didn&amp;rsquo;t miss a single one week in our publication. It would not have
+been possible without my buddies. Thanks so much for their contribution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 128</title>
+      <link>http://blog.mose.com/2015/07/19/greenruby-128</link>
+      <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/19/greenruby-128</guid>
+      <description>
+
+&lt;h2 id=&#34;rubyconf-taiwan-2015-cfp:abd434c0512885455cdb7b8467442df0&#34;&gt;RubyConf Taiwan 2015 CFP&lt;/h2&gt;
+
+&lt;p&gt;Hey it&amp;rsquo;s time to give it a try, talking at a rubyconf is a great upgrade for
+any coder. That rubyconf will happen on september 11-12th in Taipei. &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/07/14/rubyconftw-2015-call-for-proposals/&#34;&gt;Check it
+out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;nsa-on-github:abd434c0512885455cdb7b8467442df0&#34;&gt;NSA on Github&lt;/h2&gt;
+
+&lt;p&gt;Looks like someone is trying to fight back a reputation of obscurity. While
+they are still pushing on more invasion of privacy, they also release some
+&lt;a href=&#34;http://fossbytes.com/nsa-open-sources-its-linux-based-cyber-security-tool/&#34;&gt;open source code&lt;/a&gt;. Check the &lt;a href=&#34;https://github.com/NationalSecurityAgency&#34;&gt;NSA github repository&lt;/a&gt;, they
+released something already. &lt;a href=&#34;https://github.com/simp&#34;&gt;Simp&lt;/a&gt; especially has a bunch of puppet
+modules, but it&amp;rsquo;s designed only for redhat kind of systems. Quite an
+interesting move.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 127</title>
+      <link>http://blog.mose.com/2015/07/12/greenruby-127</link>
+      <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/12/greenruby-127</guid>
+      <description>
+
+&lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
+
+&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
+company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
+I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
+the same feeling I have each time I get back to that language. I feel dirty.
+Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder,
+more like an acrobat. And I&amp;rsquo;m far from a purist.&lt;/p&gt;
+
+&lt;p&gt;Some people talk about javascript taking over the world. But that language
+imho just was there at the right place at the right time. By having a runtime
+embedded in browsers and browsers libraries, it has been used to hijack the
+most used software on our computers and mobile devices, to transform them into
+richer clients. Along the way various layers were added to fulfill the need of
+software design, because javascript initial goal was merely DOM manipulation.&lt;/p&gt;
+
+&lt;p&gt;The thing that always stroke me the most with javascript is that despite the
+efforts from ecmascript, it has no formal standard or documentation. It is
+pretty extensively documented, of course, but because the language is pushed
+forward by the implementations rather than from a standard body, it gets a bit
+messy.&lt;/p&gt;
+
+&lt;p&gt;I saw a &lt;a href=&#34;http://cube-drone.com/comics/c/relentless-persistence&#34;&gt;drawing&lt;/a&gt; this week that illustrates the mess quite well. It feels
+like Javascript is waiting for something to come replace it.&lt;/p&gt;
+
+&lt;p&gt;But there is hope with ES6. Seems like in recent years the normative effort on
+the ecmascript standard got some more traction and some more press coverage.
+But I personally don&amp;rsquo;t think it&amp;rsquo;s going to bring the solution. I enjoyed
+reading the &lt;a href=&#34;http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/&#34;&gt;thoughts of Eric Elliot&lt;/a&gt; on that topic but I&amp;rsquo;m not sure
+he&amp;rsquo;s right on everything. But what he&amp;rsquo;s right about, is that there will be an
+after-javascript.&lt;/p&gt;
+
+&lt;p&gt;Unless that after javascript doesn&amp;rsquo;t arrive fast enough and gets useless by
+some new programming paradigm that may appear one day soon. I mean, in the
+next 10 years. At some point, like big data is too complex to be handled by
+human, programming will also get too complex and will be handled by
+algorithms. We already &lt;a href=&#34;http://phys.org/news/2015-07-code-faster-expert.html&#34;&gt;see it coming&lt;/a&gt;. And all programmers will then
+become high end workflow designers or just play with antiquities.&lt;/p&gt;
+
+&lt;p&gt;In this perspective, I think javascript is a great intermediary technology for
+the time being, given its pervasive aspect. It&amp;rsquo;s far from satisfying, but it
+does the job. But the younger generation should keep an eye on higher level
+abstract approaches, like systems architectures, workflow logics, organization
+patterns, because imho that will drive software design in the next 10-20
+years.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 126</title>
+      <link>http://blog.mose.com/2015/07/05/greenruby-126</link>
+      <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/05/greenruby-126</guid>
+      <description>
+
+&lt;h2 id=&#34;digital-generations:2aa08ef814c13d38c5b673b5d5882db4&#34;&gt;Digital Generations&lt;/h2&gt;
+
+&lt;p&gt;I enjoyed very much watching the &lt;a href=&#34;https://www.youtube.com/watch?v=h1TGJJ-F-fE&#34;&gt;keynote from Grady Booch at ICSE&lt;/a&gt;
+last week. He retraces the whole history of computing and software engineering
+in a very talented way.&lt;/p&gt;
+
+&lt;p&gt;Later on I also watched the &lt;a href=&#34;https://www.youtube.com/watch?v=2kEJoWfobpA&#34;&gt;keynote of Stephen Bourne at BSDCan&lt;/a&gt;,
+which also talked about history, but on a specific topic of the creation of
+Unix and the shell.&lt;/p&gt;
+
+&lt;p&gt;Usually, I have to say, I consider myself as an old geek. But I&amp;rsquo;m a kid
+compared to those guys. It made me wonder what are generations based on the
+computerized world. In the physical world it&amp;rsquo;s easy, there are births and
+generations are around 20-30 years long. But in our accelerated time frame in
+the digital age, what is the measure for generations and where are the gaps ?&lt;/p&gt;
+
+&lt;p&gt;We could consider that some breakthrough are the base of generational shifts.
+On the top of my head I would say:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the dinosaurs age, before 70, where computing was just emerging&lt;/li&gt;
+&lt;li&gt;the university age, appearing with the interconnectivity between universities between 70 and 80&lt;/li&gt;
+&lt;li&gt;the personal computer age, between 80 and 94, with various evolutions of pc available to larger audience&lt;/li&gt;
+&lt;li&gt;the hypertext age, between 94 and 2002, start of the public internet, the bubble, the web&lt;/li&gt;
+&lt;li&gt;the online age, from 2002 to 2012, with consolidation of big companies, web 2.0 and all&lt;/li&gt;
+&lt;li&gt;the mobile age, from 2012 to now, even if mobile appeared previously, it dominates since recently&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I can see an average of 8-15 years in the generations that I feel create
+disruptions between each others. People that jump in at one age will suffer a
+gap between their age and the next one. Many won&amp;rsquo;t evolve. Few brave ones will
+constantly update and jump on the next train.&lt;/p&gt;
+
+&lt;p&gt;But the overlap in digital generations is also different than in traditional
+generations. We still have a lot of legacy in our current systems inherited
+form the university age. And they don&amp;rsquo;t seem to die, like the TCP stack or the
+C language.&lt;/p&gt;
+
+&lt;p&gt;The next age may be the one of the Internet of things and the massive required
+switch to IPv6 as default. Which will include automated and autonomous
+systems, because they will be things and not part of a contained system. In
+something like 3 to 5 years, if I follow the same rough pattern I drew above.
+Unless next gap will come with VR and immersive technologies ?&lt;/p&gt;
+
+&lt;p&gt;But I suspect that my simplistic characterization misses all the multi-layered
+aspect of the digital age, between the hardware advancements, the software
+improvements, the usages evolutions, the protocols modifications, the data
+models transformations, etc. I&amp;rsquo;m sure a more complex generational matrix could
+be designed if some more thought was given to it. But the gaps are real.&lt;/p&gt;
+
+&lt;p&gt;It feels to me that people that predict that machines are going to take over
+the world are actually late, it already happened 40 years ago. It was just
+having a limited impact on people lives. Each digital generation dragging more
+human in its trails.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t let yourself enclosed in a generation. Our computer overlords won&amp;rsquo;t make
+any effort to include you if you drag your feet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 125</title>
+      <link>http://blog.mose.com/2015/06/28/greenruby-125</link>
+      <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/06/28/greenruby-125</guid>
+      <description>
+
+&lt;h2 id=&#34;a-taste-of-freebsd:2e9f17a4684b1292d2dd8dbb76b48337&#34;&gt;a taste of FreeBSD&lt;/h2&gt;
+
+&lt;p&gt;This weekend I installed &lt;a href=&#34;http://freebsd.org&#34;&gt;FreeBSD&lt;/a&gt; 10.1 on a disk of my desktop.
+Beyond the fact that we are using that system at work, more and more, I was
+just curious about the setup for a desktop. I was pleasantly surprised and
+everything went very smoothly.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very
+easy. The general impression is that actually the system is simpler than on
+Linux, maybe more consistent. The pkg system, alternative to the traditional
+ports system, makes thing much more &amp;lsquo;out of the box&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;And for the rest, well, in one afternoon, and just by following the doc, I had
+my window manager up and running, and ready to begin playing with
+&lt;a href=&#34;https://wiki.freebsd.org/bhyve&#34;&gt;bhyve&lt;/a&gt;. I was surprised to see that bhyve kernel modules were included
+by default in recent releases. I heard there are still some bumps on the road
+for laptop about the sleep to disk mode, but I&amp;rsquo;m not concerned by that.&lt;/p&gt;
+
+&lt;p&gt;It feels like BSD is a shy actor that actually powers much more stuff that we
+can suspect. But it has a pretty active community and a very decent
+documentation. Well, give it a try if you like playing with various
+distributions of free and open operating systems. It&amp;rsquo;s much less scary that
+its reputation seems to convey.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 124</title>
+      <link>http://blog.mose.com/2015/06/21/greenruby-124</link>
+      <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/06/21/greenruby-124</guid>
+      <description>
+
+&lt;h2 id=&#34;the-yin-and-yang-of-software-development:aff213456bcfa77c48418a9edd40a18a&#34;&gt;The yin and yang of software development&lt;/h2&gt;
+
+&lt;p&gt;The topic I talked about last week led me to think about it more widely. And I
+ended up with the thinking that many problems in software companies are a
+clear problem of balance between their yin and their yang.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&#34;https://en.wikipedia.org/wiki/Yin_and_yang&#34;&gt;old chinese principle&lt;/a&gt; is documented in a very old-fashioned
+way, opposing genders and principles. But actually it sums up in the fact that
+many dynamics are to be based in a balance between two opposing principles.
+Otherwise they fail.&lt;/p&gt;
+
+&lt;p&gt;The way I see it, software developers are a nurturing kind. This profile has
+to consider long term. It decides actions for later outcomes. It&amp;rsquo;s about
+giving life and growing it. It feels closer to the Yin principle.&lt;/p&gt;
+
+&lt;p&gt;On another hand, the business people are bound to a shorter time frame. And I
+don&amp;rsquo;t talk about the entrepreneurs and the rare visionary people, but the real
+business work force. They are competitive, aggressive, fighters. That really
+feels to me like the Yang concept.&lt;/p&gt;
+
+&lt;p&gt;And all occurrences where I saw software companies failing, I think it was
+because there was a lack of balance between those 2 principles. Either the
+management was too soft and not aggressive enough towards its market, either
+it was too aggressive and nurturing was not considered enough in their
+equation.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think that this balance requirement applies to everything, to be
+honest. But in a constituted body of a software organization, considering the
+current (questionable) market economy, it feels that the Yin and the Yang have
+to be in balance to grant a chance of survival to the organization.&lt;/p&gt;
+
+&lt;p&gt;One may have the feeling that the dominant Yang (business side) is the more
+common case. But they are just more noisy. Many projects stay silently in the
+darkness just because there was no real business consideration (or even
+refusal of it).&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://modeling-languages.com/grady-booch-on-the-future-of-software-engineering-video-and-highlights/&#34;&gt;keynote of Grady Booch&lt;/a&gt; (linked in the video section) confirmed
+me in various ways in this opinion. Engineers have the duty to fight for the
+balance when they can. They have to understand that it&amp;rsquo;s not a one-way deal,
+as well. If you want to exercise programming in a nurturing-only context, win
+a lottery and dedicate your time writing free software (where market
+requirements don&amp;rsquo;t apply). But in the usual case, you may have to consider if
+you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 123</title>
@@ -285,371 +732,6 @@ path. So for sure, you should make things easy. But if you get any occasion to
 provide your users some education, it&amp;rsquo;s never going to be on your spec sheets.
 You can do it as a natural thing to do. Add optional text to explain why
 things are the way they are. Few will read it, but they will learn from it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 118</title>
-      <link>http://blog.mose.com/2015/05/10/greenruby-118</link>
-      <pubDate>Sun, 10 May 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/05/10/greenruby-118</guid>
-      <description>
-
-&lt;h2 id=&#34;letter-process-and-numbers:83d19966174428ef802df4954f70730e&#34;&gt;Letter process and numbers&lt;/h2&gt;
-
-&lt;p&gt;That&amp;rsquo;s a few weeks now that we are getting organized better, with Xenor and
-Tysliu, on the preparation of this newsletter. The guys are now putting more
-attention to the news gathering and preformatting the &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/newsletters/grn.yml&#34;&gt;yaml source file&lt;/a&gt;
-that I use to generate the letter and the website. After
-some time of practice, it is much better for me, as now I don&amp;rsquo;t spend 5 hours
-each sunday anymore and I can manage the publication process in less than 2
-hours. I still gather some extra links after the editors push their
-contributions. Then I verify the links, the categories, edit the comments
-sometimes, add dots at the ends of line, such tiny things. A huge thanks to
-Xenor and Tysliu!&lt;/p&gt;
-
-&lt;p&gt;Now we have 1312 subscribers to the newsletter. Plus an unknown number of RSS
-subscribers, maybe around 200. We get 250 visits per day on the website
-(according to webalizer), and most of them come from rss readers of many
-sorts. As the mailchimp is still free until we reach 2000, there is some
-margin. When we reach 1600 I think I swill begin a cleaning campaign, to help
-people that actually don&amp;rsquo;t read the letter to unsubscribe. I kind of like the
-idea of throwing accounts away. Usually in web business, an account is an
-asset and they are never thrown away. There is so much to be told about
-numbers, and their reality, in our industry.&lt;/p&gt;
-
-&lt;p&gt;But the reality about numbers is usually the consequence of the over
-simplification required by marketeers. Things are never so simple as just a
-single number. The technicians among us are always in pain when we need to
-provide numbers, because they come with a strict definition of what they
-count, and that definition is never respected by the people that just want to
-use the number and put a sexy label on it. When we say &amp;lsquo;registered accounts&amp;rsquo;
-they say &amp;lsquo;users&amp;rsquo;. Do you see the difference? Damn, I hate that system that
-forces salesmen to become a liars.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 117</title>
-      <link>http://blog.mose.com/2015/05/03/greenruby-117</link>
-      <pubDate>Sun, 03 May 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/05/03/greenruby-117</guid>
-      <description>
-
-&lt;h2 id=&#34;rfid-world:662331cbc9868114293fb05e69319f30&#34;&gt;RFID world&lt;/h2&gt;
-
-&lt;p&gt;They begin to appear everywhere. I saw mine first on my passport, then I just
-got my new credit card and it has one in it. Those things are nice if you
-consider them naively. But the fact is that they are flawed and insecure. We
-carry around more and more of those items that can be read at a proximity by
-specially crafter devices. Gosh, did they not learn already from the ingenuity
-of our kids?&lt;/p&gt;
-
-&lt;p&gt;There have been myths in science fiction about human implanted with chips.
-Well, our phones for a while have been providing the same features. Call me
-paranoid, but I just don&amp;rsquo;t like the feeling. And I also don&amp;rsquo;t like not having
-any choice about it. Hopefully we can still &lt;a href=&#34;https://youtu.be/E_f5oRwaQew&#34;&gt;disable the credit cards RFID&lt;/a&gt;,
-&lt;a href=&#34;https://youtu.be/BEyRfjeE6ac&#34;&gt;craft some pockets&lt;/a&gt; to put our passport in
-it, or buy some &lt;a href=&#34;https://youtu.be/MhW-QLhmoVw&#34;&gt;faraday pockets&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you pay attention, you can find or hear about phone apps called &amp;lsquo;electronic
-pickpocket apps&amp;rsquo;. This choice of a name if so relevant to the situation. Note
-that NFC, included in more and more phones, is a subcategory of RFID, operates
-in much smaller range (10 cm). But basic RFID tags can be detected beyond 100
-meters with proper antennas.&lt;/p&gt;
-
-&lt;p&gt;We talk about the Internet of Things. Sounds sexy. But clearly, we only are
-one of the Things of that Internet. Without any implant, just by carrying
-around passport and credit cards. Or by working at a company that uses that
-technology for &lt;a href=&#34;http://www.wavetrend.net/personnel-tracking.php&#34;&gt;staff monitoring&lt;/a&gt;. I don&amp;rsquo;t know about you,
-but for me, it&amp;rsquo;s scary as hell.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 116</title>
-      <link>http://blog.mose.com/2015/04/26/greenruby-116</link>
-      <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/04/26/greenruby-116</guid>
-      <description>
-
-&lt;h2 id=&#34;welcome-jessie:d9f4d66fbdcd986833b23a4199ad62c2&#34;&gt;Welcome Jessie&lt;/h2&gt;
-
-&lt;p&gt;Ok, right. Maybe you don&amp;rsquo;t care, but this saturday &lt;a href=&#34;https://www.debian.org/releases/jessie&#34;&gt;Jessie&lt;/a&gt; was
-officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and
-it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as
-fast as Ubuntu, but the stuff in there is more stable. And well, in my
-personal case, I work in a place where everything is in debian wheezy and can
-now finally get upgraded.&lt;/p&gt;
-
-&lt;p&gt;Actually I have been using Ubuntu on my desktop for some time. The reason was
-that I wanted to be able to help people to transition to linux, without being
-overloaded with support. So I had to know how ubuntu work. But last year I
-switched back to the original debian and I have been pretty happy about that.
-There is less cruft and opinionated choices (no freaking unity as a default
-window manager). And it&amp;rsquo;s pretty straightfoward in the install process. I
-suspect even non-techies could give it a try (I know some that did).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 115</title>
-      <link>http://blog.mose.com/2015/04/19/greenruby-115</link>
-      <pubDate>Sun, 19 Apr 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/04/19/greenruby-115</guid>
-      <description>
-
-&lt;h2 id=&#34;state-surveillance-in-france:2e160e3cd77d85bf5cb357e6e45cadd1&#34;&gt;State surveillance in France&lt;/h2&gt;
-
-&lt;p&gt;What happened this week in France is quite shocking. How can they be so long
-to make useful laws and so quick to pass harmful ones? Well the move began in
-&lt;a href=&#34;http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law&#34;&gt;December last year&lt;/a&gt;. Some call it a French Patriot act. This
-is not the first time there is an attempt from French government to enforce
-stronger control on the internet. The pressure of lobbies and media industries
-have been pushing hard to preserve their interests.&lt;/p&gt;
-
-&lt;p&gt;But this time, it&amp;rsquo;s just about copying the NSA, and get legal requirement for
-service providers to host the black boxes. Seems that the Snowden revelations
-gave the lawmakers some ideas. The impact is not anecdotal in the French
-society. Some service providers announce they will leave the country like
-&lt;a href=&#34;http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law&#34;&gt;Altern&lt;/a&gt; (French), others &lt;a href=&#34;http://blogs.mediapart.fr/blog/laurent-chemla/170415/lettre-ceux-qui-sen-foutent&#34;&gt;call to action&lt;/a&gt; (French). Both
-Valentin and Laurent are long time activists in the French landscape. I know
-them for a while. Funny how things turn out, I&amp;rsquo;m now working in the company
-they founded in 99 (and passed hands in 2005).&lt;/p&gt;
-
-&lt;p&gt;But all this makes me think that we are facing a technicality. The real thing
-is systemic. It seems that we failed, as a civilization, to regain control
-over our systems. The course of evolution is going to lead to more control to
-the machines, more dependence on the computerized information. Up to a point
-where our insignificance as human being will become really obvious.&lt;/p&gt;
-
-&lt;p&gt;We, as small makers of this computerized universe, should have some part of
-responsibility. Is there a way that we can bend the course of history by the
-small choices we make? Can we not take decisions in regard of how to implement
-solutions, in a way that we can preserve a margin of freedom and respect for
-the human species? I&amp;rsquo;m not sure, at this point, there is anything we can do.
-But if we don&amp;rsquo;t try, we will never know. Think about it. You build systems.
-You shape the world. Your choice matters.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 113</title>
-      <link>http://blog.mose.com/2015/04/05/greenruby-113</link>
-      <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/04/05/greenruby-113</guid>
-      <description>
-
-&lt;h2 id=&#34;multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98&#34;&gt;Multiple inheritance simulation&lt;/h2&gt;
-
-&lt;p&gt;This is a bit twisted. In ruby, as you know, you cannot use multiple
-inheritance. But the flexibility of the language, especially the
-metaprogramming aspect, opens the door for some cheating. Check out &lt;a href=&#34;https://gist.github.com/capitalist/473543b7ea24d461d030&#34;&gt;this
-code&lt;/a&gt;, it tricks it by declaring the first class as the super
-class and the remaining classes as modules included in that super class.
-Pretty acrobatic and elegant, imho.&lt;/p&gt;
-
-&lt;h2 id=&#34;about-vaping:a9a546e37849f6a570839940ccf98c98&#34;&gt;About vaping&lt;/h2&gt;
-
-&lt;p&gt;Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it. But last
-week it finally ended. I quit smoking. But this was kindof a trick, as it was
-made possible by switching to &lt;a href=&#34;http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937&#34;&gt;vaping&lt;/a&gt;. It certainly doesn&amp;rsquo;t solve the
-nicotine addiction issue, but I&amp;rsquo;m very happy with this move and hopeful for a
-gradual freedom.&lt;/p&gt;
-
-&lt;p&gt;I also found out that this vaping practice is very geeky. The hardware part is
-quite elaborate, vaping devices are really neat piece of work, there are a
-bunch of vendors. The liquidware is also quite a subject of hacking.
-Technically it&amp;rsquo;s not that hard to do it yourself. Not surprising that I
-discovered this vaping practice in geeks circles.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 112</title>
-      <link>http://blog.mose.com/2015/03/29/greenruby-112</link>
-      <pubDate>Sun, 29 Mar 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/03/29/greenruby-112</guid>
-      <description>
-
-&lt;h2 id=&#34;green-ruby-new-generation:e04937da80b109c53cab9bf63b0a6b99&#34;&gt;Green Ruby New Generation&lt;/h2&gt;
-
-&lt;p&gt;We had this week a very productive meeting with xenor and tysliu in our
-preferred coffee shop. I explained more in detail my workflow and my quality
-criterias. So now they can feed the links section and become the major editors
-of Green Ruby. I Still keep the role of the publisher. I get their links, I
-clean up stuff, verify freshness and reachability, remove superlatives, fix
-category if needed.&lt;/p&gt;
-
-&lt;p&gt;Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy
-lifting and they are the reason why Green Ruby is still in your mailbox every
-week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 111</title>
-      <link>http://blog.mose.com/2015/03/22/greenruby-111</link>
-      <pubDate>Sun, 22 Mar 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/03/22/greenruby-111</guid>
-      <description>
-
-&lt;h2 id=&#34;drones-and-makers:84bb7b31097e7dff868fbef479daafb5&#34;&gt;Drones and makers&lt;/h2&gt;
-
-&lt;p&gt;This is now obvious. We are going to get invaded by drones. Of course we will
-pretend we control them, for a while. But I can bet it&amp;rsquo;s not going to stand
-too long. Their autonomy is a competitive factor, and, in our current society,
-competitive is the Darwinian selective factor. It can be a bit scary.&lt;/p&gt;
-
-&lt;p&gt;But on another hand, when we geeks look at those things with our (never-aging)
-kids eyes, we see fun toys. Look at the &lt;a href=&#34;http://www.bgobeyond.co.uk/&#34;&gt;B Flying car&lt;/a&gt;. We can
-&lt;a href=&#34;http://diydrones.com/&#34;&gt;do them ourselves&lt;/a&gt;. Like we were able to tinker with the first computers, the
-first radio stations. But now we have 3D printing. Yet not that affordable,
-but it seems to get better. There is also that creepy &lt;a href=&#34;http://the3doodler.com/&#34;&gt;3Doodler&lt;/a&gt;
-thingie, and various other new techniques.&lt;/p&gt;
-
-&lt;p&gt;Maybe the Makers movement is the hope for humanity. Reclaim the daily small
-things! Check that &lt;a href=&#34;http://www.instructables.com/&#34;&gt;instructable&lt;/a&gt; website it&amp;rsquo;s a lot of fun.&lt;/p&gt;
-
-&lt;p&gt;Well yeah this all has nothing to do with webdev. Except from the fact that
-open standards made possible to people like me to do the web myself. After a
-time, it became a professional activity. Will we get professional makers in
-the future and see a revival of craftsmanship? I really wonder.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 110</title>
-      <link>http://blog.mose.com/2015/03/15/greenruby-110</link>
-      <pubDate>Sun, 15 Mar 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/03/15/greenruby-110</guid>
-      <description>
-
-&lt;h2 id=&#34;time-to-upgrade:d4567cfa55308712270d1f5b73098130&#34;&gt;Time to upgrade&lt;/h2&gt;
-
-&lt;p&gt;This is a long time I plan to re-engineer the way Green Ruby is produced. Last
-week I told Xenor and Simon I was thinking about giving it a break. I&amp;rsquo;m not
-that much anymore in the flow. Now my days are full ops and not that much dev.
-But the guys didn&amp;rsquo;t want to let me stop.&lt;/p&gt;
-
-&lt;p&gt;So we are going to organize things a little differently. Xenor and Simon,
-which are full time rails developers, are going to handle the content more
-extensively, and I will just manage the publication, plus some devops links.
-So we need to get some tools ready to handle that new flow. Maybe, the time it
-gets ready, we will take some time off. Maybe not.&lt;/p&gt;
-
-&lt;p&gt;What I wish is to have a way to let more people jump in, too. Maybe we will
-get inspiration in how &lt;a href=&#34;http://thechangelog.com/trello-as-a-cms/&#34;&gt;the changelog&lt;/a&gt; manages their news
-flow. They based it on a &lt;a href=&#34;http://trello.com&#34;&gt;Trello&lt;/a&gt; and it&amp;rsquo;s quite clever. By chance I
-explored the trello API recently and I can tell it&amp;rsquo;s really good, very
-suitable for custom automation.&lt;/p&gt;
-
-&lt;p&gt;This week, I will play lazy on the podcasts. I don&amp;rsquo;t think they are that much
-interesting anyways, and all that copy-pasting is exhausting. When some
-podcasts stands out of the crowd, I will rather feature it in this rant.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 109</title>
-      <link>http://blog.mose.com/2015/03/08/greenruby-109</link>
-      <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/03/08/greenruby-109</guid>
-      <description>
-
-&lt;h2 id=&#34;about-blogging:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;About blogging&lt;/h2&gt;
-
-&lt;p&gt;Well, since that whole blogging thing began, I never have been very active on
-it. Well, I have a &lt;a href=&#34;http://blog.mose.com&#34;&gt;blog&lt;/a&gt; on Tumblr because I wanted to know how they
-are doing it, I published various posts in the &lt;a href=&#34;http://devtips.faria.co/authors.html#mose-ref&#34;&gt;faria devtips&lt;/a&gt;, and
-after all, this rant could also count as a publication. So I think I will
-gather them all under one unique site. A Jekyll github-pages kind, easy and
-cheap.&lt;/p&gt;
-
-&lt;p&gt;After all, I&amp;rsquo;m not sure the devtips website will stay up any longer. There
-have been no post since the day I left. Too bad. It&amp;rsquo;s a demonstration that
-some collective actions can sometimes rely only on the energy of one person.&lt;/p&gt;
-
-&lt;p&gt;So, I made a &lt;a href=&#34;http://mose.github.io/blog&#34;&gt;new repo&lt;/a&gt; on github for it, and I will gather whatever
-stuff I can find that I wrote in there.&lt;/p&gt;
-
-&lt;h2 id=&#34;lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Lovely FreeBSD&lt;/h2&gt;
-
-&lt;p&gt;At our Gandi office in Taipei I had to install a &lt;a href=&#34;https://www.pfsense.org/&#34;&gt;pfsense&lt;/a&gt; server,
-which is based on &lt;a href=&#34;https://www.freebsd.org/&#34;&gt;FreeBSD&lt;/a&gt;. It was quite a pleasant experience,
-actually. Last time I played a bit with BSD that was 12 years ago, and that
-was not very smooth. I&amp;rsquo;m happy to be given that occasion to see how it goes
-now.&lt;/p&gt;
-
-&lt;p&gt;For now I&amp;rsquo;m going to use it like if it was an &lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWRT&lt;/a&gt; with some
-extra &lt;a href=&#34;https://openvpn.net/index.php/open-source.html&#34;&gt;OpenVPN&lt;/a&gt; abilities. And it will also be a file server for the
-LAN. Not sure yet how I will handle that.&lt;/p&gt;
-
-&lt;h2 id=&#34;ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Ruby package management&lt;/h2&gt;
-
-&lt;p&gt;When I got in my new job, I discovered a new way to manage server management.
-They didn&amp;rsquo;t want to use &lt;a href=&#34;http://rvm.io/&#34;&gt;rvm&lt;/a&gt;, or even &lt;a href=&#34;https://rubygems.org/&#34;&gt;ruby gems&lt;/a&gt;, or
-&lt;a href=&#34;https://pip.pypa.io/en/latest/&#34;&gt;pip&lt;/a&gt; or anything that is not debian packages. It may sound quite harsh.
-Since I came in ruby in 2010, rvm has been my best friend, bundle the second
-one. But this approach is very developer-based. When you maintain large and
-stable systems, it&amp;rsquo;s more likely that you will not trust the bleeding edge
-stuff and prefer confirmed publication of packages before using them. This is
-an interesting slap on my face.&lt;/p&gt;
-
-&lt;p&gt;Of course there are the &lt;a href=&#34;https://www.brightbox.com/docs/ruby/ubuntu/&#34;&gt;brightbox&lt;/a&gt; packages for Ubuntu, but that&amp;rsquo;s
-missing the point. A release has to be out for a certain time so it can be
-strengthened by security reviews and proper production usage. There is a part
-of the population for each language that is considering the instability of
-current releases a normal trade-off. but there is a huge lot of other
-companies that will wait patiently that things get stable enough for their
-taste.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 108</title>
-      <link>http://blog.mose.com/2015/03/01/greenruby-108</link>
-      <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/03/01/greenruby-108</guid>
-      <description>
-
-&lt;h2 id=&#34;working-abroad:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Working abroad&lt;/h2&gt;
-
-&lt;p&gt;Our craft as webdev is clearly in huge demand. This provides an opportunity
-for us to travel abroad, discover new cultures, widen our horizon. When I went
-to live in Taiwan, I was not worried about finding a job. But when hunting for
-a job abroad it can be tricky to find companies that will sponsor a visa, a
-work permit, or whatever legal requirement is involved in each countries.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s what the new initiative called &lt;a href=&#34;http://techmeabroad.com&#34;&gt;TechMeAbroad&lt;/a&gt; aims to fix, by
-listing only job opportunities for which a work permit is sponsored. As
-&lt;a href=&#34;http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad&#34;&gt;Julien Barbier explains&lt;/a&gt;, it will launch in march, and if you know of any
-job offers that includes a visa or such thing, please let him know (or send it
-to me I will pass it along), so we can feed that platform with some real data
-quickly.&lt;/p&gt;
-
-&lt;h2 id=&#34;so-long-ruby-1-9:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;So long ruby 1.9&lt;/h2&gt;
-
-&lt;p&gt;As planned, it&amp;rsquo;s now time to say &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/&#34;&gt;byebye to ruby 1.9.3&lt;/a&gt;. But there is still
-so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
-In wheezy, you have 1.9. And there are still many servers that will refuse to
-upgrade.&lt;/p&gt;
-
-&lt;h2 id=&#34;pick-your-hero:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Pick your hero&lt;/h2&gt;
-
-&lt;p&gt;The registration for &lt;a href=&#34;http://rubyheroes.com/&#34;&gt;Ruby Heroes 2015&lt;/a&gt; is now open. Go vote for your
-favorite ruby influential dev. You have until &lt;a href=&#34;http://railsconf.com/&#34;&gt;railsconf&lt;/a&gt; that will happen
-in april, in Atlanta this year.&lt;/p&gt;
 </description>
     </item>
     

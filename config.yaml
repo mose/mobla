@@ -11,6 +11,7 @@ params:
   keywords: "mose, geek, french, taiwan, dev, devops, linux, opensource"
   github: mose
   twitter: mo5e
+  # google_analytics: UAXXXXXXXX
   cloudinary:
     prefix: http://res.cloudinary.com/mosepix/image/upload
     mainImage: mose/mose.jpg

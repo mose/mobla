@@ -25,3 +25,4 @@ taxomonies:
   category: categories
 permalinks:
   post: /:year/:month/:day/:title
+DisqusShortname: moselog

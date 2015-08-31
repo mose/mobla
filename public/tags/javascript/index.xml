@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Moselog</title>
+    <link>http://blog.mose.com/tags/javascript/</link>
+    <description>Recent content in Javascript on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2015 12:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 127</title>
+      <link>http://blog.mose.com/2015/07/12/greenruby-127</link>
+      <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/12/greenruby-127</guid>
+      <description>
+
+&lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
+
+&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
+company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
+I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
+the same feeling I have each time I get back to that language. I feel dirty.
+Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder,
+more like an acrobat. And I&amp;rsquo;m far from a purist.&lt;/p&gt;
+
+&lt;p&gt;Some people talk about javascript taking over the world. But that language
+imho just was there at the right place at the right time. By having a runtime
+embedded in browsers and browsers libraries, it has been used to hijack the
+most used software on our computers and mobile devices, to transform them into
+richer clients. Along the way various layers were added to fulfill the need of
+software design, because javascript initial goal was merely DOM manipulation.&lt;/p&gt;
+
+&lt;p&gt;The thing that always stroke me the most with javascript is that despite the
+efforts from ecmascript, it has no formal standard or documentation. It is
+pretty extensively documented, of course, but because the language is pushed
+forward by the implementations rather than from a standard body, it gets a bit
+messy.&lt;/p&gt;
+
+&lt;p&gt;I saw a &lt;a href=&#34;http://cube-drone.com/comics/c/relentless-persistence&#34;&gt;drawing&lt;/a&gt; this week that illustrates the mess quite well. It feels
+like Javascript is waiting for something to come replace it.&lt;/p&gt;
+
+&lt;p&gt;But there is hope with ES6. Seems like in recent years the normative effort on
+the ecmascript standard got some more traction and some more press coverage.
+But I personally don&amp;rsquo;t think it&amp;rsquo;s going to bring the solution. I enjoyed
+reading the &lt;a href=&#34;http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/&#34;&gt;thoughts of Eric Elliot&lt;/a&gt; on that topic but I&amp;rsquo;m not sure
+he&amp;rsquo;s right on everything. But what he&amp;rsquo;s right about, is that there will be an
+after-javascript.&lt;/p&gt;
+
+&lt;p&gt;Unless that after javascript doesn&amp;rsquo;t arrive fast enough and gets useless by
+some new programming paradigm that may appear one day soon. I mean, in the
+next 10 years. At some point, like big data is too complex to be handled by
+human, programming will also get too complex and will be handled by
+algorithms. We already &lt;a href=&#34;http://phys.org/news/2015-07-code-faster-expert.html&#34;&gt;see it coming&lt;/a&gt;. And all programmers will then
+become high end workflow designers or just play with antiquities.&lt;/p&gt;
+
+&lt;p&gt;In this perspective, I think javascript is a great intermediary technology for
+the time being, given its pervasive aspect. It&amp;rsquo;s far from satisfying, but it
+does the job. But the younger generation should keep an eye on higher level
+abstract approaches, like systems architectures, workflow logics, organization
+patterns, because imho that will drive software design in the next 10-20
+years.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

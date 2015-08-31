@@ -81,12 +81,267 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-04-05
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-113.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-vaping" href="http://blog.mose.com/tags/vaping">vaping</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/04/05/greenruby-113" class="post-title">Greenruby 113</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98">Multiple inheritance simulation</h2>
+
+<p>This is a bit twisted. In ruby, as you know, you cannot use multiple
+inheritance. But the flexibility of the language, especially the
+metaprogramming aspect, opens the door for some cheating. Check out
+<a href="https://gist.github.com/capitalist/473543b7ea24d461d030">this code</a>, it tricks it by declaring the first class as the super
+class and the remaining classes as modules included in that super class.
+Pretty acrobatic and elegant, imho.</p>
+
+<h2 id="about-vaping:a9a546e37849f6a570839940ccf98c98">About vaping</h2>
+
+<p>Well this has been my burden for 30 years, and I&rsquo;m not proud of it. But last
+week it finally ended. I quit smoking. But this was kindof a trick, as it was
+made possible by switching to <a href="http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937">vaping</a>. It certainly doesn&rsquo;t solve the
+nicotine addiction issue, but I&rsquo;m very happy with this move and hopeful for a
+gradual freedom.</p>
+
+<p>I also found out that this vaping practice is very geeky. The hardware part is
+quite elaborate, vaping devices are really neat piece of work, there are a
+bunch of vendors. The liquidware is also quite a subject of hacking.
+Technically it&rsquo;s not that hard to do it yourself. Not surprising that I
+discovered this vaping practice in geeks circles.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-03-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-109.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-freebsd" href="http://blog.mose.com/tags/freebsd">freebsd</a><a class="post-tags post-tags-blog" href="http://blog.mose.com/tags/blog">blog</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/03/08/greenruby-109" class="post-title">Greenruby 109</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="about-blogging:111d43eaf8a2a6adad496f0417e7f52c">About blogging</h2>
+
+<p>Well, since that whole blogging thing began, I never have been very active on
+it. Well, I have a <a href="http://blog.mose.com">blog</a> on Tumblr because I wanted to know how they
+are doing it, I published various posts in the <a href="http://devtips.faria.co/authors.html#mose-ref">faria devtips</a>, and
+after all, this rant could also count as a publication. So I think I will
+gather them all under one unique site. A Jekyll github-pages kind, easy and
+cheap.</p>
+
+<p>After all, I&rsquo;m not sure the devtips website will stay up any longer. There
+have been no post since the day I left. Too bad. It&rsquo;s a demonstration that
+some collective actions can sometimes rely only on the energy of one person.</p>
+
+<p>So, I made a <a href="http://mose.github.io/blog">new repo</a> on github for it, and I will gather whatever
+stuff I can find that I wrote in there.</p>
+
+<h2 id="lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c">Lovely FreeBSD</h2>
+
+<p>At our Gandi office in Taipei I had to install a <a href="https://www.pfsense.org/">pfsense</a> server,
+which is based on <a href="https://www.freebsd.org/">FreeBSD</a>. It was quite a pleasant experience,
+actually. Last time I played a bit with BSD that was 12 years ago, and that
+was not very smooth. I&rsquo;m happy to be given that occasion to see how it goes
+now.</p>
+
+<p>For now I&rsquo;m going to use it like if it was an <a href="https://openwrt.org/">OpenWRT</a> with some
+extra <a href="https://openvpn.net/index.php/open-source.html">OpenVPN</a> abilities. And it will also be a file server for the
+LAN. Not sure yet how I will handle that.</p>
+
+<h2 id="ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c">Ruby package management</h2>
+
+<p>When I got in my new job, I discovered a new way to manage server management.
+They didn&rsquo;t want to use <a href="http://rvm.io/">rvm</a>, or even <a href="https://rubygems.org/">ruby gems</a>, or
+<a href="https://pip.pypa.io/en/latest/">pip</a> or anything that is not debian packages. It may sound quite harsh.
+Since I came in ruby in 2010, rvm has been my best friend, bundle the second
+one. But this approach is very developer-based. When you maintain large and
+stable systems, it&rsquo;s more likely that you will not trust the bleeding edge
+stuff and prefer confirmed publication of packages before using them. This is
+an interesting slap on my face.</p>
+
+<p>Of course there are the <a href="https://www.brightbox.com/docs/ruby/ubuntu/">brightbox</a> packages for Ubuntu, but that&rsquo;s
+missing the point. A release has to be out for a certain time so it can be
+strengthened by security reviews and proper production usage. There is a part
+of the population for each language that is considering the instability of
+current releases a normal trade-off. but there is a huge lot of other
+companies that will wait patiently that things get stable enough for their
+taste.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-03-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-108.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/03/01/greenruby-108" class="post-title">Greenruby 108</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="working-abroad:a0091e7eb1dfeca477447c7e0b2e6425">Working abroad</h2>
+
+<p>Our craft as webdev is clearly in huge demand. This provides an opportunity
+for us to travel abroad, discover new cultures, widen our horizon. When I went
+to live in Taiwan, I was not worried about finding a job. But when hunting for
+a job abroad it can be tricky to find companies that will sponsor a visa, a
+work permit, or whatever legal requirement is involved in each countries.</p>
+
+<p>That&rsquo;s what the new initiative called <a href="http://techmeabroad.com">TechMeAbroad</a> aims to fix, by
+listing only job opportunities for which a work permit is sponsored. As
+<a href="http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad">Julien Barbier explains</a>, it will launch in march, and if you know of any
+job offers that includes a visa or such thing, please let him know (or send it
+to me I will pass it along), so we can feed that platform with some real data
+quickly.</p>
+
+<h2 id="so-long-ruby-1-9:a0091e7eb1dfeca477447c7e0b2e6425">So long ruby 1.9</h2>
+
+<p>As planned, it&rsquo;s now time to say <a href="https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/">byebye to ruby 1.9.3</a>. But there is still
+so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
+In wheezy, you have 1.9. And there are still many servers that will refuse to
+upgrade.</p>
+
+<h2 id="pick-your-hero:a0091e7eb1dfeca477447c7e0b2e6425">Pick your hero</h2>
+
+<p>The registration for <a href="http://rubyheroes.com/">Ruby Heroes 2015</a> is now open. Go vote for your
+favorite ruby influential dev. You have until <a href="http://railsconf.com/">railsconf</a> that will happen
+in april, in Atlanta this year.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-01-18
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-102.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/01/18/greenruby-102" class="post-title">Greenruby 102</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="while42:7b1eab39a4e6e397eafd98271e67cb67">While42</h2>
+
+<p>This week I got in contact with Sylvain from <a href="http://while42.org">while42</a>. It&rsquo;s a social
+network for french tech engineers, but with a special touch on it. There is no
+facebook page or google group. They intentionally decided to be irl-first. For
+people that are most likely to be online all the time, this sounds so
+therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
+If you want to know more (and are french, engineer, and living in Taipei) just
+drop me a mail.</p>
+
+<h2 id="traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67">Traveling ruby</h2>
+
+<p>This is a project from the <a href="http://www.phusion.nl/">Phusion</a> people, called <a href="https://github.com/phusion/traveling-ruby">Traveling ruby</a>.
+Its purpose is to make it easy to build auto-sustaining tarballs for ruby
+programms, including ruby binary and all gems in it. That way you can publish
+a tarball and your customer/user will just launch whatever you put in it. No
+need to install ruby or any gems.</p>
+
+<p>I gave it a try yesterday on my <a href="https://github.com/eduvo/zabbix-ruby-client">zabbix-ruby-client</a> gem, and after a few
+tweaks (mostly because I wanted to use an unpublished version of my gem), it
+all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
+old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
+reminded me a bit of the feeling when you upload a go executable on the
+server. Really neat.</p>
+
+<h2 id="palm-control:7b1eab39a4e6e397eafd98271e67cb67">Palm control</h2>
+
+<p>There are tiny things that can change a lot. My recent tiny thing is the palm
+control technique. Every sunday when I prepare Green Ruby I do a huge amount
+of copy pasting all over the place. Recently I found on a post about keyboard
+someone talking about the palm control technique for avoiding the copypaste
+fatigue.</p>
+
+<p>Well, you need to have a keyboard that makes it possible. Mine is a <a href="http://support.logitech.com/en_us/product/10104">Logitech washable k310</a>.
+I already liked its look, and even better, it&rsquo;s perfect for
+this palm thing because keys are prominent. Use the palm to push control and
+then it&rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
+my life!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2014-06-12
   <p class="post-meta">
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      
+        <span class="post-origin">faria devtips</span>
+      
     
     
       <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-s3" href="http://blog.mose.com/tags/s3">s3</a>
@@ -196,7 +451,9 @@ done
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      
+        <span class="post-origin">faria devtips</span>
+      
     
     
       <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
@@ -267,7 +524,9 @@ chmod 0600 ~/.gem/credentials
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      
+        <span class="post-origin">faria devtips</span>
+      
     
     
       <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
@@ -333,7 +592,9 @@ devise:  422
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/faria-devtips">faria devtips</a>
+      
+        <span class="post-origin">faria devtips</span>
+      
     
     
       <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
@@ -364,7 +625,9 @@ devise:  422
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/old-tumblr-site">old tumblr site</a>
+      
+        <span class="post-origin">old tumblr site</span>
+      
     
     
       <a class="post-tags post-tags-podcast" href="http://blog.mose.com/tags/podcast">podcast</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
@@ -413,7 +676,9 @@ devise:  422
     
     
       originaly posted on 
-      <a class="post-origin" href="http://blog.mose.com/origin/old-tumblr-site">old tumblr site</a>
+      
+        <span class="post-origin">old tumblr site</span>
+      
     
     
       <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript &middot; Moselog</title>
+
+  <meta name="description" content="Various rants from Mose.">
+
+  <meta name="generator" content="Hugo 0.15-DEV" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="mo5e" />
+  <meta name="twitter:title" content="Javascript &middot; Moselog">
+  <meta name="twitter:description" content="Various rants from Mose.">
+
+  <meta property="og:title" content="Javascript &middot; Moselog">
+  <meta property="og:type" content="blog">
+  <meta property="og:description" content="Various rants from Mose.">
+  
+  <meta property="og:image" content="http://res.cloudinary.com/mosepix/image/upload/mose/mose.jpg"/>
+
+  <link rel="shortcut icon" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_32/mose/mose.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" sizes="60x60" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_60/mose/mose.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_76/mose/mose.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_120/mose/mose.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_152/mose/mose.jpg" type="image/jpeg">
+  <link rel="icon" sizes="any" mask="" href="http://res.cloudinary.com/mosepix/image/upload/c_scale,w_60/mose/mose.jpg">
+  
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://blog.mose.com/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://blog.mose.com/index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="http://blog.mose.com">Moselog</a></h1>
+      <h2 class="brand-tagline">Various rants from Mose.</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://twitter.com/mo5e"><i class="fa fa-twitter"></i> Twitter</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="pure-button" href="https://github.com/mose "><i class="fa fa-github-alt"></i> github</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="pure-button" href="http://blog.mose.com/index.xml"><i class="fa fa-rss"></i> rss</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+
+</div>
+
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      
+      <div class="posts">
+        
+          <h1 class="content-subhead">
+  2015-07-12
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-127.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-javascript" href="http://blog.mose.com/tags/javascript">javascript</a><a class="post-tags post-tags-coding" href="http://blog.mose.com/tags/coding">coding</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/07/12/greenruby-127" class="post-title">Greenruby 127</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54">Javascript and thoughts on programming</h2>
+
+<p>Recently I&rsquo;ve been playing with Hubot plugins code in coffeescript for our
+company. That&rsquo;s a while I didn&rsquo;t do much js but I used it for a long time and
+I didn&rsquo;t find it too difficult to catch up. But for some reason, it brought me
+the same feeling I have each time I get back to that language. I feel dirty.
+Still I can do what I need to do, for sure, but I don&rsquo;t feel like a builder,
+more like an acrobat. And I&rsquo;m far from a purist.</p>
+
+<p>Some people talk about javascript taking over the world. But that language
+imho just was there at the right place at the right time. By having a runtime
+embedded in browsers and browsers libraries, it has been used to hijack the
+most used software on our computers and mobile devices, to transform them into
+richer clients. Along the way various layers were added to fulfill the need of
+software design, because javascript initial goal was merely DOM manipulation.</p>
+
+<p>The thing that always stroke me the most with javascript is that despite the
+efforts from ecmascript, it has no formal standard or documentation. It is
+pretty extensively documented, of course, but because the language is pushed
+forward by the implementations rather than from a standard body, it gets a bit
+messy.</p>
+
+<p>I saw a <a href="http://cube-drone.com/comics/c/relentless-persistence">drawing</a> this week that illustrates the mess quite well. It feels
+like Javascript is waiting for something to come replace it.</p>
+
+<p>But there is hope with ES6. Seems like in recent years the normative effort on
+the ecmascript standard got some more traction and some more press coverage.
+But I personally don&rsquo;t think it&rsquo;s going to bring the solution. I enjoyed
+reading the <a href="http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/">thoughts of Eric Elliot</a> on that topic but I&rsquo;m not sure
+he&rsquo;s right on everything. But what he&rsquo;s right about, is that there will be an
+after-javascript.</p>
+
+<p>Unless that after javascript doesn&rsquo;t arrive fast enough and gets useless by
+some new programming paradigm that may appear one day soon. I mean, in the
+next 10 years. At some point, like big data is too complex to be handled by
+human, programming will also get too complex and will be handled by
+algorithms. We already <a href="http://phys.org/news/2015-07-code-faster-expert.html">see it coming</a>. And all programmers will then
+become high end workflow designers or just play with antiquities.</p>
+
+<p>In this perspective, I think javascript is a great intermediary technology for
+the time being, given its pervasive aspect. It&rsquo;s far from satisfying, but it
+does the job. But the younger generation should keep an eye on higher level
+abstract approaches, like systems architectures, workflow logics, organization
+patterns, because imho that will drive software design in the next 10-20
+years.</p>
+
+            </div>
+          </section>
+        
+      </div>
+      
+
+      <div class="footer">
+  <div class="pure-menu pure-menu-horizontal pure-menu-open">
+    <ul>
+      <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+    </ul>
+  </div>
+</div>
+<script src="http://blog.mose.com/js/all.min.js"></script>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

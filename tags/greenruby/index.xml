@@ -6,8 +6,364 @@
     <description>Recent content in Greenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2013 09:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2015 12:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 129</title>
+      <link>http://blog.mose.com/2015/07/26/greenruby-129</link>
+      <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/26/greenruby-129</guid>
+      <description>
+
+&lt;h2 id=&#34;back-on-tweeting:7ae99486640ad70a650c6bd616a3b6cb&#34;&gt;Back on tweeting&lt;/h2&gt;
+
+&lt;p&gt;I really don&amp;rsquo;t like my phone. As an old timer I&amp;rsquo;m reluctant to trust my
+android, but it would be the same on an iphone. The way applications require
+access to the device, on android, is especially annoying and dishonest. They
+make the slope slippery for the sake of saving seconds in adopting new apps,
+but it&amp;rsquo;s leading to a total remission of users control over their devices.&lt;/p&gt;
+
+&lt;p&gt;But well, I still have a commute several times a week and I use my phone to
+listen to various podcasts. But I recently configured some accounts and some
+news readers, so I also can just do some links curation along the way. So I
+suspect there will be more tweeting on the &lt;a href=&#34;https://twitter.com/greenrubist&#34;&gt;greenrubist&lt;/a&gt; account from
+now on. It helps quite a lot when I want to gather links on every sundays.&lt;/p&gt;
+
+&lt;p&gt;Well, nowadays, most of the links are actually gathered by xenor and tysliu,
+but I always add a few on my own (especially the devops ones). Those 2 guys
+are really doing an amazing demonstration of consistency. After 129 editions,
+we still didn&amp;rsquo;t miss a single one week in our publication. It would not have
+been possible without my buddies. Thanks so much for their contribution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 118</title>
+      <link>http://blog.mose.com/2015/05/10/greenruby-118</link>
+      <pubDate>Sun, 10 May 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/05/10/greenruby-118</guid>
+      <description>
+
+&lt;h2 id=&#34;letter-process-and-numbers:83d19966174428ef802df4954f70730e&#34;&gt;Letter process and numbers&lt;/h2&gt;
+
+&lt;p&gt;That&amp;rsquo;s a few weeks now that we are getting organized better, with Xenor and
+Tysliu, on the preparation of this newsletter. The guys are now putting more
+attention to the news gathering and preformatting the &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/newsletters/grn.yml&#34;&gt;yaml source file&lt;/a&gt;
+that I use to generate the letter and the website. After
+some time of practice, it is much better for me, as now I don&amp;rsquo;t spend 5 hours
+each sunday anymore and I can manage the publication process in less than 2
+hours. I still gather some extra links after the editors push their
+contributions. Then I verify the links, the categories, edit the comments
+sometimes, add dots at the ends of line, such tiny things. A huge thanks to
+Xenor and Tysliu!&lt;/p&gt;
+
+&lt;p&gt;Now we have 1312 subscribers to the newsletter. Plus an unknown number of RSS
+subscribers, maybe around 200. We get 250 visits per day on the website
+(according to webalizer), and most of them come from rss readers of many
+sorts. As the mailchimp is still free until we reach 2000, there is some
+margin. When we reach 1600 I think I swill begin a cleaning campaign, to help
+people that actually don&amp;rsquo;t read the letter to unsubscribe. I kind of like the
+idea of throwing accounts away. Usually in web business, an account is an
+asset and they are never thrown away. There is so much to be told about
+numbers, and their reality, in our industry.&lt;/p&gt;
+
+&lt;p&gt;But the reality about numbers is usually the consequence of the over
+simplification required by marketeers. Things are never so simple as just a
+single number. The technicians among us are always in pain when we need to
+provide numbers, because they come with a strict definition of what they
+count, and that definition is never respected by the people that just want to
+use the number and put a sexy label on it. When we say &amp;lsquo;registered accounts&amp;rsquo;
+they say &amp;lsquo;users&amp;rsquo;. Do you see the difference? Damn, I hate that system that
+forces salesmen to become a liars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 112</title>
+      <link>http://blog.mose.com/2015/03/29/greenruby-112</link>
+      <pubDate>Sun, 29 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/29/greenruby-112</guid>
+      <description>
+
+&lt;h2 id=&#34;green-ruby-new-generation:e04937da80b109c53cab9bf63b0a6b99&#34;&gt;Green Ruby New Generation&lt;/h2&gt;
+
+&lt;p&gt;We had this week a very productive meeting with xenor and tysliu in our
+preferred coffee shop. I explained more in detail my workflow and my quality
+criterias. So now they can feed the links section and become the major editors
+of Green Ruby. I Still keep the role of the publisher. I get their links, I
+clean up stuff, verify freshness and reachability, remove superlatives, fix
+category if needed.&lt;/p&gt;
+
+&lt;p&gt;Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy
+lifting and they are the reason why Green Ruby is still in your mailbox every
+week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 110</title>
+      <link>http://blog.mose.com/2015/03/15/greenruby-110</link>
+      <pubDate>Sun, 15 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/15/greenruby-110</guid>
+      <description>
+
+&lt;h2 id=&#34;time-to-upgrade:d4567cfa55308712270d1f5b73098130&#34;&gt;Time to upgrade&lt;/h2&gt;
+
+&lt;p&gt;This is a long time I plan to re-engineer the way Green Ruby is produced. Last
+week I told Xenor and Simon I was thinking about giving it a break. I&amp;rsquo;m not
+that much anymore in the flow. Now my days are full ops and not that much dev.
+But the guys didn&amp;rsquo;t want to let me stop.&lt;/p&gt;
+
+&lt;p&gt;So we are going to organize things a little differently. Xenor and Simon,
+which are full time rails developers, are going to handle the content more
+extensively, and I will just manage the publication, plus some devops links.
+So we need to get some tools ready to handle that new flow. Maybe, the time it
+gets ready, we will take some time off. Maybe not.&lt;/p&gt;
+
+&lt;p&gt;What I wish is to have a way to let more people jump in, too. Maybe we will
+get inspiration in how &lt;a href=&#34;http://thechangelog.com/trello-as-a-cms/&#34;&gt;the changelog&lt;/a&gt; manages their news
+flow. They based it on a &lt;a href=&#34;http://trello.com&#34;&gt;Trello&lt;/a&gt; and it&amp;rsquo;s quite clever. By chance I
+explored the trello API recently and I can tell it&amp;rsquo;s really good, very
+suitable for custom automation.&lt;/p&gt;
+
+&lt;p&gt;This week, I will play lazy on the podcasts. I don&amp;rsquo;t think they are that much
+interesting anyways, and all that copy-pasting is exhausting. When some
+podcasts stands out of the crowd, I will rather feature it in this rant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 104</title>
+      <link>http://blog.mose.com/2015/02/01/greenruby-104</link>
+      <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/02/01/greenruby-104</guid>
+      <description>
+
+&lt;h2 id=&#34;ghost:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Ghost&lt;/h2&gt;
+
+&lt;p&gt;You certainly heard about it, this week there was a new huge Linux
+&lt;a href=&#34;http://www.openwall.com/lists/oss-security/2015/01/27/9&#34;&gt;vulnerability on glibc&lt;/a&gt; revealed. Actually it was leaked by a stupid
+communication agency few hours before it should have been announced. When such
+big bug is discovered usually there is a small period of time where the news
+spread into some limited circles. They keep it embargoed until major distro
+vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.&lt;/p&gt;
+
+&lt;p&gt;This vulnerability is pretty nasty even if less obvious to exploit than
+Heartbleed or shellshock, it&amp;rsquo;s probably in the same category. If you manage
+servers that are vulnerable (LTS and stable, less up to date versions,
+mostly), you better upgrade asap. When a bug gets its own name (this one is
+called Ghost), it seems to be the sign it requires immediate attention. How
+long is this trick going to work?&lt;/p&gt;
+
+&lt;p&gt;And, as we talk about security, Hipchat users should read this (unnamed)
+&lt;a href=&#34;https://blog.hipchat.com/2015/02/01/hipchat-security-notice-and-password-reset/&#34;&gt;security notice&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-years:fba0bb1f68d1414085590cced7805ffa&#34;&gt;2 years&lt;/h2&gt;
+
+&lt;p&gt;This edition is marking the 2 years anniversary of Green Ruby. For 104 weeks
+I&amp;rsquo;ve been sending out this newsletter every week. Last week I had a discussion
+with a friend, he was asking me what was my drive, and what was the reason of
+my consistency. Well, there are various reasons.&lt;/p&gt;
+
+&lt;p&gt;First there is the routine aspect. It&amp;rsquo;s like practicing Taichi or some kind of
+exercise. It keeps the mind fresh, and in this context where things change
+pretty fast, enforcing a weekly review gave me an overall feeling of symbiosis
+with the wave of what&amp;rsquo;s going on.&lt;/p&gt;
+
+&lt;p&gt;Second is the philosophy of it: this newsletter is a gift. The ruby world is
+very business oriented. There is a lot of open source in there but still the
+average spirit is based on a market economy. There are of course many
+exceptions, I wanted to be one of them, and I believe a gift economy would be
+more my thing. You get rich of what you give away, not always individually,
+but most definitely collectively. I like that feeling.&lt;/p&gt;
+
+&lt;p&gt;Third, this media keeps me in touch with a bunch of my friends. It&amp;rsquo;s like a
+beacon that I send to the people I left behind when I left France to go live
+in Taiwan. Or people I worked with in my past jobs in Taiwan, even. They don&amp;rsquo;t
+often respond to it but I know they can perceive me through this weekly proof
+of existence.&lt;/p&gt;
+
+&lt;p&gt;Also, there is the support from xenor and more recently from simon, which, by
+sending me a few links each weeks, validate the need to keep things going.&lt;/p&gt;
+
+&lt;h2 id=&#34;trello-and-irc:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Trello and irc&lt;/h2&gt;
+
+&lt;p&gt;For as long as I remember, I always have been coding irc bots. In so many
+languages. I suspect there is some aspect of this that appeals to me. Maybe
+the creation of life-like pattern. Anyways, my last bot was of course in ruby,
+I called it &lt;a href=&#34;https://github.com/mose/cogbot&#34;&gt;cogbot&lt;/a&gt;, and is based on the great &lt;a href=&#34;https://github.com/cinchrb/cinch&#34;&gt;cinch&lt;/a&gt; framework. It has
+been sleepy for a while, since we were not using irc in Faria.&lt;/p&gt;
+
+&lt;p&gt;But Gandi is heavy irc user, and our recent experiments on trello gave me an
+occasion to get cogbot out of the dust. As a matter of fact &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; has a
+really &lt;a href=&#34;https://trello.com/docs/&#34;&gt;great API&lt;/a&gt;, and also supports webhooks. So I added a trello
+listener to cogbot, and it was a lot of fun. Maybe next I will add some cards
+creation and update features in that bot, but it requires some kind of users
+management, which, on an irc bot, is not that trivial to implement.&lt;/p&gt;
+
+&lt;h2 id=&#34;free-your-code:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Free your code&lt;/h2&gt;
+
+&lt;p&gt;Do you have a side project? You should! Maybe the code you produce at work can
+be generic enough? This is a call for you to consider freeing your code. Open
+source community is plentiful but I know as a fact that 90% of the code that
+could be shared is not shared.&lt;/p&gt;
+
+&lt;p&gt;There is something I noticed in my own code publication. Often in my work
+there are constraints of time that lead to trade-offs and code quality is
+never as good as I wish it was. By working on side projects, the pace is much
+more relaxed and I can spend hours focusing on non productive efforts to make
+my code better. Well, this is not to say that side project code is perfect,
+but the environment of producing it brings another mindset. And after a while,
+the code produced at work gets naturally more insightful because of this extra
+practice.&lt;/p&gt;
+
+&lt;p&gt;Give it a try, if you happen to have some free time. If you don&amp;rsquo;t have free
+time, you&amp;rsquo;re doing something wrong. But that&amp;rsquo;s another story.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 101</title>
+      <link>http://blog.mose.com/2015/01/11/greenruby-101</link>
+      <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/01/11/greenruby-101</guid>
+      <description>
+
+&lt;h2 id=&#34;1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;1000 subscribers&lt;/h2&gt;
+
+&lt;p&gt;After the 100th Greenruby last week, we get the 1000th subscriber to the email
+newsletter this week. Welcome George :) So for the occasion I refreshed the
+&lt;a href=&#34;http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map&#34;&gt;subscribers map&lt;/a&gt; on cartodb. About half of the subscribers are in the US,
+but there is a total of 73 countries represented, which is pretty neat. But
+this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.&lt;/p&gt;
+
+&lt;h2 id=&#34;fighting-logs-pollution:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Fighting logs pollution&lt;/h2&gt;
+
+&lt;p&gt;Some time ago, on edition 82, I posted a link to my webalizer stats for the
+greenruby website. Fatal mistake, I had referrers stats enabled and I got
+somehow listed somewhere. The consequence was a lot of fake traffic with only
+purpose to get links listed in my referrers section. After removing this
+section from webalizer config, and moving the url, the fake traffic was still
+there. Like a blind wave. This was pretty annoying.&lt;/p&gt;
+
+&lt;p&gt;So I began to take some drastic measures. Because I didn&amp;rsquo;t have referrers
+anymore in my stats, I went to my apache logs (yes it&amp;rsquo;s an old server, still
+running apache2) and fire up a:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tail -5000 greenruby.org-access.log | cut -d&#39; &#39; -f11 | sort | uniq -c | sort -n
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This give me a nice view of the recent referrers. Fake ones are easy to
+notice. And that the fake traffic was only coming from a handful of ips, so I
+just made a few:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iptables -A INPUT -s &amp;lt;ip&amp;gt; -j DROP
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result was radically efficient. Certainly I had less volume but it&amp;rsquo;s now
+much cleaner. But it makes it clear that having clean volume stats for traffic
+on your website is not that easy. There are a bunch of fake traffic sources
+that you may not suspect.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-server-soon:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;New server soon&lt;/h2&gt;
+
+&lt;p&gt;I got a new job 2 month ago at &lt;a href=&#34;http://gandi.net&#34;&gt;gandi&lt;/a&gt;, and there is some nice &lt;a href=&#34;https://www.gandi.net/hosting/iaas&#34;&gt;VPS
+hosting&lt;/a&gt; there. I can have a machine just for Green Ruby there. It can be
+neat and open some options. Green Ruby website is still very static. Various
+attempts to improve it with a search engine didn&amp;rsquo;t end up to something
+concluding yet. Maybe this time it will.&lt;/p&gt;
+
+&lt;p&gt;That also may be the occasion to build up a distribution system and move out
+of mailchimp. I looked around and all I found was php based. So I will
+probably just write my own ruby scripts, the &lt;a href=&#34;https://github.com/mikel/mail&#34;&gt;mail gem&lt;/a&gt; looks great and the
+rest is a question of configuring a postfix with correct &lt;a href=&#34;http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF&#34;&gt;SPF and DKIM
+setup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;je-suis-charlie:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;Je suis Charlie&lt;/h2&gt;
+
+&lt;p&gt;Well, this tragedy that happened this Thursday in France impacts a lot of
+people. Somehow, it perhaps impacts me more than the average. When I was
+younger I went to art school to become a cartoonist, and finally I changed my
+mind. But I knew the work of the victims of this slaughter. They were icons in
+the French cartoon world.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s really sad, first because this is murder, second because the irrational
+impact it will have on society. This is crazy how a handful of brain-dead
+punks can bend history. Now France is going to become even more paranoid. I
+already was so uncomfortable when they began to send military with assault
+rifles wander in the train stations in Paris. It&amp;rsquo;s not going to get better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 100</title>
+      <link>http://blog.mose.com/2015/01/04/greenruby-100</link>
+      <pubDate>Sun, 04 Jan 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/01/04/greenruby-100</guid>
+      <description>&lt;p&gt;This week is the 100th edition of Green Ruby, it&amp;rsquo;s also the first one of 2015.
+This week the &lt;a href=&#34;http://sixgun.org/episodes/lo370&#34;&gt;Linux Outlaws&lt;/a&gt; broadcasted their last show, and Rebecca
+Watson left the &lt;a href=&#34;http://www.theskepticsguide.org/podcast/sgu/495&#34;&gt;Skeptics Guide to the Universe&lt;/a&gt;. Those are 2 podcasts that
+I never list in the Green Ruby list (they are not really on topic) but I
+rarely miss any of them. Too bad they leave. I thought about it too, but no, I
+will stay.&lt;/p&gt;
+
+&lt;p&gt;So, happy new year or, as we say in french: Bananier!&lt;/p&gt;
+
+&lt;p&gt;For 100 weeks already I gathered those links and sent them to whoever wants
+them. Every damn single week. Just for the fun of it. This is a kind of
+personal kata, it keeps me in the loop. I just make my exercise in a way I can
+share it. And my streak of never missing one week is a kind of personal
+challenge.&lt;/p&gt;
+
+&lt;p&gt;There is now 971 subscribers to the mail newsletter, a whole lot of people
+prefer to subscribe using the RSS feed, and the website has 8 or 9k visits per
+month. But this is still a side project, with no business behind it. Just one
+single guy and a couple of friends sharing the result of their weekly review
+of the news of their craft.&lt;/p&gt;
+
+&lt;p&gt;So, as you can notice, the edito becomes a rant, and is going to get a bit
+longer. For a while I was trying to keep it short just because it sits on the
+top of the letter. What matters are the links and not the ranting. By moving
+the blah blah at the bottom, I free myself from format constraints and can
+unleash my writing desires. muahaha. Not that I have much to say. But you can
+consider this new section of Green Ruby as the last screen displayed in &lt;a href=&#34;http://www.chucklorre.com/index-bbt.php&#34;&gt;The
+Big Bang Theory&lt;/a&gt;, where producers display some random thoughts, rants or
+anecdote. You need to pause the video for being able to read them. Yeah I know
+I could just blog like everybody else. But it&amp;rsquo;s just convenient for me to
+include this writing in my weekly process.&lt;/p&gt;
+
+&lt;p&gt;I also improved formatting for text-only diffusion. There is still something
+bugging me about the link tracking, which is mandatory when using the free
+tier of Mailchimp service. I guess I will have to find a way around: either I
+will get away from mailchimp, either I will find a sponsor to pay for removing
+the tracking (sounds funny when I say it that way, no?). Goddamn I hate
+tracking-by-default. Maybe I will end up setting up my own postfix with some
+mailman. Or use something? If you know a good free software self-hosted
+solution for newsletters feel free to drop me a mail.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s amazing how many times I saw dev add google analytics on their templates
+and at the end nobody was going to check stats except for volume metrics. If
+you only need volumetric data, use your web server logs! If you really need
+fine metrics, why not consider using self-hosted analytics like &lt;a href=&#34;http://piwik.org&#34;&gt;Piwik&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t get me wrong, I don&amp;rsquo;t hate analytics. What bothers me is what is made of
+those data. Many companies chose as a business model to consider the user as a
+merchandise. And most of the time they are not clear about it.&lt;/p&gt;
+
+&lt;p&gt;Oh, one last word, next week I will prepare an option so you can chose to
+receive only the links and no rant. Or only the rant and no links. Maybe I
+will make each section of the letter opt-out too, if you never listen to
+podcasts why should you get those, right? I just like choice.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About Green Ruby</title>

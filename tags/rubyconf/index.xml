@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubyconf on Moselog</title>
+    <link>http://blog.mose.com/tags/rubyconf/</link>
+    <description>Recent content in Rubyconf on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2015 12:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/rubyconf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 130</title>
+      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
+      <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
+      <description>
+
+&lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
+
+&lt;p&gt;In September 11 and 12 there is a &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;Rubyconf here in Taiwan&lt;/a&gt;. I have
+been at some past editions and it&amp;rsquo;s always a good time to meet people. Because
+we are close to Japan there is usually pretty good ruby core contributors from
+there. We get to see Matz, father of ruby, at each edition. But this time it
+seems that the organizers pulled some kind of special trick and the famous
+&lt;a href=&#34;http://tenderlovemaking.com/&#34;&gt;Aaron Patterson&lt;/a&gt; will be present. And I remember having heard
+&lt;a href=&#34;http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen&#34;&gt;Sarah Allen on rubyrogues&lt;/a&gt; last year, it is the first time she joins
+us in Taiwan too. I think both of them will bring some unique taste to this
+years rubyconf.&lt;/p&gt;
+
+&lt;p&gt;If you looked for an occasion to visit Taiwan, that may be the right time. You
+won&amp;rsquo;t regret it. The ruby community in Taiwan is quite active and Taiwanese
+people are amazingly welcoming to westerners.&lt;/p&gt;
+
+&lt;p&gt;And, if you want to meet the 3 of us, we will all be there. Look around for
+Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
+tirelessly collect links and news, fresh from the week, about ruby and other
+things. And if you see someone with a Gandi T-Shirt, that will probably be me.
+We probably will distribute some green ruby stickers that I still have in
+stock. So then we can make new ones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 128</title>
+      <link>http://blog.mose.com/2015/07/19/greenruby-128</link>
+      <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/07/19/greenruby-128</guid>
+      <description>
+
+&lt;h2 id=&#34;rubyconf-taiwan-2015-cfp:abd434c0512885455cdb7b8467442df0&#34;&gt;RubyConf Taiwan 2015 CFP&lt;/h2&gt;
+
+&lt;p&gt;Hey it&amp;rsquo;s time to give it a try, talking at a rubyconf is a great upgrade for
+any coder. That rubyconf will happen on september 11-12th in Taipei. &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/07/14/rubyconftw-2015-call-for-proposals/&#34;&gt;Check it
+out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;nsa-on-github:abd434c0512885455cdb7b8467442df0&#34;&gt;NSA on Github&lt;/h2&gt;
+
+&lt;p&gt;Looks like someone is trying to fight back a reputation of obscurity. While
+they are still pushing on more invasion of privacy, they also release some
+&lt;a href=&#34;http://fossbytes.com/nsa-open-sources-its-linux-based-cyber-security-tool/&#34;&gt;open source code&lt;/a&gt;. Check the &lt;a href=&#34;https://github.com/NationalSecurityAgency&#34;&gt;NSA github repository&lt;/a&gt;, they
+released something already. &lt;a href=&#34;https://github.com/simp&#34;&gt;Simp&lt;/a&gt; especially has a bunch of puppet
+modules, but it&amp;rsquo;s designed only for redhat kind of systems. Quite an
+interesting move.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

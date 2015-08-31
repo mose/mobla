@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makers on Moselog</title>
+    <link>http://blog.mose.com/tags/makers/</link>
+    <description>Recent content in Makers on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Mar 2015 12:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/makers/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 111</title>
+      <link>http://blog.mose.com/2015/03/22/greenruby-111</link>
+      <pubDate>Sun, 22 Mar 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/03/22/greenruby-111</guid>
+      <description>
+
+&lt;h2 id=&#34;drones-and-makers:84bb7b31097e7dff868fbef479daafb5&#34;&gt;Drones and makers&lt;/h2&gt;
+
+&lt;p&gt;This is now obvious. We are going to get invaded by drones. Of course we will
+pretend we control them, for a while. But I can bet it&amp;rsquo;s not going to stand
+too long. Their autonomy is a competitive factor, and, in our current society,
+competitive is the Darwinian selective factor. It can be a bit scary.&lt;/p&gt;
+
+&lt;p&gt;But on another hand, when we geeks look at those things with our (never-aging)
+kids eyes, we see fun toys. Look at the &lt;a href=&#34;http://www.bgobeyond.co.uk/&#34;&gt;B Flying car&lt;/a&gt;. We can
+&lt;a href=&#34;http://diydrones.com/&#34;&gt;do them ourselves&lt;/a&gt;. Like we were able to tinker with the first computers, the
+first radio stations. But now we have 3D printing. Yet not that affordable,
+but it seems to get better. There is also that creepy &lt;a href=&#34;http://the3doodler.com/&#34;&gt;3Doodler&lt;/a&gt;
+thingie, and various other new techniques.&lt;/p&gt;
+
+&lt;p&gt;Maybe the Makers movement is the hope for humanity. Reclaim the daily small
+things! Check that &lt;a href=&#34;http://www.instructables.com/&#34;&gt;instructable&lt;/a&gt; website it&amp;rsquo;s a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Well yeah this all has nothing to do with webdev. Except from the fact that
+open standards made possible to people like me to do the web myself. After a
+time, it became a professional activity. Will we get professional makers in
+the future and see a revival of craftsmanship? I really wonder.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

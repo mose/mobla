@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grenruby on Moselog</title>
+    <link>http://blog.mose.com/tags/grenruby/</link>
+    <description>Recent content in Grenruby on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Sep 2015 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 135</title>
+      <link>http://blog.mose.com/2015/09/06/greenruby-135</link>
+      <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/09/06/greenruby-135</guid>
+      <description>
+
+&lt;h2 id=&#34;meet-at-rubyconf:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Meet at rubyconf&lt;/h2&gt;
+
+&lt;p&gt;Next friday we will be at &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;rubyconf Taiwan&lt;/a&gt;. Last year there was
+around 300 attendees and there is 256 this year. But maybe there will be more
+last minute registration, there is still some &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/rubyconftw2015&#34;&gt;spots available&lt;/a&gt; (well
+just 14 at this time). I will also be at the &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/850d36b0&#34;&gt;pre-conf evening&lt;/a&gt; on
+wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers
+there).&lt;/p&gt;
+
+&lt;h2 id=&#34;some-stats-on-greenruby:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Some stats on greenruby&lt;/h2&gt;
+
+&lt;p&gt;From time to time I check an export of the subscribers list and do some stats
+out of curiosity. As of today there are 1466 subscribers, and more than half
+in the US (844) all the rest are in 88 other countries (most in India, UK,
+France and Taiwan, in that order). In the US most people are from New-York,
+just a little more than Los Angeles, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Monticello,_Kentucky&#34;&gt;Monticello&lt;/a&gt; in Kentucky.
+I wonder what there is so special in that city of less than 10k people. Maybe
+that&amp;rsquo;s a geo-location glitch? If not, please someone tell me what there is in
+that small and probably nice city. But if I had to bet, I would put my money
+on the glitch.&lt;/p&gt;
+
+&lt;p&gt;Every week there is a small number of new subscribers, especially during
+summer. But if you don&amp;rsquo;t really read or if you don&amp;rsquo;t care that much, please
+unsubscribe. I will certainly have to do some invitation to unsubscribe when
+we will reach around 2000, because mailchimp if free of charge only under that
+limit.&lt;/p&gt;
+
+&lt;p&gt;There are also a lot of unaccounted subscribers to the RSS feed, which is the
+most popular page on the website. But I don&amp;rsquo;t use feedburner or any kind of
+tracking so I don&amp;rsquo;t really know. And I kind of like it that way.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

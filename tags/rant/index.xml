@@ -6,8 +6,49 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2015 12:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 135</title>
+      <link>http://blog.mose.com/2015/09/06/greenruby-135</link>
+      <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/09/06/greenruby-135</guid>
+      <description>
+
+&lt;h2 id=&#34;meet-at-rubyconf:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Meet at rubyconf&lt;/h2&gt;
+
+&lt;p&gt;Next friday we will be at &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;rubyconf Taiwan&lt;/a&gt;. Last year there was
+around 300 attendees and there is 256 this year. But maybe there will be more
+last minute registration, there is still some &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/rubyconftw2015&#34;&gt;spots available&lt;/a&gt; (well
+just 14 at this time). I will also be at the &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/850d36b0&#34;&gt;pre-conf evening&lt;/a&gt; on
+wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers
+there).&lt;/p&gt;
+
+&lt;h2 id=&#34;some-stats-on-greenruby:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Some stats on greenruby&lt;/h2&gt;
+
+&lt;p&gt;From time to time I check an export of the subscribers list and do some stats
+out of curiosity. As of today there are 1466 subscribers, and more than half
+in the US (844) all the rest are in 88 other countries (most in India, UK,
+France and Taiwan, in that order). In the US most people are from New-York,
+just a little more than Los Angeles, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Monticello,_Kentucky&#34;&gt;Monticello&lt;/a&gt; in Kentucky.
+I wonder what there is so special in that city of less than 10k people. Maybe
+that&amp;rsquo;s a geo-location glitch? If not, please someone tell me what there is in
+that small and probably nice city. But if I had to bet, I would put my money
+on the glitch.&lt;/p&gt;
+
+&lt;p&gt;Every week there is a small number of new subscribers, especially during
+summer. But if you don&amp;rsquo;t really read or if you don&amp;rsquo;t care that much, please
+unsubscribe. I will certainly have to do some invitation to unsubscribe when
+we will reach around 2000, because mailchimp if free of charge only under that
+limit.&lt;/p&gt;
+
+&lt;p&gt;There are also a lot of unaccounted subscribers to the RSS feed, which is the
+most popular page on the website. But I don&amp;rsquo;t use feedburner or any kind of
+tracking so I don&amp;rsquo;t really know. And I kind of like it that way.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 134</title>
@@ -662,70 +703,6 @@ hand, and here is the sequence:&lt;/p&gt;
 
 &lt;p&gt;This gave me the taste of digging up a little bit more on how gdb can interact
 with live processes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 120</title>
-      <link>http://blog.mose.com/2015/05/24/greenruby-120</link>
-      <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/05/24/greenruby-120</guid>
-      <description>
-
-&lt;h2 id=&#34;the-side-effects-of-recruitment:849328e7dfc904a2b6d861e0036f0df4&#34;&gt;The side effects of recruitment&lt;/h2&gt;
-
-&lt;p&gt;Recently I had to look for a new devops for our team. I have been handling
-technical recruitment at many occasions, and each time I have to explain my
-colleagues that I have a special process. The fact is, the technical sphere is
-a small one, we are all linked, more or less, to a community. Well, in my
-case, I always have had to recruit people in companies that were hiring the
-kind of people that commit on github, have some kind of community activity, at
-least. I guess that in huge companies where people are just a set of
-checkboxes, things go a bit differently.&lt;/p&gt;
-
-&lt;p&gt;But anyways, in my case, and probably in the case of all recruiters in modern
-and small businesses, it&amp;rsquo;s not all about checkboxes and profiles. It&amp;rsquo;s about
-personality, compatibility, and mindset. So when I first get a contact with a
-candidate, I invite him (or much more rarely, her), to a chat online,
-preferably on irc or whatever real-time discussion media is more fit (for a
-linux geek, if you can&amp;rsquo;t go on irc, then there is a problem).&lt;/p&gt;
-
-&lt;p&gt;I noticed that during my past sessions of recruitment, I established contacts
-with very interesting people. By having an unformal discussion online, just
-chit-chating of what work we do and what we did before, it&amp;rsquo;s kind of easy to
-get an idea of what is the kind of relationship you will have with your
-potential future colleague. But beyond that, it&amp;rsquo;s all about making things
-personal. We are all unique. It cannot be computed, scripted, engineered in a
-way that non-technical people would be successful conducting that process. It
-takes a geek to recognize another geek.&lt;/p&gt;
-
-&lt;p&gt;At Gandi of course we have a HR person. But she usually appears at the very
-end of the process and not at the beginning. The peers are going to evaluate
-candidates, make their mind to see if they want to spend days and days
-collaborating with them. It matches with my way to do things, fortunately. If
-I have any doubt of the technical abilities on someone, I don&amp;rsquo;t do stupid
-technical tests, I try to find other people that know the candidate and get
-third party feedback. If not, then I try to use a meetup in a community
-related to the speciality in question, so we can discuss and be around other
-people where some tangent discussion can happen.&lt;/p&gt;
-
-&lt;p&gt;At the end, if all goes well, then the candidate is going to enter the more
-formal whatever the company uses as a recruitment flow. But that&amp;rsquo;s merely a
-formality. And after 20 years building up teams and recruiting people, I can
-affirm that instinct always wins, in my case. If I smell anything fishy in an
-unformal context, there is going to be problems. Well, the process is never
-perfect, it also can smell ok but stink after 3 months, too.&lt;/p&gt;
-
-&lt;p&gt;But the thing is that having those chats online with peers is pretty
-interesting. I learn a lot about how other companies work, how they handle
-their management, what kind of work conditions they have. Just because it&amp;rsquo;s
-part of the contact process. So I&amp;rsquo;m not really in hurry to make a final
-decision because, to be honest, I just enjoy those contacts.&lt;/p&gt;
-
-&lt;p&gt;It certainly takes some time, I can&amp;rsquo;t be in constant recruitment, but from
-time to time, it&amp;rsquo;s very valuable. And not only for the effect of recruiting
-someone. It creates bonds with the industry, with people, with communities.&lt;/p&gt;
 </description>
     </item>
     

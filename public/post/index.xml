@@ -6,8 +6,32 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 140</title>
+      <link>http://blog.mose.com/2015/10/11/greenruby-140</link>
+      <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/11/greenruby-140</guid>
+      <description>
+
+&lt;h2 id=&#34;slack-overflow:94c85cedf808f313200328bd388deb80&#34;&gt;Slack overflow&lt;/h2&gt;
+
+&lt;p&gt;Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope &lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; will kill it, honestly.&lt;/p&gt;
+
+&lt;p&gt;I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn&amp;rsquo;t have a linux client for a while. So I didn&amp;rsquo;t really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don&amp;rsquo;t charge for normal usage until you need many integrations with various services, it&amp;rsquo;s pretty easy for anyone to create some new slack team.&lt;/p&gt;
+
+&lt;p&gt;Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt.&lt;/p&gt;
+
+&lt;p&gt;Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check &lt;a href=&#34;http://www.slacklist.info/&#34;&gt;slacklist&lt;/a&gt; or the &lt;a href=&#34;http://chats.directory/&#34;&gt;chat directory&lt;/a&gt;. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them.&lt;/p&gt;
+
+&lt;p&gt;I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It&amp;rsquo;s a totally different beast. Plus, that&amp;rsquo;s a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative.&lt;/p&gt;
+
+&lt;p&gt;Currently I got 6 groups on my slack client, including the &lt;a href=&#34;https://greenruby.slack.com/&#34;&gt;Greenruby slack group&lt;/a&gt;. You can ask for an invite at &lt;a href=&#34;mailto:news@greenruby.org&#34;&gt;slack@greenruby.org&lt;/a&gt; it&amp;rsquo;s totally open.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 136</title>
@@ -626,68 +650,6 @@ as well. If you want to exercise programming in a nurturing-only context, win
 a lottery and dedicate your time writing free software (where market
 requirements don&amp;rsquo;t apply). But in the usual case, you may have to consider if
 you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 123</title>
-      <link>http://blog.mose.com/2015/06/14/greenruby-123</link>
-      <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/06/14/greenruby-123</guid>
-      <description>
-
-&lt;h2 id=&#34;a-word-about-project-gardening:3f19ca908c642cafd8c3253d0dfb2a28&#34;&gt;A word about project gardening&lt;/h2&gt;
-
-&lt;p&gt;In the last 2 companies where I worked, there was this recurring issue.
-Actually I noticed it for a while but for some reasons it became more obvious
-to me with time passing. The project management role is usually badly
-fulfilled.&lt;/p&gt;
-
-&lt;p&gt;But at some point, and even from the point of view of a developer, there is in
-projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s
-all about daily ungrateful clearing the bad weeds, making sure the soil is
-rich enough, and that the seeds are all planted where they should be planted,
-that soil pH is adequate for this or that variety. Having someone that is just
-doing moderation on projects also frees the productive people from lengthly
-and sometimes non technical meetings. It is the occasion to have someone that
-keeps track of specs, sometimes gather them or (re)write them down in a
-central place.&lt;/p&gt;
-
-&lt;p&gt;The problem in the transition from waterfall to agile, is that in the
-waterfall model there is a hierarchic feeling in the role of the project
-manager. The Management word into it is misleading. It leads the developers to
-frown upon it. I have the impression that in agile teams, project management
-is supposed to be taken care of organically by the dev teams, sometimes by the
-scrum master or whatever facilitator is there for enforcing the agile process.
-Or the product owner will be technical enough to fill up that role. More or
-less.&lt;/p&gt;
-
-&lt;p&gt;But the reality is that project grooming is a full time job that may have to
-be re-invented. It certainly should take in account developers creativity and
-pertinence in the match of the objectives with the technical realities. But
-it&amp;rsquo;s necessary to have a person that is the reference on keeping track of the
-need and follow the quality process at all the stages. Well, at least when you
-begin to get many developers and many projects, and developers that work on
-many projects.&lt;/p&gt;
-
-&lt;p&gt;I think it&amp;rsquo;s a question of scale. Companies with less than 30 people may never
-face that need because there is a natural fluidity internally and not that
-many projects. But when you get to 100 and you still don&amp;rsquo;t have people
-dedicated to projects, then you can see developers burning out. Projects
-become lousy because nobody has time to write specs. You also can see
-emergence of hero coders that can by miracle make it all happen. But you will
-postpone the problem because heroes are not scalable and can even be toxic on
-the long run (as any experienced practitioner already knows).&lt;/p&gt;
-
-&lt;p&gt;Personally in my technical career I never liked the project managers that I
-met. But that is a long time I didn&amp;rsquo;t meet any. It dates from an age where
-agile was not there yet. But now that I don&amp;rsquo;t see them anymore, I feel that
-something is missing. It certainly exists in various places. And I can bet
-that many of them are as bad as they were in the last century. But maybe there
-is a new species of project curators out there that I didn&amp;rsquo;t meet yet. I read
-about those in various places, but in my (small) world, this is still a
-mythical beast.&lt;/p&gt;
 </description>
     </item>
     

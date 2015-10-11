@@ -6,8 +6,32 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 140</title>
+      <link>http://blog.mose.com/2015/10/11/greenruby-140</link>
+      <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/11/greenruby-140</guid>
+      <description>
+
+&lt;h2 id=&#34;slack-overflow:94c85cedf808f313200328bd388deb80&#34;&gt;Slack overflow&lt;/h2&gt;
+
+&lt;p&gt;Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope &lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; will kill it, honestly.&lt;/p&gt;
+
+&lt;p&gt;I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn&amp;rsquo;t have a linux client for a while. So I didn&amp;rsquo;t really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don&amp;rsquo;t charge for normal usage until you need many integrations with various services, it&amp;rsquo;s pretty easy for anyone to create some new slack team.&lt;/p&gt;
+
+&lt;p&gt;Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt.&lt;/p&gt;
+
+&lt;p&gt;Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check &lt;a href=&#34;http://www.slacklist.info/&#34;&gt;slacklist&lt;/a&gt; or the &lt;a href=&#34;http://chats.directory/&#34;&gt;chat directory&lt;/a&gt;. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them.&lt;/p&gt;
+
+&lt;p&gt;I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It&amp;rsquo;s a totally different beast. Plus, that&amp;rsquo;s a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative.&lt;/p&gt;
+
+&lt;p&gt;Currently I got 6 groups on my slack client, including the &lt;a href=&#34;https://greenruby.slack.com/&#34;&gt;Greenruby slack group&lt;/a&gt;. You can ask for an invite at &lt;a href=&#34;mailto:news@greenruby.org&#34;&gt;slack@greenruby.org&lt;/a&gt; it&amp;rsquo;s totally open.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 136</title>

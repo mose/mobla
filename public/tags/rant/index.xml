@@ -6,8 +6,32 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 140</title>
+      <link>http://blog.mose.com/2015/10/11/greenruby-140</link>
+      <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/11/greenruby-140</guid>
+      <description>
+
+&lt;h2 id=&#34;slack-overflow:94c85cedf808f313200328bd388deb80&#34;&gt;Slack overflow&lt;/h2&gt;
+
+&lt;p&gt;Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope &lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; will kill it, honestly.&lt;/p&gt;
+
+&lt;p&gt;I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn&amp;rsquo;t have a linux client for a while. So I didn&amp;rsquo;t really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don&amp;rsquo;t charge for normal usage until you need many integrations with various services, it&amp;rsquo;s pretty easy for anyone to create some new slack team.&lt;/p&gt;
+
+&lt;p&gt;Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt.&lt;/p&gt;
+
+&lt;p&gt;Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check &lt;a href=&#34;http://www.slacklist.info/&#34;&gt;slacklist&lt;/a&gt; or the &lt;a href=&#34;http://chats.directory/&#34;&gt;chat directory&lt;/a&gt;. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them.&lt;/p&gt;
+
+&lt;p&gt;I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It&amp;rsquo;s a totally different beast. Plus, that&amp;rsquo;s a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative.&lt;/p&gt;
+
+&lt;p&gt;Currently I got 6 groups on my slack client, including the &lt;a href=&#34;https://greenruby.slack.com/&#34;&gt;Greenruby slack group&lt;/a&gt;. You can ask for an invite at &lt;a href=&#34;mailto:news@greenruby.org&#34;&gt;slack@greenruby.org&lt;/a&gt; it&amp;rsquo;s totally open.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 136</title>
@@ -672,62 +696,6 @@ that many of them are as bad as they were in the last century. But maybe there
 is a new species of project curators out there that I didn&amp;rsquo;t meet yet. I read
 about those in various places, but in my (small) world, this is still a
 mythical beast.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 122</title>
-      <link>http://blog.mose.com/2015/06/07/greenruby-122</link>
-      <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/06/07/greenruby-122</guid>
-      <description>
-
-&lt;h2 id=&#34;thought-about-python-fron-a-rubyist:cdf97fab83b684f4dce127ec09f067df&#34;&gt;Thought about python fron a rubyist&lt;/h2&gt;
-
-&lt;p&gt;This weekend there was a python conference here in Taipei (&lt;a href=&#34;https://tw.pycon.org/2015apac/en/&#34;&gt;pycon apac&lt;/a&gt;).
-As Gandi was sponsoring it, I &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/sets/72157653640049980&#34;&gt;went there&lt;/a&gt; and tried to
-figure out how python and ruby communities differ in my local area. As a
-matter of fact, I also push my python coding skills a bit. I kind of like to
-nurture a general polyglot approach.&lt;/p&gt;
-
-&lt;p&gt;It first seems that the python community is more largely supported by sponsors
-than ruby one. It&amp;rsquo;s more mainstream in the general engineering world, I guess.
-There was google, facebook, microsoft, having a table and talking about their
-cloud things. But the general setup was pretty similar to the ruby or rails
-conf I&amp;rsquo;ve been in.&lt;/p&gt;
-
-&lt;p&gt;The topics in this conference were maybe a little more scientific and less
-web-oriented than we can find in ruby world. Python has tighter bindings with
-lower level languages. I think it&amp;rsquo;s not a specificity of the language because
-you also can build C extensions for ruby. But it&amp;rsquo;s more a result of the
-community interests.&lt;/p&gt;
-
-&lt;p&gt;I have the feeling that the ruby community dedicated more efforts towards the
-web front and other rails related principle like testing suites, DSL and
-meta-programming. But my general feeling is that there is no technical reason
-for that. It&amp;rsquo;s just how things happened over time, mostly given the weight of
-rails in the ruby communities.&lt;/p&gt;
-
-&lt;p&gt;Actually, I also had the feeling that pythonists don&amp;rsquo;t consider ruby as a
-&amp;lsquo;competitor&amp;rsquo;. They feel closer to java, node or golang, and at various
-occasion I had the impression that they consider ruby to be only the language
-behind rails.&lt;/p&gt;
-
-&lt;p&gt;I also thought that the ruby community was special about its adoption of
-macbook laptops. Even if actually the python coder has more diversity, I
-evaluate around half macbooks, the rest split between ubuntu and windows. It&amp;rsquo;s
-less that in ruby confs where macbooks are kinda 90% and windows users are
-very few.&lt;/p&gt;
-
-&lt;p&gt;Also, I noticed a similar movement about diversity with &lt;a href=&#34;http://djangogirls.org/taipei/&#34;&gt;django girls&lt;/a&gt;
-and &lt;a href=&#34;http://www.meetup.com/PyLadiesTW/&#34;&gt;pyladies&lt;/a&gt;, comparable to the rails girls,
-which tries to close the gender gap in the engineering world.&lt;/p&gt;
-
-&lt;p&gt;Anyways that was good and interesting. Geeks are the same kind, whatever
-language they use (by trade or by taste). I strongly advise, if you have the
-occasion, to wander out of your usual communities and join other circles. It
-gives a good perspective on you usual world.&lt;/p&gt;
 </description>
     </item>
     

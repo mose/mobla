@@ -6,8 +6,50 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 142</title>
+      <link>http://blog.mose.com/2015/10/25/greenruby-142</link>
+      <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/25/greenruby-142</guid>
+      <description>
+
+&lt;h2 id=&#34;dst-sucks:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;DST sucks&lt;/h2&gt;
+
+&lt;p&gt;This week-end they changed time in France. As I work with those guys to cover
+the watching of servers, then I need to change time too. This is totally lame.
+In the context of largely distributed teams, DST is heresy. It happens in the
+US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have
+that in Taiwan.&lt;/p&gt;
+
+&lt;h2 id=&#34;thunderbird-sucks-too:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Thunderbird sucks too&lt;/h2&gt;
+
+&lt;p&gt;Despite the respect I have for mozilla products and for their efforts toward
+the community, I have to say that I have been using thunderbird for a while
+and I don&amp;rsquo;t like it. There is some lack of customability in there, it eats a
+whole lot of memory and it&amp;rsquo;s kinda slow sometimes. I have been considering
+getting back to mutt, which is a totally different category of mail client.&lt;/p&gt;
+
+&lt;p&gt;But I found &lt;a href=&#34;http://www.claws-mail.org/&#34;&gt;claws&lt;/a&gt;, and trying it for a few days on my various
+mailboxes with hundreds of thousands of mails, and it is a very good feeling.
+It&amp;rsquo;s much more transparent and hackable and stays in the same category of the
+clickable mail client as thunderbird. I&amp;rsquo;m not sure I will stick to claws,
+maybe I will get back to mutt that I have been used so many years before. But
+I sure will give that &amp;lsquo;email client that bites&amp;rsquo; a try for a while.&lt;/p&gt;
+
+&lt;h2 id=&#34;gmail-sucks-more:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Gmail sucks more&lt;/h2&gt;
+
+&lt;p&gt;I still can&amp;rsquo;t figure out why people use gmail for reading their mail. I mean,
+you leave management of your mail to google, you know what they do with it.
+You also want to give them information about how you read your mail? I mean,
+using a webmail, first, should be a fallback. But it&amp;rsquo;s mystery for nobody that
+google business is in profiling people. It blasts me how people can trust them
+blindly.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 140</title>
@@ -634,68 +676,6 @@ as well. If you want to exercise programming in a nurturing-only context, win
 a lottery and dedicate your time writing free software (where market
 requirements don&amp;rsquo;t apply). But in the usual case, you may have to consider if
 you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 123</title>
-      <link>http://blog.mose.com/2015/06/14/greenruby-123</link>
-      <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/06/14/greenruby-123</guid>
-      <description>
-
-&lt;h2 id=&#34;a-word-about-project-gardening:3f19ca908c642cafd8c3253d0dfb2a28&#34;&gt;A word about project gardening&lt;/h2&gt;
-
-&lt;p&gt;In the last 2 companies where I worked, there was this recurring issue.
-Actually I noticed it for a while but for some reasons it became more obvious
-to me with time passing. The project management role is usually badly
-fulfilled.&lt;/p&gt;
-
-&lt;p&gt;But at some point, and even from the point of view of a developer, there is in
-projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s
-all about daily ungrateful clearing the bad weeds, making sure the soil is
-rich enough, and that the seeds are all planted where they should be planted,
-that soil pH is adequate for this or that variety. Having someone that is just
-doing moderation on projects also frees the productive people from lengthly
-and sometimes non technical meetings. It is the occasion to have someone that
-keeps track of specs, sometimes gather them or (re)write them down in a
-central place.&lt;/p&gt;
-
-&lt;p&gt;The problem in the transition from waterfall to agile, is that in the
-waterfall model there is a hierarchic feeling in the role of the project
-manager. The Management word into it is misleading. It leads the developers to
-frown upon it. I have the impression that in agile teams, project management
-is supposed to be taken care of organically by the dev teams, sometimes by the
-scrum master or whatever facilitator is there for enforcing the agile process.
-Or the product owner will be technical enough to fill up that role. More or
-less.&lt;/p&gt;
-
-&lt;p&gt;But the reality is that project grooming is a full time job that may have to
-be re-invented. It certainly should take in account developers creativity and
-pertinence in the match of the objectives with the technical realities. But
-it&amp;rsquo;s necessary to have a person that is the reference on keeping track of the
-need and follow the quality process at all the stages. Well, at least when you
-begin to get many developers and many projects, and developers that work on
-many projects.&lt;/p&gt;
-
-&lt;p&gt;I think it&amp;rsquo;s a question of scale. Companies with less than 30 people may never
-face that need because there is a natural fluidity internally and not that
-many projects. But when you get to 100 and you still don&amp;rsquo;t have people
-dedicated to projects, then you can see developers burning out. Projects
-become lousy because nobody has time to write specs. You also can see
-emergence of hero coders that can by miracle make it all happen. But you will
-postpone the problem because heroes are not scalable and can even be toxic on
-the long run (as any experienced practitioner already knows).&lt;/p&gt;
-
-&lt;p&gt;Personally in my technical career I never liked the project managers that I
-met. But that is a long time I didn&amp;rsquo;t meet any. It dates from an age where
-agile was not there yet. But now that I don&amp;rsquo;t see them anymore, I feel that
-something is missing. It certainly exists in various places. And I can bet
-that many of them are as bad as they were in the last century. But maybe there
-is a new species of project curators out there that I didn&amp;rsquo;t meet yet. I read
-about those in various places, but in my (small) world, this is still a
-mythical beast.&lt;/p&gt;
 </description>
     </item>
     

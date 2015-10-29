@@ -6,8 +6,50 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 142</title>
+      <link>http://blog.mose.com/2015/10/25/greenruby-142</link>
+      <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/25/greenruby-142</guid>
+      <description>
+
+&lt;h2 id=&#34;dst-sucks:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;DST sucks&lt;/h2&gt;
+
+&lt;p&gt;This week-end they changed time in France. As I work with those guys to cover
+the watching of servers, then I need to change time too. This is totally lame.
+In the context of largely distributed teams, DST is heresy. It happens in the
+US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have
+that in Taiwan.&lt;/p&gt;
+
+&lt;h2 id=&#34;thunderbird-sucks-too:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Thunderbird sucks too&lt;/h2&gt;
+
+&lt;p&gt;Despite the respect I have for mozilla products and for their efforts toward
+the community, I have to say that I have been using thunderbird for a while
+and I don&amp;rsquo;t like it. There is some lack of customability in there, it eats a
+whole lot of memory and it&amp;rsquo;s kinda slow sometimes. I have been considering
+getting back to mutt, which is a totally different category of mail client.&lt;/p&gt;
+
+&lt;p&gt;But I found &lt;a href=&#34;http://www.claws-mail.org/&#34;&gt;claws&lt;/a&gt;, and trying it for a few days on my various
+mailboxes with hundreds of thousands of mails, and it is a very good feeling.
+It&amp;rsquo;s much more transparent and hackable and stays in the same category of the
+clickable mail client as thunderbird. I&amp;rsquo;m not sure I will stick to claws,
+maybe I will get back to mutt that I have been used so many years before. But
+I sure will give that &amp;lsquo;email client that bites&amp;rsquo; a try for a while.&lt;/p&gt;
+
+&lt;h2 id=&#34;gmail-sucks-more:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Gmail sucks more&lt;/h2&gt;
+
+&lt;p&gt;I still can&amp;rsquo;t figure out why people use gmail for reading their mail. I mean,
+you leave management of your mail to google, you know what they do with it.
+You also want to give them information about how you read your mail? I mean,
+using a webmail, first, should be a fallback. But it&amp;rsquo;s mystery for nobody that
+google business is in profiling people. It blasts me how people can trust them
+blindly.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 140</title>
@@ -596,60 +638,6 @@ can suspect. But it has a pretty active community and a very decent
 documentation. Well, give it a try if you like playing with various
 distributions of free and open operating systems. It&amp;rsquo;s much less scary that
 its reputation seems to convey.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 124</title>
-      <link>http://blog.mose.com/2015/06/21/greenruby-124</link>
-      <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/06/21/greenruby-124</guid>
-      <description>
-
-&lt;h2 id=&#34;the-yin-and-yang-of-software-development:aff213456bcfa77c48418a9edd40a18a&#34;&gt;The yin and yang of software development&lt;/h2&gt;
-
-&lt;p&gt;The topic I talked about last week led me to think about it more widely. And I
-ended up with the thinking that many problems in software companies are a
-clear problem of balance between their yin and their yang.&lt;/p&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://en.wikipedia.org/wiki/Yin_and_yang&#34;&gt;old chinese principle&lt;/a&gt; is documented in a very old-fashioned
-way, opposing genders and principles. But actually it sums up in the fact that
-many dynamics are to be based in a balance between two opposing principles.
-Otherwise they fail.&lt;/p&gt;
-
-&lt;p&gt;The way I see it, software developers are a nurturing kind. This profile has
-to consider long term. It decides actions for later outcomes. It&amp;rsquo;s about
-giving life and growing it. It feels closer to the Yin principle.&lt;/p&gt;
-
-&lt;p&gt;On another hand, the business people are bound to a shorter time frame. And I
-don&amp;rsquo;t talk about the entrepreneurs and the rare visionary people, but the real
-business work force. They are competitive, aggressive, fighters. That really
-feels to me like the Yang concept.&lt;/p&gt;
-
-&lt;p&gt;And all occurrences where I saw software companies failing, I think it was
-because there was a lack of balance between those 2 principles. Either the
-management was too soft and not aggressive enough towards its market, either
-it was too aggressive and nurturing was not considered enough in their
-equation.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t think that this balance requirement applies to everything, to be
-honest. But in a constituted body of a software organization, considering the
-current (questionable) market economy, it feels that the Yin and the Yang have
-to be in balance to grant a chance of survival to the organization.&lt;/p&gt;
-
-&lt;p&gt;One may have the feeling that the dominant Yang (business side) is the more
-common case. But they are just more noisy. Many projects stay silently in the
-darkness just because there was no real business consideration (or even
-refusal of it).&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://modeling-languages.com/grady-booch-on-the-future-of-software-engineering-video-and-highlights/&#34;&gt;keynote of Grady Booch&lt;/a&gt; (linked in the video section) confirmed
-me in various ways in this opinion. Engineers have the duty to fight for the
-balance when they can. They have to understand that it&amp;rsquo;s not a one-way deal,
-as well. If you want to exercise programming in a nurturing-only context, win
-a lottery and dedicate your time writing free software (where market
-requirements don&amp;rsquo;t apply). But in the usual case, you may have to consider if
-you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt;
 </description>
     </item>
     

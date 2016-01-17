@@ -6,8 +6,76 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 145</title>
+      <link>http://blog.mose.com/2015/11/15/greenruby-145</link>
+      <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/15/greenruby-145</guid>
+      <description>
+
+&lt;h2 id=&#34;more-about-bullies:7d0bd163d3b6e38d12756fdafb7e56e1&#34;&gt;More about bullies&lt;/h2&gt;
+
+&lt;p&gt;This week I read the &lt;a href=&#34;http://devblog.avdi.org/2015/11/09/software-bullying/&#34;&gt;reaction of Avdi&lt;/a&gt; to the rant of Linus last
+week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;.
+It rejoins the damage that I consider the coder-hero culture brings to our
+industry.&lt;/p&gt;
+
+&lt;p&gt;Certainly the creative process of writing software attract creative people.
+They have strong personalities, some have tendencies to mild autism. They move
+mountains and their pride make them work day and night to achieve unbelievable
+things.&lt;/p&gt;
+
+&lt;p&gt;This is good and well, but on the long run, now that we are passing 2
+generations of coders, we know that it&amp;rsquo;s not sustainable on the long run.
+Plus, it has a disastrous impact on team building. No pyramid was built by a
+single hero.&lt;/p&gt;
+
+&lt;p&gt;Incidentally I also read an interesting article about &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;Why computer
+programmers need to stop calling themselves engineers already&lt;/a&gt;.
+Even if I can&amp;rsquo;t clearly explain how this is related, I have the feeling it&amp;rsquo;s
+talking about something that is in the same area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 144</title>
+      <link>http://blog.mose.com/2015/11/08/greenruby-144</link>
+      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/08/greenruby-144</guid>
+      <description>
+
+&lt;h2 id=&#34;packaging-a-gem-for-debian:2e8a1de1525658978fef3574497ed77d&#34;&gt;Packaging a gem for Debian&lt;/h2&gt;
+
+&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.&lt;/p&gt;
+
+&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
+process are not very welcoming.&lt;/p&gt;
+
+&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 143</title>
@@ -504,130 +572,6 @@ they are still pushing on more invasion of privacy, they also release some
 released something already. &lt;a href=&#34;https://github.com/simp&#34;&gt;Simp&lt;/a&gt; especially has a bunch of puppet
 modules, but it&amp;rsquo;s designed only for redhat kind of systems. Quite an
 interesting move.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 127</title>
-      <link>http://blog.mose.com/2015/07/12/greenruby-127</link>
-      <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/07/12/greenruby-127</guid>
-      <description>
-
-&lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
-
-&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
-company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
-I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
-the same feeling I have each time I get back to that language. I feel dirty.
-Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder,
-more like an acrobat. And I&amp;rsquo;m far from a purist.&lt;/p&gt;
-
-&lt;p&gt;Some people talk about javascript taking over the world. But that language
-imho just was there at the right place at the right time. By having a runtime
-embedded in browsers and browsers libraries, it has been used to hijack the
-most used software on our computers and mobile devices, to transform them into
-richer clients. Along the way various layers were added to fulfill the need of
-software design, because javascript initial goal was merely DOM manipulation.&lt;/p&gt;
-
-&lt;p&gt;The thing that always stroke me the most with javascript is that despite the
-efforts from ecmascript, it has no formal standard or documentation. It is
-pretty extensively documented, of course, but because the language is pushed
-forward by the implementations rather than from a standard body, it gets a bit
-messy.&lt;/p&gt;
-
-&lt;p&gt;I saw a &lt;a href=&#34;http://cube-drone.com/comics/c/relentless-persistence&#34;&gt;drawing&lt;/a&gt; this week that illustrates the mess quite well. It feels
-like Javascript is waiting for something to come replace it.&lt;/p&gt;
-
-&lt;p&gt;But there is hope with ES6. Seems like in recent years the normative effort on
-the ecmascript standard got some more traction and some more press coverage.
-But I personally don&amp;rsquo;t think it&amp;rsquo;s going to bring the solution. I enjoyed
-reading the &lt;a href=&#34;http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/&#34;&gt;thoughts of Eric Elliot&lt;/a&gt; on that topic but I&amp;rsquo;m not sure
-he&amp;rsquo;s right on everything. But what he&amp;rsquo;s right about, is that there will be an
-after-javascript.&lt;/p&gt;
-
-&lt;p&gt;Unless that after javascript doesn&amp;rsquo;t arrive fast enough and gets useless by
-some new programming paradigm that may appear one day soon. I mean, in the
-next 10 years. At some point, like big data is too complex to be handled by
-human, programming will also get too complex and will be handled by
-algorithms. We already &lt;a href=&#34;http://phys.org/news/2015-07-code-faster-expert.html&#34;&gt;see it coming&lt;/a&gt;. And all programmers will then
-become high end workflow designers or just play with antiquities.&lt;/p&gt;
-
-&lt;p&gt;In this perspective, I think javascript is a great intermediary technology for
-the time being, given its pervasive aspect. It&amp;rsquo;s far from satisfying, but it
-does the job. But the younger generation should keep an eye on higher level
-abstract approaches, like systems architectures, workflow logics, organization
-patterns, because imho that will drive software design in the next 10-20
-years.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 126</title>
-      <link>http://blog.mose.com/2015/07/05/greenruby-126</link>
-      <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/07/05/greenruby-126</guid>
-      <description>
-
-&lt;h2 id=&#34;digital-generations:2aa08ef814c13d38c5b673b5d5882db4&#34;&gt;Digital Generations&lt;/h2&gt;
-
-&lt;p&gt;I enjoyed very much watching the &lt;a href=&#34;https://www.youtube.com/watch?v=h1TGJJ-F-fE&#34;&gt;keynote from Grady Booch at ICSE&lt;/a&gt;
-last week. He retraces the whole history of computing and software engineering
-in a very talented way.&lt;/p&gt;
-
-&lt;p&gt;Later on I also watched the &lt;a href=&#34;https://www.youtube.com/watch?v=2kEJoWfobpA&#34;&gt;keynote of Stephen Bourne at BSDCan&lt;/a&gt;,
-which also talked about history, but on a specific topic of the creation of
-Unix and the shell.&lt;/p&gt;
-
-&lt;p&gt;Usually, I have to say, I consider myself as an old geek. But I&amp;rsquo;m a kid
-compared to those guys. It made me wonder what are generations based on the
-computerized world. In the physical world it&amp;rsquo;s easy, there are births and
-generations are around 20-30 years long. But in our accelerated time frame in
-the digital age, what is the measure for generations and where are the gaps ?&lt;/p&gt;
-
-&lt;p&gt;We could consider that some breakthrough are the base of generational shifts.
-On the top of my head I would say:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the dinosaurs age, before 70, where computing was just emerging&lt;/li&gt;
-&lt;li&gt;the university age, appearing with the interconnectivity between universities between 70 and 80&lt;/li&gt;
-&lt;li&gt;the personal computer age, between 80 and 94, with various evolutions of pc available to larger audience&lt;/li&gt;
-&lt;li&gt;the hypertext age, between 94 and 2002, start of the public internet, the bubble, the web&lt;/li&gt;
-&lt;li&gt;the online age, from 2002 to 2012, with consolidation of big companies, web 2.0 and all&lt;/li&gt;
-&lt;li&gt;the mobile age, from 2012 to now, even if mobile appeared previously, it dominates since recently&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So I can see an average of 8-15 years in the generations that I feel create
-disruptions between each others. People that jump in at one age will suffer a
-gap between their age and the next one. Many won&amp;rsquo;t evolve. Few brave ones will
-constantly update and jump on the next train.&lt;/p&gt;
-
-&lt;p&gt;But the overlap in digital generations is also different than in traditional
-generations. We still have a lot of legacy in our current systems inherited
-form the university age. And they don&amp;rsquo;t seem to die, like the TCP stack or the
-C language.&lt;/p&gt;
-
-&lt;p&gt;The next age may be the one of the Internet of things and the massive required
-switch to IPv6 as default. Which will include automated and autonomous
-systems, because they will be things and not part of a contained system. In
-something like 3 to 5 years, if I follow the same rough pattern I drew above.
-Unless next gap will come with VR and immersive technologies ?&lt;/p&gt;
-
-&lt;p&gt;But I suspect that my simplistic characterization misses all the multi-layered
-aspect of the digital age, between the hardware advancements, the software
-improvements, the usages evolutions, the protocols modifications, the data
-models transformations, etc. I&amp;rsquo;m sure a more complex generational matrix could
-be designed if some more thought was given to it. But the gaps are real.&lt;/p&gt;
-
-&lt;p&gt;It feels to me that people that predict that machines are going to take over
-the world are actually late, it already happened 40 years ago. It was just
-having a limited impact on people lives. Each digital generation dragging more
-human in its trails.&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t let yourself enclosed in a generation. Our computer overlords won&amp;rsquo;t make
-any effort to include you if you drag your feet.&lt;/p&gt;
 </description>
     </item>
     

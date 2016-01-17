@@ -6,8 +6,76 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 145</title>
+      <link>http://blog.mose.com/2015/11/15/greenruby-145</link>
+      <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/15/greenruby-145</guid>
+      <description>
+
+&lt;h2 id=&#34;more-about-bullies:7d0bd163d3b6e38d12756fdafb7e56e1&#34;&gt;More about bullies&lt;/h2&gt;
+
+&lt;p&gt;This week I read the &lt;a href=&#34;http://devblog.avdi.org/2015/11/09/software-bullying/&#34;&gt;reaction of Avdi&lt;/a&gt; to the rant of Linus last
+week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;.
+It rejoins the damage that I consider the coder-hero culture brings to our
+industry.&lt;/p&gt;
+
+&lt;p&gt;Certainly the creative process of writing software attract creative people.
+They have strong personalities, some have tendencies to mild autism. They move
+mountains and their pride make them work day and night to achieve unbelievable
+things.&lt;/p&gt;
+
+&lt;p&gt;This is good and well, but on the long run, now that we are passing 2
+generations of coders, we know that it&amp;rsquo;s not sustainable on the long run.
+Plus, it has a disastrous impact on team building. No pyramid was built by a
+single hero.&lt;/p&gt;
+
+&lt;p&gt;Incidentally I also read an interesting article about &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;Why computer
+programmers need to stop calling themselves engineers already&lt;/a&gt;.
+Even if I can&amp;rsquo;t clearly explain how this is related, I have the feeling it&amp;rsquo;s
+talking about something that is in the same area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 144</title>
+      <link>http://blog.mose.com/2015/11/08/greenruby-144</link>
+      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/08/greenruby-144</guid>
+      <description>
+
+&lt;h2 id=&#34;packaging-a-gem-for-debian:2e8a1de1525658978fef3574497ed77d&#34;&gt;Packaging a gem for Debian&lt;/h2&gt;
+
+&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.&lt;/p&gt;
+
+&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
+process are not very welcoming.&lt;/p&gt;
+
+&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 143</title>

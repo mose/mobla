@@ -6,8 +6,32 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 143</title>
+      <link>http://blog.mose.com/2015/11/01/greenruby-143</link>
+      <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/01/greenruby-143</guid>
+      <description>
+
+&lt;h2 id=&#34;the-power-of-dsl:ab3ba7ed22eeaa19b0cb56ca8c01c80b&#34;&gt;The power of DSL&lt;/h2&gt;
+
+&lt;p&gt;While I was playing with &lt;a href=&#34;https://github.com/zetachang/react.rb&#34;&gt;react.rb&lt;/a&gt; and exploring &lt;a href=&#34;http://opalrb.org/&#34;&gt;opal&lt;/a&gt;, I
+felt in a totally different world. The power of the DSL already prove its
+shine on various occasions. I got to experience it in activeadmin, rspec, and
+puppet (but I kind of dislike the one in puppet).&lt;/p&gt;
+
+&lt;p&gt;As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility
+that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
+making new programming languages, using meta-programming, lambda and other
+goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
+of its syntax, it empowers developers with the ability to write dedicated
+programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 142</title>

@@ -97,6 +97,165 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-01-18
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-102.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2015/01/18/greenruby-102" class="post-title">Greenruby 102</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="while42:7b1eab39a4e6e397eafd98271e67cb67">While42</h2>
+
+<p>This week I got in contact with Sylvain from <a href="http://while42.org">while42</a>. It&rsquo;s a social
+network for french tech engineers, but with a special touch on it. There is no
+facebook page or google group. They intentionally decided to be irl-first. For
+people that are most likely to be online all the time, this sounds so
+therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
+If you want to know more (and are french, engineer, and living in Taipei) just
+drop me a mail.</p>
+
+<h2 id="traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67">Traveling ruby</h2>
+
+<p>This is a project from the <a href="http://www.phusion.nl/">Phusion</a> people, called <a href="https://github.com/phusion/traveling-ruby">Traveling ruby</a>.
+Its purpose is to make it easy to build auto-sustaining tarballs for ruby
+programms, including ruby binary and all gems in it. That way you can publish
+a tarball and your customer/user will just launch whatever you put in it. No
+need to install ruby or any gems.</p>
+
+<p>I gave it a try yesterday on my <a href="https://github.com/eduvo/zabbix-ruby-client">zabbix-ruby-client</a> gem, and after a few
+tweaks (mostly because I wanted to use an unpublished version of my gem), it
+all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
+old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
+reminded me a bit of the feeling when you upload a go executable on the
+server. Really neat.</p>
+
+<h2 id="palm-control:7b1eab39a4e6e397eafd98271e67cb67">Palm control</h2>
+
+<p>There are tiny things that can change a lot. My recent tiny thing is the palm
+control technique. Every sunday when I prepare Green Ruby I do a huge amount
+of copy pasting all over the place. Recently I found on a post about keyboard
+someone talking about the palm control technique for avoiding the copypaste
+fatigue.</p>
+
+<p>Well, you need to have a keyboard that makes it possible. Mine is a <a href="http://support.logitech.com/en_us/product/10104">Logitech washable k310</a>.
+I already liked its look, and even better, it&rsquo;s perfect for
+this palm thing because keys are prominent. Use the palm to push control and
+then it&rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
+my life!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-01-11
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-101.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-logs" href="http://blog.mose.com/tags/logs">logs</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2015/01/11/greenruby-101" class="post-title">Greenruby 101</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce">1000 subscribers</h2>
+
+<p>After the 100th Greenruby last week, we get the 1000th subscriber to the email
+newsletter this week. Welcome George :) So for the occasion I refreshed the
+<a href="http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map">subscribers map</a> on cartodb. About half of the subscribers are in the US,
+but there is a total of 73 countries represented, which is pretty neat. But
+this is based on the ip used for subscribing, so it&rsquo;s not totally accurate.</p>
+
+<h2 id="fighting-logs-pollution:dfd863a69df72c13bbe5f0b5d11c54ce">Fighting logs pollution</h2>
+
+<p>Some time ago, on edition 82, I posted a link to my webalizer stats for the
+greenruby website. Fatal mistake, I had referrers stats enabled and I got
+somehow listed somewhere. The consequence was a lot of fake traffic with only
+purpose to get links listed in my referrers section. After removing this
+section from webalizer config, and moving the url, the fake traffic was still
+there. Like a blind wave. This was pretty annoying.</p>
+
+<p>So I began to take some drastic measures. Because I didn&rsquo;t have referrers
+anymore in my stats, I went to my apache logs (yes it&rsquo;s an old server, still
+running apache2) and fire up a:</p>
+
+<pre><code>tail -5000 greenruby.org-access.log | cut -d' ' -f11 | sort | uniq -c | sort -n
+</code></pre>
+
+<p>This give me a nice view of the recent referrers. Fake ones are easy to
+notice. And that the fake traffic was only coming from a handful of ips, so I
+just made a few:</p>
+
+<pre><code>iptables -A INPUT -s &lt;ip&gt; -j DROP
+</code></pre>
+
+<p>The result was radically efficient. Certainly I had less volume but it&rsquo;s now
+much cleaner. But it makes it clear that having clean volume stats for traffic
+on your website is not that easy. There are a bunch of fake traffic sources
+that you may not suspect.</p>
+
+<h2 id="new-server-soon:dfd863a69df72c13bbe5f0b5d11c54ce">New server soon</h2>
+
+<p>I got a new job 2 month ago at <a href="http://gandi.net">gandi</a>, and there is some nice <a href="https://www.gandi.net/hosting/iaas">VPS
+hosting</a> there. I can have a machine just for Green Ruby there. It can be
+neat and open some options. Green Ruby website is still very static. Various
+attempts to improve it with a search engine didn&rsquo;t end up to something
+concluding yet. Maybe this time it will.</p>
+
+<p>That also may be the occasion to build up a distribution system and move out
+of mailchimp. I looked around and all I found was php based. So I will
+probably just write my own ruby scripts, the <a href="https://github.com/mikel/mail">mail gem</a> looks great and the
+rest is a question of configuring a postfix with correct <a href="http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF">SPF and DKIM
+setup</a>.</p>
+
+<h2 id="je-suis-charlie:dfd863a69df72c13bbe5f0b5d11c54ce">Je suis Charlie</h2>
+
+<p>Well, this tragedy that happened this Thursday in France impacts a lot of
+people. Somehow, it perhaps impacts me more than the average. When I was
+younger I went to art school to become a cartoonist, and finally I changed my
+mind. But I knew the work of the victims of this slaughter. They were icons in
+the French cartoon world.</p>
+
+<p>It&rsquo;s really sad, first because this is murder, second because the irrational
+impact it will have on society. This is crazy how a handful of brain-dead
+punks can bend history. Now France is going to become even more paranoid. I
+already was so uncomfortable when they began to send military with assault
+rifles wander in the train stations in Paris. It&rsquo;s not going to get better.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-01-04
   <p class="post-meta">
     
@@ -624,189 +783,6 @@ end
 <li>to disable/enable search highlighting just <code>-G</code></li>
 <li>any other launch option can be called from inside less, pretty convenient</li>
 </ul>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-12
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-s3" href="http://blog.mose.com/tags/s3">s3</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2014/06/12/s3-backups" class="post-title">S3 backups</a>
-            </header>
-
-            <div class="post-description">
-              <p>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).</p>
-
-<ul>
-<li><a href="http://meskyanichi.github.io/backup/v4/">http://meskyanichi.github.io/backup/v4/</a></li>
-</ul>
-
-<p>But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</p>
-
-<p>So I added a small trick there:</p>
-
-<p>in <code>Backup/models/backup_audio.rb</code></p>
-
-<pre><code class="language-ruby">module Backup::Syncer::Cloud
-  class Base &lt; Syncer::Base
-    def process_orphans
-      if @orphans.is_a?(Queue)
-        @orphans = @orphans.size.times.map { @orphans.shift }
-      end
-      &quot;Older Files: #{ @orphans.count }&quot;
-    end
-  end
-end
-
-Backup::Model.new(:backup_audio, 'Audio files Backup to S3') do
-
-  before do
-    system(&quot;/Backup/latest_audio.sh&quot;)
-  end
-
-  after do
-    FileUtils.rm_rf(&quot;/tmp/streams&quot;)
-  end
-
-  ##
-  # Amazon Simple Storage Service [Syncer]
-  #
-  sync_with Cloud::S3 do |s3|
-    s3.access_key_id     = &quot;xxx&quot;
-    s3.secret_access_key = &quot;xxx&quot;
-    s3.bucket            = &quot;bucket_backup&quot;
-    s3.region            = &quot;us-east-1&quot;
-    s3.path              = &quot;/mb_audio_backup&quot;
-    s3.mirror            = false
-    s3.thread_count      = 50
-
-    s3.directories do |directory|
-      directory.add &quot;/tmp/streams&quot;
-    end
-  end
-end
-</code></pre>
-
-<p>and in <code>Backup/latest_audio.sh</code></p>
-
-<pre><code class="language-bash">#!/bin/sh
-# isolate files changed in the last 3 days
-
-TMPDIR=/tmp/streams
-
-mkdir $TMPDIR
-for i in `find /storage/audio/ -type f -cmin -4320`; do
-  ln -s $i $TMPDIR
-done
-</code></pre>
-
-<p>It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &lsquo;amazonian&rsquo; reason) it will be caught on the next daily backup.</p>
-
-<p>The result was pretty obvious on our disk usage with our daily backups:</p>
-
-<img src="http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png" alt="graph" class="pure-img" />
-
-
-
-<p>in the logs:</p>
-
-<pre><code>[2014/06/10 07:00:25][info] Summary:
-[2014/06/10 07:00:25][info]   Transferred Files: 5
-[2014/06/10 07:00:25][info]   Older Files: 22371
-[2014/06/10 07:00:25][info]   Unchanged Files: 16
-[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
-[2014/06/10 07:00:25][info] Backup for 'Audio files Backup to S3 (backup_audio)' Completed Successfully in 00:00:22
-[2014/06/10 07:00:25][info] After Hook Starting...
-[2014/06/10 07:00:25][info] After Hook Finished.
-</code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-04
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2014/06/04/make-a-gem" class="post-title">Make a gem</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<p>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:</p>
-
-<h2 id="make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e">Make a Rubygems account</h2>
-
-<ul>
-<li>first ensure create an ccount on <a href="https://rubygems.org/">https://rubygems.org/</a></li>
-<li>initialize your credentials:</li>
-</ul>
-
-<pre><code>curl -u username https://rubygems.org/api/v1/api_key.yaml &gt; ~/.gem/credentials
-Enter host password for user 'username':
-
-chmod 0600 ~/.gem/credentials
-</code></pre>
-
-<h2 id="prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e">Prepare the code</h2>
-
-<p>These steps are my typical path, nothing is really mandatory there.</p>
-
-<ul>
-<li>create a repo at github (or wherever you want)</li>
-<li>create a base gem skeleton <code>bundle gem mycoolgem</code></li>
-<li>update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information</li>
-<li>create a CHANGELOG.md because when you publish something you need a clear log of your version changes</li>
-<li>enable the tracking on <a href="https://codeclimate.com/">codeclimate</a>, <a href="https://travis-ci.org/">travis</a>, <a href="https://coveralls.io/">coveralls</a>, <a href="https://gemnasium.com">gemnasium</a></li>
-<li>add badges from <a href="http://shields.io">http://shields.io</a> in the README.md because it helps to qualify the state of the code quickly</li>
-<li>when the gem code don&rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with <code>spec.version  = File.read(File.expand_path('../CHANGELOG.md', __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]</code>
-(so then when I version bump there is only one file to edit)</li>
-<li>write the code (or copy it from the private app you extract it from)</li>
-<li>add a spec/ or test/ dir and write some tests and try to reach a decent coverage</li>
-</ul>
-
-<h2 id="release-it:a6c8c79e924ce88903bef7ff7392e41e">Release it</h2>
-
-<ul>
-<li>add the date in the changelog for the current version</li>
-<li><code>rake release</code></li>
-<li>bump the version to the next increment in the changelog (and version file if any)</li>
-</ul>
-
-<p>Overall with the initial bundle command and the final rake task for release, it&rsquo;s pretty straightforward.</p>
-
-<p>Also check <a href="http://guides.rubygems.org/make-your-own-gem/">http://guides.rubygems.org/make-your-own-gem/</a></p>
 
             </div>
           </section>

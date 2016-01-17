@@ -6,8 +6,65 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 147</title>
+      <link>http://blog.mose.com/2015/11/29/greenruby-147</link>
+      <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/29/greenruby-147</guid>
+      <description>
+
+&lt;h2 id=&#34;code-in-the-dark:f6454540d52b5466477bc9e3371f78a1&#34;&gt;Code in the dark&lt;/h2&gt;
+
+&lt;p&gt;My attention was brought this week to &lt;a href=&#34;http://codeinthedark.com/&#34;&gt;Code in the dark events&lt;/a&gt;. It seems
+pretty cool. A 15 minutes race in html and css with no preview. But the thing
+that brought my attention to that format is the special editor used for those
+events with a special effect on the cursor. It seems to add a really dramatic
+effect on the competition. We need more ideas like that for pure geek fun.&lt;/p&gt;
+
+&lt;h2 id=&#34;first-look-at-perl-6:f6454540d52b5466477bc9e3371f78a1&#34;&gt;First look at perl 6&lt;/h2&gt;
+
+&lt;p&gt;For many people, Perl sounds like trauma. Because it didn&amp;rsquo;t move for a while,
+when I hear something is perl code, it sounds like it&amp;rsquo;s legacy code, old and
+dusty. Well, Perl 6 is going to come out for christmas and the situation may
+change. Perl 6 is in the lab for &lt;a href=&#34;http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released&#34;&gt;15 years&lt;/a&gt; now, it&amp;rsquo;s more than
+time to get it shipped.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;http://doc.perl6.org/language/5to6-nutshell&#34;&gt;first glance&lt;/a&gt;, they seem to have tried to &amp;lsquo;modernize&amp;rsquo; the language,
+make it more idiomatic. It even seems it looks more like ruby, with the
+replacement of arrow by dots, the optional parenthesis, better exception
+handling. Well, overall, it feels cleaner. But it also seem to have some
+potential to mix functional and object-oriented in an interesting way.&lt;/p&gt;
+
+&lt;p&gt;So, maybe there is going to be a second life for the old perl. It&amp;rsquo;s a breaking
+version, old perl code will certainly break on the new version. So it&amp;rsquo;s almost
+like a new language. For sure I will still keep ruby as my preferred language,
+but I like multilingualism, so maybe I will give it a try .. again (last perl
+app I wrote was 12 years ago).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 146</title>
+      <link>http://blog.mose.com/2015/11/22/greenruby-146</link>
+      <pubDate>Sun, 22 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/22/greenruby-146</guid>
+      <description>
+
+&lt;h2 id=&#34;a-hackhaton-in-taipei:118c2d49c9d42e8c5462859981122936&#34;&gt;A Hackhaton in Taipei&lt;/h2&gt;
+
+&lt;p&gt;In 2 weeks Gandi organizes with .taipei registry a &lt;a href=&#34;http://hackathon.taipei/&#34;&gt;Hackhaton&lt;/a&gt; with
+pretty wide topic. It will be at at the Hi-tech Promotion Center in Taipei on
+December 5 and 6. I will be there (part of the jury), so if you want to have
+some week-end fun and are in Taipei at that time, feel free to join in. There
+will be prizes, free domains and hosting. I would love to see some ruby
+projects there.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 145</title>
@@ -531,87 +588,6 @@ but I always add a few on my own (especially the devops ones). Those 2 guys
 are really doing an amazing demonstration of consistency. After 129 editions,
 we still didn&amp;rsquo;t miss a single one week in our publication. It would not have
 been possible without my buddies. Thanks so much for their contribution.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 128</title>
-      <link>http://blog.mose.com/2015/07/19/greenruby-128</link>
-      <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/07/19/greenruby-128</guid>
-      <description>
-
-&lt;h2 id=&#34;rubyconf-taiwan-2015-cfp:abd434c0512885455cdb7b8467442df0&#34;&gt;RubyConf Taiwan 2015 CFP&lt;/h2&gt;
-
-&lt;p&gt;Hey it&amp;rsquo;s time to give it a try, talking at a rubyconf is a great upgrade for
-any coder. That rubyconf will happen on september 11-12th in Taipei. &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/07/14/rubyconftw-2015-call-for-proposals/&#34;&gt;Check it
-out&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;nsa-on-github:abd434c0512885455cdb7b8467442df0&#34;&gt;NSA on Github&lt;/h2&gt;
-
-&lt;p&gt;Looks like someone is trying to fight back a reputation of obscurity. While
-they are still pushing on more invasion of privacy, they also release some
-&lt;a href=&#34;http://fossbytes.com/nsa-open-sources-its-linux-based-cyber-security-tool/&#34;&gt;open source code&lt;/a&gt;. Check the &lt;a href=&#34;https://github.com/NationalSecurityAgency&#34;&gt;NSA github repository&lt;/a&gt;, they
-released something already. &lt;a href=&#34;https://github.com/simp&#34;&gt;Simp&lt;/a&gt; especially has a bunch of puppet
-modules, but it&amp;rsquo;s designed only for redhat kind of systems. Quite an
-interesting move.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 127</title>
-      <link>http://blog.mose.com/2015/07/12/greenruby-127</link>
-      <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/07/12/greenruby-127</guid>
-      <description>
-
-&lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
-
-&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
-company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
-I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
-the same feeling I have each time I get back to that language. I feel dirty.
-Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder,
-more like an acrobat. And I&amp;rsquo;m far from a purist.&lt;/p&gt;
-
-&lt;p&gt;Some people talk about javascript taking over the world. But that language
-imho just was there at the right place at the right time. By having a runtime
-embedded in browsers and browsers libraries, it has been used to hijack the
-most used software on our computers and mobile devices, to transform them into
-richer clients. Along the way various layers were added to fulfill the need of
-software design, because javascript initial goal was merely DOM manipulation.&lt;/p&gt;
-
-&lt;p&gt;The thing that always stroke me the most with javascript is that despite the
-efforts from ecmascript, it has no formal standard or documentation. It is
-pretty extensively documented, of course, but because the language is pushed
-forward by the implementations rather than from a standard body, it gets a bit
-messy.&lt;/p&gt;
-
-&lt;p&gt;I saw a &lt;a href=&#34;http://cube-drone.com/comics/c/relentless-persistence&#34;&gt;drawing&lt;/a&gt; this week that illustrates the mess quite well. It feels
-like Javascript is waiting for something to come replace it.&lt;/p&gt;
-
-&lt;p&gt;But there is hope with ES6. Seems like in recent years the normative effort on
-the ecmascript standard got some more traction and some more press coverage.
-But I personally don&amp;rsquo;t think it&amp;rsquo;s going to bring the solution. I enjoyed
-reading the &lt;a href=&#34;http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/&#34;&gt;thoughts of Eric Elliot&lt;/a&gt; on that topic but I&amp;rsquo;m not sure
-he&amp;rsquo;s right on everything. But what he&amp;rsquo;s right about, is that there will be an
-after-javascript.&lt;/p&gt;
-
-&lt;p&gt;Unless that after javascript doesn&amp;rsquo;t arrive fast enough and gets useless by
-some new programming paradigm that may appear one day soon. I mean, in the
-next 10 years. At some point, like big data is too complex to be handled by
-human, programming will also get too complex and will be handled by
-algorithms. We already &lt;a href=&#34;http://phys.org/news/2015-07-code-faster-expert.html&#34;&gt;see it coming&lt;/a&gt;. And all programmers will then
-become high end workflow designers or just play with antiquities.&lt;/p&gt;
-
-&lt;p&gt;In this perspective, I think javascript is a great intermediary technology for
-the time being, given its pervasive aspect. It&amp;rsquo;s far from satisfying, but it
-does the job. But the younger generation should keep an eye on higher level
-abstract approaches, like systems architectures, workflow logics, organization
-patterns, because imho that will drive software design in the next 10-20
-years.&lt;/p&gt;
 </description>
     </item>
     

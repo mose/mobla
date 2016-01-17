@@ -97,6 +97,136 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-05-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-sublimetext" href="http://blog.mose.com/tags/sublimetext">sublimetext</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext" class="post-title">Dictionnary in sublimetext</a>
+            </header>
+
+            <div class="post-description">
+              <p>I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to <code>cmd-shift-p</code> and install a package called <code>Dictionnaries</code>. Then by hitting <code>F6</code> you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&rsquo;t you ?).</p>
+
+<p>The spellcheck auto-highlight can be enabled for specific file extensions (like .md files) by adding</p>
+
+<pre><code>&quot;spell_check&quot;: true
+</code></pre>
+
+<p>in <code>preferences &gt; Settings - more &gt; Syntax specific - user</code> (while having a markdown page open)</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a><a class="post-tags post-tags-ssh" href="http://blog.mose.com/tags/ssh">ssh</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/05/01/ssh-to-socket" class="post-title">SSH to socket</a>
+            </header>
+
+            <div class="post-description">
+              <p>I use a special trick because he&rsquo;s often ssh&rsquo;ing all over the place. Add in your <code>.ssh/config</code></p>
+
+<pre><code>Host *
+  ControlMaster auto
+  ControlPath /tmp/%r@%h:%p
+</code></pre>
+
+<p>It will save your first connection to a host as a socket in <code>/tmp</code> and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2013-04-07
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">old tumblr site</span>
+      
+    
+    
+      <a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2013/04/07/about-green-ruby" class="post-title">About Green Ruby</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p><a href="http://greenruby.org/">Green Ruby</a> is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.</p>
+
+<h2 id="genesis:1c34dfda6e65228c3dbbf6fb2d30812e">Genesis</h2>
+
+<p>The Newsletter began in june 2012 from the habit I had to send weekly newsletter in <a href="http://codegreenit.com/">Codegreen</a> for our team to know what is happening in our company,. That was purely a teamwork tool for general transparency. But with time passing I also included there some links to what I was finding around that would be of interest for my geek colleagues.</p>
+
+<p>That CodeGreen Internal newsletter began to be cluttered with various links at the bottom of it. So I decided to separate that links gathering bunch in another newsletter. But then it could also be useful for my friends, out of the scope of our team.</p>
+
+<h2 id="green-birth:1c34dfda6e65228c3dbbf6fb2d30812e">Green Birth</h2>
+
+<p>At that time I had to test <a href="http://mailchimp.com/">Mailchimp</a> service for one of our projects, so because they offer a free package when volume is not too big, I thought I should just create that newsletter as a public freely available publication.</p>
+
+<p>So in february 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well, mostly our team :) Then it became a weekly habit, so I got a domain name for it, and organically it’s growing slowly.</p>
+
+<h2 id="the-redactor-gear:1c34dfda6e65228c3dbbf6fb2d30812e">The redactor gear</h2>
+
+<p>Codegreen paid for my <a href="http://newsblur.com/">Newsblur</a> account so I can follow a bunch of feeds. Google reader was my first tool but well, they are closing, and actually Newsblur is much better. It’s open source and the guy that makes it does a great job (too bad it’s in python and not in ruby).</p>
+
+<p>I’m also loading a bunch of podcasts on my phone and after having tried a lot of podcast softwares I’m really happy with <a href="http://www.podkicker.com/">Podkicker</a>, it’s just very convenient and it has all I need with the free version. So in my 40 minutes commuting to go to work, I just get the ears busy. I tried to use <a href="https://gpodder.net/user/mose">Gpodder</a> but it’s not totally perfect and the support in podcast clients is not as good as it should be. So I don’t stick on it, maybe it will evolve and I will get back to it.</p>
+
+<p>But I also get a lot of news by just wandering around on <a href="https://geekli.st/">Geekli.st</a>, on <a href="https://coderbits.com/">Coderbits</a>, hacker news, and I subscribed to a bunch of various newsletters. I also watch teh new gems feeds from <a href="https://twitter.com/RubyGemsAlt">@rubygems-alt</a> and I retweet stuff of interest on <a href="https://twitter.com/cogtw">@cogtw</a> account (those 2 are my alternate twitter identities).</p>
+
+<p>Each week <a href="https://github.com/tubaxenor">William</a> (aka xenor) also sends me a list of links. But I definitely don’t use any facebook feeds. For some reason, this is a place I avoid the most I can.</p>
+
+<h2 id="what-next:1c34dfda6e65228c3dbbf6fb2d30812e">What next ?</h2>
+
+<p>My ambition there is to keep it non-commercial, and change it to be more community driven. The preparation of the letter is eating a big part of my saturdays for the last 13 weeks and I don’t think I can keep up the same pace for long time.</p>
+
+<p>The idea I have about the community driven thing is by engineering some automation on the news gathering (to replace newsblur), have a place where the news can be triaged by various people, a little bit like it is on <a href="https://news.ycombinator.com/">Hacker News</a> with a vote system. But the gathering won’t limit to blog posts and rss feeds, there would also be podcasts and video feeds. There is now a lot of possibilities in automation on feeds aggregation. I worked on a project that already does that feeds aggregation, named “the Blux”. And I expect to replicate parts of it for my Green Ruby Engine.</p>
+
+<p>But also, as usual, this project is also an occasion to play with recent technologies or stuff I want to know more about, otherwise where is the fun ? So here comes <a href="http://emberjs.com/">Ember.js</a>, on the top of <a href="http://www.sinatrarb.com/">Sinatra</a> with <a href="http://www.mongodb.org/">mongoDB</a>, and there will be much more on the road (thinking about trying <a href="http://af83.github.io/sponges/">Sponges</a> too).</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2013-03-22
   <p class="post-meta">
     

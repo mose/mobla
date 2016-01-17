@@ -6,8 +6,104 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Dec 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 153</title>
+      <link>http://blog.mose.com/2016/01/10/greenruby-153</link>
+      <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/10/greenruby-153</guid>
+      <description>
+
+&lt;h2 id=&#34;that-micro-service-thing:46752485ca0dcc4b52fef655c3c60574&#34;&gt;That micro-service thing&lt;/h2&gt;
+
+&lt;p&gt;For a while now, and more even since the rise of docker, it becomes a trend to
+split applications in parts and approach them as a collection of
+micro-services. This is not exactly new, I remember in 2002 having seen
+various applications based on this concept. But they had shortcomings.
+Development was harder and it imported a whole bunch of increased complexity
+because there was a lot of moving parts.&lt;/p&gt;
+
+&lt;p&gt;In a project that I have the occasion of following, I can watch the migration
+from monolith to micro-service and I can tell you, the architecture change is
+not simple technical decision. By splitting application there is a whole lot
+of application aspects that move out of the area of the developers team and
+are now the responsibility of the infrastructure team. The shift cannot be
+taken lightly.&lt;/p&gt;
+
+&lt;p&gt;From what I observed, the switch to micro-services can only be efficient if
+there was already a shift to a real devops organization. It means that the
+development and the infrastructure are more tightly coupled. Otherwise, it&amp;rsquo;s
+just a mess. The QA also can get crazy, and the networking layer gets
+increased complexity (or even dramatic latencies). Errors and services
+resilience also need an extra layer of attention.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t move to micro-services if you are not ready for it, seriously, it can
+end up by shooting yourself in the foot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 152</title>
+      <link>http://blog.mose.com/2016/01/03/greenruby-152</link>
+      <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/03/greenruby-152</guid>
+      <description>
+
+&lt;h2 id=&#34;here-is-2016:af177e0d6352be87fe53a31db08b69a8&#34;&gt;Here is 2016&lt;/h2&gt;
+
+&lt;p&gt;Well in this last week of 2015, the have not been that much publication and
+the list of links is shorter than usual. Everybody is probably just having a
+life for a change, which is a good things :)&lt;/p&gt;
+
+&lt;p&gt;There is a lot of promising trends that may unleash in the coming year. I hope
+to see what ruby 3 will bring. Rails 5 is already almost out there too. But
+there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s
+still very young and hacky in my opinion.&lt;/p&gt;
+
+&lt;p&gt;On the frontend side, there is that big news that was announced last year,
+with &lt;a href=&#34;https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support&#34;&gt;Microsoft ditching IE old versions&lt;/a&gt; officially on january 12,
+it will be on tuesday next week. IE 11 would become the only supported
+version. A bold but welcome move. Maybe it will help adoption of JS recent
+native APIs. I suspect that if IE dies, jquery will not make any sense anymore
+as the JS stack will be more consistent then. But maybe I&amp;rsquo;m wrong, that&amp;rsquo;s just
+an intuition. And the end of support doesn&amp;rsquo;t mean there will be an instant
+extinction of old IEs, it may still take some more time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 151</title>
+      <link>http://blog.mose.com/2015/12/27/greenruby-151</link>
+      <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/27/greenruby-151</guid>
+      <description>
+
+&lt;h2 id=&#34;happy-end-of-2015:602bde3b83227cc35adf0ad4ea322068&#34;&gt;Happy end of 2015&lt;/h2&gt;
+
+&lt;p&gt;Take good time, use the calendar rotation as a pretext to have good
+resolutions, get wasted like if you were a teenager (wait, what? we all are
+teenagers here?), or do whatever makes you happy if like me you prefer to
+remain sober. See you in 2016.&lt;/p&gt;
+
+&lt;h2 id=&#34;slackcast-2016:602bde3b83227cc35adf0ad4ea322068&#34;&gt;SlackCast 2016&lt;/h2&gt;
+
+&lt;p&gt;We had a lot of discussion with Nauman Tariq about how to make slack usage
+more lively, more useful, and such things. We worked together on a concept of
+event that we want to try next weekend. It will happen next Saturday (Jan 2nd)
+around 23:00 UTC (more or less 4 hours). If you want to participate, please
+shoot me an &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;email&lt;/a&gt;, and we&amp;rsquo;ll give you the precise time when we know
+it, plus the how-to-join-in. It will be a first time, it won&amp;rsquo;t be perfect, but
+it will be a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Read more about it on the &lt;a href=&#34;https://slack-files.com/T05052K3Q-F0FSX2GHG-3330dc8ef1&#34;&gt;SlackCast manifesto&lt;/a&gt;. You also can join
+&lt;a href=&#34;http://www.rubyonrails.link/&#34;&gt;rubyonrails.link&lt;/a&gt;, that&amp;rsquo;s where it will happen.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 150</title>

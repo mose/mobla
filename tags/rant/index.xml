@@ -6,8 +6,104 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Dec 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 153</title>
+      <link>http://blog.mose.com/2016/01/10/greenruby-153</link>
+      <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/10/greenruby-153</guid>
+      <description>
+
+&lt;h2 id=&#34;that-micro-service-thing:46752485ca0dcc4b52fef655c3c60574&#34;&gt;That micro-service thing&lt;/h2&gt;
+
+&lt;p&gt;For a while now, and more even since the rise of docker, it becomes a trend to
+split applications in parts and approach them as a collection of
+micro-services. This is not exactly new, I remember in 2002 having seen
+various applications based on this concept. But they had shortcomings.
+Development was harder and it imported a whole bunch of increased complexity
+because there was a lot of moving parts.&lt;/p&gt;
+
+&lt;p&gt;In a project that I have the occasion of following, I can watch the migration
+from monolith to micro-service and I can tell you, the architecture change is
+not simple technical decision. By splitting application there is a whole lot
+of application aspects that move out of the area of the developers team and
+are now the responsibility of the infrastructure team. The shift cannot be
+taken lightly.&lt;/p&gt;
+
+&lt;p&gt;From what I observed, the switch to micro-services can only be efficient if
+there was already a shift to a real devops organization. It means that the
+development and the infrastructure are more tightly coupled. Otherwise, it&amp;rsquo;s
+just a mess. The QA also can get crazy, and the networking layer gets
+increased complexity (or even dramatic latencies). Errors and services
+resilience also need an extra layer of attention.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t move to micro-services if you are not ready for it, seriously, it can
+end up by shooting yourself in the foot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 152</title>
+      <link>http://blog.mose.com/2016/01/03/greenruby-152</link>
+      <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/03/greenruby-152</guid>
+      <description>
+
+&lt;h2 id=&#34;here-is-2016:af177e0d6352be87fe53a31db08b69a8&#34;&gt;Here is 2016&lt;/h2&gt;
+
+&lt;p&gt;Well in this last week of 2015, the have not been that much publication and
+the list of links is shorter than usual. Everybody is probably just having a
+life for a change, which is a good things :)&lt;/p&gt;
+
+&lt;p&gt;There is a lot of promising trends that may unleash in the coming year. I hope
+to see what ruby 3 will bring. Rails 5 is already almost out there too. But
+there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s
+still very young and hacky in my opinion.&lt;/p&gt;
+
+&lt;p&gt;On the frontend side, there is that big news that was announced last year,
+with &lt;a href=&#34;https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support&#34;&gt;Microsoft ditching IE old versions&lt;/a&gt; officially on january 12,
+it will be on tuesday next week. IE 11 would become the only supported
+version. A bold but welcome move. Maybe it will help adoption of JS recent
+native APIs. I suspect that if IE dies, jquery will not make any sense anymore
+as the JS stack will be more consistent then. But maybe I&amp;rsquo;m wrong, that&amp;rsquo;s just
+an intuition. And the end of support doesn&amp;rsquo;t mean there will be an instant
+extinction of old IEs, it may still take some more time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 151</title>
+      <link>http://blog.mose.com/2015/12/27/greenruby-151</link>
+      <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/27/greenruby-151</guid>
+      <description>
+
+&lt;h2 id=&#34;happy-end-of-2015:602bde3b83227cc35adf0ad4ea322068&#34;&gt;Happy end of 2015&lt;/h2&gt;
+
+&lt;p&gt;Take good time, use the calendar rotation as a pretext to have good
+resolutions, get wasted like if you were a teenager (wait, what? we all are
+teenagers here?), or do whatever makes you happy if like me you prefer to
+remain sober. See you in 2016.&lt;/p&gt;
+
+&lt;h2 id=&#34;slackcast-2016:602bde3b83227cc35adf0ad4ea322068&#34;&gt;SlackCast 2016&lt;/h2&gt;
+
+&lt;p&gt;We had a lot of discussion with Nauman Tariq about how to make slack usage
+more lively, more useful, and such things. We worked together on a concept of
+event that we want to try next weekend. It will happen next Saturday (Jan 2nd)
+around 23:00 UTC (more or less 4 hours). If you want to participate, please
+shoot me an &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;email&lt;/a&gt;, and we&amp;rsquo;ll give you the precise time when we know
+it, plus the how-to-join-in. It will be a first time, it won&amp;rsquo;t be perfect, but
+it will be a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Read more about it on the &lt;a href=&#34;https://slack-files.com/T05052K3Q-F0FSX2GHG-3330dc8ef1&#34;&gt;SlackCast manifesto&lt;/a&gt;. You also can join
+&lt;a href=&#34;http://www.rubyonrails.link/&#34;&gt;rubyonrails.link&lt;/a&gt;, that&amp;rsquo;s where it will happen.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 150</title>
@@ -433,153 +529,6 @@ it could be different.&lt;/p&gt;
 
 &lt;p&gt;Honestly, I would prefer clean coding and no market tradeoff, but that&amp;rsquo;s just
 a dream.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 133</title>
-      <link>http://blog.mose.com/2015/08/23/greenruby-133</link>
-      <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/23/greenruby-133</guid>
-      <description>
-
-&lt;h2 id=&#34;just-met-hugo:7f9ce9f83e9126826117a493b10fad98&#34;&gt;Just met Hugo&lt;/h2&gt;
-
-&lt;p&gt;Some weeks ago I was talking about Octopress. I think pre-generation of
-websites is a very sensible approach. And I heard about &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; for some
-time now. It&amp;rsquo;s like a cousin of Jekyll but writen in Go. The author of
-Middleman (another site generation engine) confessed in a &lt;a href=&#34;https://changelog.com/169/&#34;&gt;recent podcast&lt;/a&gt;
-that he would try the Golang way if he had to start from
-scratch today.&lt;/p&gt;
-
-&lt;p&gt;I got interested into Hugo mostly because one of the side projects I&amp;rsquo;m working
-on. It involves a bunch of people that run on windows. Having a binary that
-runs everywhere is a big plus for a gGo solution. Installing ruby is possible
-on windows, but not really for noobs afaict.&lt;/p&gt;
-
-&lt;p&gt;Also, I want to check more Go projects. I have been playing in and out that
-language for a while now. Version 1.5 seems really great. So I upgraded my
-&lt;a href=&#34;https://github.com/moovweb/gvm&#34;&gt;gvm&lt;/a&gt; and installed the thing. Well, I could havce just used the Hugo
-binary, but where is the fun in that?&lt;/p&gt;
-
-&lt;p&gt;My first impression is very comfortable. It took a lot of the principles form
-Jekyll. But it seems to have some extra options and concepts that may be a
-little more advanced and seem very promising. The theming system is especially
-cool. I will probably first port my own blog under Hugo before porting my
-other project.&lt;/p&gt;
-
-&lt;p&gt;As a matter of fact, that&amp;rsquo;s a while I&amp;rsquo;m considering that I never feed my blog,
-but I should copy the rants I write here in there. It can be fun to add a rake
-task in the greenruby publication process to also add a page in a nearby hugo
-repo and publish it at the same time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 132</title>
-      <link>http://blog.mose.com/2015/08/16/greenruby-132</link>
-      <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/16/greenruby-132</guid>
-      <description>
-
-&lt;h2 id=&#34;sexism-and-competition:db2c111cf24dad5b31c1182c9980822d&#34;&gt;Sexism and competition&lt;/h2&gt;
-
-&lt;p&gt;The ruby community is quite blessed in the way that there are very vocal
-activist promoting diversity, especially on &lt;a href=&#34;http://railsgirls.com/&#34;&gt;gender parity&lt;/a&gt;. It&amp;rsquo;s
-not exclusive to ruby I noticed the same intention in other communities (like
-the &lt;a href=&#34;http://www.pyladies.com/&#34;&gt;pyladies&lt;/a&gt; in python).&lt;/p&gt;
-
-&lt;p&gt;Anybody that spent some years in IT cannot avoid to notice that there are
-mostly guys. The ladies are either frowned upon or very special cases. For
-ages I have been wondering why. My sister is a sysadmin at a university, there
-is nothing shocking about that and she does a damn good job.&lt;/p&gt;
-
-&lt;p&gt;So I paid attention on what are the people responsible for that. I identified
-various categories of people that I consider are responsible of our lack of
-parity. Well, not them directly but the behaviors they perpetuate are
-certainly part of the problem. If we could find a way to correct those
-behaviors, it would lead to a natural change in the group.&lt;/p&gt;
-
-&lt;p&gt;In all those people I know, and in all their behaviors, I think I detected
-something that is related to the Religion Of Competitiveness. Those people are
-believers that knowledge is power and they are not gonna share it more than
-necessary. They will find anything to avoid more people reach their level of
-knowledge. And if they can find some kind of reason to discard other people,
-either trivial and socially acceptable in the given group reason to discard
-other people, they will do. Gender is the first victim in such a schema. What
-is socially acceptable is a self-perpetuated meme.&lt;/p&gt;
-
-&lt;p&gt;Talking to those people is pointless, they are in denial. They see nothing
-wrong. You can&amp;rsquo;t change them. You have to change their environment, that will
-be the only way.&lt;/p&gt;
-
-&lt;p&gt;So it means that in a competition context, there are still ways to win, by
-playing the competition game and winning it. But to break the competition
-paradigm, there is a lot to do. Companies policies are not enough to enforce a
-more open mindset. But I believe that there is ways to organize the
-information in a way that keeping it for oneself devaluates it. And from the
-eradication of the tyranny of knowledge, we shall reach a less
-competition-based culture in IT. And all discrimination pretexts may vanish by
-themselves.&lt;/p&gt;
-
-&lt;p&gt;Rather than fighting for diversity, we should fight against the spirit of
-competition. It&amp;rsquo;s kind of not easy, I reckon, because our society tends to
-push people to be competitive. That&amp;rsquo;s what capitalism is all about. But IT
-population already has proven that the established system don&amp;rsquo;t take hold on
-them. Geeks and techies are educated people (often self-educated, but it&amp;rsquo;s the
-same) and they can think on their own, chose the path to follow. If you can
-find a way, in your context, to change the environment towards less power for
-the competitive type of people, that could deserve a try.&lt;/p&gt;
-
-&lt;p&gt;Well, that&amp;rsquo;s just a rant, a wild thought. Such a topic would deserve more
-space for development. But that&amp;rsquo;s what I wanted to share this week. Anyways I
-doubt there is that much people reading those line hahaha.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 131</title>
-      <link>http://blog.mose.com/2015/08/09/greenruby-131</link>
-      <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/09/greenruby-131</guid>
-      <description>
-
-&lt;h2 id=&#34;octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d&#34;&gt;Octopress 3 and other thoughts&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m currently involved in a community project and I installed a wordpress.
-From time to time I get one up to see how it evolves. But really this thing is
-not to my taste. To much trouble for making simple things. I reckon it can be
-useful for people with no technical knowledge but then they are going to mess
-up everything. The technical advisor still can&amp;rsquo;t be avoided.&lt;/p&gt;
-
-&lt;p&gt;So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the
-previous attempts, I will give a try to the new &lt;a href=&#34;http://octopress.org/&#34;&gt;octopress 3.0&lt;/a&gt;.
-The octopress author &lt;a href=&#34;http://octopress.org/2015/01/15/octopress-3.0-is-coming/&#34;&gt;explains&lt;/a&gt; that he&amp;rsquo;s been doing it all wrong and now
-on version 3.0 he gets back to sort of a collection of gems that plug into
-jekyll. I kind of like the idea.&lt;/p&gt;
-
-&lt;p&gt;Well to be honest I was also tempted to give a try to &lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;phoenix&lt;/a&gt;, but
-I know jekyll already and I don&amp;rsquo;t have that much server resources for that
-community project. Static web always have had my preference. But the idea
-behind Phoenix is appealing. Like any new project it includes the new things
-and don&amp;rsquo;t have to bother about legacy. The channels ideas, creating a stream
-between client and server, sounds very appealing.&lt;/p&gt;
-
-&lt;p&gt;But to get back to why I will prefer jekyll over wordpress, is that my
-contributors are a mess. They don&amp;rsquo;t care about styling, they copy-paste random
-html all over the place and the final look is totally inconsistent. My hope is
-that markdown would limit the possibilities of making a mess. But then I will
-have to propose them the github edit, as a backend, unless I cheat and use
-etherpad-lite as a pre-production backend.&lt;/p&gt;
-
-&lt;p&gt;That &lt;a href=&#34;http://etherpad.org/&#34;&gt;etherpad-lite&lt;/a&gt; thing is amazingly simple, I used sometimes and
-making it accessible behind a single password for everybody makes tings pretty
-direct. But totally unsafe, I reckon. I will probably have to write some kind
-of tool for managing the publication workflow. Hmm, that sounds like fun. If
-you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;share with me&lt;/a&gt; :)&lt;/p&gt;
 </description>
     </item>
     

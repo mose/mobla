@@ -6,8 +6,63 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 150</title>
+      <link>http://blog.mose.com/2015/12/20/greenruby-150</link>
+      <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/20/greenruby-150</guid>
+      <description>
+
+&lt;h2 id=&#34;150-weeks:4ed16e5b224ff8e7f398b527b88e0d35&#34;&gt;150 weeks&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter
+is an occasion to see where we are. At this day there are 1,610 subscribers to
+the email newsletter. The website has around 250 unique visits per day, which
+mostly are RSS readers. Those are anecdotal numbers. As we have no intention
+to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter
+in the red zone in the amount of subscribers and we will need to push some
+people out, those who forgot about the newsletter but also forgot to
+unsubscribe. It will happen when we reach 1,800 (because Mailchimp is still
+free under 2,000 subscribers).&lt;/p&gt;
+
+&lt;p&gt;During the whole life of the publication, we never missed one week. Last week,
+thanks to Xenor, I even could have some rest. Now I&amp;rsquo;m better, flu never last.
+We also have, for a couple of months, much more links contributions (thanks
+Nauman Tariq). All in all, our model seems to have been pretty sustainable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 148</title>
+      <link>http://blog.mose.com/2015/12/06/greenruby-148</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/06/greenruby-148</guid>
+      <description>
+
+&lt;h2 id=&#34;busy-hackathon-in-taipei:b4b86de420849d53ccbec354ab20a437&#34;&gt;Busy hackathon in Taipei&lt;/h2&gt;
+
+&lt;p&gt;This weekend we had our first &lt;a href=&#34;http://hackathon.taipei/en.html&#34;&gt;hackathon&lt;/a&gt; in Taipei, organized by
+&lt;a href=&#34;http://gandi.net&#34;&gt;Gandi&lt;/a&gt;. That was pretty fun, to be there on the side of the organizers
+without actually being in charge of the organization for once. Such geek
+events are always so great for meeting and sharing, being forbidden to
+participate didn&amp;rsquo;t prevent me to push some ideas around.&lt;/p&gt;
+
+&lt;p&gt;During the course of the weekend, I joined mickey to push the creation of a
+&lt;a href=&#34;https://github.com/elixirtw/elixir_tw&#34;&gt;Taiwan group for Elixir&lt;/a&gt;, for which we had an idea of a stream
+capture feature to gather slack discussion and index them. I also had an idea
+of event for &lt;a href=&#34;https://github.com/FreeBSDTaiwan/portscamp&#34;&gt;FreeBSD portscamp&lt;/a&gt; with marcelo, so we made a FreeBSD
+Taiwan group on github as well (with a pretty neat logo). All this was
+actually not that much related to the hackathon but just emerging from natural
+proximity with other geeks.&lt;/p&gt;
+
+&lt;p&gt;Check my &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/albums/72157661448405060&#34;&gt;photos on flickr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 147</title>
@@ -497,83 +552,6 @@ the competitive type of people, that could deserve a try.&lt;/p&gt;
 &lt;p&gt;Well, that&amp;rsquo;s just a rant, a wild thought. Such a topic would deserve more
 space for development. But that&amp;rsquo;s what I wanted to share this week. Anyways I
 doubt there is that much people reading those line hahaha.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 131</title>
-      <link>http://blog.mose.com/2015/08/09/greenruby-131</link>
-      <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/09/greenruby-131</guid>
-      <description>
-
-&lt;h2 id=&#34;octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d&#34;&gt;Octopress 3 and other thoughts&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m currently involved in a community project and I installed a wordpress.
-From time to time I get one up to see how it evolves. But really this thing is
-not to my taste. To much trouble for making simple things. I reckon it can be
-useful for people with no technical knowledge but then they are going to mess
-up everything. The technical advisor still can&amp;rsquo;t be avoided.&lt;/p&gt;
-
-&lt;p&gt;So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the
-previous attempts, I will give a try to the new &lt;a href=&#34;http://octopress.org/&#34;&gt;octopress 3.0&lt;/a&gt;.
-The octopress author &lt;a href=&#34;http://octopress.org/2015/01/15/octopress-3.0-is-coming/&#34;&gt;explains&lt;/a&gt; that he&amp;rsquo;s been doing it all wrong and now
-on version 3.0 he gets back to sort of a collection of gems that plug into
-jekyll. I kind of like the idea.&lt;/p&gt;
-
-&lt;p&gt;Well to be honest I was also tempted to give a try to &lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;phoenix&lt;/a&gt;, but
-I know jekyll already and I don&amp;rsquo;t have that much server resources for that
-community project. Static web always have had my preference. But the idea
-behind Phoenix is appealing. Like any new project it includes the new things
-and don&amp;rsquo;t have to bother about legacy. The channels ideas, creating a stream
-between client and server, sounds very appealing.&lt;/p&gt;
-
-&lt;p&gt;But to get back to why I will prefer jekyll over wordpress, is that my
-contributors are a mess. They don&amp;rsquo;t care about styling, they copy-paste random
-html all over the place and the final look is totally inconsistent. My hope is
-that markdown would limit the possibilities of making a mess. But then I will
-have to propose them the github edit, as a backend, unless I cheat and use
-etherpad-lite as a pre-production backend.&lt;/p&gt;
-
-&lt;p&gt;That &lt;a href=&#34;http://etherpad.org/&#34;&gt;etherpad-lite&lt;/a&gt; thing is amazingly simple, I used sometimes and
-making it accessible behind a single password for everybody makes tings pretty
-direct. But totally unsafe, I reckon. I will probably have to write some kind
-of tool for managing the publication workflow. Hmm, that sounds like fun. If
-you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;share with me&lt;/a&gt; :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 130</title>
-      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
-      <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
-      <description>
-
-&lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
-
-&lt;p&gt;In September 11 and 12 there is a &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;Rubyconf here in Taiwan&lt;/a&gt;. I have
-been at some past editions and it&amp;rsquo;s always a good time to meet people. Because
-we are close to Japan there is usually pretty good ruby core contributors from
-there. We get to see Matz, father of ruby, at each edition. But this time it
-seems that the organizers pulled some kind of special trick and the famous
-&lt;a href=&#34;http://tenderlovemaking.com/&#34;&gt;Aaron Patterson&lt;/a&gt; will be present. And I remember having heard
-&lt;a href=&#34;http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen&#34;&gt;Sarah Allen on rubyrogues&lt;/a&gt; last year, it is the first time she joins
-us in Taiwan too. I think both of them will bring some unique taste to this
-years rubyconf.&lt;/p&gt;
-
-&lt;p&gt;If you looked for an occasion to visit Taiwan, that may be the right time. You
-won&amp;rsquo;t regret it. The ruby community in Taiwan is quite active and Taiwanese
-people are amazingly welcoming to westerners.&lt;/p&gt;
-
-&lt;p&gt;And, if you want to meet the 3 of us, we will all be there. Look around for
-Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
-tirelessly collect links and news, fresh from the week, about ruby and other
-things. And if you see someone with a Gandi T-Shirt, that will probably be me.
-We probably will distribute some green ruby stickers that I still have in
-stock. So then we can make new ones.&lt;/p&gt;
 </description>
     </item>
     

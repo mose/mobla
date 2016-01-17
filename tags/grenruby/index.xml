@@ -6,8 +6,63 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 150</title>
+      <link>http://blog.mose.com/2015/12/20/greenruby-150</link>
+      <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/20/greenruby-150</guid>
+      <description>
+
+&lt;h2 id=&#34;150-weeks:4ed16e5b224ff8e7f398b527b88e0d35&#34;&gt;150 weeks&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter
+is an occasion to see where we are. At this day there are 1,610 subscribers to
+the email newsletter. The website has around 250 unique visits per day, which
+mostly are RSS readers. Those are anecdotal numbers. As we have no intention
+to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter
+in the red zone in the amount of subscribers and we will need to push some
+people out, those who forgot about the newsletter but also forgot to
+unsubscribe. It will happen when we reach 1,800 (because Mailchimp is still
+free under 2,000 subscribers).&lt;/p&gt;
+
+&lt;p&gt;During the whole life of the publication, we never missed one week. Last week,
+thanks to Xenor, I even could have some rest. Now I&amp;rsquo;m better, flu never last.
+We also have, for a couple of months, much more links contributions (thanks
+Nauman Tariq). All in all, our model seems to have been pretty sustainable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 148</title>
+      <link>http://blog.mose.com/2015/12/06/greenruby-148</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/06/greenruby-148</guid>
+      <description>
+
+&lt;h2 id=&#34;busy-hackathon-in-taipei:b4b86de420849d53ccbec354ab20a437&#34;&gt;Busy hackathon in Taipei&lt;/h2&gt;
+
+&lt;p&gt;This weekend we had our first &lt;a href=&#34;http://hackathon.taipei/en.html&#34;&gt;hackathon&lt;/a&gt; in Taipei, organized by
+&lt;a href=&#34;http://gandi.net&#34;&gt;Gandi&lt;/a&gt;. That was pretty fun, to be there on the side of the organizers
+without actually being in charge of the organization for once. Such geek
+events are always so great for meeting and sharing, being forbidden to
+participate didn&amp;rsquo;t prevent me to push some ideas around.&lt;/p&gt;
+
+&lt;p&gt;During the course of the weekend, I joined mickey to push the creation of a
+&lt;a href=&#34;https://github.com/elixirtw/elixir_tw&#34;&gt;Taiwan group for Elixir&lt;/a&gt;, for which we had an idea of a stream
+capture feature to gather slack discussion and index them. I also had an idea
+of event for &lt;a href=&#34;https://github.com/FreeBSDTaiwan/portscamp&#34;&gt;FreeBSD portscamp&lt;/a&gt; with marcelo, so we made a FreeBSD
+Taiwan group on github as well (with a pretty neat logo). All this was
+actually not that much related to the hackathon but just emerging from natural
+proximity with other geeks.&lt;/p&gt;
+
+&lt;p&gt;Check my &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/albums/72157661448405060&#34;&gt;photos on flickr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 147</title>

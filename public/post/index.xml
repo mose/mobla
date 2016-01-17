@@ -6,8 +6,32 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 143</title>
+      <link>http://blog.mose.com/2015/11/01/greenruby-143</link>
+      <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/01/greenruby-143</guid>
+      <description>
+
+&lt;h2 id=&#34;the-power-of-dsl:ab3ba7ed22eeaa19b0cb56ca8c01c80b&#34;&gt;The power of DSL&lt;/h2&gt;
+
+&lt;p&gt;While I was playing with &lt;a href=&#34;https://github.com/zetachang/react.rb&#34;&gt;react.rb&lt;/a&gt; and exploring &lt;a href=&#34;http://opalrb.org/&#34;&gt;opal&lt;/a&gt;, I
+felt in a totally different world. The power of the DSL already prove its
+shine on various occasions. I got to experience it in activeadmin, rspec, and
+puppet (but I kind of dislike the one in puppet).&lt;/p&gt;
+
+&lt;p&gt;As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility
+that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
+making new programming languages, using meta-programming, lambda and other
+goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
+of its syntax, it empowers developers with the ability to write dedicated
+programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 142</title>
@@ -604,40 +628,6 @@ human in its trails.&lt;/p&gt;
 
 &lt;p&gt;Don&amp;rsquo;t let yourself enclosed in a generation. Our computer overlords won&amp;rsquo;t make
 any effort to include you if you drag your feet.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 125</title>
-      <link>http://blog.mose.com/2015/06/28/greenruby-125</link>
-      <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/06/28/greenruby-125</guid>
-      <description>
-
-&lt;h2 id=&#34;a-taste-of-freebsd:2e9f17a4684b1292d2dd8dbb76b48337&#34;&gt;a taste of FreeBSD&lt;/h2&gt;
-
-&lt;p&gt;This weekend I installed &lt;a href=&#34;http://freebsd.org&#34;&gt;FreeBSD&lt;/a&gt; 10.1 on a disk of my desktop.
-Beyond the fact that we are using that system at work, more and more, I was
-just curious about the setup for a desktop. I was pleasantly surprised and
-everything went very smoothly.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very
-easy. The general impression is that actually the system is simpler than on
-Linux, maybe more consistent. The pkg system, alternative to the traditional
-ports system, makes thing much more &amp;lsquo;out of the box&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;And for the rest, well, in one afternoon, and just by following the doc, I had
-my window manager up and running, and ready to begin playing with
-&lt;a href=&#34;https://wiki.freebsd.org/bhyve&#34;&gt;bhyve&lt;/a&gt;. I was surprised to see that bhyve kernel modules were included
-by default in recent releases. I heard there are still some bumps on the road
-for laptop about the sleep to disk mode, but I&amp;rsquo;m not concerned by that.&lt;/p&gt;
-
-&lt;p&gt;It feels like BSD is a shy actor that actually powers much more stuff that we
-can suspect. But it has a pretty active community and a very decent
-documentation. Well, give it a try if you like playing with various
-distributions of free and open operating systems. It&amp;rsquo;s much less scary that
-its reputation seems to convey.&lt;/p&gt;
 </description>
     </item>
     

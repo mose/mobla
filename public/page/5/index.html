@@ -97,6 +97,65 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/09/10/pretty-json" class="post-title">Pretty json</a>
+            </header>
+
+            <div class="post-description">
+              <p>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:</p>
+
+<pre><code class="language-ruby">ruby -rjson -ropen-uri -rawesome_print -e &quot;ap JSON.load(open('http://jsonip.com/'))&quot;
+</code></pre>
+
+<pre><code class="language-ruby">{
+       &quot;ip&quot; =&gt; &quot;59.115.120.166&quot;,
+    &quot;about&quot; =&gt; &quot;/about&quot;,
+     &quot;Pro!&quot; =&gt; &quot;http://getjsonip.com&quot;
+}
+</code></pre>
+
+<p>because when you are rubyist everything can be solve with ruby, obviously.</p>
+
+<p>But well, then one day I did</p>
+
+<pre><code>pip install pjson
+</code></pre>
+
+<p>and then</p>
+
+<pre><code class="language-ruby">curl -s http://jsonip.com | pjson
+</code></pre>
+
+<pre><code class="language-json">{
+  &quot;Pro!&quot;: &quot;http://getjsonip.com&quot;,
+  &quot;about&quot;: &quot;/about&quot;,
+  &quot;ip&quot;: &quot;59.115.120.166&quot;
+}
+</code></pre>
+
+<p>Faster, easier, happier.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2014-08-07
   <p class="post-meta">
     
@@ -706,36 +765,6 @@ devise:  422
 <ul>
 <li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
 </ul>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-15
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-vim" href="http://blog.mose.com/tags/vim">vim</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles" class="post-title">Eddie Vim and rcfiles</a>
-            </header>
-
-            <div class="post-description">
-              <p>Mose sometimes uses vim on the side of ST3, and can&rsquo;t do it without the pretty good eddie kao set of config files.</p>
-
-<p>Check it out at <a href="https://github.com/kaochenlong/eddie-vim">https://github.com/kaochenlong/eddie-vim</a> it&rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo <a href="https://github.com/mose/rcfiles">https://github.com/mose/rcfiles</a> with an installer that I runs when I install a new server.</p>
 
             </div>
           </section>

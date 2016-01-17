@@ -6,8 +6,63 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2015 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 150</title>
+      <link>http://blog.mose.com/2015/12/20/greenruby-150</link>
+      <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/20/greenruby-150</guid>
+      <description>
+
+&lt;h2 id=&#34;150-weeks:4ed16e5b224ff8e7f398b527b88e0d35&#34;&gt;150 weeks&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter
+is an occasion to see where we are. At this day there are 1,610 subscribers to
+the email newsletter. The website has around 250 unique visits per day, which
+mostly are RSS readers. Those are anecdotal numbers. As we have no intention
+to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter
+in the red zone in the amount of subscribers and we will need to push some
+people out, those who forgot about the newsletter but also forgot to
+unsubscribe. It will happen when we reach 1,800 (because Mailchimp is still
+free under 2,000 subscribers).&lt;/p&gt;
+
+&lt;p&gt;During the whole life of the publication, we never missed one week. Last week,
+thanks to Xenor, I even could have some rest. Now I&amp;rsquo;m better, flu never last.
+We also have, for a couple of months, much more links contributions (thanks
+Nauman Tariq). All in all, our model seems to have been pretty sustainable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 148</title>
+      <link>http://blog.mose.com/2015/12/06/greenruby-148</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/06/greenruby-148</guid>
+      <description>
+
+&lt;h2 id=&#34;busy-hackathon-in-taipei:b4b86de420849d53ccbec354ab20a437&#34;&gt;Busy hackathon in Taipei&lt;/h2&gt;
+
+&lt;p&gt;This weekend we had our first &lt;a href=&#34;http://hackathon.taipei/en.html&#34;&gt;hackathon&lt;/a&gt; in Taipei, organized by
+&lt;a href=&#34;http://gandi.net&#34;&gt;Gandi&lt;/a&gt;. That was pretty fun, to be there on the side of the organizers
+without actually being in charge of the organization for once. Such geek
+events are always so great for meeting and sharing, being forbidden to
+participate didn&amp;rsquo;t prevent me to push some ideas around.&lt;/p&gt;
+
+&lt;p&gt;During the course of the weekend, I joined mickey to push the creation of a
+&lt;a href=&#34;https://github.com/elixirtw/elixir_tw&#34;&gt;Taiwan group for Elixir&lt;/a&gt;, for which we had an idea of a stream
+capture feature to gather slack discussion and index them. I also had an idea
+of event for &lt;a href=&#34;https://github.com/FreeBSDTaiwan/portscamp&#34;&gt;FreeBSD portscamp&lt;/a&gt; with marcelo, so we made a FreeBSD
+Taiwan group on github as well (with a pretty neat logo). All this was
+actually not that much related to the hackathon but just emerging from natural
+proximity with other geeks.&lt;/p&gt;
+
+&lt;p&gt;Check my &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/albums/72157661448405060&#34;&gt;photos on flickr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 147</title>
@@ -525,69 +580,6 @@ making it accessible behind a single password for everybody makes tings pretty
 direct. But totally unsafe, I reckon. I will probably have to write some kind
 of tool for managing the publication workflow. Hmm, that sounds like fun. If
 you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;share with me&lt;/a&gt; :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 130</title>
-      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
-      <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
-      <description>
-
-&lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
-
-&lt;p&gt;In September 11 and 12 there is a &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;Rubyconf here in Taiwan&lt;/a&gt;. I have
-been at some past editions and it&amp;rsquo;s always a good time to meet people. Because
-we are close to Japan there is usually pretty good ruby core contributors from
-there. We get to see Matz, father of ruby, at each edition. But this time it
-seems that the organizers pulled some kind of special trick and the famous
-&lt;a href=&#34;http://tenderlovemaking.com/&#34;&gt;Aaron Patterson&lt;/a&gt; will be present. And I remember having heard
-&lt;a href=&#34;http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen&#34;&gt;Sarah Allen on rubyrogues&lt;/a&gt; last year, it is the first time she joins
-us in Taiwan too. I think both of them will bring some unique taste to this
-years rubyconf.&lt;/p&gt;
-
-&lt;p&gt;If you looked for an occasion to visit Taiwan, that may be the right time. You
-won&amp;rsquo;t regret it. The ruby community in Taiwan is quite active and Taiwanese
-people are amazingly welcoming to westerners.&lt;/p&gt;
-
-&lt;p&gt;And, if you want to meet the 3 of us, we will all be there. Look around for
-Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
-tirelessly collect links and news, fresh from the week, about ruby and other
-things. And if you see someone with a Gandi T-Shirt, that will probably be me.
-We probably will distribute some green ruby stickers that I still have in
-stock. So then we can make new ones.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 129</title>
-      <link>http://blog.mose.com/2015/07/26/greenruby-129</link>
-      <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/07/26/greenruby-129</guid>
-      <description>
-
-&lt;h2 id=&#34;back-on-tweeting:7ae99486640ad70a650c6bd616a3b6cb&#34;&gt;Back on tweeting&lt;/h2&gt;
-
-&lt;p&gt;I really don&amp;rsquo;t like my phone. As an old timer I&amp;rsquo;m reluctant to trust my
-android, but it would be the same on an iphone. The way applications require
-access to the device, on android, is especially annoying and dishonest. They
-make the slope slippery for the sake of saving seconds in adopting new apps,
-but it&amp;rsquo;s leading to a total remission of users control over their devices.&lt;/p&gt;
-
-&lt;p&gt;But well, I still have a commute several times a week and I use my phone to
-listen to various podcasts. But I recently configured some accounts and some
-news readers, so I also can just do some links curation along the way. So I
-suspect there will be more tweeting on the &lt;a href=&#34;https://twitter.com/greenrubist&#34;&gt;greenrubist&lt;/a&gt; account from
-now on. It helps quite a lot when I want to gather links on every sundays.&lt;/p&gt;
-
-&lt;p&gt;Well, nowadays, most of the links are actually gathered by xenor and tysliu,
-but I always add a few on my own (especially the devops ones). Those 2 guys
-are really doing an amazing demonstration of consistency. After 129 editions,
-we still didn&amp;rsquo;t miss a single one week in our publication. It would not have
-been possible without my buddies. Thanks so much for their contribution.&lt;/p&gt;
 </description>
     </item>
     

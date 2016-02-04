@@ -97,6 +97,104 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-11-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-144.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/11/08/greenruby-144" class="post-title">Greenruby 144</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="packaging-a-gem-for-debian:2e8a1de1525658978fef3574497ed77d">Packaging a gem for Debian</h2>
+
+<p>Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.</p>
+
+<p>So I went have a look at <a href="https://wiki.debian.org/Teams/Ruby">the debian ruby team</a> and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&rsquo;s quite a fortress, and people in the
+process are not very welcoming.</p>
+
+<p>Maybe it&rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.</p>
+
+<p>I&rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&rsquo;s precious.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-11-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-143.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/11/01/greenruby-143" class="post-title">Greenruby 143</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="the-power-of-dsl:ab3ba7ed22eeaa19b0cb56ca8c01c80b">The power of DSL</h2>
+
+<p>While I was playing with <a href="https://github.com/zetachang/react.rb">react.rb</a> and exploring <a href="http://opalrb.org/">opal</a>, I
+felt in a totally different world. The power of the DSL already prove its
+shine on various occasions. I got to experience it in activeadmin, rspec, and
+puppet (but I kind of dislike the one in puppet).</p>
+
+<p>As I&rsquo;m also writing some python, I can see a real difference in expressibility
+that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
+making new programming languages, using meta-programming, lambda and other
+goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
+of its syntax, it empowers developers with the ability to write dedicated
+programming language for any specific use. And this, I didn&rsquo;t find in python.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-10-25
   <p class="post-meta">
     
@@ -614,107 +712,6 @@ making it accessible behind a single password for everybody makes tings pretty
 direct. But totally unsafe, I reckon. I will probably have to write some kind
 of tool for managing the publication workflow. Hmm, that sounds like fun. If
 you ever had the same kind of adventure, please <a href="mailto:mose@greenruby.org">share with me</a> :)</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-08-02
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-130.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-rubyconf" href="http://blog.mose.com/tags/rubyconf">rubyconf</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/08/02/greenruby-130" class="post-title">Greenruby 130</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6">RubyConf Taiwan 2015</h2>
-
-<p>In September 11 and 12 there is a <a href="http://2015.rubyconf.tw/">Rubyconf here in Taiwan</a>. I have
-been at some past editions and it&rsquo;s always a good time to meet people. Because
-we are close to Japan there is usually pretty good ruby core contributors from
-there. We get to see Matz, father of ruby, at each edition. But this time it
-seems that the organizers pulled some kind of special trick and the famous
-<a href="http://tenderlovemaking.com/">Aaron Patterson</a> will be present. And I remember having heard
-<a href="http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen">Sarah Allen on rubyrogues</a> last year, it is the first time she joins
-us in Taiwan too. I think both of them will bring some unique taste to this
-years rubyconf.</p>
-
-<p>If you looked for an occasion to visit Taiwan, that may be the right time. You
-won&rsquo;t regret it. The ruby community in Taiwan is quite active and Taiwanese
-people are amazingly welcoming to westerners.</p>
-
-<p>And, if you want to meet the 3 of us, we will all be there. Look around for
-Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
-tirelessly collect links and news, fresh from the week, about ruby and other
-things. And if you see someone with a Gandi T-Shirt, that will probably be me.
-We probably will distribute some green ruby stickers that I still have in
-stock. So then we can make new ones.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-07-26
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-129.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/07/26/greenruby-129" class="post-title">Greenruby 129</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="back-on-tweeting:7ae99486640ad70a650c6bd616a3b6cb">Back on tweeting</h2>
-
-<p>I really don&rsquo;t like my phone. As an old timer I&rsquo;m reluctant to trust my
-android, but it would be the same on an iphone. The way applications require
-access to the device, on android, is especially annoying and dishonest. They
-make the slope slippery for the sake of saving seconds in adopting new apps,
-but it&rsquo;s leading to a total remission of users control over their devices.</p>
-
-<p>But well, I still have a commute several times a week and I use my phone to
-listen to various podcasts. But I recently configured some accounts and some
-news readers, so I also can just do some links curation along the way. So I
-suspect there will be more tweeting on the <a href="https://twitter.com/greenrubist">greenrubist</a> account from
-now on. It helps quite a lot when I want to gather links on every sundays.</p>
-
-<p>Well, nowadays, most of the links are actually gathered by xenor and tysliu,
-but I always add a few on my own (especially the devops ones). Those 2 guys
-are really doing an amazing demonstration of consistency. After 129 editions,
-we still didn&rsquo;t miss a single one week in our publication. It would not have
-been possible without my buddies. Thanks so much for their contribution.</p>
 
             </div>
           </section>

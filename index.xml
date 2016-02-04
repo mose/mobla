@@ -6,8 +6,107 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 156</title>
+      <link>http://blog.mose.com/2016/01/31/greenruby-156</link>
+      <pubDate>Sun, 31 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/31/greenruby-156</guid>
+      <description>
+
+&lt;h2 id=&#34;3-years-of-green-ruby:183ee6564ab7e32d81baa05c527bf345&#34;&gt;3 years of Green Ruby&lt;/h2&gt;
+
+&lt;p&gt;Well, almost 3 years. &lt;a href=&#34;http://greenruby.org/grn-001.html&#34;&gt;Green Ruby #1&lt;/a&gt; was sent on feb 12th, 2013. Since
+then, we sent 156 editions, one per week without discontinuation, including a
+total of 5556 links. There is now 1691 subscribers to the newsletter. That&amp;rsquo;s
+quite something, for a mail that was just sent to some friends at the
+beginning.&lt;/p&gt;
+
+&lt;p&gt;During all this time, things didn&amp;rsquo;t change that much. In july 2013 the code
+was put on github and the process didn&amp;rsquo;t change much since then. I got a
+Rakefile to build the letter from yaml files and there is no need to change
+it. For the first 2 years Xenor was sending me some links by mail every weeks,
+then in 2015 Tysliu got back in and we used git to get both of their
+contributions. Later on, we got the slack channel where we throw between 10 to
+30 links per weeks that I do my selection from. Nauman recently proved to be
+the most prolific contributor on slack. (btw if you want to join our slack
+group, it&amp;rsquo;s pretty open, just fire me an email).&lt;/p&gt;
+
+&lt;p&gt;We still don&amp;rsquo;t have any business project behind this publication. We are just
+a group of friends that like to keep in touch with the current trends, and
+that like to share the result of our weekly workout with our fellow coder
+brothers and sisters. Soon we will reach the limit of the free mailchimp usage
+(at 2000 subscribers), and that will be an interesting time. We will then ask
+people to unsubscribe if they don&amp;rsquo;t read the letter. Maybe registration will
+be closed if we reach the hard limit. But there is no plan to become a
+sustainable money-based adventure. So we&amp;rsquo;ll keep the cost to the minimum.&lt;/p&gt;
+
+&lt;p&gt;If you feel any gratefulness at all, pay it forward. Share your knowledge
+around you. Publish more open source code. Hug a friend or a stranger. Be nice
+and tolerant. Send some thank-you email to someone that published some open
+source code that saved your day. Love is wealth.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 155</title>
+      <link>http://blog.mose.com/2016/01/24/greenruby-155</link>
+      <pubDate>Sun, 24 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/24/greenruby-155</guid>
+      <description>
+
+&lt;h2 id=&#34;the-future-of-under-engineering:fcbdcc9c124e7d704858d627998434f7&#34;&gt;The future of under-engineering&lt;/h2&gt;
+
+&lt;p&gt;Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and
+specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more
+used to 70% research and specification, 20% implementation and 10% debugging.
+He was working in the hardhware industry for a while, and just came to a
+service-based company. This is actually a very interesting remark and it
+reminded me when I was in my twenties when I was working as a construction
+worker.&lt;/p&gt;
+
+&lt;p&gt;When I was young there was no internet and I had a 10 years break from
+computers. I had to take stupid jobs like working on construction sites for
+low wages. After that I went to art school and later on I worked on building
+sets for business shows. I have been shocked by the gap between those 2
+worlds. When building a house, there is so much time spent writing plans,
+thinking things in advance. While in the show-business construction pattern,
+it was mostly about improvisation and managing inflexible time constraints,
+with one-time-use construction.&lt;/p&gt;
+
+&lt;p&gt;I feel there is the same gap in the software industry. Well it&amp;rsquo;s not exactly
+the same for sure, but the paradigm feels alike. In service software
+production, SaaS or ISP businesses, we tend to under-engineer the production.
+There are perfectly legitimate reasons for that, the life-cycle of a platform
+of service is quick, volatile and the value is not in the software asset but
+in the customer-user experience.&lt;/p&gt;
+
+&lt;p&gt;The Agile organization model reinforces this pattern, by providing a
+substitute to the early specifications, in the form of user experiences
+description. All this is fine and good. For a time. But with years passing we
+can see so many occurrences of &amp;lsquo;temporary&amp;rsquo; projects becoming indestructible
+legacy monsters. It&amp;rsquo;s like there was some kind of tipping point where the
+development should shift from under-engineered to well-engineered but it&amp;rsquo;s
+rarely anticipated properly enough.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s pretty hard to address that kind of problem. Throwing away the early
+instances is very costly, especially when the organization is shaped by a
+fast-paced reactive production model. Introducing proper engineering at early
+stages is also not a clever option, as the product has to adapt to the
+service, which depends on a constant feedback loop with the users.&lt;/p&gt;
+
+&lt;p&gt;I have the feeling that there is something missing. Like an evolution of agile
+that could include seeds of later engineering. Some way to make possible to
+start fast, and evolve in a solid and slower model later on without crisis or
+disruption. This is the perspective that I think was missing in &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;that
+article&lt;/a&gt; I cited on green ruby 145. But I don&amp;rsquo;t know the answer to
+that problem. I suspect it will emerge by itself in the few next years.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 153</title>
@@ -449,86 +548,6 @@ he was able to demo a prototype Rails that is H2 friendly.&lt;/p&gt;
 
 &lt;p&gt;The best news for Rails developers is that there are plans to for making HTTP
 2 compatibility available in Rails 5.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 135</title>
-      <link>http://blog.mose.com/2015/09/06/greenruby-135</link>
-      <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/09/06/greenruby-135</guid>
-      <description>
-
-&lt;h2 id=&#34;meet-at-rubyconf:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Meet at rubyconf&lt;/h2&gt;
-
-&lt;p&gt;Next friday we will be at &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;rubyconf Taiwan&lt;/a&gt;. Last year there was
-around 300 attendees and there is 256 this year. But maybe there will be more
-last minute registration, there is still some &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/rubyconftw2015&#34;&gt;spots available&lt;/a&gt; (well
-just 14 at this time). I will also be at the &lt;a href=&#34;http://rubytaiwan.kktix.cc/events/850d36b0&#34;&gt;pre-conf evening&lt;/a&gt; on
-wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers
-there).&lt;/p&gt;
-
-&lt;h2 id=&#34;some-stats-on-greenruby:5c5ed19a98630bcf79414a52c93d484e&#34;&gt;Some stats on greenruby&lt;/h2&gt;
-
-&lt;p&gt;From time to time I check an export of the subscribers list and do some stats
-out of curiosity. As of today there are 1466 subscribers, and more than half
-in the US (844) all the rest are in 88 other countries (most in India, UK,
-France and Taiwan, in that order). In the US most people are from New-York,
-just a little more than Los Angeles, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Monticello,_Kentucky&#34;&gt;Monticello&lt;/a&gt; in Kentucky.
-I wonder what there is so special in that city of less than 10k people. Maybe
-that&amp;rsquo;s a geo-location glitch? If not, please someone tell me what there is in
-that small and probably nice city. But if I had to bet, I would put my money
-on the glitch.&lt;/p&gt;
-
-&lt;p&gt;Every week there is a small number of new subscribers, especially during
-summer. But if you don&amp;rsquo;t really read or if you don&amp;rsquo;t care that much, please
-unsubscribe. I will certainly have to do some invitation to unsubscribe when
-we will reach around 2000, because mailchimp if free of charge only under that
-limit.&lt;/p&gt;
-
-&lt;p&gt;There are also a lot of unaccounted subscribers to the RSS feed, which is the
-most popular page on the website. But I don&amp;rsquo;t use feedburner or any kind of
-tracking so I don&amp;rsquo;t really know. And I kind of like it that way.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 134</title>
-      <link>http://blog.mose.com/2015/08/31/greenruby-134</link>
-      <pubDate>Mon, 31 Aug 2015 12:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/08/31/greenruby-134</guid>
-      <description>
-
-&lt;h2 id=&#34;the-dimensions-of-coding:b983cb306bd4bcf38c9b84ac40779659&#34;&gt;The dimensions of coding&lt;/h2&gt;
-
-&lt;p&gt;Today while wandering around in my weekly hunt for good links, my eye has been
-attracted by a post named &lt;a href=&#34;https://medium.com/@scosta/coding-is-three-dimensional-cb331d1b4ad8&#34;&gt;Coding is three dimensional&lt;/a&gt;. It&amp;rsquo;s quite an
-interesting way to consider it. But the reason why it struck me is that it was
-missing the fourth dimension. That makes all the difference when you get years
-of coding. You know that time is a parameter.&lt;/p&gt;
-
-&lt;p&gt;Code don&amp;rsquo;t exist out of time. It has a past, perspective of a future, that
-both shape its current morphology. There are a lot of efforts to produce code
-analysis. But the real analyst is an historian and needs a systemic approach
-that includes time as a factor. We are still far from being able to automate
-that. In some ways, it&amp;rsquo;s a good news, we won&amp;rsquo;t be replaced by small scripts
-very soon.&lt;/p&gt;
-
-&lt;p&gt;The time factor is actually the essential element in the &lt;a href=&#34;http://martinfowler.com/bliki/TechnicalDebt.html&#34;&gt;technical debt&lt;/a&gt;
-formula. Purist coders can&amp;rsquo;t cope with technical debt but if you have two
-onces of business man inside, it makes total sense. The tradeoff in technical
-quality versus fast deliverability only makes sense because the timing is
-critical. &lt;a href=&#34;https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt&#34;&gt;A mess is not a technical debt&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If coding was disconnected from the market, and if it was not a business or
-more like an art, maybe time would not be that critical. But even open source
-software is dependent on the market at one point or another. I fail to see how
-it could be different.&lt;/p&gt;
-
-&lt;p&gt;Honestly, I would prefer clean coding and no market tradeoff, but that&amp;rsquo;s just
-a dream.&lt;/p&gt;
 </description>
     </item>
     

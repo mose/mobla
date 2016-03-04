@@ -6,8 +6,149 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 160</title>
+      <link>http://blog.mose.com/2016/02/28/greenruby-160</link>
+      <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/28/greenruby-160</guid>
+      <description>
+
+&lt;h2 id=&#34;about-tests-and-documentation:329bfb00efd0c1fb86f4a0195e637cef&#34;&gt;About tests and documentation&lt;/h2&gt;
+
+&lt;p&gt;This aspect of development, called Documentation, is the source of various
+frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like
+testing. When you begin your craft as a coder, all what matters is the code.
+It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you
+in the neck. Like, huho, now that I need to refactor, I really should use
+something that tells me if all still works. Tests become an early necessity to
+anyone who knows that kind of truth. If you wait until the end of a coding
+cycle to write those, the task is huge and it cuts you from your productivity
+cycle. Write them early, along the flow, is way easier.&lt;/p&gt;
+
+&lt;p&gt;So I think documentation follows the same pattern. So many software projects
+are badly documented because this aspect is postponed until it&amp;rsquo;s needed. Means
+at release stage. In early stages, you work on a prototype and you don&amp;rsquo;t need
+to explain how things work or are supposed to work. And when it&amp;rsquo;s released,
+there is usually some other task waiting and it&amp;rsquo;s hard to stop everything to
+get back and document things properly. It may be a flaw in the agile process,
+but it may also be a feature: if you don&amp;rsquo;t document along the way, you won&amp;rsquo;t
+document much.&lt;/p&gt;
+
+&lt;p&gt;Personally I try to consider the documentation of any of the source code I
+write as one of the first tasks. There are various tricks that can help in
+that perspective, like &lt;a href=&#34;http://tom.preston-werner.com/2010/08/23/readme-driven-development.html&#34;&gt;readme-driven development&lt;/a&gt;, or including the doc
+inside the code with &lt;a href=&#34;http://yardoc.org/&#34;&gt;yarddoc&lt;/a&gt; or &lt;a href=&#34;http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api&#34;&gt;apipie&lt;/a&gt;, or coupling
+documentation with tests with &lt;a href=&#34;https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples&#34;&gt;rspec&lt;/a&gt; or &lt;a href=&#34;https://github.com/zipmark/rspec_api_documentation&#34;&gt;RSpec API Doc
+Generator&lt;/a&gt;. But honestly I prefer edited documentation that can follow
+a structure that is thought as documentation rather than merely an automated
+output of some code.&lt;/p&gt;
+
+&lt;p&gt;There are various tools to organize edited documentation, like
+&lt;a href=&#34;https://readthedocs.org/&#34;&gt;ReadTheDoc&lt;/a&gt; which is in python. Another project appeared last week from
+the guys at Pluralsight named &lt;a href=&#34;http://tutorials.pluralsight.com/faq/&#34;&gt;hack.guide()&lt;/a&gt;. That&amp;rsquo;s a community project
+but actually being totally open sourced, I was thinking the &lt;a href=&#34;https://github.com/pluralsight/guides-cms&#34;&gt;documentation
+building CMS&lt;/a&gt; they made could pretty much fill the gap of a
+light-weight RTD, with the benefits of having a UI for editors. Too bad we
+don&amp;rsquo;t have anything like this in ruby (or do we?).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 159</title>
+      <link>http://blog.mose.com/2016/02/21/greenruby-159</link>
+      <pubDate>Sun, 21 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/21/greenruby-159</guid>
+      <description>
+
+&lt;h2 id=&#34;timezones-are-outdated:d102e5698628cd2679575c8fc001deb8&#34;&gt;Timezones are outdated&lt;/h2&gt;
+
+&lt;p&gt;This week I checked out &lt;a href=&#34;https://www.washingtonpost.com/news/worldviews/wp/2016/02/12/the-radical-plan-to-destroy-time-zones-2/&#34;&gt;The radical plan to destroy time
+zones&lt;/a&gt;, which proposes to adopt UTC worldwide. It goes even
+further in proposing a change in our calendar for adopting the &lt;a href=&#34;https://en.wikipedia.org/wiki/Hanke-Henry_Permanent_Calendar&#34;&gt;Hanke-Henry
+Permanent Calendar&lt;/a&gt;. It&amp;rsquo;s not the first time people propose change
+in our western gregorian calendar system (which is almost 500 yearsold), but
+it&amp;rsquo;s quite not easy to get anything adopted.
+Still, we developers consider Timezones as one of our nightmares. When we get
+to our senses we put everything we can in UTC, but there is always the need to
+get time &amp;lsquo;local&amp;rsquo; at some point. I have honestly little hope that UTC become
+the worldwide standard, but, hey, we always can dream, right?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 158</title>
+      <link>http://blog.mose.com/2016/02/14/greenruby-158</link>
+      <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/14/greenruby-158</guid>
+      <description>
+
+&lt;h2 id=&#34;the-thin-line-between-chaos-and-harmony:430ae6e4341a8c2a323bbff1cdaa06fc&#34;&gt;The thin line between chaos and harmony&lt;/h2&gt;
+
+&lt;p&gt;In the long road of my developer life I had the chance to experience a very
+wide variety of organizational models. The most pleasant was in the context of
+very large open source projects, where actions are not planned but still
+organized, and things fall in their place seemingly naturally. Of course there
+is nothing natural in that. There is a category of people, that can be called
+catalysts, working as gardeners and building the pathways to collaboration.
+But because there is no predefined hierarchy, I thought chaos had some
+virtues.&lt;/p&gt;
+
+&lt;p&gt;In other hierarchical models, there is so much waste following the rule rather
+than its essence. It&amp;rsquo;s like there was an abstraction layer for efficiency and
+the staff follows the abstraction, paying no respect to the efficiency.
+Because after a time the set of rules is not making sense anymore. The
+environment moves fast and habits are hard to change. It&amp;rsquo;s taking long time
+for an organization to change its own internal rules.&lt;/p&gt;
+
+&lt;p&gt;But I also have seen non-hierarchical model totally fail. When you try to
+apply an open-source kind of organization inside a company, it cannot be done
+half-way, but it cannot be done fully.&lt;/p&gt;
+
+&lt;p&gt;For example the volatility of contributors is an essential part of the
+open-source organization model. Things are working the way they do because
+people are free to leave and join at will, or stop working when they decide.
+This is totally different in a company, even if you can get some
+approximation, leaving and joining is a more complicated process, and has a
+different set of motivations. And let&amp;rsquo;s not talk about the freedom to stop
+working at will.&lt;/p&gt;
+
+&lt;p&gt;This single factor leads the free-formed communities to get various incentives
+for contributors to feel good about their interaction in the community. The
+ones that don&amp;rsquo;t play well along other people just end up either in a
+leadership position because they are geniuses, or just leave because they
+don&amp;rsquo;t fit in. Or they stay and kill the project because everybody else leaves.
+But most likely they are the reason why forks exist.&lt;/p&gt;
+
+&lt;p&gt;But in a non-hierarchic company, those cowboys may end up hurting the whole
+process of collaboration by capturing some processes, getting very good at
+them, and give hell to everybody else for a time, under the privilege of the
+Power of the Bottleneck. It&amp;rsquo;s very hard to get those people to share knowledge
+because their position depends on it. If nothing is done, the situation will
+become uneasy and awkward at best.&lt;/p&gt;
+
+&lt;p&gt;Certainly in that type of situation, if there is some power in place to
+mitigate this danger, all can be good and well. But from my experience such
+power is hard to come by. Especially if the non-hierarchic aspect of the
+organization depends on him/her/it. Maybe there is some way to have some kind
+of catalyst role, but where I have seen such role in a company, it was
+informal and not an official position.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s too bad because I would love to experience again some real collective
+intelligence in the workplace the same way I have experienced it in some open
+source communities. I think maybe there are some companies out there that are
+doing that well, but most of the time it&amp;rsquo;s not going to be structural. Most
+likely it will come from a specific set of people that do real good in
+collaboration. I still wait to see a company that includes in its genetic
+code, in its fundamental principle, the seeds that make it possible to be
+efficient and still instinctive.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 156</title>
@@ -405,149 +546,6 @@ making new programming languages, using meta-programming, lambda and other
 goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
 of its syntax, it empowers developers with the ability to write dedicated
 programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 142</title>
-      <link>http://blog.mose.com/2015/10/25/greenruby-142</link>
-      <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/10/25/greenruby-142</guid>
-      <description>
-
-&lt;h2 id=&#34;dst-sucks:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;DST sucks&lt;/h2&gt;
-
-&lt;p&gt;This week-end they changed time in France. As I work with those guys to cover
-the watching of servers, then I need to change time too. This is totally lame.
-In the context of largely distributed teams, DST is heresy. It happens in the
-US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have
-that in Taiwan.&lt;/p&gt;
-
-&lt;h2 id=&#34;thunderbird-sucks-too:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Thunderbird sucks too&lt;/h2&gt;
-
-&lt;p&gt;Despite the respect I have for mozilla products and for their efforts toward
-the community, I have to say that I have been using thunderbird for a while
-and I don&amp;rsquo;t like it. There is some lack of customability in there, it eats a
-whole lot of memory and it&amp;rsquo;s kinda slow sometimes. I have been considering
-getting back to mutt, which is a totally different category of mail client.&lt;/p&gt;
-
-&lt;p&gt;But I found &lt;a href=&#34;http://www.claws-mail.org/&#34;&gt;claws&lt;/a&gt;, and trying it for a few days on my various
-mailboxes with hundreds of thousands of mails, and it is a very good feeling.
-It&amp;rsquo;s much more transparent and hackable and stays in the same category of the
-clickable mail client as thunderbird. I&amp;rsquo;m not sure I will stick to claws,
-maybe I will get back to mutt that I have been used so many years before. But
-I sure will give that &amp;lsquo;email client that bites&amp;rsquo; a try for a while.&lt;/p&gt;
-
-&lt;h2 id=&#34;gmail-sucks-more:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Gmail sucks more&lt;/h2&gt;
-
-&lt;p&gt;I still can&amp;rsquo;t figure out why people use gmail for reading their mail. I mean,
-you leave management of your mail to google, you know what they do with it.
-You also want to give them information about how you read your mail? I mean,
-using a webmail, first, should be a fallback. But it&amp;rsquo;s mystery for nobody that
-google business is in profiling people. It blasts me how people can trust them
-blindly.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 140</title>
-      <link>http://blog.mose.com/2015/10/11/greenruby-140</link>
-      <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/10/11/greenruby-140</guid>
-      <description>
-
-&lt;h2 id=&#34;slack-overflow:94c85cedf808f313200328bd388deb80&#34;&gt;Slack overflow&lt;/h2&gt;
-
-&lt;p&gt;Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope &lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; will kill it, honestly.&lt;/p&gt;
-
-&lt;p&gt;I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn&amp;rsquo;t have a linux client for a while. So I didn&amp;rsquo;t really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don&amp;rsquo;t charge for normal usage until you need many integrations with various services, it&amp;rsquo;s pretty easy for anyone to create some new slack team.&lt;/p&gt;
-
-&lt;p&gt;Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt.&lt;/p&gt;
-
-&lt;p&gt;Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check &lt;a href=&#34;http://www.slacklist.info/&#34;&gt;slacklist&lt;/a&gt; or the &lt;a href=&#34;http://chats.directory/&#34;&gt;chat directory&lt;/a&gt;. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them.&lt;/p&gt;
-
-&lt;p&gt;I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It&amp;rsquo;s a totally different beast. Plus, that&amp;rsquo;s a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative.&lt;/p&gt;
-
-&lt;p&gt;Currently I got 6 groups on my slack client, including the &lt;a href=&#34;https://greenruby.slack.com/&#34;&gt;Greenruby slack group&lt;/a&gt;. You can ask for an invite at &lt;a href=&#34;mailto:news@greenruby.org&#34;&gt;slack@greenruby.org&lt;/a&gt; it&amp;rsquo;s totally open.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 136</title>
-      <link>http://blog.mose.com/2015/09/13/greenruby-136</link>
-      <pubDate>Sun, 13 Sep 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/09/13/greenruby-136</guid>
-      <description>
-
-&lt;h2 id=&#34;rubyconf-tw:6a0e12fe1d32b33b0719139f3561d417&#34;&gt;Rubyconf TW&lt;/h2&gt;
-
-&lt;p&gt;So these last 2 days we went to RubyConfTW here in Taipei, like every year. At
-that occasion I kinda forced my buddies to take part in this rant section. So,
-that occasion of meeting the ruby community was as usual very enjoyable. Year
-after year we see the same people, the community is solid and persistent.&lt;/p&gt;
-
-&lt;p&gt;Like last years Matz was here and he talked about ruby 3 and, that was a
-surprise to me, he talked about getting rid of the GIL very soon. That GIL
-topic has been a taboo for so many years. Getting rid off it can change the
-position of ruby in the family of the major scripting languages. He also
-defined laziness as one of the 3 required characteristics of a good coder. I&amp;rsquo;m
-not sure there is anything mainstream about those 3 qualities but for a long
-time I had my set of 3 requirements to evaluate a good coder and laziness was
-in it. maybe I will develop more about it in another rant.&lt;/p&gt;
-
-&lt;p&gt;During this conference I also had the occasion to hear a lot of direct
-feedback from friends of Green Ruby. For example we have an irc channel but
-many people are not that comfortable with that chat system from another
-century and would prefer a slack room. As a matter of fact we have such a
-room, but we forgot about it for the past year. It&amp;rsquo;s alive again, feel free to
-send a request for invite to news at greenruby.org to join
-&lt;a href=&#34;http://greenruby.slack.com&#34;&gt;http://greenruby.slack.com&lt;/a&gt;. It&amp;rsquo;s open to everybody.&lt;/p&gt;
-
-&lt;h2 id=&#34;rubyconftw-by-xenor:6a0e12fe1d32b33b0719139f3561d417&#34;&gt;Rubyconftw by xenor&lt;/h2&gt;
-
-&lt;p&gt;Hey I&amp;rsquo;m xenor and this is my first rant in Green Ruby News about (and not
-about) &lt;a href=&#34;http://2015.rubyconf.tw/&#34;&gt;rubyconftw&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I work in a ruby shop and manage a couple of people, and I am recently feeling
-burned-out. It affects motivation and productivity. I am in a position which
-involves watching over colleagues output. But I also have my own coding
-projects ongoing.&lt;/p&gt;
-
-&lt;p&gt;At first it&amp;rsquo;s great and challenging. But after half a year, it starts to bite
-me back. I get tired and anxious about not meeting my goal at the end of the
-day while checking others progress. I also need more breaks than usual. The
-typical burn-out syndrome.&lt;/p&gt;
-
-&lt;p&gt;Rubyconf gave me a break so that I can rethink what I was doing and how I can
-evaluate things around me. During the conference, I found some time to do
-&lt;a href=&#34;https://github.com/tubaxenor/squeezer&#34;&gt;side project&lt;/a&gt;. This really helps and re-motivates me on programming
-(I believe this could be called &amp;lsquo;Conference Driven Development&amp;rsquo;)&lt;/p&gt;
-
-&lt;p&gt;You might wonder why I didn&amp;rsquo;t say anything about the talks. Actually, talks
-are just as great as all other conferences, and can be watched on the
-recordings that they will post soon. But the most important part is really the
-atmosphere of encouragement to try and learn something new.&lt;/p&gt;
-
-&lt;h2 id=&#34;rubyconftw-by-tysliu:6a0e12fe1d32b33b0719139f3561d417&#34;&gt;Rubyconftw by tysliu&lt;/h2&gt;
-
-&lt;p&gt;Greetings. This is tysliu and this is also my first rant and my experience
-from going to 2015 Rubyconf TW.&lt;/p&gt;
-
-&lt;p&gt;The main benefit from attending rubyconf this year is that I said hello to
-more people. I met past colleagues and also new people. It feels nice to see
-familiar faces and catch up.&lt;/p&gt;
-
-&lt;p&gt;The most interesting talk for me this years was tenderlove&amp;rsquo;s talk. It was
-about how he attacked the issue of making Rails HTTP2 friendly. Basically,
-Rails at the moment is not http2 compatible. This is due the the current
-architecture of Rails and implementation of rack middlewares. During the talk
-he was able to demo a prototype Rails that is H2 friendly.&lt;/p&gt;
-
-&lt;p&gt;The best news for Rails developers is that there are plans to for making HTTP
-2 compatibility available in Rails 5.&lt;/p&gt;
 </description>
     </item>
     

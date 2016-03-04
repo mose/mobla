@@ -78,11 +78,11 @@
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 7</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 8</span>
     
-    <span class="button-small pure-button pure-button-disabled">
+    <a href="http://blog.mose.com/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
-    </span>
+    </a>
     
   </nav>
 </div>
@@ -95,6 +95,256 @@
     <div>
       
       <div class="posts">
+        
+          <h1 class="content-subhead">
+  2014-06-12
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-s3" href="http://blog.mose.com/tags/s3">s3</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/06/12/s3-backups" class="post-title">S3 backups</a>
+            </header>
+
+            <div class="post-description">
+              <p>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).</p>
+
+<ul>
+<li><a href="http://meskyanichi.github.io/backup/v4/">http://meskyanichi.github.io/backup/v4/</a></li>
+</ul>
+
+<p>But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</p>
+
+<p>So I added a small trick there:</p>
+
+<p>in <code>Backup/models/backup_audio.rb</code></p>
+
+<pre><code class="language-ruby">module Backup::Syncer::Cloud
+  class Base &lt; Syncer::Base
+    def process_orphans
+      if @orphans.is_a?(Queue)
+        @orphans = @orphans.size.times.map { @orphans.shift }
+      end
+      &quot;Older Files: #{ @orphans.count }&quot;
+    end
+  end
+end
+
+Backup::Model.new(:backup_audio, 'Audio files Backup to S3') do
+
+  before do
+    system(&quot;/Backup/latest_audio.sh&quot;)
+  end
+
+  after do
+    FileUtils.rm_rf(&quot;/tmp/streams&quot;)
+  end
+
+  ##
+  # Amazon Simple Storage Service [Syncer]
+  #
+  sync_with Cloud::S3 do |s3|
+    s3.access_key_id     = &quot;xxx&quot;
+    s3.secret_access_key = &quot;xxx&quot;
+    s3.bucket            = &quot;bucket_backup&quot;
+    s3.region            = &quot;us-east-1&quot;
+    s3.path              = &quot;/mb_audio_backup&quot;
+    s3.mirror            = false
+    s3.thread_count      = 50
+
+    s3.directories do |directory|
+      directory.add &quot;/tmp/streams&quot;
+    end
+  end
+end
+</code></pre>
+
+<p>and in <code>Backup/latest_audio.sh</code></p>
+
+<pre><code class="language-bash">#!/bin/sh
+# isolate files changed in the last 3 days
+
+TMPDIR=/tmp/streams
+
+mkdir $TMPDIR
+for i in `find /storage/audio/ -type f -cmin -4320`; do
+  ln -s $i $TMPDIR
+done
+</code></pre>
+
+<p>It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &lsquo;amazonian&rsquo; reason) it will be caught on the next daily backup.</p>
+
+<p>The result was pretty obvious on our disk usage with our daily backups:</p>
+
+<img src="http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png" alt="graph" class="pure-img" />
+
+
+
+<p>in the logs:</p>
+
+<pre><code>[2014/06/10 07:00:25][info] Summary:
+[2014/06/10 07:00:25][info]   Transferred Files: 5
+[2014/06/10 07:00:25][info]   Older Files: 22371
+[2014/06/10 07:00:25][info]   Unchanged Files: 16
+[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
+[2014/06/10 07:00:25][info] Backup for 'Audio files Backup to S3 (backup_audio)' Completed Successfully in 00:00:22
+[2014/06/10 07:00:25][info] After Hook Starting...
+[2014/06/10 07:00:25][info] After Hook Finished.
+</code></pre>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-06-04
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/06/04/make-a-gem" class="post-title">Make a gem</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:</p>
+
+<h2 id="make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e">Make a Rubygems account</h2>
+
+<ul>
+<li>first ensure create an ccount on <a href="https://rubygems.org/">https://rubygems.org/</a></li>
+<li>initialize your credentials:</li>
+</ul>
+
+<pre><code>curl -u username https://rubygems.org/api/v1/api_key.yaml &gt; ~/.gem/credentials
+Enter host password for user 'username':
+
+chmod 0600 ~/.gem/credentials
+</code></pre>
+
+<h2 id="prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e">Prepare the code</h2>
+
+<p>These steps are my typical path, nothing is really mandatory there.</p>
+
+<ul>
+<li>create a repo at github (or wherever you want)</li>
+<li>create a base gem skeleton <code>bundle gem mycoolgem</code></li>
+<li>update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information</li>
+<li>create a CHANGELOG.md because when you publish something you need a clear log of your version changes</li>
+<li>enable the tracking on <a href="https://codeclimate.com/">codeclimate</a>, <a href="https://travis-ci.org/">travis</a>, <a href="https://coveralls.io/">coveralls</a>, <a href="https://gemnasium.com">gemnasium</a></li>
+<li>add badges from <a href="http://shields.io">http://shields.io</a> in the README.md because it helps to qualify the state of the code quickly</li>
+<li>when the gem code don&rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with <code>spec.version  = File.read(File.expand_path('../CHANGELOG.md', __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]</code>
+(so then when I version bump there is only one file to edit)</li>
+<li>write the code (or copy it from the private app you extract it from)</li>
+<li>add a spec/ or test/ dir and write some tests and try to reach a decent coverage</li>
+</ul>
+
+<h2 id="release-it:a6c8c79e924ce88903bef7ff7392e41e">Release it</h2>
+
+<ul>
+<li>add the date in the changelog for the current version</li>
+<li><code>rake release</code></li>
+<li>bump the version to the next increment in the changelog (and version file if any)</li>
+</ul>
+
+<p>Overall with the initial bundle command and the final rake task for release, it&rsquo;s pretty straightforward.</p>
+
+<p>Also check <a href="http://guides.rubygems.org/make-your-own-gem/">http://guides.rubygems.org/make-your-own-gem/</a></p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-05-27
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/05/27/gem-reverse-dependencies" class="post-title">Gem reverse dependencies</a>
+            </header>
+
+            <div class="post-description">
+              <p>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).</p>
+
+<pre><code class="language-ruby">ruby -ropen-uri -rpp -ryaml \
+     -e 'pp YAML.load(open(&quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&quot;))'
+
+[&quot;metric_fu&quot;,
+ &quot;flyerhzm-metric_fu&quot;,
+ &quot;edouard-metric_fu&quot;,
+ &quot;devver-metric_fu&quot;,
+ &quot;goldstar-metric_fu&quot;,
+ &quot;socializer&quot;,
+ &quot;trollface&quot;,
+ &quot;guard-rails_best_practices&quot;,
+ &quot;rferraz-metric_fu&quot;,
+ &quot;git-hooks-helper&quot;,
+ &quot;odor&quot;,
+ &quot;rake_check&quot;,
+ &quot;koality&quot;,
+ &quot;danmayer-metric_fu&quot;,
+ &quot;bf4-metric_fu&quot;,
+ &quot;metrics_satellite&quot;,
+ &quot;code_hunter&quot;,
+ &quot;kinit&quot;,
+ &quot;rails-audit&quot;,
+ &quot;pronto-rails_best_practices&quot;,
+ &quot;free_disk_space&quot;,
+ &quot;warder&quot;,
+ &quot;ruby_osx_app&quot;,
+ &quot;sanelint&quot;]
+</code></pre>
+
+<p>Out of curiosity I counted some wellknown gems usages by adding a <code>.count</code> at the end:</p>
+
+<pre><code>rake:    23766
+rails:   6283
+thor:    2786
+pry:     2870
+sinatra: 1964
+devise:  422 
+</code></pre>
+
+            </div>
+          </section>
         
           <h1 class="content-subhead">
   2014-05-22
@@ -415,215 +665,6 @@
             </div>
           </section>
         
-          <h1 class="content-subhead">
-  2012-12-10
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">old tumblr site</span>
-      
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2012/12/10/rubyconf-2012" class="post-title">RubyConf 2012</a>
-            </header>
-
-            <div class="post-description">
-              <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-
-
-
-<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/1-xenor" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/1-xenor" itemprop="thumbnail" alt="Xenor" /></a></figure>
-
-
-
-
-<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/2-talk" itemprop="contentUrl" data-size="800x1280"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/2-talk" itemprop="thumbnail" alt="Talks" /></a></figure>
-
-
-
-
-<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/3-restau" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/3-restau" itemprop="thumbnail" alt="At restaurant" /></a></figure>
-
-
-
-
-<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/4-benxenor" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/4-benxenor" itemprop="thumbnail" alt="Xenor and benjamin" /></a></figure>
-
-
-
-
-<figure class="figure" itemscope itemtype="http://schema.org/ImageObject"><a href="http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/5-conf" itemprop="contentUrl" data-size="1280x800"><img src="http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/5-conf" itemprop="thumbnail" alt="Conference" /></a></figure>
-
-
-</div>
-
-
-<link rel="stylesheet" href="http://blog.mose.com/css/photoswipe.css">
-<link rel="stylesheet" href="http://blog.mose.com/css/photoswipe-skin/default-skin.css">
-<script src="http://blog.mose.com/js/photoswipe.min.js"></script>
-<script src="http://blog.mose.com/js/photoswipe-ui-default.min.js"></script>
-<script src="http://blog.mose.com/js/initphotoswipe.js"></script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <div class="pswp__ui pswp__ui--hidden">
-      <div class="pswp__top-bar">
-        <div class="pswp__counter"></div>
-        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-        <button class="pswp__button pswp__button--share" title="Share"></button>
-        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-        <div class="pswp__preloader">
-          <div class="pswp__preloader__icn">
-            <div class="pswp__preloader__cut">
-              <div class="pswp__preloader__donut"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-        <div class="pswp__share-tooltip"></div>
-      </div>
-      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-      </button>
-      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-      </button>
-      <div class="pswp__caption">
-        <div class="pswp__caption__center"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  initPhotoSwipeFromDOM('.gallery');
-</script>
-
-
-<p>Ruby Conf Taiwan 2012. Quite a great event.</p>
-
-<p><a href="http://rubyconf.tw/2012/">http://rubyconf.tw/2012/</a></p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2012-10-28
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">old tumblr site</span>
-      
-    
-    
-      <a class="post-tags post-tags-sublimetext" href="http://blog.mose.com/tags/sublimetext">sublimetext</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs" class="post-title">Sublimetext2, plugins, sshfs</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<p>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.</p>
-
-<p>But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called <a href="http://www.sublimetext.com/2">sublimetext2</a>. And I have to say it just works fine for me (even if I will always keep my Vim not far). And I don’t feel any loss in control !</p>
-
-<p>Here are a few tuning that I made or got from friends that I want to keep in memory, so I figured I should post about it.</p>
-
-<h2 id="enable-plugins-manager:aeac908f260033eeab91183dfa6f1c81">Enable plugins manager</h2>
-
-<p>It’s not on by default and can be enable by copy-pasting this line into the console (view / console in the menu)</p>
-
-<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not  os.path.exists(ipp) else None;  urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print   'Please restart Sublime Text to finish installation'
-</code></pre>
-
-<p>Then just relaunch sublimetext and you can access the plugin manager using shift-ctrl-P and type ‘install’.</p>
-
-<p>There is a damn long list of plugins you can add there (a list is on <a href="http://wbond.net/sublime_packages/community">http://wbond.net/sublime_packages/community</a>) and a few of them were advised to me that I should use: brackethighliter, docblockr, sublimecodeintel, sublimelinter, vintageex, git</p>
-
-<p>sublimecodeintel seems to be the one that really does a lot of magic in there. The rest is for convenience and display of blocks in a more visual way,</p>
-
-<h2 id="use-sshfs-for-remote-editing:aeac908f260033eeab91183dfa6f1c81">Use sshfs for remote editing</h2>
-
-<p>Well this is not related to sublimetext but makes it easy to remote edit a dir when you have an ssh access. On Ubuntu you can just</p>
-
-<pre><code>apt-get install sshfs
-</code></pre>
-
-<p>and then</p>
-
-<pre><code>mkdir workdir &amp;&amp; sshfs you@server:/path/to/dir workdir
-</code></pre>
-
-<p>so the remote dir pretends to be local now and can be opened by sublimetext easily. It’s of course adding some response time as the editor refreshes the file you browse each time you focus on it, but it works pretty fine for me.</p>
-
-<p><em>Special thanks to beve that provided me those nice tricks.</em></p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2012-09-16
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">old tumblr site</span>
-      
-    
-    
-      <a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2012/09/16/rubygems-back-on-twitter" class="post-title">Rubygems back on twitter</a>
-            </header>
-
-            <div class="post-description">
-              <p>I was used to checkout the new gems on twitter while in public transportation, but the flow stopped 2 weeks ago. So after a while I just wrote my own webhook, that was amazingly easy and just took 2 hours (well it’s not elaborated and test-backed and all but it works)</p>
-
-<p><a href="https://github.com/mose/rubygems-alt">https://github.com/mose/rubygems-alt</a></p>
-
-<p>Now I can follow the feed again on <a href="https://twitter.com/RubyGemsAlt">https://twitter.com/RubyGemsAlt</a> and even better, I can change the formatting of it haha.</p>
-
-<p>I think next move would be to automatically add hashtags on the description from a list of known ones, like #rails or #sinatra. And I also need to daemonize it, right now it’s just running in a screen but daemonizing it would not be hard at all (with daemon gem).</p>
-
-<p>But you are welcome to fork me and pull request and everything.</p>
-
-            </div>
-          </section>
-        
       </div>
       
 <div class="pagination">
@@ -633,11 +674,11 @@
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 7</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 8</span>
     
-    <span class="button-small pure-button pure-button-disabled">
+    <a href="http://blog.mose.com/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
-    </span>
+    </a>
     
   </nav>
 </div>

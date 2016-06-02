@@ -97,6 +97,73 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-06-19
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2014/06/19/less-first" class="post-title">Less first</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>When working on a remote server, I use <code>less</code> instead of <code>tail</code> or <code>vi</code> to check files, the more I can.</p>
+
+<h2 id="filter:3480f0a86761ef50d1ed36f6b3b46e94">filter</h2>
+
+<ul>
+<li>with <code>&amp;searchstring</code> it will hide all lines not matching searchstring, like a very simple grep from the console</li>
+<li>just <code>&amp;</code> with nothing to get back to full view</li>
+</ul>
+
+<h2 id="edit-file:3480f0a86761ef50d1ed36f6b3b46e94">edit file</h2>
+
+<ul>
+<li>when in <code>less /etc/hosts</code> if I find out I need to edit it I just type <code>v</code> it opens it in vi</li>
+<li>when you quit the editor you are back in less</li>
+</ul>
+
+<h2 id="follow-mode:3480f0a86761ef50d1ed36f6b3b46e94">follow mode</h2>
+
+<ul>
+<li>when in <code>less production.log</code>, if you want to follow incoming changes type <code>F</code> it will become like a <code>tail -f</code> but it keeps the syntax highlighting that was made with a <code>/</code> search - when in follow mode with <code>F</code> you can <code>ctrl-c</code> any time and examine the new stuff</li>
+<li>note that if you are in filter mode the follow respects it (like if you did a <code>grep something/var/log/auth.log | grep 'Invalid user'</code>)</li>
+</ul>
+
+<h2 id="multifiles:3480f0a86761ef50d1ed36f6b3b46e94">multifiles</h2>
+
+<ul>
+<li>you can open several file and navigate like in vim with <code>:n</code> and <code>:p</code></li>
+<li>when less is open you can open a new file with <code>:e</code></li>
+</ul>
+
+<h2 id="call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94">call options inside less</h2>
+
+<ul>
+<li>you can call any launch option from inside less, one I use often is <code>-S</code> that will enable/disable wrapping of long lines, very useful when parsing web server log files</li>
+<li>to disable/enable search highlighting just <code>-G</code></li>
+<li>any other launch option can be called from inside less, pretty convenient</li>
+</ul>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2014-06-12
   <p class="post-meta">
     
@@ -619,57 +686,6 @@ devise:  422
 <li>BBB website : <a href="http://bigbluebutton.org">http://bigbluebutton.org</a></li>
 <li>BBB VM instructions : <a href="http://code.google.com/p/bigbluebutton/wiki/BigBlueButtonVM">http://code.google.com/p/bigbluebutton/wiki/BigBlueButtonVM</a></li>
 <li>BBB VM Download : <a href="http://sourceforge.net/projects/bigbluebutton/files/">http://sourceforge.net/projects/bigbluebutton/files/</a></li>
-</ul>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2013-02-10
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">old tumblr site</span>
-      
-    
-    
-      <a class="post-tags post-tags-podcast" href="http://blog.mose.com/tags/podcast">podcast</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2013/02/10/geeky-podcasts" class="post-title">Geeky podcasts</a>
-            </header>
-
-            <div class="post-description">
-              <p>Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.</p>
-
-<p>I began this when starting working with rails, because that was a great flow of information, that had various sources:</p>
-
-<ul>
-<li><a href="http://rubyrogues.com">http://rubyrogues.com</a></li>
-<li><a href="http://rubyshow.com">http://rubyshow.com</a></li>
-<li><a href="http://learn.thoughtbot.com/podcast">http://learn.thoughtbot.com/podcast</a></li>
-<li><a href="http://ruby5.envylabs.com">http://ruby5.envylabs.com</a></li>
-</ul>
-
-<p>All was good and then I checked out podcast clients for my environment (linux with ubuntu) and I found out <a href="http://gpodder.net">http://gpodder.net</a> which is exactly the kind of software I like. I does not much but what it does is well done. The website is a nice optional addition, only focused on podcasts and has a nice simple design and is free.</p>
-
-<pre><code>apt-get install gpodder
-</code></pre>
-
-<p>Then I discovered a few other podcasts for hackers, or oriented towards science and knowledge. And I removed the rss feed I had in my thunderbird for listening to some French-speaking radio shows (like la-bas si j&rsquo;y suis).</p>
-
-<p>The website makes possible to publish your subscription list, here is my list of very geeky selection:</p>
-
-<ul>
-<li><a href="https://gpodder.net/user/mose/subscriptions">https://gpodder.net/user/mose/subscriptions</a></li>
 </ul>
 
             </div>

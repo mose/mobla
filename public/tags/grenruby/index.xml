@@ -6,8 +6,43 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Feb 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Mar 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 162</title>
+      <link>http://blog.mose.com/2016/03/13/greenruby-162</link>
+      <pubDate>Sun, 13 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/13/greenruby-162</guid>
+      <description>
+
+&lt;h2 id=&#34;the-adwar:debed575b05619529113f9bc1dd797c9&#34;&gt;the Adwar&lt;/h2&gt;
+
+&lt;p&gt;This week I got 2 links that explore both sides of the adwar. The war on
+advertisement exists on the web since it became popular enough to attract
+advertisers. &lt;a href=&#34;https://github.com/fivefilters/block-ads/wiki/There-are-no-acceptable-ads&#34;&gt;There are no acceptable ads&lt;/a&gt; takes the side of the users,
+while &lt;a href=&#34;https://www.smashingmagazine.com/2016/03/never-ending-story-ad-blockers&#34;&gt;A Never-Ending Story On Ad-Blockers&lt;/a&gt; seems to defend and
+advise the publishers.&lt;/p&gt;
+
+&lt;p&gt;Some media already have blocked the blockers. It&amp;rsquo;s forbidden to escape ads?
+This position may appear not to be sustainable. And pushing towards content
+sponsoring could have really bad ill effects on the long term. Is there any
+escape? Honestly I have to say that I&amp;rsquo;m partial in that debate. I don&amp;rsquo;t like
+ads on what I read, and I don&amp;rsquo;t like ads on what I publish. I even go edit my
+/etc/hosts with some custom domains to resolve to 127.0.0.1 sometimes.&lt;/p&gt;
+
+&lt;p&gt;So it there was to take sides, I would say advertiser, go to hell. But I&amp;rsquo;m a
+realist. They won&amp;rsquo;t go away. We live in a society where shit has to be bought.
+Yes even if you don&amp;rsquo;t need it. Otherwise the system will collapse. That&amp;rsquo;s how
+things are. I get some crazy dreams about some &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income&#34;&gt;basic income&lt;/a&gt;
+system, currently &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income_around_the_world&#34;&gt;in experiment&lt;/a&gt; in various places over the
+globe. Such setup would defeat part of this situation, even if it would have
+border effects that are unpredictable. But that would not change much for the
+big corpo, it would only save the small people. Hmm. Sounds good enough to me,
+I won&amp;rsquo;t lie.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 160</title>
@@ -522,30 +557,6 @@ bootstrap in a more fluid environment.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
 Hit][liushit] recently. Well, all those things put in perspective the niceness
 of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 143</title>
-      <link>http://blog.mose.com/2015/11/01/greenruby-143</link>
-      <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/11/01/greenruby-143</guid>
-      <description>
-
-&lt;h2 id=&#34;the-power-of-dsl:ab3ba7ed22eeaa19b0cb56ca8c01c80b&#34;&gt;The power of DSL&lt;/h2&gt;
-
-&lt;p&gt;While I was playing with &lt;a href=&#34;https://github.com/zetachang/react.rb&#34;&gt;react.rb&lt;/a&gt; and exploring &lt;a href=&#34;http://opalrb.org/&#34;&gt;opal&lt;/a&gt;, I
-felt in a totally different world. The power of the DSL already prove its
-shine on various occasions. I got to experience it in activeadmin, rspec, and
-puppet (but I kind of dislike the one in puppet).&lt;/p&gt;
-
-&lt;p&gt;As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility
-that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
-making new programming languages, using meta-programming, lambda and other
-goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
-of its syntax, it empowers developers with the ability to write dedicated
-programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
 </description>
     </item>
     

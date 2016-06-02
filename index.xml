@@ -6,8 +6,29 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Mar 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Mar 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 163</title>
+      <link>http://blog.mose.com/2016/03/20/greenruby-163</link>
+      <pubDate>Sun, 20 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/20/greenruby-163</guid>
+      <description>
+
+&lt;h2 id=&#34;no-rant-this-week:db8cdf835bd9f38d6f3130fd681dae2e&#34;&gt;No rant this week&lt;/h2&gt;
+
+&lt;p&gt;Well it&amp;rsquo;s not the first time. I just don&amp;rsquo;t feel inspired. So I better shut up
+rather than writing useless rant. It&amp;rsquo;s so easy to fill up space with
+meaningless content. But I&amp;rsquo;m not doing that ever. I only speak out when I have
+something to say. And yes, I&amp;rsquo;m very comfortable to contradict myself by
+writing a useless rant. This is the beauty of the human being: our ability to
+abstract makes possible all sort of paradoxes. Wait, is it related to
+abstractions? hmm, This is a great topic for my day-dreaming in the subway.
+Oh, damn I&amp;rsquo;m late. Cya all and have a good week.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 162</title>
@@ -521,42 +542,6 @@ single hero.&lt;/p&gt;
 programmers need to stop calling themselves engineers already&lt;/a&gt;.
 Even if I can&amp;rsquo;t clearly explain how this is related, I have the feeling it&amp;rsquo;s
 talking about something that is in the same area.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 144</title>
-      <link>http://blog.mose.com/2015/11/08/greenruby-144</link>
-      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/11/08/greenruby-144</guid>
-      <description>
-
-&lt;h2 id=&#34;packaging-a-gem-for-debian:2e8a1de1525658978fef3574497ed77d&#34;&gt;Packaging a gem for Debian&lt;/h2&gt;
-
-&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
-there is a lot of companies that are not in the ruby ecosystem and they rely
-on things they trust rather than rubygems. For a while debian was way behind
-on the inclusion of ruby and versions were outdated there. So a parallel
-distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
-for ruby and bundler and rubygems for the packages. But where I work, they
-package everything as debian packages. So I had to adapt.&lt;/p&gt;
-
-&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
-the tools. That gem2deb tool is pretty convenient. I am using debian for a
-while but never really had to package anything. The debian community process
-is a bit complicated and they are not very inclusive. Compared to the ease of
-uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
-process are not very welcoming.&lt;/p&gt;
-
-&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
-rooted in a community tradition that are very exclusive and a bit elitist. But
-technology changes faster than people, obviously. Younger communities
-bootstrap in a more fluid environment.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
-Hit][liushit] recently. Well, all those things put in perspective the niceness
-of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
 </description>
     </item>
     

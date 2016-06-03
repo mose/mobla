@@ -6,8 +6,46 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Mar 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 164</title>
+      <link>http://blog.mose.com/2016/03/27/greenruby-164</link>
+      <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/27/greenruby-164</guid>
+      <description>
+
+&lt;h2 id=&#34;kik-the-fuss:2a9c5ad01254a64b6911e087d156ed08&#34;&gt;kik the fuss&lt;/h2&gt;
+
+&lt;p&gt;There have been some noise last week about npm, coming from &lt;a href=&#34;https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu&#34;&gt;that
+article&lt;/a&gt;. It merely revealed that various open source
+organization are privately held by some individuals and they can either be
+pressured or take weird decisions. Honestly I consider this incident
+anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened
+to be very vocal and pissed off about it.&lt;/p&gt;
+
+&lt;p&gt;And it carried various threads of discussion on Twitter and elsewhere, in a
+huge controversy. There were many points raised. NPM has thousands and
+thousands of packages, and many of them are just a few lines of utility
+library, so it was a good occasion for some to point out that you should
+reduce your number of dependencies. Others pointed out that namespacing could
+help prevent such situation, like it&amp;rsquo;s done in docker or in go (having
+username/somelib instead of somelib) following the github convention.&lt;/p&gt;
+
+&lt;p&gt;All in all, it appears that open source is gaining its traction from being
+free of any legal duty. Or at least there is no formal contracting, no
+by-laws, on committees or advisors. People do how they feel in the limits of
+some very simple basic licensing rules. Some organization provide a more
+structured legal asset but they usually are on the side and purposed for
+channeling money management, not necessarily patents and intellectual
+property.&lt;/p&gt;
+
+&lt;p&gt;My opinion is that this kind of friction between businesses and open source is
+going to happen more and more. But I wonder how it&amp;rsquo;s going to turn out.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 163</title>
@@ -510,38 +548,6 @@ December 5 and 6. I will be there (part of the jury), so if you want to have
 some week-end fun and are in Taipei at that time, feel free to join in. There
 will be prizes, free domains and hosting. I would love to see some ruby
 projects there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 145</title>
-      <link>http://blog.mose.com/2015/11/15/greenruby-145</link>
-      <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/11/15/greenruby-145</guid>
-      <description>
-
-&lt;h2 id=&#34;more-about-bullies:7d0bd163d3b6e38d12756fdafb7e56e1&#34;&gt;More about bullies&lt;/h2&gt;
-
-&lt;p&gt;This week I read the &lt;a href=&#34;http://devblog.avdi.org/2015/11/09/software-bullying/&#34;&gt;reaction of Avdi&lt;/a&gt; to the rant of Linus last
-week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;.
-It rejoins the damage that I consider the coder-hero culture brings to our
-industry.&lt;/p&gt;
-
-&lt;p&gt;Certainly the creative process of writing software attract creative people.
-They have strong personalities, some have tendencies to mild autism. They move
-mountains and their pride make them work day and night to achieve unbelievable
-things.&lt;/p&gt;
-
-&lt;p&gt;This is good and well, but on the long run, now that we are passing 2
-generations of coders, we know that it&amp;rsquo;s not sustainable on the long run.
-Plus, it has a disastrous impact on team building. No pyramid was built by a
-single hero.&lt;/p&gt;
-
-&lt;p&gt;Incidentally I also read an interesting article about &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;Why computer
-programmers need to stop calling themselves engineers already&lt;/a&gt;.
-Even if I can&amp;rsquo;t clearly explain how this is related, I have the feeling it&amp;rsquo;s
-talking about something that is in the same area.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,86 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 May 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 174</title>
+      <link>http://blog.mose.com/2016/06/05/greenruby-174</link>
+      <pubDate>Sun, 05 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/05/greenruby-174</guid>
+      <description>
+
+&lt;h2 id=&#34;scarcity-and-abundance:18c51e5740969f01b50a58d17ac773ca&#34;&gt;Scarcity and abundance&lt;/h2&gt;
+
+&lt;p&gt;As you may remember, this newsletter is using the generous free plan from
+Mailchimp. But it has limits. Only 2000 emails ca subscribe to that
+newsletter. It&amp;rsquo;s already a great gift, and I&amp;rsquo;m pretty sure it&amp;rsquo;s a good
+business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which
+means we need to address that so pervasive concept of scarcity.&lt;/p&gt;
+
+&lt;p&gt;I can remember when it shifted. With the first web pages in 96. When tables
+were introduced in HTML, then it became less obvious how to recreate something
+you saw, and having the possibility to browse the source of a page gives you
+the exact recipe on how it&amp;rsquo;s made. So you can copy from it. I think open
+source would not have had such a large adoption if there was not that idea
+with the HTML, that you need to have access to the source to learn, reproduce
+and improve.&lt;/p&gt;
+
+&lt;p&gt;Also, it made even more obvious one of the key aspects of the internet age: by
+dematerializing market goods (ie. with introduction of softwares), they became
+reproducible at a cost that is marginal enough to be forgotten (yeah,
+bandwidth and storage are not free, for sure). When you give it to someone,
+you still have it. Not like that glass of beer. It placed us in an awkward
+paradigm, the world of abundance.&lt;/p&gt;
+
+&lt;p&gt;There have been so many efforts to artificially bend the internet to a world
+of scarcity again. See, without scarcity, there is no economy as we know it.
+There is another kind of economy, though, but the big guys that lead the old
+one are not ready to let it go. For the old economy to work, things have to be
+scarce. Otherwise there is no competition to obtain commodities, no motivation
+to work like crazy to push forward the progress of production. In abundance
+economy, also known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Gift_economy&#34;&gt;gift economy&lt;/a&gt;, people get less likely to be
+controlled and they don&amp;rsquo;t want to work hard, they want pleasure and
+satisfaction.&lt;/p&gt;
+
+&lt;p&gt;Honestly, I see the efforts made to control a resource that is naturally
+abundant, by using the tools of law, copyright laws, patents, and all that
+kind. I can&amp;rsquo;t help thinking about the abundance of material goods.
+Technological progress, after war, promised some kind of abundant society.
+Work would be automated so we would have less and less to work and just enjoy
+the benefit of the global growth of humanity in taming the material world.
+Well, we are far from it, and I&amp;rsquo;m instinctively convinced that it&amp;rsquo;s by design.
+And it makes me sad. People still need jobs, society won&amp;rsquo;t provide for them.
+There is nothing like common goods in that humanity. And now human compete
+with machine for jobs, whereas they should have been allies. Sad, really.&lt;/p&gt;
+
+&lt;p&gt;But this led me quite far away from my initial topic: we got limited seats for
+this newsletter, so we&amp;rsquo;ll do it 2 ways. First, I will send a mail to all
+people that never click on any links, ask them if they want to stay there.
+Then after a time I will unsubscribe the ones that stay silent and inactive.
+That could skim some 300 people maybe. At the rate it goes, that can buy us
+some 6 months, at the current rate of newcomers each week.&lt;/p&gt;
+
+&lt;p&gt;Then, the subscription will be closed, unless I setup another publication
+system, self-hosted. We don&amp;rsquo;t really need a fully-blown solution like
+mailchimp to be totally honest. They do bit efforts to have mail servers that
+are compliant with various anti-spam techniques, and this is a great thing.
+But I bet I should be able to match it on a self-hosted server that would cost
+me less than $10 a month. It would have no limit, at least. Maybe at that time
+I will open some kind of donation program. Actually I already pay for the
+hosting but I use my servers for other usages so it&amp;rsquo;s only a small fraction.
+And honestly I could even host GreenRuby web pages on github pages for free.
+But I would not have access to the logs for analytics and would need to setup
+some piwik because I can&amp;rsquo;t cope with the idea of using GA. Or, I just don&amp;rsquo;t
+care about traffic metrics. That&amp;rsquo;s tempting. But I got lost in my train of
+thoughts here.&lt;/p&gt;
+
+&lt;p&gt;Bottom line is: we won&amp;rsquo;t get trapped by scarcity. Muahahaha. But feel free to
+send me feedbacks on this topic if you have any thoughts.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 173</title>
@@ -502,42 +580,6 @@ start fast, and evolve in a solid and slower model later on without crisis or
 disruption. This is the perspective that I think was missing in &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;that
 article&lt;/a&gt; I cited on green ruby 145. But I don&amp;rsquo;t know the answer to
 that problem. I suspect it will emerge by itself in the few next years.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 153</title>
-      <link>http://blog.mose.com/2016/01/10/greenruby-153</link>
-      <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/01/10/greenruby-153</guid>
-      <description>
-
-&lt;h2 id=&#34;that-micro-service-thing:46752485ca0dcc4b52fef655c3c60574&#34;&gt;That micro-service thing&lt;/h2&gt;
-
-&lt;p&gt;For a while now, and more even since the rise of docker, it becomes a trend to
-split applications in parts and approach them as a collection of
-micro-services. This is not exactly new, I remember in 2002 having seen
-various applications based on this concept. But they had shortcomings.
-Development was harder and it imported a whole bunch of increased complexity
-because there was a lot of moving parts.&lt;/p&gt;
-
-&lt;p&gt;In a project that I have the occasion of following, I can watch the migration
-from monolith to micro-service and I can tell you, the architecture change is
-not simple technical decision. By splitting application there is a whole lot
-of application aspects that move out of the area of the developers team and
-are now the responsibility of the infrastructure team. The shift cannot be
-taken lightly.&lt;/p&gt;
-
-&lt;p&gt;From what I observed, the switch to micro-services can only be efficient if
-there was already a shift to a real devops organization. It means that the
-development and the infrastructure are more tightly coupled. Otherwise, it&amp;rsquo;s
-just a mess. The QA also can get crazy, and the networking layer gets
-increased complexity (or even dramatic latencies). Errors and services
-resilience also need an extra layer of attention.&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t move to micro-services if you are not ready for it, seriously, it can
-end up by shooting yourself in the foot.&lt;/p&gt;
 </description>
     </item>
     

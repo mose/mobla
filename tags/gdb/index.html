@@ -113,7 +113,8 @@ partition where logs are stored went 100%. In such case, It&rsquo;s clever top p
 old useless logfiles. Typical move for me would be to run logrotate manually
 with</p>
 
-<p>logrotate -f /etc/logrotate.conf</p>
+<pre><code>logrotate -f /etc/logrotate.conf
+</code></pre>
 
 <p>But I had a case where that was not enough. A developer forgot to remove a
 debugging output and the logs were just gathering way too much information,
@@ -131,19 +132,20 @@ It&rsquo;s a pretty neat trick (if you have gdb installed on your production ser
 which may not always be the case, and for good reasons). Anyways I had it at
 hand, and here is the sequence:</p>
 
-<p>touch /path/to/new/logfile</p>
+<pre><code>touch /path/to/new/logfile
 
-<p>gdb -p pid</p>
+gdb -p pid
 
-<p>(gdb) call dup(1)
-  $1 = 3
-  (gdb) call close(1)
-  $2 = 0
-  (gdb) call open(&ldquo;/path/to/new/logfile&rdquo;, 2)
-  $3 = 1
-  (gdb) call close($1)
-  $4 = 0
-  (gdb)</p>
+(gdb) call dup(1)
+$1 = 3
+(gdb) call close(1)
+$2 = 0
+(gdb) call open(&quot;/path/to/new/logfile&quot;, 2)
+$3 = 1
+(gdb) call close($1)
+$4 = 0
+(gdb)
+</code></pre>
 
 <p>This gave me the taste of digging up a little bit more on how gdb can interact
 with live processes.</p>

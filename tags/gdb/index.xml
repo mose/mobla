@@ -24,7 +24,8 @@ partition where logs are stored went 100%. In such case, It&amp;rsquo;s clever t
 old useless logfiles. Typical move for me would be to run logrotate manually
 with&lt;/p&gt;
 
-&lt;p&gt;logrotate -f /etc/logrotate.conf&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;logrotate -f /etc/logrotate.conf
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;But I had a case where that was not enough. A developer forgot to remove a
 debugging output and the logs were just gathering way too much information,
@@ -42,19 +43,20 @@ It&amp;rsquo;s a pretty neat trick (if you have gdb installed on your production
 which may not always be the case, and for good reasons). Anyways I had it at
 hand, and here is the sequence:&lt;/p&gt;
 
-&lt;p&gt;touch /path/to/new/logfile&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;touch /path/to/new/logfile
 
-&lt;p&gt;gdb -p pid&lt;/p&gt;
+gdb -p pid
 
-&lt;p&gt;(gdb) call dup(1)
-  $1 = 3
-  (gdb) call close(1)
-  $2 = 0
-  (gdb) call open(&amp;ldquo;/path/to/new/logfile&amp;rdquo;, 2)
-  $3 = 1
-  (gdb) call close($1)
-  $4 = 0
-  (gdb)&lt;/p&gt;
+(gdb) call dup(1)
+$1 = 3
+(gdb) call close(1)
+$2 = 0
+(gdb) call open(&amp;quot;/path/to/new/logfile&amp;quot;, 2)
+$3 = 1
+(gdb) call close($1)
+$4 = 0
+(gdb)
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This gave me the taste of digging up a little bit more on how gdb can interact
 with live processes.&lt;/p&gt;

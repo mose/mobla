@@ -6,8 +6,30 @@
     <description>Recent content in Grenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Mar 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Apr 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/grenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 165</title>
+      <link>http://blog.mose.com/2016/04/03/greenruby-165</link>
+      <pubDate>Sun, 03 Apr 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/04/03/greenruby-165</guid>
+      <description>
+
+&lt;h2 id=&#34;aprils-lame-fools:04ce5954ad800128a33af7a0330e1817&#34;&gt;Aprils lame fools&lt;/h2&gt;
+
+&lt;p&gt;I think there is nothing I hate more than pranks. It&amp;rsquo;s just another way to
+bully someone else. Even innocent pranks are having victims. Single out the
+one that fall for it to make laugh the ones that don&amp;rsquo;t. Well, I may very well
+be a boring fellow. Or it&amp;rsquo;s just that, working so much with information
+management, any perversion of it seems off.&lt;/p&gt;
+
+&lt;p&gt;And then on april fools day, so much goes wrong. The net becomes unreliable.
+So lame. But I&amp;rsquo;m not sure if it&amp;rsquo;s the reason there are not that many news
+articles this week.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 164</title>
@@ -529,25 +551,6 @@ version, old perl code will certainly break on the new version. So it&amp;rsquo;
 like a new language. For sure I will still keep ruby as my preferred language,
 but I like multilingualism, so maybe I will give it a try .. again (last perl
 app I wrote was 12 years ago).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 146</title>
-      <link>http://blog.mose.com/2015/11/22/greenruby-146</link>
-      <pubDate>Sun, 22 Nov 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/11/22/greenruby-146</guid>
-      <description>
-
-&lt;h2 id=&#34;a-hackhaton-in-taipei:118c2d49c9d42e8c5462859981122936&#34;&gt;A Hackhaton in Taipei&lt;/h2&gt;
-
-&lt;p&gt;In 2 weeks Gandi organizes with .taipei registry a &lt;a href=&#34;http://hackathon.taipei/&#34;&gt;Hackhaton&lt;/a&gt; with
-pretty wide topic. It will be at at the Hi-tech Promotion Center in Taipei on
-December 5 and 6. I will be there (part of the jury), so if you want to have
-some week-end fun and are in Taipei at that time, feel free to join in. There
-will be prizes, free domains and hosting. I would love to see some ruby
-projects there.&lt;/p&gt;
 </description>
     </item>
     

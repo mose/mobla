@@ -6,8 +6,148 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 May 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 173</title>
+      <link>http://blog.mose.com/2016/05/29/greenruby-173</link>
+      <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/05/29/greenruby-173</guid>
+      <description>
+
+&lt;h2 id=&#34;greenruby-irl-and-remote-meetup:cb0f8bc8c9864210771f601228a96c48&#34;&gt;GreenRuby IRL and Remote meetup&lt;/h2&gt;
+
+&lt;p&gt;Last week I posted a link about &lt;a href=&#34;http://remotemeetup.com/&#34;&gt;Remote Meetups&lt;/a&gt;, but, as it sometimes
+happens, it didn&amp;rsquo;t stop there. The basic principle was appealing to me. It&amp;rsquo;s
+true that we don&amp;rsquo;t all live in the Bay area or in New York. Having high
+quality speakers in meetups is hard when you live in a small city or a remote
+country. And this is exactly what that initiative tries to address.&lt;/p&gt;
+
+&lt;p&gt;So I jumped in and had some talk with Franze. The result is that the GreenRuby
+meetup we will have this friday will also be remote. Some people will &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;attend
+physically&lt;/a&gt;, some people will &lt;a href=&#34;https://www.bigmarker.com/remote-meetup/Green-Ruby-Meetup-001&#34;&gt;come virtually&lt;/a&gt; using the
+&lt;a href=&#34;https://www.bigmarker.com/communities/remote-meetup&#34;&gt;Bigmarker&lt;/a&gt; platform on the RemoteMeetup account.&lt;/p&gt;
+
+&lt;p&gt;Those events usually are based on a format including a presentation followed
+by interactions. My plan is to go nuts and try a full-social format, with no
+presentation at all, jumping directly to the interactions. It&amp;rsquo;s going to be
+highly experimental and may lead to failure, but it certainly won&amp;rsquo;t kill any
+kitten in the process so I think we are safe.&lt;/p&gt;
+
+&lt;p&gt;The mix between physical and remote event is the challenging part. We may try
+the &lt;a href=&#34;https://bigmarker.zendesk.com/hc/en-us/articles/203332009-Attending-and-Hosting-Webinars&#34;&gt;usage of mobile phones&lt;/a&gt; to make local people become remote
+participants (but it seems to be IOs only for now). I will get an iPad ready
+for easier floating access, that can be fun.&lt;/p&gt;
+
+&lt;p&gt;You are welcome to join, either online or irl. I heard &lt;a href=&#34;https://gandi.net&#34;&gt;Gandi&lt;/a&gt;, the
+physical host and my employer, is going to fill up the fridge with hundred of
+various beverages and won&amp;rsquo;t mind us to help reduce that quantity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 172</title>
+      <link>http://blog.mose.com/2016/05/22/greenruby-172</link>
+      <pubDate>Sun, 22 May 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/05/22/greenruby-172</guid>
+      <description>
+
+&lt;h2 id=&#34;first-greenruby-meetup:0abecea4184e3afb12db751a6fc46d11&#34;&gt;First GreenRuby Meetup&lt;/h2&gt;
+
+&lt;p&gt;Recently Gandi moved to a much bigger office in Neihu, Taipei. And I got
+permission to use the space to organize events. We got a great space, sound
+system with wireless mikes, a beamer for presentations. So, if you are in
+Taipei, feel free to &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;join us on wednesday next week&lt;/a&gt;.  I will try to
+make it a remote meetup, and give more details next week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 170</title>
+      <link>http://blog.mose.com/2016/05/08/greenruby-170</link>
+      <pubDate>Sun, 08 May 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/05/08/greenruby-170</guid>
+      <description>
+
+&lt;h2 id=&#34;it-s-the-fault-of-the-bike:5828fd4de747cabcdfd7abec8b5b8468&#34;&gt;It&amp;rsquo;s the fault of the bike&lt;/h2&gt;
+
+&lt;p&gt;Well, in the last two weeks I get short in links gathered on our slack pinned
+list. Usually I&amp;rsquo;m reading various RSS feeds while commuting, and I post them
+on slack, for later one pinning them. Then I have a script in go that will
+grab all the pinned url, and remove the pins at the moment I use and check
+them for inclusion in the publication.&lt;/p&gt;
+
+&lt;p&gt;But 2 weeks ago, I decided to change my habits and go to the office by bike.
+It&amp;rsquo;s a 30 minutes ride, and it&amp;rsquo;s very good. But then hare we are: no no way to
+check RSS on the phone. I&amp;rsquo;m going to need to find another trick. Because I
+won&amp;rsquo;t quit the biking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 168</title>
+      <link>http://blog.mose.com/2016/04/25/greenruby-168</link>
+      <pubDate>Mon, 25 Apr 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/04/25/greenruby-168</guid>
+      <description>
+
+&lt;h2 id=&#34;nanoservices:037dc3f5d87e2e1488613d254aa9c717&#34;&gt;Nanoservices&lt;/h2&gt;
+
+&lt;p&gt;That link to &lt;a href=&#34;http://shoutcloud.io&#34;&gt;Shoutcloud&lt;/a&gt; made me laugh and then made me think.
+It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years
+ago there was some talk about &lt;a href=&#34;http://www.infoq.com/news/2014/05/nano-services&#34;&gt;nano-services as an antipattern&lt;/a&gt;.
+But when you push the logic a little further, and at a very large scale, maybe
+it&amp;rsquo;s a projection of what the future will be.&lt;/p&gt;
+
+&lt;p&gt;Imagine our software totally destructured, calling functions taht are stored
+on the net, using some load balanced worldwide environment. We already do that
+with CDNs. Javascript next Modules proposals will go in that direction as
+well. But what is a method call in a program that we know today could become a
+service call of an external globally available function.&lt;/p&gt;
+
+&lt;p&gt;After all we always write the same code. How many time did you write a regexp
+for &lt;a href=&#34;http://emailregex.com/&#34;&gt;email pattern validation&lt;/a&gt;? The RFC 822 and 5322 are nasties,
+yeah. If we had no latency consideration, I would gladly delegate various
+pieces of code to a specialized service. But latency, is it really an issue
+now? We work more and more with async code, with queues and messages. What
+seems heretic for our current legacy standards would not seem that foolish in
+a slightly different context.&lt;/p&gt;
+
+&lt;p&gt;So technically, I suppose nanoservices are a possible future. I even think
+it&amp;rsquo;s a requirement for scaling any kind of agent-based architecture. Machine
+learning will be much better off by just registering maps to knowledge than
+knowledge itself. But I wonder about the economical side of things. The old
+capitalist market economy is already stretching its reach far beyond its
+original statement with immaterial economy. The totally destructured
+immaterial one will certainly propose an interesting challenge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 166</title>
+      <link>http://blog.mose.com/2016/04/10/greenruby-166</link>
+      <pubDate>Sun, 10 Apr 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/04/10/greenruby-166</guid>
+      <description>
+
+&lt;h2 id=&#34;go-again:16e33c9f1a3f0ada66ffc6cd616986d9&#34;&gt;Go again&lt;/h2&gt;
+
+&lt;p&gt;That&amp;rsquo;s years that I&amp;rsquo;m trying to do something real with go. I mean, it is a
+very attractive language with quite a special workflow and toolbox. From time
+to time I write some small script for keeping contact with that language. Last
+week I made &lt;a href=&#34;https://github.com/greenruby/slackpin/blob/master/pins.go&#34;&gt;this one&lt;/a&gt; to list links pinned in our Greenruby
+slackroom to prepare the letter, So I can open them all at once to check them
+in my browser. With time passing, seems that Go now has a really complete
+collection of libraries for a lot of usages. I think I will have push a little
+the slack api soon, and maybe do some real go coding.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 165</title>
@@ -398,159 +538,6 @@ resilience also need an extra layer of attention.&lt;/p&gt;
 
 &lt;p&gt;Don&amp;rsquo;t move to micro-services if you are not ready for it, seriously, it can
 end up by shooting yourself in the foot.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 152</title>
-      <link>http://blog.mose.com/2016/01/03/greenruby-152</link>
-      <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/01/03/greenruby-152</guid>
-      <description>
-
-&lt;h2 id=&#34;here-is-2016:af177e0d6352be87fe53a31db08b69a8&#34;&gt;Here is 2016&lt;/h2&gt;
-
-&lt;p&gt;Well in this last week of 2015, the have not been that much publication and
-the list of links is shorter than usual. Everybody is probably just having a
-life for a change, which is a good things :)&lt;/p&gt;
-
-&lt;p&gt;There is a lot of promising trends that may unleash in the coming year. I hope
-to see what ruby 3 will bring. Rails 5 is already almost out there too. But
-there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s
-still very young and hacky in my opinion.&lt;/p&gt;
-
-&lt;p&gt;On the frontend side, there is that big news that was announced last year,
-with &lt;a href=&#34;https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support&#34;&gt;Microsoft ditching IE old versions&lt;/a&gt; officially on january 12,
-it will be on tuesday next week. IE 11 would become the only supported
-version. A bold but welcome move. Maybe it will help adoption of JS recent
-native APIs. I suspect that if IE dies, jquery will not make any sense anymore
-as the JS stack will be more consistent then. But maybe I&amp;rsquo;m wrong, that&amp;rsquo;s just
-an intuition. And the end of support doesn&amp;rsquo;t mean there will be an instant
-extinction of old IEs, it may still take some more time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 151</title>
-      <link>http://blog.mose.com/2015/12/27/greenruby-151</link>
-      <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/12/27/greenruby-151</guid>
-      <description>
-
-&lt;h2 id=&#34;happy-end-of-2015:602bde3b83227cc35adf0ad4ea322068&#34;&gt;Happy end of 2015&lt;/h2&gt;
-
-&lt;p&gt;Take good time, use the calendar rotation as a pretext to have good
-resolutions, get wasted like if you were a teenager (wait, what? we all are
-teenagers here?), or do whatever makes you happy if like me you prefer to
-remain sober. See you in 2016.&lt;/p&gt;
-
-&lt;h2 id=&#34;slackcast-2016:602bde3b83227cc35adf0ad4ea322068&#34;&gt;SlackCast 2016&lt;/h2&gt;
-
-&lt;p&gt;We had a lot of discussion with Nauman Tariq about how to make slack usage
-more lively, more useful, and such things. We worked together on a concept of
-event that we want to try next weekend. It will happen next Saturday (Jan 2nd)
-around 23:00 UTC (more or less 4 hours). If you want to participate, please
-shoot me an &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;email&lt;/a&gt;, and we&amp;rsquo;ll give you the precise time when we know
-it, plus the how-to-join-in. It will be a first time, it won&amp;rsquo;t be perfect, but
-it will be a lot of fun.&lt;/p&gt;
-
-&lt;p&gt;Read more about it on the &lt;a href=&#34;https://slack-files.com/T05052K3Q-F0FSX2GHG-3330dc8ef1&#34;&gt;SlackCast manifesto&lt;/a&gt;. You also can join
-&lt;a href=&#34;http://www.rubyonrails.link/&#34;&gt;rubyonrails.link&lt;/a&gt;, that&amp;rsquo;s where it will happen.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 150</title>
-      <link>http://blog.mose.com/2015/12/20/greenruby-150</link>
-      <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/12/20/greenruby-150</guid>
-      <description>
-
-&lt;h2 id=&#34;150-weeks:4ed16e5b224ff8e7f398b527b88e0d35&#34;&gt;150 weeks&lt;/h2&gt;
-
-&lt;p&gt;It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter
-is an occasion to see where we are. At this day there are 1,610 subscribers to
-the email newsletter. The website has around 250 unique visits per day, which
-mostly are RSS readers. Those are anecdotal numbers. As we have no intention
-to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter
-in the red zone in the amount of subscribers and we will need to push some
-people out, those who forgot about the newsletter but also forgot to
-unsubscribe. It will happen when we reach 1,800 (because Mailchimp is still
-free under 2,000 subscribers).&lt;/p&gt;
-
-&lt;p&gt;During the whole life of the publication, we never missed one week. Last week,
-thanks to Xenor, I even could have some rest. Now I&amp;rsquo;m better, flu never last.
-We also have, for a couple of months, much more links contributions (thanks
-Nauman Tariq). All in all, our model seems to have been pretty sustainable.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 148</title>
-      <link>http://blog.mose.com/2015/12/06/greenruby-148</link>
-      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/12/06/greenruby-148</guid>
-      <description>
-
-&lt;h2 id=&#34;busy-hackathon-in-taipei:b4b86de420849d53ccbec354ab20a437&#34;&gt;Busy hackathon in Taipei&lt;/h2&gt;
-
-&lt;p&gt;This weekend we had our first &lt;a href=&#34;http://hackathon.taipei/en.html&#34;&gt;hackathon&lt;/a&gt; in Taipei, organized by
-&lt;a href=&#34;http://gandi.net&#34;&gt;Gandi&lt;/a&gt;. That was pretty fun, to be there on the side of the organizers
-without actually being in charge of the organization for once. Such geek
-events are always so great for meeting and sharing, being forbidden to
-participate didn&amp;rsquo;t prevent me to push some ideas around.&lt;/p&gt;
-
-&lt;p&gt;During the course of the weekend, I joined mickey to push the creation of a
-&lt;a href=&#34;https://github.com/elixirtw/elixir_tw&#34;&gt;Taiwan group for Elixir&lt;/a&gt;, for which we had an idea of a stream
-capture feature to gather slack discussion and index them. I also had an idea
-of event for &lt;a href=&#34;https://github.com/FreeBSDTaiwan/portscamp&#34;&gt;FreeBSD portscamp&lt;/a&gt; with marcelo, so we made a FreeBSD
-Taiwan group on github as well (with a pretty neat logo). All this was
-actually not that much related to the hackathon but just emerging from natural
-proximity with other geeks.&lt;/p&gt;
-
-&lt;p&gt;Check my &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/albums/72157661448405060&#34;&gt;photos on flickr&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 147</title>
-      <link>http://blog.mose.com/2015/11/29/greenruby-147</link>
-      <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2015/11/29/greenruby-147</guid>
-      <description>
-
-&lt;h2 id=&#34;code-in-the-dark:f6454540d52b5466477bc9e3371f78a1&#34;&gt;Code in the dark&lt;/h2&gt;
-
-&lt;p&gt;My attention was brought this week to &lt;a href=&#34;http://codeinthedark.com/&#34;&gt;Code in the dark events&lt;/a&gt;. It seems
-pretty cool. A 15 minutes race in html and css with no preview. But the thing
-that brought my attention to that format is the special editor used for those
-events with a special effect on the cursor. It seems to add a really dramatic
-effect on the competition. We need more ideas like that for pure geek fun.&lt;/p&gt;
-
-&lt;h2 id=&#34;first-look-at-perl-6:f6454540d52b5466477bc9e3371f78a1&#34;&gt;First look at perl 6&lt;/h2&gt;
-
-&lt;p&gt;For many people, Perl sounds like trauma. Because it didn&amp;rsquo;t move for a while,
-when I hear something is perl code, it sounds like it&amp;rsquo;s legacy code, old and
-dusty. Well, Perl 6 is going to come out for christmas and the situation may
-change. Perl 6 is in the lab for &lt;a href=&#34;http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released&#34;&gt;15 years&lt;/a&gt; now, it&amp;rsquo;s more than
-time to get it shipped.&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href=&#34;http://doc.perl6.org/language/5to6-nutshell&#34;&gt;first glance&lt;/a&gt;, they seem to have tried to &amp;lsquo;modernize&amp;rsquo; the language,
-make it more idiomatic. It even seems it looks more like ruby, with the
-replacement of arrow by dots, the optional parenthesis, better exception
-handling. Well, overall, it feels cleaner. But it also seem to have some
-potential to mix functional and object-oriented in an interesting way.&lt;/p&gt;
-
-&lt;p&gt;So, maybe there is going to be a second life for the old perl. It&amp;rsquo;s a breaking
-version, old perl code will certainly break on the new version. So it&amp;rsquo;s almost
-like a new language. For sure I will still keep ruby as my preferred language,
-but I like multilingualism, so maybe I will give it a try .. again (last perl
-app I wrote was 12 years ago).&lt;/p&gt;
 </description>
     </item>
     

@@ -3,8 +3,33 @@
   
   <url>
     <loc>http://blog.mose.com/</loc>
-    <lastmod>2016-04-03T22:10:31+08:00</lastmod>
+    <lastmod>2016-05-29T22:10:31+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/05/29/greenruby-173</loc>
+    <lastmod>2016-05-29T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/05/22/greenruby-172</loc>
+    <lastmod>2016-05-22T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/05/08/greenruby-170</loc>
+    <lastmod>2016-05-08T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/04/25/greenruby-168</loc>
+    <lastmod>2016-04-25T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/04/10/greenruby-166</loc>
+    <lastmod>2016-04-10T22:10:31+08:00</lastmod>
   </url>
   
   <url>

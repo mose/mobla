@@ -78,7 +78,7 @@
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </span>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 3</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 4</span>
     
     <a href="http://blog.mose.com/tags/grenruby/page/2/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
@@ -95,6 +95,157 @@
     <div>
       
       <div class="posts">
+        
+          <h1 class="content-subhead">
+  2016-06-26
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-177.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2016/06/26/greenruby-177" class="post-title">Greenruby 177</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="remote-working:150acb3fbf488af89de91dbfbd571391">Remote working</h2>
+
+<p>For some random strange reason I had a lot of links this week about remote
+working websites. I know it&rsquo;s a very real topic for our craft. But I still see
+a lot of companies that have hard time coping with the concept.</p>
+
+<p>On one hand, there is a shortage of technically skilled staff. The growth of
+the tech industry and especially the online services is way too fast for the
+education system to catch up. It&rsquo;s been like that for pretty much 20 years
+now. And there is an unbalanced repartition between where the growing
+companies are and where the growing population of techies are. So it would
+only make sense that either relocation would be much easier or remote working
+much more widespread, no? Well, no. Relocation is bound to laws that are not
+driven by the only technical area. And remoting is dependent on a cultural and
+also legal shift.</p>
+
+<p>Because working with remote staff, many of us know what it means. First it
+involves a level of trust in the staff that is unprecedented. The same level
+of trust you need to invest when working with a contractor, actually. Then the
+old-fashioned control and command system in place with traditional management
+systems gets totally inefficient.</p>
+
+<p>More even, to be efficient with a remote team means adopting a work
+organization and tools that are specifically thought for this setup. From what
+I can experience, it&rsquo;s either one or the other. When half the staff works in
+an office locally it&rsquo;s not easy (yet not impossible) to be efficient with
+another half remote.</p>
+
+<p>Some stuff will be likely to happen locally with old ways of oral
+communication and meetings with sparse note-taking. That will put the remote
+staff in the dark of some parts of the internal process. It may create a
+double-speed kind of organization, there is the ones that are full speed and
+the ones that are just, well, not in the core. Oh it&rsquo;s still possible to make
+it work. It&rsquo;s just harder.</p>
+
+<p>Or maybe it&rsquo;s like the web and the mobile. Slowly companies need to become
+remote-first and then eventually also work on local office-based scale. But
+there are still various barriers for having a real remote-friendly world
+anyways. The legal status is not clear,m for example, money transfers between
+countries, compliances with social coverage conventions, no international law
+seems to cover international employment with individuals.</p>
+
+<p>From what I can understand, remote working from a distant country is still a
+hack, legally speaking. Companies need to find tricks. Luckily, hacking is
+something we are not bad at. But still. I wonder when it&rsquo;s going to change,
+and see a legal ground for a really normal remote working context.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2016-06-19
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-176.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2016/06/19/greenruby-176" class="post-title">Greenruby 176</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="the-virtues-of-duplication:3480f0a86761ef50d1ed36f6b3b46e94">The virtues of duplication</h2>
+
+<p>Few weeks ago I began to prepare a copy of the Green Ruby Template system for
+the usage of the Remote Meetup team. It&rsquo;s kind of ironic because, from some
+point of view, this code is a sin and was not written in the perspective to be
+generic. It&rsquo;s deliberately not constrained to code best practices, it&rsquo;s
+joyfully messy and blatantly suboptimal. It was a quick and dirty scripting
+solution, it could have been a set of shell scripts, well it happens to be
+using ruby. <a href="https://github.com/greenruby/grn-static/blob/master/lib/builder.rb">Check it out</a> if you don&rsquo;t believe me.</p>
+
+<p>But it&rsquo;s doing the job for years now. It&rsquo;s a builder code, so it&rsquo;s run as a
+convenience only a few times a week, it doesn&rsquo;t really need to be fast. It
+just needs to do the job. Trust me I like good code, with clean design and
+full test coverage. But this one was just an intimate assistant of mine which
+was not really a software. Just some automation scripts.</p>
+
+<p>And now here it is, I get to face a situation where some friends need the same
+setup and I can&rsquo;t just give them the code, it&rsquo;s so custom. But there have been
+only a few changes to make and it was ready. But the interesting part is in
+the process. While duplicating the code for the Remote Meetup newsletter,
+well, I extracted some stuff, made a config file to remove various hardcoded
+things.</p>
+
+<p>Well it is still a big ball of dirty code, but in the duplication, it got more
+generic. I love that feeling which brings the software development world
+closer from the biological world. There is some kind of evolutionary process
+going on in the life of a software. It takes many forms and I like it when I
+get reminded of those similarities. I could go on and on about the topics that
+an open source ecosystem is necessary for the diversity of code to flourish
+and make evolution possible in a totally Darwinian way.</p>
+
+<p>So this simple operation was just illustrating one principle: when you share
+your code you shape it and make it more generic in the process. It can have
+various beneficial side effects beyond the single act of duplication and
+adaptation. I find it&rsquo;s also true when you publish your code as an open source
+project. If it gets some traction and people start to use it, they will import
+their context in your initial ecosystem and bring the same kind of
+adjustments. Making it stronger, in some way.</p>
+
+<p>Anyways, the <a href="http://remotemeetup.com/news/index.html">Remote Meetup News</a> website and newsletter generator is now
+ready, and you may find that the design is kind of familiar. Well, the rule of
+the path of least resistance also apply here for sure. I begin to apply back
+on Green Ruby the changes I made over there. I suspect the third duplication,
+of any, will be the extraction of the common parts in a separate codebase,
+like a gem with a lib.</p>
+
+            </div>
+          </section>
         
           <h1 class="content-subhead">
   2016-06-12
@@ -526,103 +677,6 @@ articles this week.</p>
             </div>
           </section>
         
-          <h1 class="content-subhead">
-  2016-03-27
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-164.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2016/03/27/greenruby-164" class="post-title">Greenruby 164</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="kik-the-fuss:2a9c5ad01254a64b6911e087d156ed08">kik the fuss</h2>
-
-<p>There have been some noise last week about npm, coming from <a href="https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu">that
-article</a>. It merely revealed that various open source
-organization are privately held by some individuals and they can either be
-pressured or take weird decisions. Honestly I consider this incident
-anecdotal. It&rsquo;s not the first time such thing happens. One guy just happened
-to be very vocal and pissed off about it.</p>
-
-<p>And it carried various threads of discussion on Twitter and elsewhere, in a
-huge controversy. There were many points raised. NPM has thousands and
-thousands of packages, and many of them are just a few lines of utility
-library, so it was a good occasion for some to point out that you should
-reduce your number of dependencies. Others pointed out that namespacing could
-help prevent such situation, like it&rsquo;s done in docker or in go (having
-username/somelib instead of somelib) following the github convention.</p>
-
-<p>All in all, it appears that open source is gaining its traction from being
-free of any legal duty. Or at least there is no formal contracting, no
-by-laws, on committees or advisors. People do how they feel in the limits of
-some very simple basic licensing rules. Some organization provide a more
-structured legal asset but they usually are on the side and purposed for
-channeling money management, not necessarily patents and intellectual
-property.</p>
-
-<p>My opinion is that this kind of friction between businesses and open source is
-going to happen more and more. But I wonder how it&rsquo;s going to turn out.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2016-03-20
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-163.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2016/03/20/greenruby-163" class="post-title">Greenruby 163</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="no-rant-this-week:db8cdf835bd9f38d6f3130fd681dae2e">No rant this week</h2>
-
-<p>Well it&rsquo;s not the first time. I just don&rsquo;t feel inspired. So I better shut up
-rather than writing useless rant. It&rsquo;s so easy to fill up space with
-meaningless content. But I&rsquo;m not doing that ever. I only speak out when I have
-something to say. And yes, I&rsquo;m very comfortable to contradict myself by
-writing a useless rant. This is the beauty of the human being: our ability to
-abstract makes possible all sort of paradoxes. Wait, is it related to
-abstractions? hmm, This is a great topic for my day-dreaming in the subway.
-Oh, damn I&rsquo;m late. Cya all and have a good week.</p>
-
-            </div>
-          </section>
-        
       </div>
       
 <div class="pagination">
@@ -632,7 +686,7 @@ Oh, damn I&rsquo;m late. Cya all and have a good week.</p>
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </span>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 3</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 4</span>
     
     <a href="http://blog.mose.com/tags/grenruby/page/2/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>

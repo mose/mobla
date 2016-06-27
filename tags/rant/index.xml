@@ -6,8 +6,121 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jun 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jun 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 177</title>
+      <link>http://blog.mose.com/2016/06/26/greenruby-177</link>
+      <pubDate>Sun, 26 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/26/greenruby-177</guid>
+      <description>
+
+&lt;h2 id=&#34;remote-working:150acb3fbf488af89de91dbfbd571391&#34;&gt;Remote working&lt;/h2&gt;
+
+&lt;p&gt;For some random strange reason I had a lot of links this week about remote
+working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see
+a lot of companies that have hard time coping with the concept.&lt;/p&gt;
+
+&lt;p&gt;On one hand, there is a shortage of technically skilled staff. The growth of
+the tech industry and especially the online services is way too fast for the
+education system to catch up. It&amp;rsquo;s been like that for pretty much 20 years
+now. And there is an unbalanced repartition between where the growing
+companies are and where the growing population of techies are. So it would
+only make sense that either relocation would be much easier or remote working
+much more widespread, no? Well, no. Relocation is bound to laws that are not
+driven by the only technical area. And remoting is dependent on a cultural and
+also legal shift.&lt;/p&gt;
+
+&lt;p&gt;Because working with remote staff, many of us know what it means. First it
+involves a level of trust in the staff that is unprecedented. The same level
+of trust you need to invest when working with a contractor, actually. Then the
+old-fashioned control and command system in place with traditional management
+systems gets totally inefficient.&lt;/p&gt;
+
+&lt;p&gt;More even, to be efficient with a remote team means adopting a work
+organization and tools that are specifically thought for this setup. From what
+I can experience, it&amp;rsquo;s either one or the other. When half the staff works in
+an office locally it&amp;rsquo;s not easy (yet not impossible) to be efficient with
+another half remote.&lt;/p&gt;
+
+&lt;p&gt;Some stuff will be likely to happen locally with old ways of oral
+communication and meetings with sparse note-taking. That will put the remote
+staff in the dark of some parts of the internal process. It may create a
+double-speed kind of organization, there is the ones that are full speed and
+the ones that are just, well, not in the core. Oh it&amp;rsquo;s still possible to make
+it work. It&amp;rsquo;s just harder.&lt;/p&gt;
+
+&lt;p&gt;Or maybe it&amp;rsquo;s like the web and the mobile. Slowly companies need to become
+remote-first and then eventually also work on local office-based scale. But
+there are still various barriers for having a real remote-friendly world
+anyways. The legal status is not clear,m for example, money transfers between
+countries, compliances with social coverage conventions, no international law
+seems to cover international employment with individuals.&lt;/p&gt;
+
+&lt;p&gt;From what I can understand, remote working from a distant country is still a
+hack, legally speaking. Companies need to find tricks. Luckily, hacking is
+something we are not bad at. But still. I wonder when it&amp;rsquo;s going to change,
+and see a legal ground for a really normal remote working context.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 176</title>
+      <link>http://blog.mose.com/2016/06/19/greenruby-176</link>
+      <pubDate>Sun, 19 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/19/greenruby-176</guid>
+      <description>
+
+&lt;h2 id=&#34;the-virtues-of-duplication:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;The virtues of duplication&lt;/h2&gt;
+
+&lt;p&gt;Few weeks ago I began to prepare a copy of the Green Ruby Template system for
+the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some
+point of view, this code is a sin and was not written in the perspective to be
+generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s
+joyfully messy and blatantly suboptimal. It was a quick and dirty scripting
+solution, it could have been a set of shell scripts, well it happens to be
+using ruby. &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/lib/builder.rb&#34;&gt;Check it out&lt;/a&gt; if you don&amp;rsquo;t believe me.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s doing the job for years now. It&amp;rsquo;s a builder code, so it&amp;rsquo;s run as a
+convenience only a few times a week, it doesn&amp;rsquo;t really need to be fast. It
+just needs to do the job. Trust me I like good code, with clean design and
+full test coverage. But this one was just an intimate assistant of mine which
+was not really a software. Just some automation scripts.&lt;/p&gt;
+
+&lt;p&gt;And now here it is, I get to face a situation where some friends need the same
+setup and I can&amp;rsquo;t just give them the code, it&amp;rsquo;s so custom. But there have been
+only a few changes to make and it was ready. But the interesting part is in
+the process. While duplicating the code for the Remote Meetup newsletter,
+well, I extracted some stuff, made a config file to remove various hardcoded
+things.&lt;/p&gt;
+
+&lt;p&gt;Well it is still a big ball of dirty code, but in the duplication, it got more
+generic. I love that feeling which brings the software development world
+closer from the biological world. There is some kind of evolutionary process
+going on in the life of a software. It takes many forms and I like it when I
+get reminded of those similarities. I could go on and on about the topics that
+an open source ecosystem is necessary for the diversity of code to flourish
+and make evolution possible in a totally Darwinian way.&lt;/p&gt;
+
+&lt;p&gt;So this simple operation was just illustrating one principle: when you share
+your code you shape it and make it more generic in the process. It can have
+various beneficial side effects beyond the single act of duplication and
+adaptation. I find it&amp;rsquo;s also true when you publish your code as an open source
+project. If it gets some traction and people start to use it, they will import
+their context in your initial ecosystem and bring the same kind of
+adjustments. Making it stronger, in some way.&lt;/p&gt;
+
+&lt;p&gt;Anyways, the &lt;a href=&#34;http://remotemeetup.com/news/index.html&#34;&gt;Remote Meetup News&lt;/a&gt; website and newsletter generator is now
+ready, and you may find that the design is kind of familiar. Well, the rule of
+the path of least resistance also apply here for sure. I begin to apply back
+on Green Ruby the changes I made over there. I suspect the third duplication,
+of any, will be the extraction of the common parts in a separate codebase,
+like a gem with a lib.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 175</title>
@@ -449,118 +562,6 @@ Still, we developers consider Timezones as one of our nightmares. When we get
 to our senses we put everything we can in UTC, but there is always the need to
 get time &amp;lsquo;local&amp;rsquo; at some point. I have honestly little hope that UTC become
 the worldwide standard, but, hey, we always can dream, right?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 158</title>
-      <link>http://blog.mose.com/2016/02/14/greenruby-158</link>
-      <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/02/14/greenruby-158</guid>
-      <description>
-
-&lt;h2 id=&#34;the-thin-line-between-chaos-and-harmony:430ae6e4341a8c2a323bbff1cdaa06fc&#34;&gt;The thin line between chaos and harmony&lt;/h2&gt;
-
-&lt;p&gt;In the long road of my developer life I had the chance to experience a very
-wide variety of organizational models. The most pleasant was in the context of
-very large open source projects, where actions are not planned but still
-organized, and things fall in their place seemingly naturally. Of course there
-is nothing natural in that. There is a category of people, that can be called
-catalysts, working as gardeners and building the pathways to collaboration.
-But because there is no predefined hierarchy, I thought chaos had some
-virtues.&lt;/p&gt;
-
-&lt;p&gt;In other hierarchical models, there is so much waste following the rule rather
-than its essence. It&amp;rsquo;s like there was an abstraction layer for efficiency and
-the staff follows the abstraction, paying no respect to the efficiency.
-Because after a time the set of rules is not making sense anymore. The
-environment moves fast and habits are hard to change. It&amp;rsquo;s taking long time
-for an organization to change its own internal rules.&lt;/p&gt;
-
-&lt;p&gt;But I also have seen non-hierarchical model totally fail. When you try to
-apply an open-source kind of organization inside a company, it cannot be done
-half-way, but it cannot be done fully.&lt;/p&gt;
-
-&lt;p&gt;For example the volatility of contributors is an essential part of the
-open-source organization model. Things are working the way they do because
-people are free to leave and join at will, or stop working when they decide.
-This is totally different in a company, even if you can get some
-approximation, leaving and joining is a more complicated process, and has a
-different set of motivations. And let&amp;rsquo;s not talk about the freedom to stop
-working at will.&lt;/p&gt;
-
-&lt;p&gt;This single factor leads the free-formed communities to get various incentives
-for contributors to feel good about their interaction in the community. The
-ones that don&amp;rsquo;t play well along other people just end up either in a
-leadership position because they are geniuses, or just leave because they
-don&amp;rsquo;t fit in. Or they stay and kill the project because everybody else leaves.
-But most likely they are the reason why forks exist.&lt;/p&gt;
-
-&lt;p&gt;But in a non-hierarchic company, those cowboys may end up hurting the whole
-process of collaboration by capturing some processes, getting very good at
-them, and give hell to everybody else for a time, under the privilege of the
-Power of the Bottleneck. It&amp;rsquo;s very hard to get those people to share knowledge
-because their position depends on it. If nothing is done, the situation will
-become uneasy and awkward at best.&lt;/p&gt;
-
-&lt;p&gt;Certainly in that type of situation, if there is some power in place to
-mitigate this danger, all can be good and well. But from my experience such
-power is hard to come by. Especially if the non-hierarchic aspect of the
-organization depends on him/her/it. Maybe there is some way to have some kind
-of catalyst role, but where I have seen such role in a company, it was
-informal and not an official position.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s too bad because I would love to experience again some real collective
-intelligence in the workplace the same way I have experienced it in some open
-source communities. I think maybe there are some companies out there that are
-doing that well, but most of the time it&amp;rsquo;s not going to be structural. Most
-likely it will come from a specific set of people that do real good in
-collaboration. I still wait to see a company that includes in its genetic
-code, in its fundamental principle, the seeds that make it possible to be
-efficient and still instinctive.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 156</title>
-      <link>http://blog.mose.com/2016/01/31/greenruby-156</link>
-      <pubDate>Sun, 31 Jan 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/01/31/greenruby-156</guid>
-      <description>
-
-&lt;h2 id=&#34;3-years-of-green-ruby:183ee6564ab7e32d81baa05c527bf345&#34;&gt;3 years of Green Ruby&lt;/h2&gt;
-
-&lt;p&gt;Well, almost 3 years. &lt;a href=&#34;http://greenruby.org/grn-001.html&#34;&gt;Green Ruby #1&lt;/a&gt; was sent on feb 12th, 2013. Since
-then, we sent 156 editions, one per week without discontinuation, including a
-total of 5556 links. There is now 1691 subscribers to the newsletter. That&amp;rsquo;s
-quite something, for a mail that was just sent to some friends at the
-beginning.&lt;/p&gt;
-
-&lt;p&gt;During all this time, things didn&amp;rsquo;t change that much. In july 2013 the code
-was put on github and the process didn&amp;rsquo;t change much since then. I got a
-Rakefile to build the letter from yaml files and there is no need to change
-it. For the first 2 years Xenor was sending me some links by mail every weeks,
-then in 2015 Tysliu got back in and we used git to get both of their
-contributions. Later on, we got the slack channel where we throw between 10 to
-30 links per weeks that I do my selection from. Nauman recently proved to be
-the most prolific contributor on slack. (btw if you want to join our slack
-group, it&amp;rsquo;s pretty open, just fire me an email).&lt;/p&gt;
-
-&lt;p&gt;We still don&amp;rsquo;t have any business project behind this publication. We are just
-a group of friends that like to keep in touch with the current trends, and
-that like to share the result of our weekly workout with our fellow coder
-brothers and sisters. Soon we will reach the limit of the free mailchimp usage
-(at 2000 subscribers), and that will be an interesting time. We will then ask
-people to unsubscribe if they don&amp;rsquo;t read the letter. Maybe registration will
-be closed if we reach the hard limit. But there is no plan to become a
-sustainable money-based adventure. So we&amp;rsquo;ll keep the cost to the minimum.&lt;/p&gt;
-
-&lt;p&gt;If you feel any gratefulness at all, pay it forward. Share your knowledge
-around you. Publish more open source code. Hug a friend or a stranger. Be nice
-and tolerant. Send some thank-you email to someone that published some open
-source code that saved your day. Love is wealth.&lt;/p&gt;
 </description>
     </item>
     

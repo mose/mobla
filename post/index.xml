@@ -6,8 +6,46 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jun 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 175</title>
+      <link>http://blog.mose.com/2016/06/12/greenruby-175</link>
+      <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/12/greenruby-175</guid>
+      <description>
+
+&lt;h2 id=&#34;playing-with-crystal:c37f98fa8266cedd948db823460fa08c&#34;&gt;Playing with crystal&lt;/h2&gt;
+
+&lt;p&gt;Last week I went to a &lt;a href=&#34;http://remotemeetup.com&#34;&gt;remote meetup&lt;/a&gt; of &lt;a href=&#34;https://www.rubyparis.org/&#34;&gt;Paris.rb&lt;/a&gt; (fr). Well, it
+was at 1am in my timezone, but I wanted to check how remote meetups can go and
+there was some presentation about crystal and about kemal. It was a great
+moment (&lt;a href=&#34;https://www.bigmarker.com/remote-meetup/ParisRb-June-7?show_live_page=true&#34;&gt;video is online&lt;/a&gt; if you can understand french), and gave me the
+push to give crystal a try. It was low on my todo list but it was there,
+waiting for the proper conditions.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s pretty much the main thing that I got out of it. Attending to social
+activities is providing once again a great push to move forward. It&amp;rsquo;s not
+about what you learn (which still can be valuable), it&amp;rsquo;s not about networking
+with people (even if it can be priceless), it&amp;rsquo;s all about the personal alchemy
+that brings you on your edge and keeps you hungry for more. Well, that&amp;rsquo;s how
+it works for me, at least.&lt;/p&gt;
+
+&lt;p&gt;So I had a look at &lt;a href=&#34;http://crystal-lang.org/&#34;&gt;Crystal&lt;/a&gt;, and &lt;a href=&#34;https://github.com/mose/anyquestion&#34;&gt;played&lt;/a&gt; a bit with &lt;a href=&#34;http://kemalcr.com/&#34;&gt;Kemal&lt;/a&gt;, and
+I&amp;rsquo;m very happy with the result. I had some attempt to check Elixir too but
+crystal felt really much closer to ruby. The main difference being the
+variable typing, the stdlib that includes some modern stuff like websockets or
+oauth2, and the compile step (which in some case can be a bit taxing). But the
+speed gain is phenomenal. I suspect it would make some sense, in a scalability
+strategy, to think about porting ruby code to crystal when perfs become an
+issue (not sure how it would apply to complex rails app though).&lt;/p&gt;
+
+&lt;p&gt;Okay yeah Crystal is still very young. But it&amp;rsquo;s getting traction, I bet it has
+a bright future ahead.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 174</title>
@@ -523,63 +561,6 @@ sustainable money-based adventure. So we&amp;rsquo;ll keep the cost to the minim
 around you. Publish more open source code. Hug a friend or a stranger. Be nice
 and tolerant. Send some thank-you email to someone that published some open
 source code that saved your day. Love is wealth.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 155</title>
-      <link>http://blog.mose.com/2016/01/24/greenruby-155</link>
-      <pubDate>Sun, 24 Jan 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/01/24/greenruby-155</guid>
-      <description>
-
-&lt;h2 id=&#34;the-future-of-under-engineering:fcbdcc9c124e7d704858d627998434f7&#34;&gt;The future of under-engineering&lt;/h2&gt;
-
-&lt;p&gt;Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and
-specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more
-used to 70% research and specification, 20% implementation and 10% debugging.
-He was working in the hardhware industry for a while, and just came to a
-service-based company. This is actually a very interesting remark and it
-reminded me when I was in my twenties when I was working as a construction
-worker.&lt;/p&gt;
-
-&lt;p&gt;When I was young there was no internet and I had a 10 years break from
-computers. I had to take stupid jobs like working on construction sites for
-low wages. After that I went to art school and later on I worked on building
-sets for business shows. I have been shocked by the gap between those 2
-worlds. When building a house, there is so much time spent writing plans,
-thinking things in advance. While in the show-business construction pattern,
-it was mostly about improvisation and managing inflexible time constraints,
-with one-time-use construction.&lt;/p&gt;
-
-&lt;p&gt;I feel there is the same gap in the software industry. Well it&amp;rsquo;s not exactly
-the same for sure, but the paradigm feels alike. In service software
-production, SaaS or ISP businesses, we tend to under-engineer the production.
-There are perfectly legitimate reasons for that, the life-cycle of a platform
-of service is quick, volatile and the value is not in the software asset but
-in the customer-user experience.&lt;/p&gt;
-
-&lt;p&gt;The Agile organization model reinforces this pattern, by providing a
-substitute to the early specifications, in the form of user experiences
-description. All this is fine and good. For a time. But with years passing we
-can see so many occurrences of &amp;lsquo;temporary&amp;rsquo; projects becoming indestructible
-legacy monsters. It&amp;rsquo;s like there was some kind of tipping point where the
-development should shift from under-engineered to well-engineered but it&amp;rsquo;s
-rarely anticipated properly enough.&lt;/p&gt;
-
-&lt;p&gt;But it&amp;rsquo;s pretty hard to address that kind of problem. Throwing away the early
-instances is very costly, especially when the organization is shaped by a
-fast-paced reactive production model. Introducing proper engineering at early
-stages is also not a clever option, as the product has to adapt to the
-service, which depends on a constant feedback loop with the users.&lt;/p&gt;
-
-&lt;p&gt;I have the feeling that there is something missing. Like an evolution of agile
-that could include seeds of later engineering. Some way to make possible to
-start fast, and evolve in a solid and slower model later on without crisis or
-disruption. This is the perspective that I think was missing in &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;that
-article&lt;/a&gt; I cited on green ruby 145. But I don&amp;rsquo;t know the answer to
-that problem. I suspect it will emerge by itself in the few next years.&lt;/p&gt;
 </description>
     </item>
     

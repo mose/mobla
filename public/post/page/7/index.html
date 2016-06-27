@@ -97,6 +97,183 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-02-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-105.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-jekyll" href="http://blog.mose.com/tags/jekyll">jekyll</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/08/greenruby-105" class="post-title">Greenruby 105</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="damn-omnivore:f97d1953e92cfdfb05d8ef20de1a8b30">Damn omnivore</h2>
+
+<p>Last week Green Ruby was sent with a delay. For some obscure reason my
+publication was blocked by <a href="http://mailchimp.com/omnivore/">Omnivore</a> the automated fraud detection system
+from Mailchimp. My account was instantly blocked and it was pending a human
+review. Of course the human review made it clear that the publication was
+clean but it took 2 days and I still don&rsquo;t know why this omnivore beast went
+mad at me.</p>
+
+<p>They declare it&rsquo;s getting smarter everyday, but really, we are still safe. The
+reign of the intelligent computer over the human species is not close yet.</p>
+
+<h2 id="make-it-static:f97d1953e92cfdfb05d8ef20de1a8b30">Make it static</h2>
+
+<p>Dynamic websites are great. But that&rsquo;s a long time I wonder about the
+trade-off. If you update your blog every day, and have 500 visits, your
+dynamic setup is useful when you edit, and it&rsquo;s a cost for each visitor. There
+are so many web applications that could be more clever about it. Especially
+that now the computation is going more and more client side.</p>
+
+<p>Static pages have a really unbeatable response time, their security is really
+reliable, they are low dependencies and easy to deploy with a rsync.</p>
+
+<p>When I get to think about making a new website, I always ask myself if it&rsquo;s an
+application or a website. For sure some kind of applications are computation
+intensive. Making it all dynamic could make sense. But frankly, if it&rsquo;s a
+website, it can have some fancy dynamic features without a huge dynamic setup.</p>
+
+<p>I have seen so many websites made with php, mysql, 5 tables and 20 entries in
+each. Such site should have pre-generated content, data available as static
+json files, as a bit of js to make the magic happen. If there is a lot of
+data, fine, an API server makes sense.</p>
+
+<p>So next time you gotta prepare a website, ask yourself how easy it could be to
+generate it and use tools like <a href="http://jekyllrb.com/">Jekyll</a> or <a href="https://middlemanapp.com/">Middleman</a>. Or you can even
+handle things with custom rake tasks (<a href="https://github.com/greenruby/grn-static/blob/master/lib/builder.rb#L87">like I do for Green Ruby website</a>),
+that&rsquo;s not that hard. It&rsquo;s a matter of cyberspace ecology.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-02-01
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-104.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ghost" href="http://blog.mose.com/tags/ghost">ghost</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/01/greenruby-104" class="post-title">Greenruby 104</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="ghost:fba0bb1f68d1414085590cced7805ffa">Ghost</h2>
+
+<p>You certainly heard about it, this week there was a new huge Linux
+<a href="http://www.openwall.com/lists/oss-security/2015/01/27/9">vulnerability on glibc</a> revealed. Actually it was leaked by a stupid
+communication agency few hours before it should have been announced. When such
+big bug is discovered usually there is a small period of time where the news
+spread into some limited circles. They keep it embargoed until major distro
+vendors get patched packages ready. Well, it didn&rsquo;t go that well this time.</p>
+
+<p>This vulnerability is pretty nasty even if less obvious to exploit than
+Heartbleed or shellshock, it&rsquo;s probably in the same category. If you manage
+servers that are vulnerable (LTS and stable, less up to date versions,
+mostly), you better upgrade asap. When a bug gets its own name (this one is
+called Ghost), it seems to be the sign it requires immediate attention. How
+long is this trick going to work?</p>
+
+<p>And, as we talk about security, Hipchat users should read this (unnamed)
+<a href="https://blog.hipchat.com/2015/02/01/hipchat-security-notice-and-password-reset/">security notice</a>.</p>
+
+<h2 id="2-years:fba0bb1f68d1414085590cced7805ffa">2 years</h2>
+
+<p>This edition is marking the 2 years anniversary of Green Ruby. For 104 weeks
+I&rsquo;ve been sending out this newsletter every week. Last week I had a discussion
+with a friend, he was asking me what was my drive, and what was the reason of
+my consistency. Well, there are various reasons.</p>
+
+<p>First there is the routine aspect. It&rsquo;s like practicing Taichi or some kind of
+exercise. It keeps the mind fresh, and in this context where things change
+pretty fast, enforcing a weekly review gave me an overall feeling of symbiosis
+with the wave of what&rsquo;s going on.</p>
+
+<p>Second is the philosophy of it: this newsletter is a gift. The ruby world is
+very business oriented. There is a lot of open source in there but still the
+average spirit is based on a market economy. There are of course many
+exceptions, I wanted to be one of them, and I believe a gift economy would be
+more my thing. You get rich of what you give away, not always individually,
+but most definitely collectively. I like that feeling.</p>
+
+<p>Third, this media keeps me in touch with a bunch of my friends. It&rsquo;s like a
+beacon that I send to the people I left behind when I left France to go live
+in Taiwan. Or people I worked with in my past jobs in Taiwan, even. They don&rsquo;t
+often respond to it but I know they can perceive me through this weekly proof
+of existence.</p>
+
+<p>Also, there is the support from xenor and more recently from simon, which, by
+sending me a few links each weeks, validate the need to keep things going.</p>
+
+<h2 id="trello-and-irc:fba0bb1f68d1414085590cced7805ffa">Trello and irc</h2>
+
+<p>For as long as I remember, I always have been coding irc bots. In so many
+languages. I suspect there is some aspect of this that appeals to me. Maybe
+the creation of life-like pattern. Anyways, my last bot was of course in ruby,
+I called it <a href="https://github.com/mose/cogbot">cogbot</a>, and is based on the great <a href="https://github.com/cinchrb/cinch">cinch</a> framework. It has
+been sleepy for a while, since we were not using irc in Faria.</p>
+
+<p>But Gandi is heavy irc user, and our recent experiments on trello gave me an
+occasion to get cogbot out of the dust. As a matter of fact <a href="https://trello.com">Trello</a> has a
+really <a href="https://trello.com/docs/">great API</a>, and also supports webhooks. So I added a trello
+listener to cogbot, and it was a lot of fun. Maybe next I will add some cards
+creation and update features in that bot, but it requires some kind of users
+management, which, on an irc bot, is not that trivial to implement.</p>
+
+<h2 id="free-your-code:fba0bb1f68d1414085590cced7805ffa">Free your code</h2>
+
+<p>Do you have a side project? You should! Maybe the code you produce at work can
+be generic enough? This is a call for you to consider freeing your code. Open
+source community is plentiful but I know as a fact that 90% of the code that
+could be shared is not shared.</p>
+
+<p>There is something I noticed in my own code publication. Often in my work
+there are constraints of time that lead to trade-offs and code quality is
+never as good as I wish it was. By working on side projects, the pace is much
+more relaxed and I can spend hours focusing on non productive efforts to make
+my code better. Well, this is not to say that side project code is perfect,
+but the environment of producing it brings another mindset. And after a while,
+the code produced at work gets naturally more insightful because of this extra
+practice.</p>
+
+<p>Give it a try, if you happen to have some free time. If you don&rsquo;t have free
+time, you&rsquo;re doing something wrong. But that&rsquo;s another story.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-01-25
   <p class="post-meta">
     
@@ -664,144 +841,6 @@ projects/lolita
 </code></pre>
 
 <p><code>man tree</code> for more (but the basic tree view is the real deal, for more detailled listings, <code>find</code> is better).</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-07-04
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a><a class="post-tags post-tags-sql" href="http://blog.mose.com/tags/sql">sql</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/07/04/sql-in-a-shell" class="post-title">SQL in a shell</a>
-            </header>
-
-            <div class="post-description">
-              <p>There is a package that is not installed by default that I now grab systematically, it&rsquo;s called <code>parallel</code>.</p>
-
-<pre><code>apt-get install parallel
-</code></pre>
-
-<p>or on mac</p>
-
-<pre><code>brew install parallel
-</code></pre>
-
-<p>The <code>parallel</code> command is a pretty complex beast, but the package also comes with the <code>sql</code> command, which simplifies queries to any database from the console. There is just one     command whatever the sql backend you use.</p>
-
-<p>I first setup my dburl in <code>.sql/aliases</code> as:</p>
-
-<pre><code>:dbmb mysql:///managebac
-:dboa mysql:///openapply
-:dbis psql://isis:password@localhost/intersis
-</code></pre>
-
-<p>And I can then use those aliases for quick sql commands:</p>
-
-<pre><code>sql :dbmb &quot;select count(*) from users&quot;
-sql --show-processlist :dbis
-</code></pre>
-
-<p>Check <a href="http://www.gnu.org/software/parallel/sql.html">http://www.gnu.org/software/parallel/sql.html</a> for more examples of use. Also check <a href="http://www.gnu.org/software/parallel/package">http://www.gnu.org/software/parallel/package</a> it&rsquo;s very powerful, but a bit complicated  to catch it, maybe I will provide some examples of practical use in a later tip.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-26
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-chef" href="http://blog.mose.com/tags/chef">chef</a><a class="post-tags post-tags-devops" href="http://blog.mose.com/tags/devops">devops</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/06/26/knife-remote-command" class="post-title">Knife remote command</a>
-            </header>
-
-            <div class="post-description">
-              <p>Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the <code>fabric</code> scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&rsquo;t need fabric anymore.</p>
-
-<p>So I created a new file in <code>.chef/plugins/knife/</code> named <code>apt.rb</code> for a test:</p>
-
-<pre><code class="language-ruby">require 'chef/knife'
-
-module KnifeOpenvpn
-  class Apt &lt; Chef::Knife
-
-    banner &quot;knife apt &lt;update|upgrade|simulate&gt; &lt;nodename&gt;&quot;
-
-    deps do
-      require 'chef/knife/ssh'
-      require 'chef/node'
-      Chef::Knife::Ssh.load_deps
-    end
-
-    def run
-      if name_args.size == 2
-        command_arg = name_args.shift
-        server = name_args.shift
-      else
-        ui.fatal &quot;Syntax: knife apt &lt;update|upgrade|simulate&gt; &lt;nodename&gt;&quot;
-        ui.fatal &quot;Where &lt;nodename&gt; is a node name.&quot;
-        exit 1
-      end
-      command = case command_arg
-                when 'update'
-                  'update'
-                when 'upgrade'
-                  '-y upgrade'
-                when 'simulate'
-                  '-y -s upgrade'
-                end
-      knife_ssh(Chef::Node.load(server).ipaddress, &quot;sudo apt-get #{command}&quot;).run
-    end
-
-    def knife_ssh(server, command)
-      ssh = Chef::Knife::Ssh.new
-      ssh.name_args = [ server, command ]
-      ssh.config[:ssh_user] = Chef::Config[:knife][:ssh_user]
-      ssh.config[:ssh_port] = Chef::Config[:knife][:ssh_port]
-      ssh.config[:identity_file] = Chef::Config[:knife][:identity_file]
-      ssh.config[:ssh_gateway] = Chef::Config[:knife][:ssh_gateway]
-      ssh.config[:manual] = true
-      ssh.config[:host_key_verify] = Chef::Config[:knife][:host_key_verify]
-      ssh.config[:on_error] = :raise
-      ssh
-    end
-
-  end
-
-end
-</code></pre>
-
-<p>Then I just run a <code>knife apt simulate my-server</code> to execute a <code>apt-get -s -y upgrade</code> on the <code>my-server</code> client node. Pretty useful. But I guess that&rsquo;s only a beginning, I should extend it to run on various nodes at the same time and maybe inside threads or something like that, to match the <code>fabric</code> power.</p>
 
             </div>
           </section>

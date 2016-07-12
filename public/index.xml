@@ -6,8 +6,57 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 179</title>
+      <link>http://blog.mose.com/2016/07/10/greenruby-179</link>
+      <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/10/greenruby-179</guid>
+      <description>
+
+&lt;h2 id=&#34;the-in-culture-of-encryption:51c044384329e8bd96399bebc071607b&#34;&gt;The (in)culture of encryption&lt;/h2&gt;
+
+&lt;p&gt;A couple weeks ago I had found out that a friend was keeping his passwords in
+a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean,
+not more technical than the next guy, or just a little. He&amp;rsquo;s using the web
+interface of gmail for his mail, like many people do (I even know very
+technical people doing it, which is still boggling me). I looked around and
+found &lt;a href=&#34;https://www.mailvelope.com/&#34;&gt;mailvelope&lt;/a&gt;. So I hook him up on it and now he can use GPG.&lt;/p&gt;
+
+&lt;p&gt;In the past 20 years I have seen the timid evolution of personal encryption.
+Oh there are initiatives like &lt;a href=&#34;https://keybase.io/&#34;&gt;Keybase&lt;/a&gt;, various simple tools like
+&lt;a href=&#34;https://www.passwordstore.org/&#34;&gt;passowrdstore&lt;/a&gt; or &lt;a href=&#34;https://github.com/henryboldi/felony&#34;&gt;Felony&lt;/a&gt; that I discovered this week. But it
+seems that encryption don&amp;rsquo;t really stick to the usages, unless you have a
+specific thought about it. Fortunately there is some wise generalization of
+SSL for inter-server communication, with initiatives like &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;lets
+encrypt&lt;/a&gt;. But inter-personal communication is still wide open.&lt;/p&gt;
+
+&lt;p&gt;More and more it is well-known that our data is food for various corporation,
+governmental agencies, and dark organizations. What will it take for getting
+the users to claim better privacy? Will it ever happen?&lt;/p&gt;
+
+&lt;p&gt;I mean, yes for sure people can use the tools. But it&amp;rsquo;s cumbersome. Until
+encryption is embedded in our tools and services, it simply won&amp;rsquo;t spread
+significantly enough. There are some projects like &lt;a href=&#34;https://caliopen.org/&#34;&gt;Caliopen&lt;/a&gt; that
+try to do so. On another hand, we have seen some services like
+&lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; which provide such service, and even some mainstream
+providers like &lt;a href=&#34;http://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/&#34;&gt;Whatsapp&lt;/a&gt; jump into the full-encryption train. So
+maybe there is hope? I still wonder what&amp;rsquo;s the part played by Facebook (which
+now owns Whatsapp) in that move.&lt;/p&gt;
+
+&lt;p&gt;The recent fight between Apple and US government was supposed to set some kind
+of precedent. Too bad it was aborted. But they would have complied at the end,
+this is my bet. Now that encryption is the only way for companies to legally
+keep their users safe from legal (and illegal) inquiries, maybe more will
+consider it?&lt;/p&gt;
+
+&lt;p&gt;If you have two onces of technical savyness, please stop running naked on the
+streets. Gear up and use encryption whenever possible.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 178</title>
@@ -550,54 +599,6 @@ globe. Such setup would defeat part of this situation, even if it would have
 border effects that are unpredictable. But that would not change much for the
 big corpo, it would only save the small people. Hmm. Sounds good enough to me,
 I won&amp;rsquo;t lie.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 160</title>
-      <link>http://blog.mose.com/2016/02/28/greenruby-160</link>
-      <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/02/28/greenruby-160</guid>
-      <description>
-
-&lt;h2 id=&#34;about-tests-and-documentation:329bfb00efd0c1fb86f4a0195e637cef&#34;&gt;About tests and documentation&lt;/h2&gt;
-
-&lt;p&gt;This aspect of development, called Documentation, is the source of various
-frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like
-testing. When you begin your craft as a coder, all what matters is the code.
-It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you
-in the neck. Like, huho, now that I need to refactor, I really should use
-something that tells me if all still works. Tests become an early necessity to
-anyone who knows that kind of truth. If you wait until the end of a coding
-cycle to write those, the task is huge and it cuts you from your productivity
-cycle. Write them early, along the flow, is way easier.&lt;/p&gt;
-
-&lt;p&gt;So I think documentation follows the same pattern. So many software projects
-are badly documented because this aspect is postponed until it&amp;rsquo;s needed. Means
-at release stage. In early stages, you work on a prototype and you don&amp;rsquo;t need
-to explain how things work or are supposed to work. And when it&amp;rsquo;s released,
-there is usually some other task waiting and it&amp;rsquo;s hard to stop everything to
-get back and document things properly. It may be a flaw in the agile process,
-but it may also be a feature: if you don&amp;rsquo;t document along the way, you won&amp;rsquo;t
-document much.&lt;/p&gt;
-
-&lt;p&gt;Personally I try to consider the documentation of any of the source code I
-write as one of the first tasks. There are various tricks that can help in
-that perspective, like &lt;a href=&#34;http://tom.preston-werner.com/2010/08/23/readme-driven-development.html&#34;&gt;readme-driven development&lt;/a&gt;, or including the doc
-inside the code with &lt;a href=&#34;http://yardoc.org/&#34;&gt;yarddoc&lt;/a&gt; or &lt;a href=&#34;http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api&#34;&gt;apipie&lt;/a&gt;, or coupling
-documentation with tests with &lt;a href=&#34;https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples&#34;&gt;rspec&lt;/a&gt; or &lt;a href=&#34;https://github.com/zipmark/rspec_api_documentation&#34;&gt;RSpec API Doc
-Generator&lt;/a&gt;. But honestly I prefer edited documentation that can follow
-a structure that is thought as documentation rather than merely an automated
-output of some code.&lt;/p&gt;
-
-&lt;p&gt;There are various tools to organize edited documentation, like
-&lt;a href=&#34;https://readthedocs.org/&#34;&gt;ReadTheDoc&lt;/a&gt; which is in python. Another project appeared last week from
-the guys at Pluralsight named &lt;a href=&#34;http://tutorials.pluralsight.com/faq/&#34;&gt;hack.guide()&lt;/a&gt;. That&amp;rsquo;s a community project
-but actually being totally open sourced, I was thinking the &lt;a href=&#34;https://github.com/pluralsight/guides-cms&#34;&gt;documentation
-building CMS&lt;/a&gt; they made could pretty much fill the gap of a
-light-weight RTD, with the benefits of having a UI for editors. Too bad we
-don&amp;rsquo;t have anything like this in ruby (or do we?).&lt;/p&gt;
 </description>
     </item>
     

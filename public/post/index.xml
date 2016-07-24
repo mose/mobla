@@ -6,8 +6,27 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jul 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 180</title>
+      <link>http://blog.mose.com/2016/07/17/greenruby-180</link>
+      <pubDate>Sun, 17 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/17/greenruby-180</guid>
+      <description>
+
+&lt;h2 id=&#34;nothing-to-report:f2fa0298a390985dccd06fc813609573&#34;&gt;nothing to report&lt;/h2&gt;
+
+&lt;p&gt;Yeah there are weeks like that, I don&amp;rsquo;t have inspiration. Or I&amp;rsquo;m lazy. Or I&amp;rsquo;m
+too busy writing &lt;a href=&#34;https://github.com/Gandi/hubot-phabs/commits&#34;&gt;javascript tests&lt;/a&gt; with mocha, chai and or sinon.
+Already having 3 times more lines of code in tests that in code and even if
+coverage says 80% I know for a fact that there are many more cases I need to
+test. Anyways, there is too much fun for me to just go beyond the traditional
+gathering of the links for this week. Can&amp;rsquo;t write a rant. No way.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 179</title>
@@ -564,41 +583,6 @@ writing a useless rant. This is the beauty of the human being: our ability to
 abstract makes possible all sort of paradoxes. Wait, is it related to
 abstractions? hmm, This is a great topic for my day-dreaming in the subway.
 Oh, damn I&amp;rsquo;m late. Cya all and have a good week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 162</title>
-      <link>http://blog.mose.com/2016/03/13/greenruby-162</link>
-      <pubDate>Sun, 13 Mar 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/03/13/greenruby-162</guid>
-      <description>
-
-&lt;h2 id=&#34;the-adwar:debed575b05619529113f9bc1dd797c9&#34;&gt;the Adwar&lt;/h2&gt;
-
-&lt;p&gt;This week I got 2 links that explore both sides of the adwar. The war on
-advertisement exists on the web since it became popular enough to attract
-advertisers. &lt;a href=&#34;https://github.com/fivefilters/block-ads/wiki/There-are-no-acceptable-ads&#34;&gt;There are no acceptable ads&lt;/a&gt; takes the side of the users,
-while &lt;a href=&#34;https://www.smashingmagazine.com/2016/03/never-ending-story-ad-blockers&#34;&gt;A Never-Ending Story On Ad-Blockers&lt;/a&gt; seems to defend and
-advise the publishers.&lt;/p&gt;
-
-&lt;p&gt;Some media already have blocked the blockers. It&amp;rsquo;s forbidden to escape ads?
-This position may appear not to be sustainable. And pushing towards content
-sponsoring could have really bad ill effects on the long term. Is there any
-escape? Honestly I have to say that I&amp;rsquo;m partial in that debate. I don&amp;rsquo;t like
-ads on what I read, and I don&amp;rsquo;t like ads on what I publish. I even go edit my
-/etc/hosts with some custom domains to resolve to 127.0.0.1 sometimes.&lt;/p&gt;
-
-&lt;p&gt;So it there was to take sides, I would say advertiser, go to hell. But I&amp;rsquo;m a
-realist. They won&amp;rsquo;t go away. We live in a society where shit has to be bought.
-Yes even if you don&amp;rsquo;t need it. Otherwise the system will collapse. That&amp;rsquo;s how
-things are. I get some crazy dreams about some &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income&#34;&gt;basic income&lt;/a&gt;
-system, currently &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income_around_the_world&#34;&gt;in experiment&lt;/a&gt; in various places over the
-globe. Such setup would defeat part of this situation, even if it would have
-border effects that are unpredictable. But that would not change much for the
-big corpo, it would only save the small people. Hmm. Sounds good enough to me,
-I won&amp;rsquo;t lie.&lt;/p&gt;
 </description>
     </item>
     

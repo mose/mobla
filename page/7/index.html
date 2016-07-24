@@ -97,6 +97,57 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-03-15
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-110.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2015/03/15/greenruby-110" class="post-title">Greenruby 110</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="time-to-upgrade:d4567cfa55308712270d1f5b73098130">Time to upgrade</h2>
+
+<p>This is a long time I plan to re-engineer the way Green Ruby is produced. Last
+week I told Xenor and Simon I was thinking about giving it a break. I&rsquo;m not
+that much anymore in the flow. Now my days are full ops and not that much dev.
+But the guys didn&rsquo;t want to let me stop.</p>
+
+<p>So we are going to organize things a little differently. Xenor and Simon,
+which are full time rails developers, are going to handle the content more
+extensively, and I will just manage the publication, plus some devops links.
+So we need to get some tools ready to handle that new flow. Maybe, the time it
+gets ready, we will take some time off. Maybe not.</p>
+
+<p>What I wish is to have a way to let more people jump in, too. Maybe we will
+get inspiration in how <a href="http://thechangelog.com/trello-as-a-cms/">the changelog</a> manages their news
+flow. They based it on a <a href="http://trello.com">Trello</a> and it&rsquo;s quite clever. By chance I
+explored the trello API recently and I can tell it&rsquo;s really good, very
+suitable for custom automation.</p>
+
+<p>This week, I will play lazy on the podcasts. I don&rsquo;t think they are that much
+interesting anyways, and all that copy-pasting is exhausting. When some
+podcasts stands out of the crowd, I will rather feature it in this rant.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-03-08
   <p class="post-meta">
     
@@ -770,66 +821,6 @@ merchandise. And most of the time they are not clear about it.</p>
 receive only the links and no rant. Or only the rant and no links. Maybe I
 will make each section of the letter opt-out too, if you never listen to
 podcasts why should you get those, right? I just like choice.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-09-10
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2014/09/10/console-columns" class="post-title">Console columns</a>
-            </header>
-
-            <div class="post-description">
-              <p>When you live in your console, it&rsquo;s always good to find ways to stay there. The <code>column</code> command was recently brought to my attention by <a href="https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr">https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr</a> and despite years of console life, godamn I was unaware of this simple tool.</p>
-
-<p>It is very useful for displaying csv files in a readable way, for example:</p>
-
-<pre><code>$ head members_export_0bfc48c38f.csv
-LATITUDE,LONGITUDE,CC,REGION
-24.7798,120.93,TW,HSZ
-52.0927,5.1158,NL,UT
-25.0389,121.509,TW,TPE
-47.6836,-122.122,US,WA
-24.1403,120.682,TW,TXG
-37.4055,-122.078,US,CA
-37.4055,-122.078,US,CA
-37.4055,-122.078,US,CA
-26.1405,-80.1738,US,FL
-</code></pre>
-
-<p>yuck. Let&rsquo;s prettify it.</p>
-
-<pre><code>$ head members_export_0bfc48c38f.csv | column -t -s,
-LATITUDE  LONGITUDE  CC  REGION
-24.7798   120.93     TW  HSZ
-52.0927   5.1158     NL  UT
-25.0389   121.509    TW  TPE
-47.6836   -122.122   US  WA
-24.1403   120.682    TW  TXG
-37.4055   -122.078   US  CA
-37.4055   -122.078   US  CA
-37.4055   -122.078   US  CA
-26.1405   -80.1738   US  FL
-</code></pre>
-
-<p>ohh, my world just changed!</p>
 
             </div>
           </section>

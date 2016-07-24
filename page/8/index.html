@@ -115,6 +115,66 @@
 
           <section class="post">
             <header class="post-header">
+              <a href="http://blog.mose.com/2014/09/10/console-columns" class="post-title">Console columns</a>
+            </header>
+
+            <div class="post-description">
+              <p>When you live in your console, it&rsquo;s always good to find ways to stay there. The <code>column</code> command was recently brought to my attention by <a href="https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr">https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr</a> and despite years of console life, godamn I was unaware of this simple tool.</p>
+
+<p>It is very useful for displaying csv files in a readable way, for example:</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv
+LATITUDE,LONGITUDE,CC,REGION
+24.7798,120.93,TW,HSZ
+52.0927,5.1158,NL,UT
+25.0389,121.509,TW,TPE
+47.6836,-122.122,US,WA
+24.1403,120.682,TW,TXG
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+26.1405,-80.1738,US,FL
+</code></pre>
+
+<p>yuck. Let&rsquo;s prettify it.</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv | column -t -s,
+LATITUDE  LONGITUDE  CC  REGION
+24.7798   120.93     TW  HSZ
+52.0927   5.1158     NL  UT
+25.0389   121.509    TW  TPE
+47.6836   -122.122   US  WA
+24.1403   120.682    TW  TXG
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+26.1405   -80.1738   US  FL
+</code></pre>
+
+<p>ohh, my world just changed!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
               <a href="http://blog.mose.com/2014/09/10/pretty-json" class="post-title">Pretty json</a>
             </header>
 
@@ -733,38 +793,6 @@ pry:     2870
 sinatra: 1964
 devise:  422 
 </code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-22
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2014/05/22/hackpad-cli" class="post-title">Hackpad cli</a>
-            </header>
-
-            <div class="post-description">
-              <p>In Faria we use hackpad a lot, it&rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.</p>
-
-<ul>
-<li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
-</ul>
 
             </div>
           </section>

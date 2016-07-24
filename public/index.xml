@@ -6,8 +6,56 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Jul 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Jul 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 181</title>
+      <link>http://blog.mose.com/2016/07/24/greenruby-181</link>
+      <pubDate>Sun, 24 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/24/greenruby-181</guid>
+      <description>
+
+&lt;h2 id=&#34;innovation-and-consensus:d227510bfc1c353e16b44869362b5410&#34;&gt;Innovation and Consensus&lt;/h2&gt;
+
+&lt;p&gt;Last week I got to check out 2 javascript frontend frameworks, &lt;a href=&#34;https://github.com/yoshuawuyts/choo&#34;&gt;Choo&lt;/a&gt;
+(the cute framwework) and &lt;a href=&#34;http://cycle.js.org/&#34;&gt;Cycle.js&lt;/a&gt; (the streams power). It feels
+that nowadays React is eating the frontend world, but there is actually a lot
+of non-marginal alternatives. It made me think that there is something tricky
+with the process of innovation. It is born from disagreement. It feeds with
+discontent.&lt;/p&gt;
+
+&lt;p&gt;Those frameworks are born from the refusal to consider React as a consensus,
+hence it generates an alternative path, exploring different paradigms. In my
+opinion, and from an global point of view, it&amp;rsquo;s a sign of vivacity of an
+ecosystem. Diversity of species guarantees a larger span of choice for the
+natural selection and a faster evolution.&lt;/p&gt;
+
+&lt;p&gt;But consensus and normative approaches have so many virtues. Damn, this is
+tricky. Well, here is the catch. Unicity in the software ecosystem creates
+stability, which in turn creates comfort for the actors involved in the
+industry. Habits get stronger, mobility is easier, interoperability leads to
+bigger systems with long life-cycles. This is good.&lt;/p&gt;
+
+&lt;p&gt;On another hand diversity creates instability, challenges the developers and
+makes it harder to find common grounds. It favors exploration and smaller
+systems with shorter life-cycles. In a diverse ecosystem, paradigms and new
+ideas are born and die quickly. And I think it&amp;rsquo;s a much more rich ecosystem.&lt;/p&gt;
+
+&lt;p&gt;For some reason this duality reminds me of the cathedral and the bazaar. It&amp;rsquo;s
+totally unrelated, actually, but maybe there is some kind of interesting
+parallel in this metaphor collision. But beyond that, there is a real
+antagonism for developers, and an opposing interest between the development
+workforce and the software as a living species.&lt;/p&gt;
+
+&lt;p&gt;And I have the feeling that on the long run, diversity and innovation win. So
+you better get used to the discomfort it brings. Train yourself to jump from
+one framework to another. Don&amp;rsquo;t let yourself getting lazy by going to the
+comfortable consensus systematically. This ability to cope with change is your
+best hope for staying current. Because the change if the way of the evolution.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 180</title>
@@ -562,27 +610,6 @@ property.&lt;/p&gt;
 
 &lt;p&gt;My opinion is that this kind of friction between businesses and open source is
 going to happen more and more. But I wonder how it&amp;rsquo;s going to turn out.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 163</title>
-      <link>http://blog.mose.com/2016/03/20/greenruby-163</link>
-      <pubDate>Sun, 20 Mar 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/03/20/greenruby-163</guid>
-      <description>
-
-&lt;h2 id=&#34;no-rant-this-week:db8cdf835bd9f38d6f3130fd681dae2e&#34;&gt;No rant this week&lt;/h2&gt;
-
-&lt;p&gt;Well it&amp;rsquo;s not the first time. I just don&amp;rsquo;t feel inspired. So I better shut up
-rather than writing useless rant. It&amp;rsquo;s so easy to fill up space with
-meaningless content. But I&amp;rsquo;m not doing that ever. I only speak out when I have
-something to say. And yes, I&amp;rsquo;m very comfortable to contradict myself by
-writing a useless rant. This is the beauty of the human being: our ability to
-abstract makes possible all sort of paradoxes. Wait, is it related to
-abstractions? hmm, This is a great topic for my day-dreaming in the subway.
-Oh, damn I&amp;rsquo;m late. Cya all and have a good week.&lt;/p&gt;
 </description>
     </item>
     

@@ -97,6 +97,61 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-11-08
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-144.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/11/08/greenruby-144" class="post-title">Greenruby 144</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="packaging-a-gem-for-debian:2e8a1de1525658978fef3574497ed77d">Packaging a gem for Debian</h2>
+
+<p>Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.</p>
+
+<p>So I went have a look at <a href="https://wiki.debian.org/Teams/Ruby">the debian ruby team</a> and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&rsquo;s quite a fortress, and people in the
+process are not very welcoming.</p>
+
+<p>Maybe it&rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.</p>
+
+<p>I&rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&rsquo;s precious.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-11-01
   <p class="post-meta">
     
@@ -624,69 +679,6 @@ the competitive type of people, that could deserve a try.</p>
 <p>Well, that&rsquo;s just a rant, a wild thought. Such a topic would deserve more
 space for development. But that&rsquo;s what I wanted to share this week. Anyways I
 doubt there is that much people reading those line hahaha.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-08-09
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-131.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-octopress" href="http://blog.mose.com/tags/octopress">octopress</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/08/09/greenruby-131" class="post-title">Greenruby 131</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d">Octopress 3 and other thoughts</h2>
-
-<p>I&rsquo;m currently involved in a community project and I installed a wordpress.
-From time to time I get one up to see how it evolves. But really this thing is
-not to my taste. To much trouble for making simple things. I reckon it can be
-useful for people with no technical knowledge but then they are going to mess
-up everything. The technical advisor still can&rsquo;t be avoided.</p>
-
-<p>So because now I saw a recent wordpress and didn&rsquo;t like it more than the
-previous attempts, I will give a try to the new <a href="http://octopress.org/">octopress 3.0</a>.
-The octopress author <a href="http://octopress.org/2015/01/15/octopress-3.0-is-coming/">explains</a> that he&rsquo;s been doing it all wrong and now
-on version 3.0 he gets back to sort of a collection of gems that plug into
-jekyll. I kind of like the idea.</p>
-
-<p>Well to be honest I was also tempted to give a try to <a href="http://www.phoenixframework.org/">phoenix</a>, but
-I know jekyll already and I don&rsquo;t have that much server resources for that
-community project. Static web always have had my preference. But the idea
-behind Phoenix is appealing. Like any new project it includes the new things
-and don&rsquo;t have to bother about legacy. The channels ideas, creating a stream
-between client and server, sounds very appealing.</p>
-
-<p>But to get back to why I will prefer jekyll over wordpress, is that my
-contributors are a mess. They don&rsquo;t care about styling, they copy-paste random
-html all over the place and the final look is totally inconsistent. My hope is
-that markdown would limit the possibilities of making a mess. But then I will
-have to propose them the github edit, as a backend, unless I cheat and use
-etherpad-lite as a pre-production backend.</p>
-
-<p>That <a href="http://etherpad.org/">etherpad-lite</a> thing is amazingly simple, I used sometimes and
-making it accessible behind a single password for everybody makes tings pretty
-direct. But totally unsafe, I reckon. I will probably have to write some kind
-of tool for managing the publication workflow. Hmm, that sounds like fun. If
-you ever had the same kind of adventure, please <a href="mailto:mose@greenruby.org">share with me</a> :)</p>
 
             </div>
           </section>

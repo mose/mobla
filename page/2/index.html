@@ -97,6 +97,64 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2016-04-25
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-168.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2016/04/25/greenruby-168" class="post-title">Greenruby 168</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="nanoservices:037dc3f5d87e2e1488613d254aa9c717">Nanoservices</h2>
+
+<p>That link to <a href="http://shoutcloud.io">Shoutcloud</a> made me laugh and then made me think.
+It&rsquo;s not the first time I see some micro-service publicly available. 2 years
+ago there was some talk about <a href="http://www.infoq.com/news/2014/05/nano-services">nano-services as an antipattern</a>.
+But when you push the logic a little further, and at a very large scale, maybe
+it&rsquo;s a projection of what the future will be.</p>
+
+<p>Imagine our software totally destructured, calling functions taht are stored
+on the net, using some load balanced worldwide environment. We already do that
+with CDNs. Javascript next Modules proposals will go in that direction as
+well. But what is a method call in a program that we know today could become a
+service call of an external globally available function.</p>
+
+<p>After all we always write the same code. How many time did you write a regexp
+for <a href="http://emailregex.com/">email pattern validation</a>? The RFC 822 and 5322 are nasties,
+yeah. If we had no latency consideration, I would gladly delegate various
+pieces of code to a specialized service. But latency, is it really an issue
+now? We work more and more with async code, with queues and messages. What
+seems heretic for our current legacy standards would not seem that foolish in
+a slightly different context.</p>
+
+<p>So technically, I suppose nanoservices are a possible future. I even think
+it&rsquo;s a requirement for scaling any kind of agent-based architecture. Machine
+learning will be much better off by just registering maps to knowledge than
+knowledge itself. But I wonder about the economical side of things. The old
+capitalist market economy is already stretching its reach far beyond its
+original statement with immaterial economy. The totally destructured
+immaterial one will certainly propose an interesting challenge.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2016-04-10
   <p class="post-meta">
     
@@ -574,81 +632,6 @@ sustainable money-based adventure. So we&rsquo;ll keep the cost to the minimum.<
 around you. Publish more open source code. Hug a friend or a stranger. Be nice
 and tolerant. Send some thank-you email to someone that published some open
 source code that saved your day. Love is wealth.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2016-01-24
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-155.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-grenruby" href="http://blog.mose.com/tags/grenruby">grenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2016/01/24/greenruby-155" class="post-title">Greenruby 155</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="the-future-of-under-engineering:fcbdcc9c124e7d704858d627998434f7">The future of under-engineering</h2>
-
-<p>Recently Marcelo told me, that&rsquo;s weird, how we do 10% research and
-specification, 40% implementation and 50% debugging in this industry. I&rsquo;m more
-used to 70% research and specification, 20% implementation and 10% debugging.
-He was working in the hardhware industry for a while, and just came to a
-service-based company. This is actually a very interesting remark and it
-reminded me when I was in my twenties when I was working as a construction
-worker.</p>
-
-<p>When I was young there was no internet and I had a 10 years break from
-computers. I had to take stupid jobs like working on construction sites for
-low wages. After that I went to art school and later on I worked on building
-sets for business shows. I have been shocked by the gap between those 2
-worlds. When building a house, there is so much time spent writing plans,
-thinking things in advance. While in the show-business construction pattern,
-it was mostly about improvisation and managing inflexible time constraints,
-with one-time-use construction.</p>
-
-<p>I feel there is the same gap in the software industry. Well it&rsquo;s not exactly
-the same for sure, but the paradigm feels alike. In service software
-production, SaaS or ISP businesses, we tend to under-engineer the production.
-There are perfectly legitimate reasons for that, the life-cycle of a platform
-of service is quick, volatile and the value is not in the software asset but
-in the customer-user experience.</p>
-
-<p>The Agile organization model reinforces this pattern, by providing a
-substitute to the early specifications, in the form of user experiences
-description. All this is fine and good. For a time. But with years passing we
-can see so many occurrences of &lsquo;temporary&rsquo; projects becoming indestructible
-legacy monsters. It&rsquo;s like there was some kind of tipping point where the
-development should shift from under-engineered to well-engineered but it&rsquo;s
-rarely anticipated properly enough.</p>
-
-<p>But it&rsquo;s pretty hard to address that kind of problem. Throwing away the early
-instances is very costly, especially when the organization is shaped by a
-fast-paced reactive production model. Introducing proper engineering at early
-stages is also not a clever option, as the product has to adapt to the
-service, which depends on a constant feedback loop with the users.</p>
-
-<p>I have the feeling that there is something missing. Like an evolution of agile
-that could include seeds of later engineering. Some way to make possible to
-start fast, and evolve in a solid and slower model later on without crisis or
-disruption. This is the perspective that I think was missing in <a href="http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11">that
-article</a> I cited on green ruby 145. But I don&rsquo;t know the answer to
-that problem. I suspect it will emerge by itself in the few next years.</p>
 
             </div>
           </section>

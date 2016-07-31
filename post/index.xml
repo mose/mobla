@@ -6,8 +6,48 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jul 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 182</title>
+      <link>http://blog.mose.com/2016/07/30/greenruby-182</link>
+      <pubDate>Sat, 30 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/30/greenruby-182</guid>
+      <description>
+
+&lt;h2 id=&#34;chatops-and-machine-learning:e9b36217e79099e03b1370ffadd11329&#34;&gt;Chatops and machine learning&lt;/h2&gt;
+
+&lt;p&gt;Since I slowly becomes the chatops specialist where I work, I get to think I
+want more. Since the beginning we have been interacting with programs
+essentially with graphical interfaces. First asynchronous if we think about
+the web, now more and more synchronous, but they are interfaces that are not
+human. They are designed for giving control to the operators of those
+interfaces.&lt;/p&gt;
+
+&lt;p&gt;But the more we advance in autonomy of our programs, the more we should trust
+them to sort the information by priorities. The interfaces like Siri, Echo,
+are much more &amp;lsquo;human&amp;rsquo; and conversational. It doesn&amp;rsquo;t take a genius to
+speculate that interfaces are going to die one day, except for very
+specialized usages, and more interaction will be just more conversational.&lt;/p&gt;
+
+&lt;p&gt;In the course of my development of interactive agents for technical needs, I
+noticed that adding just a little bit of intelligence and memory in those
+agents goes a long way in usability. Especially in chatops, a lot of the
+actions required from those agents are predicable and repetitive. The
+development of new features should follow the recognition of those patterns
+and shorten the path to accomplish some actions. That&amp;rsquo;s pretty much my job.&lt;/p&gt;
+
+&lt;p&gt;But coding this continually is not very cost effective. Tools also change,
+then patterns evolve. Now all I can think about is a way to design an irc bot
+that learns by itself. Some program that does real meta-programming and
+considers its commands as data rather than hard-coded pre-conceived path for
+the information to flow.&lt;/p&gt;
+
+&lt;p&gt;If you know some tools that already do that, can you fire me a mail?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 181</title>
@@ -572,44 +612,6 @@ management, any perversion of it seems off.&lt;/p&gt;
 &lt;p&gt;And then on april fools day, so much goes wrong. The net becomes unreliable.
 So lame. But I&amp;rsquo;m not sure if it&amp;rsquo;s the reason there are not that many news
 articles this week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 164</title>
-      <link>http://blog.mose.com/2016/03/27/greenruby-164</link>
-      <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/03/27/greenruby-164</guid>
-      <description>
-
-&lt;h2 id=&#34;kik-the-fuss:2a9c5ad01254a64b6911e087d156ed08&#34;&gt;kik the fuss&lt;/h2&gt;
-
-&lt;p&gt;There have been some noise last week about npm, coming from &lt;a href=&#34;https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu&#34;&gt;that
-article&lt;/a&gt;. It merely revealed that various open source
-organization are privately held by some individuals and they can either be
-pressured or take weird decisions. Honestly I consider this incident
-anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened
-to be very vocal and pissed off about it.&lt;/p&gt;
-
-&lt;p&gt;And it carried various threads of discussion on Twitter and elsewhere, in a
-huge controversy. There were many points raised. NPM has thousands and
-thousands of packages, and many of them are just a few lines of utility
-library, so it was a good occasion for some to point out that you should
-reduce your number of dependencies. Others pointed out that namespacing could
-help prevent such situation, like it&amp;rsquo;s done in docker or in go (having
-username/somelib instead of somelib) following the github convention.&lt;/p&gt;
-
-&lt;p&gt;All in all, it appears that open source is gaining its traction from being
-free of any legal duty. Or at least there is no formal contracting, no
-by-laws, on committees or advisors. People do how they feel in the limits of
-some very simple basic licensing rules. Some organization provide a more
-structured legal asset but they usually are on the side and purposed for
-channeling money management, not necessarily patents and intellectual
-property.&lt;/p&gt;
-
-&lt;p&gt;My opinion is that this kind of friction between businesses and open source is
-going to happen more and more. But I wonder how it&amp;rsquo;s going to turn out.&lt;/p&gt;
 </description>
     </item>
     

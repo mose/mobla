@@ -97,6 +97,47 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-03-29
+  <p class="post-meta">
+    
+    
+      originaly posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-112.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2015/03/29/greenruby-112" class="post-title">Greenruby 112</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="green-ruby-new-generation:e04937da80b109c53cab9bf63b0a6b99">Green Ruby New Generation</h2>
+
+<p>We had this week a very productive meeting with xenor and tysliu in our
+preferred coffee shop. I explained more in detail my workflow and my quality
+criterias. So now they can feed the links section and become the major editors
+of Green Ruby. I Still keep the role of the publisher. I get their links, I
+clean up stuff, verify freshness and reachability, remove superlatives, fix
+category if needed.</p>
+
+<p>Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy
+lifting and they are the reason why Green Ruby is still in your mailbox every
+week.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-03-22
   <p class="post-meta">
     
@@ -698,98 +739,6 @@ I already liked its look, and even better, it&rsquo;s perfect for
 this palm thing because keys are prominent. Use the palm to push control and
 then it&rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
 my life!</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-01-11
-  <p class="post-meta">
-    
-    
-      originaly posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-101.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-logs" href="http://blog.mose.com/tags/logs">logs</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2015/01/11/greenruby-101" class="post-title">Greenruby 101</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce">1000 subscribers</h2>
-
-<p>After the 100th Greenruby last week, we get the 1000th subscriber to the email
-newsletter this week. Welcome George :) So for the occasion I refreshed the
-<a href="http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map">subscribers map</a> on cartodb. About half of the subscribers are in the US,
-but there is a total of 73 countries represented, which is pretty neat. But
-this is based on the ip used for subscribing, so it&rsquo;s not totally accurate.</p>
-
-<h2 id="fighting-logs-pollution:dfd863a69df72c13bbe5f0b5d11c54ce">Fighting logs pollution</h2>
-
-<p>Some time ago, on edition 82, I posted a link to my webalizer stats for the
-greenruby website. Fatal mistake, I had referrers stats enabled and I got
-somehow listed somewhere. The consequence was a lot of fake traffic with only
-purpose to get links listed in my referrers section. After removing this
-section from webalizer config, and moving the url, the fake traffic was still
-there. Like a blind wave. This was pretty annoying.</p>
-
-<p>So I began to take some drastic measures. Because I didn&rsquo;t have referrers
-anymore in my stats, I went to my apache logs (yes it&rsquo;s an old server, still
-running apache2) and fire up a:</p>
-
-<pre><code>tail -5000 greenruby.org-access.log | cut -d' ' -f11 | sort | uniq -c | sort -n
-</code></pre>
-
-<p>This give me a nice view of the recent referrers. Fake ones are easy to
-notice. And that the fake traffic was only coming from a handful of ips, so I
-just made a few:</p>
-
-<pre><code>iptables -A INPUT -s &lt;ip&gt; -j DROP
-</code></pre>
-
-<p>The result was radically efficient. Certainly I had less volume but it&rsquo;s now
-much cleaner. But it makes it clear that having clean volume stats for traffic
-on your website is not that easy. There are a bunch of fake traffic sources
-that you may not suspect.</p>
-
-<h2 id="new-server-soon:dfd863a69df72c13bbe5f0b5d11c54ce">New server soon</h2>
-
-<p>I got a new job 2 month ago at <a href="http://gandi.net">gandi</a>, and there is some nice <a href="https://www.gandi.net/hosting/iaas">VPS
-hosting</a> there. I can have a machine just for Green Ruby there. It can be
-neat and open some options. Green Ruby website is still very static. Various
-attempts to improve it with a search engine didn&rsquo;t end up to something
-concluding yet. Maybe this time it will.</p>
-
-<p>That also may be the occasion to build up a distribution system and move out
-of mailchimp. I looked around and all I found was php based. So I will
-probably just write my own ruby scripts, the <a href="https://github.com/mikel/mail">mail gem</a> looks great and the
-rest is a question of configuring a postfix with correct <a href="http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF">SPF and DKIM
-setup</a>.</p>
-
-<h2 id="je-suis-charlie:dfd863a69df72c13bbe5f0b5d11c54ce">Je suis Charlie</h2>
-
-<p>Well, this tragedy that happened this Thursday in France impacts a lot of
-people. Somehow, it perhaps impacts me more than the average. When I was
-younger I went to art school to become a cartoonist, and finally I changed my
-mind. But I knew the work of the victims of this slaughter. They were icons in
-the French cartoon world.</p>
-
-<p>It&rsquo;s really sad, first because this is murder, second because the irrational
-impact it will have on society. This is crazy how a handful of brain-dead
-punks can bend history. Now France is going to become even more paranoid. I
-already was so uncomfortable when they began to send military with assault
-rifles wander in the train stations in Paris. It&rsquo;s not going to get better.</p>
 
             </div>
           </section>

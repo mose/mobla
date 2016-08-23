@@ -6,8 +6,46 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Aug 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Aug 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 185</title>
+      <link>http://blog.mose.com/2016/08/21/greenruby-185</link>
+      <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/08/21/greenruby-185</guid>
+      <description>
+
+&lt;h2 id=&#34;working-out:1ea5a5016d2b050f17a7e1c15a7c459b&#34;&gt;Working out&lt;/h2&gt;
+
+&lt;p&gt;During the past year I have been doing some working out. No no there is no
+fitbit involved. Are you crazy? My physical activity includes a strict refusal
+of pointless efforts. I deliberately choose to use the bike rather than the
+bus, it has the purpose of transportation,. But just getting sweaty for the
+sake of it, well, that&amp;rsquo;s not my thing. I&amp;rsquo;m talking about a git-commit working
+out. I decided to have one commit a day on github (minimum) and instead of the
+fitbit or whatever phone app, I used the github timeline as a monitor.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s one year now and I got my &lt;a href=&#34;https://github.com/mose/&#34;&gt;github
+timeline&lt;/a&gt; all green. In itself it doesn&amp;rsquo;t achieve
+anything except for myself. I mean, it&amp;rsquo;s quite easy to fill up a timeline with
+fake entries. But by getting this challenge of one commit a day, it led to
+some valuable outcomes. I got some more work projects validated to be
+published as open source. Whenever I was not feeling inspired for code commit,
+I was chasing typoes in my Readme&amp;rsquo;s, or dependencies upgrades in my gems.&lt;/p&gt;
+
+&lt;p&gt;Overall, it had quite a good impact on my coding publication, on the updating
+of my blog (well, that blpg mostly gather the rants I do here), and various
+other small details. Well, I&amp;rsquo;m not a very famous open source coder, just an
+average joe. But a persistent one. It&amp;rsquo;s very easy to just upload shit on
+github and forget about it. Having this regular commitment made me come back
+on some old things, keep them current somehow.&lt;/p&gt;
+
+&lt;p&gt;Getting some routine in place that includes open source activity has various
+benefits, even when you don&amp;rsquo;t have an audience. You should try it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 183</title>
@@ -630,27 +668,6 @@ knowledge itself. But I wonder about the economical side of things. The old
 capitalist market economy is already stretching its reach far beyond its
 original statement with immaterial economy. The totally destructured
 immaterial one will certainly propose an interesting challenge.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 166</title>
-      <link>http://blog.mose.com/2016/04/10/greenruby-166</link>
-      <pubDate>Sun, 10 Apr 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/04/10/greenruby-166</guid>
-      <description>
-
-&lt;h2 id=&#34;go-again:16e33c9f1a3f0ada66ffc6cd616986d9&#34;&gt;Go again&lt;/h2&gt;
-
-&lt;p&gt;That&amp;rsquo;s years that I&amp;rsquo;m trying to do something real with go. I mean, it is a
-very attractive language with quite a special workflow and toolbox. From time
-to time I write some small script for keeping contact with that language. Last
-week I made &lt;a href=&#34;https://github.com/greenruby/slackpin/blob/master/pins.go&#34;&gt;this one&lt;/a&gt; to list links pinned in our Greenruby
-slackroom to prepare the letter, So I can open them all at once to check them
-in my browser. With time passing, seems that Go now has a really complete
-collection of libraries for a lot of usages. I think I will have push a little
-the slack api soon, and maybe do some real go coding.&lt;/p&gt;
 </description>
     </item>
     

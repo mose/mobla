@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://blog.mose.com/</loc>
-    <lastmod>2016-08-21T22:10:31+08:00</lastmod>
+    <lastmod>2016-08-28T22:10:31+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/08/28/greenruby-186</loc>
+    <lastmod>2016-08-28T22:10:31+08:00</lastmod>
   </url>
   
   <url>

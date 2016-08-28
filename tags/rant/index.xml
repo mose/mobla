@@ -6,8 +6,69 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Aug 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 186</title>
+      <link>http://blog.mose.com/2016/08/28/greenruby-186</link>
+      <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/08/28/greenruby-186</guid>
+      <description>
+
+&lt;h2 id=&#34;to-be-remote-or-not-to-be-remote:1376d8ec44d87fc0206977e0453baca2&#34;&gt;To be remote or not to be remote &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Earlier this week I read &lt;a href=&#34;https://www.linkedin.com/pulse/do-work-from-home-oleg-vishnepolsky&#34;&gt;an article on linkedin, deliberately
+anti-remote&lt;/a&gt;, and a bit later on &lt;a href=&#34;https://medium.freecodecamp.com/the-economics-of-working-remotely-28d4173e16e2#.43ewevr3t&#34;&gt;another one very pro-remote on
+freecodecamp&lt;/a&gt;. I&amp;rsquo;m tempted to think one is the response to the other. But
+maybe not.&lt;/p&gt;
+
+&lt;p&gt;The fact is that switching to a remote organization is a tricky move. It feels
+like the move from monolith to micro-services, honestly. People that make
+decisions about it rarely envision the extent of the change. And those change
+look similar in nature. Team architecture and software design are not that
+foreign. More autonomy for services or people, self-contained activity,
+requirement for clear communication channels and protocols, extensive
+architecture for monitoring, reporting or just plain visibility, more
+debugging tools and processes, and much more.&lt;/p&gt;
+
+&lt;p&gt;The same way one will have to think about all those when switching to
+microservices, the one that thinks about making his team remote will also have
+to consider the exact same parameters. But that is all on the principles.
+About the implementation, remote teams really need a strong chat culture, an
+easy and transparent logging policy for all communication channels, various
+tooling similar to chatops tools for assisting communication activity. Remote
+organization also need to have all their processes online, and not need much
+(if at all) any synchronous meetings.&lt;/p&gt;
+
+&lt;p&gt;From my perspective there are various very beneficial side-effects to make a
+team remote. There is more traceability as everything is online and not in
+corridors anymore. In some cases that I experienced, it also leads to a less
+arbitrary perception on team members, because they can be judged more on
+results (if you have measure tools prepared accordingly) than on attitude and
+mouth-skills (did you noticed that irl meetings are sometimes just a
+mouth-o-cracy?). But it&amp;rsquo;s accurate to say that on a short term, it is more
+time consuming. The real benefit rises on the long run.&lt;/p&gt;
+
+&lt;p&gt;What I didn&amp;rsquo;t find in any articles on the matter, is the life-cycle dimension.
+A software project has a life expectancy, from a business point of view. It&amp;rsquo;s
+the same game as with the technical debt. It is acceptable business-wise to
+live at credit for a time, until a certain milestone. A lot of projects are
+just extended MVPs intended to convince big money that they could deserve some
+attention. For such project, you want very fast paced environment. It&amp;rsquo;s easier
+to coerce your &lt;s&gt;slaves&lt;/s&gt; employees to go above and beyond the
+expectations, when in a physical environment. This is a disposable context,
+and you can skip team debt as much as technical debt. And you really need
+physicality for that purpose.&lt;/p&gt;
+
+&lt;p&gt;So, I would say, if a company is not making the move towards remote
+organization, maybe there are very good reasons for that. But I will be very
+cautious to understand what are the real reasons. They may stink. And if they
+are remote, but they just came to it recently, I would be careful about the
+tooling they prepared for it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 185</title>
@@ -628,46 +689,6 @@ them for inclusion in the publication.&lt;/p&gt;
 It&amp;rsquo;s a 30 minutes ride, and it&amp;rsquo;s very good. But then hare we are: no no way to
 check RSS on the phone. I&amp;rsquo;m going to need to find another trick. Because I
 won&amp;rsquo;t quit the biking.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 168</title>
-      <link>http://blog.mose.com/2016/04/25/greenruby-168</link>
-      <pubDate>Mon, 25 Apr 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/04/25/greenruby-168</guid>
-      <description>
-
-&lt;h2 id=&#34;nanoservices:037dc3f5d87e2e1488613d254aa9c717&#34;&gt;Nanoservices&lt;/h2&gt;
-
-&lt;p&gt;That link to &lt;a href=&#34;http://shoutcloud.io&#34;&gt;Shoutcloud&lt;/a&gt; made me laugh and then made me think.
-It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years
-ago there was some talk about &lt;a href=&#34;http://www.infoq.com/news/2014/05/nano-services&#34;&gt;nano-services as an antipattern&lt;/a&gt;.
-But when you push the logic a little further, and at a very large scale, maybe
-it&amp;rsquo;s a projection of what the future will be.&lt;/p&gt;
-
-&lt;p&gt;Imagine our software totally destructured, calling functions taht are stored
-on the net, using some load balanced worldwide environment. We already do that
-with CDNs. Javascript next Modules proposals will go in that direction as
-well. But what is a method call in a program that we know today could become a
-service call of an external globally available function.&lt;/p&gt;
-
-&lt;p&gt;After all we always write the same code. How many time did you write a regexp
-for &lt;a href=&#34;http://emailregex.com/&#34;&gt;email pattern validation&lt;/a&gt;? The RFC 822 and 5322 are nasties,
-yeah. If we had no latency consideration, I would gladly delegate various
-pieces of code to a specialized service. But latency, is it really an issue
-now? We work more and more with async code, with queues and messages. What
-seems heretic for our current legacy standards would not seem that foolish in
-a slightly different context.&lt;/p&gt;
-
-&lt;p&gt;So technically, I suppose nanoservices are a possible future. I even think
-it&amp;rsquo;s a requirement for scaling any kind of agent-based architecture. Machine
-learning will be much better off by just registering maps to knowledge than
-knowledge itself. But I wonder about the economical side of things. The old
-capitalist market economy is already stretching its reach far beyond its
-original statement with immaterial economy. The totally destructured
-immaterial one will certainly propose an interesting challenge.&lt;/p&gt;
 </description>
     </item>
     

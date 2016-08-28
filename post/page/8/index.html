@@ -97,6 +97,82 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-01-25
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-103.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-desktop" href="http://blog.mose.com/tags/desktop">desktop</a><a class="post-tags post-tags-debian" href="http://blog.mose.com/tags/debian">debian</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/01/25/greenruby-103" class="post-title">Greenruby 103</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="more-screens:d021634982f7dcb44b802e2a3d2040a7">More Screens</h2>
+
+<p>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
+wanted to have on linux the same screen experience that I had with the macbook
+pro connected to 2 thunderbolts. So I got an <a href="http://www.asus.com/us/Notebooks_Ultrabooks/ASUS_ZENBOOK_UX301LA/">asus UX301L</a> plus 2
+<a href="http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&amp;cs=audhs1&amp;l=en&amp;redirect=1&amp;s=dhs&amp;sku=210-40773">Dell screens U2713HM</a> who supports a 2560x1440 resolution. The laptop in itself
+is amazing, dazzling fast, and all worked well with an ubuntu install. This
+was not cheap but that was a while I didn&rsquo;t spend anything on hardware.</p>
+
+<p>I struggled a bit to find the proper connectors so I could enable the extra
+large resolution on connected screens. I ended up using the mini-hdmi
+connector plus a mini-display port converter to DVI for the second one. And
+finally it worked last week. I had to <a href="http://www.arunviswanathan.com/node/53">force the resolution in xrandr</a> and
+now I have a damn huge double display for a total of 7680x1440. What a blast!</p>
+
+<h2 id="debian-i3wm-and-urxvt:d021634982f7dcb44b802e2a3d2040a7">Debian, i3wm and urxvt</h2>
+
+<p>Well this is an old story. Some time ago I switched from debian + fvwm2/ion to
+ubuntu + cinnamon just because I had to know about it. The goal was to be able
+to convince my wife (and some other non-techies) to switch to ubuntu. But I
+had to know how it worked on a daily basis. And it was a success for most of
+it.</p>
+
+<p>2 years ago at Faria I was given a mac. Well, it was good to know a bit more
+about it, my mac knowledge was dating from system 6.7 time. But if the
+hardware is really good, the OSX experience didn&rsquo;t really satisfy the geek
+that was deep inside me.</p>
+
+<p>Then I got back into a team that is deeply attached to pure linux traditions,
+when I joined Gandi. I now switched back to a debian jessie with <a href="https://i3wm.org/">i3wm</a> on
+my work laptop. Wow this feels good to be back to such a rude but flexible
+environment. As a matter of fact all went perfectly well and all the tricks I
+knew 10 years ago are still very valid.</p>
+
+<p>I also took that occasion to get back into urxvt, for my terminal emulator.
+It&rsquo;s a very badly documented over-powerful tool. But when you get the grasp on
+it, possibilities are much more satisfying than with gnome-terminal. I&rsquo;m still
+working on <a href="https://github.com/mose/rcfiles/blob/master/.Xdefaults">my configuration</a> to match few features that gnome terminal had
+(like font resizing, clipboard management). The <a href="https://github.com/mose/rcfiles/blob/master/.urxvt/ext/notification">notification plugin</a>,
+combined with <a href="http://knopwob.org/dunst/index.html">dunst</a>, gives amazing results.</p>
+
+<p>It feels good to be back into the cave. To mark this change, I didn&rsquo;t shave
+for 3 months so now I&rsquo;m really bearded like the old-fashioned linux bears.
+Muhaha!</p>
+
+<p>PS: no worry, I&rsquo;m still fullstack at heart and I still love ruby!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-01-18
   <p class="post-meta">
     
@@ -726,73 +802,6 @@ end
 </code></pre>
 
 <p>Then I just run a <code>knife apt simulate my-server</code> to execute a <code>apt-get -s -y upgrade</code> on the <code>my-server</code> client node. Pretty useful. But I guess that&rsquo;s only a beginning, I should extend it to run on various nodes at the same time and maybe inside threads or something like that, to match the <code>fabric</code> power.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-06-19
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/06/19/less-first" class="post-title">Less first</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<p>When working on a remote server, I use <code>less</code> instead of <code>tail</code> or <code>vi</code> to check files, the more I can.</p>
-
-<h2 id="filter:3480f0a86761ef50d1ed36f6b3b46e94">filter</h2>
-
-<ul>
-<li>with <code>&amp;searchstring</code> it will hide all lines not matching searchstring, like a very simple grep from the console</li>
-<li>just <code>&amp;</code> with nothing to get back to full view</li>
-</ul>
-
-<h2 id="edit-file:3480f0a86761ef50d1ed36f6b3b46e94">edit file</h2>
-
-<ul>
-<li>when in <code>less /etc/hosts</code> if I find out I need to edit it I just type <code>v</code> it opens it in vi</li>
-<li>when you quit the editor you are back in less</li>
-</ul>
-
-<h2 id="follow-mode:3480f0a86761ef50d1ed36f6b3b46e94">follow mode</h2>
-
-<ul>
-<li>when in <code>less production.log</code>, if you want to follow incoming changes type <code>F</code> it will become like a <code>tail -f</code> but it keeps the syntax highlighting that was made with a <code>/</code> search - when in follow mode with <code>F</code> you can <code>ctrl-c</code> any time and examine the new stuff</li>
-<li>note that if you are in filter mode the follow respects it (like if you did a <code>grep something/var/log/auth.log | grep 'Invalid user'</code>)</li>
-</ul>
-
-<h2 id="multifiles:3480f0a86761ef50d1ed36f6b3b46e94">multifiles</h2>
-
-<ul>
-<li>you can open several file and navigate like in vim with <code>:n</code> and <code>:p</code></li>
-<li>when less is open you can open a new file with <code>:e</code></li>
-</ul>
-
-<h2 id="call-options-inside-less:3480f0a86761ef50d1ed36f6b3b46e94">call options inside less</h2>
-
-<ul>
-<li>you can call any launch option from inside less, one I use often is <code>-S</code> that will enable/disable wrapping of long lines, very useful when parsing web server log files</li>
-<li>to disable/enable search highlighting just <code>-G</code></li>
-<li>any other launch option can be called from inside less, pretty convenient</li>
-</ul>
 
             </div>
           </section>

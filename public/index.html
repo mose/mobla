@@ -97,6 +97,85 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2016-08-28
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-186.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2016/08/28/greenruby-186" class="post-title">Greenruby 186</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="to-be-remote-or-not-to-be-remote:1376d8ec44d87fc0206977e0453baca2">To be remote or not to be remote &hellip;</h2>
+
+<p>Earlier this week I read <a href="https://www.linkedin.com/pulse/do-work-from-home-oleg-vishnepolsky">an article on linkedin, deliberately
+anti-remote</a>, and a bit later on <a href="https://medium.freecodecamp.com/the-economics-of-working-remotely-28d4173e16e2#.43ewevr3t">another one very pro-remote on
+freecodecamp</a>. I&rsquo;m tempted to think one is the response to the other. But
+maybe not.</p>
+
+<p>The fact is that switching to a remote organization is a tricky move. It feels
+like the move from monolith to micro-services, honestly. People that make
+decisions about it rarely envision the extent of the change. And those change
+look similar in nature. Team architecture and software design are not that
+foreign. More autonomy for services or people, self-contained activity,
+requirement for clear communication channels and protocols, extensive
+architecture for monitoring, reporting or just plain visibility, more
+debugging tools and processes, and much more.</p>
+
+<p>The same way one will have to think about all those when switching to
+microservices, the one that thinks about making his team remote will also have
+to consider the exact same parameters. But that is all on the principles.
+About the implementation, remote teams really need a strong chat culture, an
+easy and transparent logging policy for all communication channels, various
+tooling similar to chatops tools for assisting communication activity. Remote
+organization also need to have all their processes online, and not need much
+(if at all) any synchronous meetings.</p>
+
+<p>From my perspective there are various very beneficial side-effects to make a
+team remote. There is more traceability as everything is online and not in
+corridors anymore. In some cases that I experienced, it also leads to a less
+arbitrary perception on team members, because they can be judged more on
+results (if you have measure tools prepared accordingly) than on attitude and
+mouth-skills (did you noticed that irl meetings are sometimes just a
+mouth-o-cracy?). But it&rsquo;s accurate to say that on a short term, it is more
+time consuming. The real benefit rises on the long run.</p>
+
+<p>What I didn&rsquo;t find in any articles on the matter, is the life-cycle dimension.
+A software project has a life expectancy, from a business point of view. It&rsquo;s
+the same game as with the technical debt. It is acceptable business-wise to
+live at credit for a time, until a certain milestone. A lot of projects are
+just extended MVPs intended to convince big money that they could deserve some
+attention. For such project, you want very fast paced environment. It&rsquo;s easier
+to coerce your <s>slaves</s> employees to go above and beyond the
+expectations, when in a physical environment. This is a disposable context,
+and you can skip team debt as much as technical debt. And you really need
+physicality for that purpose.</p>
+
+<p>So, I would say, if a company is not making the move towards remote
+organization, maybe there are very good reasons for that. But I will be very
+cautious to understand what are the real reasons. They may stink. And if they
+are remote, but they just came to it recently, I would be careful about the
+tooling they prepared for it.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2016-08-21
   <p class="post-meta">
     
@@ -681,62 +760,6 @@ the path of least resistance also apply here for sure. I begin to apply back
 on Green Ruby the changes I made over there. I suspect the third duplication,
 of any, will be the extraction of the common parts in a separate codebase,
 like a gem with a lib.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2016-06-12
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-175.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2016/06/12/greenruby-175" class="post-title">Greenruby 175</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="playing-with-crystal:c37f98fa8266cedd948db823460fa08c">Playing with crystal</h2>
-
-<p>Last week I went to a <a href="http://remotemeetup.com">remote meetup</a> of <a href="https://www.rubyparis.org/">Paris.rb</a> (fr). Well, it
-was at 1am in my timezone, but I wanted to check how remote meetups can go and
-there was some presentation about crystal and about kemal. It was a great
-moment (<a href="https://www.bigmarker.com/remote-meetup/ParisRb-June-7?show_live_page=true">video is online</a> if you can understand french), and gave me the
-push to give crystal a try. It was low on my todo list but it was there,
-waiting for the proper conditions.</p>
-
-<p>That&rsquo;s pretty much the main thing that I got out of it. Attending to social
-activities is providing once again a great push to move forward. It&rsquo;s not
-about what you learn (which still can be valuable), it&rsquo;s not about networking
-with people (even if it can be priceless), it&rsquo;s all about the personal alchemy
-that brings you on your edge and keeps you hungry for more. Well, that&rsquo;s how
-it works for me, at least.</p>
-
-<p>So I had a look at <a href="http://crystal-lang.org/">Crystal</a>, and <a href="https://github.com/mose/anyquestion">played</a> a bit with <a href="http://kemalcr.com/">Kemal</a>, and
-I&rsquo;m very happy with the result. I had some attempt to check Elixir too but
-crystal felt really much closer to ruby. The main difference being the
-variable typing, the stdlib that includes some modern stuff like websockets or
-oauth2, and the compile step (which in some case can be a bit taxing). But the
-speed gain is phenomenal. I suspect it would make some sense, in a scalability
-strategy, to think about porting ruby code to crystal when perfs become an
-issue (not sure how it would apply to complex rails app though).</p>
-
-<p>Okay yeah Crystal is still very young. But it&rsquo;s getting traction, I bet it has
-a bright future ahead.</p>
 
             </div>
           </section>

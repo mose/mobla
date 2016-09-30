@@ -3,8 +3,23 @@
   
   <url>
     <loc>http://blog.mose.com/</loc>
-    <lastmod>2016-09-04T22:10:31+08:00</lastmod>
+    <lastmod>2016-09-25T22:10:31+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/09/25/greenruby-190</loc>
+    <lastmod>2016-09-25T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/09/18/greenruby-189</loc>
+    <lastmod>2016-09-18T22:10:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2016/09/11/greenruby-188</loc>
+    <lastmod>2016-09-11T22:10:31+08:00</lastmod>
   </url>
   
   <url>

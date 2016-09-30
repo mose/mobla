@@ -6,8 +6,115 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Sep 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 190</title>
+      <link>http://blog.mose.com/2016/09/25/greenruby-190</link>
+      <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/25/greenruby-190</guid>
+      <description>
+
+&lt;h2 id=&#34;a-stress-free-life:210225183e37db0ce5a2649da43cbec4&#34;&gt;A stress-free life&lt;/h2&gt;
+
+&lt;p&gt;Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for
+people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For
+people that get heavy pressure from their work, it can give some air. But I
+wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them
+by principle, but I&amp;rsquo;m usually not really eager to get them.&lt;/p&gt;
+
+&lt;p&gt;After some consideration, it all sums up to some kind of discipline. I refuse
+stress on a daily basis. I want each day at work to be enjoyable and
+debt-free. It&amp;rsquo;s a bad news for some category of employers. The same way those
+consider it&amp;rsquo;s acceptable to accumulate technical debt, they apply the same
+principle on human-life debt. Put people under pressure, get a loan on their
+health, that will never be repaid. So, I just refuse pressure, the same way I
+would refuse to eat meat if I was really vegetarian (which I am only
+part-time).&lt;/p&gt;
+
+&lt;p&gt;Really I have more trouble with holidays because they bring a gap in the
+continuity of work. You get back and there is a lot to catch up on. I would
+prefer to have just one hour work less per day than week-long breaks. But
+that&amp;rsquo;s just me. It would be totally different if I wanted to travel for fun or
+if I had kids. My case is not reproducible.&lt;/p&gt;
+
+&lt;p&gt;But the baseline remains valid. whether you have plans or not for holidays,
+they should not be required for having a balanced life. Stress has to be
+fought on a daily basis and not by using breaks. Breaks, in such case, are
+even more enjoyable, if you have the context for it.&lt;/p&gt;
+
+&lt;p&gt;The best way I know to push stress away is to put my efforts into what I do,
+in a way that I&amp;rsquo;m self-aware that I&amp;rsquo;m really doing what I can to fulfill my
+duties. If someone is not happy about the output, that&amp;rsquo;s their problem not
+mine. If it leads to some awkward context, then it&amp;rsquo;s broken and I will reach
+out to find a better work context. I apply that principle for more than 20
+years now and I can&amp;rsquo;t remember last time I felt stressed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 189</title>
+      <link>http://blog.mose.com/2016/09/18/greenruby-189</link>
+      <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/18/greenruby-189</guid>
+      <description>
+
+&lt;h2 id=&#34;the-art-of-learning:25cf5a2664fd7aa4f4e5aff03248e656&#34;&gt;The art of learning&lt;/h2&gt;
+
+&lt;p&gt;In my review this week I read that &lt;a href=&#34;https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek&#34;&gt;Old Geek post&lt;/a&gt;, which has a lot
+of comments under its feet. This is quite interesting. But I feel there is a
+confusion here.&lt;/p&gt;
+
+&lt;p&gt;From my experience, age is often related to stagnation. The more you
+accumulate, the heavier you are. It&amp;rsquo;s heart-breaking to abandon years of
+investment in one type of knowledge. Therefore, generally speaking, older
+people are less flexible and less likely to surf on the waves of the new
+technologies.&lt;/p&gt;
+
+&lt;p&gt;But I can tell you as a fact that this is just a natural human law, that, like
+many others, can be bended. Bended by discipline, the same way we overcome our
+animal instincts. There are many old practitioners of our skill that became
+master in the art of change. The sacred art of eternal learning. The wisdom of
+daily questioning of previously acquired knowledge.&lt;/p&gt;
+
+&lt;p&gt;Obsolescence is not a question of age, but just a question of personality,
+environment and priorities. I know a handful of such oldgeeks that didn&amp;rsquo;t yet
+reach their 30&amp;rsquo;s. And personally (in my 49), I won&amp;rsquo;t stop surfing any time
+soon. hahaha.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 188</title>
+      <link>http://blog.mose.com/2016/09/11/greenruby-188</link>
+      <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/11/greenruby-188</guid>
+      <description>
+
+&lt;h2 id=&#34;observability-and-digestibility:a97c278ef841935dd0d0e1b0e41782ad&#34;&gt;Observability and Digestibility&lt;/h2&gt;
+
+&lt;p&gt;This is a word I love. I found it again in a &lt;a href=&#34;https://medium.com/production-ready/systems-blindness-and-how-we-deal-with-it-d601fa63b7f4#.ub69zflcv&#34;&gt;recent blog post about system blindness&lt;/a&gt;
+and it reminded me how critical this need is. Our
+systems get more and more numerous and small. The reliability and debugging of
+a platform now goes into various loops given the multiplication of actors.&lt;/p&gt;
+
+&lt;p&gt;Observability should be one core pre-requisite when designing a service
+oriented architecture with micro-services. But just having everything plugged
+to some ELK is not going to help that much. I feel that there is a new job in
+there. Some function that has to be fulfilled. Something to reduce that vast
+amount of data into something that makes sense. An intermediary that will
+correlate logs from various sources. It would put them together and reduce
+them to some meaningful &amp;lsquo;events&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;So I think observability is not enough. Digestibility is what makes
+observability worth it. Maybe such tools already exist? Hmm, probably in the
+containers worlds there is something like that. Is there not?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 187</title>
@@ -555,140 +662,6 @@ issue (not sure how it would apply to complex rails app though).&lt;/p&gt;
 
 &lt;p&gt;Okay yeah Crystal is still very young. But it&amp;rsquo;s getting traction, I bet it has
 a bright future ahead.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 174</title>
-      <link>http://blog.mose.com/2016/06/05/greenruby-174</link>
-      <pubDate>Sun, 05 Jun 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/06/05/greenruby-174</guid>
-      <description>
-
-&lt;h2 id=&#34;scarcity-and-abundance:18c51e5740969f01b50a58d17ac773ca&#34;&gt;Scarcity and abundance&lt;/h2&gt;
-
-&lt;p&gt;As you may remember, this newsletter is using the generous free plan from
-Mailchimp. But it has limits. Only 2000 emails ca subscribe to that
-newsletter. It&amp;rsquo;s already a great gift, and I&amp;rsquo;m pretty sure it&amp;rsquo;s a good
-business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which
-means we need to address that so pervasive concept of scarcity.&lt;/p&gt;
-
-&lt;p&gt;I can remember when it shifted. With the first web pages in 96. When tables
-were introduced in HTML, then it became less obvious how to recreate something
-you saw, and having the possibility to browse the source of a page gives you
-the exact recipe on how it&amp;rsquo;s made. So you can copy from it. I think open
-source would not have had such a large adoption if there was not that idea
-with the HTML, that you need to have access to the source to learn, reproduce
-and improve.&lt;/p&gt;
-
-&lt;p&gt;Also, it made even more obvious one of the key aspects of the internet age: by
-dematerializing market goods (ie. with introduction of softwares), they became
-reproducible at a cost that is marginal enough to be forgotten (yeah,
-bandwidth and storage are not free, for sure). When you give it to someone,
-you still have it. Not like that glass of beer. It placed us in an awkward
-paradigm, the world of abundance.&lt;/p&gt;
-
-&lt;p&gt;There have been so many efforts to artificially bend the internet to a world
-of scarcity again. See, without scarcity, there is no economy as we know it.
-There is another kind of economy, though, but the big guys that lead the old
-one are not ready to let it go. For the old economy to work, things have to be
-scarce. Otherwise there is no competition to obtain commodities, no motivation
-to work like crazy to push forward the progress of production. In abundance
-economy, also known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Gift_economy&#34;&gt;gift economy&lt;/a&gt;, people get less likely to be
-controlled and they don&amp;rsquo;t want to work hard, they want pleasure and
-satisfaction.&lt;/p&gt;
-
-&lt;p&gt;Honestly, I see the efforts made to control a resource that is naturally
-abundant, by using the tools of law, copyright laws, patents, and all that
-kind. I can&amp;rsquo;t help thinking about the abundance of material goods.
-Technological progress, after war, promised some kind of abundant society.
-Work would be automated so we would have less and less to work and just enjoy
-the benefit of the global growth of humanity in taming the material world.
-Well, we are far from it, and I&amp;rsquo;m instinctively convinced that it&amp;rsquo;s by design.
-And it makes me sad. People still need jobs, society won&amp;rsquo;t provide for them.
-There is nothing like common goods in that humanity. And now human compete
-with machine for jobs, whereas they should have been allies. Sad, really.&lt;/p&gt;
-
-&lt;p&gt;But this led me quite far away from my initial topic: we got limited seats for
-this newsletter, so we&amp;rsquo;ll do it 2 ways. First, I will send a mail to all
-people that never click on any links, ask them if they want to stay there.
-Then after a time I will unsubscribe the ones that stay silent and inactive.
-That could skim some 300 people maybe. At the rate it goes, that can buy us
-some 6 months, at the current rate of newcomers each week.&lt;/p&gt;
-
-&lt;p&gt;Then, the subscription will be closed, unless I setup another publication
-system, self-hosted. We don&amp;rsquo;t really need a fully-blown solution like
-mailchimp to be totally honest. They do bit efforts to have mail servers that
-are compliant with various anti-spam techniques, and this is a great thing.
-But I bet I should be able to match it on a self-hosted server that would cost
-me less than $10 a month. It would have no limit, at least. Maybe at that time
-I will open some kind of donation program. Actually I already pay for the
-hosting but I use my servers for other usages so it&amp;rsquo;s only a small fraction.
-And honestly I could even host GreenRuby web pages on github pages for free.
-But I would not have access to the logs for analytics and would need to setup
-some piwik because I can&amp;rsquo;t cope with the idea of using GA. Or, I just don&amp;rsquo;t
-care about traffic metrics. That&amp;rsquo;s tempting. But I got lost in my train of
-thoughts here.&lt;/p&gt;
-
-&lt;p&gt;Bottom line is: we won&amp;rsquo;t get trapped by scarcity. Muahahaha. But feel free to
-send me feedbacks on this topic if you have any thoughts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 173</title>
-      <link>http://blog.mose.com/2016/05/29/greenruby-173</link>
-      <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/05/29/greenruby-173</guid>
-      <description>
-
-&lt;h2 id=&#34;greenruby-irl-and-remote-meetup:cb0f8bc8c9864210771f601228a96c48&#34;&gt;GreenRuby IRL and Remote meetup&lt;/h2&gt;
-
-&lt;p&gt;Last week I posted a link about &lt;a href=&#34;http://remotemeetup.com/&#34;&gt;Remote Meetups&lt;/a&gt;, but, as it sometimes
-happens, it didn&amp;rsquo;t stop there. The basic principle was appealing to me. It&amp;rsquo;s
-true that we don&amp;rsquo;t all live in the Bay area or in New York. Having high
-quality speakers in meetups is hard when you live in a small city or a remote
-country. And this is exactly what that initiative tries to address.&lt;/p&gt;
-
-&lt;p&gt;So I jumped in and had some talk with Franze. The result is that the GreenRuby
-meetup we will have this friday will also be remote. Some people will &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;attend
-physically&lt;/a&gt;, some people will &lt;a href=&#34;https://www.bigmarker.com/remote-meetup/Green-Ruby-Meetup-001&#34;&gt;come virtually&lt;/a&gt; using the
-&lt;a href=&#34;https://www.bigmarker.com/communities/remote-meetup&#34;&gt;Bigmarker&lt;/a&gt; platform on the RemoteMeetup account.&lt;/p&gt;
-
-&lt;p&gt;Those events usually are based on a format including a presentation followed
-by interactions. My plan is to go nuts and try a full-social format, with no
-presentation at all, jumping directly to the interactions. It&amp;rsquo;s going to be
-highly experimental and may lead to failure, but it certainly won&amp;rsquo;t kill any
-kitten in the process so I think we are safe.&lt;/p&gt;
-
-&lt;p&gt;The mix between physical and remote event is the challenging part. We may try
-the &lt;a href=&#34;https://bigmarker.zendesk.com/hc/en-us/articles/203332009-Attending-and-Hosting-Webinars&#34;&gt;usage of mobile phones&lt;/a&gt; to make local people become remote
-participants (but it seems to be IOs only for now). I will get an iPad ready
-for easier floating access, that can be fun.&lt;/p&gt;
-
-&lt;p&gt;You are welcome to join, either online or irl. I heard &lt;a href=&#34;https://gandi.net&#34;&gt;Gandi&lt;/a&gt;, the
-physical host and my employer, is going to fill up the fridge with hundred of
-various beverages and won&amp;rsquo;t mind us to help reduce that quantity.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 172</title>
-      <link>http://blog.mose.com/2016/05/22/greenruby-172</link>
-      <pubDate>Sun, 22 May 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/05/22/greenruby-172</guid>
-      <description>
-
-&lt;h2 id=&#34;first-greenruby-meetup:0abecea4184e3afb12db751a6fc46d11&#34;&gt;First GreenRuby Meetup&lt;/h2&gt;
-
-&lt;p&gt;Recently Gandi moved to a much bigger office in Neihu, Taipei. And I got
-permission to use the space to organize events. We got a great space, sound
-system with wireless mikes, a beamer for presentations. So, if you are in
-Taipei, feel free to &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;join us on wednesday next week&lt;/a&gt;.  I will try to
-make it a remote meetup, and give more details next week.&lt;/p&gt;
 </description>
     </item>
     

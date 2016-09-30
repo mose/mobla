@@ -6,8 +6,31 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Aug 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Sep 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 187</title>
+      <link>http://blog.mose.com/2016/09/04/greenruby-187</link>
+      <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/04/greenruby-187</guid>
+      <description>
+
+&lt;h2 id=&#34;get-out:7741c696b47b149abfe2c5fda320314d&#34;&gt;Get out&lt;/h2&gt;
+
+&lt;p&gt;If you only ever have lived in only one country, you really should consider
+fixing it. Going &lt;a href=&#34;https://inassets1-internationsgmbh.netdna-ssl.com/static/bundles/internationsexpatinsider/pdf/expat_insider_2016_the_internations_survey.pdf&#34;&gt;live in another country&lt;/a&gt; for some years or more is just
+such a way towards a richer life. It&amp;rsquo;s usually easy to recognize people that
+are multi-rooted, as they often have an increased depth in their personal
+philosophy.&lt;/p&gt;
+
+&lt;p&gt;We are lucky, in our craft, to have various opportunities to travel and work
+remotely, or for foreign companies. Many of you are already aware of those
+benefits. But to the others I can just say this: use this opportunity! Get
+out!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 186</title>
@@ -666,29 +689,6 @@ permission to use the space to organize events. We got a great space, sound
 system with wireless mikes, a beamer for presentations. So, if you are in
 Taipei, feel free to &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;join us on wednesday next week&lt;/a&gt;.  I will try to
 make it a remote meetup, and give more details next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 170</title>
-      <link>http://blog.mose.com/2016/05/08/greenruby-170</link>
-      <pubDate>Sun, 08 May 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/05/08/greenruby-170</guid>
-      <description>
-
-&lt;h2 id=&#34;it-s-the-fault-of-the-bike:5828fd4de747cabcdfd7abec8b5b8468&#34;&gt;It&amp;rsquo;s the fault of the bike&lt;/h2&gt;
-
-&lt;p&gt;Well, in the last two weeks I get short in links gathered on our slack pinned
-list. Usually I&amp;rsquo;m reading various RSS feeds while commuting, and I post them
-on slack, for later one pinning them. Then I have a script in go that will
-grab all the pinned url, and remove the pins at the moment I use and check
-them for inclusion in the publication.&lt;/p&gt;
-
-&lt;p&gt;But 2 weeks ago, I decided to change my habits and go to the office by bike.
-It&amp;rsquo;s a 30 minutes ride, and it&amp;rsquo;s very good. But then hare we are: no no way to
-check RSS on the phone. I&amp;rsquo;m going to need to find another trick. Because I
-won&amp;rsquo;t quit the biking.&lt;/p&gt;
 </description>
     </item>
     

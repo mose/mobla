@@ -6,8 +6,59 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Sep 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Oct 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 191</title>
+      <link>http://blog.mose.com/2016/10/02/greenruby-191</link>
+      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/02/greenruby-191</guid>
+      <description>
+
+&lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
+
+&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
+my mutt to make it real again, after 6 years of click-click for mail. I was a
+mutt user for a very long time, and my pause for trying a GUI mail client just
+had to have an end. But the mail has clearly become something else now.
+Actually much more volume, but much more automated things, and news feeds. Or
+it&amp;rsquo;s just me?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 192</title>
+      <link>http://blog.mose.com/2016/10/02/greenruby-192</link>
+      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/02/greenruby-192</guid>
+      <description>
+
+&lt;h2 id=&#34;the-js-toolback-hell:151a80b7575169c1b4c5c3e795aacfee&#34;&gt;The JS toolback hell&lt;/h2&gt;
+
+&lt;p&gt;This week I laughed a lot while reading &lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.pl6hx94d3&#34;&gt;How it feels to learn JavaScript in
+2016&lt;/a&gt;. That article had a pretty &lt;a href=&#34;http://www.macwright.org/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;good response&lt;/a&gt;, like it hits a
+nerve.&lt;/p&gt;
+
+&lt;p&gt;But seriously it&amp;rsquo;s clear that we are at a transition time in Javascript
+evolution, and there is a huge chaos of possible alternatives to everything.
+It feels like an ecosystem where the natural selection didn&amp;rsquo;t operate its
+magic yet. It&amp;rsquo;s like there are things in suspension that are going to fall in
+order at some point eventually.&lt;/p&gt;
+
+&lt;p&gt;My personal bet is that things like elm will win the race, because with its
+embrace of functional programming it seems like it opens the door to
+interpretation with yet-to-be-written faster and more direct compilers (rather
+than transpiling to js). But that&amp;rsquo;s just a hunch.&lt;/p&gt;
+
+&lt;p&gt;In the while, front-end craft is now a wizard arcane art. It can&amp;rsquo;t be acquired
+by pure reasoning and logic, or reading a doc. You need the map of the
+landscape for knowing the possible choices and alternative intermediary
+solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 190</title>
@@ -568,100 +619,6 @@ seems to cover international employment with individuals.&lt;/p&gt;
 hack, legally speaking. Companies need to find tricks. Luckily, hacking is
 something we are not bad at. But still. I wonder when it&amp;rsquo;s going to change,
 and see a legal ground for a really normal remote working context.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 176</title>
-      <link>http://blog.mose.com/2016/06/19/greenruby-176</link>
-      <pubDate>Sun, 19 Jun 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/06/19/greenruby-176</guid>
-      <description>
-
-&lt;h2 id=&#34;the-virtues-of-duplication:3480f0a86761ef50d1ed36f6b3b46e94&#34;&gt;The virtues of duplication&lt;/h2&gt;
-
-&lt;p&gt;Few weeks ago I began to prepare a copy of the Green Ruby Template system for
-the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some
-point of view, this code is a sin and was not written in the perspective to be
-generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s
-joyfully messy and blatantly suboptimal. It was a quick and dirty scripting
-solution, it could have been a set of shell scripts, well it happens to be
-using ruby. &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/lib/builder.rb&#34;&gt;Check it out&lt;/a&gt; if you don&amp;rsquo;t believe me.&lt;/p&gt;
-
-&lt;p&gt;But it&amp;rsquo;s doing the job for years now. It&amp;rsquo;s a builder code, so it&amp;rsquo;s run as a
-convenience only a few times a week, it doesn&amp;rsquo;t really need to be fast. It
-just needs to do the job. Trust me I like good code, with clean design and
-full test coverage. But this one was just an intimate assistant of mine which
-was not really a software. Just some automation scripts.&lt;/p&gt;
-
-&lt;p&gt;And now here it is, I get to face a situation where some friends need the same
-setup and I can&amp;rsquo;t just give them the code, it&amp;rsquo;s so custom. But there have been
-only a few changes to make and it was ready. But the interesting part is in
-the process. While duplicating the code for the Remote Meetup newsletter,
-well, I extracted some stuff, made a config file to remove various hardcoded
-things.&lt;/p&gt;
-
-&lt;p&gt;Well it is still a big ball of dirty code, but in the duplication, it got more
-generic. I love that feeling which brings the software development world
-closer from the biological world. There is some kind of evolutionary process
-going on in the life of a software. It takes many forms and I like it when I
-get reminded of those similarities. I could go on and on about the topics that
-an open source ecosystem is necessary for the diversity of code to flourish
-and make evolution possible in a totally Darwinian way.&lt;/p&gt;
-
-&lt;p&gt;So this simple operation was just illustrating one principle: when you share
-your code you shape it and make it more generic in the process. It can have
-various beneficial side effects beyond the single act of duplication and
-adaptation. I find it&amp;rsquo;s also true when you publish your code as an open source
-project. If it gets some traction and people start to use it, they will import
-their context in your initial ecosystem and bring the same kind of
-adjustments. Making it stronger, in some way.&lt;/p&gt;
-
-&lt;p&gt;Anyways, the &lt;a href=&#34;http://remotemeetup.com/news/index.html&#34;&gt;Remote Meetup News&lt;/a&gt; website and newsletter generator is now
-ready, and you may find that the design is kind of familiar. Well, the rule of
-the path of least resistance also apply here for sure. I begin to apply back
-on Green Ruby the changes I made over there. I suspect the third duplication,
-of any, will be the extraction of the common parts in a separate codebase,
-like a gem with a lib.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 175</title>
-      <link>http://blog.mose.com/2016/06/12/greenruby-175</link>
-      <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/06/12/greenruby-175</guid>
-      <description>
-
-&lt;h2 id=&#34;playing-with-crystal:c37f98fa8266cedd948db823460fa08c&#34;&gt;Playing with crystal&lt;/h2&gt;
-
-&lt;p&gt;Last week I went to a &lt;a href=&#34;http://remotemeetup.com&#34;&gt;remote meetup&lt;/a&gt; of &lt;a href=&#34;https://www.rubyparis.org/&#34;&gt;Paris.rb&lt;/a&gt; (fr). Well, it
-was at 1am in my timezone, but I wanted to check how remote meetups can go and
-there was some presentation about crystal and about kemal. It was a great
-moment (&lt;a href=&#34;https://www.bigmarker.com/remote-meetup/ParisRb-June-7?show_live_page=true&#34;&gt;video is online&lt;/a&gt; if you can understand french), and gave me the
-push to give crystal a try. It was low on my todo list but it was there,
-waiting for the proper conditions.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s pretty much the main thing that I got out of it. Attending to social
-activities is providing once again a great push to move forward. It&amp;rsquo;s not
-about what you learn (which still can be valuable), it&amp;rsquo;s not about networking
-with people (even if it can be priceless), it&amp;rsquo;s all about the personal alchemy
-that brings you on your edge and keeps you hungry for more. Well, that&amp;rsquo;s how
-it works for me, at least.&lt;/p&gt;
-
-&lt;p&gt;So I had a look at &lt;a href=&#34;http://crystal-lang.org/&#34;&gt;Crystal&lt;/a&gt;, and &lt;a href=&#34;https://github.com/mose/anyquestion&#34;&gt;played&lt;/a&gt; a bit with &lt;a href=&#34;http://kemalcr.com/&#34;&gt;Kemal&lt;/a&gt;, and
-I&amp;rsquo;m very happy with the result. I had some attempt to check Elixir too but
-crystal felt really much closer to ruby. The main difference being the
-variable typing, the stdlib that includes some modern stuff like websockets or
-oauth2, and the compile step (which in some case can be a bit taxing). But the
-speed gain is phenomenal. I suspect it would make some sense, in a scalability
-strategy, to think about porting ruby code to crystal when perfs become an
-issue (not sure how it would apply to complex rails app though).&lt;/p&gt;
-
-&lt;p&gt;Okay yeah Crystal is still very young. But it&amp;rsquo;s getting traction, I bet it has
-a bright future ahead.&lt;/p&gt;
 </description>
     </item>
     

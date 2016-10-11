@@ -97,6 +97,162 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-05-31
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-121.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-gdb" href="http://blog.mose.com/tags/gdb">gdb</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/05/31/greenruby-121" class="post-title">Greenruby 121</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="linux-trick-too-many-logs:195c338923f21c367264a5b5fb00e8a9">linux trick: too many logs</h2>
+
+<p>Recently I found my self again in that situation on a linux server. The
+partition where logs are stored went 100%. In such case, It&rsquo;s clever top purge
+old useless logfiles. Typical move for me would be to run logrotate manually
+with</p>
+
+<pre><code>logrotate -f /etc/logrotate.conf
+</code></pre>
+
+<p>But I had a case where that was not enough. A developer forgot to remove a
+debugging output and the logs were just gathering way too much information,
+more than what I could free with some janitoring.</p>
+
+<p>To avoid losing logs, we can move the logfile where there is space and replace
+the file with a symbolic link. That&rsquo;s good enough for until the partition gets
+resized of the logs get cleaned. But when it&rsquo;s done on a live logfile, the
+running process that writes into it still has the same file descriptor. The
+process has to be relaunched so the new fd can be taken in account, on the new
+partition, as instructed by the symbolic link.</p>
+
+<p>So a colleague pointed out that could be done without restart by using gdb.
+It&rsquo;s a pretty neat trick (if you have gdb installed on your production server,
+which may not always be the case, and for good reasons). Anyways I had it at
+hand, and here is the sequence:</p>
+
+<pre><code>touch /path/to/new/logfile
+
+gdb -p pid
+
+(gdb) call dup(1)
+$1 = 3
+(gdb) call close(1)
+$2 = 0
+(gdb) call open(&quot;/path/to/new/logfile&quot;, 2)
+$3 = 1
+(gdb) call close($1)
+$4 = 0
+(gdb)
+</code></pre>
+
+<p>This gave me the taste of digging up a little bit more on how gdb can interact
+with live processes.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2015-05-24
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-120.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/05/24/greenruby-120" class="post-title">Greenruby 120</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="the-side-effects-of-recruitment:849328e7dfc904a2b6d861e0036f0df4">The side effects of recruitment</h2>
+
+<p>Recently I had to look for a new devops for our team. I have been handling
+technical recruitment at many occasions, and each time I have to explain my
+colleagues that I have a special process. The fact is, the technical sphere is
+a small one, we are all linked, more or less, to a community. Well, in my
+case, I always have had to recruit people in companies that were hiring the
+kind of people that commit on github, have some kind of community activity, at
+least. I guess that in huge companies where people are just a set of
+checkboxes, things go a bit differently.</p>
+
+<p>But anyways, in my case, and probably in the case of all recruiters in modern
+and small businesses, it&rsquo;s not all about checkboxes and profiles. It&rsquo;s about
+personality, compatibility, and mindset. So when I first get a contact with a
+candidate, I invite him (or much more rarely, her), to a chat online,
+preferably on irc or whatever real-time discussion media is more fit (for a
+linux geek, if you can&rsquo;t go on irc, then there is a problem).</p>
+
+<p>I noticed that during my past sessions of recruitment, I established contacts
+with very interesting people. By having an unformal discussion online, just
+chit-chating of what work we do and what we did before, it&rsquo;s kind of easy to
+get an idea of what is the kind of relationship you will have with your
+potential future colleague. But beyond that, it&rsquo;s all about making things
+personal. We are all unique. It cannot be computed, scripted, engineered in a
+way that non-technical people would be successful conducting that process. It
+takes a geek to recognize another geek.</p>
+
+<p>At Gandi of course we have a HR person. But she usually appears at the very
+end of the process and not at the beginning. The peers are going to evaluate
+candidates, make their mind to see if they want to spend days and days
+collaborating with them. It matches with my way to do things, fortunately. If
+I have any doubt of the technical abilities on someone, I don&rsquo;t do stupid
+technical tests, I try to find other people that know the candidate and get
+third party feedback. If not, then I try to use a meetup in a community
+related to the speciality in question, so we can discuss and be around other
+people where some tangent discussion can happen.</p>
+
+<p>At the end, if all goes well, then the candidate is going to enter the more
+formal whatever the company uses as a recruitment flow. But that&rsquo;s merely a
+formality. And after 20 years building up teams and recruiting people, I can
+affirm that instinct always wins, in my case. If I smell anything fishy in an
+unformal context, there is going to be problems. Well, the process is never
+perfect, it also can smell ok but stink after 3 months, too.</p>
+
+<p>But the thing is that having those chats online with peers is pretty
+interesting. I learn a lot about how other companies work, how they handle
+their management, what kind of work conditions they have. Just because it&rsquo;s
+part of the contact process. So I&rsquo;m not really in hurry to make a final
+decision because, to be honest, I just enjoy those contacts.</p>
+
+<p>It certainly takes some time, I can&rsquo;t be in constant recruitment, but from
+time to time, it&rsquo;s very valuable. And not only for the effect of recruiting
+someone. It creates bonds with the industry, with people, with communities.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-05-17
   <p class="post-meta">
     
@@ -526,134 +682,6 @@ things! Check that <a href="http://www.instructables.com/">instructable</a> webs
 open standards made possible to people like me to do the web myself. After a
 time, it became a professional activity. Will we get professional makers in
 the future and see a revival of craftsmanship? I really wonder.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-03-15
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-110.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/03/15/greenruby-110" class="post-title">Greenruby 110</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="time-to-upgrade:d4567cfa55308712270d1f5b73098130">Time to upgrade</h2>
-
-<p>This is a long time I plan to re-engineer the way Green Ruby is produced. Last
-week I told Xenor and Simon I was thinking about giving it a break. I&rsquo;m not
-that much anymore in the flow. Now my days are full ops and not that much dev.
-But the guys didn&rsquo;t want to let me stop.</p>
-
-<p>So we are going to organize things a little differently. Xenor and Simon,
-which are full time rails developers, are going to handle the content more
-extensively, and I will just manage the publication, plus some devops links.
-So we need to get some tools ready to handle that new flow. Maybe, the time it
-gets ready, we will take some time off. Maybe not.</p>
-
-<p>What I wish is to have a way to let more people jump in, too. Maybe we will
-get inspiration in how <a href="http://thechangelog.com/trello-as-a-cms/">the changelog</a> manages their news
-flow. They based it on a <a href="http://trello.com">Trello</a> and it&rsquo;s quite clever. By chance I
-explored the trello API recently and I can tell it&rsquo;s really good, very
-suitable for custom automation.</p>
-
-<p>This week, I will play lazy on the podcasts. I don&rsquo;t think they are that much
-interesting anyways, and all that copy-pasting is exhausting. When some
-podcasts stands out of the crowd, I will rather feature it in this rant.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-03-08
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-109.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-freebsd" href="http://blog.mose.com/tags/freebsd">freebsd</a><a class="post-tags post-tags-blog" href="http://blog.mose.com/tags/blog">blog</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/03/08/greenruby-109" class="post-title">Greenruby 109</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="about-blogging:111d43eaf8a2a6adad496f0417e7f52c">About blogging</h2>
-
-<p>Well, since that whole blogging thing began, I never have been very active on
-it. Well, I have a <a href="http://blog.mose.com">blog</a> on Tumblr because I wanted to know how they
-are doing it, I published various posts in the <a href="http://devtips.faria.co/authors.html#mose-ref">faria devtips</a>, and
-after all, this rant could also count as a publication. So I think I will
-gather them all under one unique site. A Jekyll github-pages kind, easy and
-cheap.</p>
-
-<p>After all, I&rsquo;m not sure the devtips website will stay up any longer. There
-have been no post since the day I left. Too bad. It&rsquo;s a demonstration that
-some collective actions can sometimes rely only on the energy of one person.</p>
-
-<p>So, I made a <a href="http://mose.github.io/blog">new repo</a> on github for it, and I will gather whatever
-stuff I can find that I wrote in there.</p>
-
-<h2 id="lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c">Lovely FreeBSD</h2>
-
-<p>At our Gandi office in Taipei I had to install a <a href="https://www.pfsense.org/">pfsense</a> server,
-which is based on <a href="https://www.freebsd.org/">FreeBSD</a>. It was quite a pleasant experience,
-actually. Last time I played a bit with BSD that was 12 years ago, and that
-was not very smooth. I&rsquo;m happy to be given that occasion to see how it goes
-now.</p>
-
-<p>For now I&rsquo;m going to use it like if it was an <a href="https://openwrt.org/">OpenWRT</a> with some
-extra <a href="https://openvpn.net/index.php/open-source.html">OpenVPN</a> abilities. And it will also be a file server for the
-LAN. Not sure yet how I will handle that.</p>
-
-<h2 id="ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c">Ruby package management</h2>
-
-<p>When I got in my new job, I discovered a new way to manage server management.
-They didn&rsquo;t want to use <a href="http://rvm.io/">rvm</a>, or even <a href="https://rubygems.org/">ruby gems</a>, or
-<a href="https://pip.pypa.io/en/latest/">pip</a> or anything that is not debian packages. It may sound quite harsh.
-Since I came in ruby in 2010, rvm has been my best friend, bundle the second
-one. But this approach is very developer-based. When you maintain large and
-stable systems, it&rsquo;s more likely that you will not trust the bleeding edge
-stuff and prefer confirmed publication of packages before using them. This is
-an interesting slap on my face.</p>
-
-<p>Of course there are the <a href="https://www.brightbox.com/docs/ruby/ubuntu/">brightbox</a> packages for Ubuntu, but that&rsquo;s
-missing the point. A release has to be out for a certain time so it can be
-strengthened by security reviews and proper production usage. There is a part
-of the population for each language that is considering the instability of
-current releases a normal trade-off. but there is a huge lot of other
-companies that will wait patiently that things get stable enough for their
-taste.</p>
 
             </div>
           </section>

@@ -97,6 +97,127 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2014/09/10/console-columns" class="post-title">Console columns</a>
+            </header>
+
+            <div class="post-description">
+              <p>When you live in your console, it&rsquo;s always good to find ways to stay there. The <code>column</code> command was recently brought to my attention by <a href="https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr">https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr</a> and despite years of console life, godamn I was unaware of this simple tool.</p>
+
+<p>It is very useful for displaying csv files in a readable way, for example:</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv
+LATITUDE,LONGITUDE,CC,REGION
+24.7798,120.93,TW,HSZ
+52.0927,5.1158,NL,UT
+25.0389,121.509,TW,TPE
+47.6836,-122.122,US,WA
+24.1403,120.682,TW,TXG
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+37.4055,-122.078,US,CA
+26.1405,-80.1738,US,FL
+</code></pre>
+
+<p>yuck. Let&rsquo;s prettify it.</p>
+
+<pre><code>$ head members_export_0bfc48c38f.csv | column -t -s,
+LATITUDE  LONGITUDE  CC  REGION
+24.7798   120.93     TW  HSZ
+52.0927   5.1158     NL  UT
+25.0389   121.509    TW  TPE
+47.6836   -122.122   US  WA
+24.1403   120.682    TW  TXG
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+37.4055   -122.078   US  CA
+26.1405   -80.1738   US  FL
+</code></pre>
+
+<p>ohh, my world just changed!</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2014-09-10
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2014/09/10/pretty-json" class="post-title">Pretty json</a>
+            </header>
+
+            <div class="post-description">
+              <p>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:</p>
+
+<pre><code class="language-ruby">ruby -rjson -ropen-uri -rawesome_print -e &quot;ap JSON.load(open('http://jsonip.com/'))&quot;
+</code></pre>
+
+<pre><code class="language-ruby">{
+       &quot;ip&quot; =&gt; &quot;59.115.120.166&quot;,
+    &quot;about&quot; =&gt; &quot;/about&quot;,
+     &quot;Pro!&quot; =&gt; &quot;http://getjsonip.com&quot;
+}
+</code></pre>
+
+<p>because when you are rubyist everything can be solve with ruby, obviously.</p>
+
+<p>But well, then one day I did</p>
+
+<pre><code>pip install pjson
+</code></pre>
+
+<p>and then</p>
+
+<pre><code class="language-ruby">curl -s http://jsonip.com | pjson
+</code></pre>
+
+<pre><code class="language-json">{
+  &quot;Pro!&quot;: &quot;http://getjsonip.com&quot;,
+  &quot;about&quot;: &quot;/about&quot;,
+  &quot;ip&quot;: &quot;59.115.120.166&quot;
+}
+</code></pre>
+
+<p>Faster, easier, happier.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2014-08-07
   <p class="post-meta">
     
@@ -682,70 +803,6 @@ pry:     2870
 sinatra: 1964
 devise:  422 
 </code></pre>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-22
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/22/hackpad-cli" class="post-title">Hackpad cli</a>
-            </header>
-
-            <div class="post-description">
-              <p>In Faria we use hackpad a lot, it&rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.</p>
-
-<ul>
-<li><a href="https://github.com/mose/hackpad-cli">https://github.com/mose/hackpad-cli</a></li>
-</ul>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-05-15
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-vim" href="http://blog.mose.com/tags/vim">vim</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles" class="post-title">Eddie Vim and rcfiles</a>
-            </header>
-
-            <div class="post-description">
-              <p>Mose sometimes uses vim on the side of ST3, and can&rsquo;t do it without the pretty good eddie kao set of config files.</p>
-
-<p>Check it out at <a href="https://github.com/kaochenlong/eddie-vim">https://github.com/kaochenlong/eddie-vim</a> it&rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo <a href="https://github.com/mose/rcfiles">https://github.com/mose/rcfiles</a> with an installer that I runs when I install a new server.</p>
 
             </div>
           </section>

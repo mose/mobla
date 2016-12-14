@@ -6,34 +6,50 @@
     <description>Recent content in Rant on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Greenruby 191</title>
-      <link>http://blog.mose.com/2016/10/02/greenruby-191</link>
-      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      <title>Greenruby 193</title>
+      <link>http://blog.mose.com/2016/10/16/greenruby-193</link>
+      <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/02/greenruby-191</guid>
+      <guid>http://blog.mose.com/2016/10/16/greenruby-193</guid>
       <description>
 
-&lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
+&lt;h2 id=&#34;is-facebook-the-new-npm:33c6cbaaffa1f33ba49e5064e8787b21&#34;&gt;Is Facebook the new NPM?&lt;/h2&gt;
 
-&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
-my mutt to make it real again, after 6 years of click-click for mail. I was a
-mutt user for a very long time, and my pause for trying a GUI mail client just
-had to have an end. But the mail has clearly become something else now.
-Actually much more volume, but much more automated things, and news feeds. Or
-it&amp;rsquo;s just me?&lt;/p&gt;
+&lt;p&gt;This week there is a lot of noise in the JS ecosystem, on various trends. But
+the most noticeable is about &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt;. Yet another package manager for js,
+that states it opens a war against NPM (in soft terms but clearly enough). The
+&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;long post from Facebook&lt;/a&gt; about it demonstrates a clear effort to push
+things forward about NPM shortcomings. The reaction on &lt;a href=&#34;https://news.ycombinator.com/item?id=12684980&#34;&gt;hacker news&lt;/a&gt;
+is pretty verbose.&lt;/p&gt;
+
+&lt;p&gt;It provoked a public &lt;a href=&#34;http://blog.npmjs.org/post/151660845210/hello-yarn&#34;&gt;response from NPM&lt;/a&gt; to try to explain that, nop,
+it&amp;rsquo;s not a war. But I keep feeling that Facebook is slowly taking over another
+piece of the javascript world. For now, it doesn&amp;rsquo;t seem harmful at all, but my
+instinct lights a various number of warning bonfires.&lt;/p&gt;
+
+&lt;p&gt;But for real, it was more than time that the supremacy of NPM was questioned.
+It has a lot of flaws and the number of posts about this event proves that the
+community was kind of waiting for something like this to happen. Like this
+&lt;a href=&#34;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.d5wnp2yf9&#34;&gt;cheatsheet&lt;/a&gt;, various articles like &lt;a href=&#34;http://www.infoworld.com/article/3130179/javascript/facebook-spins-yarn-to-replace-npm-packager.html&#34;&gt;this one&lt;/a&gt;, this
+enthusiastic post from &lt;a href=&#34;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#34;&gt;Yehuda Kats&lt;/a&gt;. But &lt;a href=&#34;https://medium.com/@boennemann/questions-i-wish-yarn-had-answered-on-day-1-ec0db7458107#.r1kyqfnwr&#34;&gt;not everybody is happy&lt;/a&gt;
+about how things are done.&lt;/p&gt;
+
+&lt;p&gt;Personally, I like the technical direction it takes. But I hope that like
+io.js went back to node.js, it will eventually merge back to NPM, really. But
+I have the feeling it is not going to happen.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Greenruby 192</title>
-      <link>http://blog.mose.com/2016/10/02/greenruby-192</link>
-      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      <link>http://blog.mose.com/2016/10/09/greenruby-192</link>
+      <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/02/greenruby-192</guid>
+      <guid>http://blog.mose.com/2016/10/09/greenruby-192</guid>
       <description>
 
 &lt;h2 id=&#34;the-js-toolback-hell:151a80b7575169c1b4c5c3e795aacfee&#34;&gt;The JS toolback hell&lt;/h2&gt;
@@ -57,6 +73,25 @@ than transpiling to js). But that&amp;rsquo;s just a hunch.&lt;/p&gt;
 by pure reasoning and logic, or reading a doc. You need the map of the
 landscape for knowing the possible choices and alternative intermediary
 solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 191</title>
+      <link>http://blog.mose.com/2016/10/02/greenruby-191</link>
+      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/02/greenruby-191</guid>
+      <description>
+
+&lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
+
+&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
+my mutt to make it real again, after 6 years of click-click for mail. I was a
+mutt user for a very long time, and my pause for trying a GUI mail client just
+had to have an end. But the mail has clearly become something else now.
+Actually much more volume, but much more automated things, and news feeds. Or
+it&amp;rsquo;s just me?&lt;/p&gt;
 </description>
     </item>
     
@@ -562,63 +597,6 @@ your open source code and the hidden code is messy. Haha.&lt;/p&gt;
 
 &lt;p&gt;So, I ask you now, what in your current codebase could you extract as an open
 source gem? or node package?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 177</title>
-      <link>http://blog.mose.com/2016/06/26/greenruby-177</link>
-      <pubDate>Sun, 26 Jun 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/06/26/greenruby-177</guid>
-      <description>
-
-&lt;h2 id=&#34;remote-working:150acb3fbf488af89de91dbfbd571391&#34;&gt;Remote working&lt;/h2&gt;
-
-&lt;p&gt;For some random strange reason I had a lot of links this week about remote
-working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see
-a lot of companies that have hard time coping with the concept.&lt;/p&gt;
-
-&lt;p&gt;On one hand, there is a shortage of technically skilled staff. The growth of
-the tech industry and especially the online services is way too fast for the
-education system to catch up. It&amp;rsquo;s been like that for pretty much 20 years
-now. And there is an unbalanced repartition between where the growing
-companies are and where the growing population of techies are. So it would
-only make sense that either relocation would be much easier or remote working
-much more widespread, no? Well, no. Relocation is bound to laws that are not
-driven by the only technical area. And remoting is dependent on a cultural and
-also legal shift.&lt;/p&gt;
-
-&lt;p&gt;Because working with remote staff, many of us know what it means. First it
-involves a level of trust in the staff that is unprecedented. The same level
-of trust you need to invest when working with a contractor, actually. Then the
-old-fashioned control and command system in place with traditional management
-systems gets totally inefficient.&lt;/p&gt;
-
-&lt;p&gt;More even, to be efficient with a remote team means adopting a work
-organization and tools that are specifically thought for this setup. From what
-I can experience, it&amp;rsquo;s either one or the other. When half the staff works in
-an office locally it&amp;rsquo;s not easy (yet not impossible) to be efficient with
-another half remote.&lt;/p&gt;
-
-&lt;p&gt;Some stuff will be likely to happen locally with old ways of oral
-communication and meetings with sparse note-taking. That will put the remote
-staff in the dark of some parts of the internal process. It may create a
-double-speed kind of organization, there is the ones that are full speed and
-the ones that are just, well, not in the core. Oh it&amp;rsquo;s still possible to make
-it work. It&amp;rsquo;s just harder.&lt;/p&gt;
-
-&lt;p&gt;Or maybe it&amp;rsquo;s like the web and the mobile. Slowly companies need to become
-remote-first and then eventually also work on local office-based scale. But
-there are still various barriers for having a real remote-friendly world
-anyways. The legal status is not clear,m for example, money transfers between
-countries, compliances with social coverage conventions, no international law
-seems to cover international employment with individuals.&lt;/p&gt;
-
-&lt;p&gt;From what I can understand, remote working from a distant country is still a
-hack, legally speaking. Companies need to find tricks. Luckily, hacking is
-something we are not bad at. But still. I wonder when it&amp;rsquo;s going to change,
-and see a legal ground for a really normal remote working context.&lt;/p&gt;
 </description>
     </item>
     

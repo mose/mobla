@@ -97,6 +97,79 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-05-31
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-121.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-gdb" href="http://blog.mose.com/tags/gdb">gdb</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/05/31/greenruby-121" class="post-title">Greenruby 121</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="linux-trick-too-many-logs:195c338923f21c367264a5b5fb00e8a9">linux trick: too many logs</h2>
+
+<p>Recently I found my self again in that situation on a linux server. The
+partition where logs are stored went 100%. In such case, It&rsquo;s clever top purge
+old useless logfiles. Typical move for me would be to run logrotate manually
+with</p>
+
+<pre><code>logrotate -f /etc/logrotate.conf
+</code></pre>
+
+<p>But I had a case where that was not enough. A developer forgot to remove a
+debugging output and the logs were just gathering way too much information,
+more than what I could free with some janitoring.</p>
+
+<p>To avoid losing logs, we can move the logfile where there is space and replace
+the file with a symbolic link. That&rsquo;s good enough for until the partition gets
+resized of the logs get cleaned. But when it&rsquo;s done on a live logfile, the
+running process that writes into it still has the same file descriptor. The
+process has to be relaunched so the new fd can be taken in account, on the new
+partition, as instructed by the symbolic link.</p>
+
+<p>So a colleague pointed out that could be done without restart by using gdb.
+It&rsquo;s a pretty neat trick (if you have gdb installed on your production server,
+which may not always be the case, and for good reasons). Anyways I had it at
+hand, and here is the sequence:</p>
+
+<pre><code>touch /path/to/new/logfile
+
+gdb -p pid
+
+(gdb) call dup(1)
+$1 = 3
+(gdb) call close(1)
+$2 = 0
+(gdb) call open(&quot;/path/to/new/logfile&quot;, 2)
+$3 = 1
+(gdb) call close($1)
+$4 = 0
+(gdb)
+</code></pre>
+
+<p>This gave me the taste of digging up a little bit more on how gdb can interact
+with live processes.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-05-24
   <p class="post-meta">
     
@@ -609,58 +682,6 @@ things! Check that <a href="http://www.instructables.com/">instructable</a> webs
 open standards made possible to people like me to do the web myself. After a
 time, it became a professional activity. Will we get professional makers in
 the future and see a revival of craftsmanship? I really wonder.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-03-15
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-110.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/03/15/greenruby-110" class="post-title">Greenruby 110</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="time-to-upgrade:d4567cfa55308712270d1f5b73098130">Time to upgrade</h2>
-
-<p>This is a long time I plan to re-engineer the way Green Ruby is produced. Last
-week I told Xenor and Simon I was thinking about giving it a break. I&rsquo;m not
-that much anymore in the flow. Now my days are full ops and not that much dev.
-But the guys didn&rsquo;t want to let me stop.</p>
-
-<p>So we are going to organize things a little differently. Xenor and Simon,
-which are full time rails developers, are going to handle the content more
-extensively, and I will just manage the publication, plus some devops links.
-So we need to get some tools ready to handle that new flow. Maybe, the time it
-gets ready, we will take some time off. Maybe not.</p>
-
-<p>What I wish is to have a way to let more people jump in, too. Maybe we will
-get inspiration in how <a href="http://thechangelog.com/trello-as-a-cms/">the changelog</a> manages their news
-flow. They based it on a <a href="http://trello.com">Trello</a> and it&rsquo;s quite clever. By chance I
-explored the trello API recently and I can tell it&rsquo;s really good, very
-suitable for custom automation.</p>
-
-<p>This week, I will play lazy on the podcasts. I don&rsquo;t think they are that much
-interesting anyways, and all that copy-pasting is exhausting. When some
-podcasts stands out of the crowd, I will rather feature it in this rant.</p>
 
             </div>
           </section>

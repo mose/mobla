@@ -6,8 +6,40 @@
     <description>Recent content in Greenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Oct 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Nov 2016 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Greenruby 197</title>
+      <link>http://blog.mose.com/2016/11/13/greenruby-197</link>
+      <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/11/13/greenruby-197</guid>
+      <description>
+
+&lt;h2 id=&#34;my-lovely-chatbots-sick-already:eae14584655a9a501cab4772b62674f0&#34;&gt;My lovely Chatbots, sick already?&lt;/h2&gt;
+
+&lt;p&gt;Recently I have been to a meetup about chatbots. I was expecting something
+technical. But it seems that I was totally mislead on what chatbots are. They
+are visibly now more of a marketing tool than just a cool piece of technology.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m pretty convinced that web interfaces are going to die slowly in favor of
+more conversational interfaces. But in past technology shift we had some time
+between appearance and marketability. Like with the web, the social networks,
+etc. No more. Chatbots are immediate slaves for sales volumes. All the
+blooming of new services for &amp;lsquo;building your own bot&amp;rsquo; are just totally geared
+towards customers management and acquisition.&lt;/p&gt;
+
+&lt;p&gt;My naive assumption was that assistive conversational interface could have a
+larger scope. But well, the market is driven by what sells, and what sells is
+what make more sales. I just hope it will have a nice border effect to improve
+chatbots as a tool or as a general interface to access information.&lt;/p&gt;
+
+&lt;p&gt;But my instinct warns me against the potential invasion of our social world
+online by all sort of aggressive automated peddlers. The same way we get
+robotic phone calls. Chatbots are going to be the new color of spam?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 193</title>
@@ -538,65 +570,6 @@ consider it?&lt;/p&gt;
 
 &lt;p&gt;If you have two onces of technical savyness, please stop running naked on the
 streets. Gear up and use encryption whenever possible.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 178</title>
-      <link>http://blog.mose.com/2016/07/03/greenruby-178</link>
-      <pubDate>Sun, 03 Jul 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/07/03/greenruby-178</guid>
-      <description>
-
-&lt;h2 id=&#34;open-code-a-chance-for-improvement:9c5419396d421f66fa0cc8a4eac9d46e&#34;&gt;Open code, a chance for improvement&lt;/h2&gt;
-
-&lt;p&gt;Since I&amp;rsquo;m writing code I try to publish as much as I can as open source
-components. But I had occasion to work in situations where it was not
-possible. And I noticed some serious differences in the result.&lt;/p&gt;
-
-&lt;p&gt;When you publish some code on, say, Github, you can just throw it as is and be
-done with it. Then you merely use github as a repository provider and don&amp;rsquo;t
-care much about anything else. But when you begin to spend some time doing it,
-you notice that external contributor can bring great fixes, help detect bugs,
-and generally speaking make your code more valuable in itself.&lt;/p&gt;
-
-&lt;p&gt;But this is a two-ways road. To invite people to collaborate you need to
-address a certain amount of little details. Writing a decently clear README is
-a demonstration of politeness for any passing guest. It&amp;rsquo;s just more inviting.
-Making sure you have a complete enough test suite guarantees you can be sure
-external contributions won&amp;rsquo;t mess up existing code (if writing tests in itself
-was not motivating enough). Refactoring your code by following
-&lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt; advises will break huge methods in small pieces,
-making things easier to be improved. Enforcing some kind of &lt;a href=&#34;https://github.com/bbatsov/rubocop&#34;&gt;style guide&lt;/a&gt;
-will avoid people to get confused by a non-standard code-art.
-(that person could be you in one year).&lt;/p&gt;
-
-&lt;p&gt;All those aspects, when you work at a company as the only coder on one piece
-of code, you don&amp;rsquo;t have that much incentive to enforce them. And I know about
-it because I have seen a huge lot of legacy code that was written that way.
-With lame tests that only purpose was to enforce code coverage without really
-testing much, weird code style, epic methods, no instructions. If it&amp;rsquo;s just
-you and a couple of friends that you see every day, it&amp;rsquo;s fine, you can deal
-with it. For a time.&lt;/p&gt;
-
-&lt;p&gt;The fact is that exposing your code brings an incentive to work on the
-(apparently) non-essential aspects of your code. But those aspects really
-bring a huge improvement on the long term. Which leads me to consider that
-opening source code is a way that can lead to make it better.&lt;/p&gt;
-
-&lt;p&gt;An usually, I noticed that the bosses don&amp;rsquo;t care if it&amp;rsquo;s open or not, as far
-as there is no trade secrets revealed. But well we write so much code that if
-business-neutral for many things. At the end of the day, it&amp;rsquo;s only the matter
-of asking the boss if you can free this or that code, and then it&amp;rsquo;s on its
-way. Even more if the code is published under an organization on github, there
-is even more incentive to make it clean, and it will also help possible
-candidates to understand what kind of stack you are dealing with, and what
-kind of principle you try to enforce. Even if it&amp;rsquo;s actually only enforced in
-your open source code and the hidden code is messy. Haha.&lt;/p&gt;
-
-&lt;p&gt;So, I ask you now, what in your current codebase could you extract as an open
-source gem? or node package?&lt;/p&gt;
 </description>
     </item>
     

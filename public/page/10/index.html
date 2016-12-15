@@ -97,6 +97,78 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-06-04
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a><a class="post-tags post-tags-rubygems" href="http://blog.mose.com/tags/rubygems">rubygems</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/06/04/make-a-gem" class="post-title">Make a gem</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:</p>
+
+<h2 id="make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e">Make a Rubygems account</h2>
+
+<ul>
+<li>first ensure create an ccount on <a href="https://rubygems.org/">https://rubygems.org/</a></li>
+<li>initialize your credentials:</li>
+</ul>
+
+<pre><code>curl -u username https://rubygems.org/api/v1/api_key.yaml &gt; ~/.gem/credentials
+Enter host password for user 'username':
+
+chmod 0600 ~/.gem/credentials
+</code></pre>
+
+<h2 id="prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e">Prepare the code</h2>
+
+<p>These steps are my typical path, nothing is really mandatory there.</p>
+
+<ul>
+<li>create a repo at github (or wherever you want)</li>
+<li>create a base gem skeleton <code>bundle gem mycoolgem</code></li>
+<li>update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information</li>
+<li>create a CHANGELOG.md because when you publish something you need a clear log of your version changes</li>
+<li>enable the tracking on <a href="https://codeclimate.com/">codeclimate</a>, <a href="https://travis-ci.org/">travis</a>, <a href="https://coveralls.io/">coveralls</a>, <a href="https://gemnasium.com">gemnasium</a></li>
+<li>add badges from <a href="http://shields.io">http://shields.io</a> in the README.md because it helps to qualify the state of the code quickly</li>
+<li>when the gem code don&rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with <code>spec.version  = File.read(File.expand_path('../CHANGELOG.md', __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]</code>
+(so then when I version bump there is only one file to edit)</li>
+<li>write the code (or copy it from the private app you extract it from)</li>
+<li>add a spec/ or test/ dir and write some tests and try to reach a decent coverage</li>
+</ul>
+
+<h2 id="release-it:a6c8c79e924ce88903bef7ff7392e41e">Release it</h2>
+
+<ul>
+<li>add the date in the changelog for the current version</li>
+<li><code>rake release</code></li>
+<li>bump the version to the next increment in the changelog (and version file if any)</li>
+</ul>
+
+<p>Overall with the initial bundle command and the final rake task for release, it&rsquo;s pretty straightforward.</p>
+
+<p>Also check <a href="http://guides.rubygems.org/make-your-own-gem/">http://guides.rubygems.org/make-your-own-gem/</a></p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2014-05-27
   <p class="post-meta">
     
@@ -588,69 +660,6 @@ devise:  422
 <p>Ruby Conf Taiwan 2012. Quite a great event.</p>
 
 <p><a href="http://rubyconf.tw/2012/">http://rubyconf.tw/2012/</a></p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2012-10-28
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">old tumblr site</span>
-      
-    
-    
-      <a class="post-tags post-tags-sublimetext" href="http://blog.mose.com/tags/sublimetext">sublimetext</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs" class="post-title">Sublimetext2, plugins, sshfs</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<p>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.</p>
-
-<p>But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called <a href="http://www.sublimetext.com/2">sublimetext2</a>. And I have to say it just works fine for me (even if I will always keep my Vim not far). And I don’t feel any loss in control !</p>
-
-<p>Here are a few tuning that I made or got from friends that I want to keep in memory, so I figured I should post about it.</p>
-
-<h2 id="enable-plugins-manager:aeac908f260033eeab91183dfa6f1c81">Enable plugins manager</h2>
-
-<p>It’s not on by default and can be enable by copy-pasting this line into the console (view / console in the menu)</p>
-
-<pre><code>import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not  os.path.exists(ipp) else None;  urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print   'Please restart Sublime Text to finish installation'
-</code></pre>
-
-<p>Then just relaunch sublimetext and you can access the plugin manager using shift-ctrl-P and type ‘install’.</p>
-
-<p>There is a damn long list of plugins you can add there (a list is on <a href="http://wbond.net/sublime_packages/community">http://wbond.net/sublime_packages/community</a>) and a few of them were advised to me that I should use: brackethighliter, docblockr, sublimecodeintel, sublimelinter, vintageex, git</p>
-
-<p>sublimecodeintel seems to be the one that really does a lot of magic in there. The rest is for convenience and display of blocks in a more visual way,</p>
-
-<h2 id="use-sshfs-for-remote-editing:aeac908f260033eeab91183dfa6f1c81">Use sshfs for remote editing</h2>
-
-<p>Well this is not related to sublimetext but makes it easy to remote edit a dir when you have an ssh access. On Ubuntu you can just</p>
-
-<pre><code>apt-get install sshfs
-</code></pre>
-
-<p>and then</p>
-
-<pre><code>mkdir workdir &amp;&amp; sshfs you@server:/path/to/dir workdir
-</code></pre>
-
-<p>so the remote dir pretends to be local now and can be opened by sublimetext easily. It’s of course adding some response time as the editor refreshes the file you browse each time you focus on it, but it works pretty fine for me.</p>
-
-<p><em>Special thanks to beve that provided me those nice tricks.</em></p>
 
             </div>
           </section>

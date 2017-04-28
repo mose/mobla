@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on Moselog</title>
-    <link>http://localhost:1313/tags/debian/</link>
+    <link>http://blog.mose.com/tags/debian/</link>
     <description>Recent content in Debian on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Apr 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 116</title>
-      <link>http://localhost:1313/2015/04/26/greenruby-116</link>
+      <link>http://blog.mose.com/2015/04/26/greenruby-116</link>
       <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/04/26/greenruby-116</guid>
+      <guid>http://blog.mose.com/2015/04/26/greenruby-116</guid>
       <description>
 
 &lt;h2 id=&#34;welcome-jessie:d9f4d66fbdcd986833b23a4199ad62c2&#34;&gt;Welcome Jessie&lt;/h2&gt;
@@ -38,10 +38,10 @@ suspect even non-techies could give it a try (I know some that did).&lt;/p&gt;
     
     <item>
       <title>Greenruby 103</title>
-      <link>http://localhost:1313/2015/01/25/greenruby-103</link>
+      <link>http://blog.mose.com/2015/01/25/greenruby-103</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/01/25/greenruby-103</guid>
+      <guid>http://blog.mose.com/2015/01/25/greenruby-103</guid>
       <description>
 
 &lt;h2 id=&#34;more-screens:d021634982f7dcb44b802e2a3d2040a7&#34;&gt;More Screens&lt;/h2&gt;

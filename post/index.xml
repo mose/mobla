@@ -6,8 +6,35 @@
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Nov 2016 22:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2017 22:10:31 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting back into writing</title>
+      <link>http://blog.mose.com/2017/04/28/getting-back-into-writing</link>
+      <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/04/28/getting-back-into-writing</guid>
+      <description>
+
+&lt;h2 id=&#34;getting-back-into-writing:de01faa72149d30f4eb88db96f78a8dd&#34;&gt;Getting back into writing&lt;/h2&gt;
+
+&lt;p&gt;A few months ago, I got tired of leading &lt;a href=&#34;http://fgreenruby.org&#34;&gt;Greenruby&lt;/a&gt;
+publication and Xenor accepted to jump in and take the publisher role.
+I&amp;rsquo;m very grateful about it. But as a secundary effect, I lost that ranting
+channel I got used to abuse. Each week, I was getting somehow acustomed
+to send some rant with the list of links.&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time to get back into a publisher mood. I have various thoughts
+that could deserve sharing, or at least, publication. Well I don&amp;rsquo;t tweet much
+and I hate facebook, so my media coverage may be a little tiny.&lt;/p&gt;
+
+&lt;p&gt;But that&amp;rsquo;s not really a problem. It&amp;rsquo;s not like I have some agenda.
+I just wish to exercise my right to reflect aloud on various topics, bring to
+the open some personal and/or original thoughts. Nothing more. Whoever reads,
+do it in silence.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Greenruby 197</title>
@@ -521,55 +548,6 @@ Already having 3 times more lines of code in tests that in code and even if
 coverage says 80% I know for a fact that there are many more cases I need to
 test. Anyways, there is too much fun for me to just go beyond the traditional
 gathering of the links for this week. Can&amp;rsquo;t write a rant. No way.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 179</title>
-      <link>http://blog.mose.com/2016/07/10/greenruby-179</link>
-      <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/07/10/greenruby-179</guid>
-      <description>
-
-&lt;h2 id=&#34;the-in-culture-of-encryption:51c044384329e8bd96399bebc071607b&#34;&gt;The (in)culture of encryption&lt;/h2&gt;
-
-&lt;p&gt;A couple weeks ago I had found out that a friend was keeping his passwords in
-a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean,
-not more technical than the next guy, or just a little. He&amp;rsquo;s using the web
-interface of gmail for his mail, like many people do (I even know very
-technical people doing it, which is still boggling me). I looked around and
-found &lt;a href=&#34;https://www.mailvelope.com/&#34;&gt;mailvelope&lt;/a&gt;. So I hook him up on it and now he can use GPG.&lt;/p&gt;
-
-&lt;p&gt;In the past 20 years I have seen the timid evolution of personal encryption.
-Oh there are initiatives like &lt;a href=&#34;https://keybase.io/&#34;&gt;Keybase&lt;/a&gt;, various simple tools like
-&lt;a href=&#34;https://www.passwordstore.org/&#34;&gt;passowrdstore&lt;/a&gt; or &lt;a href=&#34;https://github.com/henryboldi/felony&#34;&gt;Felony&lt;/a&gt; that I discovered this week. But it
-seems that encryption don&amp;rsquo;t really stick to the usages, unless you have a
-specific thought about it. Fortunately there is some wise generalization of
-SSL for inter-server communication, with initiatives like &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;lets
-encrypt&lt;/a&gt;. But inter-personal communication is still wide open.&lt;/p&gt;
-
-&lt;p&gt;More and more it is well-known that our data is food for various corporation,
-governmental agencies, and dark organizations. What will it take for getting
-the users to claim better privacy? Will it ever happen?&lt;/p&gt;
-
-&lt;p&gt;I mean, yes for sure people can use the tools. But it&amp;rsquo;s cumbersome. Until
-encryption is embedded in our tools and services, it simply won&amp;rsquo;t spread
-significantly enough. There are some projects like &lt;a href=&#34;https://caliopen.org/&#34;&gt;Caliopen&lt;/a&gt; that
-try to do so. On another hand, we have seen some services like
-&lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; which provide such service, and even some mainstream
-providers like &lt;a href=&#34;http://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/&#34;&gt;Whatsapp&lt;/a&gt; jump into the full-encryption train. So
-maybe there is hope? I still wonder what&amp;rsquo;s the part played by Facebook (which
-now owns Whatsapp) in that move.&lt;/p&gt;
-
-&lt;p&gt;The recent fight between Apple and US government was supposed to set some kind
-of precedent. Too bad it was aborted. But they would have complied at the end,
-this is my bet. Now that encryption is the only way for companies to legally
-keep their users safe from legal (and illegal) inquiries, maybe more will
-consider it?&lt;/p&gt;
-
-&lt;p&gt;If you have two onces of technical savyness, please stop running naked on the
-streets. Gear up and use encryption whenever possible.&lt;/p&gt;
 </description>
     </item>
     

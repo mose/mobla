@@ -97,6 +97,72 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2016-02-28
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-160.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2016/02/28/greenruby-160" class="post-title">Greenruby 160</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="about-tests-and-documentation:329bfb00efd0c1fb86f4a0195e637cef">About tests and documentation</h2>
+
+<p>This aspect of development, called Documentation, is the source of various
+frustrations. It&rsquo;s hard to get do it, but why? My feeling is that it&rsquo;s like
+testing. When you begin your craft as a coder, all what matters is the code.
+It&rsquo;s only after some iterations that some non-code aspects come back bite you
+in the neck. Like, huho, now that I need to refactor, I really should use
+something that tells me if all still works. Tests become an early necessity to
+anyone who knows that kind of truth. If you wait until the end of a coding
+cycle to write those, the task is huge and it cuts you from your productivity
+cycle. Write them early, along the flow, is way easier.</p>
+
+<p>So I think documentation follows the same pattern. So many software projects
+are badly documented because this aspect is postponed until it&rsquo;s needed. Means
+at release stage. In early stages, you work on a prototype and you don&rsquo;t need
+to explain how things work or are supposed to work. And when it&rsquo;s released,
+there is usually some other task waiting and it&rsquo;s hard to stop everything to
+get back and document things properly. It may be a flaw in the agile process,
+but it may also be a feature: if you don&rsquo;t document along the way, you won&rsquo;t
+document much.</p>
+
+<p>Personally I try to consider the documentation of any of the source code I
+write as one of the first tasks. There are various tricks that can help in
+that perspective, like <a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html">readme-driven development</a>, or including the doc
+inside the code with <a href="http://yardoc.org/">yarddoc</a> or <a href="http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api">apipie</a>, or coupling
+documentation with tests with <a href="https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples">rspec</a> or <a href="https://github.com/zipmark/rspec_api_documentation">RSpec API Doc
+Generator</a>. But honestly I prefer edited documentation that can follow
+a structure that is thought as documentation rather than merely an automated
+output of some code.</p>
+
+<p>There are various tools to organize edited documentation, like
+<a href="https://readthedocs.org/">ReadTheDoc</a> which is in python. Another project appeared last week from
+the guys at Pluralsight named <a href="http://tutorials.pluralsight.com/faq/">hack.guide()</a>. That&rsquo;s a community project
+but actually being totally open sourced, I was thinking the <a href="https://github.com/pluralsight/guides-cms">documentation
+building CMS</a> they made could pretty much fill the gap of a
+light-weight RTD, with the benefits of having a UI for editors. Too bad we
+don&rsquo;t have anything like this in ruby (or do we?).</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2016-02-21
   <p class="post-meta">
     
@@ -597,62 +663,6 @@ actually not that much related to the hackathon but just emerging from natural
 proximity with other geeks.</p>
 
 <p>Check my <a href="https://www.flickr.com/photos/43946968@N07/albums/72157661448405060">photos on flickr</a>.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2015-11-29
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-147.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-              <a href="http://blog.mose.com/2015/11/29/greenruby-147" class="post-title">Greenruby 147</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="code-in-the-dark:f6454540d52b5466477bc9e3371f78a1">Code in the dark</h2>
-
-<p>My attention was brought this week to <a href="http://codeinthedark.com/">Code in the dark events</a>. It seems
-pretty cool. A 15 minutes race in html and css with no preview. But the thing
-that brought my attention to that format is the special editor used for those
-events with a special effect on the cursor. It seems to add a really dramatic
-effect on the competition. We need more ideas like that for pure geek fun.</p>
-
-<h2 id="first-look-at-perl-6:f6454540d52b5466477bc9e3371f78a1">First look at perl 6</h2>
-
-<p>For many people, Perl sounds like trauma. Because it didn&rsquo;t move for a while,
-when I hear something is perl code, it sounds like it&rsquo;s legacy code, old and
-dusty. Well, Perl 6 is going to come out for christmas and the situation may
-change. Perl 6 is in the lab for <a href="http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released">15 years</a> now, it&rsquo;s more than
-time to get it shipped.</p>
-
-<p>At <a href="http://doc.perl6.org/language/5to6-nutshell">first glance</a>, they seem to have tried to &lsquo;modernize&rsquo; the language,
-make it more idiomatic. It even seems it looks more like ruby, with the
-replacement of arrow by dots, the optional parenthesis, better exception
-handling. Well, overall, it feels cleaner. But it also seem to have some
-potential to mix functional and object-oriented in an interesting way.</p>
-
-<p>So, maybe there is going to be a second life for the old perl. It&rsquo;s a breaking
-version, old perl code will certainly break on the new version. So it&rsquo;s almost
-like a new language. For sure I will still keep ruby as my preferred language,
-but I like multilingualism, so maybe I will give it a try .. again (last perl
-app I wrote was 12 years ago).</p>
 
             </div>
           </section>

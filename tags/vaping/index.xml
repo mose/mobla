@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vaping on Moselog</title>
-    <link>http://localhost:1313/tags/vaping/</link>
+    <link>http://blog.mose.com/tags/vaping/</link>
     <description>Recent content in Vaping on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vaping/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/vaping/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 113</title>
-      <link>http://localhost:1313/2015/04/05/greenruby-113</link>
+      <link>http://blog.mose.com/2015/04/05/greenruby-113</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/04/05/greenruby-113</guid>
+      <guid>http://blog.mose.com/2015/04/05/greenruby-113</guid>
       <description>
 
 &lt;h2 id=&#34;multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98&#34;&gt;Multiple inheritance simulation&lt;/h2&gt;

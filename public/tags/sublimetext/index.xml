@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sublimetext on Moselog</title>
-    <link>http://blog.mose.com/tags/sublimetext/</link>
+    <link>http://localhost:1313/tags/sublimetext/</link>
     <description>Recent content in Sublimetext on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 May 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dictionnary in sublimetext</title>
-      <link>http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext</link>
+      <link>http://localhost:1313/2014/05/08/dictionnary-in-sublimetext</link>
       <pubDate>Thu, 08 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext</guid>
+      <guid>http://localhost:1313/2014/05/08/dictionnary-in-sublimetext</guid>
       <description>&lt;p&gt;I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to &lt;code&gt;cmd-shift-p&lt;/code&gt; and install a package called &lt;code&gt;Dictionnaries&lt;/code&gt;. Then by hitting &lt;code&gt;F6&lt;/code&gt; you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&amp;rsquo;t you ?).&lt;/p&gt;
 
 &lt;p&gt;The spellcheck auto-highlight can be enabled for specific file extensions (like .md files) by adding&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Sublimetext2, plugins, sshfs</title>
-      <link>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs</link>
+      <link>http://localhost:1313/2012/10/28/sublimetext2-plugins-sshfs</link>
       <pubDate>Sun, 28 Oct 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs</guid>
+      <guid>http://localhost:1313/2012/10/28/sublimetext2-plugins-sshfs</guid>
       <description>
 
 &lt;p&gt;For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.&lt;/p&gt;

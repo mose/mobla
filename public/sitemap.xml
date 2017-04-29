@@ -2,523 +2,528 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.mose.com/</loc>
-    <lastmod>2017-04-28T22:10:31+08:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-04-29T22:25:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2017/04/28/getting-back-into-writing</loc>
+    <loc>http://localhost:1313/2017/04/29/the-interviews-approach</loc>
+    <lastmod>2017-04-29T22:25:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2017/04/28/getting-back-into-writing</loc>
     <lastmod>2017-04-28T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/11/13/greenruby-197</loc>
+    <loc>http://localhost:1313/2016/11/13/greenruby-197</loc>
     <lastmod>2016-11-13T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/10/16/greenruby-193</loc>
+    <loc>http://localhost:1313/2016/10/16/greenruby-193</loc>
     <lastmod>2016-10-16T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/10/09/greenruby-192</loc>
+    <loc>http://localhost:1313/2016/10/09/greenruby-192</loc>
     <lastmod>2016-10-09T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/10/02/greenruby-191</loc>
+    <loc>http://localhost:1313/2016/10/02/greenruby-191</loc>
     <lastmod>2016-10-02T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/09/25/greenruby-190</loc>
+    <loc>http://localhost:1313/2016/09/25/greenruby-190</loc>
     <lastmod>2016-09-25T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/09/18/greenruby-189</loc>
+    <loc>http://localhost:1313/2016/09/18/greenruby-189</loc>
     <lastmod>2016-09-18T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/09/11/greenruby-188</loc>
+    <loc>http://localhost:1313/2016/09/11/greenruby-188</loc>
     <lastmod>2016-09-11T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/09/04/greenruby-187</loc>
+    <loc>http://localhost:1313/2016/09/04/greenruby-187</loc>
     <lastmod>2016-09-04T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/08/28/greenruby-186</loc>
+    <loc>http://localhost:1313/2016/08/28/greenruby-186</loc>
     <lastmod>2016-08-28T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/08/21/greenruby-185</loc>
+    <loc>http://localhost:1313/2016/08/21/greenruby-185</loc>
     <lastmod>2016-08-21T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/08/07/greenruby-183</loc>
+    <loc>http://localhost:1313/2016/08/07/greenruby-183</loc>
     <lastmod>2016-08-07T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/07/30/greenruby-182</loc>
+    <loc>http://localhost:1313/2016/07/30/greenruby-182</loc>
     <lastmod>2016-07-30T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/07/24/greenruby-181</loc>
+    <loc>http://localhost:1313/2016/07/24/greenruby-181</loc>
     <lastmod>2016-07-24T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/07/17/greenruby-180</loc>
+    <loc>http://localhost:1313/2016/07/17/greenruby-180</loc>
     <lastmod>2016-07-17T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/07/10/greenruby-179</loc>
+    <loc>http://localhost:1313/2016/07/10/greenruby-179</loc>
     <lastmod>2016-07-10T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/07/03/greenruby-178</loc>
+    <loc>http://localhost:1313/2016/07/03/greenruby-178</loc>
     <lastmod>2016-07-03T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/06/26/greenruby-177</loc>
+    <loc>http://localhost:1313/2016/06/26/greenruby-177</loc>
     <lastmod>2016-06-26T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/06/19/greenruby-176</loc>
+    <loc>http://localhost:1313/2016/06/19/greenruby-176</loc>
     <lastmod>2016-06-19T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/06/12/greenruby-175</loc>
+    <loc>http://localhost:1313/2016/06/12/greenruby-175</loc>
     <lastmod>2016-06-12T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/06/05/greenruby-174</loc>
+    <loc>http://localhost:1313/2016/06/05/greenruby-174</loc>
     <lastmod>2016-06-05T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/05/29/greenruby-173</loc>
+    <loc>http://localhost:1313/2016/05/29/greenruby-173</loc>
     <lastmod>2016-05-29T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/05/22/greenruby-172</loc>
+    <loc>http://localhost:1313/2016/05/22/greenruby-172</loc>
     <lastmod>2016-05-22T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/05/08/greenruby-170</loc>
+    <loc>http://localhost:1313/2016/05/08/greenruby-170</loc>
     <lastmod>2016-05-08T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/04/25/greenruby-168</loc>
+    <loc>http://localhost:1313/2016/04/25/greenruby-168</loc>
     <lastmod>2016-04-25T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/04/10/greenruby-166</loc>
+    <loc>http://localhost:1313/2016/04/10/greenruby-166</loc>
     <lastmod>2016-04-10T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/04/03/greenruby-165</loc>
+    <loc>http://localhost:1313/2016/04/03/greenruby-165</loc>
     <lastmod>2016-04-03T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/03/27/greenruby-164</loc>
+    <loc>http://localhost:1313/2016/03/27/greenruby-164</loc>
     <lastmod>2016-03-27T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/03/20/greenruby-163</loc>
+    <loc>http://localhost:1313/2016/03/20/greenruby-163</loc>
     <lastmod>2016-03-20T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/03/13/greenruby-162</loc>
+    <loc>http://localhost:1313/2016/03/13/greenruby-162</loc>
     <lastmod>2016-03-13T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/02/28/greenruby-160</loc>
+    <loc>http://localhost:1313/2016/02/28/greenruby-160</loc>
     <lastmod>2016-02-28T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/02/21/greenruby-159</loc>
+    <loc>http://localhost:1313/2016/02/21/greenruby-159</loc>
     <lastmod>2016-02-21T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/02/14/greenruby-158</loc>
+    <loc>http://localhost:1313/2016/02/14/greenruby-158</loc>
     <lastmod>2016-02-14T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/01/31/greenruby-156</loc>
+    <loc>http://localhost:1313/2016/01/31/greenruby-156</loc>
     <lastmod>2016-01-31T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/01/24/greenruby-155</loc>
+    <loc>http://localhost:1313/2016/01/24/greenruby-155</loc>
     <lastmod>2016-01-24T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/01/10/greenruby-153</loc>
+    <loc>http://localhost:1313/2016/01/10/greenruby-153</loc>
     <lastmod>2016-01-10T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2016/01/03/greenruby-152</loc>
+    <loc>http://localhost:1313/2016/01/03/greenruby-152</loc>
     <lastmod>2016-01-03T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/12/27/greenruby-151</loc>
+    <loc>http://localhost:1313/2015/12/27/greenruby-151</loc>
     <lastmod>2015-12-27T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/12/20/greenruby-150</loc>
+    <loc>http://localhost:1313/2015/12/20/greenruby-150</loc>
     <lastmod>2015-12-20T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/12/06/greenruby-148</loc>
+    <loc>http://localhost:1313/2015/12/06/greenruby-148</loc>
     <lastmod>2015-12-06T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/11/29/greenruby-147</loc>
+    <loc>http://localhost:1313/2015/11/29/greenruby-147</loc>
     <lastmod>2015-11-29T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/11/22/greenruby-146</loc>
+    <loc>http://localhost:1313/2015/11/22/greenruby-146</loc>
     <lastmod>2015-11-22T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/11/15/greenruby-145</loc>
+    <loc>http://localhost:1313/2015/11/15/greenruby-145</loc>
     <lastmod>2015-11-15T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/11/08/greenruby-144</loc>
+    <loc>http://localhost:1313/2015/11/08/greenruby-144</loc>
     <lastmod>2015-11-08T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/11/01/greenruby-143</loc>
+    <loc>http://localhost:1313/2015/11/01/greenruby-143</loc>
     <lastmod>2015-11-01T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/10/25/greenruby-142</loc>
+    <loc>http://localhost:1313/2015/10/25/greenruby-142</loc>
     <lastmod>2015-10-25T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/10/11/greenruby-140</loc>
+    <loc>http://localhost:1313/2015/10/11/greenruby-140</loc>
     <lastmod>2015-10-11T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/09/13/greenruby-136</loc>
+    <loc>http://localhost:1313/2015/09/13/greenruby-136</loc>
     <lastmod>2015-09-13T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/09/06/greenruby-135</loc>
+    <loc>http://localhost:1313/2015/09/06/greenruby-135</loc>
     <lastmod>2015-09-06T22:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/31/greenruby-134</loc>
+    <loc>http://localhost:1313/2015/08/31/greenruby-134</loc>
     <lastmod>2015-08-31T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/28/moving-to-hugo</loc>
+    <loc>http://localhost:1313/2015/08/28/moving-to-hugo</loc>
     <lastmod>2015-08-28T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/23/greenruby-133</loc>
+    <loc>http://localhost:1313/2015/08/23/greenruby-133</loc>
     <lastmod>2015-08-23T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/16/greenruby-132</loc>
+    <loc>http://localhost:1313/2015/08/16/greenruby-132</loc>
     <lastmod>2015-08-16T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/09/greenruby-131</loc>
+    <loc>http://localhost:1313/2015/08/09/greenruby-131</loc>
     <lastmod>2015-08-09T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/08/02/greenruby-130</loc>
+    <loc>http://localhost:1313/2015/08/02/greenruby-130</loc>
     <lastmod>2015-08-02T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/07/26/greenruby-129</loc>
+    <loc>http://localhost:1313/2015/07/26/greenruby-129</loc>
     <lastmod>2015-07-26T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/07/19/greenruby-128</loc>
+    <loc>http://localhost:1313/2015/07/19/greenruby-128</loc>
     <lastmod>2015-07-19T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/07/12/greenruby-127</loc>
+    <loc>http://localhost:1313/2015/07/12/greenruby-127</loc>
     <lastmod>2015-07-12T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/07/05/greenruby-126</loc>
+    <loc>http://localhost:1313/2015/07/05/greenruby-126</loc>
     <lastmod>2015-07-05T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/06/28/greenruby-125</loc>
+    <loc>http://localhost:1313/2015/06/28/greenruby-125</loc>
     <lastmod>2015-06-28T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/06/21/greenruby-124</loc>
+    <loc>http://localhost:1313/2015/06/21/greenruby-124</loc>
     <lastmod>2015-06-21T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/06/14/greenruby-123</loc>
+    <loc>http://localhost:1313/2015/06/14/greenruby-123</loc>
     <lastmod>2015-06-14T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/06/07/greenruby-122</loc>
+    <loc>http://localhost:1313/2015/06/07/greenruby-122</loc>
     <lastmod>2015-06-07T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/05/31/greenruby-121</loc>
+    <loc>http://localhost:1313/2015/05/31/greenruby-121</loc>
     <lastmod>2015-05-31T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/05/24/greenruby-120</loc>
+    <loc>http://localhost:1313/2015/05/24/greenruby-120</loc>
     <lastmod>2015-05-24T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/05/17/greenruby-119</loc>
+    <loc>http://localhost:1313/2015/05/17/greenruby-119</loc>
     <lastmod>2015-05-17T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/05/10/greenruby-118</loc>
+    <loc>http://localhost:1313/2015/05/10/greenruby-118</loc>
     <lastmod>2015-05-10T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/05/03/greenruby-117</loc>
+    <loc>http://localhost:1313/2015/05/03/greenruby-117</loc>
     <lastmod>2015-05-03T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/04/26/greenruby-116</loc>
+    <loc>http://localhost:1313/2015/04/26/greenruby-116</loc>
     <lastmod>2015-04-26T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/04/19/greenruby-115</loc>
+    <loc>http://localhost:1313/2015/04/19/greenruby-115</loc>
     <lastmod>2015-04-19T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/04/05/greenruby-113</loc>
+    <loc>http://localhost:1313/2015/04/05/greenruby-113</loc>
     <lastmod>2015-04-05T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/03/29/greenruby-112</loc>
+    <loc>http://localhost:1313/2015/03/29/greenruby-112</loc>
     <lastmod>2015-03-29T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/03/22/greenruby-111</loc>
+    <loc>http://localhost:1313/2015/03/22/greenruby-111</loc>
     <lastmod>2015-03-22T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/03/15/greenruby-110</loc>
+    <loc>http://localhost:1313/2015/03/15/greenruby-110</loc>
     <lastmod>2015-03-15T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/03/08/greenruby-109</loc>
+    <loc>http://localhost:1313/2015/03/08/greenruby-109</loc>
     <lastmod>2015-03-08T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/03/01/greenruby-108</loc>
+    <loc>http://localhost:1313/2015/03/01/greenruby-108</loc>
     <lastmod>2015-03-01T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/02/22/greenruby-107</loc>
+    <loc>http://localhost:1313/2015/02/22/greenruby-107</loc>
     <lastmod>2015-02-22T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/02/08/greenruby-105</loc>
+    <loc>http://localhost:1313/2015/02/08/greenruby-105</loc>
     <lastmod>2015-02-08T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/02/01/greenruby-104</loc>
+    <loc>http://localhost:1313/2015/02/01/greenruby-104</loc>
     <lastmod>2015-02-01T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/01/25/greenruby-103</loc>
+    <loc>http://localhost:1313/2015/01/25/greenruby-103</loc>
     <lastmod>2015-01-25T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/01/18/greenruby-102</loc>
+    <loc>http://localhost:1313/2015/01/18/greenruby-102</loc>
     <lastmod>2015-01-18T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/01/11/greenruby-101</loc>
+    <loc>http://localhost:1313/2015/01/11/greenruby-101</loc>
     <lastmod>2015-01-11T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2015/01/04/greenruby-100</loc>
+    <loc>http://localhost:1313/2015/01/04/greenruby-100</loc>
     <lastmod>2015-01-04T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/09/10/console-columns</loc>
+    <loc>http://localhost:1313/2014/09/10/console-columns</loc>
     <lastmod>2014-09-10T12:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/09/10/pretty-json</loc>
+    <loc>http://localhost:1313/2014/09/10/pretty-json</loc>
     <lastmod>2014-09-10T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/08/07/digitalocean-cli</loc>
+    <loc>http://localhost:1313/2014/08/07/digitalocean-cli</loc>
     <lastmod>2014-08-07T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/07/11/tree-command</loc>
+    <loc>http://localhost:1313/2014/07/11/tree-command</loc>
     <lastmod>2014-07-11T14:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/07/04/sql-in-a-shell</loc>
+    <loc>http://localhost:1313/2014/07/04/sql-in-a-shell</loc>
     <lastmod>2014-07-04T14:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/06/26/knife-remote-command</loc>
+    <loc>http://localhost:1313/2014/06/26/knife-remote-command</loc>
     <lastmod>2014-06-26T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/06/19/less-first</loc>
+    <loc>http://localhost:1313/2014/06/19/less-first</loc>
     <lastmod>2014-06-19T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/06/12/s3-backups</loc>
+    <loc>http://localhost:1313/2014/06/12/s3-backups</loc>
     <lastmod>2014-06-12T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/06/04/make-a-gem</loc>
+    <loc>http://localhost:1313/2014/06/04/make-a-gem</loc>
     <lastmod>2014-06-04T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</loc>
+    <loc>http://localhost:1313/2014/05/27/gem-reverse-dependencies</loc>
     <lastmod>2014-05-27T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/05/22/hackpad-cli</loc>
+    <loc>http://localhost:1313/2014/05/22/hackpad-cli</loc>
     <lastmod>2014-05-22T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles</loc>
+    <loc>http://localhost:1313/2014/05/15/eddie-vim-and-rcfiles</loc>
     <lastmod>2014-05-15T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext</loc>
+    <loc>http://localhost:1313/2014/05/08/dictionnary-in-sublimetext</loc>
     <lastmod>2014-05-08T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2014/05/01/ssh-to-socket</loc>
+    <loc>http://localhost:1313/2014/05/01/ssh-to-socket</loc>
     <lastmod>2014-05-01T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2013/04/07/about-green-ruby</loc>
+    <loc>http://localhost:1313/2013/04/07/about-green-ruby</loc>
     <lastmod>2013-04-07T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204</loc>
+    <loc>http://localhost:1313/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204</loc>
     <lastmod>2013-03-22T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2013/02/10/geeky-podcasts</loc>
+    <loc>http://localhost:1313/2013/02/10/geeky-podcasts</loc>
     <lastmod>2013-02-10T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2012/12/10/rubyconf-2012</loc>
+    <loc>http://localhost:1313/2012/12/10/rubyconf-2012</loc>
     <lastmod>2012-12-10T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs</loc>
+    <loc>http://localhost:1313/2012/10/28/sublimetext2-plugins-sshfs</loc>
     <lastmod>2012-10-28T09:10:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.mose.com/2012/09/16/rubygems-back-on-twitter</loc>
+    <loc>http://localhost:1313/2012/09/16/rubygems-back-on-twitter</loc>
     <lastmod>2012-09-16T09:10:31+08:00</lastmod>
   </url>
   

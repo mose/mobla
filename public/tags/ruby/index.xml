@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Moselog</title>
-    <link>http://localhost:1313/tags/ruby/</link>
+    <link>http://blog.mose.com/tags/ruby/</link>
     <description>Recent content in Ruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 113</title>
-      <link>http://localhost:1313/2015/04/05/greenruby-113</link>
+      <link>http://blog.mose.com/2015/04/05/greenruby-113</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/04/05/greenruby-113</guid>
+      <guid>http://blog.mose.com/2015/04/05/greenruby-113</guid>
       <description>
 
 &lt;h2 id=&#34;multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98&#34;&gt;Multiple inheritance simulation&lt;/h2&gt;
@@ -44,10 +44,10 @@ discovered this vaping practice in geeks circles.&lt;/p&gt;
     
     <item>
       <title>Greenruby 109</title>
-      <link>http://localhost:1313/2015/03/08/greenruby-109</link>
+      <link>http://blog.mose.com/2015/03/08/greenruby-109</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/03/08/greenruby-109</guid>
+      <guid>http://blog.mose.com/2015/03/08/greenruby-109</guid>
       <description>
 
 &lt;h2 id=&#34;about-blogging:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;About blogging&lt;/h2&gt;
@@ -101,10 +101,10 @@ taste.&lt;/p&gt;
     
     <item>
       <title>Greenruby 108</title>
-      <link>http://localhost:1313/2015/03/01/greenruby-108</link>
+      <link>http://blog.mose.com/2015/03/01/greenruby-108</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/03/01/greenruby-108</guid>
+      <guid>http://blog.mose.com/2015/03/01/greenruby-108</guid>
       <description>
 
 &lt;h2 id=&#34;working-abroad:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Working abroad&lt;/h2&gt;
@@ -139,10 +139,10 @@ in april, in Atlanta this year.&lt;/p&gt;
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://localhost:1313/2015/01/18/greenruby-102</link>
+      <link>http://blog.mose.com/2015/01/18/greenruby-102</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/01/18/greenruby-102</guid>
+      <guid>http://blog.mose.com/2015/01/18/greenruby-102</guid>
       <description>
 
 &lt;h2 id=&#34;while42:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;While42&lt;/h2&gt;
@@ -188,10 +188,10 @@ my life!&lt;/p&gt;
     
     <item>
       <title>S3 backups</title>
-      <link>http://localhost:1313/2014/06/12/s3-backups</link>
+      <link>http://blog.mose.com/2014/06/12/s3-backups</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/12/s3-backups</guid>
+      <guid>http://blog.mose.com/2014/06/12/s3-backups</guid>
       <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
 
 &lt;ul&gt;
@@ -281,10 +281,10 @@ done
     
     <item>
       <title>Make a gem</title>
-      <link>http://localhost:1313/2014/06/04/make-a-gem</link>
+      <link>http://blog.mose.com/2014/06/04/make-a-gem</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/04/make-a-gem</guid>
+      <guid>http://blog.mose.com/2014/06/04/make-a-gem</guid>
       <description>
 
 &lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
@@ -335,10 +335,10 @@ chmod 0600 ~/.gem/credentials
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://localhost:1313/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/27/gem-reverse-dependencies</guid>
+      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</guid>
       <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
@@ -384,10 +384,10 @@ devise:  422
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://localhost:1313/2014/05/22/hackpad-cli</link>
+      <link>http://blog.mose.com/2014/05/22/hackpad-cli</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/22/hackpad-cli</guid>
+      <guid>http://blog.mose.com/2014/05/22/hackpad-cli</guid>
       <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -398,10 +398,10 @@ devise:  422
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://localhost:1313/2013/02/10/geeky-podcasts</link>
+      <link>http://blog.mose.com/2013/02/10/geeky-podcasts</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/02/10/geeky-podcasts</guid>
+      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts</guid>
       <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
 
 &lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
@@ -430,10 +430,10 @@ devise:  422
     
     <item>
       <title>RubyConf 2012</title>
-      <link>http://localhost:1313/2012/12/10/rubyconf-2012</link>
+      <link>http://blog.mose.com/2012/12/10/rubyconf-2012</link>
       <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2012/12/10/rubyconf-2012</guid>
+      <guid>http://blog.mose.com/2012/12/10/rubyconf-2012</guid>
       <description>&lt;div class=&#34;gallery&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 
 
@@ -465,11 +465,11 @@ devise:  422
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313//css/photoswipe.css&#34;&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313//css/photoswipe-skin/default-skin.css&#34;&gt;
-&lt;script src=&#34;http://localhost:1313//js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://localhost:1313//js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://localhost:1313//js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://blog.mose.com/css/photoswipe.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://blog.mose.com/css/photoswipe-skin/default-skin.css&#34;&gt;
+&lt;script src=&#34;http://blog.mose.com/js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://blog.mose.com/js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://blog.mose.com/js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
 
 &lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
   &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;

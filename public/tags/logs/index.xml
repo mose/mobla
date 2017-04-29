@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logs on Moselog</title>
-    <link>http://localhost:1313/tags/logs/</link>
+    <link>http://blog.mose.com/tags/logs/</link>
     <description>Recent content in Logs on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Jan 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/logs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/logs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 101</title>
-      <link>http://localhost:1313/2015/01/11/greenruby-101</link>
+      <link>http://blog.mose.com/2015/01/11/greenruby-101</link>
       <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/01/11/greenruby-101</guid>
+      <guid>http://blog.mose.com/2015/01/11/greenruby-101</guid>
       <description>
 
 &lt;h2 id=&#34;1000-subscribers:dfd863a69df72c13bbe5f0b5d11c54ce&#34;&gt;1000 subscribers&lt;/h2&gt;

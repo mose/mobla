@@ -6,8 +6,90 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Apr 2017 22:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 May 2017 20:25:00 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I came to collective intelligence</title>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <description>
+
+&lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.
+But this comes from an old story that I thought I should make public first.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-origins:ea7330696100fc7495594863651b3c82&#34;&gt;The origins&lt;/h2&gt;
+
+&lt;p&gt;When I first began to program web applications, it was mostly for my own needs
+as an activist (freedom of speech on internet, cryptography, and such matters).
+Around 1998 I had a fully working solution called &amp;lsquo;Collaborative writer&amp;rsquo; or
+&lt;a href=&#34;https://sourceforge.net/projects/cwriter/&#34;&gt;cWriter&lt;/a&gt; for short, written in PHP. It was like a sort of wiki geared towards
+small groups self-organization.&lt;/p&gt;
+
+&lt;p&gt;When I got to Claranet I deployed it as an internal solution, and worked on a
+full company intranet called &amp;lsquo;in&amp;rsquo;. It was the occasion to release cWriter as
+open source in 2000 on Sourceforge.&lt;/p&gt;
+
+&lt;p&gt;At that time it appeared obvious that my area of preference was about engineering
+collaborative work. I was putting a lot of thoughts into that. I had this clear
+understanding that the tool shapes the usages, especially in this new realm that
+was internet communication.&lt;/p&gt;
+
+&lt;p&gt;Later on, I dedicated my time in various projects, mostly &lt;a href=&#34;https://tiki.org/mose&#34;&gt;Tikiwiki groupware&lt;/a&gt; in 2003.
+That experience was also rich in valuable experiments. I became leader in that community
+because being unemployed at that time, I took the occasion to just invest time in
+open source (being payed by labor insurance money). And I was just very prolific.
+I established various bases for that community that still thrives today. I had a
+&lt;a href=&#34;https://tiki.org/Webinar+2012+10&#34;&gt;recorded interview&lt;/a&gt; with the guys for the 10 years for the project in 2012.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-discovery:ea7330696100fc7495594863651b3c82&#34;&gt;The discovery&lt;/h2&gt;
+
+&lt;p&gt;Somewhere in 2004 I met with &lt;a href=&#34;http://noubel.com/&#34;&gt;JF Noubel&lt;/a&gt;, that had some need for help on his own Tikiwiki
+instance, called thetransitionner.org. His website (not available anymore nowadays)
+was dedicated to promotion and exploration of &lt;a href=&#34;https://en.wikipedia.org/wiki/Collective_intelligence&#34;&gt;Collective Intelligence&lt;/a&gt;, following the work,
+among others, of &lt;a href=&#34;https://en.wikipedia.org/wiki/Pierre_L%C3%A9vy&#34;&gt;Pierre Lévy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I quickly identified this area of research as something that I was practicing and
+aiming at, without having formally identified it. So I got more and more interested
+into that field in the following years.&lt;/p&gt;
+
+&lt;p&gt;Jean-Francois became a friend, his approach evolved a lot but I still got stuck with
+his &lt;a href=&#34;http://publishing.yudu.com/Library/Arswi/CollectiveIntelligen/resources/index.htm?skipFlashCheck=true&#34;&gt;original presentation&lt;/a&gt; describing the basics of Collective Intelligence.
+Nowadays JF engaged himself in a very deep personal change He&amp;rsquo;s still advocating for
+collective intelligence, but he&amp;rsquo;s now very focused on personal development, which is
+less in my scope as an engineer.&lt;/p&gt;
+
+&lt;p&gt;Anyways it led me to some other kind of activism, revolving around some alternative currency
+projects (like &lt;a href=&#34;http://openmoney.org/&#34;&gt;openmoney&lt;/a&gt;), other projects concerning governance (like democracy 2.0,
+from Mikael Nordfors cited in the &lt;a href=&#34;https://archive.org/stream/eo_Collective_Intelligence/Collective_Intelligence_djvu.txt&#34;&gt;transcript on archive.org&lt;/a&gt;), and various other topics
+that would be too long to list here.&lt;/p&gt;
+
+&lt;p&gt;Ultimately it led to get involved in &lt;a href=&#34;http://angenius.org/tiki-index.php&#34;&gt;Angenius&lt;/a&gt; with &lt;a href=&#34;https://fr.wikipedia.org/wiki/Thanh_Nghiem&#34;&gt;Than Nghiem&lt;/a&gt; in a background of
+sustainable development between 2006 and 2008. Including going to live in a farm in Normandy.
+Which was amazing but I was just not made for it.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-migration:ea7330696100fc7495594863651b3c82&#34;&gt;The migration&lt;/h2&gt;
+
+&lt;p&gt;In 2008 I decided to leave France and go live in Taiwan. I wanted to take a break and
+learn Chinese. It was my decision for my 40th birthday. Since then I got various jobs in
+development and then in system administration, grinding more programming languages and
+technical skills. But I still kept all this time the background thinking on
+collective intelligence.&lt;/p&gt;
+
+&lt;p&gt;What I wanted to experience was just another cultural background. I wanted to see patterns
+a little better about open source communities and collaborative work in a different context.
+Well. This could be the topic for another post. I got some surprises.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:ea7330696100fc7495594863651b3c82&#34;&gt;What&amp;rsquo;s next?&lt;/h2&gt;
+
+&lt;p&gt;Now, 9 years after, I feel it&amp;rsquo;s more than time I get back into the real meat. Well,
+I didn&amp;rsquo;t live like an hermit, I&amp;rsquo;m involved in various local and global communities.
+But I feel I could share a little more about what I learned in my past experiments.
+Now that I reach my 50&amp;rsquo;s, maybe I just feel like I have to begin writing stuff.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Interviews approach</title>
@@ -550,54 +632,6 @@ considers its commands as data rather than hard-coded pre-conceived path for
 the information to flow.&lt;/p&gt;
 
 &lt;p&gt;If you know some tools that already do that, can you fire me a mail?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 181</title>
-      <link>http://blog.mose.com/2016/07/24/greenruby-181</link>
-      <pubDate>Sun, 24 Jul 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/07/24/greenruby-181</guid>
-      <description>
-
-&lt;h2 id=&#34;innovation-and-consensus:d227510bfc1c353e16b44869362b5410&#34;&gt;Innovation and Consensus&lt;/h2&gt;
-
-&lt;p&gt;Last week I got to check out 2 javascript frontend frameworks, &lt;a href=&#34;https://github.com/yoshuawuyts/choo&#34;&gt;Choo&lt;/a&gt;
-(the cute framwework) and &lt;a href=&#34;http://cycle.js.org/&#34;&gt;Cycle.js&lt;/a&gt; (the streams power). It feels
-that nowadays React is eating the frontend world, but there is actually a lot
-of non-marginal alternatives. It made me think that there is something tricky
-with the process of innovation. It is born from disagreement. It feeds with
-discontent.&lt;/p&gt;
-
-&lt;p&gt;Those frameworks are born from the refusal to consider React as a consensus,
-hence it generates an alternative path, exploring different paradigms. In my
-opinion, and from an global point of view, it&amp;rsquo;s a sign of vivacity of an
-ecosystem. Diversity of species guarantees a larger span of choice for the
-natural selection and a faster evolution.&lt;/p&gt;
-
-&lt;p&gt;But consensus and normative approaches have so many virtues. Damn, this is
-tricky. Well, here is the catch. Unicity in the software ecosystem creates
-stability, which in turn creates comfort for the actors involved in the
-industry. Habits get stronger, mobility is easier, interoperability leads to
-bigger systems with long life-cycles. This is good.&lt;/p&gt;
-
-&lt;p&gt;On another hand diversity creates instability, challenges the developers and
-makes it harder to find common grounds. It favors exploration and smaller
-systems with shorter life-cycles. In a diverse ecosystem, paradigms and new
-ideas are born and die quickly. And I think it&amp;rsquo;s a much more rich ecosystem.&lt;/p&gt;
-
-&lt;p&gt;For some reason this duality reminds me of the cathedral and the bazaar. It&amp;rsquo;s
-totally unrelated, actually, but maybe there is some kind of interesting
-parallel in this metaphor collision. But beyond that, there is a real
-antagonism for developers, and an opposing interest between the development
-workforce and the software as a living species.&lt;/p&gt;
-
-&lt;p&gt;And I have the feeling that on the long run, diversity and innovation win. So
-you better get used to the discomfort it brings. Train yourself to jump from
-one framework to another. Don&amp;rsquo;t let yourself getting lazy by going to the
-comfortable consensus systematically. This ability to cope with change is your
-best hope for staying current. Because the change if the way of the evolution.&lt;/p&gt;
 </description>
     </item>
     

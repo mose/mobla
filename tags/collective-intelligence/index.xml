@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collective Intelligence on Moselog</title>
-    <link>http://localhost:1313/tags/collective-intelligence/</link>
+    <link>http://blog.mose.com/tags/collective-intelligence/</link>
     <description>Recent content in Collective Intelligence on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.

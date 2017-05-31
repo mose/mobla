@@ -2,19 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mose on Moselog</title>
-    <link>http://blog.mose.com/tags/mose/</link>
+    <link>http://localhost:1313/tags/mose/</link>
     <description>Recent content in Mose on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/mose/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mose/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The virtues of transitions</title>
+      <link>http://localhost:1313/2017/05/31/the-virtues-of-transitions</link>
+      <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/2017/05/31/the-virtues-of-transitions</guid>
+      <description>
+
+&lt;p&gt;A collection of events occurred since my last post. I was really hoping to
+get some deep dive into writing more about collective intelligence, in the background.
+But various things came and distracted me from that initial trajectory.&lt;/p&gt;
+
+&lt;h2 id=&#34;hubot-revival:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Hubot revival&lt;/h2&gt;
+
+&lt;p&gt;First, there has been a revival of the &lt;a href=&#34;https://github.com/github/hubot&#34;&gt;Hubot project&lt;/a&gt;. I wrote a bunch of
+plugins for that chatbot for internal usage at Gandi in the past year. I have been poking
+around in the community complaining that it became some sort of abandonware. Issues on github
+were not addressed, PR unanswered, irc was silent.&lt;/p&gt;
+
+&lt;p&gt;Then one day 3 weeks ago, &lt;a href=&#34;https://github.com/bkeepers&#34;&gt;bkeepers&lt;/a&gt; came up and &lt;a href=&#34;https://github.com/github/hubot/blob/master/ROADMAP.md&#34;&gt;woke it up&lt;/a&gt;.
+It appears that now Github has plan for this codebase. They want to include it in its products
+more officially, says the rumour (nothing official yet). But it makes a lot of sense.
+So then he gathered people that could be involved in the revival of the project. I was
+contacted to join the core team. That&amp;rsquo;s what you get by nagging people.&lt;/p&gt;
+
+&lt;p&gt;Since then it has been quite great to clean up backlog, re-examine old ideas, help setup
+new process and tooling for community gardening. I never get tired to see how informal
+communities can shape up and self-organize.&lt;/p&gt;
+
+&lt;h2 id=&#34;quiting-is-not-a-bad-thing:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Quiting is not a bad thing&lt;/h2&gt;
+
+&lt;p&gt;Around the same time, I felt inspired by handing my resignation of my current job at Gandi.
+There is nothing wrong with the job, and most reasonable people could argue that I&amp;rsquo;m just stupid.
+But there are a combination of factors that led me to think I was not using my potential at
+full capacity.&lt;/p&gt;
+
+&lt;p&gt;Working on a large infrastructure as a sysadmin was great, but it&amp;rsquo;s pretty hard to build new things
+properly in the service industry. It&amp;rsquo;s always about contingency management, and reacting to the environment.
+It&amp;rsquo;s more about doing the fireman than the gardener. Well, honestly, I think it&amp;rsquo;s a question of intent
+and culture and that could have been addressed. But I didn&amp;rsquo;t see any hint that could let me think this
+environment would become intentional about gardening anytime soon.&lt;/p&gt;
+
+&lt;p&gt;So, out of the blue, I left. I chose a moment where there was no crisis, no trouble, no real reason
+to quit except a strong feeling that it was time to move on. That way, transition is painless, there
+is no frustration involved. I hate conflicts. My advice: never wait the burn out to make your move out.&lt;/p&gt;
+
+&lt;h2 id=&#34;green-ruby-end-of-life:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Green ruby end of life&lt;/h2&gt;
+
+&lt;p&gt;In the mood of transitionning, this week I proposed that we close the &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt; adventure.
+For some months Xenor has taken over the publication process. But he&amp;rsquo;s himself bunt out a bit.
+So after 4 years of publication, it&amp;rsquo;s time to close this properly and move on.&lt;/p&gt;
+
+&lt;p&gt;That weekly links collection was a fun exercise. And I&amp;rsquo;m really happy to have refused any business
+side track on this operation, it would have been much harder to close.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-next:195c338923f21c367264a5b5fb00e8a9&#34;&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;I decided that I could stay funemployed for a while (that&amp;rsquo;s the proper term, right?). I&amp;rsquo;m planning
+to look around, play with techs, talk with friends, hold on any decision to engage in anything.
+It&amp;rsquo;s time to re-assess my roadmap. This is what is great in transitions.
+By losing contact with the ground, you can feel the direction of the wind.&lt;/p&gt;
+
+&lt;p&gt;Maybe I will get back to entrepreneurship, and setup some business venture. Maybe I will freelance for a while.
+Maybe I will find a context in a company where I feel comfortable contributing. But honestly I have no clue.
+And yet, this feels great.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-back-to-old-friends:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Getting back to old friends&lt;/h2&gt;
+
+&lt;p&gt;In the first days after my decision to renounce my day job, I got back in contact with a lot of old friends.
+Transitions have that side effect that you have to re-evaluate your environment, your network, your values.&lt;/p&gt;
+
+&lt;p&gt;Getting into a full-time job doesn&amp;rsquo;t prevent that, of course, but you cannot give the same attention.
+The center of gravity of an employed person is static. Now that I&amp;rsquo;m floating, I have to dedicate much more
+attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
+
+&lt;p&gt;I will certainly have occasion to talk about my adventures very soon. Maybe I will force myself to write more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Moselog</title>
-    <link>http://localhost:1313/tags/python/</link>
+    <link>http://blog.mose.com/tags/python/</link>
     <description>Recent content in Python on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jun 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 122</title>
-      <link>http://localhost:1313/2015/06/07/greenruby-122</link>
+      <link>http://blog.mose.com/2015/06/07/greenruby-122</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/06/07/greenruby-122</guid>
+      <guid>http://blog.mose.com/2015/06/07/greenruby-122</guid>
       <description>
 
 &lt;h2 id=&#34;thought-about-python-fron-a-rubyist:cdf97fab83b684f4dce127ec09f067df&#34;&gt;Thought about python fron a rubyist&lt;/h2&gt;

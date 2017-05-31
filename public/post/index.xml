@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Moselog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://blog.mose.com/post/</link>
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://localhost:1313/2017/05/31/the-virtues-of-transitions</link>
+      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/31/the-virtues-of-transitions</guid>
+      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</guid>
       <description>
 
 &lt;p&gt;A collection of events occurred since my last post. I was really hoping to
@@ -30,7 +30,7 @@ were not addressed, PR unanswered, irc was silent.&lt;/p&gt;
 
 &lt;p&gt;Then one day 3 weeks ago, &lt;a href=&#34;https://github.com/bkeepers&#34;&gt;bkeepers&lt;/a&gt; came up and &lt;a href=&#34;https://github.com/github/hubot/blob/master/ROADMAP.md&#34;&gt;woke it up&lt;/a&gt;.
 It appears that now Github has plan for this codebase. They want to include it in its products
-more officially, says the rumour (nothing official yet). But it makes a lot of sense.
+more officially, says the rumor (nothing official yet). But it makes a lot of sense.
 So then he gathered people that could be involved in the revival of the project. I was
 contacted to join the core team. That&amp;rsquo;s what you get by nagging people.&lt;/p&gt;
 
@@ -90,10 +90,10 @@ attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.
@@ -169,10 +169,10 @@ Now that I reach my 50&amp;rsquo;s, maybe I just feel like I have to begin writi
     
     <item>
       <title>The Interviews approach</title>
-      <link>http://localhost:1313/2017/04/29/the-interviews-approach</link>
+      <link>http://blog.mose.com/2017/04/29/the-interviews-approach</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/04/29/the-interviews-approach</guid>
+      <guid>http://blog.mose.com/2017/04/29/the-interviews-approach</guid>
       <description>
 
 &lt;h2 id=&#34;interview-based-knowledge-sharing:1b8340b7f1acd4b3212e7dd40ccc3d0c&#34;&gt;Interview-based knowledge sharing&lt;/h2&gt;
@@ -238,10 +238,10 @@ good output and generates a nice feeling in all parties involved.&lt;/p&gt;
     
     <item>
       <title>Getting back into writing</title>
-      <link>http://localhost:1313/2017/04/28/getting-back-into-writing</link>
+      <link>http://blog.mose.com/2017/04/28/getting-back-into-writing</link>
       <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/04/28/getting-back-into-writing</guid>
+      <guid>http://blog.mose.com/2017/04/28/getting-back-into-writing</guid>
       <description>
 
 &lt;h2 id=&#34;enough-sleeping:de01faa72149d30f4eb88db96f78a8dd&#34;&gt;Enough sleeping&lt;/h2&gt;
@@ -265,10 +265,10 @@ do it in silence.&lt;/p&gt;
     
     <item>
       <title>Greenruby 197</title>
-      <link>http://localhost:1313/2016/11/13/greenruby-197</link>
+      <link>http://blog.mose.com/2016/11/13/greenruby-197</link>
       <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/11/13/greenruby-197</guid>
+      <guid>http://blog.mose.com/2016/11/13/greenruby-197</guid>
       <description>
 
 &lt;h2 id=&#34;my-lovely-chatbots-sick-already:eae14584655a9a501cab4772b62674f0&#34;&gt;My lovely Chatbots, sick already?&lt;/h2&gt;
@@ -297,10 +297,10 @@ robotic phone calls. Chatbots are going to be the new color of spam?&lt;/p&gt;
     
     <item>
       <title>Greenruby 193</title>
-      <link>http://localhost:1313/2016/10/16/greenruby-193</link>
+      <link>http://blog.mose.com/2016/10/16/greenruby-193</link>
       <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/16/greenruby-193</guid>
+      <guid>http://blog.mose.com/2016/10/16/greenruby-193</guid>
       <description>
 
 &lt;h2 id=&#34;is-facebook-the-new-npm:33c6cbaaffa1f33ba49e5064e8787b21&#34;&gt;Is Facebook the new NPM?&lt;/h2&gt;
@@ -332,10 +332,10 @@ I have the feeling it is not going to happen.&lt;/p&gt;
     
     <item>
       <title>Greenruby 192</title>
-      <link>http://localhost:1313/2016/10/09/greenruby-192</link>
+      <link>http://blog.mose.com/2016/10/09/greenruby-192</link>
       <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/09/greenruby-192</guid>
+      <guid>http://blog.mose.com/2016/10/09/greenruby-192</guid>
       <description>
 
 &lt;h2 id=&#34;the-js-toolback-hell:151a80b7575169c1b4c5c3e795aacfee&#34;&gt;The JS toolback hell&lt;/h2&gt;
@@ -364,10 +364,10 @@ solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt
     
     <item>
       <title>Greenruby 191</title>
-      <link>http://localhost:1313/2016/10/02/greenruby-191</link>
+      <link>http://blog.mose.com/2016/10/02/greenruby-191</link>
       <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/02/greenruby-191</guid>
+      <guid>http://blog.mose.com/2016/10/02/greenruby-191</guid>
       <description>
 
 &lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
@@ -383,10 +383,10 @@ it&amp;rsquo;s just me?&lt;/p&gt;
     
     <item>
       <title>Greenruby 190</title>
-      <link>http://localhost:1313/2016/09/25/greenruby-190</link>
+      <link>http://blog.mose.com/2016/09/25/greenruby-190</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/25/greenruby-190</guid>
+      <guid>http://blog.mose.com/2016/09/25/greenruby-190</guid>
       <description>
 
 &lt;h2 id=&#34;a-stress-free-life:210225183e37db0ce5a2649da43cbec4&#34;&gt;A stress-free life&lt;/h2&gt;
@@ -428,10 +428,10 @@ years now and I can&amp;rsquo;t remember last time I felt stressed.&lt;/p&gt;
     
     <item>
       <title>Greenruby 189</title>
-      <link>http://localhost:1313/2016/09/18/greenruby-189</link>
+      <link>http://blog.mose.com/2016/09/18/greenruby-189</link>
       <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/18/greenruby-189</guid>
+      <guid>http://blog.mose.com/2016/09/18/greenruby-189</guid>
       <description>
 
 &lt;h2 id=&#34;the-art-of-learning:25cf5a2664fd7aa4f4e5aff03248e656&#34;&gt;The art of learning&lt;/h2&gt;
@@ -461,10 +461,10 @@ soon. hahaha.&lt;/p&gt;
     
     <item>
       <title>Greenruby 188</title>
-      <link>http://localhost:1313/2016/09/11/greenruby-188</link>
+      <link>http://blog.mose.com/2016/09/11/greenruby-188</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/11/greenruby-188</guid>
+      <guid>http://blog.mose.com/2016/09/11/greenruby-188</guid>
       <description>
 
 &lt;h2 id=&#34;observability-and-digestibility:a97c278ef841935dd0d0e1b0e41782ad&#34;&gt;Observability and Digestibility&lt;/h2&gt;
@@ -490,10 +490,10 @@ containers worlds there is something like that. Is there not?&lt;/p&gt;
     
     <item>
       <title>Greenruby 187</title>
-      <link>http://localhost:1313/2016/09/04/greenruby-187</link>
+      <link>http://blog.mose.com/2016/09/04/greenruby-187</link>
       <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/04/greenruby-187</guid>
+      <guid>http://blog.mose.com/2016/09/04/greenruby-187</guid>
       <description>
 
 &lt;h2 id=&#34;get-out:7741c696b47b149abfe2c5fda320314d&#34;&gt;Get out&lt;/h2&gt;
@@ -513,10 +513,10 @@ out!&lt;/p&gt;
     
     <item>
       <title>Greenruby 186</title>
-      <link>http://localhost:1313/2016/08/28/greenruby-186</link>
+      <link>http://blog.mose.com/2016/08/28/greenruby-186</link>
       <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/08/28/greenruby-186</guid>
+      <guid>http://blog.mose.com/2016/08/28/greenruby-186</guid>
       <description>
 
 &lt;h2 id=&#34;to-be-remote-or-not-to-be-remote:1376d8ec44d87fc0206977e0453baca2&#34;&gt;To be remote or not to be remote &amp;hellip;&lt;/h2&gt;
@@ -574,10 +574,10 @@ tooling they prepared for it.&lt;/p&gt;
     
     <item>
       <title>Greenruby 185</title>
-      <link>http://localhost:1313/2016/08/21/greenruby-185</link>
+      <link>http://blog.mose.com/2016/08/21/greenruby-185</link>
       <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/08/21/greenruby-185</guid>
+      <guid>http://blog.mose.com/2016/08/21/greenruby-185</guid>
       <description>
 
 &lt;h2 id=&#34;working-out:1ea5a5016d2b050f17a7e1c15a7c459b&#34;&gt;Working out&lt;/h2&gt;
@@ -612,10 +612,10 @@ benefits, even when you don&amp;rsquo;t have an audience. You should try it.&lt;
     
     <item>
       <title>Greenruby 183</title>
-      <link>http://localhost:1313/2016/08/07/greenruby-183</link>
+      <link>http://blog.mose.com/2016/08/07/greenruby-183</link>
       <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/08/07/greenruby-183</guid>
+      <guid>http://blog.mose.com/2016/08/07/greenruby-183</guid>
       <description>
 
 &lt;h2 id=&#34;the-reign-of-the-virtual:161a22387a1160601decdc89dcca85bc&#34;&gt;The reign of the virtual&lt;/h2&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ghost on Moselog</title>
-    <link>http://localhost:1313/tags/ghost/</link>
+    <link>http://blog.mose.com/tags/ghost/</link>
     <description>Recent content in Ghost on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Feb 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 104</title>
-      <link>http://localhost:1313/2015/02/01/greenruby-104</link>
+      <link>http://blog.mose.com/2015/02/01/greenruby-104</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/02/01/greenruby-104</guid>
+      <guid>http://blog.mose.com/2015/02/01/greenruby-104</guid>
       <description>
 
 &lt;h2 id=&#34;ghost:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Ghost&lt;/h2&gt;

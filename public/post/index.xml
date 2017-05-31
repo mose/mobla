@@ -2,19 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Moselog</title>
-    <link>http://blog.mose.com/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The virtues of transitions</title>
+      <link>http://localhost:1313/2017/05/31/the-virtues-of-transitions</link>
+      <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/2017/05/31/the-virtues-of-transitions</guid>
+      <description>
+
+&lt;p&gt;A collection of events occurred since my last post. I was really hoping to
+get some deep dive into writing more about collective intelligence, in the background.
+But various things came and distracted me from that initial trajectory.&lt;/p&gt;
+
+&lt;h2 id=&#34;hubot-revival:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Hubot revival&lt;/h2&gt;
+
+&lt;p&gt;First, there has been a revival of the &lt;a href=&#34;https://github.com/github/hubot&#34;&gt;Hubot project&lt;/a&gt;. I wrote a bunch of
+plugins for that chatbot for internal usage at Gandi in the past year. I have been poking
+around in the community complaining that it became some sort of abandonware. Issues on github
+were not addressed, PR unanswered, irc was silent.&lt;/p&gt;
+
+&lt;p&gt;Then one day 3 weeks ago, &lt;a href=&#34;https://github.com/bkeepers&#34;&gt;bkeepers&lt;/a&gt; came up and &lt;a href=&#34;https://github.com/github/hubot/blob/master/ROADMAP.md&#34;&gt;woke it up&lt;/a&gt;.
+It appears that now Github has plan for this codebase. They want to include it in its products
+more officially, says the rumour (nothing official yet). But it makes a lot of sense.
+So then he gathered people that could be involved in the revival of the project. I was
+contacted to join the core team. That&amp;rsquo;s what you get by nagging people.&lt;/p&gt;
+
+&lt;p&gt;Since then it has been quite great to clean up backlog, re-examine old ideas, help setup
+new process and tooling for community gardening. I never get tired to see how informal
+communities can shape up and self-organize.&lt;/p&gt;
+
+&lt;h2 id=&#34;quiting-is-not-a-bad-thing:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Quiting is not a bad thing&lt;/h2&gt;
+
+&lt;p&gt;Around the same time, I felt inspired by handing my resignation of my current job at Gandi.
+There is nothing wrong with the job, and most reasonable people could argue that I&amp;rsquo;m just stupid.
+But there are a combination of factors that led me to think I was not using my potential at
+full capacity.&lt;/p&gt;
+
+&lt;p&gt;Working on a large infrastructure as a sysadmin was great, but it&amp;rsquo;s pretty hard to build new things
+properly in the service industry. It&amp;rsquo;s always about contingency management, and reacting to the environment.
+It&amp;rsquo;s more about doing the fireman than the gardener. Well, honestly, I think it&amp;rsquo;s a question of intent
+and culture and that could have been addressed. But I didn&amp;rsquo;t see any hint that could let me think this
+environment would become intentional about gardening anytime soon.&lt;/p&gt;
+
+&lt;p&gt;So, out of the blue, I left. I chose a moment where there was no crisis, no trouble, no real reason
+to quit except a strong feeling that it was time to move on. That way, transition is painless, there
+is no frustration involved. I hate conflicts. My advice: never wait the burn out to make your move out.&lt;/p&gt;
+
+&lt;h2 id=&#34;green-ruby-end-of-life:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Green ruby end of life&lt;/h2&gt;
+
+&lt;p&gt;In the mood of transitionning, this week I proposed that we close the &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt; adventure.
+For some months Xenor has taken over the publication process. But he&amp;rsquo;s himself bunt out a bit.
+So after 4 years of publication, it&amp;rsquo;s time to close this properly and move on.&lt;/p&gt;
+
+&lt;p&gt;That weekly links collection was a fun exercise. And I&amp;rsquo;m really happy to have refused any business
+side track on this operation, it would have been much harder to close.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-next:195c338923f21c367264a5b5fb00e8a9&#34;&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;I decided that I could stay funemployed for a while (that&amp;rsquo;s the proper term, right?). I&amp;rsquo;m planning
+to look around, play with techs, talk with friends, hold on any decision to engage in anything.
+It&amp;rsquo;s time to re-assess my roadmap. This is what is great in transitions.
+By losing contact with the ground, you can feel the direction of the wind.&lt;/p&gt;
+
+&lt;p&gt;Maybe I will get back to entrepreneurship, and setup some business venture. Maybe I will freelance for a while.
+Maybe I will find a context in a company where I feel comfortable contributing. But honestly I have no clue.
+And yet, this feels great.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-back-to-old-friends:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Getting back to old friends&lt;/h2&gt;
+
+&lt;p&gt;In the first days after my decision to renounce my day job, I got back in contact with a lot of old friends.
+Transitions have that side effect that you have to re-evaluate your environment, your network, your values.&lt;/p&gt;
+
+&lt;p&gt;Getting into a full-time job doesn&amp;rsquo;t prevent that, of course, but you cannot give the same attention.
+The center of gravity of an employed person is static. Now that I&amp;rsquo;m floating, I have to dedicate much more
+attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
+
+&lt;p&gt;I will certainly have occasion to talk about my adventures very soon. Maybe I will force myself to write more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.
@@ -90,10 +169,10 @@ Now that I reach my 50&amp;rsquo;s, maybe I just feel like I have to begin writi
     
     <item>
       <title>The Interviews approach</title>
-      <link>http://blog.mose.com/2017/04/29/the-interviews-approach</link>
+      <link>http://localhost:1313/2017/04/29/the-interviews-approach</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/29/the-interviews-approach</guid>
+      <guid>http://localhost:1313/2017/04/29/the-interviews-approach</guid>
       <description>
 
 &lt;h2 id=&#34;interview-based-knowledge-sharing:1b8340b7f1acd4b3212e7dd40ccc3d0c&#34;&gt;Interview-based knowledge sharing&lt;/h2&gt;
@@ -159,10 +238,10 @@ good output and generates a nice feeling in all parties involved.&lt;/p&gt;
     
     <item>
       <title>Getting back into writing</title>
-      <link>http://blog.mose.com/2017/04/28/getting-back-into-writing</link>
+      <link>http://localhost:1313/2017/04/28/getting-back-into-writing</link>
       <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/28/getting-back-into-writing</guid>
+      <guid>http://localhost:1313/2017/04/28/getting-back-into-writing</guid>
       <description>
 
 &lt;h2 id=&#34;enough-sleeping:de01faa72149d30f4eb88db96f78a8dd&#34;&gt;Enough sleeping&lt;/h2&gt;
@@ -186,10 +265,10 @@ do it in silence.&lt;/p&gt;
     
     <item>
       <title>Greenruby 197</title>
-      <link>http://blog.mose.com/2016/11/13/greenruby-197</link>
+      <link>http://localhost:1313/2016/11/13/greenruby-197</link>
       <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/11/13/greenruby-197</guid>
+      <guid>http://localhost:1313/2016/11/13/greenruby-197</guid>
       <description>
 
 &lt;h2 id=&#34;my-lovely-chatbots-sick-already:eae14584655a9a501cab4772b62674f0&#34;&gt;My lovely Chatbots, sick already?&lt;/h2&gt;
@@ -218,10 +297,10 @@ robotic phone calls. Chatbots are going to be the new color of spam?&lt;/p&gt;
     
     <item>
       <title>Greenruby 193</title>
-      <link>http://blog.mose.com/2016/10/16/greenruby-193</link>
+      <link>http://localhost:1313/2016/10/16/greenruby-193</link>
       <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/16/greenruby-193</guid>
+      <guid>http://localhost:1313/2016/10/16/greenruby-193</guid>
       <description>
 
 &lt;h2 id=&#34;is-facebook-the-new-npm:33c6cbaaffa1f33ba49e5064e8787b21&#34;&gt;Is Facebook the new NPM?&lt;/h2&gt;
@@ -253,10 +332,10 @@ I have the feeling it is not going to happen.&lt;/p&gt;
     
     <item>
       <title>Greenruby 192</title>
-      <link>http://blog.mose.com/2016/10/09/greenruby-192</link>
+      <link>http://localhost:1313/2016/10/09/greenruby-192</link>
       <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/09/greenruby-192</guid>
+      <guid>http://localhost:1313/2016/10/09/greenruby-192</guid>
       <description>
 
 &lt;h2 id=&#34;the-js-toolback-hell:151a80b7575169c1b4c5c3e795aacfee&#34;&gt;The JS toolback hell&lt;/h2&gt;
@@ -285,10 +364,10 @@ solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt
     
     <item>
       <title>Greenruby 191</title>
-      <link>http://blog.mose.com/2016/10/02/greenruby-191</link>
+      <link>http://localhost:1313/2016/10/02/greenruby-191</link>
       <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/02/greenruby-191</guid>
+      <guid>http://localhost:1313/2016/10/02/greenruby-191</guid>
       <description>
 
 &lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
@@ -304,10 +383,10 @@ it&amp;rsquo;s just me?&lt;/p&gt;
     
     <item>
       <title>Greenruby 190</title>
-      <link>http://blog.mose.com/2016/09/25/greenruby-190</link>
+      <link>http://localhost:1313/2016/09/25/greenruby-190</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/25/greenruby-190</guid>
+      <guid>http://localhost:1313/2016/09/25/greenruby-190</guid>
       <description>
 
 &lt;h2 id=&#34;a-stress-free-life:210225183e37db0ce5a2649da43cbec4&#34;&gt;A stress-free life&lt;/h2&gt;
@@ -349,10 +428,10 @@ years now and I can&amp;rsquo;t remember last time I felt stressed.&lt;/p&gt;
     
     <item>
       <title>Greenruby 189</title>
-      <link>http://blog.mose.com/2016/09/18/greenruby-189</link>
+      <link>http://localhost:1313/2016/09/18/greenruby-189</link>
       <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/18/greenruby-189</guid>
+      <guid>http://localhost:1313/2016/09/18/greenruby-189</guid>
       <description>
 
 &lt;h2 id=&#34;the-art-of-learning:25cf5a2664fd7aa4f4e5aff03248e656&#34;&gt;The art of learning&lt;/h2&gt;
@@ -382,10 +461,10 @@ soon. hahaha.&lt;/p&gt;
     
     <item>
       <title>Greenruby 188</title>
-      <link>http://blog.mose.com/2016/09/11/greenruby-188</link>
+      <link>http://localhost:1313/2016/09/11/greenruby-188</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/11/greenruby-188</guid>
+      <guid>http://localhost:1313/2016/09/11/greenruby-188</guid>
       <description>
 
 &lt;h2 id=&#34;observability-and-digestibility:a97c278ef841935dd0d0e1b0e41782ad&#34;&gt;Observability and Digestibility&lt;/h2&gt;
@@ -411,10 +490,10 @@ containers worlds there is something like that. Is there not?&lt;/p&gt;
     
     <item>
       <title>Greenruby 187</title>
-      <link>http://blog.mose.com/2016/09/04/greenruby-187</link>
+      <link>http://localhost:1313/2016/09/04/greenruby-187</link>
       <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/04/greenruby-187</guid>
+      <guid>http://localhost:1313/2016/09/04/greenruby-187</guid>
       <description>
 
 &lt;h2 id=&#34;get-out:7741c696b47b149abfe2c5fda320314d&#34;&gt;Get out&lt;/h2&gt;
@@ -434,10 +513,10 @@ out!&lt;/p&gt;
     
     <item>
       <title>Greenruby 186</title>
-      <link>http://blog.mose.com/2016/08/28/greenruby-186</link>
+      <link>http://localhost:1313/2016/08/28/greenruby-186</link>
       <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/28/greenruby-186</guid>
+      <guid>http://localhost:1313/2016/08/28/greenruby-186</guid>
       <description>
 
 &lt;h2 id=&#34;to-be-remote-or-not-to-be-remote:1376d8ec44d87fc0206977e0453baca2&#34;&gt;To be remote or not to be remote &amp;hellip;&lt;/h2&gt;
@@ -495,10 +574,10 @@ tooling they prepared for it.&lt;/p&gt;
     
     <item>
       <title>Greenruby 185</title>
-      <link>http://blog.mose.com/2016/08/21/greenruby-185</link>
+      <link>http://localhost:1313/2016/08/21/greenruby-185</link>
       <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/21/greenruby-185</guid>
+      <guid>http://localhost:1313/2016/08/21/greenruby-185</guid>
       <description>
 
 &lt;h2 id=&#34;working-out:1ea5a5016d2b050f17a7e1c15a7c459b&#34;&gt;Working out&lt;/h2&gt;
@@ -533,10 +612,10 @@ benefits, even when you don&amp;rsquo;t have an audience. You should try it.&lt;
     
     <item>
       <title>Greenruby 183</title>
-      <link>http://blog.mose.com/2016/08/07/greenruby-183</link>
+      <link>http://localhost:1313/2016/08/07/greenruby-183</link>
       <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/07/greenruby-183</guid>
+      <guid>http://localhost:1313/2016/08/07/greenruby-183</guid>
       <description>
 
 &lt;h2 id=&#34;the-reign-of-the-virtual:161a22387a1160601decdc89dcca85bc&#34;&gt;The reign of the virtual&lt;/h2&gt;
@@ -589,46 +668,6 @@ be used with very nefarious intents.&lt;/p&gt;
 
 &lt;p&gt;hrum. Well yeah, this is a rant, that&amp;rsquo;s nothing more. Not an essay, not a
 study. Just my guts getting spread over the table. Take it easy :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 182</title>
-      <link>http://blog.mose.com/2016/07/30/greenruby-182</link>
-      <pubDate>Sat, 30 Jul 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/07/30/greenruby-182</guid>
-      <description>
-
-&lt;h2 id=&#34;chatops-and-machine-learning:e9b36217e79099e03b1370ffadd11329&#34;&gt;Chatops and machine learning&lt;/h2&gt;
-
-&lt;p&gt;Since I slowly becomes the chatops specialist where I work, I get to think I
-want more. Since the beginning we have been interacting with programs
-essentially with graphical interfaces. First asynchronous if we think about
-the web, now more and more synchronous, but they are interfaces that are not
-human. They are designed for giving control to the operators of those
-interfaces.&lt;/p&gt;
-
-&lt;p&gt;But the more we advance in autonomy of our programs, the more we should trust
-them to sort the information by priorities. The interfaces like Siri, Echo,
-are much more &amp;lsquo;human&amp;rsquo; and conversational. It doesn&amp;rsquo;t take a genius to
-speculate that interfaces are going to die one day, except for very
-specialized usages, and more interaction will be just more conversational.&lt;/p&gt;
-
-&lt;p&gt;In the course of my development of interactive agents for technical needs, I
-noticed that adding just a little bit of intelligence and memory in those
-agents goes a long way in usability. Especially in chatops, a lot of the
-actions required from those agents are predicable and repetitive. The
-development of new features should follow the recognition of those patterns
-and shorten the path to accomplish some actions. That&amp;rsquo;s pretty much my job.&lt;/p&gt;
-
-&lt;p&gt;But coding this continually is not very cost effective. Tools also change,
-then patterns evolve. Now all I can think about is a way to design an irc bot
-that learns by itself. Some program that does real meta-programming and
-considers its commands as data rather than hard-coded pre-conceived path for
-the information to flow.&lt;/p&gt;
-
-&lt;p&gt;If you know some tools that already do that, can you fire me a mail?&lt;/p&gt;
 </description>
     </item>
     

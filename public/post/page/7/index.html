@@ -36,10 +36,10 @@
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
   <!--<![endif]-->
 
-  <link rel="stylesheet" href="http://blog.mose.com/css/all.min.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://blog.mose.com/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://localhost:1313//index.xml" />
 </head>
 <body>
 
@@ -48,7 +48,7 @@
   <div class="sidebar pure-u-1 pure-u-md-1-4">
   <div class="header">
     <hgroup>
-      <h1 class="brand-title"><a href="http://blog.mose.com">Moselog</a></h1>
+      <h1 class="brand-title"><a href="http://localhost:1313/">Moselog</a></h1>
       <h2 class="brand-tagline">Various rants from Mose.</h2>
     </hgroup>
 
@@ -65,7 +65,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="pure-button" href="http://blog.mose.com/index.xml"><i class="fa fa-rss"></i> rss</a>
+          <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
         </li>
         <li class="nav-item">
           <a class="pure-button" href="http://mose.com"><i class="fa fa-user-o"></i> about</a>
@@ -77,13 +77,13 @@
 <div class="pagination">
   <nav role="pagination" class="post-list-pagination">
     
-    <a href="http://blog.mose.com/post/page/6/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+    <a href="http://localhost:1313/post/page/6/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
     <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 11</span>
     
-    <a href="http://blog.mose.com/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+    <a href="http://localhost:1313/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
     </a>
     
@@ -100,6 +100,81 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-07-12
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-127.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-javascript" href="http://localhost:1313//tags/javascript">javascript</a><a class="post-tags post-tags-coding" href="http://localhost:1313//tags/coding">coding</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/2015/07/12/greenruby-127" class="post-title">Greenruby 127</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54">Javascript and thoughts on programming</h2>
+
+<p>Recently I&rsquo;ve been playing with Hubot plugins code in coffeescript for our
+company. That&rsquo;s a while I didn&rsquo;t do much js but I used it for a long time and
+I didn&rsquo;t find it too difficult to catch up. But for some reason, it brought me
+the same feeling I have each time I get back to that language. I feel dirty.
+Still I can do what I need to do, for sure, but I don&rsquo;t feel like a builder,
+more like an acrobat. And I&rsquo;m far from a purist.</p>
+
+<p>Some people talk about javascript taking over the world. But that language
+imho just was there at the right place at the right time. By having a runtime
+embedded in browsers and browsers libraries, it has been used to hijack the
+most used software on our computers and mobile devices, to transform them into
+richer clients. Along the way various layers were added to fulfill the need of
+software design, because javascript initial goal was merely DOM manipulation.</p>
+
+<p>The thing that always stroke me the most with javascript is that despite the
+efforts from ecmascript, it has no formal standard or documentation. It is
+pretty extensively documented, of course, but because the language is pushed
+forward by the implementations rather than from a standard body, it gets a bit
+messy.</p>
+
+<p>I saw a <a href="http://cube-drone.com/comics/c/relentless-persistence">drawing</a> this week that illustrates the mess quite well. It feels
+like Javascript is waiting for something to come replace it.</p>
+
+<p>But there is hope with ES6. Seems like in recent years the normative effort on
+the ecmascript standard got some more traction and some more press coverage.
+But I personally don&rsquo;t think it&rsquo;s going to bring the solution. I enjoyed
+reading the <a href="http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/">thoughts of Eric Elliot</a> on that topic but I&rsquo;m not sure
+he&rsquo;s right on everything. But what he&rsquo;s right about, is that there will be an
+after-javascript.</p>
+
+<p>Unless that after javascript doesn&rsquo;t arrive fast enough and gets useless by
+some new programming paradigm that may appear one day soon. I mean, in the
+next 10 years. At some point, like big data is too complex to be handled by
+human, programming will also get too complex and will be handled by
+algorithms. We already <a href="http://phys.org/news/2015-07-code-faster-expert.html">see it coming</a>. And all programmers will then
+become high end workflow designers or just play with antiquities.</p>
+
+<p>In this perspective, I think javascript is a great intermediary technology for
+the time being, given its pervasive aspect. It&rsquo;s far from satisfying, but it
+does the job. But the younger generation should keep an eye on higher level
+abstract approaches, like systems architectures, workflow logics, organization
+patterns, because imho that will drive software design in the next 10-20
+years.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-07-05
   <p class="post-meta">
     
@@ -110,7 +185,7 @@
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -119,7 +194,7 @@
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/07/05/greenruby-126" class="post-title">Greenruby 126</a>
+              <a href="http://localhost:1313/2015/07/05/greenruby-126" class="post-title">Greenruby 126</a>
             </header>
 
             <div class="post-description">
@@ -197,7 +272,7 @@ any effort to include you if you drag your feet.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-freebsd" href="http://blog.mose.com/tags/freebsd">freebsd</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-freebsd" href="http://localhost:1313//tags/freebsd">freebsd</a>
     
     
   </p>
@@ -206,7 +281,7 @@ any effort to include you if you drag your feet.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/06/28/greenruby-125" class="post-title">Greenruby 125</a>
+              <a href="http://localhost:1313/2015/06/28/greenruby-125" class="post-title">Greenruby 125</a>
             </header>
 
             <div class="post-description">
@@ -250,7 +325,7 @@ its reputation seems to convey.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-coding" href="http://blog.mose.com/tags/coding">coding</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-coding" href="http://localhost:1313//tags/coding">coding</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -259,7 +334,7 @@ its reputation seems to convey.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/06/21/greenruby-124" class="post-title">Greenruby 124</a>
+              <a href="http://localhost:1313/2015/06/21/greenruby-124" class="post-title">Greenruby 124</a>
             </header>
 
             <div class="post-description">
@@ -323,7 +398,7 @@ you are in a balanced context, and if not, try to work on balancing it.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -332,7 +407,7 @@ you are in a balanced context, and if not, try to work on balancing it.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/06/14/greenruby-123" class="post-title">Greenruby 123</a>
+              <a href="http://localhost:1313/2015/06/14/greenruby-123" class="post-title">Greenruby 123</a>
             </header>
 
             <div class="post-description">
@@ -404,7 +479,7 @@ mythical beast.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-python" href="http://blog.mose.com/tags/python">python</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-python" href="http://localhost:1313//tags/python">python</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -413,7 +488,7 @@ mythical beast.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/06/07/greenruby-122" class="post-title">Greenruby 122</a>
+              <a href="http://localhost:1313/2015/06/07/greenruby-122" class="post-title">Greenruby 122</a>
             </header>
 
             <div class="post-description">
@@ -479,7 +554,7 @@ gives a good perspective on you usual world.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-gdb" href="http://blog.mose.com/tags/gdb">gdb</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-gdb" href="http://localhost:1313//tags/gdb">gdb</a>
     
     
   </p>
@@ -488,7 +563,7 @@ gives a good perspective on you usual world.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/05/31/greenruby-121" class="post-title">Greenruby 121</a>
+              <a href="http://localhost:1313/2015/05/31/greenruby-121" class="post-title">Greenruby 121</a>
             </header>
 
             <div class="post-description">
@@ -552,7 +627,7 @@ with live processes.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -561,7 +636,7 @@ with live processes.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/05/24/greenruby-120" class="post-title">Greenruby 120</a>
+              <a href="http://localhost:1313/2015/05/24/greenruby-120" class="post-title">Greenruby 120</a>
             </header>
 
             <div class="post-description">
@@ -635,7 +710,7 @@ someone. It creates bonds with the industry, with people, with communities.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a>
     
     
   </p>
@@ -644,7 +719,7 @@ someone. It creates bonds with the industry, with people, with communities.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/05/17/greenruby-119" class="post-title">Greenruby 119</a>
+              <a href="http://localhost:1313/2015/05/17/greenruby-119" class="post-title">Greenruby 119</a>
             </header>
 
             <div class="post-description">
@@ -699,7 +774,7 @@ things are the way they are. Few will read it, but they will learn from it.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://localhost:1313//tags/greenruby">greenruby</a>
     
     
   </p>
@@ -708,7 +783,7 @@ things are the way they are. Few will read it, but they will learn from it.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/05/10/greenruby-118" class="post-title">Greenruby 118</a>
+              <a href="http://localhost:1313/2015/05/10/greenruby-118" class="post-title">Greenruby 118</a>
             </header>
 
             <div class="post-description">
@@ -749,75 +824,18 @@ forces salesmen to become a liars.</p>
             </div>
           </section>
         
-          <h1 class="content-subhead">
-  2015-05-03
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-117.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2015/05/03/greenruby-117" class="post-title">Greenruby 117</a>
-            </header>
-
-            <div class="post-description">
-              
-
-<h2 id="rfid-world:662331cbc9868114293fb05e69319f30">RFID world</h2>
-
-<p>They begin to appear everywhere. I saw mine first on my passport, then I just
-got my new credit card and it has one in it. Those things are nice if you
-consider them naively. But the fact is that they are flawed and insecure. We
-carry around more and more of those items that can be read at a proximity by
-specially crafter devices. Gosh, did they not learn already from the ingenuity
-of our kids?</p>
-
-<p>There have been myths in science fiction about human implanted with chips.
-Well, our phones for a while have been providing the same features. Call me
-paranoid, but I just don&rsquo;t like the feeling. And I also don&rsquo;t like not having
-any choice about it. Hopefully we can still <a href="https://youtu.be/E_f5oRwaQew">disable the credit cards RFID</a>,
-<a href="https://youtu.be/BEyRfjeE6ac">craft some pockets</a> to put our passport in
-it, or buy some <a href="https://youtu.be/MhW-QLhmoVw">faraday pockets</a>.</p>
-
-<p>If you pay attention, you can find or hear about phone apps called &lsquo;electronic
-pickpocket apps&rsquo;. This choice of a name if so relevant to the situation. Note
-that NFC, included in more and more phones, is a subcategory of RFID, operates
-in much smaller range (10 cm). But basic RFID tags can be detected beyond 100
-meters with proper antennas.</p>
-
-<p>We talk about the Internet of Things. Sounds sexy. But clearly, we only are
-one of the Things of that Internet. Without any implant, just by carrying
-around passport and credit cards. Or by working at a company that uses that
-technology for <a href="http://www.wavetrend.net/personnel-tracking.php">staff monitoring</a>. I don&rsquo;t know about you,
-but for me, it&rsquo;s scary as hell.</p>
-
-            </div>
-          </section>
-        
       </div>
       
 <div class="pagination">
   <nav role="pagination" class="post-list-pagination">
     
-    <a href="http://blog.mose.com/post/page/6/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+    <a href="http://localhost:1313/post/page/6/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
     <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 7 of 11</span>
     
-    <a href="http://blog.mose.com/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+    <a href="http://localhost:1313/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
     </a>
     
@@ -832,11 +850,14 @@ but for me, it&rsquo;s scary as hell.</p>
     </ul>
   </div>
 </div>
-<script src="http://blog.mose.com/js/all.min.js"></script>
+<script src="http://localhost:1313//js/all.min.js"></script>
 
     </div>
   </div>
 </div>
 
-</body>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>

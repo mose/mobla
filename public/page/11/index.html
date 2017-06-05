@@ -100,6 +100,41 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2014-05-01
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <span class="post-origin">faria devtips</span>
+      
+    
+    
+      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a><a class="post-tags post-tags-ssh" href="http://blog.mose.com/tags/ssh">ssh</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+              <a href="http://blog.mose.com/2014/05/01/ssh-to-socket" class="post-title">SSH to socket</a>
+            </header>
+
+            <div class="post-description">
+              <p>I use a special trick because he&rsquo;s often ssh&rsquo;ing all over the place. Add in your <code>.ssh/config</code></p>
+
+<pre><code>Host *
+  ControlMaster auto
+  ControlPath /tmp/%r@%h:%p
+</code></pre>
+
+<p>It will save your first connection to a host as a socket in <code>/tmp</code> and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation  on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open  on the server that I should close.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2013-04-07
   <p class="post-meta">
     

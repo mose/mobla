@@ -100,6 +100,64 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-02-22
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-107.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-webrtc" href="http://blog.mose.com/tags/webrtc">webrtc</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2015/02/22/greenruby-107" class="post-title">Greenruby 107</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="happy-year-of-the-goat:a9be2ef830fd7cbccc6ae0de53135b81">Happy year of the Goat</h2>
+
+<p>Here it was Chinese New Year this week. A good occasion for those who are not
+familiar with chinese state of the web to read about its <a href="http://designbeep.com/2015/02/20/free-download-chinese-new-year-icon-pack-50-icons/">web design trends 2015</a>.
+This article is pretty deep and reflects accurately how China uses
+its connectivity.</p>
+
+<p>So, xin nian kuai le, and of course, gong xi fa cai. And if you need related
+icons, <a href="http://designbeep.com/2015/02/20/free-download-chinese-new-year-icon-pack-50-icons/">here are some</a>.</p>
+
+<h2 id="hello-in-firefox:a9be2ef830fd7cbccc6ae0de53135b81">Hello in Firefox</h2>
+
+<p>Now that I&rsquo;m working from Taiwan with a French company, I was have been
+searching for a decent solution for video conferencing. Because skype and
+google-hangouts are just not things I like to use. I found out that new
+versions of firefox include by default a one to one webrtc feature, named
+<a href="https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online">Hello</a>. It works pretty nicely. I also tried out <a href="https://glideroom.com/">Glideroom</a> and
+<a href="https://hu.tt/">Hutt</a>. There are also heavier solutions that I tried in the past like the
+<a href="http://bigbluebutton.org/">big blue button</a>.</p>
+
+<p>Unfortunately some dude in the ops team pointed out that webrtc was <a href="https://blog.ipvanish.com/webrtc-security-hole-leaks-real-ip-addresses/">not
+secure</a>, so it&rsquo;s not likely to become a standard for us. Hrum, well, that&rsquo;s
+debatable how proprietary solutions are more secure. There is no way to get it
+figured out. Anyways Webrtc became a <a href="http://www.w3.org/TR/2015/WD-webrtc-20150210/">w3c standard</a> recently, and the
+section 12, named security, says: TBD. Let&rsquo;s hope it will be done properly.</p>
+
+<p>Any of you have some first hand experience with any alternative video
+conference system, please send me a mail with your feedback.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-02-08
   <p class="post-meta">
     
@@ -751,99 +809,6 @@ LATITUDE  LONGITUDE  CC  REGION
 <img src="http://res.cloudinary.com/mosepix/image/upload/devtips/2014-08-07-tugboat.png" alt="tugboat" class="pure-img" />
 
 
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2014-07-11
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/07/11/tree-command" class="post-title">Tree command</a>
-            </header>
-
-            <div class="post-description">
-              <p>There is a shell tool that I install systematically on any new machine/server, it&rsquo;s <code>tree</code>.</p>
-
-<pre><code>apt-get install tree
-</code></pre>
-
-<p>or</p>
-
-<pre><code>brew install tree
-</code></pre>
-
-<p>Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to <code>find</code> sometimes. But I mostly use it for having a quick overview of the content of a dir.</p>
-
-<pre><code>mose@momac &gt; ~ &gt; tree projects/lolita
-projects/lolita
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── config.default.yml
-├── config.yml
-├── lita-faria
-│   ├── Gemfile
-│   ├── LICENSE
-│   ├── README.md
-│   ├── Rakefile
-│   ├── lib 
-│   │   ├── lita
-│   │   │   └── handlers
-│   │   │       └── faria.rb
-│   │   └── lita-faria.rb
-│   ├── lita-faria.gemspec
-│   └── spec
-│       ├── lita
-│       │   └── handlers
-│       │       └── faria_spec.rb
-│       └── spec_helper.rb
-├── lita_config.rb
-├── log 
-└── tmp 
-
-9 directories, 15 files
-</code></pre>
-
-<p>Some options:</p>
-
-<pre><code>mose@momac &gt; ~ &gt; tree projects/lolita -hfih -I 'spec|lib' --du
-projects/lolita
-[ 164]  projects/lolita/Gemfile
-[1.2K]  projects/lolita/Gemfile.lock
-[1.2K]  projects/lolita/README.md
-[ 177]  projects/lolita/config.default.yml
-[ 222]  projects/lolita/config.yml
-[2.6K]  projects/lolita/lita-faria
-[  39]  projects/lolita/lita-faria/Gemfile
-[1.0K]  projects/lolita/lita-faria/LICENSE
-[ 357]  projects/lolita/lita-faria/README.md
-[ 117]  projects/lolita/lita-faria/Rakefile
-[ 769]  projects/lolita/lita-faria/lita-faria.gemspec
-[1.2K]  projects/lolita/lita_config.rb
-[ 102]  projects/lolita/log
-[ 102]  projects/lolita/tmp
-
- 7.4K used in 3 directories, 11 files
-</code></pre>
-
-<p><code>man tree</code> for more (but the basic tree view is the real deal, for more detailled listings, <code>find</code> is better).</p>
 
             </div>
           </section>

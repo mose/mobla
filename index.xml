@@ -6,8 +6,50 @@
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jun 2017 09:25:00 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bye bye Green Ruby</title>
+      <link>http://blog.mose.com/2017/06/05/bye-bye-green-ruby</link>
+      <pubDate>Mon, 05 Jun 2017 09:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/06/05/bye-bye-green-ruby</guid>
+      <description>&lt;p&gt;Today I&amp;rsquo;m closing &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt;. That newsletter, started on february 2013,
+has been a self-imposed weekly duty for more than 4 years. I take a lot
+of pride not to have missed one single week during those 225 weeks.&lt;/p&gt;
+
+&lt;p&gt;But now that we decided, my friends and I, to put it to an end, there is an
+interesting question popping up. What will happen with the list of 2,000 subscribers?&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s common knowledge that nowadays, when you don&amp;rsquo;t pay for a service, you are the product.
+But honestly, I hate this statement, however relevant it may be.
+It eludes any possibility of generosity, and any chance to enjoy a gift economy.
+Open source software is an example of this.
+You don&amp;rsquo;t pay for it, but by using it, you are not used as an asset or a resource.&lt;/p&gt;
+
+&lt;p&gt;So as a symbolic gesture of rebellion, I decided that, by ending the publication,
+I will delete the list of subscribers. Forever.&lt;/p&gt;
+
+&lt;p&gt;I always felt raped when I subscribe to a service under a certain context, and then
+the service provider gets acquired by another company and my account gets automatically
+transferred. The contract changes, I have agreed to the initial setup, but why presume
+I would automatically agree to any other context? This is the real annoyance in
+that user-as-a-product thing. You are not considered as a thinking being anymore.&lt;/p&gt;
+
+&lt;p&gt;I hate this!&lt;/p&gt;
+
+&lt;p&gt;So the deletion of that list of email is a symbolic sacrifice. Why did you invest all
+that time and effort during those 4 years then, will you ask me? Well, I was willing
+to contribute to a common interest, out of generosity and love for my peers and friends.
+Why should I need a money-related reason? Money kills the social link, it neutralize
+the unmeasurable debt that we establish between each others as a community.&lt;/p&gt;
+
+&lt;p&gt;A society without generosity, is a society of isolated people. Gifts creates a feeling of debt,
+that debt is a bond. If the gift is not personal, it relates you to a community.
+Never forget about it. Pay it forward.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The virtues of transitions</title>
@@ -607,67 +649,6 @@ on some old things, keep them current somehow.&lt;/p&gt;
 
 &lt;p&gt;Getting some routine in place that includes open source activity has various
 benefits, even when you don&amp;rsquo;t have an audience. You should try it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greenruby 183</title>
-      <link>http://blog.mose.com/2016/08/07/greenruby-183</link>
-      <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
-      
-      <guid>http://blog.mose.com/2016/08/07/greenruby-183</guid>
-      <description>
-
-&lt;h2 id=&#34;the-reign-of-the-virtual:161a22387a1160601decdc89dcca85bc&#34;&gt;The reign of the virtual&lt;/h2&gt;
-
-&lt;p&gt;Yesterday morning, the hunt for Pokemons opened here in Taiwan. I have been
-watching the crazy adoption of this new trend in the past few weeks. And
-knowing the asian culture, I suspect Japan and Taiwan are going to make the
-craziness in the rest of the world just like mild interest.&lt;/p&gt;
-
-&lt;p&gt;There are few occasions to notice a huge shift in civilization as clearly as
-this one. For sure we have noticed that our fellow human neighbors spend more
-and more time the nose on their mobile devices. But this pokemon enthusiasm
-bring it to a whole new level. It proves the virtual now begins to overrule
-the real in term of social conventions. Well, not for everybody, not
-everywhere, but in a proportion that is relevant enough to be noticeable.&lt;/p&gt;
-
-&lt;p&gt;The real world always have been ruling the social activities. Laws and
-conventions were deciding who is in and who is out, what to do and how to do
-it right. This is going to change. My main concern is that the future of the
-social activity is in the hands of private companies. Those companies,
-legitimately driven by profit, consider the user as a resource, that requires
-gathering and retention strategies. Like herds. The whole privacy fight is not
-going to stand too long as cattle (oops I meant user) data is the 21st century
-gold, and economy (and crazy need for constant growth) depends on it.&lt;/p&gt;
-
-&lt;p&gt;And I&amp;rsquo;m not really happy from this deduction. We are getting captured with
-advanced weapons generated by behavioral economics and other clever social
-sciences. They are manipulation tools. Just tools. Sure you can do good with
-them, but such powerful tools of mass manipulation are not going to stay
-neutral in the hands of those who want to squeeze our essence (feels like a
-matrix metaphor, yeah I&amp;rsquo;m aware of it).&lt;/p&gt;
-
-&lt;p&gt;Our mobile devices become interfaces now. Direct access to our behaviors. They
-already have been great tracking and data collection devices for years. Now
-they begin to be manipulative with much more effectiveness. Sure, the pokemon
-hunting doesn&amp;rsquo;t seem to harm much, but I see it as only a beginning, a
-trigger. It just makes sense. Everybody can see the success it has. Certainly
-there are already hundreds of projects that are seeing the light right now at
-this instant just under the visibility of that opportunity. And many of those
-will be clever, engaging, and impacting on the real world, by the way of
-mobile devices, the reverse-remote-control for getting a grip on every human
-being.&lt;/p&gt;
-
-&lt;p&gt;Because I&amp;rsquo;m an old guy, I&amp;rsquo;m of course very worried about this future. I have
-memories of a past where it was so much different. But the young generations,
-seeing this as the norm, will just fall for it, without question. Don&amp;rsquo;t get me
-wrong, I love good tools that can make our lives easier. But they are tools.
-The intent of their usage matters. Augmented reality just seems to be going to
-be used with very nefarious intents.&lt;/p&gt;
-
-&lt;p&gt;hrum. Well yeah, this is a rant, that&amp;rsquo;s nothing more. Not an essay, not a
-study. Just my guts getting spread over the table. Take it easy :)&lt;/p&gt;
 </description>
     </item>
     

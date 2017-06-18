@@ -6,8 +6,57 @@
     <description>Recent content in Collective Intelligence on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 20:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jun 2017 09:25:00 +0800</lastBuildDate>
     <atom:link href="http://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Collective Intelligence or Collecting Intelligence</title>
+      <link>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</link>
+      <pubDate>Fri, 16 Jun 2017 09:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</guid>
+      <description>&lt;p&gt;Because I had some time recently I watched the &lt;a href=&#34;https://www.youtube.com/user/ciconf2014&#34;&gt;whole batch of videos&lt;/a&gt; of the
+&amp;ldquo;Collective Intelligence Conference&amp;rdquo; from 2014 on youtube.
+It&amp;rsquo;s part of my exploration of that field, see what changed in the past years.&lt;/p&gt;
+
+&lt;p&gt;Well, those were pretty interesting talks but it stroke me that there was a clear ambiguity of terms there.
+It&amp;rsquo;s related to the english usage of the &amp;ldquo;intelligence&amp;rdquo; word. The exact same word in french only means the
+capacity to process information and take decisions. This is a human trait, somehow a way to distinguish
+us from the rest of the animal realm.&lt;/p&gt;
+
+&lt;p&gt;But in english it also is used by government as &amp;ldquo;data collection&amp;rdquo;, as in &amp;ldquo;business intelligence&amp;rdquo;, or
+&amp;ldquo;the intelligence community&amp;rdquo;. In french, we call that &amp;ldquo;renseignement&amp;rdquo;, so it&amp;rsquo;s a totally separate concept.
+So, from my french perspective, I didn&amp;rsquo;t anticipate the impact of this double meaning for the word &amp;ldquo;intelligence&amp;rdquo;
+while watching talks about &amp;ldquo;Collective Intelligence&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;So there was a lot of talks about crowdsourcing, about new ways to gather information from previously
+untaped sources by the way of massive internet participation. And not that much about the other intelligence
+which is about organizing data and structural design of human interaction.&lt;/p&gt;
+
+&lt;p&gt;They held conferences in &lt;a href=&#34;http://www.ci2012.org/&#34;&gt;2012&lt;/a&gt; but the &lt;a href=&#34;http://cci.mit.edu/ci2012/plenaries/index.html&#34;&gt;links to videos&lt;/a&gt; failed, in [2014][ci214],
+which is the one I found videos for, in &lt;a href=&#34;https://sites.lsa.umich.edu/collectiveintelligence/&#34;&gt;2015&lt;/a&gt; found no videos, in &lt;a href=&#34;https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/home&#34;&gt;2016&lt;/a&gt; videos are in &lt;a href=&#34;https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/plenary-sessions&#34;&gt;google drive&lt;/a&gt;.
+The &lt;a href=&#34;http://collectiveintelligenceconference.org/&#34;&gt;2017 edition&lt;/a&gt; is just happening right now and I hope there will be videos.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of academic papers linked to those talks. Pretty good content.&lt;/p&gt;
+
+&lt;p&gt;But what I&amp;rsquo;m interested in seems to be a very small subset of what is called Collective Intelligence nowadays.
+I may need to define the term more explicitly. Let&amp;rsquo;s call it Intentional Collective Intelligence Engineering.
+Because as a software developer and a systems architect, I&amp;rsquo;m interested in building things, designing its cogs,
+anticipating its impact on usage and on norms.&lt;/p&gt;
+
+&lt;p&gt;While I like collecting feedback from the users of my solutions, I also know that the numerous choices you do
+when designing a system impact on the usages in very deep ways. Ways that the user cannot anticipate or imagine.
+Those are not always conscious habits that are influenced. There are always natural (or systemic) forces that
+drive a group to adopt specific strategies after having analyzed and matured the knowledge of its context.&lt;/p&gt;
+
+&lt;p&gt;And I&amp;rsquo;m pretty convinced that the Collective Intelligence I seek can be engineered. A proper environment,
+set of conventions, incentives and obstacles, can be deliberately designed for the purpose of emergence
+of that collective intelligence in a group of participants.&lt;/p&gt;
+
+&lt;p&gt;I have seen glimpses of it happen while participating in open source community development. I know there are bricks
+already existing to create various conditions necessary to the emergence. It&amp;rsquo;s not an utopia.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How I came to collective intelligence</title>

@@ -36,10 +36,10 @@
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
   <!--<![endif]-->
 
-  <link rel="stylesheet" href="http://blog.mose.com/css/all.min.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://blog.mose.com/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Moselog" href="http://localhost:1313//index.xml" />
 </head>
 <body>
 
@@ -48,7 +48,7 @@
   <div class="sidebar pure-u-1 pure-u-md-1-4">
   <div class="header">
     <hgroup>
-      <h1 class="brand-title"><a href="http://blog.mose.com">Moselog</a></h1>
+      <h1 class="brand-title"><a href="http://localhost:1313/">Moselog</a></h1>
       <h2 class="brand-tagline">Various rants from Mose.</h2>
     </hgroup>
 
@@ -65,7 +65,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="pure-button" href="http://blog.mose.com/index.xml"><i class="fa fa-rss"></i> rss</a>
+          <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
         </li>
         <li class="nav-item">
           <a class="pure-button" href="http://mose.com"><i class="fa fa-user-o"></i> about</a>
@@ -77,13 +77,13 @@
 <div class="pagination">
   <nav role="pagination" class="post-list-pagination">
     
-    <a href="http://blog.mose.com/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+    <a href="http://localhost:1313/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
     <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 9 of 11</span>
     
-    <a href="http://blog.mose.com/post/page/10/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+    <a href="http://localhost:1313/post/page/10/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
     </a>
     
@@ -100,6 +100,82 @@
       <div class="posts">
         
           <h1 class="content-subhead">
+  2015-03-08
+  <p class="post-meta">
+    
+    
+      originally posted on 
+      
+        <a class="post-origin" href="http://greenruby.org/grn-109.html" target="_new">GreenRuby</a>
+      
+    
+    
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://localhost:1313//tags/ruby">ruby</a><a class="post-tags post-tags-freebsd" href="http://localhost:1313//tags/freebsd">freebsd</a><a class="post-tags post-tags-blog" href="http://localhost:1313//tags/blog">blog</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://localhost:1313/2015/03/08/greenruby-109" class="post-title">Greenruby 109</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<h2 id="about-blogging:111d43eaf8a2a6adad496f0417e7f52c">About blogging</h2>
+
+<p>Well, since that whole blogging thing began, I never have been very active on
+it. Well, I have a <a href="http://blog.mose.com">blog</a> on Tumblr because I wanted to know how they
+are doing it, I published various posts in the <a href="http://devtips.faria.co/authors.html#mose-ref">faria devtips</a>, and
+after all, this rant could also count as a publication. So I think I will
+gather them all under one unique site. A Jekyll github-pages kind, easy and
+cheap.</p>
+
+<p>After all, I&rsquo;m not sure the devtips website will stay up any longer. There
+have been no post since the day I left. Too bad. It&rsquo;s a demonstration that
+some collective actions can sometimes rely only on the energy of one person.</p>
+
+<p>So, I made a <a href="http://mose.github.io/blog">new repo</a> on github for it, and I will gather whatever
+stuff I can find that I wrote in there.</p>
+
+<h2 id="lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c">Lovely FreeBSD</h2>
+
+<p>At our Gandi office in Taipei I had to install a <a href="https://www.pfsense.org/">pfsense</a> server,
+which is based on <a href="https://www.freebsd.org/">FreeBSD</a>. It was quite a pleasant experience,
+actually. Last time I played a bit with BSD that was 12 years ago, and that
+was not very smooth. I&rsquo;m happy to be given that occasion to see how it goes
+now.</p>
+
+<p>For now I&rsquo;m going to use it like if it was an <a href="https://openwrt.org/">OpenWRT</a> with some
+extra <a href="https://openvpn.net/index.php/open-source.html">OpenVPN</a> abilities. And it will also be a file server for the
+LAN. Not sure yet how I will handle that.</p>
+
+<h2 id="ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c">Ruby package management</h2>
+
+<p>When I got in my new job, I discovered a new way to manage server management.
+They didn&rsquo;t want to use <a href="http://rvm.io/">rvm</a>, or even <a href="https://rubygems.org/">ruby gems</a>, or
+<a href="https://pip.pypa.io/en/latest/">pip</a> or anything that is not debian packages. It may sound quite harsh.
+Since I came in ruby in 2010, rvm has been my best friend, bundle the second
+one. But this approach is very developer-based. When you maintain large and
+stable systems, it&rsquo;s more likely that you will not trust the bleeding edge
+stuff and prefer confirmed publication of packages before using them. This is
+an interesting slap on my face.</p>
+
+<p>Of course there are the <a href="https://www.brightbox.com/docs/ruby/ubuntu/">brightbox</a> packages for Ubuntu, but that&rsquo;s
+missing the point. A release has to be out for a certain time so it can be
+strengthened by security reviews and proper production usage. There is a part
+of the population for each language that is considering the instability of
+current releases a normal trade-off. but there is a huge lot of other
+companies that will wait patiently that things get stable enough for their
+taste.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
   2015-03-01
   <p class="post-meta">
     
@@ -110,7 +186,7 @@
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://blog.mose.com/tags/geekworld">geekworld</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-geekworld" href="http://localhost:1313//tags/geekworld">geekworld</a><a class="post-tags post-tags-ruby" href="http://localhost:1313//tags/ruby">ruby</a>
     
     
   </p>
@@ -119,7 +195,7 @@
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/03/01/greenruby-108" class="post-title">Greenruby 108</a>
+              <a href="http://localhost:1313/2015/03/01/greenruby-108" class="post-title">Greenruby 108</a>
             </header>
 
             <div class="post-description">
@@ -167,7 +243,7 @@ in april, in Atlanta this year.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-webrtc" href="http://blog.mose.com/tags/webrtc">webrtc</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-webrtc" href="http://localhost:1313//tags/webrtc">webrtc</a>
     
     
   </p>
@@ -176,7 +252,7 @@ in april, in Atlanta this year.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/02/22/greenruby-107" class="post-title">Greenruby 107</a>
+              <a href="http://localhost:1313/2015/02/22/greenruby-107" class="post-title">Greenruby 107</a>
             </header>
 
             <div class="post-description">
@@ -225,7 +301,7 @@ conference system, please send me a mail with your feedback.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-jekyll" href="http://blog.mose.com/tags/jekyll">jekyll</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-jekyll" href="http://localhost:1313//tags/jekyll">jekyll</a>
     
     
   </p>
@@ -234,7 +310,7 @@ conference system, please send me a mail with your feedback.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/02/08/greenruby-105" class="post-title">Greenruby 105</a>
+              <a href="http://localhost:1313/2015/02/08/greenruby-105" class="post-title">Greenruby 105</a>
             </header>
 
             <div class="post-description">
@@ -292,7 +368,7 @@ that&rsquo;s not that hard. It&rsquo;s a matter of cyberspace ecology.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ghost" href="http://blog.mose.com/tags/ghost">ghost</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-ghost" href="http://localhost:1313//tags/ghost">ghost</a><a class="post-tags post-tags-greenruby" href="http://localhost:1313//tags/greenruby">greenruby</a>
     
     
   </p>
@@ -301,7 +377,7 @@ that&rsquo;s not that hard. It&rsquo;s a matter of cyberspace ecology.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/02/01/greenruby-104" class="post-title">Greenruby 104</a>
+              <a href="http://localhost:1313/2015/02/01/greenruby-104" class="post-title">Greenruby 104</a>
             </header>
 
             <div class="post-description">
@@ -402,7 +478,7 @@ time, you&rsquo;re doing something wrong. But that&rsquo;s another story.</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-desktop" href="http://blog.mose.com/tags/desktop">desktop</a><a class="post-tags post-tags-debian" href="http://blog.mose.com/tags/debian">debian</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-desktop" href="http://localhost:1313//tags/desktop">desktop</a><a class="post-tags post-tags-debian" href="http://localhost:1313//tags/debian">debian</a>
     
     
   </p>
@@ -411,7 +487,7 @@ time, you&rsquo;re doing something wrong. But that&rsquo;s another story.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/01/25/greenruby-103" class="post-title">Greenruby 103</a>
+              <a href="http://localhost:1313/2015/01/25/greenruby-103" class="post-title">Greenruby 103</a>
             </header>
 
             <div class="post-description">
@@ -478,7 +554,7 @@ Muhaha!</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://blog.mose.com/tags/ruby">ruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-ruby" href="http://localhost:1313//tags/ruby">ruby</a>
     
     
   </p>
@@ -487,7 +563,7 @@ Muhaha!</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/01/18/greenruby-102" class="post-title">Greenruby 102</a>
+              <a href="http://localhost:1313/2015/01/18/greenruby-102" class="post-title">Greenruby 102</a>
             </header>
 
             <div class="post-description">
@@ -546,7 +622,7 @@ my life!</p>
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-logs" href="http://blog.mose.com/tags/logs">logs</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-logs" href="http://localhost:1313//tags/logs">logs</a><a class="post-tags post-tags-greenruby" href="http://localhost:1313//tags/greenruby">greenruby</a>
     
     
   </p>
@@ -555,7 +631,7 @@ my life!</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/01/11/greenruby-101" class="post-title">Greenruby 101</a>
+              <a href="http://localhost:1313/2015/01/11/greenruby-101" class="post-title">Greenruby 101</a>
             </header>
 
             <div class="post-description">
@@ -639,7 +715,7 @@ rifles wander in the train stations in Paris. It&rsquo;s not going to get better
       
     
     
-      <a class="post-tags post-tags-rant" href="http://blog.mose.com/tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://blog.mose.com/tags/greenruby">greenruby</a>
+      <a class="post-tags post-tags-rant" href="http://localhost:1313//tags/rant">rant</a><a class="post-tags post-tags-greenruby" href="http://localhost:1313//tags/greenruby">greenruby</a>
     
     
   </p>
@@ -648,7 +724,7 @@ rifles wander in the train stations in Paris. It&rsquo;s not going to get better
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2015/01/04/greenruby-100" class="post-title">Greenruby 100</a>
+              <a href="http://localhost:1313/2015/01/04/greenruby-100" class="post-title">Greenruby 100</a>
             </header>
 
             <div class="post-description">
@@ -721,7 +797,7 @@ podcasts why should you get those, right? I just like choice.</p>
       
     
     
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
+      <a class="post-tags post-tags-console" href="http://localhost:1313//tags/console">console</a>
     
     
   </p>
@@ -730,7 +806,7 @@ podcasts why should you get those, right? I just like choice.</p>
           <section class="post">
             <header class="post-header">
 
-              <a href="http://blog.mose.com/2014/09/10/console-columns" class="post-title">Console columns</a>
+              <a href="http://localhost:1313/2014/09/10/console-columns" class="post-title">Console columns</a>
             </header>
 
             <div class="post-description">
@@ -771,78 +847,18 @@ LATITUDE  LONGITUDE  CC  REGION
             </div>
           </section>
         
-          <h1 class="content-subhead">
-  2014-09-10
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <span class="post-origin">faria devtips</span>
-      
-    
-    
-      <a class="post-tags post-tags-console" href="http://blog.mose.com/tags/console">console</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2014/09/10/pretty-json" class="post-title">Pretty json</a>
-            </header>
-
-            <div class="post-description">
-              <p>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:</p>
-
-<pre><code class="language-ruby">ruby -rjson -ropen-uri -rawesome_print -e &quot;ap JSON.load(open('http://jsonip.com/'))&quot;
-</code></pre>
-
-<pre><code class="language-ruby">{
-       &quot;ip&quot; =&gt; &quot;59.115.120.166&quot;,
-    &quot;about&quot; =&gt; &quot;/about&quot;,
-     &quot;Pro!&quot; =&gt; &quot;http://getjsonip.com&quot;
-}
-</code></pre>
-
-<p>because when you are rubyist everything can be solve with ruby, obviously.</p>
-
-<p>But well, then one day I did</p>
-
-<pre><code>pip install pjson
-</code></pre>
-
-<p>and then</p>
-
-<pre><code class="language-ruby">curl -s http://jsonip.com | pjson
-</code></pre>
-
-<pre><code class="language-json">{
-  &quot;Pro!&quot;: &quot;http://getjsonip.com&quot;,
-  &quot;about&quot;: &quot;/about&quot;,
-  &quot;ip&quot;: &quot;59.115.120.166&quot;
-}
-</code></pre>
-
-<p>Faster, easier, happier.</p>
-
-            </div>
-          </section>
-        
       </div>
       
 <div class="pagination">
   <nav role="pagination" class="post-list-pagination">
     
-    <a href="http://blog.mose.com/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
+    <a href="http://localhost:1313/post/page/8/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-prev">
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </a>
     
     <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 9 of 11</span>
     
-    <a href="http://blog.mose.com/post/page/10/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
+    <a href="http://localhost:1313/post/page/10/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
     </a>
     
@@ -857,11 +873,14 @@ LATITUDE  LONGITUDE  CC  REGION
     </ul>
   </div>
 </div>
-<script src="http://blog.mose.com/js/all.min.js"></script>
+<script src="http://localhost:1313//js/all.min.js"></script>
 
     </div>
   </div>
 </div>
 
-</body>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>

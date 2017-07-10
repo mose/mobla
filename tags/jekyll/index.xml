@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jekyll on Moselog</title>
-    <link>http://blog.mose.com/tags/jekyll/</link>
+    <link>http://localhost:1313/tags/jekyll/</link>
     <description>Recent content in Jekyll on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Feb 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 105</title>
-      <link>http://blog.mose.com/2015/02/08/greenruby-105</link>
+      <link>http://localhost:1313/2015/02/08/greenruby-105</link>
       <pubDate>Sun, 08 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/08/greenruby-105</guid>
+      <guid>http://localhost:1313/2015/02/08/greenruby-105</guid>
       <description>
 
 &lt;h2 id=&#34;damn-omnivore:f97d1953e92cfdfb05d8ef20de1a8b30&#34;&gt;Damn omnivore&lt;/h2&gt;

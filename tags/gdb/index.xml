@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gdb on Moselog</title>
-    <link>http://localhost:1313/tags/gdb/</link>
+    <link>http://blog.mose.com/tags/gdb/</link>
     <description>Recent content in Gdb on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 May 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gdb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/gdb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 121</title>
-      <link>http://localhost:1313/2015/05/31/greenruby-121</link>
+      <link>http://blog.mose.com/2015/05/31/greenruby-121</link>
       <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/05/31/greenruby-121</guid>
+      <guid>http://blog.mose.com/2015/05/31/greenruby-121</guid>
       <description>
 
 &lt;h2 id=&#34;linux-trick-too-many-logs:195c338923f21c367264a5b5fb00e8a9&#34;&gt;linux trick: too many logs&lt;/h2&gt;

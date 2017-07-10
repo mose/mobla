@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mose on Moselog</title>
-    <link>http://localhost:1313/tags/mose/</link>
+    <link>http://blog.mose.com/tags/mose/</link>
     <description>Recent content in Mose on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mose/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/mose/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://localhost:1313/2017/05/31/the-virtues-of-transitions</link>
+      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/31/the-virtues-of-transitions</guid>
+      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</guid>
       <description>
 
 &lt;p&gt;A collection of events occurred since my last post. I was really hoping to
@@ -90,10 +90,10 @@ attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.

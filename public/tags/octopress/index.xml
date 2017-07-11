@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Octopress on Moselog</title>
-    <link>http://blog.mose.com/tags/octopress/</link>
+    <link>http://localhost:1313/tags/octopress/</link>
     <description>Recent content in Octopress on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Aug 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/octopress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/octopress/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 131</title>
-      <link>http://blog.mose.com/2015/08/09/greenruby-131</link>
+      <link>http://localhost:1313/2015/08/09/greenruby-131</link>
       <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/09/greenruby-131</guid>
+      <guid>http://localhost:1313/2015/08/09/greenruby-131</guid>
       <description>
 
 &lt;h2 id=&#34;octopress-3-and-other-thoughts:cfcdc78d89eef0c0b12f3b5b0fcf318d&#34;&gt;Octopress 3 and other thoughts&lt;/h2&gt;

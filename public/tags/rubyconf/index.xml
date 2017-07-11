@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rubyconf on Moselog</title>
-    <link>http://localhost:1313/tags/rubyconf/</link>
+    <link>http://blog.mose.com/tags/rubyconf/</link>
     <description>Recent content in Rubyconf on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Aug 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rubyconf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/rubyconf/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 130</title>
-      <link>http://localhost:1313/2015/08/02/greenruby-130</link>
+      <link>http://blog.mose.com/2015/08/02/greenruby-130</link>
       <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/08/02/greenruby-130</guid>
+      <guid>http://blog.mose.com/2015/08/02/greenruby-130</guid>
       <description>
 
 &lt;h2 id=&#34;rubyconf-taiwan-2015:6f1441b48959350386774005adafb7a6&#34;&gt;RubyConf Taiwan 2015&lt;/h2&gt;
@@ -44,10 +44,10 @@ stock. So then we can make new ones.&lt;/p&gt;
     
     <item>
       <title>Greenruby 128</title>
-      <link>http://localhost:1313/2015/07/19/greenruby-128</link>
+      <link>http://blog.mose.com/2015/07/19/greenruby-128</link>
       <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/19/greenruby-128</guid>
+      <guid>http://blog.mose.com/2015/07/19/greenruby-128</guid>
       <description>
 
 &lt;h2 id=&#34;rubyconf-taiwan-2015-cfp:abd434c0512885455cdb7b8467442df0&#34;&gt;RubyConf Taiwan 2015 CFP&lt;/h2&gt;

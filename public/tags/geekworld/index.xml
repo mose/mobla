@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geekworld on Moselog</title>
-    <link>http://blog.mose.com/tags/geekworld/</link>
+    <link>http://localhost:1313/tags/geekworld/</link>
     <description>Recent content in Geekworld on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Aug 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/geekworld/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/geekworld/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 132</title>
-      <link>http://blog.mose.com/2015/08/16/greenruby-132</link>
+      <link>http://localhost:1313/2015/08/16/greenruby-132</link>
       <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/16/greenruby-132</guid>
+      <guid>http://localhost:1313/2015/08/16/greenruby-132</guid>
       <description>
 
 &lt;h2 id=&#34;sexism-and-competition:db2c111cf24dad5b31c1182c9980822d&#34;&gt;Sexism and competition&lt;/h2&gt;
@@ -74,10 +74,10 @@ doubt there is that much people reading those line hahaha.&lt;/p&gt;
     
     <item>
       <title>Greenruby 126</title>
-      <link>http://blog.mose.com/2015/07/05/greenruby-126</link>
+      <link>http://localhost:1313/2015/07/05/greenruby-126</link>
       <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/05/greenruby-126</guid>
+      <guid>http://localhost:1313/2015/07/05/greenruby-126</guid>
       <description>
 
 &lt;h2 id=&#34;digital-generations:2aa08ef814c13d38c5b673b5d5882db4&#34;&gt;Digital Generations&lt;/h2&gt;
@@ -142,10 +142,10 @@ any effort to include you if you drag your feet.&lt;/p&gt;
     
     <item>
       <title>Greenruby 124</title>
-      <link>http://blog.mose.com/2015/06/21/greenruby-124</link>
+      <link>http://localhost:1313/2015/06/21/greenruby-124</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/21/greenruby-124</guid>
+      <guid>http://localhost:1313/2015/06/21/greenruby-124</guid>
       <description>
 
 &lt;h2 id=&#34;the-yin-and-yang-of-software-development:aff213456bcfa77c48418a9edd40a18a&#34;&gt;The yin and yang of software development&lt;/h2&gt;
@@ -196,10 +196,10 @@ you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt
     
     <item>
       <title>Greenruby 123</title>
-      <link>http://blog.mose.com/2015/06/14/greenruby-123</link>
+      <link>http://localhost:1313/2015/06/14/greenruby-123</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/14/greenruby-123</guid>
+      <guid>http://localhost:1313/2015/06/14/greenruby-123</guid>
       <description>
 
 &lt;h2 id=&#34;a-word-about-project-gardening:3f19ca908c642cafd8c3253d0dfb2a28&#34;&gt;A word about project gardening&lt;/h2&gt;
@@ -258,10 +258,10 @@ mythical beast.&lt;/p&gt;
     
     <item>
       <title>Greenruby 122</title>
-      <link>http://blog.mose.com/2015/06/07/greenruby-122</link>
+      <link>http://localhost:1313/2015/06/07/greenruby-122</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/07/greenruby-122</guid>
+      <guid>http://localhost:1313/2015/06/07/greenruby-122</guid>
       <description>
 
 &lt;h2 id=&#34;thought-about-python-fron-a-rubyist:cdf97fab83b684f4dce127ec09f067df&#34;&gt;Thought about python fron a rubyist&lt;/h2&gt;
@@ -314,10 +314,10 @@ gives a good perspective on you usual world.&lt;/p&gt;
     
     <item>
       <title>Greenruby 120</title>
-      <link>http://blog.mose.com/2015/05/24/greenruby-120</link>
+      <link>http://localhost:1313/2015/05/24/greenruby-120</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/24/greenruby-120</guid>
+      <guid>http://localhost:1313/2015/05/24/greenruby-120</guid>
       <description>
 
 &lt;h2 id=&#34;the-side-effects-of-recruitment:849328e7dfc904a2b6d861e0036f0df4&#34;&gt;The side effects of recruitment&lt;/h2&gt;
@@ -378,10 +378,10 @@ someone. It creates bonds with the industry, with people, with communities.&lt;/
     
     <item>
       <title>Greenruby 119</title>
-      <link>http://blog.mose.com/2015/05/17/greenruby-119</link>
+      <link>http://localhost:1313/2015/05/17/greenruby-119</link>
       <pubDate>Sun, 17 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/17/greenruby-119</guid>
+      <guid>http://localhost:1313/2015/05/17/greenruby-119</guid>
       <description>
 
 &lt;h2 id=&#34;noobs-rule-the-planet:fb906e6159a53dc43f4de9d255805b75&#34;&gt;Noobs rule the planet&lt;/h2&gt;
@@ -423,10 +423,10 @@ things are the way they are. Few will read it, but they will learn from it.&lt;/
     
     <item>
       <title>Greenruby 117</title>
-      <link>http://blog.mose.com/2015/05/03/greenruby-117</link>
+      <link>http://localhost:1313/2015/05/03/greenruby-117</link>
       <pubDate>Sun, 03 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/03/greenruby-117</guid>
+      <guid>http://localhost:1313/2015/05/03/greenruby-117</guid>
       <description>
 
 &lt;h2 id=&#34;rfid-world:662331cbc9868114293fb05e69319f30&#34;&gt;RFID world&lt;/h2&gt;
@@ -461,10 +461,10 @@ but for me, it&amp;rsquo;s scary as hell.&lt;/p&gt;
     
     <item>
       <title>Greenruby 115</title>
-      <link>http://blog.mose.com/2015/04/19/greenruby-115</link>
+      <link>http://localhost:1313/2015/04/19/greenruby-115</link>
       <pubDate>Sun, 19 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/19/greenruby-115</guid>
+      <guid>http://localhost:1313/2015/04/19/greenruby-115</guid>
       <description>
 
 &lt;h2 id=&#34;state-surveillance-in-france:2e160e3cd77d85bf5cb357e6e45cadd1&#34;&gt;State surveillance in France&lt;/h2&gt;
@@ -503,10 +503,10 @@ You shape the world. Your choice matters.&lt;/p&gt;
     
     <item>
       <title>Greenruby 108</title>
-      <link>http://blog.mose.com/2015/03/01/greenruby-108</link>
+      <link>http://localhost:1313/2015/03/01/greenruby-108</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/greenruby-108</guid>
+      <guid>http://localhost:1313/2015/03/01/greenruby-108</guid>
       <description>
 
 &lt;h2 id=&#34;working-abroad:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Working abroad&lt;/h2&gt;

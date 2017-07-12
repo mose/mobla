@@ -7,461 +7,113 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Feb 2016 22:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About tests and documentation</title>
-      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation</link>
+      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
       <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation</guid>
-      <description>&lt;p&gt;This aspect of development, called Documentation, is the source of various
-frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like
-testing. When you begin your craft as a coder, all what matters is the code.
-It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you
-in the neck. Like, huho, now that I need to refactor, I really should use
-something that tells me if all still works. Tests become an early necessity to
-anyone who knows that kind of truth. If you wait until the end of a coding
-cycle to write those, the task is huge and it cuts you from your productivity
-cycle. Write them early, along the flow, is way easier.&lt;/p&gt;
-
-&lt;p&gt;So I think documentation follows the same pattern. So many software projects
-are badly documented because this aspect is postponed until it&amp;rsquo;s needed. Means
-at release stage. In early stages, you work on a prototype and you don&amp;rsquo;t need
-to explain how things work or are supposed to work. And when it&amp;rsquo;s released,
-there is usually some other task waiting and it&amp;rsquo;s hard to stop everything to
-get back and document things properly. It may be a flaw in the agile process,
-but it may also be a feature: if you don&amp;rsquo;t document along the way, you won&amp;rsquo;t
-document much.&lt;/p&gt;
-
-&lt;p&gt;Personally I try to consider the documentation of any of the source code I
-write as one of the first tasks. There are various tricks that can help in
-that perspective, like &lt;a href=&#34;http://tom.preston-werner.com/2010/08/23/readme-driven-development.html&#34;&gt;readme-driven development&lt;/a&gt;, or including the doc
-inside the code with &lt;a href=&#34;http://yardoc.org/&#34;&gt;yarddoc&lt;/a&gt; or &lt;a href=&#34;http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api&#34;&gt;apipie&lt;/a&gt;, or coupling
-documentation with tests with &lt;a href=&#34;https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples&#34;&gt;rspec&lt;/a&gt; or &lt;a href=&#34;https://github.com/zipmark/rspec_api_documentation&#34;&gt;RSpec API Doc
-Generator&lt;/a&gt;. But honestly I prefer edited documentation that can follow
-a structure that is thought as documentation rather than merely an automated
-output of some code.&lt;/p&gt;
-
-&lt;p&gt;There are various tools to organize edited documentation, like
-&lt;a href=&#34;https://readthedocs.org/&#34;&gt;ReadTheDoc&lt;/a&gt; which is in python. Another project appeared last week from
-the guys at Pluralsight named &lt;a href=&#34;http://tutorials.pluralsight.com/faq/&#34;&gt;hack.guide()&lt;/a&gt;. That&amp;rsquo;s a community project
-but actually being totally open sourced, I was thinking the &lt;a href=&#34;https://github.com/pluralsight/guides-cms&#34;&gt;documentation
-building CMS&lt;/a&gt; they made could pretty much fill the gap of a
-light-weight RTD, with the benefits of having a UI for editors. Too bad we
-don&amp;rsquo;t have anything like this in ruby (or do we?).&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
+      <description>This aspect of development, called Documentation, is the source of various frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like testing. When you begin your craft as a coder, all what matters is the code. It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you in the neck. Like, huho, now that I need to refactor, I really should use something that tells me if all still works.</description>
     </item>
     
     <item>
       <title>Packaging a gem for Debian</title>
-      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</link>
+      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
       <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</guid>
-      <description>&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
-there is a lot of companies that are not in the ruby ecosystem and they rely
-on things they trust rather than rubygems. For a while debian was way behind
-on the inclusion of ruby and versions were outdated there. So a parallel
-distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
-for ruby and bundler and rubygems for the packages. But where I work, they
-package everything as debian packages. So I had to adapt.&lt;/p&gt;
-
-&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
-the tools. That gem2deb tool is pretty convenient. I am using debian for a
-while but never really had to package anything. The debian community process
-is a bit complicated and they are not very inclusive. Compared to the ease of
-uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
-process are not very welcoming.&lt;/p&gt;
-
-&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
-rooted in a community tradition that are very exclusive and a bit elitist. But
-technology changes faster than people, obviously. Younger communities
-bootstrap in a more fluid environment.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
-Hit][liushit] recently. Well, all those things put in perspective the niceness
-of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
+      <description>Recently I had to package a gem for debian as a .deb. As a matter of fact, there is a lot of companies that are not in the ruby ecosystem and they rely on things they trust rather than rubygems. For a while debian was way behind on the inclusion of ruby and versions were outdated there. So a parallel distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby for ruby and bundler and rubygems for the packages.</description>
     </item>
     
     <item>
       <title>The power of DSL</title>
-      <link>http://blog.mose.com/2015/11/01/the-power-of-dsl</link>
+      <link>http://blog.mose.com/2015/11/01/the-power-of-dsl/</link>
       <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/01/the-power-of-dsl</guid>
-      <description>&lt;p&gt;While I was playing with &lt;a href=&#34;https://github.com/zetachang/react.rb&#34;&gt;react.rb&lt;/a&gt; and exploring &lt;a href=&#34;http://opalrb.org/&#34;&gt;opal&lt;/a&gt;, I
-felt in a totally different world. The power of the DSL already prove its
-shine on various occasions. I got to experience it in activeadmin, rspec, and
-puppet (but I kind of dislike the one in puppet).&lt;/p&gt;
-
-&lt;p&gt;As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility
-that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
-making new programming languages, using meta-programming, lambda and other
-goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
-of its syntax, it empowers developers with the ability to write dedicated
-programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/11/01/the-power-of-dsl/</guid>
+      <description>While I was playing with react.rb and exploring opal, I felt in a totally different world. The power of the DSL already prove its shine on various occasions. I got to experience it in activeadmin, rspec, and puppet (but I kind of dislike the one in puppet).
+As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility that can be found in ruby. Really, ruby is a maker tool.</description>
     </item>
     
     <item>
       <title>Multiple inheritance simulation</title>
-      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</link>
+      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</guid>
-      <description>
-
-&lt;p&gt;This is a bit twisted. In ruby, as you know, you cannot use multiple
-inheritance. But the flexibility of the language, especially the
-metaprogramming aspect, opens the door for some cheating. Check out
-&lt;a href=&#34;https://gist.github.com/capitalist/473543b7ea24d461d030&#34;&gt;this code&lt;/a&gt;, it tricks it by declaring the first class as the super
-class and the remaining classes as modules included in that super class.
-Pretty acrobatic and elegant, imho.&lt;/p&gt;
-
-&lt;h2 id=&#34;about-vaping:a9a546e37849f6a570839940ccf98c98&#34;&gt;About vaping&lt;/h2&gt;
-
-&lt;p&gt;Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it. But last
-week it finally ended. I quit smoking. But this was kindof a trick, as it was
-made possible by switching to &lt;a href=&#34;http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937&#34;&gt;vaping&lt;/a&gt;. It certainly doesn&amp;rsquo;t solve the
-nicotine addiction issue, but I&amp;rsquo;m very happy with this move and hopeful for a
-gradual freedom.&lt;/p&gt;
-
-&lt;p&gt;I also found out that this vaping practice is very geeky. The hardware part is
-quite elaborate, vaping devices are really neat piece of work, there are a
-bunch of vendors. The liquidware is also quite a subject of hacking.
-Technically it&amp;rsquo;s not that hard to do it yourself. Not surprising that I
-discovered this vaping practice in geeks circles.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
+      <description>This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out this code, it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
+About vaping Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging</link>
+      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging</guid>
-      <description>
-
-&lt;p&gt;Well, since that whole blogging thing began, I never have been very active on
-it. Well, I have a &lt;a href=&#34;http://blog.mose.com&#34;&gt;blog&lt;/a&gt; on Tumblr because I wanted to know how they
-are doing it, I published various posts in the &lt;a href=&#34;http://devtips.faria.co/authors.html#mose-ref&#34;&gt;faria devtips&lt;/a&gt;, and
-after all, this rant could also count as a publication. So I think I will
-gather them all under one unique site. A Jekyll github-pages kind, easy and
-cheap.&lt;/p&gt;
-
-&lt;p&gt;After all, I&amp;rsquo;m not sure the devtips website will stay up any longer. There
-have been no post since the day I left. Too bad. It&amp;rsquo;s a demonstration that
-some collective actions can sometimes rely only on the energy of one person.&lt;/p&gt;
-
-&lt;p&gt;So, I made a &lt;a href=&#34;http://mose.github.io/blog&#34;&gt;new repo&lt;/a&gt; on github for it, and I will gather whatever
-stuff I can find that I wrote in there.&lt;/p&gt;
-
-&lt;h2 id=&#34;lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Lovely FreeBSD&lt;/h2&gt;
-
-&lt;p&gt;At our Gandi office in Taipei I had to install a &lt;a href=&#34;https://www.pfsense.org/&#34;&gt;pfsense&lt;/a&gt; server,
-which is based on &lt;a href=&#34;https://www.freebsd.org/&#34;&gt;FreeBSD&lt;/a&gt;. It was quite a pleasant experience,
-actually. Last time I played a bit with BSD that was 12 years ago, and that
-was not very smooth. I&amp;rsquo;m happy to be given that occasion to see how it goes
-now.&lt;/p&gt;
-
-&lt;p&gt;For now I&amp;rsquo;m going to use it like if it was an &lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWRT&lt;/a&gt; with some
-extra &lt;a href=&#34;https://openvpn.net/index.php/open-source.html&#34;&gt;OpenVPN&lt;/a&gt; abilities. And it will also be a file server for the
-LAN. Not sure yet how I will handle that.&lt;/p&gt;
-
-&lt;h2 id=&#34;ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Ruby package management&lt;/h2&gt;
-
-&lt;p&gt;When I got in my new job, I discovered a new way to manage server management.
-They didn&amp;rsquo;t want to use &lt;a href=&#34;http://rvm.io/&#34;&gt;rvm&lt;/a&gt;, or even &lt;a href=&#34;https://rubygems.org/&#34;&gt;ruby gems&lt;/a&gt;, or
-&lt;a href=&#34;https://pip.pypa.io/en/latest/&#34;&gt;pip&lt;/a&gt; or anything that is not debian packages. It may sound quite harsh.
-Since I came in ruby in 2010, rvm has been my best friend, bundle the second
-one. But this approach is very developer-based. When you maintain large and
-stable systems, it&amp;rsquo;s more likely that you will not trust the bleeding edge
-stuff and prefer confirmed publication of packages before using them. This is
-an interesting slap on my face.&lt;/p&gt;
-
-&lt;p&gt;Of course there are the &lt;a href=&#34;https://www.brightbox.com/docs/ruby/ubuntu/&#34;&gt;brightbox&lt;/a&gt; packages for Ubuntu, but that&amp;rsquo;s
-missing the point. A release has to be out for a certain time so it can be
-strengthened by security reviews and proper production usage. There is a part
-of the population for each language that is considering the instability of
-current releases a normal trade-off. but there is a huge lot of other
-companies that will wait patiently that things get stable enough for their
-taste.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     
     <item>
       <title>Working abroad</title>
-      <link>http://blog.mose.com/2015/03/01/working-abroad</link>
+      <link>http://blog.mose.com/2015/03/01/working-abroad/</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/working-abroad</guid>
-      <description>
-
-&lt;p&gt;Our craft as webdev is clearly in huge demand. This provides an opportunity
-for us to travel abroad, discover new cultures, widen our horizon. When I went
-to live in Taiwan, I was not worried about finding a job. But when hunting for
-a job abroad it can be tricky to find companies that will sponsor a visa, a
-work permit, or whatever legal requirement is involved in each countries.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s what the new initiative called &lt;a href=&#34;http://techmeabroad.com&#34;&gt;TechMeAbroad&lt;/a&gt; aims to fix, by
-listing only job opportunities for which a work permit is sponsored. As
-&lt;a href=&#34;http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad&#34;&gt;Julien Barbier explains&lt;/a&gt;, it will launch in march, and if you know of any
-job offers that includes a visa or such thing, please let him know (or send it
-to me I will pass it along), so we can feed that platform with some real data
-quickly.&lt;/p&gt;
-
-&lt;h2 id=&#34;so-long-ruby-1-9:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;So long ruby 1.9&lt;/h2&gt;
-
-&lt;p&gt;As planned, it&amp;rsquo;s now time to say &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/&#34;&gt;byebye to ruby 1.9.3&lt;/a&gt;. But there is still
-so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
-In wheezy, you have 1.9. And there are still many servers that will refuse to
-upgrade.&lt;/p&gt;
-
-&lt;h2 id=&#34;pick-your-hero:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Pick your hero&lt;/h2&gt;
-
-&lt;p&gt;The registration for &lt;a href=&#34;http://rubyheroes.com/&#34;&gt;Ruby Heroes 2015&lt;/a&gt; is now open. Go vote for your
-favorite ruby influential dev. You have until &lt;a href=&#34;http://railsconf.com/&#34;&gt;railsconf&lt;/a&gt; that will happen
-in april, in Atlanta this year.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/03/01/working-abroad/</guid>
+      <description>Our craft as webdev is clearly in huge demand. This provides an opportunity for us to travel abroad, discover new cultures, widen our horizon. When I went to live in Taiwan, I was not worried about finding a job. But when hunting for a job abroad it can be tricky to find companies that will sponsor a visa, a work permit, or whatever legal requirement is involved in each countries.</description>
     </item>
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://blog.mose.com/2015/01/18/greenruby-102</link>
+      <link>http://blog.mose.com/2015/01/18/greenruby-102/</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/18/greenruby-102</guid>
-      <description>
-
-&lt;h2 id=&#34;while42:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;While42&lt;/h2&gt;
-
-&lt;p&gt;This week I got in contact with Sylvain from &lt;a href=&#34;http://while42.org&#34;&gt;while42&lt;/a&gt;. It&amp;rsquo;s a social
-network for french tech engineers, but with a special touch on it. There is no
-facebook page or google group. They intentionally decided to be irl-first. For
-people that are most likely to be online all the time, this sounds so
-therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
-If you want to know more (and are french, engineer, and living in Taipei) just
-drop me a mail.&lt;/p&gt;
-
-&lt;h2 id=&#34;traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Traveling ruby&lt;/h2&gt;
-
-&lt;p&gt;This is a project from the &lt;a href=&#34;http://www.phusion.nl/&#34;&gt;Phusion&lt;/a&gt; people, called &lt;a href=&#34;https://github.com/phusion/traveling-ruby&#34;&gt;Traveling ruby&lt;/a&gt;.
-Its purpose is to make it easy to build auto-sustaining tarballs for ruby
-programms, including ruby binary and all gems in it. That way you can publish
-a tarball and your customer/user will just launch whatever you put in it. No
-need to install ruby or any gems.&lt;/p&gt;
-
-&lt;p&gt;I gave it a try yesterday on my &lt;a href=&#34;https://github.com/eduvo/zabbix-ruby-client&#34;&gt;zabbix-ruby-client&lt;/a&gt; gem, and after a few
-tweaks (mostly because I wanted to use an unpublished version of my gem), it
-all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
-old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
-reminded me a bit of the feeling when you upload a go executable on the
-server. Really neat.&lt;/p&gt;
-
-&lt;h2 id=&#34;palm-control:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Palm control&lt;/h2&gt;
-
-&lt;p&gt;There are tiny things that can change a lot. My recent tiny thing is the palm
-control technique. Every sunday when I prepare Green Ruby I do a huge amount
-of copy pasting all over the place. Recently I found on a post about keyboard
-someone talking about the palm control technique for avoiding the copypaste
-fatigue.&lt;/p&gt;
-
-&lt;p&gt;Well, you need to have a keyboard that makes it possible. Mine is a &lt;a href=&#34;http://support.logitech.com/en_us/product/10104&#34;&gt;Logitech washable k310&lt;/a&gt;.
-I already liked its look, and even better, it&amp;rsquo;s perfect for
-this palm thing because keys are prominent. Use the palm to push control and
-then it&amp;rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
-my life!&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/01/18/greenruby-102/</guid>
+      <description>While42 This week I got in contact with Sylvain from while42. It&amp;rsquo;s a social network for french tech engineers, but with a special touch on it. There is no facebook page or google group. They intentionally decided to be irl-first. For people that are most likely to be online all the time, this sounds so therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter. If you want to know more (and are french, engineer, and living in Taipei) just drop me a mail.</description>
     </item>
     
     <item>
       <title>S3 backups</title>
-      <link>http://blog.mose.com/2014/06/12/s3-backups</link>
+      <link>http://blog.mose.com/2014/06/12/s3-backups/</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/12/s3-backups</guid>
-      <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://meskyanichi.github.io/backup/v4/&#34;&gt;http://meskyanichi.github.io/backup/v4/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).&lt;/p&gt;
-
-&lt;p&gt;So I added a small trick there:&lt;/p&gt;
-
-&lt;p&gt;in &lt;code&gt;Backup/models/backup_audio.rb&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;module Backup::Syncer::Cloud
-  class Base &amp;lt; Syncer::Base
-    def process_orphans
-      if @orphans.is_a?(Queue)
-        @orphans = @orphans.size.times.map { @orphans.shift }
-      end
-      &amp;quot;Older Files: #{ @orphans.count }&amp;quot;
-    end
-  end
-end
-
-Backup::Model.new(:backup_audio, &#39;Audio files Backup to S3&#39;) do
-
-  before do
-    system(&amp;quot;/Backup/latest_audio.sh&amp;quot;)
-  end
-
-  after do
-    FileUtils.rm_rf(&amp;quot;/tmp/streams&amp;quot;)
-  end
-
-  ##
-  # Amazon Simple Storage Service [Syncer]
-  #
-  sync_with Cloud::S3 do |s3|
-    s3.access_key_id     = &amp;quot;xxx&amp;quot;
-    s3.secret_access_key = &amp;quot;xxx&amp;quot;
-    s3.bucket            = &amp;quot;bucket_backup&amp;quot;
-    s3.region            = &amp;quot;us-east-1&amp;quot;
-    s3.path              = &amp;quot;/mb_audio_backup&amp;quot;
-    s3.mirror            = false
-    s3.thread_count      = 50
-
-    s3.directories do |directory|
-      directory.add &amp;quot;/tmp/streams&amp;quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and in &lt;code&gt;Backup/latest_audio.sh&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
-# isolate files changed in the last 3 days
-
-TMPDIR=/tmp/streams
-
-mkdir $TMPDIR
-for i in `find /storage/audio/ -type f -cmin -4320`; do
-  ln -s $i $TMPDIR
-done
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It creates a fake backup dir with links to the files that actually changed in the last 3 days and patches the syncer to avoid flooding the logs with orphan files. When sometimes S3 upload fails on one file (and it happens from time to time for &amp;lsquo;amazonian&amp;rsquo; reason) it will be caught on the next daily backup.&lt;/p&gt;
-
-&lt;p&gt;The result was pretty obvious on our disk usage with our daily backups:&lt;/p&gt;
-
-&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/devtips/2014-06-12-s3backup.png&#34; alt=&#34;graph&#34; class=&#34;pure-img&#34; /&gt;
-
-
-
-&lt;p&gt;in the logs:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[2014/06/10 07:00:25][info] Summary:
-[2014/06/10 07:00:25][info]   Transferred Files: 5
-[2014/06/10 07:00:25][info]   Older Files: 22371
-[2014/06/10 07:00:25][info]   Unchanged Files: 16
-[2014/06/10 07:00:25][info] Syncer::Cloud::S3 Finished!
-[2014/06/10 07:00:25][info] Backup for &#39;Audio files Backup to S3 (backup_audio)&#39; Completed Successfully in 00:00:22
-[2014/06/10 07:00:25][info] After Hook Starting...
-[2014/06/10 07:00:25][info] After Hook Finished.
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>http://blog.mose.com/2014/06/12/s3-backups/</guid>
+      <description>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).
+ http://meskyanichi.github.io/backup/v4/  But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</description>
     </item>
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</guid>
-      <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
-     -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39;
-
-[&amp;quot;metric_fu&amp;quot;,
- &amp;quot;flyerhzm-metric_fu&amp;quot;,
- &amp;quot;edouard-metric_fu&amp;quot;,
- &amp;quot;devver-metric_fu&amp;quot;,
- &amp;quot;goldstar-metric_fu&amp;quot;,
- &amp;quot;socializer&amp;quot;,
- &amp;quot;trollface&amp;quot;,
- &amp;quot;guard-rails_best_practices&amp;quot;,
- &amp;quot;rferraz-metric_fu&amp;quot;,
- &amp;quot;git-hooks-helper&amp;quot;,
- &amp;quot;odor&amp;quot;,
- &amp;quot;rake_check&amp;quot;,
- &amp;quot;koality&amp;quot;,
- &amp;quot;danmayer-metric_fu&amp;quot;,
- &amp;quot;bf4-metric_fu&amp;quot;,
- &amp;quot;metrics_satellite&amp;quot;,
- &amp;quot;code_hunter&amp;quot;,
- &amp;quot;kinit&amp;quot;,
- &amp;quot;rails-audit&amp;quot;,
- &amp;quot;pronto-rails_best_practices&amp;quot;,
- &amp;quot;free_disk_space&amp;quot;,
- &amp;quot;warder&amp;quot;,
- &amp;quot;ruby_osx_app&amp;quot;,
- &amp;quot;sanelint&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Out of curiosity I counted some wellknown gems usages by adding a &lt;code&gt;.count&lt;/code&gt; at the end:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rake:    23766
-rails:   6283
-thor:    2786
-pry:     2870
-sinatra: 1964
-devise:  422 
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
+      <description>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).
+ruby -ropen-uri -rpp -ryaml \ -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39; [&amp;quot;metric_fu&amp;quot;, &amp;quot;flyerhzm-metric_fu&amp;quot;, &amp;quot;edouard-metric_fu&amp;quot;, &amp;quot;devver-metric_fu&amp;quot;, &amp;quot;goldstar-metric_fu&amp;quot;, &amp;quot;socializer&amp;quot;, &amp;quot;trollface&amp;quot;, &amp;quot;guard-rails_best_practices&amp;quot;, &amp;quot;rferraz-metric_fu&amp;quot;, &amp;quot;git-hooks-helper&amp;quot;, &amp;quot;odor&amp;quot;, &amp;quot;rake_check&amp;quot;, &amp;quot;koality&amp;quot;, &amp;quot;danmayer-metric_fu&amp;quot;, &amp;quot;bf4-metric_fu&amp;quot;, &amp;quot;metrics_satellite&amp;quot;, &amp;quot;code_hunter&amp;quot;, &amp;quot;kinit&amp;quot;, &amp;quot;rails-audit&amp;quot;, &amp;quot;pronto-rails_best_practices&amp;quot;, &amp;quot;free_disk_space&amp;quot;, &amp;quot;warder&amp;quot;, &amp;quot;ruby_osx_app&amp;quot;, &amp;quot;sanelint&amp;quot;]  Out of curiosity I counted some wellknown gems usages by adding a .</description>
     </item>
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://blog.mose.com/2014/05/22/hackpad-cli</link>
+      <link>http://blog.mose.com/2014/05/22/hackpad-cli/</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/22/hackpad-cli</guid>
-      <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mose/hackpad-cli&#34;&gt;https://github.com/mose/hackpad-cli&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://blog.mose.com/2014/05/22/hackpad-cli/</guid>
+      <description>In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.
+ https://github.com/mose/hackpad-cli  </description>
     </item>
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://blog.mose.com/2013/02/10/geeky-podcasts</link>
+      <link>http://blog.mose.com/2013/02/10/geeky-podcasts/</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts</guid>
-      <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
-
-&lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://rubyrogues.com&#34;&gt;http://rubyrogues.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rubyshow.com&#34;&gt;http://rubyshow.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://learn.thoughtbot.com/podcast&#34;&gt;http://learn.thoughtbot.com/podcast&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ruby5.envylabs.com&#34;&gt;http://ruby5.envylabs.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All was good and then I checked out podcast clients for my environment (linux with ubuntu) and I found out &lt;a href=&#34;http://gpodder.net&#34;&gt;http://gpodder.net&lt;/a&gt; which is exactly the kind of software I like. I does not much but what it does is well done. The website is a nice optional addition, only focused on podcasts and has a nice simple design and is free.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install gpodder
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then I discovered a few other podcasts for hackers, or oriented towards science and knowledge. And I removed the rss feed I had in my thunderbird for listening to some French-speaking radio shows (like la-bas si j&amp;rsquo;y suis).&lt;/p&gt;
-
-&lt;p&gt;The website makes possible to publish your subscription list, here is my list of very geeky selection:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gpodder.net/user/mose/subscriptions&#34;&gt;https://gpodder.net/user/mose/subscriptions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts/</guid>
+      <description>Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.
+I began this when starting working with rails, because that was a great flow of information, that had various sources:</description>
     </item>
     
   </channel>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Moselog</title>
+    <link>http://blog.mose.com/tags/</link>
+    <description>Recent content in Tags on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Apr 2017 22:10:31 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.mose.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogging</title>
+      <link>http://blog.mose.com/tags/blogging/</link>
+      <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chatbot</title>
+      <link>http://blog.mose.com/tags/chatbot/</link>
+      <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chef</title>
+      <link>http://blog.mose.com/tags/chef/</link>
+      <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/chef/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collective Intelligence</title>
+      <link>http://blog.mose.com/tags/collective-intelligence/</link>
+      <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/collective-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>http://blog.mose.com/tags/culture/</link>
+      <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>http://blog.mose.com/tags/debian/</link>
+      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://blog.mose.com/tags/devops/</link>
+      <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering</title>
+      <link>http://blog.mose.com/tags/engineering/</link>
+      <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freebsd</title>
+      <link>http://blog.mose.com/tags/freebsd/</link>
+      <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greenruby</title>
+      <link>http://blog.mose.com/tags/greenruby/</link>
+      <pubDate>Mon, 05 Jun 2017 09:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/greenruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackathon</title>
+      <link>http://blog.mose.com/tags/hackathon/</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://blog.mose.com/tags/javascript/</link>
+      <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifestyle</title>
+      <link>http://blog.mose.com/tags/lifestyle/</link>
+      <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mail</title>
+      <link>http://blog.mose.com/tags/mail/</link>
+      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailchimp</title>
+      <link>http://blog.mose.com/tags/mailchimp/</link>
+      <pubDate>Sun, 08 Feb 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/mailchimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetups</title>
+      <link>http://blog.mose.com/tags/meetups/</link>
+      <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/meetups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perl</title>
+      <link>http://blog.mose.com/tags/perl/</link>
+      <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://blog.mose.com/tags/python/</link>
+      <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>http://blog.mose.com/tags/ruby/</link>
+      <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubyconf</title>
+      <link>http://blog.mose.com/tags/rubyconf/</link>
+      <pubDate>Sun, 13 Sep 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/rubyconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubygems</title>
+      <link>http://blog.mose.com/tags/rubygems/</link>
+      <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/rubygems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://blog.mose.com/tags/security/</link>
+      <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>http://blog.mose.com/tags/slack/</link>
+      <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sublimetext</title>
+      <link>http://blog.mose.com/tags/sublimetext/</link>
+      <pubDate>Thu, 08 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/sublimetext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taipei</title>
+      <link>http://blog.mose.com/tags/taipei/</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/taipei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timezones</title>
+      <link>http://blog.mose.com/tags/timezones/</link>
+      <pubDate>Sun, 21 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/timezones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://blog.mose.com/tags/tools/</link>
+      <pubDate>Sun, 10 Apr 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://blog.mose.com/tags/vim/</link>
+      <pubDate>Thu, 15 May 2014 09:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webdev</title>
+      <link>http://blog.mose.com/tags/webdev/</link>
+      <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/tags/webdev/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

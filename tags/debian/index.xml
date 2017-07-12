@@ -7,116 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Nov 2015 22:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Packaging a gem for Debian</title>
-      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</link>
+      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
       <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</guid>
-      <description>&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
-there is a lot of companies that are not in the ruby ecosystem and they rely
-on things they trust rather than rubygems. For a while debian was way behind
-on the inclusion of ruby and versions were outdated there. So a parallel
-distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
-for ruby and bundler and rubygems for the packages. But where I work, they
-package everything as debian packages. So I had to adapt.&lt;/p&gt;
-
-&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
-the tools. That gem2deb tool is pretty convenient. I am using debian for a
-while but never really had to package anything. The debian community process
-is a bit complicated and they are not very inclusive. Compared to the ease of
-uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
-process are not very welcoming.&lt;/p&gt;
-
-&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
-rooted in a community tradition that are very exclusive and a bit elitist. But
-technology changes faster than people, obviously. Younger communities
-bootstrap in a more fluid environment.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
-Hit][liushit] recently. Well, all those things put in perspective the niceness
-of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
+      <description>Recently I had to package a gem for debian as a .deb. As a matter of fact, there is a lot of companies that are not in the ruby ecosystem and they rely on things they trust rather than rubygems. For a while debian was way behind on the inclusion of ruby and versions were outdated there. So a parallel distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby for ruby and bundler and rubygems for the packages.</description>
     </item>
     
     <item>
       <title>Welcome Jessie</title>
-      <link>http://blog.mose.com/2015/04/26/welcome-jessie</link>
+      <link>http://blog.mose.com/2015/04/26/welcome-jessie/</link>
       <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/26/welcome-jessie</guid>
-      <description>&lt;p&gt;Ok, right. Maybe you don&amp;rsquo;t care, but this saturday &lt;a href=&#34;https://www.debian.org/releases/jessie&#34;&gt;Jessie&lt;/a&gt; was
-officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and
-it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as
-fast as Ubuntu, but the stuff in there is more stable. And well, in my
-personal case, I work in a place where everything is in debian wheezy and can
-now finally get upgraded.&lt;/p&gt;
-
-&lt;p&gt;Actually I have been using Ubuntu on my desktop for some time. The reason was
-that I wanted to be able to help people to transition to linux, without being
-overloaded with support. So I had to know how ubuntu work. But last year I
-switched back to the original debian and I have been pretty happy about that.
-There is less cruft and opinionated choices (no freaking unity as a default
-window manager). And it&amp;rsquo;s pretty straightfoward in the install process. I
-suspect even non-techies could give it a try (I know some that did).&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/04/26/welcome-jessie/</guid>
+      <description>Ok, right. Maybe you don&amp;rsquo;t care, but this saturday Jessie was officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as fast as Ubuntu, but the stuff in there is more stable. And well, in my personal case, I work in a place where everything is in debian wheezy and can now finally get upgraded.</description>
     </item>
     
     <item>
       <title>More Screens</title>
-      <link>http://blog.mose.com/2015/01/25/more-screens</link>
+      <link>http://blog.mose.com/2015/01/25/more-screens/</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/25/more-screens</guid>
-      <description>
-
-&lt;p&gt;Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
-wanted to have on linux the same screen experience that I had with the macbook
-pro connected to 2 thunderbolts. So I got an &lt;a href=&#34;http://www.asus.com/us/Notebooks_Ultrabooks/ASUS_ZENBOOK_UX301LA/&#34;&gt;asus UX301L&lt;/a&gt; plus 2
-&lt;a href=&#34;http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&amp;amp;cs=audhs1&amp;amp;l=en&amp;amp;redirect=1&amp;amp;s=dhs&amp;amp;sku=210-40773&#34;&gt;Dell screens U2713HM&lt;/a&gt; who supports a 2560x1440 resolution. The laptop in itself
-is amazing, dazzling fast, and all worked well with an ubuntu install. This
-was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.&lt;/p&gt;
-
-&lt;p&gt;I struggled a bit to find the proper connectors so I could enable the extra
-large resolution on connected screens. I ended up using the mini-hdmi
-connector plus a mini-display port converter to DVI for the second one. And
-finally it worked last week. I had to &lt;a href=&#34;http://www.arunviswanathan.com/node/53&#34;&gt;force the resolution in xrandr&lt;/a&gt; and
-now I have a damn huge double display for a total of 7680x1440. What a blast!&lt;/p&gt;
-
-&lt;h2 id=&#34;debian-i3wm-and-urxvt:d021634982f7dcb44b802e2a3d2040a7&#34;&gt;Debian, i3wm and urxvt&lt;/h2&gt;
-
-&lt;p&gt;Well this is an old story. Some time ago I switched from debian + fvwm2/ion to
-ubuntu + cinnamon just because I had to know about it. The goal was to be able
-to convince my wife (and some other non-techies) to switch to ubuntu. But I
-had to know how it worked on a daily basis. And it was a success for most of
-it.&lt;/p&gt;
-
-&lt;p&gt;2 years ago at Faria I was given a mac. Well, it was good to know a bit more
-about it, my mac knowledge was dating from system 6.7 time. But if the
-hardware is really good, the OSX experience didn&amp;rsquo;t really satisfy the geek
-that was deep inside me.&lt;/p&gt;
-
-&lt;p&gt;Then I got back into a team that is deeply attached to pure linux traditions,
-when I joined Gandi. I now switched back to a debian jessie with &lt;a href=&#34;https://i3wm.org/&#34;&gt;i3wm&lt;/a&gt; on
-my work laptop. Wow this feels good to be back to such a rude but flexible
-environment. As a matter of fact all went perfectly well and all the tricks I
-knew 10 years ago are still very valid.&lt;/p&gt;
-
-&lt;p&gt;I also took that occasion to get back into urxvt, for my terminal emulator.
-It&amp;rsquo;s a very badly documented over-powerful tool. But when you get the grasp on
-it, possibilities are much more satisfying than with gnome-terminal. I&amp;rsquo;m still
-working on &lt;a href=&#34;https://github.com/mose/rcfiles/blob/master/.Xdefaults&#34;&gt;my configuration&lt;/a&gt; to match few features that gnome terminal had
-(like font resizing, clipboard management). The &lt;a href=&#34;https://github.com/mose/rcfiles/blob/master/.urxvt/ext/notification&#34;&gt;notification plugin&lt;/a&gt;,
-combined with &lt;a href=&#34;http://knopwob.org/dunst/index.html&#34;&gt;dunst&lt;/a&gt;, gives amazing results.&lt;/p&gt;
-
-&lt;p&gt;It feels good to be back into the cave. To mark this change, I didn&amp;rsquo;t shave
-for 3 months so now I&amp;rsquo;m really bearded like the old-fashioned linux bears.
-Muhaha!&lt;/p&gt;
-
-&lt;p&gt;PS: no worry, I&amp;rsquo;m still fullstack at heart and I still love ruby!&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/01/25/more-screens/</guid>
+      <description>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I wanted to have on linux the same screen experience that I had with the macbook pro connected to 2 thunderbolts. So I got an asus UX301L plus 2 Dell screens U2713HM who supports a 2560x1440 resolution. The laptop in itself is amazing, dazzling fast, and all worked well with an ubuntu install. This was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.</description>
     </item>
     
   </channel>

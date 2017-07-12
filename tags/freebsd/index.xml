@@ -7,91 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a taste of FreeBSD</title>
-      <link>http://blog.mose.com/2015/06/28/a-taste-of-freebsd</link>
+      <link>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</link>
       <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/28/a-taste-of-freebsd</guid>
-      <description>&lt;p&gt;This weekend I installed &lt;a href=&#34;http://freebsd.org&#34;&gt;FreeBSD&lt;/a&gt; 10.1 on a disk of my desktop.
-Beyond the fact that we are using that system at work, more and more, I was
-just curious about the setup for a desktop. I was pleasantly surprised and
-everything went very smoothly.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very
-easy. The general impression is that actually the system is simpler than on
-Linux, maybe more consistent. The pkg system, alternative to the traditional
-ports system, makes thing much more &amp;lsquo;out of the box&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;And for the rest, well, in one afternoon, and just by following the doc, I had
-my window manager up and running, and ready to begin playing with
-&lt;a href=&#34;https://wiki.freebsd.org/bhyve&#34;&gt;bhyve&lt;/a&gt;. I was surprised to see that bhyve kernel modules were included
-by default in recent releases. I heard there are still some bumps on the road
-for laptop about the sleep to disk mode, but I&amp;rsquo;m not concerned by that.&lt;/p&gt;
-
-&lt;p&gt;It feels like BSD is a shy actor that actually powers much more stuff that we
-can suspect. But it has a pretty active community and a very decent
-documentation. Well, give it a try if you like playing with various
-distributions of free and open operating systems. It&amp;rsquo;s much less scary that
-its reputation seems to convey.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</guid>
+      <description>This weekend I installed FreeBSD 10.1 on a disk of my desktop. Beyond the fact that we are using that system at work, more and more, I was just curious about the setup for a desktop. I was pleasantly surprised and everything went very smoothly.
+I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very easy. The general impression is that actually the system is simpler than on Linux, maybe more consistent.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging</link>
+      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging</guid>
-      <description>
-
-&lt;p&gt;Well, since that whole blogging thing began, I never have been very active on
-it. Well, I have a &lt;a href=&#34;http://blog.mose.com&#34;&gt;blog&lt;/a&gt; on Tumblr because I wanted to know how they
-are doing it, I published various posts in the &lt;a href=&#34;http://devtips.faria.co/authors.html#mose-ref&#34;&gt;faria devtips&lt;/a&gt;, and
-after all, this rant could also count as a publication. So I think I will
-gather them all under one unique site. A Jekyll github-pages kind, easy and
-cheap.&lt;/p&gt;
-
-&lt;p&gt;After all, I&amp;rsquo;m not sure the devtips website will stay up any longer. There
-have been no post since the day I left. Too bad. It&amp;rsquo;s a demonstration that
-some collective actions can sometimes rely only on the energy of one person.&lt;/p&gt;
-
-&lt;p&gt;So, I made a &lt;a href=&#34;http://mose.github.io/blog&#34;&gt;new repo&lt;/a&gt; on github for it, and I will gather whatever
-stuff I can find that I wrote in there.&lt;/p&gt;
-
-&lt;h2 id=&#34;lovely-freebsd:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Lovely FreeBSD&lt;/h2&gt;
-
-&lt;p&gt;At our Gandi office in Taipei I had to install a &lt;a href=&#34;https://www.pfsense.org/&#34;&gt;pfsense&lt;/a&gt; server,
-which is based on &lt;a href=&#34;https://www.freebsd.org/&#34;&gt;FreeBSD&lt;/a&gt;. It was quite a pleasant experience,
-actually. Last time I played a bit with BSD that was 12 years ago, and that
-was not very smooth. I&amp;rsquo;m happy to be given that occasion to see how it goes
-now.&lt;/p&gt;
-
-&lt;p&gt;For now I&amp;rsquo;m going to use it like if it was an &lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWRT&lt;/a&gt; with some
-extra &lt;a href=&#34;https://openvpn.net/index.php/open-source.html&#34;&gt;OpenVPN&lt;/a&gt; abilities. And it will also be a file server for the
-LAN. Not sure yet how I will handle that.&lt;/p&gt;
-
-&lt;h2 id=&#34;ruby-package-management:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;Ruby package management&lt;/h2&gt;
-
-&lt;p&gt;When I got in my new job, I discovered a new way to manage server management.
-They didn&amp;rsquo;t want to use &lt;a href=&#34;http://rvm.io/&#34;&gt;rvm&lt;/a&gt;, or even &lt;a href=&#34;https://rubygems.org/&#34;&gt;ruby gems&lt;/a&gt;, or
-&lt;a href=&#34;https://pip.pypa.io/en/latest/&#34;&gt;pip&lt;/a&gt; or anything that is not debian packages. It may sound quite harsh.
-Since I came in ruby in 2010, rvm has been my best friend, bundle the second
-one. But this approach is very developer-based. When you maintain large and
-stable systems, it&amp;rsquo;s more likely that you will not trust the bleeding edge
-stuff and prefer confirmed publication of packages before using them. This is
-an interesting slap on my face.&lt;/p&gt;
-
-&lt;p&gt;Of course there are the &lt;a href=&#34;https://www.brightbox.com/docs/ruby/ubuntu/&#34;&gt;brightbox&lt;/a&gt; packages for Ubuntu, but that&amp;rsquo;s
-missing the point. A release has to be out for a certain time so it can be
-strengthened by security reviews and proper production usage. There is a part
-of the population for each language that is considering the instability of
-current releases a normal trade-off. but there is a huge lot of other
-companies that will wait patiently that things get stable enough for their
-taste.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     
   </channel>

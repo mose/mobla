@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatbot on Moselog</title>
+    <link>http://blog.mose.com/tags/chatbot/</link>
+    <description>Recent content in Chatbot on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The virtues of transitions</title>
+      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</link>
+      <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</guid>
+      <description>
+
+&lt;p&gt;A collection of events occurred since my last post. I was really hoping to
+get some deep dive into writing more about collective intelligence, in the background.
+But various things came and distracted me from that initial trajectory.&lt;/p&gt;
+
+&lt;h2 id=&#34;hubot-revival:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Hubot revival&lt;/h2&gt;
+
+&lt;p&gt;First, there has been a revival of the &lt;a href=&#34;https://github.com/github/hubot&#34;&gt;Hubot project&lt;/a&gt;. I wrote a bunch of
+plugins for that chatbot for internal usage at Gandi in the past year. I have been poking
+around in the community complaining that it became some sort of abandonware. Issues on github
+were not addressed, PR unanswered, irc was silent.&lt;/p&gt;
+
+&lt;p&gt;Then one day 3 weeks ago, &lt;a href=&#34;https://github.com/bkeepers&#34;&gt;bkeepers&lt;/a&gt; came up and &lt;a href=&#34;https://github.com/github/hubot/blob/master/ROADMAP.md&#34;&gt;woke it up&lt;/a&gt;.
+It appears that now Github has plan for this codebase. They want to include it in its products
+more officially, says the rumor (nothing official yet). But it makes a lot of sense.
+So then he gathered people that could be involved in the revival of the project. I was
+contacted to join the core team. That&amp;rsquo;s what you get by nagging people.&lt;/p&gt;
+
+&lt;p&gt;Since then it has been quite great to clean up backlog, re-examine old ideas, help setup
+new process and tooling for community gardening. I never get tired to see how informal
+communities can shape up and self-organize.&lt;/p&gt;
+
+&lt;h2 id=&#34;quiting-is-not-a-bad-thing:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Quiting is not a bad thing&lt;/h2&gt;
+
+&lt;p&gt;Around the same time, I felt inspired by handing my resignation of my current job at Gandi.
+There is nothing wrong with the job, and most reasonable people could argue that I&amp;rsquo;m just stupid.
+But there are a combination of factors that led me to think I was not using my potential at
+full capacity.&lt;/p&gt;
+
+&lt;p&gt;Working on a large infrastructure as a sysadmin was great, but it&amp;rsquo;s pretty hard to build new things
+properly in the service industry. It&amp;rsquo;s always about contingency management, and reacting to the environment.
+It&amp;rsquo;s more about doing the fireman than the gardener. Well, honestly, I think it&amp;rsquo;s a question of intent
+and culture and that could have been addressed. But I didn&amp;rsquo;t see any hint that could let me think this
+environment would become intentional about gardening anytime soon.&lt;/p&gt;
+
+&lt;p&gt;So, out of the blue, I left. I chose a moment where there was no crisis, no trouble, no real reason
+to quit except a strong feeling that it was time to move on. That way, transition is painless, there
+is no frustration involved. I hate conflicts. My advice: never wait the burn out to make your move out.&lt;/p&gt;
+
+&lt;h2 id=&#34;green-ruby-end-of-life:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Green ruby end of life&lt;/h2&gt;
+
+&lt;p&gt;In the mood of transitionning, this week I proposed that we close the &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt; adventure.
+For some months Xenor has taken over the publication process. But he&amp;rsquo;s himself bunt out a bit.
+So after 4 years of publication, it&amp;rsquo;s time to close this properly and move on.&lt;/p&gt;
+
+&lt;p&gt;That weekly links collection was a fun exercise. And I&amp;rsquo;m really happy to have refused any business
+side track on this operation, it would have been much harder to close.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-next:195c338923f21c367264a5b5fb00e8a9&#34;&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;I decided that I could stay funemployed for a while (that&amp;rsquo;s the proper term, right?). I&amp;rsquo;m planning
+to look around, play with techs, talk with friends, hold on any decision to engage in anything.
+It&amp;rsquo;s time to re-assess my roadmap. This is what is great in transitions.
+By losing contact with the ground, you can feel the direction of the wind.&lt;/p&gt;
+
+&lt;p&gt;Maybe I will get back to entrepreneurship, and setup some business venture. Maybe I will freelance for a while.
+Maybe I will find a context in a company where I feel comfortable contributing. But honestly I have no clue.
+And yet, this feels great.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-back-to-old-friends:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Getting back to old friends&lt;/h2&gt;
+
+&lt;p&gt;In the first days after my decision to renounce my day job, I got back in contact with a lot of old friends.
+Transitions have that side effect that you have to re-evaluate your environment, your network, your values.&lt;/p&gt;
+
+&lt;p&gt;Getting into a full-time job doesn&amp;rsquo;t prevent that, of course, but you cannot give the same attention.
+The center of gravity of an employed person is static. Now that I&amp;rsquo;m floating, I have to dedicate much more
+attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
+
+&lt;p&gt;I will certainly have occasion to talk about my adventures very soon. Maybe I will force myself to write more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My lovely Chatbots, sick already?</title>
+      <link>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already</link>
+      <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already</guid>
+      <description>&lt;p&gt;Recently I have been to a meetup about chatbots. I was expecting something
+technical. But it seems that I was totally mislead on what chatbots are. They
+are visibly now more of a marketing tool than just a cool piece of technology.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m pretty convinced that web interfaces are going to die slowly in favor of
+more conversational interfaces. But in past technology shift we had some time
+between appearance and marketability. Like with the web, the social networks,
+etc. No more. Chatbots are immediate slaves for sales volumes. All the
+blooming of new services for &amp;lsquo;building your own bot&amp;rsquo; are just totally geared
+towards customers management and acquisition.&lt;/p&gt;
+
+&lt;p&gt;My naive assumption was that assistive conversational interface could have a
+larger scope. But well, the market is driven by what sells, and what sells is
+what make more sales. I just hope it will have a nice border effect to improve
+chatbots as a tool or as a general interface to access information.&lt;/p&gt;
+
+&lt;p&gt;But my instinct warns me against the potential invasion of our social world
+online by all sort of aggressive automated peddlers. The same way we get
+robotic phone calls. Chatbots are going to be the new color of spam?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chatops and machine learning</title>
+      <link>http://blog.mose.com/2016/07/30/chatops-and-machine-learning</link>
+      <pubDate>Sat, 30 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/30/chatops-and-machine-learning</guid>
+      <description>&lt;p&gt;Since I slowly becomes the chatops specialist where I work, I get to think I
+want more. Since the beginning we have been interacting with programs
+essentially with graphical interfaces. First asynchronous if we think about
+the web, now more and more synchronous, but they are interfaces that are not
+human. They are designed for giving control to the operators of those
+interfaces.&lt;/p&gt;
+
+&lt;p&gt;But the more we advance in autonomy of our programs, the more we should trust
+them to sort the information by priorities. The interfaces like Siri, Echo,
+are much more &amp;lsquo;human&amp;rsquo; and conversational. It doesn&amp;rsquo;t take a genius to
+speculate that interfaces are going to die one day, except for very
+specialized usages, and more interaction will be just more conversational.&lt;/p&gt;
+
+&lt;p&gt;In the course of my development of interactive agents for technical needs, I
+noticed that adding just a little bit of intelligence and memory in those
+agents goes a long way in usability. Especially in chatops, a lot of the
+actions required from those agents are predicable and repetitive. The
+development of new features should follow the recognition of those patterns
+and shorten the path to accomplish some actions. That&amp;rsquo;s pretty much my job.&lt;/p&gt;
+
+&lt;p&gt;But coding this continually is not very cost effective. Tools also change,
+then patterns evolve. Now all I can think about is a way to design an irc bot
+that learns by itself. Some program that does real meta-programming and
+considers its commands as data rather than hard-coded pre-conceived path for
+the information to flow.&lt;/p&gt;
+
+&lt;p&gt;If you know some tools that already do that, can you fire me a mail?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2 years</title>
+      <link>http://blog.mose.com/2015/02/01/2-years</link>
+      <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/02/01/2-years</guid>
+      <description>
+
+&lt;h2 id=&#34;ghost:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Ghost&lt;/h2&gt;
+
+&lt;p&gt;You certainly heard about it, this week there was a new huge Linux
+&lt;a href=&#34;http://www.openwall.com/lists/oss-security/2015/01/27/9&#34;&gt;vulnerability on glibc&lt;/a&gt; revealed. Actually it was leaked by a stupid
+communication agency few hours before it should have been announced. When such
+big bug is discovered usually there is a small period of time where the news
+spread into some limited circles. They keep it embargoed until major distro
+vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.&lt;/p&gt;
+
+&lt;p&gt;This vulnerability is pretty nasty even if less obvious to exploit than
+Heartbleed or shellshock, it&amp;rsquo;s probably in the same category. If you manage
+servers that are vulnerable (LTS and stable, less up to date versions,
+mostly), you better upgrade asap. When a bug gets its own name (this one is
+called Ghost), it seems to be the sign it requires immediate attention. How
+long is this trick going to work?&lt;/p&gt;
+
+&lt;p&gt;And, as we talk about security, Hipchat users should read this (unnamed)
+&lt;a href=&#34;https://blog.hipchat.com/2015/02/01/hipchat-security-notice-and-password-reset/&#34;&gt;security notice&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-years:fba0bb1f68d1414085590cced7805ffa&#34;&gt;2 years&lt;/h2&gt;
+
+&lt;p&gt;This edition is marking the 2 years anniversary of Green Ruby. For 104 weeks
+I&amp;rsquo;ve been sending out this newsletter every week. Last week I had a discussion
+with a friend, he was asking me what was my drive, and what was the reason of
+my consistency. Well, there are various reasons.&lt;/p&gt;
+
+&lt;p&gt;First there is the routine aspect. It&amp;rsquo;s like practicing Taichi or some kind of
+exercise. It keeps the mind fresh, and in this context where things change
+pretty fast, enforcing a weekly review gave me an overall feeling of symbiosis
+with the wave of what&amp;rsquo;s going on.&lt;/p&gt;
+
+&lt;p&gt;Second is the philosophy of it: this newsletter is a gift. The ruby world is
+very business oriented. There is a lot of open source in there but still the
+average spirit is based on a market economy. There are of course many
+exceptions, I wanted to be one of them, and I believe a gift economy would be
+more my thing. You get rich of what you give away, not always individually,
+but most definitely collectively. I like that feeling.&lt;/p&gt;
+
+&lt;p&gt;Third, this media keeps me in touch with a bunch of my friends. It&amp;rsquo;s like a
+beacon that I send to the people I left behind when I left France to go live
+in Taiwan. Or people I worked with in my past jobs in Taiwan, even. They don&amp;rsquo;t
+often respond to it but I know they can perceive me through this weekly proof
+of existence.&lt;/p&gt;
+
+&lt;p&gt;Also, there is the support from xenor and more recently from simon, which, by
+sending me a few links each weeks, validate the need to keep things going.&lt;/p&gt;
+
+&lt;h2 id=&#34;trello-and-irc:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Trello and irc&lt;/h2&gt;
+
+&lt;p&gt;For as long as I remember, I always have been coding irc bots. In so many
+languages. I suspect there is some aspect of this that appeals to me. Maybe
+the creation of life-like pattern. Anyways, my last bot was of course in ruby,
+I called it &lt;a href=&#34;https://github.com/mose/cogbot&#34;&gt;cogbot&lt;/a&gt;, and is based on the great &lt;a href=&#34;https://github.com/cinchrb/cinch&#34;&gt;cinch&lt;/a&gt; framework. It has
+been sleepy for a while, since we were not using irc in Faria.&lt;/p&gt;
+
+&lt;p&gt;But Gandi is heavy irc user, and our recent experiments on trello gave me an
+occasion to get cogbot out of the dust. As a matter of fact &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; has a
+really &lt;a href=&#34;https://trello.com/docs/&#34;&gt;great API&lt;/a&gt;, and also supports webhooks. So I added a trello
+listener to cogbot, and it was a lot of fun. Maybe next I will add some cards
+creation and update features in that bot, but it requires some kind of users
+management, which, on an irc bot, is not that trivial to implement.&lt;/p&gt;
+
+&lt;h2 id=&#34;free-your-code:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Free your code&lt;/h2&gt;
+
+&lt;p&gt;Do you have a side project? You should! Maybe the code you produce at work can
+be generic enough? This is a call for you to consider freeing your code. Open
+source community is plentiful but I know as a fact that 90% of the code that
+could be shared is not shared.&lt;/p&gt;
+
+&lt;p&gt;There is something I noticed in my own code publication. Often in my work
+there are constraints of time that lead to trade-offs and code quality is
+never as good as I wish it was. By working on side projects, the pace is much
+more relaxed and I can spend hours focusing on non productive efforts to make
+my code better. Well, this is not to say that side project code is perfect,
+but the environment of producing it brings another mindset. And after a while,
+the code produced at work gets naturally more insightful because of this extra
+practice.&lt;/p&gt;
+
+&lt;p&gt;Give it a try, if you happen to have some free time. If you don&amp;rsquo;t have free
+time, you&amp;rsquo;re doing something wrong. But that&amp;rsquo;s another story.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slack on Moselog</title>
+    <link>http://blog.mose.com/tags/slack/</link>
+    <description>Recent content in Slack on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Dec 2015 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SlackCast 2016</title>
+      <link>http://blog.mose.com/2015/12/27/slackcast-2016</link>
+      <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/27/slackcast-2016</guid>
+      <description>
+
+&lt;h2 id=&#34;happy-end-of-2015:602bde3b83227cc35adf0ad4ea322068&#34;&gt;Happy end of 2015&lt;/h2&gt;
+
+&lt;p&gt;Take good time, use the calendar rotation as a pretext to have good
+resolutions, get wasted like if you were a teenager (wait, what? we all are
+teenagers here?), or do whatever makes you happy if like me you prefer to
+remain sober. See you in 2016.&lt;/p&gt;
+
+&lt;h2 id=&#34;slackcast-2016:602bde3b83227cc35adf0ad4ea322068&#34;&gt;SlackCast 2016&lt;/h2&gt;
+
+&lt;p&gt;We had a lot of discussion with Nauman Tariq about how to make slack usage
+more lively, more useful, and such things. We worked together on a concept of
+event that we want to try next weekend. It will happen next Saturday (Jan 2nd)
+around 23:00 UTC (more or less 4 hours). If you want to participate, please
+shoot me an &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;email&lt;/a&gt;, and we&amp;rsquo;ll give you the precise time when we know
+it, plus the how-to-join-in. It will be a first time, it won&amp;rsquo;t be perfect, but
+it will be a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Read more about it on the &lt;a href=&#34;https://slack-files.com/T05052K3Q-F0FSX2GHG-3330dc8ef1&#34;&gt;SlackCast manifesto&lt;/a&gt;. You also can join
+&lt;a href=&#34;http://www.rubyonrails.link/&#34;&gt;rubyonrails.link&lt;/a&gt;, that&amp;rsquo;s where it will happen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slack overflow</title>
+      <link>http://blog.mose.com/2015/10/11/slack-overflow</link>
+      <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/11/slack-overflow</guid>
+      <description>&lt;p&gt;Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope &lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; will kill it, honestly.&lt;/p&gt;
+
+&lt;p&gt;I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn&amp;rsquo;t have a linux client for a while. So I didn&amp;rsquo;t really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don&amp;rsquo;t charge for normal usage until you need many integrations with various services, it&amp;rsquo;s pretty easy for anyone to create some new slack team.&lt;/p&gt;
+
+&lt;p&gt;Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt.&lt;/p&gt;
+
+&lt;p&gt;Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check &lt;a href=&#34;http://www.slacklist.info/&#34;&gt;slacklist&lt;/a&gt; or the &lt;a href=&#34;http://chats.directory/&#34;&gt;chat directory&lt;/a&gt;. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them.&lt;/p&gt;
+
+&lt;p&gt;I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It&amp;rsquo;s a totally different beast. Plus, that&amp;rsquo;s a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative.&lt;/p&gt;
+
+&lt;p&gt;Currently I got 6 groups on my slack client, including the &lt;a href=&#34;https://greenruby.slack.com/&#34;&gt;Greenruby slack group&lt;/a&gt;. You can ask for an invite at &lt;a href=&#34;mailto:news@greenruby.org&#34;&gt;slack@greenruby.org&lt;/a&gt; it&amp;rsquo;s totally open.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

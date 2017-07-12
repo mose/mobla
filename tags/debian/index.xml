@@ -2,24 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on Moselog</title>
-    <link>http://localhost:1313/tags/debian/</link>
+    <link>http://blog.mose.com/tags/debian/</link>
     <description>Recent content in Debian on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Greenruby 116</title>
-      <link>http://localhost:1313/2015/04/26/greenruby-116</link>
+      <title>Packaging a gem for Debian</title>
+      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</link>
+      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</guid>
+      <description>&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.&lt;/p&gt;
+
+&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
+process are not very welcoming.&lt;/p&gt;
+
+&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome Jessie</title>
+      <link>http://blog.mose.com/2015/04/26/welcome-jessie</link>
       <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/04/26/greenruby-116</guid>
-      <description>
-
-&lt;h2 id=&#34;welcome-jessie:d9f4d66fbdcd986833b23a4199ad62c2&#34;&gt;Welcome Jessie&lt;/h2&gt;
-
-&lt;p&gt;Ok, right. Maybe you don&amp;rsquo;t care, but this saturday &lt;a href=&#34;https://www.debian.org/releases/jessie&#34;&gt;Jessie&lt;/a&gt; was
+      <guid>http://blog.mose.com/2015/04/26/welcome-jessie</guid>
+      <description>&lt;p&gt;Ok, right. Maybe you don&amp;rsquo;t care, but this saturday &lt;a href=&#34;https://www.debian.org/releases/jessie&#34;&gt;Jessie&lt;/a&gt; was
 officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and
 it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as
 fast as Ubuntu, but the stuff in there is more stable. And well, in my
@@ -37,14 +65,12 @@ suspect even non-techies could give it a try (I know some that did).&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 103</title>
-      <link>http://localhost:1313/2015/01/25/greenruby-103</link>
+      <title>More Screens</title>
+      <link>http://blog.mose.com/2015/01/25/more-screens</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/01/25/greenruby-103</guid>
+      <guid>http://blog.mose.com/2015/01/25/more-screens</guid>
       <description>
-
-&lt;h2 id=&#34;more-screens:d021634982f7dcb44b802e2a3d2040a7&#34;&gt;More Screens&lt;/h2&gt;
 
 &lt;p&gt;Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
 wanted to have on linux the same screen experience that I had with the macbook

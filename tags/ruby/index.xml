@@ -2,22 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Moselog</title>
-    <link>http://localhost:1313/tags/ruby/</link>
+    <link>http://blog.mose.com/tags/ruby/</link>
     <description>Recent content in Ruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Apr 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Greenruby 113</title>
-      <link>http://localhost:1313/2015/04/05/greenruby-113</link>
+      <title>About tests and documentation</title>
+      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation</link>
+      <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation</guid>
+      <description>&lt;p&gt;This aspect of development, called Documentation, is the source of various
+frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like
+testing. When you begin your craft as a coder, all what matters is the code.
+It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you
+in the neck. Like, huho, now that I need to refactor, I really should use
+something that tells me if all still works. Tests become an early necessity to
+anyone who knows that kind of truth. If you wait until the end of a coding
+cycle to write those, the task is huge and it cuts you from your productivity
+cycle. Write them early, along the flow, is way easier.&lt;/p&gt;
+
+&lt;p&gt;So I think documentation follows the same pattern. So many software projects
+are badly documented because this aspect is postponed until it&amp;rsquo;s needed. Means
+at release stage. In early stages, you work on a prototype and you don&amp;rsquo;t need
+to explain how things work or are supposed to work. And when it&amp;rsquo;s released,
+there is usually some other task waiting and it&amp;rsquo;s hard to stop everything to
+get back and document things properly. It may be a flaw in the agile process,
+but it may also be a feature: if you don&amp;rsquo;t document along the way, you won&amp;rsquo;t
+document much.&lt;/p&gt;
+
+&lt;p&gt;Personally I try to consider the documentation of any of the source code I
+write as one of the first tasks. There are various tricks that can help in
+that perspective, like &lt;a href=&#34;http://tom.preston-werner.com/2010/08/23/readme-driven-development.html&#34;&gt;readme-driven development&lt;/a&gt;, or including the doc
+inside the code with &lt;a href=&#34;http://yardoc.org/&#34;&gt;yarddoc&lt;/a&gt; or &lt;a href=&#34;http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api&#34;&gt;apipie&lt;/a&gt;, or coupling
+documentation with tests with &lt;a href=&#34;https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples&#34;&gt;rspec&lt;/a&gt; or &lt;a href=&#34;https://github.com/zipmark/rspec_api_documentation&#34;&gt;RSpec API Doc
+Generator&lt;/a&gt;. But honestly I prefer edited documentation that can follow
+a structure that is thought as documentation rather than merely an automated
+output of some code.&lt;/p&gt;
+
+&lt;p&gt;There are various tools to organize edited documentation, like
+&lt;a href=&#34;https://readthedocs.org/&#34;&gt;ReadTheDoc&lt;/a&gt; which is in python. Another project appeared last week from
+the guys at Pluralsight named &lt;a href=&#34;http://tutorials.pluralsight.com/faq/&#34;&gt;hack.guide()&lt;/a&gt;. That&amp;rsquo;s a community project
+but actually being totally open sourced, I was thinking the &lt;a href=&#34;https://github.com/pluralsight/guides-cms&#34;&gt;documentation
+building CMS&lt;/a&gt; they made could pretty much fill the gap of a
+light-weight RTD, with the benefits of having a UI for editors. Too bad we
+don&amp;rsquo;t have anything like this in ruby (or do we?).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Packaging a gem for Debian</title>
+      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</link>
+      <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian</guid>
+      <description>&lt;p&gt;Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.&lt;/p&gt;
+
+&lt;p&gt;So I went have a look at &lt;a href=&#34;https://wiki.debian.org/Teams/Ruby&#34;&gt;the debian ruby team&lt;/a&gt; and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it&amp;rsquo;s quite a fortress, and people in the
+process are not very welcoming.&lt;/p&gt;
+
+&lt;p&gt;Maybe it&amp;rsquo;s generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it&amp;rsquo;s precious.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The power of DSL</title>
+      <link>http://blog.mose.com/2015/11/01/the-power-of-dsl</link>
+      <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/01/the-power-of-dsl</guid>
+      <description>&lt;p&gt;While I was playing with &lt;a href=&#34;https://github.com/zetachang/react.rb&#34;&gt;react.rb&lt;/a&gt; and exploring &lt;a href=&#34;http://opalrb.org/&#34;&gt;opal&lt;/a&gt;, I
+felt in a totally different world. The power of the DSL already prove its
+shine on various occasions. I got to experience it in activeadmin, rspec, and
+puppet (but I kind of dislike the one in puppet).&lt;/p&gt;
+
+&lt;p&gt;As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility
+that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
+making new programming languages, using meta-programming, lambda and other
+goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
+of its syntax, it empowers developers with the ability to write dedicated
+programming language for any specific use. And this, I didn&amp;rsquo;t find in python.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multiple inheritance simulation</title>
+      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/04/05/greenruby-113</guid>
+      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</guid>
       <description>
-
-&lt;h2 id=&#34;multiple-inheritance-simulation:a9a546e37849f6a570839940ccf98c98&#34;&gt;Multiple inheritance simulation&lt;/h2&gt;
 
 &lt;p&gt;This is a bit twisted. In ruby, as you know, you cannot use multiple
 inheritance. But the flexibility of the language, especially the
@@ -43,14 +137,12 @@ discovered this vaping practice in geeks circles.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 109</title>
-      <link>http://localhost:1313/2015/03/08/greenruby-109</link>
+      <title>About blogging</title>
+      <link>http://blog.mose.com/2015/03/08/about-blogging</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/03/08/greenruby-109</guid>
+      <guid>http://blog.mose.com/2015/03/08/about-blogging</guid>
       <description>
-
-&lt;h2 id=&#34;about-blogging:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;About blogging&lt;/h2&gt;
 
 &lt;p&gt;Well, since that whole blogging thing began, I never have been very active on
 it. Well, I have a &lt;a href=&#34;http://blog.mose.com&#34;&gt;blog&lt;/a&gt; on Tumblr because I wanted to know how they
@@ -100,14 +192,12 @@ taste.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 108</title>
-      <link>http://localhost:1313/2015/03/01/greenruby-108</link>
+      <title>Working abroad</title>
+      <link>http://blog.mose.com/2015/03/01/working-abroad</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/03/01/greenruby-108</guid>
+      <guid>http://blog.mose.com/2015/03/01/working-abroad</guid>
       <description>
-
-&lt;h2 id=&#34;working-abroad:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Working abroad&lt;/h2&gt;
 
 &lt;p&gt;Our craft as webdev is clearly in huge demand. This provides an opportunity
 for us to travel abroad, discover new cultures, widen our horizon. When I went
@@ -139,10 +229,10 @@ in april, in Atlanta this year.&lt;/p&gt;
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://localhost:1313/2015/01/18/greenruby-102</link>
+      <link>http://blog.mose.com/2015/01/18/greenruby-102</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/01/18/greenruby-102</guid>
+      <guid>http://blog.mose.com/2015/01/18/greenruby-102</guid>
       <description>
 
 &lt;h2 id=&#34;while42:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;While42&lt;/h2&gt;
@@ -188,10 +278,10 @@ my life!&lt;/p&gt;
     
     <item>
       <title>S3 backups</title>
-      <link>http://localhost:1313/2014/06/12/s3-backups</link>
+      <link>http://blog.mose.com/2014/06/12/s3-backups</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/06/12/s3-backups</guid>
+      <guid>http://blog.mose.com/2014/06/12/s3-backups</guid>
       <description>&lt;p&gt;We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).&lt;/p&gt;
 
 &lt;ul&gt;
@@ -280,65 +370,11 @@ done
     </item>
     
     <item>
-      <title>Make a gem</title>
-      <link>http://localhost:1313/2014/06/04/make-a-gem</link>
-      <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/2014/06/04/make-a-gem</guid>
-      <description>
-
-&lt;p&gt;Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:&lt;/p&gt;
-
-&lt;h2 id=&#34;make-a-rubygems-account:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Make a Rubygems account&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;first ensure create an ccount on &lt;a href=&#34;https://rubygems.org/&#34;&gt;https://rubygems.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;initialize your credentials:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials
-Enter host password for user &#39;username&#39;:
-
-chmod 0600 ~/.gem/credentials
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;prepare-the-code:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Prepare the code&lt;/h2&gt;
-
-&lt;p&gt;These steps are my typical path, nothing is really mandatory there.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;create a repo at github (or wherever you want)&lt;/li&gt;
-&lt;li&gt;create a base gem skeleton &lt;code&gt;bundle gem mycoolgem&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;update the README.md, add some minimal information. The clearest you explain what it does the best chances people will adopt it. Add cypirght information&lt;/li&gt;
-&lt;li&gt;create a CHANGELOG.md because when you publish something you need a clear log of your version changes&lt;/li&gt;
-&lt;li&gt;enable the tracking on &lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt;, &lt;a href=&#34;https://travis-ci.org/&#34;&gt;travis&lt;/a&gt;, &lt;a href=&#34;https://coveralls.io/&#34;&gt;coveralls&lt;/a&gt;, &lt;a href=&#34;https://gemnasium.com&#34;&gt;gemnasium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;add badges from &lt;a href=&#34;http://shields.io&#34;&gt;http://shields.io&lt;/a&gt; in the README.md because it helps to qualify the state of the code quickly&lt;/li&gt;
-&lt;li&gt;when the gem code don&amp;rsquo;t need to have access to the version number, I found convenient to just remove the version file and add version in the .gemspec from the changelog file with &lt;code&gt;spec.version  = File.read(File.expand_path(&#39;../CHANGELOG.md&#39;, __FILE__))[/([0-9]+\.[0-9]+\.[0-9]+)/]&lt;/code&gt;
-(so then when I version bump there is only one file to edit)&lt;/li&gt;
-&lt;li&gt;write the code (or copy it from the private app you extract it from)&lt;/li&gt;
-&lt;li&gt;add a spec/ or test/ dir and write some tests and try to reach a decent coverage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;release-it:a6c8c79e924ce88903bef7ff7392e41e&#34;&gt;Release it&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;add the date in the changelog for the current version&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rake release&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;bump the version to the next increment in the changelog (and version file if any)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Overall with the initial bundle command and the final rake task for release, it&amp;rsquo;s pretty straightforward.&lt;/p&gt;
-
-&lt;p&gt;Also check &lt;a href=&#34;http://guides.rubygems.org/make-your-own-gem/&#34;&gt;http://guides.rubygems.org/make-your-own-gem/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Gem reverse dependencies</title>
-      <link>http://localhost:1313/2014/05/27/gem-reverse-dependencies</link>
+      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/27/gem-reverse-dependencies</guid>
+      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies</guid>
       <description>&lt;p&gt;I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby -ropen-uri -rpp -ryaml \
@@ -384,10 +420,10 @@ devise:  422
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://localhost:1313/2014/05/22/hackpad-cli</link>
+      <link>http://blog.mose.com/2014/05/22/hackpad-cli</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2014/05/22/hackpad-cli</guid>
+      <guid>http://blog.mose.com/2014/05/22/hackpad-cli</guid>
       <description>&lt;p&gt;In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -398,10 +434,10 @@ devise:  422
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://localhost:1313/2013/02/10/geeky-podcasts</link>
+      <link>http://blog.mose.com/2013/02/10/geeky-podcasts</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2013/02/10/geeky-podcasts</guid>
+      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts</guid>
       <description>&lt;p&gt;Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.&lt;/p&gt;
 
 &lt;p&gt;I began this when starting working with rails, because that was a great flow of information, that had various sources:&lt;/p&gt;
@@ -425,98 +461,6 @@ devise:  422
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gpodder.net/user/mose/subscriptions&#34;&gt;https://gpodder.net/user/mose/subscriptions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RubyConf 2012</title>
-      <link>http://localhost:1313/2012/12/10/rubyconf-2012</link>
-      <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/2012/12/10/rubyconf-2012</guid>
-      <description>&lt;div class=&#34;gallery&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-
-
-
-
-&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/1-xenor&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/1-xenor&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Xenor&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-
-
-&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/2-talk&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;800x1280&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/2-talk&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Talks&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-
-
-&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/3-restau&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/3-restau&#34; itemprop=&#34;thumbnail&#34; alt=&#34;At restaurant&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-
-
-&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/4-benxenor&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/4-benxenor&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Xenor and benjamin&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-
-
-&lt;figure class=&#34;figure&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&lt;a href=&#34;http://res.cloudinary.com/mosepix/image/upload/rubyconf-2012/5-conf&#34; itemprop=&#34;contentUrl&#34; data-size=&#34;1280x800&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/mosepix/image/upload/c_limit,h_100,w_150/c_thumb,g_center,h_100,w_150/rubyconf-2012/5-conf&#34; itemprop=&#34;thumbnail&#34; alt=&#34;Conference&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313//css/photoswipe.css&#34;&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313//css/photoswipe-skin/default-skin.css&#34;&gt;
-&lt;script src=&#34;http://localhost:1313//js/photoswipe.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://localhost:1313//js/photoswipe-ui-default.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://localhost:1313//js/initphotoswipe.js&#34;&gt;&lt;/script&gt;
-
-&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
-  &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
-      &lt;div class=&#34;pswp__container&#34;&gt;
-        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-        &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
-      &lt;div class=&#34;pswp__top-bar&#34;&gt;
-        &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
-        &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
-        &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
-        &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
-        &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
-        &lt;div class=&#34;pswp__preloader&#34;&gt;
-          &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
-            &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
-              &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
-        &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
-      &lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
-      &lt;/button&gt;
-      &lt;div class=&#34;pswp__caption&#34;&gt;
-        &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-  initPhotoSwipeFromDOM(&#39;.gallery&#39;);
-&lt;/script&gt;
-
-
-&lt;p&gt;Ruby Conf Taiwan 2012. Quite a great event.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://rubyconf.tw/2012/&#34;&gt;http://rubyconf.tw/2012/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

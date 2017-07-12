@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taipei on Moselog</title>
+    <link>http://blog.mose.com/tags/taipei/</link>
+    <description>Recent content in Taipei on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Dec 2015 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/taipei/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Busy hackathon in Taipei</title>
+      <link>http://blog.mose.com/2015/12/06/busy-hackathon-in-taipei</link>
+      <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/12/06/busy-hackathon-in-taipei</guid>
+      <description>&lt;p&gt;This weekend we had our first &lt;a href=&#34;http://hackathon.taipei/en.html&#34;&gt;hackathon&lt;/a&gt; in Taipei, organized by
+&lt;a href=&#34;http://gandi.net&#34;&gt;Gandi&lt;/a&gt;. That was pretty fun, to be there on the side of the organizers
+without actually being in charge of the organization for once. Such geek
+events are always so great for meeting and sharing, being forbidden to
+participate didn&amp;rsquo;t prevent me to push some ideas around.&lt;/p&gt;
+
+&lt;p&gt;During the course of the weekend, I joined mickey to push the creation of a
+&lt;a href=&#34;https://github.com/elixirtw/elixir_tw&#34;&gt;Taiwan group for Elixir&lt;/a&gt;, for which we had an idea of a stream
+capture feature to gather slack discussion and index them. I also had an idea
+of event for &lt;a href=&#34;https://github.com/FreeBSDTaiwan/portscamp&#34;&gt;FreeBSD portscamp&lt;/a&gt; with marcelo, so we made a FreeBSD
+Taiwan group on github as well (with a pretty neat logo). All this was
+actually not that much related to the hackathon but just emerging from natural
+proximity with other geeks.&lt;/p&gt;
+
+&lt;p&gt;Check my &lt;a href=&#34;https://www.flickr.com/photos/43946968@N07/albums/72157661448405060&#34;&gt;photos on flickr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hackathon in Taipei</title>
+      <link>http://blog.mose.com/2015/11/22/a-hackathon-in-taipei</link>
+      <pubDate>Sun, 22 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/22/a-hackathon-in-taipei</guid>
+      <description>&lt;p&gt;In 2 weeks Gandi organizes with .taipei registry a &lt;a href=&#34;http://hackathon.taipei/&#34;&gt;Hackhaton&lt;/a&gt; with
+pretty wide topic. It will be at at the Hi-tech Promotion Center in Taipei on
+December 5 and 6. I will be there (part of the jury), so if you want to have
+some week-end fun and are in Taipei at that time, feel free to join in. There
+will be prizes, free domains and hosting. I would love to see some ruby
+projects there.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

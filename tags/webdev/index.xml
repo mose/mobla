@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdev on Moselog</title>
+    <link>http://blog.mose.com/tags/webdev/</link>
+    <description>Recent content in Webdev on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jun 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Playing with crystal</title>
+      <link>http://blog.mose.com/2016/06/12/playing-with-crystal</link>
+      <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/12/playing-with-crystal</guid>
+      <description>&lt;p&gt;Last week I went to a &lt;a href=&#34;http://remotemeetup.com&#34;&gt;remote meetup&lt;/a&gt; of &lt;a href=&#34;https://www.rubyparis.org/&#34;&gt;Paris.rb&lt;/a&gt; (fr). Well, it
+was at 1am in my timezone, but I wanted to check how remote meetups can go and
+there was some presentation about crystal and about kemal. It was a great
+moment (&lt;a href=&#34;https://www.bigmarker.com/remote-meetup/ParisRb-June-7?show_live_page=true&#34;&gt;video is online&lt;/a&gt; if you can understand french), and gave me the
+push to give crystal a try. It was low on my todo list but it was there,
+waiting for the proper conditions.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s pretty much the main thing that I got out of it. Attending to social
+activities is providing once again a great push to move forward. It&amp;rsquo;s not
+about what you learn (which still can be valuable), it&amp;rsquo;s not about networking
+with people (even if it can be priceless), it&amp;rsquo;s all about the personal alchemy
+that brings you on your edge and keeps you hungry for more. Well, that&amp;rsquo;s how
+it works for me, at least.&lt;/p&gt;
+
+&lt;p&gt;So I had a look at &lt;a href=&#34;http://crystal-lang.org/&#34;&gt;Crystal&lt;/a&gt;, and &lt;a href=&#34;https://github.com/mose/anyquestion&#34;&gt;played&lt;/a&gt; a bit with &lt;a href=&#34;http://kemalcr.com/&#34;&gt;Kemal&lt;/a&gt;, and
+I&amp;rsquo;m very happy with the result. I had some attempt to check Elixir too but
+crystal felt really much closer to ruby. The main difference being the
+variable typing, the stdlib that includes some modern stuff like websockets or
+oauth2, and the compile step (which in some case can be a bit taxing). But the
+speed gain is phenomenal. I suspect it would make some sense, in a scalability
+strategy, to think about porting ruby code to crystal when perfs become an
+issue (not sure how it would apply to complex rails app though).&lt;/p&gt;
+
+&lt;p&gt;Okay yeah Crystal is still very young. But it&amp;rsquo;s getting traction, I bet it has
+a bright future ahead.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Here is 2016</title>
+      <link>http://blog.mose.com/2016/01/03/here-is-2016</link>
+      <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/01/03/here-is-2016</guid>
+      <description>&lt;p&gt;Well in this last week of 2015, the have not been that much publication and
+the list of links is shorter than usual. Everybody is probably just having a
+life for a change, which is a good things :)&lt;/p&gt;
+
+&lt;p&gt;There is a lot of promising trends that may unleash in the coming year. I hope
+to see what ruby 3 will bring. Rails 5 is already almost out there too. But
+there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s
+still very young and hacky in my opinion.&lt;/p&gt;
+
+&lt;p&gt;On the frontend side, there is that big news that was announced last year,
+with &lt;a href=&#34;https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support&#34;&gt;Microsoft ditching IE old versions&lt;/a&gt; officially on january 12,
+it will be on tuesday next week. IE 11 would become the only supported
+version. A bold but welcome move. Maybe it will help adoption of JS recent
+native APIs. I suspect that if IE dies, jquery will not make any sense anymore
+as the JS stack will be more consistent then. But maybe I&amp;rsquo;m wrong, that&amp;rsquo;s just
+an intuition. And the end of support doesn&amp;rsquo;t mean there will be an instant
+extinction of old IEs, it may still take some more time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving to Hugo</title>
+      <link>http://blog.mose.com/2015/08/28/moving-to-hugo</link>
+      <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/28/moving-to-hugo</guid>
+      <description>&lt;p&gt;As I love website pre-generation concept I have been using &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; and &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; quite a lot. But now I wanted to give a try to &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I wanted to see how it was made. Then I had a period of time where I was publishing tips on the Faria Devtips website, which is down now. Then I also publish some rants every week on the &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt; newsletter.&lt;/p&gt;
+
+&lt;p&gt;Only the last on is still active, so I will cross-post things from there to here, which should not be too hard as they are both markdown.&lt;/p&gt;
+
+&lt;p&gt;The first impression of Hugo is that there are still a lot of small weird things. But in some ways, I&amp;rsquo;m kind of happy about it, I guess I will try to fix some of those, that will be an occasion to play a little with golang.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Just met Hugo</title>
+      <link>http://blog.mose.com/2015/08/23/just-met-hugo</link>
+      <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/23/just-met-hugo</guid>
+      <description>&lt;p&gt;Some weeks ago I was talking about Octopress. I think pre-generation of
+websites is a very sensible approach. And I heard about &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; for some
+time now. It&amp;rsquo;s like a cousin of Jekyll but writen in Go. The author of
+Middleman (another site generation engine) confessed in a &lt;a href=&#34;https://changelog.com/169/&#34;&gt;recent podcast&lt;/a&gt;
+that he would try the Golang way if he had to start from
+scratch today.&lt;/p&gt;
+
+&lt;p&gt;I got interested into Hugo mostly because one of the side projects I&amp;rsquo;m working
+on. It involves a bunch of people that run on windows. Having a binary that
+runs everywhere is a big plus for a gGo solution. Installing ruby is possible
+on windows, but not really for noobs afaict.&lt;/p&gt;
+
+&lt;p&gt;Also, I want to check more Go projects. I have been playing in and out that
+language for a while now. Version 1.5 seems really great. So I upgraded my
+&lt;a href=&#34;https://github.com/moovweb/gvm&#34;&gt;gvm&lt;/a&gt; and installed the thing. Well, I could havce just used the Hugo
+binary, but where is the fun in that?&lt;/p&gt;
+
+&lt;p&gt;My first impression is very comfortable. It took a lot of the principles form
+Jekyll. But it seems to have some extra options and concepts that may be a
+little more advanced and seem very promising. The theming system is especially
+cool. I will probably first port my own blog under Hugo before porting my
+other project.&lt;/p&gt;
+
+&lt;p&gt;As a matter of fact, that&amp;rsquo;s a while I&amp;rsquo;m considering that I never feed my blog,
+but I should copy the rants I write here in there. It can be fun to add a rake
+task in the greenruby publication process to also add a page in a nearby hugo
+repo and publish it at the same time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Octopress 3 and other thoughts</title>
+      <link>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts</link>
+      <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently involved in a community project and I installed a wordpress.
+From time to time I get one up to see how it evolves. But really this thing is
+not to my taste. To much trouble for making simple things. I reckon it can be
+useful for people with no technical knowledge but then they are going to mess
+up everything. The technical advisor still can&amp;rsquo;t be avoided.&lt;/p&gt;
+
+&lt;p&gt;So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the
+previous attempts, I will give a try to the new &lt;a href=&#34;http://octopress.org/&#34;&gt;octopress 3.0&lt;/a&gt;.
+The octopress author &lt;a href=&#34;http://octopress.org/2015/01/15/octopress-3.0-is-coming/&#34;&gt;explains&lt;/a&gt; that he&amp;rsquo;s been doing it all wrong and now
+on version 3.0 he gets back to sort of a collection of gems that plug into
+jekyll. I kind of like the idea.&lt;/p&gt;
+
+&lt;p&gt;Well to be honest I was also tempted to give a try to &lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;phoenix&lt;/a&gt;, but
+I know jekyll already and I don&amp;rsquo;t have that much server resources for that
+community project. Static web always have had my preference. But the idea
+behind Phoenix is appealing. Like any new project it includes the new things
+and don&amp;rsquo;t have to bother about legacy. The channels ideas, creating a stream
+between client and server, sounds very appealing.&lt;/p&gt;
+
+&lt;p&gt;But to get back to why I will prefer jekyll over wordpress, is that my
+contributors are a mess. They don&amp;rsquo;t care about styling, they copy-paste random
+html all over the place and the final look is totally inconsistent. My hope is
+that markdown would limit the possibilities of making a mess. But then I will
+have to propose them the github edit, as a backend, unless I cheat and use
+etherpad-lite as a pre-production backend.&lt;/p&gt;
+
+&lt;p&gt;That &lt;a href=&#34;http://etherpad.org/&#34;&gt;etherpad-lite&lt;/a&gt; thing is amazingly simple, I used sometimes and
+making it accessible behind a single password for everybody makes tings pretty
+direct. But totally unsafe, I reckon. I will probably have to write some kind
+of tool for managing the publication workflow. Hmm, that sounds like fun. If
+you ever had the same kind of adventure, please &lt;a href=&#34;mailto:mose@greenruby.org&#34;&gt;share with me&lt;/a&gt; :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Make it static</title>
+      <link>http://blog.mose.com/2015/02/08/make-it-static</link>
+      <pubDate>Sun, 08 Feb 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/02/08/make-it-static</guid>
+      <description>
+
+&lt;h2 id=&#34;damn-omnivore:f97d1953e92cfdfb05d8ef20de1a8b30&#34;&gt;Damn omnivore&lt;/h2&gt;
+
+&lt;p&gt;Last week Green Ruby was sent with a delay. For some obscure reason my
+publication was blocked by &lt;a href=&#34;http://mailchimp.com/omnivore/&#34;&gt;Omnivore&lt;/a&gt; the automated fraud detection system
+from Mailchimp. My account was instantly blocked and it was pending a human
+review. Of course the human review made it clear that the publication was
+clean but it took 2 days and I still don&amp;rsquo;t know why this omnivore beast went
+mad at me.&lt;/p&gt;
+
+&lt;p&gt;They declare it&amp;rsquo;s getting smarter everyday, but really, we are still safe. The
+reign of the intelligent computer over the human species is not close yet.&lt;/p&gt;
+
+&lt;h2 id=&#34;make-it-static:f97d1953e92cfdfb05d8ef20de1a8b30&#34;&gt;Make it static&lt;/h2&gt;
+
+&lt;p&gt;Dynamic websites are great. But that&amp;rsquo;s a long time I wonder about the
+trade-off. If you update your blog every day, and have 500 visits, your
+dynamic setup is useful when you edit, and it&amp;rsquo;s a cost for each visitor. There
+are so many web applications that could be more clever about it. Especially
+that now the computation is going more and more client side.&lt;/p&gt;
+
+&lt;p&gt;Static pages have a really unbeatable response time, their security is really
+reliable, they are low dependencies and easy to deploy with a rsync.&lt;/p&gt;
+
+&lt;p&gt;When I get to think about making a new website, I always ask myself if it&amp;rsquo;s an
+application or a website. For sure some kind of applications are computation
+intensive. Making it all dynamic could make sense. But frankly, if it&amp;rsquo;s a
+website, it can have some fancy dynamic features without a huge dynamic setup.&lt;/p&gt;
+
+&lt;p&gt;I have seen so many websites made with php, mysql, 5 tables and 20 entries in
+each. Such site should have pre-generated content, data available as static
+json files, as a bit of js to make the magic happen. If there is a lot of
+data, fine, an API server makes sense.&lt;/p&gt;
+
+&lt;p&gt;So next time you gotta prepare a website, ask yourself how easy it could be to
+generate it and use tools like &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; or &lt;a href=&#34;https://middlemanapp.com/&#34;&gt;Middleman&lt;/a&gt;. Or you can even
+handle things with custom rake tasks (&lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/lib/builder.rb#L87&#34;&gt;like I do for Green Ruby website&lt;/a&gt;),
+that&amp;rsquo;s not that hard. It&amp;rsquo;s a matter of cyberspace ecology.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

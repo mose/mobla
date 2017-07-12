@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl on Moselog</title>
+    <link>http://blog.mose.com/tags/perl/</link>
+    <description>Recent content in Perl on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Code in the dark, perl 6</title>
+      <link>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6</link>
+      <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6</guid>
+      <description>
+
+&lt;p&gt;My attention was brought this week to &lt;a href=&#34;http://codeinthedark.com/&#34;&gt;Code in the dark events&lt;/a&gt;. It seems
+pretty cool. A 15 minutes race in html and css with no preview. But the thing
+that brought my attention to that format is the special editor used for those
+events with a special effect on the cursor. It seems to add a really dramatic
+effect on the competition. We need more ideas like that for pure geek fun.&lt;/p&gt;
+
+&lt;h2 id=&#34;first-look-at-perl-6:f6454540d52b5466477bc9e3371f78a1&#34;&gt;First look at perl 6&lt;/h2&gt;
+
+&lt;p&gt;For many people, Perl sounds like trauma. Because it didn&amp;rsquo;t move for a while,
+when I hear something is perl code, it sounds like it&amp;rsquo;s legacy code, old and
+dusty. Well, Perl 6 is going to come out for christmas and the situation may
+change. Perl 6 is in the lab for &lt;a href=&#34;http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released&#34;&gt;15 years&lt;/a&gt; now, it&amp;rsquo;s more than
+time to get it shipped.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;http://doc.perl6.org/language/5to6-nutshell&#34;&gt;first glance&lt;/a&gt;, they seem to have tried to &amp;lsquo;modernize&amp;rsquo; the language,
+make it more idiomatic. It even seems it looks more like ruby, with the
+replacement of arrow by dots, the optional parenthesis, better exception
+handling. Well, overall, it feels cleaner. But it also seem to have some
+potential to mix functional and object-oriented in an interesting way.&lt;/p&gt;
+
+&lt;p&gt;So, maybe there is going to be a second life for the old perl. It&amp;rsquo;s a breaking
+version, old perl code will certainly break on the new version. So it&amp;rsquo;s almost
+like a new language. For sure I will still keep ruby as my preferred language,
+but I like multilingualism, so maybe I will give it a try .. again (last perl
+app I wrote was 12 years ago).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

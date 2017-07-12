@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mail on Moselog</title>
+    <link>http://blog.mose.com/tags/mail/</link>
+    <description>Recent content in Mail on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/mail/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I&#39;m in holidays</title>
+      <link>http://blog.mose.com/2016/10/02/im-in-holidays</link>
+      <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/02/im-in-holidays</guid>
+      <description>&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
+my mutt to make it real again, after 6 years of click-click for mail. I was a
+mutt user for a very long time, and my pause for trying a GUI mail client just
+had to have an end. But the mail has clearly become something else now.
+Actually much more volume, but much more automated things, and news feeds. Or
+it&amp;rsquo;s just me?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DST sucks, Thunderbird too, Gmail too</title>
+      <link>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too</link>
+      <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too</guid>
+      <description>
+
+&lt;p&gt;This week-end they changed time in France. As I work with those guys to cover
+the watching of servers, then I need to change time too. This is totally lame.
+In the context of largely distributed teams, DST is heresy. It happens in the
+US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have
+that in Taiwan.&lt;/p&gt;
+
+&lt;h2 id=&#34;thunderbird-sucks-too:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Thunderbird sucks too&lt;/h2&gt;
+
+&lt;p&gt;Despite the respect I have for mozilla products and for their efforts toward
+the community, I have to say that I have been using thunderbird for a while
+and I don&amp;rsquo;t like it. There is some lack of customability in there, it eats a
+whole lot of memory and it&amp;rsquo;s kinda slow sometimes. I have been considering
+getting back to mutt, which is a totally different category of mail client.&lt;/p&gt;
+
+&lt;p&gt;But I found &lt;a href=&#34;http://www.claws-mail.org/&#34;&gt;claws&lt;/a&gt;, and trying it for a few days on my various
+mailboxes with hundreds of thousands of mails, and it is a very good feeling.
+It&amp;rsquo;s much more transparent and hackable and stays in the same category of the
+clickable mail client as thunderbird. I&amp;rsquo;m not sure I will stick to claws,
+maybe I will get back to mutt that I have been used so many years before. But
+I sure will give that &amp;lsquo;email client that bites&amp;rsquo; a try for a while.&lt;/p&gt;
+
+&lt;h2 id=&#34;gmail-sucks-more:30c8323f12e415f49a8e753e970d1ab8&#34;&gt;Gmail sucks more&lt;/h2&gt;
+
+&lt;p&gt;I still can&amp;rsquo;t figure out why people use gmail for reading their mail. I mean,
+you leave management of your mail to google, you know what they do with it.
+You also want to give them information about how you read your mail? I mean,
+using a webmail, first, should be a fallback. But it&amp;rsquo;s mystery for nobody that
+google business is in profiling people. It blasts me how people can trust them
+blindly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

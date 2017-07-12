@@ -2,24 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Moselog</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>http://blog.mose.com/tags/javascript/</link>
     <description>Recent content in Javascript on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Greenruby 127</title>
-      <link>http://localhost:1313/2015/07/12/greenruby-127</link>
+      <title>Is Facebook the new NPM?</title>
+      <link>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm</link>
+      <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm</guid>
+      <description>&lt;p&gt;This week there is a lot of noise in the JS ecosystem, on various trends. But
+the most noticeable is about &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt;. Yet another package manager for js,
+that states it opens a war against NPM (in soft terms but clearly enough). The
+&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;long post from Facebook&lt;/a&gt; about it demonstrates a clear effort to push
+things forward about NPM shortcomings. The reaction on &lt;a href=&#34;https://news.ycombinator.com/item?id=12684980&#34;&gt;hacker news&lt;/a&gt;
+is pretty verbose.&lt;/p&gt;
+
+&lt;p&gt;It provoked a public &lt;a href=&#34;http://blog.npmjs.org/post/151660845210/hello-yarn&#34;&gt;response from NPM&lt;/a&gt; to try to explain that, nop,
+it&amp;rsquo;s not a war. But I keep feeling that Facebook is slowly taking over another
+piece of the javascript world. For now, it doesn&amp;rsquo;t seem harmful at all, but my
+instinct lights a various number of warning bonfires.&lt;/p&gt;
+
+&lt;p&gt;But for real, it was more than time that the supremacy of NPM was questioned.
+It has a lot of flaws and the number of posts about this event proves that the
+community was kind of waiting for something like this to happen. Like this
+&lt;a href=&#34;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.d5wnp2yf9&#34;&gt;cheatsheet&lt;/a&gt;, various articles like &lt;a href=&#34;http://www.infoworld.com/article/3130179/javascript/facebook-spins-yarn-to-replace-npm-packager.html&#34;&gt;this one&lt;/a&gt;, this
+enthusiastic post from &lt;a href=&#34;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#34;&gt;Yehuda Kats&lt;/a&gt;. But &lt;a href=&#34;https://medium.com/@boennemann/questions-i-wish-yarn-had-answered-on-day-1-ec0db7458107#.r1kyqfnwr&#34;&gt;not everybody is happy&lt;/a&gt;
+about how things are done.&lt;/p&gt;
+
+&lt;p&gt;Personally, I like the technical direction it takes. But I hope that like
+io.js went back to node.js, it will eventually merge back to NPM, really. But
+I have the feeling it is not going to happen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The JS toolback hell</title>
+      <link>http://blog.mose.com/2016/10/09/the-js-toolback-hell</link>
+      <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/10/09/the-js-toolback-hell</guid>
+      <description>&lt;p&gt;This week I laughed a lot while reading &lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.pl6hx94d3&#34;&gt;How it feels to learn JavaScript in
+2016&lt;/a&gt;. That article had a pretty &lt;a href=&#34;http://www.macwright.org/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;good response&lt;/a&gt;, like it hits a
+nerve.&lt;/p&gt;
+
+&lt;p&gt;But seriously it&amp;rsquo;s clear that we are at a transition time in Javascript
+evolution, and there is a huge chaos of possible alternatives to everything.
+It feels like an ecosystem where the natural selection didn&amp;rsquo;t operate its
+magic yet. It&amp;rsquo;s like there are things in suspension that are going to fall in
+order at some point eventually.&lt;/p&gt;
+
+&lt;p&gt;My personal bet is that things like elm will win the race, because with its
+embrace of functional programming it seems like it opens the door to
+interpretation with yet-to-be-written faster and more direct compilers (rather
+than transpiling to js). But that&amp;rsquo;s just a hunch.&lt;/p&gt;
+
+&lt;p&gt;In the while, front-end craft is now a wizard arcane art. It can&amp;rsquo;t be acquired
+by pure reasoning and logic, or reading a doc. You need the map of the
+landscape for knowing the possible choices and alternative intermediary
+solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kik the fuss</title>
+      <link>http://blog.mose.com/2016/03/27/kik-the-fuss</link>
+      <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/27/kik-the-fuss</guid>
+      <description>&lt;p&gt;There have been some noise last week about npm, coming from &lt;a href=&#34;https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu&#34;&gt;that article&lt;/a&gt;.
+It merely revealed that various open source
+organization are privately held by some individuals and they can either be
+pressured or take weird decisions. Honestly I consider this incident
+anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened
+to be very vocal and pissed off about it.&lt;/p&gt;
+
+&lt;p&gt;And it carried various threads of discussion on Twitter and elsewhere, in a
+huge controversy. There were many points raised. NPM has thousands and
+thousands of packages, and many of them are just a few lines of utility
+library, so it was a good occasion for some to point out that you should
+reduce your number of dependencies. Others pointed out that namespacing could
+help prevent such situation, like it&amp;rsquo;s done in docker or in go (having
+username/somelib instead of somelib) following the github convention.&lt;/p&gt;
+
+&lt;p&gt;All in all, it appears that open source is gaining its traction from being
+free of any legal duty. Or at least there is no formal contracting, no
+by-laws, on committees or advisors. People do how they feel in the limits of
+some very simple basic licensing rules. Some organization provide a more
+structured legal asset but they usually are on the side and purposed for
+channeling money management, not necessarily patents and intellectual
+property.&lt;/p&gt;
+
+&lt;p&gt;My opinion is that this kind of friction between businesses and open source is
+going to happen more and more. But I wonder how it&amp;rsquo;s going to turn out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript and thoughts on programming</title>
+      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2015/07/12/greenruby-127</guid>
-      <description>
-
-&lt;h2 id=&#34;javascript-and-thoughts-on-programming:5d8b105fb300dee4745f73b31fcdff54&#34;&gt;Javascript and thoughts on programming&lt;/h2&gt;
-
-&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
+      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming</guid>
+      <description>&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
 company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
 I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
 the same feeling I have each time I get back to that language. I feel dirty.

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collective Intelligence on Moselog</title>
-    <link>http://localhost:1313/tags/collective-intelligence/</link>
+    <link>http://blog.mose.com/tags/collective-intelligence/</link>
     <description>Recent content in Collective Intelligence on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jul 2017 09:25:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Collective Intelligence and open source</title>
-      <link>http://localhost:1313/2017/07/11/collective-intelligence-and-open-source</link>
+      <link>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source</link>
       <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/07/11/collective-intelligence-and-open-source</guid>
+      <guid>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source</guid>
       <description>&lt;p&gt;For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I hold a &lt;a href=&#34;https://tiki.org/mose&#34;&gt;leadership position&lt;/a&gt; in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.&lt;/p&gt;
 
 &lt;p&gt;Collaboration can be instinctive in some contexts. But engineering projects need some flavor of coordination to make things go smoothly. The goal being to reach the threshold of the sum. It happens when it&amp;rsquo;s more efficient to join the collective than to work in isolation. The collective action is more than the sum of the parts. It&amp;rsquo;s quite easy to achieve and it happens in every business. But in an environment without enforcement of an authority, like in open source projects, the setup has to rely on autonomy of the participants and their willingness to play their part.&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Collective Intelligence or Collecting Intelligence</title>
-      <link>http://localhost:1313/2017/06/16/collective-intelligence-or-collecting-intelligence</link>
+      <link>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</link>
       <pubDate>Fri, 16 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/06/16/collective-intelligence-or-collecting-intelligence</guid>
+      <guid>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</guid>
       <description>&lt;p&gt;Because I had some time recently I watched the &lt;a href=&#34;https://www.youtube.com/user/ciconf2014&#34;&gt;whole batch of videos&lt;/a&gt; of the
 &amp;ldquo;Collective Intelligence Conference&amp;rdquo; from 2014 on youtube.
 It&amp;rsquo;s part of my exploration of that field, see what changed in the past years.&lt;/p&gt;
@@ -116,10 +116,10 @@ already existing to create various conditions necessary to the emergence. It&amp
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.
@@ -190,6 +190,137 @@ Well. This could be the topic for another post. I got some surprises.&lt;/p&gt;
 I didn&amp;rsquo;t live like an hermit, I&amp;rsquo;m involved in various local and global communities.
 But I feel I could share a little more about what I learned in my past experiments.
 Now that I reach my 50&amp;rsquo;s, maybe I just feel like I have to begin writing stuff.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interview-based knowledge sharing</title>
+      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</link>
+      <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</guid>
+      <description>&lt;p&gt;For years I noticed the difficulty to extract decent information from
+developers and craftsmen about their work. Developers clearly lack the
+skill or the taste for documentation. It extends to the specifications,
+which also provides an occasion to notice bad performance.&lt;/p&gt;
+
+&lt;p&gt;To work this around, specialized project managers have to fill this role,
+but it can create a gap between developers ownership and the final result.
+Sometimes luck creates the inspiration and developers produce a decent
+amount of documentation. But honestly, this is pure luck, and not a rule.&lt;/p&gt;
+
+&lt;p&gt;I found a way to mitigate this issue, that I began to experiment some time
+ago at work. It&amp;rsquo;s based on a recorded interaction between a project person and
+a person of the craft.&lt;/p&gt;
+
+&lt;p&gt;Here are the rules:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the project person organizes interviews with stakeholders from all specialties
+including developers, business people, operations people, sometimes users,
+the more diverse population possible. But it can also be done for no reason
+for sharing a certain kind of knowledge with an expert.&lt;/li&gt;
+&lt;li&gt;interviews take place by written interactive communication in a chat,
+in a way that enables logging (irc, slack, whatever)&lt;/li&gt;
+&lt;li&gt;it lasts 20 minutes more or less, but the format can extend to hours if the need is felt&lt;/li&gt;
+&lt;li&gt;once the interview is finished, the interviewer cleans up the logs, removes out of topic
+details, fixes typoes, removes elements that are purely belonging to the chat way of communication&lt;/li&gt;
+&lt;li&gt;the cleaned log is reviewed by the interviewee for consensual agreement on its publication&lt;/li&gt;
+&lt;li&gt;the log can then be added to whatever project space is dedicated to the topic at hand
+(documentation, specification annexes, study, paper)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are various beneficial side effects to this endeavor:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;actors have a better feeling of engagement in the project or topic at hand&lt;/li&gt;
+&lt;li&gt;it creates a bond between actors, facilitates future exchanges&lt;/li&gt;
+&lt;li&gt;it gives an equal chance for everyone to speak, even the shy ones, because the 1 to 1
+context is much less frightening. In a meeting, there are people that never speak.
+Are they stupid? they are not!&lt;/li&gt;
+&lt;li&gt;it creates content that can be shared with other actors so that they have a better
+chance to understand the point of views of other parties.&lt;/li&gt;
+&lt;li&gt;it creates a useful reference for the project, a raw material which can be annexed
+and can be used for summaries. It also creates more content for an eventual search engine
+if the publication space has one.&lt;/li&gt;
+&lt;li&gt;there is less risk to cite someone out of context because the full context is provided.&lt;/li&gt;
+&lt;li&gt;it is much easier to organize interviews or hold them on the fly than setup meetings.&lt;/li&gt;
+&lt;li&gt;there is no feeling of loss of time like in a meeting: the time dedicated is intense
+and very interactive, there is no waste.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I had the occasion to try that technique in a context where internal communication is
+not optimal, for knowledge sharing at first, then for exploring options on a new project
+and set up specifications. I have been happy to notice that this formula creates pretty
+good output and generates a nice feeling in all parties involved.&lt;/p&gt;
+
+&lt;p&gt;Certainly more study will come on this approach. It&amp;rsquo;s a lot of fun.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The thin line between chaos and harmony</title>
+      <link>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony</link>
+      <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony</guid>
+      <description>&lt;p&gt;In the long road of my developer life I had the chance to experience a very
+wide variety of organizational models. The most pleasant was in the context of
+very large open source projects, where actions are not planned but still
+organized, and things fall in their place seemingly naturally. Of course there
+is nothing natural in that. There is a category of people, that can be called
+catalysts, working as gardeners and building the pathways to collaboration.
+But because there is no predefined hierarchy, I thought chaos had some
+virtues.&lt;/p&gt;
+
+&lt;p&gt;In other hierarchical models, there is so much waste following the rule rather
+than its essence. It&amp;rsquo;s like there was an abstraction layer for efficiency and
+the staff follows the abstraction, paying no respect to the efficiency.
+Because after a time the set of rules is not making sense anymore. The
+environment moves fast and habits are hard to change. It&amp;rsquo;s taking long time
+for an organization to change its own internal rules.&lt;/p&gt;
+
+&lt;p&gt;But I also have seen non-hierarchical model totally fail. When you try to
+apply an open-source kind of organization inside a company, it cannot be done
+half-way, but it cannot be done fully.&lt;/p&gt;
+
+&lt;p&gt;For example the volatility of contributors is an essential part of the
+open-source organization model. Things are working the way they do because
+people are free to leave and join at will, or stop working when they decide.
+This is totally different in a company, even if you can get some
+approximation, leaving and joining is a more complicated process, and has a
+different set of motivations. And let&amp;rsquo;s not talk about the freedom to stop
+working at will.&lt;/p&gt;
+
+&lt;p&gt;This single factor leads the free-formed communities to get various incentives
+for contributors to feel good about their interaction in the community. The
+ones that don&amp;rsquo;t play well along other people just end up either in a
+leadership position because they are geniuses, or just leave because they
+don&amp;rsquo;t fit in. Or they stay and kill the project because everybody else leaves.
+But most likely they are the reason why forks exist.&lt;/p&gt;
+
+&lt;p&gt;But in a non-hierarchic company, those cowboys may end up hurting the whole
+process of collaboration by capturing some processes, getting very good at
+them, and give hell to everybody else for a time, under the privilege of the
+Power of the Bottleneck. It&amp;rsquo;s very hard to get those people to share knowledge
+because their position depends on it. If nothing is done, the situation will
+become uneasy and awkward at best.&lt;/p&gt;
+
+&lt;p&gt;Certainly in that type of situation, if there is some power in place to
+mitigate this danger, all can be good and well. But from my experience such
+power is hard to come by. Especially if the non-hierarchic aspect of the
+organization depends on him/her/it. Maybe there is some way to have some kind
+of catalyst role, but where I have seen such role in a company, it was
+informal and not an official position.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s too bad because I would love to experience again some real collective
+intelligence in the workplace the same way I have experienced it in some open
+source communities. I think maybe there are some companies out there that are
+doing that well, but most of the time it&amp;rsquo;s not going to be structural. Most
+likely it will come from a specific set of people that do real good in
+collaboration. I still wait to see a company that includes in its genetic
+code, in its fundamental principle, the seeds that make it possible to be
+efficient and still instinctive.&lt;/p&gt;
 </description>
     </item>
     

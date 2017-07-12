@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moselog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://blog.mose.com/</link>
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jul 2017 09:25:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Collective Intelligence and open source</title>
-      <link>http://localhost:1313/2017/07/11/collective-intelligence-and-open-source</link>
+      <link>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source</link>
       <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/07/11/collective-intelligence-and-open-source</guid>
+      <guid>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source</guid>
       <description>&lt;p&gt;For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I hold a &lt;a href=&#34;https://tiki.org/mose&#34;&gt;leadership position&lt;/a&gt; in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.&lt;/p&gt;
 
 &lt;p&gt;Collaboration can be instinctive in some contexts. But engineering projects need some flavor of coordination to make things go smoothly. The goal being to reach the threshold of the sum. It happens when it&amp;rsquo;s more efficient to join the collective than to work in isolation. The collective action is more than the sum of the parts. It&amp;rsquo;s quite easy to achieve and it happens in every business. But in an environment without enforcement of an authority, like in open source projects, the setup has to rely on autonomy of the participants and their willingness to play their part.&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Collective Intelligence or Collecting Intelligence</title>
-      <link>http://localhost:1313/2017/06/16/collective-intelligence-or-collecting-intelligence</link>
+      <link>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</link>
       <pubDate>Fri, 16 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/06/16/collective-intelligence-or-collecting-intelligence</guid>
+      <guid>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence</guid>
       <description>&lt;p&gt;Because I had some time recently I watched the &lt;a href=&#34;https://www.youtube.com/user/ciconf2014&#34;&gt;whole batch of videos&lt;/a&gt; of the
 &amp;ldquo;Collective Intelligence Conference&amp;rdquo; from 2014 on youtube.
 It&amp;rsquo;s part of my exploration of that field, see what changed in the past years.&lt;/p&gt;
@@ -116,10 +116,10 @@ already existing to create various conditions necessary to the emergence. It&amp
     
     <item>
       <title>bye bye Green Ruby</title>
-      <link>http://localhost:1313/2017/06/05/bye-bye-green-ruby</link>
+      <link>http://blog.mose.com/2017/06/05/bye-bye-green-ruby</link>
       <pubDate>Mon, 05 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/06/05/bye-bye-green-ruby</guid>
+      <guid>http://blog.mose.com/2017/06/05/bye-bye-green-ruby</guid>
       <description>&lt;p&gt;Today I&amp;rsquo;m closing &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt;. That newsletter, started on february 2013,
 has been a self-imposed weekly duty for more than 4 years. I take a lot
 of pride not to have missed one single week during those 225 weeks.&lt;/p&gt;
@@ -158,10 +158,10 @@ Never forget about it. Pay it forward.&lt;/p&gt;
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://localhost:1313/2017/05/31/the-virtues-of-transitions</link>
+      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/31/the-virtues-of-transitions</guid>
+      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</guid>
       <description>
 
 &lt;p&gt;A collection of events occurred since my last post. I was really hoping to
@@ -237,10 +237,10 @@ attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</link>
+      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/05/01/how-i-came-to-collective-intelligence</guid>
+      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence</guid>
       <description>
 
 &lt;p&gt;I plan to share some thoughts about Collective Intelligence from a software perspective.
@@ -315,16 +315,12 @@ Now that I reach my 50&amp;rsquo;s, maybe I just feel like I have to begin writi
     </item>
     
     <item>
-      <title>The Interviews approach</title>
-      <link>http://localhost:1313/2017/04/29/the-interviews-approach</link>
+      <title>Interview-based knowledge sharing</title>
+      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/04/29/the-interviews-approach</guid>
-      <description>
-
-&lt;h2 id=&#34;interview-based-knowledge-sharing:1b8340b7f1acd4b3212e7dd40ccc3d0c&#34;&gt;Interview-based knowledge sharing&lt;/h2&gt;
-
-&lt;p&gt;For years I noticed the difficulty to extract decent information from
+      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</guid>
+      <description>&lt;p&gt;For years I noticed the difficulty to extract decent information from
 developers and craftsmen about their work. Developers clearly lack the
 skill or the taste for documentation. It extends to the specifications,
 which also provides an occasion to notice bad performance.&lt;/p&gt;
@@ -384,16 +380,12 @@ good output and generates a nice feeling in all parties involved.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Getting back into writing</title>
-      <link>http://localhost:1313/2017/04/28/getting-back-into-writing</link>
+      <title>Enough sleeping</title>
+      <link>http://blog.mose.com/2017/04/28/enough-sleeping</link>
       <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2017/04/28/getting-back-into-writing</guid>
-      <description>
-
-&lt;h2 id=&#34;enough-sleeping:de01faa72149d30f4eb88db96f78a8dd&#34;&gt;Enough sleeping&lt;/h2&gt;
-
-&lt;p&gt;A few months ago, I got tired of leading &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt;
+      <guid>http://blog.mose.com/2017/04/28/enough-sleeping</guid>
+      <description>&lt;p&gt;A few months ago, I got tired of leading &lt;a href=&#34;http://greenruby.org&#34;&gt;Greenruby&lt;/a&gt;
 publication and Xenor accepted to jump in and take the publisher role.
 I&amp;rsquo;m very grateful about it. But as a secundary effect, I lost that ranting
 channel I got used to abuse. Each week, I was getting somehow acustomed
@@ -411,16 +403,12 @@ do it in silence.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 197</title>
-      <link>http://localhost:1313/2016/11/13/greenruby-197</link>
+      <title>My lovely Chatbots, sick already?</title>
+      <link>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already</link>
       <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/11/13/greenruby-197</guid>
-      <description>
-
-&lt;h2 id=&#34;my-lovely-chatbots-sick-already:eae14584655a9a501cab4772b62674f0&#34;&gt;My lovely Chatbots, sick already?&lt;/h2&gt;
-
-&lt;p&gt;Recently I have been to a meetup about chatbots. I was expecting something
+      <guid>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already</guid>
+      <description>&lt;p&gt;Recently I have been to a meetup about chatbots. I was expecting something
 technical. But it seems that I was totally mislead on what chatbots are. They
 are visibly now more of a marketing tool than just a cool piece of technology.&lt;/p&gt;
 
@@ -443,16 +431,12 @@ robotic phone calls. Chatbots are going to be the new color of spam?&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 193</title>
-      <link>http://localhost:1313/2016/10/16/greenruby-193</link>
+      <title>Is Facebook the new NPM?</title>
+      <link>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm</link>
       <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/16/greenruby-193</guid>
-      <description>
-
-&lt;h2 id=&#34;is-facebook-the-new-npm:33c6cbaaffa1f33ba49e5064e8787b21&#34;&gt;Is Facebook the new NPM?&lt;/h2&gt;
-
-&lt;p&gt;This week there is a lot of noise in the JS ecosystem, on various trends. But
+      <guid>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm</guid>
+      <description>&lt;p&gt;This week there is a lot of noise in the JS ecosystem, on various trends. But
 the most noticeable is about &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt;. Yet another package manager for js,
 that states it opens a war against NPM (in soft terms but clearly enough). The
 &lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;long post from Facebook&lt;/a&gt; about it demonstrates a clear effort to push
@@ -478,16 +462,12 @@ I have the feeling it is not going to happen.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 192</title>
-      <link>http://localhost:1313/2016/10/09/greenruby-192</link>
+      <title>The JS toolback hell</title>
+      <link>http://blog.mose.com/2016/10/09/the-js-toolback-hell</link>
       <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/09/greenruby-192</guid>
-      <description>
-
-&lt;h2 id=&#34;the-js-toolback-hell:151a80b7575169c1b4c5c3e795aacfee&#34;&gt;The JS toolback hell&lt;/h2&gt;
-
-&lt;p&gt;This week I laughed a lot while reading &lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.pl6hx94d3&#34;&gt;How it feels to learn JavaScript in
+      <guid>http://blog.mose.com/2016/10/09/the-js-toolback-hell</guid>
+      <description>&lt;p&gt;This week I laughed a lot while reading &lt;a href=&#34;https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.pl6hx94d3&#34;&gt;How it feels to learn JavaScript in
 2016&lt;/a&gt;. That article had a pretty &lt;a href=&#34;http://www.macwright.org/2016/10/04/everything-is-fine-with-javascript.html&#34;&gt;good response&lt;/a&gt;, like it hits a
 nerve.&lt;/p&gt;
 
@@ -510,16 +490,12 @@ solutions. For part-time front-end people, it&amp;rsquo;s just hell. For now.&lt
     </item>
     
     <item>
-      <title>Greenruby 191</title>
-      <link>http://localhost:1313/2016/10/02/greenruby-191</link>
+      <title>I&#39;m in holidays</title>
+      <link>http://blog.mose.com/2016/10/02/im-in-holidays</link>
       <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/10/02/greenruby-191</guid>
-      <description>
-
-&lt;h2 id=&#34;i-m-in-holidays:b1244f7eff2aad7b5fd0625537cc8e0a&#34;&gt;I&amp;rsquo;m in holidays&lt;/h2&gt;
-
-&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
+      <guid>http://blog.mose.com/2016/10/02/im-in-holidays</guid>
+      <description>&lt;p&gt;Great occasion to kick thunderbird byebye and spend some time on configuring
 my mutt to make it real again, after 6 years of click-click for mail. I was a
 mutt user for a very long time, and my pause for trying a GUI mail client just
 had to have an end. But the mail has clearly become something else now.
@@ -529,16 +505,12 @@ it&amp;rsquo;s just me?&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 190</title>
-      <link>http://localhost:1313/2016/09/25/greenruby-190</link>
+      <title>A stress-free life</title>
+      <link>http://blog.mose.com/2016/09/25/a-stress-free-life</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/25/greenruby-190</guid>
-      <description>
-
-&lt;h2 id=&#34;a-stress-free-life:210225183e37db0ce5a2649da43cbec4&#34;&gt;A stress-free life&lt;/h2&gt;
-
-&lt;p&gt;Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for
+      <guid>http://blog.mose.com/2016/09/25/a-stress-free-life</guid>
+      <description>&lt;p&gt;Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for
 people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For
 people that get heavy pressure from their work, it can give some air. But I
 wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them
@@ -574,16 +546,12 @@ years now and I can&amp;rsquo;t remember last time I felt stressed.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 189</title>
-      <link>http://localhost:1313/2016/09/18/greenruby-189</link>
+      <title>The art of learning</title>
+      <link>http://blog.mose.com/2016/09/18/the-art-of-learning</link>
       <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/18/greenruby-189</guid>
-      <description>
-
-&lt;h2 id=&#34;the-art-of-learning:25cf5a2664fd7aa4f4e5aff03248e656&#34;&gt;The art of learning&lt;/h2&gt;
-
-&lt;p&gt;In my review this week I read that &lt;a href=&#34;https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek&#34;&gt;Old Geek post&lt;/a&gt;, which has a lot
+      <guid>http://blog.mose.com/2016/09/18/the-art-of-learning</guid>
+      <description>&lt;p&gt;In my review this week I read that &lt;a href=&#34;https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek&#34;&gt;Old Geek post&lt;/a&gt;, which has a lot
 of comments under its feet. This is quite interesting. But I feel there is a
 confusion here.&lt;/p&gt;
 
@@ -607,16 +575,12 @@ soon. hahaha.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 188</title>
-      <link>http://localhost:1313/2016/09/11/greenruby-188</link>
+      <title>Observability and Digestibility</title>
+      <link>http://blog.mose.com/2016/09/11/observability-and-digestibility</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/11/greenruby-188</guid>
-      <description>
-
-&lt;h2 id=&#34;observability-and-digestibility:a97c278ef841935dd0d0e1b0e41782ad&#34;&gt;Observability and Digestibility&lt;/h2&gt;
-
-&lt;p&gt;This is a word I love. I found it again in a &lt;a href=&#34;https://medium.com/production-ready/systems-blindness-and-how-we-deal-with-it-d601fa63b7f4#.ub69zflcv&#34;&gt;recent blog post about system blindness&lt;/a&gt;
+      <guid>http://blog.mose.com/2016/09/11/observability-and-digestibility</guid>
+      <description>&lt;p&gt;This is a word I love. I found it again in a &lt;a href=&#34;https://medium.com/production-ready/systems-blindness-and-how-we-deal-with-it-d601fa63b7f4#.ub69zflcv&#34;&gt;recent blog post about system blindness&lt;/a&gt;
 and it reminded me how critical this need is. Our
 systems get more and more numerous and small. The reliability and debugging of
 a platform now goes into various loops given the multiplication of actors.&lt;/p&gt;
@@ -636,16 +600,12 @@ containers worlds there is something like that. Is there not?&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greenruby 187</title>
-      <link>http://localhost:1313/2016/09/04/greenruby-187</link>
+      <title>Get out</title>
+      <link>http://blog.mose.com/2016/09/04/get-out</link>
       <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/2016/09/04/greenruby-187</guid>
-      <description>
-
-&lt;h2 id=&#34;get-out:7741c696b47b149abfe2c5fda320314d&#34;&gt;Get out&lt;/h2&gt;
-
-&lt;p&gt;If you only ever have lived in only one country, you really should consider
+      <guid>http://blog.mose.com/2016/09/04/get-out</guid>
+      <description>&lt;p&gt;If you only ever have lived in only one country, you really should consider
 fixing it. Going &lt;a href=&#34;https://inassets1-internationsgmbh.netdna-ssl.com/static/bundles/internationsexpatinsider/pdf/expat_insider_2016_the_internations_survey.pdf&#34;&gt;live in another country&lt;/a&gt; for some years or more is just
 such a way towards a richer life. It&amp;rsquo;s usually easy to recognize people that
 are multi-rooted, as they often have an increased depth in their personal

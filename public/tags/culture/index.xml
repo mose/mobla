@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on Moselog</title>
+    <link>http://blog.mose.com/tags/culture/</link>
+    <description>Recent content in Culture on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Sep 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The art of learning</title>
+      <link>http://blog.mose.com/2016/09/18/the-art-of-learning</link>
+      <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/18/the-art-of-learning</guid>
+      <description>&lt;p&gt;In my review this week I read that &lt;a href=&#34;https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek&#34;&gt;Old Geek post&lt;/a&gt;, which has a lot
+of comments under its feet. This is quite interesting. But I feel there is a
+confusion here.&lt;/p&gt;
+
+&lt;p&gt;From my experience, age is often related to stagnation. The more you
+accumulate, the heavier you are. It&amp;rsquo;s heart-breaking to abandon years of
+investment in one type of knowledge. Therefore, generally speaking, older
+people are less flexible and less likely to surf on the waves of the new
+technologies.&lt;/p&gt;
+
+&lt;p&gt;But I can tell you as a fact that this is just a natural human law, that, like
+many others, can be bended. Bended by discipline, the same way we overcome our
+animal instincts. There are many old practitioners of our skill that became
+master in the art of change. The sacred art of eternal learning. The wisdom of
+daily questioning of previously acquired knowledge.&lt;/p&gt;
+
+&lt;p&gt;Obsolescence is not a question of age, but just a question of personality,
+environment and priorities. I know a handful of such oldgeeks that didn&amp;rsquo;t yet
+reach their 30&amp;rsquo;s. And personally (in my 49), I won&amp;rsquo;t stop surfing any time
+soon. hahaha.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get out</title>
+      <link>http://blog.mose.com/2016/09/04/get-out</link>
+      <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/09/04/get-out</guid>
+      <description>&lt;p&gt;If you only ever have lived in only one country, you really should consider
+fixing it. Going &lt;a href=&#34;https://inassets1-internationsgmbh.netdna-ssl.com/static/bundles/internationsexpatinsider/pdf/expat_insider_2016_the_internations_survey.pdf&#34;&gt;live in another country&lt;/a&gt; for some years or more is just
+such a way towards a richer life. It&amp;rsquo;s usually easy to recognize people that
+are multi-rooted, as they often have an increased depth in their personal
+philosophy.&lt;/p&gt;
+
+&lt;p&gt;We are lucky, in our craft, to have various opportunities to travel and work
+remotely, or for foreign companies. Many of you are already aware of those
+benefits. But to the others I can just say this: use this opportunity! Get
+out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>To be remote or not to be remote</title>
+      <link>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote</link>
+      <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote</guid>
+      <description>&lt;p&gt;Earlier this week I read &lt;a href=&#34;https://www.linkedin.com/pulse/do-work-from-home-oleg-vishnepolsky&#34;&gt;an article on linkedin, deliberately anti-remote&lt;/a&gt;,
+and a bit later on &lt;a href=&#34;https://medium.freecodecamp.com/the-economics-of-working-remotely-28d4173e16e2#.43ewevr3t&#34;&gt;another one very pro-remote on freecodecamp&lt;/a&gt;.
+I&amp;rsquo;m tempted to think one is the response to the other. But maybe not.&lt;/p&gt;
+
+&lt;p&gt;The fact is that switching to a remote organization is a tricky move. It feels
+like the move from monolith to micro-services, honestly. People that make
+decisions about it rarely envision the extent of the change. And those change
+look similar in nature. Team architecture and software design are not that
+foreign. More autonomy for services or people, self-contained activity,
+requirement for clear communication channels and protocols, extensive
+architecture for monitoring, reporting or just plain visibility, more
+debugging tools and processes, and much more.&lt;/p&gt;
+
+&lt;p&gt;The same way one will have to think about all those when switching to
+microservices, the one that thinks about making his team remote will also have
+to consider the exact same parameters. But that is all on the principles.
+About the implementation, remote teams really need a strong chat culture, an
+easy and transparent logging policy for all communication channels, various
+tooling similar to chatops tools for assisting communication activity. Remote
+organization also need to have all their processes online, and not need much
+(if at all) any synchronous meetings.&lt;/p&gt;
+
+&lt;p&gt;From my perspective there are various very beneficial side-effects to make a
+team remote. There is more traceability as everything is online and not in
+corridors anymore. In some cases that I experienced, it also leads to a less
+arbitrary perception on team members, because they can be judged more on
+results (if you have measure tools prepared accordingly) than on attitude and
+mouth-skills (did you noticed that irl meetings are sometimes just a
+mouth-o-cracy?). But it&amp;rsquo;s accurate to say that on a short term, it is more
+time consuming. The real benefit rises on the long run.&lt;/p&gt;
+
+&lt;p&gt;What I didn&amp;rsquo;t find in any articles on the matter, is the life-cycle dimension.
+A software project has a life expectancy, from a business point of view. It&amp;rsquo;s
+the same game as with the technical debt. It is acceptable business-wise to
+live at credit for a time, until a certain milestone. A lot of projects are
+just extended MVPs intended to convince big money that they could deserve some
+attention. For such project, you want very fast paced environment. It&amp;rsquo;s easier
+to coerce your &lt;s&gt;slaves&lt;/s&gt; employees to go above and beyond the
+expectations, when in a physical environment. This is a disposable context,
+and you can skip team debt as much as technical debt. And you really need
+physicality for that purpose.&lt;/p&gt;
+
+&lt;p&gt;So, I would say, if a company is not making the move towards remote
+organization, maybe there are very good reasons for that. But I will be very
+cautious to understand what are the real reasons. They may stink. And if they
+are remote, but they just came to it recently, I would be careful about the
+tooling they prepared for it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working out</title>
+      <link>http://blog.mose.com/2016/08/21/working-out</link>
+      <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/08/21/working-out</guid>
+      <description>&lt;p&gt;During the past year I have been doing some working out. No no there is no
+fitbit involved. Are you crazy? My physical activity includes a strict refusal
+of pointless efforts. I deliberately choose to use the bike rather than the
+bus, it has the purpose of transportation,. But just getting sweaty for the
+sake of it, well, that&amp;rsquo;s not my thing. I&amp;rsquo;m talking about a git-commit working
+out. I decided to have one commit a day on github (minimum) and instead of the
+fitbit or whatever phone app, I used the github timeline as a monitor.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s one year now and I got my &lt;a href=&#34;https://github.com/mose/&#34;&gt;github
+timeline&lt;/a&gt; all green. In itself it doesn&amp;rsquo;t achieve
+anything except for myself. I mean, it&amp;rsquo;s quite easy to fill up a timeline with
+fake entries. But by getting this challenge of one commit a day, it led to
+some valuable outcomes. I got some more work projects validated to be
+published as open source. Whenever I was not feeling inspired for code commit,
+I was chasing typoes in my Readme&amp;rsquo;s, or dependencies upgrades in my gems.&lt;/p&gt;
+
+&lt;p&gt;Overall, it had quite a good impact on my coding publication, on the updating
+of my blog (well, that blpg mostly gather the rants I do here), and various
+other small details. Well, I&amp;rsquo;m not a very famous open source coder, just an
+average joe. But a persistent one. It&amp;rsquo;s very easy to just upload shit on
+github and forget about it. Having this regular commitment made me come back
+on some old things, keep them current somehow.&lt;/p&gt;
+
+&lt;p&gt;Getting some routine in place that includes open source activity has various
+benefits, even when you don&amp;rsquo;t have an audience. You should try it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The reign of the virtual</title>
+      <link>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual</link>
+      <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual</guid>
+      <description>&lt;p&gt;Yesterday morning, the hunt for Pokemons opened here in Taiwan. I have been
+watching the crazy adoption of this new trend in the past few weeks. And
+knowing the asian culture, I suspect Japan and Taiwan are going to make the
+craziness in the rest of the world just like mild interest.&lt;/p&gt;
+
+&lt;p&gt;There are few occasions to notice a huge shift in civilization as clearly as
+this one. For sure we have noticed that our fellow human neighbors spend more
+and more time the nose on their mobile devices. But this pokemon enthusiasm
+bring it to a whole new level. It proves the virtual now begins to overrule
+the real in term of social conventions. Well, not for everybody, not
+everywhere, but in a proportion that is relevant enough to be noticeable.&lt;/p&gt;
+
+&lt;p&gt;The real world always have been ruling the social activities. Laws and
+conventions were deciding who is in and who is out, what to do and how to do
+it right. This is going to change. My main concern is that the future of the
+social activity is in the hands of private companies. Those companies,
+legitimately driven by profit, consider the user as a resource, that requires
+gathering and retention strategies. Like herds. The whole privacy fight is not
+going to stand too long as cattle (oops I meant user) data is the 21st century
+gold, and economy (and crazy need for constant growth) depends on it.&lt;/p&gt;
+
+&lt;p&gt;And I&amp;rsquo;m not really happy from this deduction. We are getting captured with
+advanced weapons generated by behavioral economics and other clever social
+sciences. They are manipulation tools. Just tools. Sure you can do good with
+them, but such powerful tools of mass manipulation are not going to stay
+neutral in the hands of those who want to squeeze our essence (feels like a
+matrix metaphor, yeah I&amp;rsquo;m aware of it).&lt;/p&gt;
+
+&lt;p&gt;Our mobile devices become interfaces now. Direct access to our behaviors. They
+already have been great tracking and data collection devices for years. Now
+they begin to be manipulative with much more effectiveness. Sure, the pokemon
+hunting doesn&amp;rsquo;t seem to harm much, but I see it as only a beginning, a
+trigger. It just makes sense. Everybody can see the success it has. Certainly
+there are already hundreds of projects that are seeing the light right now at
+this instant just under the visibility of that opportunity. And many of those
+will be clever, engaging, and impacting on the real world, by the way of
+mobile devices, the reverse-remote-control for getting a grip on every human
+being.&lt;/p&gt;
+
+&lt;p&gt;Because I&amp;rsquo;m an old guy, I&amp;rsquo;m of course very worried about this future. I have
+memories of a past where it was so much different. But the young generations,
+seeing this as the norm, will just fall for it, without question. Don&amp;rsquo;t get me
+wrong, I love good tools that can make our lives easier. But they are tools.
+The intent of their usage matters. Augmented reality just seems to be going to
+be used with very nefarious intents.&lt;/p&gt;
+
+&lt;p&gt;hrum. Well yeah, this is a rant, that&amp;rsquo;s nothing more. Not an essay, not a
+study. Just my guts getting spread over the table. Take it easy :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Innovation and Consensus</title>
+      <link>http://blog.mose.com/2016/07/24/innovation-and-consensus</link>
+      <pubDate>Sun, 24 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/24/innovation-and-consensus</guid>
+      <description>&lt;p&gt;Last week I got to check out 2 javascript frontend frameworks, &lt;a href=&#34;https://github.com/yoshuawuyts/choo&#34;&gt;Choo&lt;/a&gt;
+(the cute framwework) and &lt;a href=&#34;http://cycle.js.org/&#34;&gt;Cycle.js&lt;/a&gt; (the streams power). It feels
+that nowadays React is eating the frontend world, but there is actually a lot
+of non-marginal alternatives. It made me think that there is something tricky
+with the process of innovation. It is born from disagreement. It feeds with
+discontent.&lt;/p&gt;
+
+&lt;p&gt;Those frameworks are born from the refusal to consider React as a consensus,
+hence it generates an alternative path, exploring different paradigms. In my
+opinion, and from an global point of view, it&amp;rsquo;s a sign of vivacity of an
+ecosystem. Diversity of species guarantees a larger span of choice for the
+natural selection and a faster evolution.&lt;/p&gt;
+
+&lt;p&gt;But consensus and normative approaches have so many virtues. Damn, this is
+tricky. Well, here is the catch. Unicity in the software ecosystem creates
+stability, which in turn creates comfort for the actors involved in the
+industry. Habits get stronger, mobility is easier, interoperability leads to
+bigger systems with long life-cycles. This is good.&lt;/p&gt;
+
+&lt;p&gt;On another hand diversity creates instability, challenges the developers and
+makes it harder to find common grounds. It favors exploration and smaller
+systems with shorter life-cycles. In a diverse ecosystem, paradigms and new
+ideas are born and die quickly. And I think it&amp;rsquo;s a much more rich ecosystem.&lt;/p&gt;
+
+&lt;p&gt;For some reason this duality reminds me of the cathedral and the bazaar. It&amp;rsquo;s
+totally unrelated, actually, but maybe there is some kind of interesting
+parallel in this metaphor collision. But beyond that, there is a real
+antagonism for developers, and an opposing interest between the development
+workforce and the software as a living species.&lt;/p&gt;
+
+&lt;p&gt;And I have the feeling that on the long run, diversity and innovation win. So
+you better get used to the discomfort it brings. Train yourself to jump from
+one framework to another. Don&amp;rsquo;t let yourself getting lazy by going to the
+comfortable consensus systematically. This ability to cope with change is your
+best hope for staying current. Because the change if the way of the evolution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open code, a chance for improvement</title>
+      <link>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement</link>
+      <pubDate>Sun, 03 Jul 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement</guid>
+      <description>&lt;p&gt;Since I&amp;rsquo;m writing code I try to publish as much as I can as open source
+components. But I had occasion to work in situations where it was not
+possible. And I noticed some serious differences in the result.&lt;/p&gt;
+
+&lt;p&gt;When you publish some code on, say, Github, you can just throw it as is and be
+done with it. Then you merely use github as a repository provider and don&amp;rsquo;t
+care much about anything else. But when you begin to spend some time doing it,
+you notice that external contributor can bring great fixes, help detect bugs,
+and generally speaking make your code more valuable in itself.&lt;/p&gt;
+
+&lt;p&gt;But this is a two-ways road. To invite people to collaborate you need to
+address a certain amount of little details. Writing a decently clear README is
+a demonstration of politeness for any passing guest. It&amp;rsquo;s just more inviting.
+Making sure you have a complete enough test suite guarantees you can be sure
+external contributions won&amp;rsquo;t mess up existing code (if writing tests in itself
+was not motivating enough). Refactoring your code by following
+&lt;a href=&#34;https://codeclimate.com/&#34;&gt;codeclimate&lt;/a&gt; advises will break huge methods in small pieces,
+making things easier to be improved. Enforcing some kind of &lt;a href=&#34;https://github.com/bbatsov/rubocop&#34;&gt;style guide&lt;/a&gt;
+will avoid people to get confused by a non-standard code-art.
+(that person could be you in one year).&lt;/p&gt;
+
+&lt;p&gt;All those aspects, when you work at a company as the only coder on one piece
+of code, you don&amp;rsquo;t have that much incentive to enforce them. And I know about
+it because I have seen a huge lot of legacy code that was written that way.
+With lame tests that only purpose was to enforce code coverage without really
+testing much, weird code style, epic methods, no instructions. If it&amp;rsquo;s just
+you and a couple of friends that you see every day, it&amp;rsquo;s fine, you can deal
+with it. For a time.&lt;/p&gt;
+
+&lt;p&gt;The fact is that exposing your code brings an incentive to work on the
+(apparently) non-essential aspects of your code. But those aspects really
+bring a huge improvement on the long term. Which leads me to consider that
+opening source code is a way that can lead to make it better.&lt;/p&gt;
+
+&lt;p&gt;An usually, I noticed that the bosses don&amp;rsquo;t care if it&amp;rsquo;s open or not, as far
+as there is no trade secrets revealed. But well we write so much code that if
+business-neutral for many things. At the end of the day, it&amp;rsquo;s only the matter
+of asking the boss if you can free this or that code, and then it&amp;rsquo;s on its
+way. Even more if the code is published under an organization on github, there
+is even more incentive to make it clean, and it will also help possible
+candidates to understand what kind of stack you are dealing with, and what
+kind of principle you try to enforce. Even if it&amp;rsquo;s actually only enforced in
+your open source code and the hidden code is messy. Haha.&lt;/p&gt;
+
+&lt;p&gt;So, I ask you now, what in your current codebase could you extract as an open
+source gem? or node package?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scarcity and abundance</title>
+      <link>http://blog.mose.com/2016/06/05/scarcity-and-abundance</link>
+      <pubDate>Sun, 05 Jun 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/06/05/scarcity-and-abundance</guid>
+      <description>&lt;p&gt;As you may remember, this newsletter is using the generous free plan from
+Mailchimp. But it has limits. Only 2000 emails ca subscribe to that
+newsletter. It&amp;rsquo;s already a great gift, and I&amp;rsquo;m pretty sure it&amp;rsquo;s a good
+business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which
+means we need to address that so pervasive concept of scarcity.&lt;/p&gt;
+
+&lt;p&gt;I can remember when it shifted. With the first web pages in 96. When tables
+were introduced in HTML, then it became less obvious how to recreate something
+you saw, and having the possibility to browse the source of a page gives you
+the exact recipe on how it&amp;rsquo;s made. So you can copy from it. I think open
+source would not have had such a large adoption if there was not that idea
+with the HTML, that you need to have access to the source to learn, reproduce
+and improve.&lt;/p&gt;
+
+&lt;p&gt;Also, it made even more obvious one of the key aspects of the internet age: by
+dematerializing market goods (ie. with introduction of softwares), they became
+reproducible at a cost that is marginal enough to be forgotten (yeah,
+bandwidth and storage are not free, for sure). When you give it to someone,
+you still have it. Not like that glass of beer. It placed us in an awkward
+paradigm, the world of abundance.&lt;/p&gt;
+
+&lt;p&gt;There have been so many efforts to artificially bend the internet to a world
+of scarcity again. See, without scarcity, there is no economy as we know it.
+There is another kind of economy, though, but the big guys that lead the old
+one are not ready to let it go. For the old economy to work, things have to be
+scarce. Otherwise there is no competition to obtain commodities, no motivation
+to work like crazy to push forward the progress of production. In abundance
+economy, also known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Gift_economy&#34;&gt;gift economy&lt;/a&gt;, people get less likely to be
+controlled and they don&amp;rsquo;t want to work hard, they want pleasure and
+satisfaction.&lt;/p&gt;
+
+&lt;p&gt;Honestly, I see the efforts made to control a resource that is naturally
+abundant, by using the tools of law, copyright laws, patents, and all that
+kind. I can&amp;rsquo;t help thinking about the abundance of material goods.
+Technological progress, after war, promised some kind of abundant society.
+Work would be automated so we would have less and less to work and just enjoy
+the benefit of the global growth of humanity in taming the material world.
+Well, we are far from it, and I&amp;rsquo;m instinctively convinced that it&amp;rsquo;s by design.
+And it makes me sad. People still need jobs, society won&amp;rsquo;t provide for them.
+There is nothing like common goods in that humanity. And now human compete
+with machine for jobs, whereas they should have been allies. Sad, really.&lt;/p&gt;
+
+&lt;p&gt;But this led me quite far away from my initial topic: we got limited seats for
+this newsletter, so we&amp;rsquo;ll do it 2 ways. First, I will send a mail to all
+people that never click on any links, ask them if they want to stay there.
+Then after a time I will unsubscribe the ones that stay silent and inactive.
+That could skim some 300 people maybe. At the rate it goes, that can buy us
+some 6 months, at the current rate of newcomers each week.&lt;/p&gt;
+
+&lt;p&gt;Then, the subscription will be closed, unless I setup another publication
+system, self-hosted. We don&amp;rsquo;t really need a fully-blown solution like
+mailchimp to be totally honest. They do bit efforts to have mail servers that
+are compliant with various anti-spam techniques, and this is a great thing.
+But I bet I should be able to match it on a self-hosted server that would cost
+me less than $10 a month. It would have no limit, at least. Maybe at that time
+I will open some kind of donation program. Actually I already pay for the
+hosting but I use my servers for other usages so it&amp;rsquo;s only a small fraction.
+And honestly I could even host GreenRuby web pages on github pages for free.
+But I would not have access to the logs for analytics and would need to setup
+some piwik because I can&amp;rsquo;t cope with the idea of using GA. Or, I just don&amp;rsquo;t
+care about traffic metrics. That&amp;rsquo;s tempting. But I got lost in my train of
+thoughts here.&lt;/p&gt;
+
+&lt;p&gt;Bottom line is: we won&amp;rsquo;t get trapped by scarcity. Muahahaha. But feel free to
+send me feedbacks on this topic if you have any thoughts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aprils lame fools</title>
+      <link>http://blog.mose.com/2016/04/03/aprils-lame-fools</link>
+      <pubDate>Sun, 03 Apr 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/04/03/aprils-lame-fools</guid>
+      <description>&lt;p&gt;I think there is nothing I hate more than pranks. It&amp;rsquo;s just another way to
+bully someone else. Even innocent pranks are having victims. Single out the
+one that fall for it to make laugh the ones that don&amp;rsquo;t. Well, I may very well
+be a boring fellow. Or it&amp;rsquo;s just that, working so much with information
+management, any perversion of it seems off.&lt;/p&gt;
+
+&lt;p&gt;And then on april fools day, so much goes wrong. The net becomes unreliable.
+So lame. But I&amp;rsquo;m not sure if it&amp;rsquo;s the reason there are not that many news
+articles this week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kik the fuss</title>
+      <link>http://blog.mose.com/2016/03/27/kik-the-fuss</link>
+      <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/27/kik-the-fuss</guid>
+      <description>&lt;p&gt;There have been some noise last week about npm, coming from &lt;a href=&#34;https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu&#34;&gt;that article&lt;/a&gt;.
+It merely revealed that various open source
+organization are privately held by some individuals and they can either be
+pressured or take weird decisions. Honestly I consider this incident
+anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened
+to be very vocal and pissed off about it.&lt;/p&gt;
+
+&lt;p&gt;And it carried various threads of discussion on Twitter and elsewhere, in a
+huge controversy. There were many points raised. NPM has thousands and
+thousands of packages, and many of them are just a few lines of utility
+library, so it was a good occasion for some to point out that you should
+reduce your number of dependencies. Others pointed out that namespacing could
+help prevent such situation, like it&amp;rsquo;s done in docker or in go (having
+username/somelib instead of somelib) following the github convention.&lt;/p&gt;
+
+&lt;p&gt;All in all, it appears that open source is gaining its traction from being
+free of any legal duty. Or at least there is no formal contracting, no
+by-laws, on committees or advisors. People do how they feel in the limits of
+some very simple basic licensing rules. Some organization provide a more
+structured legal asset but they usually are on the side and purposed for
+channeling money management, not necessarily patents and intellectual
+property.&lt;/p&gt;
+
+&lt;p&gt;My opinion is that this kind of friction between businesses and open source is
+going to happen more and more. But I wonder how it&amp;rsquo;s going to turn out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>the Adwar</title>
+      <link>http://blog.mose.com/2016/03/13/the-adwar</link>
+      <pubDate>Sun, 13 Mar 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/03/13/the-adwar</guid>
+      <description>&lt;p&gt;This week I got 2 links that explore both sides of the adwar. The war on
+advertisement exists on the web since it became popular enough to attract
+advertisers. &lt;a href=&#34;https://github.com/fivefilters/block-ads/wiki/There-are-no-acceptable-ads&#34;&gt;There are no acceptable ads&lt;/a&gt; takes the side of the users,
+while &lt;a href=&#34;https://www.smashingmagazine.com/2016/03/never-ending-story-ad-blockers&#34;&gt;A Never-Ending Story On Ad-Blockers&lt;/a&gt; seems to defend and
+advise the publishers.&lt;/p&gt;
+
+&lt;p&gt;Some media already have blocked the blockers. It&amp;rsquo;s forbidden to escape ads?
+This position may appear not to be sustainable. And pushing towards content
+sponsoring could have really bad ill effects on the long term. Is there any
+escape? Honestly I have to say that I&amp;rsquo;m partial in that debate. I don&amp;rsquo;t like
+ads on what I read, and I don&amp;rsquo;t like ads on what I publish. I even go edit my
+/etc/hosts with some custom domains to resolve to 127.0.0.1 sometimes.&lt;/p&gt;
+
+&lt;p&gt;So it there was to take sides, I would say advertiser, go to hell. But I&amp;rsquo;m a
+realist. They won&amp;rsquo;t go away. We live in a society where shit has to be bought.
+Yes even if you don&amp;rsquo;t need it. Otherwise the system will collapse. That&amp;rsquo;s how
+things are. I get some crazy dreams about some &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income&#34;&gt;basic income&lt;/a&gt;
+system, currently &lt;a href=&#34;https://en.wikipedia.org/wiki/Basic_income_around_the_world&#34;&gt;in experiment&lt;/a&gt; in various places over the
+globe. Such setup would defeat part of this situation, even if it would have
+border effects that are unpredictable. But that would not change much for the
+big corpo, it would only save the small people. Hmm. Sounds good enough to me,
+I won&amp;rsquo;t lie.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The thin line between chaos and harmony</title>
+      <link>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony</link>
+      <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony</guid>
+      <description>&lt;p&gt;In the long road of my developer life I had the chance to experience a very
+wide variety of organizational models. The most pleasant was in the context of
+very large open source projects, where actions are not planned but still
+organized, and things fall in their place seemingly naturally. Of course there
+is nothing natural in that. There is a category of people, that can be called
+catalysts, working as gardeners and building the pathways to collaboration.
+But because there is no predefined hierarchy, I thought chaos had some
+virtues.&lt;/p&gt;
+
+&lt;p&gt;In other hierarchical models, there is so much waste following the rule rather
+than its essence. It&amp;rsquo;s like there was an abstraction layer for efficiency and
+the staff follows the abstraction, paying no respect to the efficiency.
+Because after a time the set of rules is not making sense anymore. The
+environment moves fast and habits are hard to change. It&amp;rsquo;s taking long time
+for an organization to change its own internal rules.&lt;/p&gt;
+
+&lt;p&gt;But I also have seen non-hierarchical model totally fail. When you try to
+apply an open-source kind of organization inside a company, it cannot be done
+half-way, but it cannot be done fully.&lt;/p&gt;
+
+&lt;p&gt;For example the volatility of contributors is an essential part of the
+open-source organization model. Things are working the way they do because
+people are free to leave and join at will, or stop working when they decide.
+This is totally different in a company, even if you can get some
+approximation, leaving and joining is a more complicated process, and has a
+different set of motivations. And let&amp;rsquo;s not talk about the freedom to stop
+working at will.&lt;/p&gt;
+
+&lt;p&gt;This single factor leads the free-formed communities to get various incentives
+for contributors to feel good about their interaction in the community. The
+ones that don&amp;rsquo;t play well along other people just end up either in a
+leadership position because they are geniuses, or just leave because they
+don&amp;rsquo;t fit in. Or they stay and kill the project because everybody else leaves.
+But most likely they are the reason why forks exist.&lt;/p&gt;
+
+&lt;p&gt;But in a non-hierarchic company, those cowboys may end up hurting the whole
+process of collaboration by capturing some processes, getting very good at
+them, and give hell to everybody else for a time, under the privilege of the
+Power of the Bottleneck. It&amp;rsquo;s very hard to get those people to share knowledge
+because their position depends on it. If nothing is done, the situation will
+become uneasy and awkward at best.&lt;/p&gt;
+
+&lt;p&gt;Certainly in that type of situation, if there is some power in place to
+mitigate this danger, all can be good and well. But from my experience such
+power is hard to come by. Especially if the non-hierarchic aspect of the
+organization depends on him/her/it. Maybe there is some way to have some kind
+of catalyst role, but where I have seen such role in a company, it was
+informal and not an official position.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s too bad because I would love to experience again some real collective
+intelligence in the workplace the same way I have experienced it in some open
+source communities. I think maybe there are some companies out there that are
+doing that well, but most of the time it&amp;rsquo;s not going to be structural. Most
+likely it will come from a specific set of people that do real good in
+collaboration. I still wait to see a company that includes in its genetic
+code, in its fundamental principle, the seeds that make it possible to be
+efficient and still instinctive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code in the dark, perl 6</title>
+      <link>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6</link>
+      <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6</guid>
+      <description>
+
+&lt;p&gt;My attention was brought this week to &lt;a href=&#34;http://codeinthedark.com/&#34;&gt;Code in the dark events&lt;/a&gt;. It seems
+pretty cool. A 15 minutes race in html and css with no preview. But the thing
+that brought my attention to that format is the special editor used for those
+events with a special effect on the cursor. It seems to add a really dramatic
+effect on the competition. We need more ideas like that for pure geek fun.&lt;/p&gt;
+
+&lt;h2 id=&#34;first-look-at-perl-6:f6454540d52b5466477bc9e3371f78a1&#34;&gt;First look at perl 6&lt;/h2&gt;
+
+&lt;p&gt;For many people, Perl sounds like trauma. Because it didn&amp;rsquo;t move for a while,
+when I hear something is perl code, it sounds like it&amp;rsquo;s legacy code, old and
+dusty. Well, Perl 6 is going to come out for christmas and the situation may
+change. Perl 6 is in the lab for &lt;a href=&#34;http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released&#34;&gt;15 years&lt;/a&gt; now, it&amp;rsquo;s more than
+time to get it shipped.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;http://doc.perl6.org/language/5to6-nutshell&#34;&gt;first glance&lt;/a&gt;, they seem to have tried to &amp;lsquo;modernize&amp;rsquo; the language,
+make it more idiomatic. It even seems it looks more like ruby, with the
+replacement of arrow by dots, the optional parenthesis, better exception
+handling. Well, overall, it feels cleaner. But it also seem to have some
+potential to mix functional and object-oriented in an interesting way.&lt;/p&gt;
+
+&lt;p&gt;So, maybe there is going to be a second life for the old perl. It&amp;rsquo;s a breaking
+version, old perl code will certainly break on the new version. So it&amp;rsquo;s almost
+like a new language. For sure I will still keep ruby as my preferred language,
+but I like multilingualism, so maybe I will give it a try .. again (last perl
+app I wrote was 12 years ago).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>More about bullies</title>
+      <link>http://blog.mose.com/2015/11/15/more-about-bullies</link>
+      <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/11/15/more-about-bullies</guid>
+      <description>&lt;p&gt;This week I read the &lt;a href=&#34;http://devblog.avdi.org/2015/11/09/software-bullying/&#34;&gt;reaction of Avdi&lt;/a&gt; to the rant of Linus last
+week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;.
+It rejoins the damage that I consider the coder-hero culture brings to our
+industry.&lt;/p&gt;
+
+&lt;p&gt;Certainly the creative process of writing software attract creative people.
+They have strong personalities, some have tendencies to mild autism. They move
+mountains and their pride make them work day and night to achieve unbelievable
+things.&lt;/p&gt;
+
+&lt;p&gt;This is good and well, but on the long run, now that we are passing 2
+generations of coders, we know that it&amp;rsquo;s not sustainable on the long run.
+Plus, it has a disastrous impact on team building. No pyramid was built by a
+single hero.&lt;/p&gt;
+
+&lt;p&gt;Incidentally I also read an interesting article about &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;Why computer
+programmers need to stop calling themselves engineers already&lt;/a&gt;.
+Even if I can&amp;rsquo;t clearly explain how this is related, I have the feeling it&amp;rsquo;s
+talking about something that is in the same area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sexism and competition</title>
+      <link>http://blog.mose.com/2015/08/16/sexism-and-competition</link>
+      <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/08/16/sexism-and-competition</guid>
+      <description>&lt;p&gt;The ruby community is quite blessed in the way that there are very vocal
+activist promoting diversity, especially on &lt;a href=&#34;http://railsgirls.com/&#34;&gt;gender parity&lt;/a&gt;. It&amp;rsquo;s
+not exclusive to ruby I noticed the same intention in other communities (like
+the &lt;a href=&#34;http://www.pyladies.com/&#34;&gt;pyladies&lt;/a&gt; in python).&lt;/p&gt;
+
+&lt;p&gt;Anybody that spent some years in IT cannot avoid to notice that there are
+mostly guys. The ladies are either frowned upon or very special cases. For
+ages I have been wondering why. My sister is a sysadmin at a university, there
+is nothing shocking about that and she does a damn good job.&lt;/p&gt;
+
+&lt;p&gt;So I paid attention on what are the people responsible for that. I identified
+various categories of people that I consider are responsible of our lack of
+parity. Well, not them directly but the behaviors they perpetuate are
+certainly part of the problem. If we could find a way to correct those
+behaviors, it would lead to a natural change in the group.&lt;/p&gt;
+
+&lt;p&gt;In all those people I know, and in all their behaviors, I think I detected
+something that is related to the Religion Of Competitiveness. Those people are
+believers that knowledge is power and they are not gonna share it more than
+necessary. They will find anything to avoid more people reach their level of
+knowledge. And if they can find some kind of reason to discard other people,
+either trivial and socially acceptable in the given group reason to discard
+other people, they will do. Gender is the first victim in such a schema. What
+is socially acceptable is a self-perpetuated meme.&lt;/p&gt;
+
+&lt;p&gt;Talking to those people is pointless, they are in denial. They see nothing
+wrong. You can&amp;rsquo;t change them. You have to change their environment, that will
+be the only way.&lt;/p&gt;
+
+&lt;p&gt;So it means that in a competition context, there are still ways to win, by
+playing the competition game and winning it. But to break the competition
+paradigm, there is a lot to do. Companies policies are not enough to enforce a
+more open mindset. But I believe that there is ways to organize the
+information in a way that keeping it for oneself devaluates it. And from the
+eradication of the tyranny of knowledge, we shall reach a less
+competition-based culture in IT. And all discrimination pretexts may vanish by
+themselves.&lt;/p&gt;
+
+&lt;p&gt;Rather than fighting for diversity, we should fight against the spirit of
+competition. It&amp;rsquo;s kind of not easy, I reckon, because our society tends to
+push people to be competitive. That&amp;rsquo;s what capitalism is all about. But IT
+population already has proven that the established system don&amp;rsquo;t take hold on
+them. Geeks and techies are educated people (often self-educated, but it&amp;rsquo;s the
+same) and they can think on their own, chose the path to follow. If you can
+find a way, in your context, to change the environment towards less power for
+the competitive type of people, that could deserve a try.&lt;/p&gt;
+
+&lt;p&gt;Well, that&amp;rsquo;s just a rant, a wild thought. Such a topic would deserve more
+space for development. But that&amp;rsquo;s what I wanted to share this week. Anyways I
+doubt there is that much people reading those line hahaha.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetups on Moselog</title>
+    <link>http://blog.mose.com/tags/meetups/</link>
+    <description>Recent content in Meetups on Moselog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 May 2016 22:10:31 +0800</lastBuildDate>
+    <atom:link href="http://blog.mose.com/tags/meetups/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GreenRuby IRL and Remote meetup</title>
+      <link>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup</link>
+      <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup</guid>
+      <description>&lt;p&gt;Last week I posted a link about &lt;a href=&#34;http://remotemeetup.com/&#34;&gt;Remote Meetups&lt;/a&gt;, but, as it sometimes
+happens, it didn&amp;rsquo;t stop there. The basic principle was appealing to me. It&amp;rsquo;s
+true that we don&amp;rsquo;t all live in the Bay area or in New York. Having high
+quality speakers in meetups is hard when you live in a small city or a remote
+country. And this is exactly what that initiative tries to address.&lt;/p&gt;
+
+&lt;p&gt;So I jumped in and had some talk with Franze. The result is that the GreenRuby
+meetup we will have this friday will also be remote. Some people will &lt;a href=&#34;http://greenruby.kktix.cc/events/grg-001&#34;&gt;attend
+physically&lt;/a&gt;, some people will &lt;a href=&#34;https://www.bigmarker.com/remote-meetup/Green-Ruby-Meetup-001&#34;&gt;come virtually&lt;/a&gt; using the
+&lt;a href=&#34;https://www.bigmarker.com/communities/remote-meetup&#34;&gt;Bigmarker&lt;/a&gt; platform on the RemoteMeetup account.&lt;/p&gt;
+
+&lt;p&gt;Those events usually are based on a format including a presentation followed
+by interactions. My plan is to go nuts and try a full-social format, with no
+presentation at all, jumping directly to the interactions. It&amp;rsquo;s going to be
+highly experimental and may lead to failure, but it certainly won&amp;rsquo;t kill any
+kitten in the process so I think we are safe.&lt;/p&gt;
+
+&lt;p&gt;The mix between physical and remote event is the challenging part. We may try
+the &lt;a href=&#34;https://bigmarker.zendesk.com/hc/en-us/articles/203332009-Attending-and-Hosting-Webinars&#34;&gt;usage of mobile phones&lt;/a&gt; to make local people become remote
+participants (but it seems to be IOs only for now). I will get an iPad ready
+for easier floating access, that can be fun.&lt;/p&gt;
+
+&lt;p&gt;You are welcome to join, either online or irl. I heard &lt;a href=&#34;https://gandi.net&#34;&gt;Gandi&lt;/a&gt;, the
+physical host and my employer, is going to fill up the fridge with hundred of
+various beverages and won&amp;rsquo;t mind us to help reduce that quantity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greenruby 102</title>
+      <link>http://blog.mose.com/2015/01/18/greenruby-102</link>
+      <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2015/01/18/greenruby-102</guid>
+      <description>
+
+&lt;h2 id=&#34;while42:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;While42&lt;/h2&gt;
+
+&lt;p&gt;This week I got in contact with Sylvain from &lt;a href=&#34;http://while42.org&#34;&gt;while42&lt;/a&gt;. It&amp;rsquo;s a social
+network for french tech engineers, but with a special touch on it. There is no
+facebook page or google group. They intentionally decided to be irl-first. For
+people that are most likely to be online all the time, this sounds so
+therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
+If you want to know more (and are french, engineer, and living in Taipei) just
+drop me a mail.&lt;/p&gt;
+
+&lt;h2 id=&#34;traveling-ruby:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Traveling ruby&lt;/h2&gt;
+
+&lt;p&gt;This is a project from the &lt;a href=&#34;http://www.phusion.nl/&#34;&gt;Phusion&lt;/a&gt; people, called &lt;a href=&#34;https://github.com/phusion/traveling-ruby&#34;&gt;Traveling ruby&lt;/a&gt;.
+Its purpose is to make it easy to build auto-sustaining tarballs for ruby
+programms, including ruby binary and all gems in it. That way you can publish
+a tarball and your customer/user will just launch whatever you put in it. No
+need to install ruby or any gems.&lt;/p&gt;
+
+&lt;p&gt;I gave it a try yesterday on my &lt;a href=&#34;https://github.com/eduvo/zabbix-ruby-client&#34;&gt;zabbix-ruby-client&lt;/a&gt; gem, and after a few
+tweaks (mostly because I wanted to use an unpublished version of my gem), it
+all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
+old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
+reminded me a bit of the feeling when you upload a go executable on the
+server. Really neat.&lt;/p&gt;
+
+&lt;h2 id=&#34;palm-control:7b1eab39a4e6e397eafd98271e67cb67&#34;&gt;Palm control&lt;/h2&gt;
+
+&lt;p&gt;There are tiny things that can change a lot. My recent tiny thing is the palm
+control technique. Every sunday when I prepare Green Ruby I do a huge amount
+of copy pasting all over the place. Recently I found on a post about keyboard
+someone talking about the palm control technique for avoiding the copypaste
+fatigue.&lt;/p&gt;
+
+&lt;p&gt;Well, you need to have a keyboard that makes it possible. Mine is a &lt;a href=&#34;http://support.logitech.com/en_us/product/10104&#34;&gt;Logitech washable k310&lt;/a&gt;.
+I already liked its look, and even better, it&amp;rsquo;s perfect for
+this palm thing because keys are prominent. Use the palm to push control and
+then it&amp;rsquo;s only a matter of hitting c or v with the index. Honestly, it changed
+my life!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

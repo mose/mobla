@@ -7,142 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Jul 2016 22:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The (in)culture of encryption</title>
-      <link>http://blog.mose.com/2016/07/10/the-inculture-of-encryption</link>
+      <link>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</link>
       <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/10/the-inculture-of-encryption</guid>
-      <description>&lt;p&gt;A couple weeks ago I had found out that a friend was keeping his passwords in
-a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean,
-not more technical than the next guy, or just a little. He&amp;rsquo;s using the web
-interface of gmail for his mail, like many people do (I even know very
-technical people doing it, which is still boggling me). I looked around and
-found &lt;a href=&#34;https://www.mailvelope.com/&#34;&gt;mailvelope&lt;/a&gt;. So I hook him up on it and now he can use GPG.&lt;/p&gt;
-
-&lt;p&gt;In the past 20 years I have seen the timid evolution of personal encryption.
-Oh there are initiatives like &lt;a href=&#34;https://keybase.io/&#34;&gt;Keybase&lt;/a&gt;, various simple tools like
-&lt;a href=&#34;https://www.passwordstore.org/&#34;&gt;passowrdstore&lt;/a&gt; or &lt;a href=&#34;https://github.com/henryboldi/felony&#34;&gt;Felony&lt;/a&gt; that I discovered this week. But it
-seems that encryption don&amp;rsquo;t really stick to the usages, unless you have a
-specific thought about it. Fortunately there is some wise generalization of
-SSL for inter-server communication, with initiatives like &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;lets
-encrypt&lt;/a&gt;. But inter-personal communication is still wide open.&lt;/p&gt;
-
-&lt;p&gt;More and more it is well-known that our data is food for various corporation,
-governmental agencies, and dark organizations. What will it take for getting
-the users to claim better privacy? Will it ever happen?&lt;/p&gt;
-
-&lt;p&gt;I mean, yes for sure people can use the tools. But it&amp;rsquo;s cumbersome. Until
-encryption is embedded in our tools and services, it simply won&amp;rsquo;t spread
-significantly enough. There are some projects like &lt;a href=&#34;https://caliopen.org/&#34;&gt;Caliopen&lt;/a&gt; that
-try to do so. On another hand, we have seen some services like
-&lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt; which provide such service, and even some mainstream
-providers like &lt;a href=&#34;http://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/&#34;&gt;Whatsapp&lt;/a&gt; jump into the full-encryption train. So
-maybe there is hope? I still wonder what&amp;rsquo;s the part played by Facebook (which
-now owns Whatsapp) in that move.&lt;/p&gt;
-
-&lt;p&gt;The recent fight between Apple and US government was supposed to set some kind
-of precedent. Too bad it was aborted. But they would have complied at the end,
-this is my bet. Now that encryption is the only way for companies to legally
-keep their users safe from legal (and illegal) inquiries, maybe more will
-consider it?&lt;/p&gt;
-
-&lt;p&gt;If you have two onces of technical savyness, please stop running naked on the
-streets. Gear up and use encryption whenever possible.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</guid>
+      <description>A couple weeks ago I had found out that a friend was keeping his passwords in a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean, not more technical than the next guy, or just a little. He&amp;rsquo;s using the web interface of gmail for his mail, like many people do (I even know very technical people doing it, which is still boggling me). I looked around and found mailvelope.</description>
     </item>
     
     <item>
       <title>2 years</title>
-      <link>http://blog.mose.com/2015/02/01/2-years</link>
+      <link>http://blog.mose.com/2015/02/01/2-years/</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/01/2-years</guid>
-      <description>
-
-&lt;h2 id=&#34;ghost:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Ghost&lt;/h2&gt;
-
-&lt;p&gt;You certainly heard about it, this week there was a new huge Linux
-&lt;a href=&#34;http://www.openwall.com/lists/oss-security/2015/01/27/9&#34;&gt;vulnerability on glibc&lt;/a&gt; revealed. Actually it was leaked by a stupid
-communication agency few hours before it should have been announced. When such
-big bug is discovered usually there is a small period of time where the news
-spread into some limited circles. They keep it embargoed until major distro
-vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.&lt;/p&gt;
-
-&lt;p&gt;This vulnerability is pretty nasty even if less obvious to exploit than
-Heartbleed or shellshock, it&amp;rsquo;s probably in the same category. If you manage
-servers that are vulnerable (LTS and stable, less up to date versions,
-mostly), you better upgrade asap. When a bug gets its own name (this one is
-called Ghost), it seems to be the sign it requires immediate attention. How
-long is this trick going to work?&lt;/p&gt;
-
-&lt;p&gt;And, as we talk about security, Hipchat users should read this (unnamed)
-&lt;a href=&#34;https://blog.hipchat.com/2015/02/01/hipchat-security-notice-and-password-reset/&#34;&gt;security notice&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;2-years:fba0bb1f68d1414085590cced7805ffa&#34;&gt;2 years&lt;/h2&gt;
-
-&lt;p&gt;This edition is marking the 2 years anniversary of Green Ruby. For 104 weeks
-I&amp;rsquo;ve been sending out this newsletter every week. Last week I had a discussion
-with a friend, he was asking me what was my drive, and what was the reason of
-my consistency. Well, there are various reasons.&lt;/p&gt;
-
-&lt;p&gt;First there is the routine aspect. It&amp;rsquo;s like practicing Taichi or some kind of
-exercise. It keeps the mind fresh, and in this context where things change
-pretty fast, enforcing a weekly review gave me an overall feeling of symbiosis
-with the wave of what&amp;rsquo;s going on.&lt;/p&gt;
-
-&lt;p&gt;Second is the philosophy of it: this newsletter is a gift. The ruby world is
-very business oriented. There is a lot of open source in there but still the
-average spirit is based on a market economy. There are of course many
-exceptions, I wanted to be one of them, and I believe a gift economy would be
-more my thing. You get rich of what you give away, not always individually,
-but most definitely collectively. I like that feeling.&lt;/p&gt;
-
-&lt;p&gt;Third, this media keeps me in touch with a bunch of my friends. It&amp;rsquo;s like a
-beacon that I send to the people I left behind when I left France to go live
-in Taiwan. Or people I worked with in my past jobs in Taiwan, even. They don&amp;rsquo;t
-often respond to it but I know they can perceive me through this weekly proof
-of existence.&lt;/p&gt;
-
-&lt;p&gt;Also, there is the support from xenor and more recently from simon, which, by
-sending me a few links each weeks, validate the need to keep things going.&lt;/p&gt;
-
-&lt;h2 id=&#34;trello-and-irc:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Trello and irc&lt;/h2&gt;
-
-&lt;p&gt;For as long as I remember, I always have been coding irc bots. In so many
-languages. I suspect there is some aspect of this that appeals to me. Maybe
-the creation of life-like pattern. Anyways, my last bot was of course in ruby,
-I called it &lt;a href=&#34;https://github.com/mose/cogbot&#34;&gt;cogbot&lt;/a&gt;, and is based on the great &lt;a href=&#34;https://github.com/cinchrb/cinch&#34;&gt;cinch&lt;/a&gt; framework. It has
-been sleepy for a while, since we were not using irc in Faria.&lt;/p&gt;
-
-&lt;p&gt;But Gandi is heavy irc user, and our recent experiments on trello gave me an
-occasion to get cogbot out of the dust. As a matter of fact &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; has a
-really &lt;a href=&#34;https://trello.com/docs/&#34;&gt;great API&lt;/a&gt;, and also supports webhooks. So I added a trello
-listener to cogbot, and it was a lot of fun. Maybe next I will add some cards
-creation and update features in that bot, but it requires some kind of users
-management, which, on an irc bot, is not that trivial to implement.&lt;/p&gt;
-
-&lt;h2 id=&#34;free-your-code:fba0bb1f68d1414085590cced7805ffa&#34;&gt;Free your code&lt;/h2&gt;
-
-&lt;p&gt;Do you have a side project? You should! Maybe the code you produce at work can
-be generic enough? This is a call for you to consider freeing your code. Open
-source community is plentiful but I know as a fact that 90% of the code that
-could be shared is not shared.&lt;/p&gt;
-
-&lt;p&gt;There is something I noticed in my own code publication. Often in my work
-there are constraints of time that lead to trade-offs and code quality is
-never as good as I wish it was. By working on side projects, the pace is much
-more relaxed and I can spend hours focusing on non productive efforts to make
-my code better. Well, this is not to say that side project code is perfect,
-but the environment of producing it brings another mindset. And after a while,
-the code produced at work gets naturally more insightful because of this extra
-practice.&lt;/p&gt;
-
-&lt;p&gt;Give it a try, if you happen to have some free time. If you don&amp;rsquo;t have free
-time, you&amp;rsquo;re doing something wrong. But that&amp;rsquo;s another story.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/02/01/2-years/</guid>
+      <description>Ghost You certainly heard about it, this week there was a new huge Linux vulnerability on glibc revealed. Actually it was leaked by a stupid communication agency few hours before it should have been announced. When such big bug is discovered usually there is a small period of time where the news spread into some limited circles. They keep it embargoed until major distro vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.</description>
     </item>
     
   </channel>

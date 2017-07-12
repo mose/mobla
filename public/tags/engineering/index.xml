@@ -7,568 +7,122 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Apr 2017 22:25:00 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Interview-based knowledge sharing</title>
-      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</link>
+      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing</guid>
-      <description>&lt;p&gt;For years I noticed the difficulty to extract decent information from
-developers and craftsmen about their work. Developers clearly lack the
-skill or the taste for documentation. It extends to the specifications,
-which also provides an occasion to notice bad performance.&lt;/p&gt;
-
-&lt;p&gt;To work this around, specialized project managers have to fill this role,
-but it can create a gap between developers ownership and the final result.
-Sometimes luck creates the inspiration and developers produce a decent
-amount of documentation. But honestly, this is pure luck, and not a rule.&lt;/p&gt;
-
-&lt;p&gt;I found a way to mitigate this issue, that I began to experiment some time
-ago at work. It&amp;rsquo;s based on a recorded interaction between a project person and
-a person of the craft.&lt;/p&gt;
-
-&lt;p&gt;Here are the rules:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the project person organizes interviews with stakeholders from all specialties
-including developers, business people, operations people, sometimes users,
-the more diverse population possible. But it can also be done for no reason
-for sharing a certain kind of knowledge with an expert.&lt;/li&gt;
-&lt;li&gt;interviews take place by written interactive communication in a chat,
-in a way that enables logging (irc, slack, whatever)&lt;/li&gt;
-&lt;li&gt;it lasts 20 minutes more or less, but the format can extend to hours if the need is felt&lt;/li&gt;
-&lt;li&gt;once the interview is finished, the interviewer cleans up the logs, removes out of topic
-details, fixes typoes, removes elements that are purely belonging to the chat way of communication&lt;/li&gt;
-&lt;li&gt;the cleaned log is reviewed by the interviewee for consensual agreement on its publication&lt;/li&gt;
-&lt;li&gt;the log can then be added to whatever project space is dedicated to the topic at hand
-(documentation, specification annexes, study, paper)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are various beneficial side effects to this endeavor:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;actors have a better feeling of engagement in the project or topic at hand&lt;/li&gt;
-&lt;li&gt;it creates a bond between actors, facilitates future exchanges&lt;/li&gt;
-&lt;li&gt;it gives an equal chance for everyone to speak, even the shy ones, because the 1 to 1
-context is much less frightening. In a meeting, there are people that never speak.
-Are they stupid? they are not!&lt;/li&gt;
-&lt;li&gt;it creates content that can be shared with other actors so that they have a better
-chance to understand the point of views of other parties.&lt;/li&gt;
-&lt;li&gt;it creates a useful reference for the project, a raw material which can be annexed
-and can be used for summaries. It also creates more content for an eventual search engine
-if the publication space has one.&lt;/li&gt;
-&lt;li&gt;there is less risk to cite someone out of context because the full context is provided.&lt;/li&gt;
-&lt;li&gt;it is much easier to organize interviews or hold them on the fly than setup meetings.&lt;/li&gt;
-&lt;li&gt;there is no feeling of loss of time like in a meeting: the time dedicated is intense
-and very interactive, there is no waste.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I had the occasion to try that technique in a context where internal communication is
-not optimal, for knowledge sharing at first, then for exploring options on a new project
-and set up specifications. I have been happy to notice that this formula creates pretty
-good output and generates a nice feeling in all parties involved.&lt;/p&gt;
-
-&lt;p&gt;Certainly more study will come on this approach. It&amp;rsquo;s a lot of fun.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
+      <description>For years I noticed the difficulty to extract decent information from developers and craftsmen about their work. Developers clearly lack the skill or the taste for documentation. It extends to the specifications, which also provides an occasion to notice bad performance.
+To work this around, specialized project managers have to fill this role, but it can create a gap between developers ownership and the final result. Sometimes luck creates the inspiration and developers produce a decent amount of documentation.</description>
     </item>
     
     <item>
       <title>Observability and Digestibility</title>
-      <link>http://blog.mose.com/2016/09/11/observability-and-digestibility</link>
+      <link>http://blog.mose.com/2016/09/11/observability-and-digestibility/</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/11/observability-and-digestibility</guid>
-      <description>&lt;p&gt;This is a word I love. I found it again in a &lt;a href=&#34;https://medium.com/production-ready/systems-blindness-and-how-we-deal-with-it-d601fa63b7f4#.ub69zflcv&#34;&gt;recent blog post about system blindness&lt;/a&gt;
-and it reminded me how critical this need is. Our
-systems get more and more numerous and small. The reliability and debugging of
-a platform now goes into various loops given the multiplication of actors.&lt;/p&gt;
-
-&lt;p&gt;Observability should be one core pre-requisite when designing a service
-oriented architecture with micro-services. But just having everything plugged
-to some ELK is not going to help that much. I feel that there is a new job in
-there. Some function that has to be fulfilled. Something to reduce that vast
-amount of data into something that makes sense. An intermediary that will
-correlate logs from various sources. It would put them together and reduce
-them to some meaningful &amp;lsquo;events&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;So I think observability is not enough. Digestibility is what makes
-observability worth it. Maybe such tools already exist? Hmm, probably in the
-containers worlds there is something like that. Is there not?&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/09/11/observability-and-digestibility/</guid>
+      <description>This is a word I love. I found it again in a recent blog post about system blindness and it reminded me how critical this need is. Our systems get more and more numerous and small. The reliability and debugging of a platform now goes into various loops given the multiplication of actors.
+Observability should be one core pre-requisite when designing a service oriented architecture with micro-services. But just having everything plugged to some ELK is not going to help that much.</description>
     </item>
     
     <item>
       <title>The virtues of duplication</title>
-      <link>http://blog.mose.com/2016/06/19/the-virtues-of-duplication</link>
+      <link>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</link>
       <pubDate>Sun, 19 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/19/the-virtues-of-duplication</guid>
-      <description>&lt;p&gt;Few weeks ago I began to prepare a copy of the Green Ruby Template system for
-the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some
-point of view, this code is a sin and was not written in the perspective to be
-generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s
-joyfully messy and blatantly suboptimal. It was a quick and dirty scripting
-solution, it could have been a set of shell scripts, well it happens to be
-using ruby. &lt;a href=&#34;https://github.com/greenruby/grn-static/blob/master/lib/builder.rb&#34;&gt;Check it out&lt;/a&gt; if you don&amp;rsquo;t believe me.&lt;/p&gt;
-
-&lt;p&gt;But it&amp;rsquo;s doing the job for years now. It&amp;rsquo;s a builder code, so it&amp;rsquo;s run as a
-convenience only a few times a week, it doesn&amp;rsquo;t really need to be fast. It
-just needs to do the job. Trust me I like good code, with clean design and
-full test coverage. But this one was just an intimate assistant of mine which
-was not really a software. Just some automation scripts.&lt;/p&gt;
-
-&lt;p&gt;And now here it is, I get to face a situation where some friends need the same
-setup and I can&amp;rsquo;t just give them the code, it&amp;rsquo;s so custom. But there have been
-only a few changes to make and it was ready. But the interesting part is in
-the process. While duplicating the code for the Remote Meetup newsletter,
-well, I extracted some stuff, made a config file to remove various hardcoded
-things.&lt;/p&gt;
-
-&lt;p&gt;Well it is still a big ball of dirty code, but in the duplication, it got more
-generic. I love that feeling which brings the software development world
-closer from the biological world. There is some kind of evolutionary process
-going on in the life of a software. It takes many forms and I like it when I
-get reminded of those similarities. I could go on and on about the topics that
-an open source ecosystem is necessary for the diversity of code to flourish
-and make evolution possible in a totally Darwinian way.&lt;/p&gt;
-
-&lt;p&gt;So this simple operation was just illustrating one principle: when you share
-your code you shape it and make it more generic in the process. It can have
-various beneficial side effects beyond the single act of duplication and
-adaptation. I find it&amp;rsquo;s also true when you publish your code as an open source
-project. If it gets some traction and people start to use it, they will import
-their context in your initial ecosystem and bring the same kind of
-adjustments. Making it stronger, in some way.&lt;/p&gt;
-
-&lt;p&gt;Anyways, the &lt;a href=&#34;http://remotemeetup.com/news/index.html&#34;&gt;Remote Meetup News&lt;/a&gt; website and newsletter generator is now
-ready, and you may find that the design is kind of familiar. Well, the rule of
-the path of least resistance also apply here for sure. I begin to apply back
-on Green Ruby the changes I made over there. I suspect the third duplication,
-of any, will be the extraction of the common parts in a separate codebase,
-like a gem with a lib.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</guid>
+      <description>Few weeks ago I began to prepare a copy of the Green Ruby Template system for the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some point of view, this code is a sin and was not written in the perspective to be generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s joyfully messy and blatantly suboptimal. It was a quick and dirty scripting solution, it could have been a set of shell scripts, well it happens to be using ruby.</description>
     </item>
     
     <item>
       <title>Nanoservices</title>
-      <link>http://blog.mose.com/2016/04/25/nanoservices</link>
+      <link>http://blog.mose.com/2016/04/25/nanoservices/</link>
       <pubDate>Mon, 25 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/25/nanoservices</guid>
-      <description>&lt;p&gt;That link to &lt;a href=&#34;http://shoutcloud.io&#34;&gt;Shoutcloud&lt;/a&gt; made me laugh and then made me think.
-It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years
-ago there was some talk about &lt;a href=&#34;http://www.infoq.com/news/2014/05/nano-services&#34;&gt;nano-services as an antipattern&lt;/a&gt;.
-But when you push the logic a little further, and at a very large scale, maybe
-it&amp;rsquo;s a projection of what the future will be.&lt;/p&gt;
-
-&lt;p&gt;Imagine our software totally destructured, calling functions taht are stored
-on the net, using some load balanced worldwide environment. We already do that
-with CDNs. Javascript next Modules proposals will go in that direction as
-well. But what is a method call in a program that we know today could become a
-service call of an external globally available function.&lt;/p&gt;
-
-&lt;p&gt;After all we always write the same code. How many time did you write a regexp
-for &lt;a href=&#34;http://emailregex.com/&#34;&gt;email pattern validation&lt;/a&gt;? The RFC 822 and 5322 are nasties,
-yeah. If we had no latency consideration, I would gladly delegate various
-pieces of code to a specialized service. But latency, is it really an issue
-now? We work more and more with async code, with queues and messages. What
-seems heretic for our current legacy standards would not seem that foolish in
-a slightly different context.&lt;/p&gt;
-
-&lt;p&gt;So technically, I suppose nanoservices are a possible future. I even think
-it&amp;rsquo;s a requirement for scaling any kind of agent-based architecture. Machine
-learning will be much better off by just registering maps to knowledge than
-knowledge itself. But I wonder about the economical side of things. The old
-capitalist market economy is already stretching its reach far beyond its
-original statement with immaterial economy. The totally destructured
-immaterial one will certainly propose an interesting challenge.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/04/25/nanoservices/</guid>
+      <description>That link to Shoutcloud made me laugh and then made me think. It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years ago there was some talk about nano-services as an antipattern. But when you push the logic a little further, and at a very large scale, maybe it&amp;rsquo;s a projection of what the future will be.
+Imagine our software totally destructured, calling functions taht are stored on the net, using some load balanced worldwide environment.</description>
     </item>
     
     <item>
       <title>About tests and documentation</title>
-      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation</link>
+      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
       <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation</guid>
-      <description>&lt;p&gt;This aspect of development, called Documentation, is the source of various
-frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like
-testing. When you begin your craft as a coder, all what matters is the code.
-It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you
-in the neck. Like, huho, now that I need to refactor, I really should use
-something that tells me if all still works. Tests become an early necessity to
-anyone who knows that kind of truth. If you wait until the end of a coding
-cycle to write those, the task is huge and it cuts you from your productivity
-cycle. Write them early, along the flow, is way easier.&lt;/p&gt;
-
-&lt;p&gt;So I think documentation follows the same pattern. So many software projects
-are badly documented because this aspect is postponed until it&amp;rsquo;s needed. Means
-at release stage. In early stages, you work on a prototype and you don&amp;rsquo;t need
-to explain how things work or are supposed to work. And when it&amp;rsquo;s released,
-there is usually some other task waiting and it&amp;rsquo;s hard to stop everything to
-get back and document things properly. It may be a flaw in the agile process,
-but it may also be a feature: if you don&amp;rsquo;t document along the way, you won&amp;rsquo;t
-document much.&lt;/p&gt;
-
-&lt;p&gt;Personally I try to consider the documentation of any of the source code I
-write as one of the first tasks. There are various tricks that can help in
-that perspective, like &lt;a href=&#34;http://tom.preston-werner.com/2010/08/23/readme-driven-development.html&#34;&gt;readme-driven development&lt;/a&gt;, or including the doc
-inside the code with &lt;a href=&#34;http://yardoc.org/&#34;&gt;yarddoc&lt;/a&gt; or &lt;a href=&#34;http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api&#34;&gt;apipie&lt;/a&gt;, or coupling
-documentation with tests with &lt;a href=&#34;https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples&#34;&gt;rspec&lt;/a&gt; or &lt;a href=&#34;https://github.com/zipmark/rspec_api_documentation&#34;&gt;RSpec API Doc
-Generator&lt;/a&gt;. But honestly I prefer edited documentation that can follow
-a structure that is thought as documentation rather than merely an automated
-output of some code.&lt;/p&gt;
-
-&lt;p&gt;There are various tools to organize edited documentation, like
-&lt;a href=&#34;https://readthedocs.org/&#34;&gt;ReadTheDoc&lt;/a&gt; which is in python. Another project appeared last week from
-the guys at Pluralsight named &lt;a href=&#34;http://tutorials.pluralsight.com/faq/&#34;&gt;hack.guide()&lt;/a&gt;. That&amp;rsquo;s a community project
-but actually being totally open sourced, I was thinking the &lt;a href=&#34;https://github.com/pluralsight/guides-cms&#34;&gt;documentation
-building CMS&lt;/a&gt; they made could pretty much fill the gap of a
-light-weight RTD, with the benefits of having a UI for editors. Too bad we
-don&amp;rsquo;t have anything like this in ruby (or do we?).&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
+      <description>This aspect of development, called Documentation, is the source of various frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like testing. When you begin your craft as a coder, all what matters is the code. It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you in the neck. Like, huho, now that I need to refactor, I really should use something that tells me if all still works.</description>
     </item>
     
     <item>
       <title>The future of under-engineering</title>
-      <link>http://blog.mose.com/2016/01/24/the-future-of-under-engineering</link>
+      <link>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</link>
       <pubDate>Sun, 24 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/24/the-future-of-under-engineering</guid>
-      <description>&lt;p&gt;Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and
-specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more
-used to 70% research and specification, 20% implementation and 10% debugging.
-He was working in the hardhware industry for a while, and just came to a
-service-based company. This is actually a very interesting remark and it
-reminded me when I was in my twenties when I was working as a construction
-worker.&lt;/p&gt;
-
-&lt;p&gt;When I was young there was no internet and I had a 10 years break from
-computers. I had to take stupid jobs like working on construction sites for
-low wages. After that I went to art school and later on I worked on building
-sets for business shows. I have been shocked by the gap between those 2
-worlds. When building a house, there is so much time spent writing plans,
-thinking things in advance. While in the show-business construction pattern,
-it was mostly about improvisation and managing inflexible time constraints,
-with one-time-use construction.&lt;/p&gt;
-
-&lt;p&gt;I feel there is the same gap in the software industry. Well it&amp;rsquo;s not exactly
-the same for sure, but the paradigm feels alike. In service software
-production, SaaS or ISP businesses, we tend to under-engineer the production.
-There are perfectly legitimate reasons for that, the life-cycle of a platform
-of service is quick, volatile and the value is not in the software asset but
-in the customer-user experience.&lt;/p&gt;
-
-&lt;p&gt;The Agile organization model reinforces this pattern, by providing a
-substitute to the early specifications, in the form of user experiences
-description. All this is fine and good. For a time. But with years passing we
-can see so many occurrences of &amp;lsquo;temporary&amp;rsquo; projects becoming indestructible
-legacy monsters. It&amp;rsquo;s like there was some kind of tipping point where the
-development should shift from under-engineered to well-engineered but it&amp;rsquo;s
-rarely anticipated properly enough.&lt;/p&gt;
-
-&lt;p&gt;But it&amp;rsquo;s pretty hard to address that kind of problem. Throwing away the early
-instances is very costly, especially when the organization is shaped by a
-fast-paced reactive production model. Introducing proper engineering at early
-stages is also not a clever option, as the product has to adapt to the
-service, which depends on a constant feedback loop with the users.&lt;/p&gt;
-
-&lt;p&gt;I have the feeling that there is something missing. Like an evolution of agile
-that could include seeds of later engineering. Some way to make possible to
-start fast, and evolve in a solid and slower model later on without crisis or
-disruption. This is the perspective that I think was missing in &lt;a href=&#34;http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11&#34;&gt;that
-article&lt;/a&gt; I cited on green ruby 145. But I don&amp;rsquo;t know the answer to
-that problem. I suspect it will emerge by itself in the few next years.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</guid>
+      <description>Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more used to 70% research and specification, 20% implementation and 10% debugging. He was working in the hardhware industry for a while, and just came to a service-based company. This is actually a very interesting remark and it reminded me when I was in my twenties when I was working as a construction worker.</description>
     </item>
     
     <item>
       <title>That micro-service thing</title>
-      <link>http://blog.mose.com/2016/01/10/that-micro-service-thing</link>
+      <link>http://blog.mose.com/2016/01/10/that-micro-service-thing/</link>
       <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/10/that-micro-service-thing</guid>
-      <description>&lt;p&gt;For a while now, and more even since the rise of docker, it becomes a trend to
-split applications in parts and approach them as a collection of
-micro-services. This is not exactly new, I remember in 2002 having seen
-various applications based on this concept. But they had shortcomings.
-Development was harder and it imported a whole bunch of increased complexity
-because there was a lot of moving parts.&lt;/p&gt;
-
-&lt;p&gt;In a project that I have the occasion of following, I can watch the migration
-from monolith to micro-service and I can tell you, the architecture change is
-not simple technical decision. By splitting application there is a whole lot
-of application aspects that move out of the area of the developers team and
-are now the responsibility of the infrastructure team. The shift cannot be
-taken lightly.&lt;/p&gt;
-
-&lt;p&gt;From what I observed, the switch to micro-services can only be efficient if
-there was already a shift to a real devops organization. It means that the
-development and the infrastructure are more tightly coupled. Otherwise, it&amp;rsquo;s
-just a mess. The QA also can get crazy, and the networking layer gets
-increased complexity (or even dramatic latencies). Errors and services
-resilience also need an extra layer of attention.&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t move to micro-services if you are not ready for it, seriously, it can
-end up by shooting yourself in the foot.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/01/10/that-micro-service-thing/</guid>
+      <description>For a while now, and more even since the rise of docker, it becomes a trend to split applications in parts and approach them as a collection of micro-services. This is not exactly new, I remember in 2002 having seen various applications based on this concept. But they had shortcomings. Development was harder and it imported a whole bunch of increased complexity because there was a lot of moving parts.</description>
     </item>
     
     <item>
       <title>The dimensions of coding</title>
-      <link>http://blog.mose.com/2015/08/31/the-dimensions-of-coding</link>
+      <link>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</link>
       <pubDate>Mon, 31 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/31/the-dimensions-of-coding</guid>
-      <description>&lt;p&gt;Today while wandering around in my weekly hunt for good links, my eye has been
-attracted by a post named &lt;a href=&#34;https://medium.com/@scosta/coding-is-three-dimensional-cb331d1b4ad8&#34;&gt;Coding is three dimensional&lt;/a&gt;. It&amp;rsquo;s quite an
-interesting way to consider it. But the reason why it struck me is that it was
-missing the fourth dimension. That makes all the difference when you get years
-of coding. You know that time is a parameter.&lt;/p&gt;
-
-&lt;p&gt;Code don&amp;rsquo;t exist out of time. It has a past, perspective of a future, that
-both shape its current morphology. There are a lot of efforts to produce code
-analysis. But the real analyst is an historian and needs a systemic approach
-that includes time as a factor. We are still far from being able to automate
-that. In some ways, it&amp;rsquo;s a good news, we won&amp;rsquo;t be replaced by small scripts
-very soon.&lt;/p&gt;
-
-&lt;p&gt;The time factor is actually the essential element in the &lt;a href=&#34;http://martinfowler.com/bliki/TechnicalDebt.html&#34;&gt;technical debt&lt;/a&gt;
-formula. Purist coders can&amp;rsquo;t cope with technical debt but if you have two
-onces of business man inside, it makes total sense. The tradeoff in technical
-quality versus fast deliverability only makes sense because the timing is
-critical. &lt;a href=&#34;https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt&#34;&gt;A mess is not a technical debt&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If coding was disconnected from the market, and if it was not a business or
-more like an art, maybe time would not be that critical. But even open source
-software is dependent on the market at one point or another. I fail to see how
-it could be different.&lt;/p&gt;
-
-&lt;p&gt;Honestly, I would prefer clean coding and no market tradeoff, but that&amp;rsquo;s just
-a dream.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</guid>
+      <description>Today while wandering around in my weekly hunt for good links, my eye has been attracted by a post named Coding is three dimensional. It&amp;rsquo;s quite an interesting way to consider it. But the reason why it struck me is that it was missing the fourth dimension. That makes all the difference when you get years of coding. You know that time is a parameter.
+Code don&amp;rsquo;t exist out of time.</description>
     </item>
     
     <item>
       <title>Javascript and thoughts on programming</title>
-      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming</link>
+      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming</guid>
-      <description>&lt;p&gt;Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our
-company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and
-I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me
-the same feeling I have each time I get back to that language. I feel dirty.
-Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder,
-more like an acrobat. And I&amp;rsquo;m far from a purist.&lt;/p&gt;
-
-&lt;p&gt;Some people talk about javascript taking over the world. But that language
-imho just was there at the right place at the right time. By having a runtime
-embedded in browsers and browsers libraries, it has been used to hijack the
-most used software on our computers and mobile devices, to transform them into
-richer clients. Along the way various layers were added to fulfill the need of
-software design, because javascript initial goal was merely DOM manipulation.&lt;/p&gt;
-
-&lt;p&gt;The thing that always stroke me the most with javascript is that despite the
-efforts from ecmascript, it has no formal standard or documentation. It is
-pretty extensively documented, of course, but because the language is pushed
-forward by the implementations rather than from a standard body, it gets a bit
-messy.&lt;/p&gt;
-
-&lt;p&gt;I saw a &lt;a href=&#34;http://cube-drone.com/comics/c/relentless-persistence&#34;&gt;drawing&lt;/a&gt; this week that illustrates the mess quite well. It feels
-like Javascript is waiting for something to come replace it.&lt;/p&gt;
-
-&lt;p&gt;But there is hope with ES6. Seems like in recent years the normative effort on
-the ecmascript standard got some more traction and some more press coverage.
-But I personally don&amp;rsquo;t think it&amp;rsquo;s going to bring the solution. I enjoyed
-reading the &lt;a href=&#34;http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/&#34;&gt;thoughts of Eric Elliot&lt;/a&gt; on that topic but I&amp;rsquo;m not sure
-he&amp;rsquo;s right on everything. But what he&amp;rsquo;s right about, is that there will be an
-after-javascript.&lt;/p&gt;
-
-&lt;p&gt;Unless that after javascript doesn&amp;rsquo;t arrive fast enough and gets useless by
-some new programming paradigm that may appear one day soon. I mean, in the
-next 10 years. At some point, like big data is too complex to be handled by
-human, programming will also get too complex and will be handled by
-algorithms. We already &lt;a href=&#34;http://phys.org/news/2015-07-code-faster-expert.html&#34;&gt;see it coming&lt;/a&gt;. And all programmers will then
-become high end workflow designers or just play with antiquities.&lt;/p&gt;
-
-&lt;p&gt;In this perspective, I think javascript is a great intermediary technology for
-the time being, given its pervasive aspect. It&amp;rsquo;s far from satisfying, but it
-does the job. But the younger generation should keep an eye on higher level
-abstract approaches, like systems architectures, workflow logics, organization
-patterns, because imho that will drive software design in the next 10-20
-years.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
+      <description>Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me the same feeling I have each time I get back to that language. I feel dirty. Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder, more like an acrobat.</description>
     </item>
     
     <item>
       <title>The yin and yang of software development</title>
-      <link>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development</link>
+      <link>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development</guid>
-      <description>&lt;p&gt;The topic I talked about last week led me to think about it more widely. And I
-ended up with the thinking that many problems in software companies are a
-clear problem of balance between their yin and their yang.&lt;/p&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://en.wikipedia.org/wiki/Yin_and_yang&#34;&gt;old chinese principle&lt;/a&gt; is documented in a very old-fashioned
-way, opposing genders and principles. But actually it sums up in the fact that
-many dynamics are to be based in a balance between two opposing principles.
-Otherwise they fail.&lt;/p&gt;
-
-&lt;p&gt;The way I see it, software developers are a nurturing kind. This profile has
-to consider long term. It decides actions for later outcomes. It&amp;rsquo;s about
-giving life and growing it. It feels closer to the Yin principle.&lt;/p&gt;
-
-&lt;p&gt;On another hand, the business people are bound to a shorter time frame. And I
-don&amp;rsquo;t talk about the entrepreneurs and the rare visionary people, but the real
-business work force. They are competitive, aggressive, fighters. That really
-feels to me like the Yang concept.&lt;/p&gt;
-
-&lt;p&gt;And all occurrences where I saw software companies failing, I think it was
-because there was a lack of balance between those 2 principles. Either the
-management was too soft and not aggressive enough towards its market, either
-it was too aggressive and nurturing was not considered enough in their
-equation.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t think that this balance requirement applies to everything, to be
-honest. But in a constituted body of a software organization, considering the
-current (questionable) market economy, it feels that the Yin and the Yang have
-to be in balance to grant a chance of survival to the organization.&lt;/p&gt;
-
-&lt;p&gt;One may have the feeling that the dominant Yang (business side) is the more
-common case. But they are just more noisy. Many projects stay silently in the
-darkness just because there was no real business consideration (or even
-refusal of it).&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://modeling-languages.com/grady-booch-on-the-future-of-software-engineering-video-and-highlights/&#34;&gt;keynote of Grady Booch&lt;/a&gt; (linked in the video section) confirmed
-me in various ways in this opinion. Engineers have the duty to fight for the
-balance when they can. They have to understand that it&amp;rsquo;s not a one-way deal,
-as well. If you want to exercise programming in a nurturing-only context, win
-a lottery and dedicate your time writing free software (where market
-requirements don&amp;rsquo;t apply). But in the usual case, you may have to consider if
-you are in a balanced context, and if not, try to work on balancing it.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
+      <description>The topic I talked about last week led me to think about it more widely. And I ended up with the thinking that many problems in software companies are a clear problem of balance between their yin and their yang.
+This old chinese principle is documented in a very old-fashioned way, opposing genders and principles. But actually it sums up in the fact that many dynamics are to be based in a balance between two opposing principles.</description>
     </item>
     
     <item>
       <title>A word about project gardening</title>
-      <link>http://blog.mose.com/2015/06/14/a-word-about-project-gardening</link>
+      <link>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/14/a-word-about-project-gardening</guid>
-      <description>&lt;p&gt;In the last 2 companies where I worked, there was this recurring issue.
-Actually I noticed it for a while but for some reasons it became more obvious
-to me with time passing. The project management role is usually badly
-fulfilled.&lt;/p&gt;
-
-&lt;p&gt;But at some point, and even from the point of view of a developer, there is in
-projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s
-all about daily ungrateful clearing the bad weeds, making sure the soil is
-rich enough, and that the seeds are all planted where they should be planted,
-that soil pH is adequate for this or that variety. Having someone that is just
-doing moderation on projects also frees the productive people from lengthly
-and sometimes non technical meetings. It is the occasion to have someone that
-keeps track of specs, sometimes gather them or (re)write them down in a
-central place.&lt;/p&gt;
-
-&lt;p&gt;The problem in the transition from waterfall to agile, is that in the
-waterfall model there is a hierarchic feeling in the role of the project
-manager. The Management word into it is misleading. It leads the developers to
-frown upon it. I have the impression that in agile teams, project management
-is supposed to be taken care of organically by the dev teams, sometimes by the
-scrum master or whatever facilitator is there for enforcing the agile process.
-Or the product owner will be technical enough to fill up that role. More or
-less.&lt;/p&gt;
-
-&lt;p&gt;But the reality is that project grooming is a full time job that may have to
-be re-invented. It certainly should take in account developers creativity and
-pertinence in the match of the objectives with the technical realities. But
-it&amp;rsquo;s necessary to have a person that is the reference on keeping track of the
-need and follow the quality process at all the stages. Well, at least when you
-begin to get many developers and many projects, and developers that work on
-many projects.&lt;/p&gt;
-
-&lt;p&gt;I think it&amp;rsquo;s a question of scale. Companies with less than 30 people may never
-face that need because there is a natural fluidity internally and not that
-many projects. But when you get to 100 and you still don&amp;rsquo;t have people
-dedicated to projects, then you can see developers burning out. Projects
-become lousy because nobody has time to write specs. You also can see
-emergence of hero coders that can by miracle make it all happen. But you will
-postpone the problem because heroes are not scalable and can even be toxic on
-the long run (as any experienced practitioner already knows).&lt;/p&gt;
-
-&lt;p&gt;Personally in my technical career I never liked the project managers that I
-met. But that is a long time I didn&amp;rsquo;t meet any. It dates from an age where
-agile was not there yet. But now that I don&amp;rsquo;t see them anymore, I feel that
-something is missing. It certainly exists in various places. And I can bet
-that many of them are as bad as they were in the last century. But maybe there
-is a new species of project curators out there that I didn&amp;rsquo;t meet yet. I read
-about those in various places, but in my (small) world, this is still a
-mythical beast.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
+      <description>In the last 2 companies where I worked, there was this recurring issue. Actually I noticed it for a while but for some reasons it became more obvious to me with time passing. The project management role is usually badly fulfilled.
+But at some point, and even from the point of view of a developer, there is in projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s all about daily ungrateful clearing the bad weeds, making sure the soil is rich enough, and that the seeds are all planted where they should be planted, that soil pH is adequate for this or that variety.</description>
     </item>
     
     <item>
       <title>The side effects of recruitment</title>
-      <link>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment</link>
+      <link>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment</guid>
-      <description>&lt;p&gt;Recently I had to look for a new devops for our team. I have been handling
-technical recruitment at many occasions, and each time I have to explain my
-colleagues that I have a special process. The fact is, the technical sphere is
-a small one, we are all linked, more or less, to a community. Well, in my
-case, I always have had to recruit people in companies that were hiring the
-kind of people that commit on github, have some kind of community activity, at
-least. I guess that in huge companies where people are just a set of
-checkboxes, things go a bit differently.&lt;/p&gt;
-
-&lt;p&gt;But anyways, in my case, and probably in the case of all recruiters in modern
-and small businesses, it&amp;rsquo;s not all about checkboxes and profiles. It&amp;rsquo;s about
-personality, compatibility, and mindset. So when I first get a contact with a
-candidate, I invite him (or much more rarely, her), to a chat online,
-preferably on irc or whatever real-time discussion media is more fit (for a
-linux geek, if you can&amp;rsquo;t go on irc, then there is a problem).&lt;/p&gt;
-
-&lt;p&gt;I noticed that during my past sessions of recruitment, I established contacts
-with very interesting people. By having an unformal discussion online, just
-chit-chating of what work we do and what we did before, it&amp;rsquo;s kind of easy to
-get an idea of what is the kind of relationship you will have with your
-potential future colleague. But beyond that, it&amp;rsquo;s all about making things
-personal. We are all unique. It cannot be computed, scripted, engineered in a
-way that non-technical people would be successful conducting that process. It
-takes a geek to recognize another geek.&lt;/p&gt;
-
-&lt;p&gt;At Gandi of course we have a HR person. But she usually appears at the very
-end of the process and not at the beginning. The peers are going to evaluate
-candidates, make their mind to see if they want to spend days and days
-collaborating with them. It matches with my way to do things, fortunately. If
-I have any doubt of the technical abilities on someone, I don&amp;rsquo;t do stupid
-technical tests, I try to find other people that know the candidate and get
-third party feedback. If not, then I try to use a meetup in a community
-related to the speciality in question, so we can discuss and be around other
-people where some tangent discussion can happen.&lt;/p&gt;
-
-&lt;p&gt;At the end, if all goes well, then the candidate is going to enter the more
-formal whatever the company uses as a recruitment flow. But that&amp;rsquo;s merely a
-formality. And after 20 years building up teams and recruiting people, I can
-affirm that instinct always wins, in my case. If I smell anything fishy in an
-unformal context, there is going to be problems. Well, the process is never
-perfect, it also can smell ok but stink after 3 months, too.&lt;/p&gt;
-
-&lt;p&gt;But the thing is that having those chats online with peers is pretty
-interesting. I learn a lot about how other companies work, how they handle
-their management, what kind of work conditions they have. Just because it&amp;rsquo;s
-part of the contact process. So I&amp;rsquo;m not really in hurry to make a final
-decision because, to be honest, I just enjoy those contacts.&lt;/p&gt;
-
-&lt;p&gt;It certainly takes some time, I can&amp;rsquo;t be in constant recruitment, but from
-time to time, it&amp;rsquo;s very valuable. And not only for the effect of recruiting
-someone. It creates bonds with the industry, with people, with communities.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
+      <description>Recently I had to look for a new devops for our team. I have been handling technical recruitment at many occasions, and each time I have to explain my colleagues that I have a special process. The fact is, the technical sphere is a small one, we are all linked, more or less, to a community. Well, in my case, I always have had to recruit people in companies that were hiring the kind of people that commit on github, have some kind of community activity, at least.</description>
     </item>
     
   </channel>

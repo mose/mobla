@@ -7,287 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mose.com/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</link>
+      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions</guid>
-      <description>
-
-&lt;p&gt;A collection of events occurred since my last post. I was really hoping to
-get some deep dive into writing more about collective intelligence, in the background.
-But various things came and distracted me from that initial trajectory.&lt;/p&gt;
-
-&lt;h2 id=&#34;hubot-revival:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Hubot revival&lt;/h2&gt;
-
-&lt;p&gt;First, there has been a revival of the &lt;a href=&#34;https://github.com/github/hubot&#34;&gt;Hubot project&lt;/a&gt;. I wrote a bunch of
-plugins for that chatbot for internal usage at Gandi in the past year. I have been poking
-around in the community complaining that it became some sort of abandonware. Issues on github
-were not addressed, PR unanswered, irc was silent.&lt;/p&gt;
-
-&lt;p&gt;Then one day 3 weeks ago, &lt;a href=&#34;https://github.com/bkeepers&#34;&gt;bkeepers&lt;/a&gt; came up and &lt;a href=&#34;https://github.com/github/hubot/blob/master/ROADMAP.md&#34;&gt;woke it up&lt;/a&gt;.
-It appears that now Github has plan for this codebase. They want to include it in its products
-more officially, says the rumor (nothing official yet). But it makes a lot of sense.
-So then he gathered people that could be involved in the revival of the project. I was
-contacted to join the core team. That&amp;rsquo;s what you get by nagging people.&lt;/p&gt;
-
-&lt;p&gt;Since then it has been quite great to clean up backlog, re-examine old ideas, help setup
-new process and tooling for community gardening. I never get tired to see how informal
-communities can shape up and self-organize.&lt;/p&gt;
-
-&lt;h2 id=&#34;quiting-is-not-a-bad-thing:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Quiting is not a bad thing&lt;/h2&gt;
-
-&lt;p&gt;Around the same time, I felt inspired by handing my resignation of my current job at Gandi.
-There is nothing wrong with the job, and most reasonable people could argue that I&amp;rsquo;m just stupid.
-But there are a combination of factors that led me to think I was not using my potential at
-full capacity.&lt;/p&gt;
-
-&lt;p&gt;Working on a large infrastructure as a sysadmin was great, but it&amp;rsquo;s pretty hard to build new things
-properly in the service industry. It&amp;rsquo;s always about contingency management, and reacting to the environment.
-It&amp;rsquo;s more about doing the fireman than the gardener. Well, honestly, I think it&amp;rsquo;s a question of intent
-and culture and that could have been addressed. But I didn&amp;rsquo;t see any hint that could let me think this
-environment would become intentional about gardening anytime soon.&lt;/p&gt;
-
-&lt;p&gt;So, out of the blue, I left. I chose a moment where there was no crisis, no trouble, no real reason
-to quit except a strong feeling that it was time to move on. That way, transition is painless, there
-is no frustration involved. I hate conflicts. My advice: never wait the burn out to make your move out.&lt;/p&gt;
-
-&lt;h2 id=&#34;green-ruby-end-of-life:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Green ruby end of life&lt;/h2&gt;
-
-&lt;p&gt;In the mood of transitionning, this week I proposed that we close the &lt;a href=&#34;http://greenruby.org&#34;&gt;Green Ruby&lt;/a&gt; adventure.
-For some months Xenor has taken over the publication process. But he&amp;rsquo;s himself bunt out a bit.
-So after 4 years of publication, it&amp;rsquo;s time to close this properly and move on.&lt;/p&gt;
-
-&lt;p&gt;That weekly links collection was a fun exercise. And I&amp;rsquo;m really happy to have refused any business
-side track on this operation, it would have been much harder to close.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-next:195c338923f21c367264a5b5fb00e8a9&#34;&gt;What next?&lt;/h2&gt;
-
-&lt;p&gt;I decided that I could stay funemployed for a while (that&amp;rsquo;s the proper term, right?). I&amp;rsquo;m planning
-to look around, play with techs, talk with friends, hold on any decision to engage in anything.
-It&amp;rsquo;s time to re-assess my roadmap. This is what is great in transitions.
-By losing contact with the ground, you can feel the direction of the wind.&lt;/p&gt;
-
-&lt;p&gt;Maybe I will get back to entrepreneurship, and setup some business venture. Maybe I will freelance for a while.
-Maybe I will find a context in a company where I feel comfortable contributing. But honestly I have no clue.
-And yet, this feels great.&lt;/p&gt;
-
-&lt;h2 id=&#34;getting-back-to-old-friends:195c338923f21c367264a5b5fb00e8a9&#34;&gt;Getting back to old friends&lt;/h2&gt;
-
-&lt;p&gt;In the first days after my decision to renounce my day job, I got back in contact with a lot of old friends.
-Transitions have that side effect that you have to re-evaluate your environment, your network, your values.&lt;/p&gt;
-
-&lt;p&gt;Getting into a full-time job doesn&amp;rsquo;t prevent that, of course, but you cannot give the same attention.
-The center of gravity of an employed person is static. Now that I&amp;rsquo;m floating, I have to dedicate much more
-attention to my environment. And it&amp;rsquo;s an excellent thing.&lt;/p&gt;
-
-&lt;p&gt;I will certainly have occasion to talk about my adventures very soon. Maybe I will force myself to write more.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
+      <description>A collection of events occurred since my last post. I was really hoping to get some deep dive into writing more about collective intelligence, in the background. But various things came and distracted me from that initial trajectory.
+Hubot revival First, there has been a revival of the Hubot project. I wrote a bunch of plugins for that chatbot for internal usage at Gandi in the past year. I have been poking around in the community complaining that it became some sort of abandonware.</description>
     </item>
     
     <item>
       <title>A stress-free life</title>
-      <link>http://blog.mose.com/2016/09/25/a-stress-free-life</link>
+      <link>http://blog.mose.com/2016/09/25/a-stress-free-life/</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/25/a-stress-free-life</guid>
-      <description>&lt;p&gt;Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for
-people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For
-people that get heavy pressure from their work, it can give some air. But I
-wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them
-by principle, but I&amp;rsquo;m usually not really eager to get them.&lt;/p&gt;
-
-&lt;p&gt;After some consideration, it all sums up to some kind of discipline. I refuse
-stress on a daily basis. I want each day at work to be enjoyable and
-debt-free. It&amp;rsquo;s a bad news for some category of employers. The same way those
-consider it&amp;rsquo;s acceptable to accumulate technical debt, they apply the same
-principle on human-life debt. Put people under pressure, get a loan on their
-health, that will never be repaid. So, I just refuse pressure, the same way I
-would refuse to eat meat if I was really vegetarian (which I am only
-part-time).&lt;/p&gt;
-
-&lt;p&gt;Really I have more trouble with holidays because they bring a gap in the
-continuity of work. You get back and there is a lot to catch up on. I would
-prefer to have just one hour work less per day than week-long breaks. But
-that&amp;rsquo;s just me. It would be totally different if I wanted to travel for fun or
-if I had kids. My case is not reproducible.&lt;/p&gt;
-
-&lt;p&gt;But the baseline remains valid. whether you have plans or not for holidays,
-they should not be required for having a balanced life. Stress has to be
-fought on a daily basis and not by using breaks. Breaks, in such case, are
-even more enjoyable, if you have the context for it.&lt;/p&gt;
-
-&lt;p&gt;The best way I know to push stress away is to put my efforts into what I do,
-in a way that I&amp;rsquo;m self-aware that I&amp;rsquo;m really doing what I can to fulfill my
-duties. If someone is not happy about the output, that&amp;rsquo;s their problem not
-mine. If it leads to some awkward context, then it&amp;rsquo;s broken and I will reach
-out to find a better work context. I apply that principle for more than 20
-years now and I can&amp;rsquo;t remember last time I felt stressed.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/09/25/a-stress-free-life/</guid>
+      <description>Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For people that get heavy pressure from their work, it can give some air. But I wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them by principle, but I&amp;rsquo;m usually not really eager to get them.</description>
     </item>
     
     <item>
       <title>Remote working</title>
-      <link>http://blog.mose.com/2016/06/26/remote-working</link>
+      <link>http://blog.mose.com/2016/06/26/remote-working/</link>
       <pubDate>Sun, 26 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/26/remote-working</guid>
-      <description>&lt;p&gt;For some random strange reason I had a lot of links this week about remote
-working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see
-a lot of companies that have hard time coping with the concept.&lt;/p&gt;
-
-&lt;p&gt;On one hand, there is a shortage of technically skilled staff. The growth of
-the tech industry and especially the online services is way too fast for the
-education system to catch up. It&amp;rsquo;s been like that for pretty much 20 years
-now. And there is an unbalanced repartition between where the growing
-companies are and where the growing population of techies are. So it would
-only make sense that either relocation would be much easier or remote working
-much more widespread, no? Well, no. Relocation is bound to laws that are not
-driven by the only technical area. And remoting is dependent on a cultural and
-also legal shift.&lt;/p&gt;
-
-&lt;p&gt;Because working with remote staff, many of us know what it means. First it
-involves a level of trust in the staff that is unprecedented. The same level
-of trust you need to invest when working with a contractor, actually. Then the
-old-fashioned control and command system in place with traditional management
-systems gets totally inefficient.&lt;/p&gt;
-
-&lt;p&gt;More even, to be efficient with a remote team means adopting a work
-organization and tools that are specifically thought for this setup. From what
-I can experience, it&amp;rsquo;s either one or the other. When half the staff works in
-an office locally it&amp;rsquo;s not easy (yet not impossible) to be efficient with
-another half remote.&lt;/p&gt;
-
-&lt;p&gt;Some stuff will be likely to happen locally with old ways of oral
-communication and meetings with sparse note-taking. That will put the remote
-staff in the dark of some parts of the internal process. It may create a
-double-speed kind of organization, there is the ones that are full speed and
-the ones that are just, well, not in the core. Oh it&amp;rsquo;s still possible to make
-it work. It&amp;rsquo;s just harder.&lt;/p&gt;
-
-&lt;p&gt;Or maybe it&amp;rsquo;s like the web and the mobile. Slowly companies need to become
-remote-first and then eventually also work on local office-based scale. But
-there are still various barriers for having a real remote-friendly world
-anyways. The legal status is not clear,m for example, money transfers between
-countries, compliances with social coverage conventions, no international law
-seems to cover international employment with individuals.&lt;/p&gt;
-
-&lt;p&gt;From what I can understand, remote working from a distant country is still a
-hack, legally speaking. Companies need to find tricks. Luckily, hacking is
-something we are not bad at. But still. I wonder when it&amp;rsquo;s going to change,
-and see a legal ground for a really normal remote working context.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2016/06/26/remote-working/</guid>
+      <description>For some random strange reason I had a lot of links this week about remote working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see a lot of companies that have hard time coping with the concept.
+On one hand, there is a shortage of technically skilled staff. The growth of the tech industry and especially the online services is way too fast for the education system to catch up.</description>
     </item>
     
     <item>
       <title>Noobs rule the planet</title>
-      <link>http://blog.mose.com/2015/05/17/noobs-rule-the-planet</link>
+      <link>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</link>
       <pubDate>Sun, 17 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/17/noobs-rule-the-planet</guid>
-      <description>&lt;p&gt;There is something that I always did in my career managing internet tools. I
-volunteer helping non-technical people to get a presence online, build up
-communities and such things. But I have to confess, this comes with a price. A
-price on your nerves when you realize that easy obvious things that you take
-for granted are actually not clear at all by the average Joe.&lt;/p&gt;
-
-&lt;p&gt;Yeah sure they can post of facebook. For many of them, it&amp;rsquo;s pretty much all
-what internet means. But for the real things, they have no clue what they are
-doing. Talk about the merits of a chaos money to test your infrastructure.
-Well, the man on the street is pretty much the best you can get when it comes
-to chaos testing your design and workflow.&lt;/p&gt;
-
-&lt;p&gt;But whatever infuriating it can be, it&amp;rsquo;s a great thing to keep in mind. People
-have no clue what they are doing. They don&amp;rsquo;t know what an url is. They think
-smileys are fun. They feel writing all in capitals is just a detail. When some
-popup appears they consider it&amp;rsquo;s all broken and there is no need to read
-what&amp;rsquo;s written on it because anyways that&amp;rsquo;s over their heads.&lt;/p&gt;
-
-&lt;p&gt;So, when you design your applications, you may be lucky enough to face an
-educated population. But in many cases, you may not. Take it in account. Make
-things over-explicit and use images to bypass the inability of the modern
-average people to read anything that is more than a sentence of 5 words.&lt;/p&gt;
-
-&lt;p&gt;Go volunteer to help your fellow neighbors in your local non-tech communities.
-It&amp;rsquo;s hard, but it helps keep in touch with the reality.&lt;/p&gt;
-
-&lt;p&gt;And above all, keep patience. It&amp;rsquo;s not their fault. There has never been any
-economical incentive to educate users. The shortest path is always the best
-path. So for sure, you should make things easy. But if you get any occasion to
-provide your users some education, it&amp;rsquo;s never going to be on your spec sheets.
-You can do it as a natural thing to do. Add optional text to explain why
-things are the way they are. Few will read it, but they will learn from it.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</guid>
+      <description>There is something that I always did in my career managing internet tools. I volunteer helping non-technical people to get a presence online, build up communities and such things. But I have to confess, this comes with a price. A price on your nerves when you realize that easy obvious things that you take for granted are actually not clear at all by the average Joe.
+Yeah sure they can post of facebook.</description>
     </item>
     
     <item>
       <title>Multiple inheritance simulation</title>
-      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</link>
+      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation</guid>
-      <description>
-
-&lt;p&gt;This is a bit twisted. In ruby, as you know, you cannot use multiple
-inheritance. But the flexibility of the language, especially the
-metaprogramming aspect, opens the door for some cheating. Check out
-&lt;a href=&#34;https://gist.github.com/capitalist/473543b7ea24d461d030&#34;&gt;this code&lt;/a&gt;, it tricks it by declaring the first class as the super
-class and the remaining classes as modules included in that super class.
-Pretty acrobatic and elegant, imho.&lt;/p&gt;
-
-&lt;h2 id=&#34;about-vaping:a9a546e37849f6a570839940ccf98c98&#34;&gt;About vaping&lt;/h2&gt;
-
-&lt;p&gt;Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it. But last
-week it finally ended. I quit smoking. But this was kindof a trick, as it was
-made possible by switching to &lt;a href=&#34;http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937&#34;&gt;vaping&lt;/a&gt;. It certainly doesn&amp;rsquo;t solve the
-nicotine addiction issue, but I&amp;rsquo;m very happy with this move and hopeful for a
-gradual freedom.&lt;/p&gt;
-
-&lt;p&gt;I also found out that this vaping practice is very geeky. The hardware part is
-quite elaborate, vaping devices are really neat piece of work, there are a
-bunch of vendors. The liquidware is also quite a subject of hacking.
-Technically it&amp;rsquo;s not that hard to do it yourself. Not surprising that I
-discovered this vaping practice in geeks circles.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
+      <description>This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out this code, it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
+About vaping Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it.</description>
     </item>
     
     <item>
       <title>Working abroad</title>
-      <link>http://blog.mose.com/2015/03/01/working-abroad</link>
+      <link>http://blog.mose.com/2015/03/01/working-abroad/</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/working-abroad</guid>
-      <description>
-
-&lt;p&gt;Our craft as webdev is clearly in huge demand. This provides an opportunity
-for us to travel abroad, discover new cultures, widen our horizon. When I went
-to live in Taiwan, I was not worried about finding a job. But when hunting for
-a job abroad it can be tricky to find companies that will sponsor a visa, a
-work permit, or whatever legal requirement is involved in each countries.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s what the new initiative called &lt;a href=&#34;http://techmeabroad.com&#34;&gt;TechMeAbroad&lt;/a&gt; aims to fix, by
-listing only job opportunities for which a work permit is sponsored. As
-&lt;a href=&#34;http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad&#34;&gt;Julien Barbier explains&lt;/a&gt;, it will launch in march, and if you know of any
-job offers that includes a visa or such thing, please let him know (or send it
-to me I will pass it along), so we can feed that platform with some real data
-quickly.&lt;/p&gt;
-
-&lt;h2 id=&#34;so-long-ruby-1-9:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;So long ruby 1.9&lt;/h2&gt;
-
-&lt;p&gt;As planned, it&amp;rsquo;s now time to say &lt;a href=&#34;https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/&#34;&gt;byebye to ruby 1.9.3&lt;/a&gt;. But there is still
-so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
-In wheezy, you have 1.9. And there are still many servers that will refuse to
-upgrade.&lt;/p&gt;
-
-&lt;h2 id=&#34;pick-your-hero:a0091e7eb1dfeca477447c7e0b2e6425&#34;&gt;Pick your hero&lt;/h2&gt;
-
-&lt;p&gt;The registration for &lt;a href=&#34;http://rubyheroes.com/&#34;&gt;Ruby Heroes 2015&lt;/a&gt; is now open. Go vote for your
-favorite ruby influential dev. You have until &lt;a href=&#34;http://railsconf.com/&#34;&gt;railsconf&lt;/a&gt; that will happen
-in april, in Atlanta this year.&lt;/p&gt;
-</description>
+      <guid>http://blog.mose.com/2015/03/01/working-abroad/</guid>
+      <description>Our craft as webdev is clearly in huge demand. This provides an opportunity for us to travel abroad, discover new cultures, widen our horizon. When I went to live in Taiwan, I was not worried about finding a job. But when hunting for a job abroad it can be tricky to find companies that will sponsor a visa, a work permit, or whatever legal requirement is involved in each countries.</description>
     </item>
     
   </channel>

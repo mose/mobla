@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Freebsd on Moselog</title>
-    <link>http://blog.mose.com/tags/freebsd/</link>
+    <link>http://localhost:1313/tags/freebsd/</link>
     <description>Recent content in Freebsd on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 12:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greenruby 125</title>
-      <link>http://blog.mose.com/2015/06/28/greenruby-125</link>
+      <link>http://localhost:1313/2015/06/28/greenruby-125</link>
       <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/28/greenruby-125</guid>
+      <guid>http://localhost:1313/2015/06/28/greenruby-125</guid>
       <description>
 
 &lt;h2 id=&#34;a-taste-of-freebsd:2e9f17a4684b1292d2dd8dbb76b48337&#34;&gt;a taste of FreeBSD&lt;/h2&gt;
@@ -45,10 +45,10 @@ its reputation seems to convey.&lt;/p&gt;
     
     <item>
       <title>Greenruby 109</title>
-      <link>http://blog.mose.com/2015/03/08/greenruby-109</link>
+      <link>http://localhost:1313/2015/03/08/greenruby-109</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/greenruby-109</guid>
+      <guid>http://localhost:1313/2015/03/08/greenruby-109</guid>
       <description>
 
 &lt;h2 id=&#34;about-blogging:111d43eaf8a2a6adad496f0417e7f52c&#34;&gt;About blogging&lt;/h2&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chef on Moselog</title>
-    <link>http://blog.mose.com/tags/chef/</link>
+    <link>http://localhost:1313/tags/chef/</link>
     <description>Recent content in Chef on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jun 2014 09:10:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.mose.com/tags/chef/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/chef/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Knife remote command</title>
-      <link>http://blog.mose.com/2014/06/26/knife-remote-command</link>
+      <link>http://localhost:1313/2014/06/26/knife-remote-command</link>
       <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/26/knife-remote-command</guid>
+      <guid>http://localhost:1313/2014/06/26/knife-remote-command</guid>
       <description>&lt;p&gt;Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the &lt;code&gt;fabric&lt;/code&gt; scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.&lt;/p&gt;
 
 &lt;p&gt;So I created a new file in &lt;code&gt;.chef/plugins/knife/&lt;/code&gt; named &lt;code&gt;apt.rb&lt;/code&gt; for a test:&lt;/p&gt;

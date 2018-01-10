@@ -80,19 +80,19 @@
   
     <a href="http://blog.mose.com/tags/greenruby" class="tag">greenruby<span>15</span></a>
   
-    <a href="http://blog.mose.com/tags/engineering" class="tag">engineering<span>12</span></a>
+    <a href="http://blog.mose.com/tags/tools" class="tag">tools<span>13</span></a>
   
-    <a href="http://blog.mose.com/tags/tools" class="tag">tools<span>12</span></a>
+    <a href="http://blog.mose.com/tags/engineering" class="tag">engineering<span>12</span></a>
   
     <a href="http://blog.mose.com/tags/ruby" class="tag">ruby<span>11</span></a>
   
-    <a href="http://blog.mose.com/tags/devops" class="tag">devops<span>6</span></a>
+    <a href="http://blog.mose.com/tags/devops" class="tag">devops<span>7</span></a>
+  
+    <a href="http://blog.mose.com/tags/collective-intelligence" class="tag">collective-intelligence<span>6</span></a>
   
     <a href="http://blog.mose.com/tags/lifestyle" class="tag">lifestyle<span>6</span></a>
   
     <a href="http://blog.mose.com/tags/webdev" class="tag">webdev<span>6</span></a>
-  
-    <a href="http://blog.mose.com/tags/collective-intelligence" class="tag">collective-intelligence<span>5</span></a>
   
     <a href="http://blog.mose.com/tags/rubyconf" class="tag">rubyconf<span>5</span></a>
   
@@ -118,8 +118,6 @@
   
     <a href="http://blog.mose.com/tags/slack" class="tag">slack<span>2</span></a>
   
-    <a href="http://blog.mose.com/tags/sublimetext" class="tag">sublimetext<span>2</span></a>
-  
     <a href="http://blog.mose.com/tags/taipei" class="tag">taipei<span>2</span></a>
   
     <a href="http://blog.mose.com/tags/timezones" class="tag">timezones<span>2</span></a>
@@ -131,6 +129,8 @@
     <a href="http://blog.mose.com/tags/perl" class="tag">perl<span>1</span></a>
   
     <a href="http://blog.mose.com/tags/python" class="tag">python<span>1</span></a>
+  
+    <a href="http://blog.mose.com/tags/sublimetext" class="tag">sublimetext<span>1</span></a>
   
     <a href="http://blog.mose.com/tags/vim" class="tag">vim<span>1</span></a>
   
@@ -146,7 +146,7 @@
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </span>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 11</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 12</span>
     
     <a href="http://blog.mose.com/post/page/2/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>
@@ -164,6 +164,236 @@
     <div>
       
       <div class="posts">
+        
+          <h1 class="content-subhead">
+  2018-01-11
+  <p class="post-meta">
+    
+    
+    
+      <a class="post-tags post-tags-devops" href="http://blog.mose.com/tags/devops">devops</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/" class="post-title">The evolution of requirements for observability</a>
+            </header>
+
+            <div class="post-description">
+              <p>The most crucial aspect in infrastructure management is to know what&rsquo;s going on. During the course of evolution of systems, from dedicated servers to virtual machines to containers, the granularity of data changed drastically. Observability of systems really needs to follow some kind of evolution.</p>
+
+<p>We usually distinguish 3 big stages of evolutions in recent infrastructure history:
+- the dedicated servers era, each having unique names, treated like pets, each server hosting various services, or sometimes dedicated to an application, alone or in cluster.
+- the virtual machines era, where servers are still almost like pets, but just in a very large number, as services get split in different servers as a more general rule of thumb.
+- the containers era, where systems are considered as cattle, they have names related to their function including some numbers, they can live or die and be replaced without human intervention. This is where Ayla wants to go, with the transition to the kubernetes kind of architecture.</p>
+
+<p>The traditional monitoring, checking pulse on individual servers, still is the norm in most systems used everywhere. But now that we have various micro-services and soon short-lived instances of applications, we need another layer of observability, which will report on systems activity as a whole rather than individual data. First, there should be a way to group systems activity by functional usage. We already have such a way to group data for application metrics in the APM provided by NeewRelic, but not at system level. Second, when we reach the third of evolution of the infrastructure, we need to have a visibility on the lifecycle of the herd. It becomes more about crowd control than individual checks.</p>
+
+<p>The main obstacle I see in that evolution is that the more the infrastructure advances in stages, the more it escapes to the scope of a dedicated infrastructure team. Various departments spawn servers on their own as the need requires. But then there is no uniformity on the observability of the systems. So the monitoring needs to really get deep into the automation or the tools that are used to spawn new resources, and discoverability needs to address the grouping and agglomeration automatically somehow.</p>
+
+<p>About observability, there are 3 main ways to observe a system.
+- First from outside, in a black-box approach, measuring traffic, response time, availability of a service.
+- Second at system level, for resources accounting, like cpu, memory, disk IO, etc.
+- Third is at application level, where data is collected by the application itself during its runtime activity, typically using New Relic and the plugins they provide.</p>
+
+<p>But whatever the ways to collect data, there is a layer that is sorely missed at the moment, and it&rsquo;s true in most systems that I have had the occasion to explore. It&rsquo;s an overlay that would give in a glance a view of the sanity of an infrastructure. Some kind of quick way to see an overall picture in a glance. The split in micro-services also makes it hard to find a standard way to give a view of the links between services. In my opinion there is no substitute to custom coding here.</p>
+
+<p>There are various emerging solutions and services that could help us address the situation in the case of kubernetes, though. The environment is so fertile, there are new projects popping up every day. I really need to get into that.</p>
+
+            </div>
+          </section>
+        
+          <h1 class="content-subhead">
+  2017-09-27
+  <p class="post-meta">
+    
+    
+    
+      <a class="post-tags post-tags-collective intelligence" href="http://blog.mose.com/tags/collective-intelligence">collective intelligence</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/" class="post-title">Collective Intelligence in Space and Time</a>
+            </header>
+
+            <div class="post-description">
+              
+
+<p>In my previous post, I described the elements necessary for fostering
+<a href="http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/">collective intelligence in Open Source projects</a>. That synthetic
+description was very absolute, and for a proper implementation it needs
+some adjustment regarding both <strong>space</strong> and <strong>time</strong>.</p>
+
+<p>The space variable is environmental, where the project takes in
+account its surrounding. Partnerships, dependencies, markets, and customers
+are some of the impacting external factors that need to be taken
+in account.</p>
+
+<p>The time parameter involves considering the intermediary steps leading to
+the birth of a project, the seeding, the evolutions, the mutability and
+transmission procedures between actors, and the death of the project.
+Where space is all about environment, time is all about evolution.</p>
+
+<p>By addressing both those factors, I think we are much closer to a blueprint
+that would make sense to the adoption of Collective Intelligence in Enterprise.</p>
+
+<h2 id="in-space">In Space</h2>
+
+<p>Space, or environment, or external impacting factors, are bringing some constraints:</p>
+
+<h3 id="deadlines">Deadlines</h3>
+
+<ul>
+<li>events taking place at given dates,</li>
+<li>synchronization with other projects,</li>
+<li>unexpected hazards like security alerts,</li>
+<li>partnership contractual obligation,</li>
+<li>legal obligations from local state,</li>
+</ul>
+
+<p>Instinctively one could think that deadline are a <strong>time</strong> parameter, but actually
+their impact is more environmental than evolutionary. Setting hard time constraint
+has for only purpose synchronization with external factor: customers communication,
+market events or strong trends, predictability in the case of fixed deadlines. All
+those factors are geared toward collaboration.</p>
+
+<p>Deadlines impact the <strong>emerging whole</strong>, in the sense that an organized group cannot rely
+on unpredictable emergence, and requires some enforcement mechanism to comply with deadlines.
+It leads to the necessity to setup a steering system, that will watch over deadlines and
+adjust the whole for timely emergence. This can be done in a very soft way, by nudging
+more than hardcore enforcement. But there are many situations where it&rsquo;s obvious that
+arbitrary decisions have to be made for the sake of meeting deadlines.</p>
+
+<p>Many Open Source projects have very small concern for deadlines, because they reduce their
+environmental surface area. But large Open Source projects can&rsquo;t escape this. For example
+it&rsquo;s very convenient for large projects to make a contract with user about the release
+cycle periodicity. Gitlab releases every month, there is a new Ubuntu release every 6 months,
+and yes, both those projects are lead by companies.</p>
+
+<p>The ways to address this constraint requires an extra attention to the <strong>holopticism</strong>.
+Each participant needs to be totally aware of deadlines so they can adjust their own pace.</p>
+
+<p>Certain deadlines involve specific tasks, like releases for example, which can be subject to
+a rotation for better resiliency, in the spirit of <strong>switchable roles</strong>.
+The example of <a href="https://about.gitlab.com/release-managers/">how Gitlab manages releases</a> illustrates this concept pretty well.</p>
+
+<p>Often there is going to be the need to identify certain roles for deadline enforcement
+in the case of events. Depending the scale, it can be clever to create
+<strong>specialized sub-collectives</strong>. Like the &ldquo;2017 rubyconf team&rdquo; or the &ldquo;first tuesday meetup team&rdquo;.
+But it also can be a <strong>switchable role</strong> in case of small requirements for the task.</p>
+
+<p>For an optimal and fluid operation, those roles and constraints need to be clear in the
+<strong>rules of the game</strong> and possibly in the <strong>arbitration mechanism</strong> too. Sometimes failing
+on a deadline can be very harmful for the project and the collective, and the collective
+then need some aggressive process to protect its survival.</p>
+
+<p>It&rsquo;s especially true for security alerts, in case of software development projects or
+projects managing infrastructures, which require a strongly steered crisis management
+with very tight deadlines.</p>
+
+<h3 id="dependencies">Dependencies</h3>
+
+<ul>
+<li>with vendors</li>
+<li>with customers</li>
+<li>with contractors</li>
+<li>with specialized third parties (press, social media, integrators)</li>
+</ul>
+
+<p>We saw that <strong>specialized sub-collectives</strong> can be required to handle deadlines.
+The same goes for dependencies with other projects or vendors, or even customers. The
+Collectively Intelligent organization usually needs to provide some dedicated contact role
+which can be either a person or a group. Such a group or person will then be in charge
+to inform the rest of the organization about their own deadlines and other requirements.</p>
+
+<p>Those sub-collectives are in charge of doing a proxy-triage work in the communication between
+the collective and the rest of the world. For example the Support team can handle user requests,
+communication team the press releases and press events, the community team would handle events, etc.</p>
+
+<p>The responsibility on such teams is both internal and external. They need to make sure that
+the collective knows about external inputs, and the external actors know about the internal activity
+that may impact them.</p>
+
+<h3 id="conformity">Conformity</h3>
+
+<ul>
+<li>legal requirements</li>
+<li>standards compliance</li>
+<li>intellectual property liability</li>
+<li>contractual liability with partners or vendors</li>
+</ul>
+
+<p>There can be a wide range of conformity requirement that a project can&rsquo;t ignore. It may be hard
+to predict them all, but a general approach could be taken about them. Such requirements can
+be very disruptive in the engineering of internal collective intelligence, in some occasions.
+It&rsquo;s even worse when conformity requires some form of secrecy, which tampers the need for
+transparency.</p>
+
+<p>For open conformity requirements, they need to be made public, at least in the circle of
+the project, by the way of the <strong>rules of the game</strong>. It may be necessary to appoint a
+<strong>specialized sub-collective</strong> for enforcing certain type of conformity, like for example
+a legal team, or a special quality assurance team that will make sure contractual
+requirements are met. Some conformity rules may involve some special skill or certifications.</p>
+
+<p>But as a general rule, the impact surface of conformity compliance should be kept at its minimum
+if possible.</p>
+
+<h3 id="physicality">Physicality</h3>
+
+<ul>
+<li>office conventions</li>
+<li>resources management</li>
+<li>expenses coverage</li>
+<li>toolset and procedures</li>
+</ul>
+
+<p>When a physical space is involved, some chores have to be organized for its maintenance.
+They can be shared by some sort of common greed convention, or handled by a dedicated group.
+There is not much challenge about this, as it calls for practices that are very well documented.</p>
+
+<p>When it comes to tools and procedures, it&rsquo;s about making the space adequate for collaboration.
+Open space stimulates transparency, for example, and direct and quick access to others.</p>
+
+<p>There is a trend currently that frowns upon open spaces in the workplace, because it&rsquo;s
+disturbing concentration and breaks the &lsquo;zone&rsquo; state that developers can try to maintain.
+But in my opinion shared physical spaces should only be used for interactive activities.
+If one needs concentration, they should isolate themselves, either at home or in a closed space.</p>
+
+<p>The consequence of such a statement is that remote activity should be possible, depending the
+kind of activity of each member of the collective. Some will need more isolation than others.</p>
+
+<h3 id="virtuality">Virtuality</h3>
+
+<ul>
+<li>online sync and async tools</li>
+<li>knowledge database and shared memory</li>
+<li>remote presence tools</li>
+<li>structured and transparent tasks tracking</li>
+</ul>
+
+<p>Taking in account that economy cannot be made of a virtual activity except in rare cases,
+a proper thinking has to be made about the tools deployed to serve such purpose. Details
+will obvisouly depend the craft of the trade at hand, but there are some constant.</p>
+
+<p>A common space for synchroneous communication is required, for all participant to access
+each others in a fluid and interactive way. If this interaction can be seen by all others,
+it&rsquo;s even better. Transparencey by default is a factor of success. Nowadays solutions like
+IRC, Campfire, Hipchat, Slack, Rocketchat, satisfy the requirement for such a platform.</p>
+
+<p>The common sync space needs to be archived and its content needs to be searchable. This ensures
+that async knowledge can be guaranteed.</p>
+
+            </div>
+          </section>
         
           <h1 class="content-subhead">
   2017-07-11
@@ -184,7 +414,7 @@
             </header>
 
             <div class="post-description">
-              <p>For the past 20 years, I have been for an open source author and contributor (I will use the term &lsquo;open source&rsquo; but I could say &lsquo;free software&rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I hold a <a href="https://tiki.org/mose">leadership position</a> in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &lsquo;reluctant leader&rsquo; for the project, while I was considering myself an &lsquo;attentive gardener&rsquo;.</p>
+              <p>For the past 20 years, I have been for an open source author and contributor (I will use the term &lsquo;open source&rsquo; but I could say &lsquo;free software&rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I held a <a href="https://tiki.org/mose">leadership position</a> in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &lsquo;reluctant leader&rsquo; for the project, while I was considering myself an &lsquo;attentive gardener&rsquo;.</p>
 
 <p>Collaboration can be instinctive in some contexts. But engineering projects need some flavor of coordination to make things go smoothly. The goal being to reach the threshold of the sum. It happens when it&rsquo;s more efficient to join the collective than to work in isolation. The collective action is more than the sum of the parts. It&rsquo;s quite easy to achieve and it happens in every business. But in an environment without enforcement of an authority, like in open source projects, the setup has to rely on autonomy of the participants and their willingness to play their part.</p>
 
@@ -703,103 +933,6 @@ robotic phone calls. Chatbots are going to be the new color of spam?</p>
             </div>
           </section>
         
-          <h1 class="content-subhead">
-  2016-10-16
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-193.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-javascript" href="http://blog.mose.com/tags/javascript">javascript</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2016/10/16/is-facebook-the-new-npm/" class="post-title">Is Facebook the new NPM?</a>
-            </header>
-
-            <div class="post-description">
-              <p>This week there is a lot of noise in the JS ecosystem, on various trends. But
-the most noticeable is about <a href="https://yarnpkg.com/">Yarn</a>. Yet another package manager for js,
-that states it opens a war against NPM (in soft terms but clearly enough). The
-<a href="https://code.facebook.com/posts/1840075619545360">long post from Facebook</a> about it demonstrates a clear effort to push
-things forward about NPM shortcomings. The reaction on <a href="https://news.ycombinator.com/item?id=12684980">hacker news</a>
-is pretty verbose.</p>
-
-<p>It provoked a public <a href="http://blog.npmjs.org/post/151660845210/hello-yarn">response from NPM</a> to try to explain that, nop,
-it&rsquo;s not a war. But I keep feeling that Facebook is slowly taking over another
-piece of the javascript world. For now, it doesn&rsquo;t seem harmful at all, but my
-instinct lights a various number of warning bonfires.</p>
-
-<p>But for real, it was more than time that the supremacy of NPM was questioned.
-It has a lot of flaws and the number of posts about this event proves that the
-community was kind of waiting for something like this to happen. Like this
-<a href="https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.d5wnp2yf9">cheatsheet</a>, various articles like <a href="http://www.infoworld.com/article/3130179/javascript/facebook-spins-yarn-to-replace-npm-packager.html">this one</a>, this
-enthusiastic post from <a href="http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/">Yehuda Kats</a>. But <a href="https://medium.com/@boennemann/questions-i-wish-yarn-had-answered-on-day-1-ec0db7458107#.r1kyqfnwr">not everybody is happy</a>
-about how things are done.</p>
-
-<p>Personally, I like the technical direction it takes. But I hope that like
-io.js went back to node.js, it will eventually merge back to NPM, really. But
-I have the feeling it is not going to happen.</p>
-
-            </div>
-          </section>
-        
-          <h1 class="content-subhead">
-  2016-10-09
-  <p class="post-meta">
-    
-    
-      originally posted on 
-      
-        <a class="post-origin" href="http://greenruby.org/grn-192.html" target="_new">GreenRuby</a>
-      
-    
-    
-      <a class="post-tags post-tags-javascript" href="http://blog.mose.com/tags/javascript">javascript</a>
-    
-    
-  </p>
-</h1>
-
-          <section class="post">
-            <header class="post-header">
-
-              <a href="http://blog.mose.com/2016/10/09/the-js-toolback-hell/" class="post-title">The JS toolback hell</a>
-            </header>
-
-            <div class="post-description">
-              <p>This week I laughed a lot while reading <a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.pl6hx94d3">How it feels to learn JavaScript in
-2016</a>. That article had a pretty <a href="http://www.macwright.org/2016/10/04/everything-is-fine-with-javascript.html">good response</a>, like it hits a
-nerve.</p>
-
-<p>But seriously it&rsquo;s clear that we are at a transition time in Javascript
-evolution, and there is a huge chaos of possible alternatives to everything.
-It feels like an ecosystem where the natural selection didn&rsquo;t operate its
-magic yet. It&rsquo;s like there are things in suspension that are going to fall in
-order at some point eventually.</p>
-
-<p>My personal bet is that things like elm will win the race, because with its
-embrace of functional programming it seems like it opens the door to
-interpretation with yet-to-be-written faster and more direct compilers (rather
-than transpiling to js). But that&rsquo;s just a hunch.</p>
-
-<p>In the while, front-end craft is now a wizard arcane art. It can&rsquo;t be acquired
-by pure reasoning and logic, or reading a doc. You need the map of the
-landscape for knowing the possible choices and alternative intermediary
-solutions. For part-time front-end people, it&rsquo;s just hell. For now.</p>
-
-            </div>
-          </section>
-        
       </div>
       
 
@@ -810,7 +943,7 @@ solutions. For part-time front-end people, it&rsquo;s just hell. For now.</p>
       <i class="fa fa-hand-o-left"></i>&nbsp;Newer
     </span>
     
-    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 11</span>
+    <span class="post-list-pagination-item post-list-pagination-item-current button-small pure-button">Page 1 of 12</span>
     
     <a href="http://blog.mose.com/post/page/2/" class="post-list-pagination-item button-small pure-button post-list-pagination-item-next">
       Older&nbsp;<i class="fa fa-hand-o-right"></i>

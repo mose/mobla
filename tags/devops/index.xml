@@ -6,10 +6,20 @@
     <description>Recent content in Devops on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2015 12:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 06:25:00 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.mose.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The evolution of requirements for observability</title>
+      <link>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</link>
+      <pubDate>Thu, 11 Jan 2018 06:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</guid>
+      <description>The most crucial aspect in infrastructure management is to know what&amp;rsquo;s going on. During the course of evolution of systems, from dedicated servers to virtual machines to containers, the granularity of data changed drastically. Observability of systems really needs to follow some kind of evolution.
+We usually distinguish 3 big stages of evolutions in recent infrastructure history: - the dedicated servers era, each having unique names, treated like pets, each server hosting various services, or sometimes dedicated to an application, alone or in cluster.</description>
+    </item>
     
     <item>
       <title>linux trick: too many logs</title>

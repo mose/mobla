@@ -6,10 +6,20 @@
     <description>Recent content in Collective Intelligence on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2017 09:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2017 09:25:00 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Collective Intelligence in Space and Time</title>
+      <link>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</link>
+      <pubDate>Wed, 27 Sep 2017 09:25:00 +0800</pubDate>
+      
+      <guid>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</guid>
+      <description>In my previous post, I described the elements necessary for fostering collective intelligence in Open Source projects. That synthetic description was very absolute, and for a proper implementation it needs some adjustment regarding both space and time.
+The space variable is environmental, where the project takes in account its surrounding. Partnerships, dependencies, markets, and customers are some of the impacting external factors that need to be taken in account.</description>
+    </item>
     
     <item>
       <title>Collective Intelligence and open source</title>
@@ -17,7 +27,7 @@
       <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
       
       <guid>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</guid>
-      <description>For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I hold a leadership position in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.</description>
+      <description>For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I held a leadership position in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.</description>
     </item>
     
     <item>

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</loc>
+    <lastmod>2018-01-11T06:25:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</loc>
+    <lastmod>2017-09-27T09:25:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</loc>
     <lastmod>2017-07-11T09:25:00+08:00</lastmod>
   </url>
@@ -572,7 +582,7 @@
   
   <url>
     <loc>http://blog.mose.com/tags/collective-intelligence/</loc>
-    <lastmod>2017-07-11T09:25:00+08:00</lastmod>
+    <lastmod>2017-09-27T09:25:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -590,7 +600,7 @@
   
   <url>
     <loc>http://blog.mose.com/tags/devops/</loc>
-    <lastmod>2015-05-31T12:10:31+08:00</lastmod>
+    <lastmod>2018-01-11T06:25:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -650,7 +660,7 @@
   
   <url>
     <loc>http://blog.mose.com/</loc>
-    <lastmod>2017-07-11T09:25:00+08:00</lastmod>
+    <lastmod>2018-01-11T06:25:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -662,7 +672,7 @@
   
   <url>
     <loc>http://blog.mose.com/post/</loc>
-    <lastmod>2017-07-11T09:25:00+08:00</lastmod>
+    <lastmod>2018-01-11T06:25:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   

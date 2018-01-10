@@ -80,19 +80,19 @@
   
     <a href="http://blog.mose.com/tags/greenruby" class="tag">greenruby<span>15</span></a>
   
-    <a href="http://blog.mose.com/tags/engineering" class="tag">engineering<span>12</span></a>
+    <a href="http://blog.mose.com/tags/tools" class="tag">tools<span>13</span></a>
   
-    <a href="http://blog.mose.com/tags/tools" class="tag">tools<span>12</span></a>
+    <a href="http://blog.mose.com/tags/engineering" class="tag">engineering<span>12</span></a>
   
     <a href="http://blog.mose.com/tags/ruby" class="tag">ruby<span>11</span></a>
   
-    <a href="http://blog.mose.com/tags/devops" class="tag">devops<span>6</span></a>
+    <a href="http://blog.mose.com/tags/devops" class="tag">devops<span>7</span></a>
+  
+    <a href="http://blog.mose.com/tags/collective-intelligence" class="tag">collective-intelligence<span>6</span></a>
   
     <a href="http://blog.mose.com/tags/lifestyle" class="tag">lifestyle<span>6</span></a>
   
     <a href="http://blog.mose.com/tags/webdev" class="tag">webdev<span>6</span></a>
-  
-    <a href="http://blog.mose.com/tags/collective-intelligence" class="tag">collective-intelligence<span>5</span></a>
   
     <a href="http://blog.mose.com/tags/rubyconf" class="tag">rubyconf<span>5</span></a>
   
@@ -118,8 +118,6 @@
   
     <a href="http://blog.mose.com/tags/slack" class="tag">slack<span>2</span></a>
   
-    <a href="http://blog.mose.com/tags/sublimetext" class="tag">sublimetext<span>2</span></a>
-  
     <a href="http://blog.mose.com/tags/taipei" class="tag">taipei<span>2</span></a>
   
     <a href="http://blog.mose.com/tags/timezones" class="tag">timezones<span>2</span></a>
@@ -131,6 +129,8 @@
     <a href="http://blog.mose.com/tags/perl" class="tag">perl<span>1</span></a>
   
     <a href="http://blog.mose.com/tags/python" class="tag">python<span>1</span></a>
+  
+    <a href="http://blog.mose.com/tags/sublimetext" class="tag">sublimetext<span>1</span></a>
   
     <a href="http://blog.mose.com/tags/vim" class="tag">vim<span>1</span></a>
   
@@ -148,6 +148,48 @@
     <div>
       
       <div class="posts">
+        
+          <h1 class="content-subhead">
+  2018-01-11
+  <p class="post-meta">
+    
+    
+    
+      <a class="post-tags post-tags-devops" href="http://blog.mose.com/tags/devops">devops</a>
+    
+    
+  </p>
+</h1>
+
+          <section class="post">
+            <header class="post-header">
+
+              <a href="http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/" class="post-title">The evolution of requirements for observability</a>
+            </header>
+
+            <div class="post-description">
+              <p>The most crucial aspect in infrastructure management is to know what&rsquo;s going on. During the course of evolution of systems, from dedicated servers to virtual machines to containers, the granularity of data changed drastically. Observability of systems really needs to follow some kind of evolution.</p>
+
+<p>We usually distinguish 3 big stages of evolutions in recent infrastructure history:
+- the dedicated servers era, each having unique names, treated like pets, each server hosting various services, or sometimes dedicated to an application, alone or in cluster.
+- the virtual machines era, where servers are still almost like pets, but just in a very large number, as services get split in different servers as a more general rule of thumb.
+- the containers era, where systems are considered as cattle, they have names related to their function including some numbers, they can live or die and be replaced without human intervention. This is where Ayla wants to go, with the transition to the kubernetes kind of architecture.</p>
+
+<p>The traditional monitoring, checking pulse on individual servers, still is the norm in most systems used everywhere. But now that we have various micro-services and soon short-lived instances of applications, we need another layer of observability, which will report on systems activity as a whole rather than individual data. First, there should be a way to group systems activity by functional usage. We already have such a way to group data for application metrics in the APM provided by NeewRelic, but not at system level. Second, when we reach the third of evolution of the infrastructure, we need to have a visibility on the lifecycle of the herd. It becomes more about crowd control than individual checks.</p>
+
+<p>The main obstacle I see in that evolution is that the more the infrastructure advances in stages, the more it escapes to the scope of a dedicated infrastructure team. Various departments spawn servers on their own as the need requires. But then there is no uniformity on the observability of the systems. So the monitoring needs to really get deep into the automation or the tools that are used to spawn new resources, and discoverability needs to address the grouping and agglomeration automatically somehow.</p>
+
+<p>About observability, there are 3 main ways to observe a system.
+- First from outside, in a black-box approach, measuring traffic, response time, availability of a service.
+- Second at system level, for resources accounting, like cpu, memory, disk IO, etc.
+- Third is at application level, where data is collected by the application itself during its runtime activity, typically using New Relic and the plugins they provide.</p>
+
+<p>But whatever the ways to collect data, there is a layer that is sorely missed at the moment, and it&rsquo;s true in most systems that I have had the occasion to explore. It&rsquo;s an overlay that would give in a glance a view of the sanity of an infrastructure. Some kind of quick way to see an overall picture in a glance. The split in micro-services also makes it hard to find a standard way to give a view of the links between services. In my opinion there is no substitute to custom coding here.</p>
+
+<p>There are various emerging solutions and services that could help us address the situation in the case of kubernetes, though. The environment is so fertile, there are new projects popping up every day. I really need to get into that.</p>
+
+            </div>
+          </section>
         
           <h1 class="content-subhead">
   2015-05-31

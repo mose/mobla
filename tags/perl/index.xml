@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Perl on Moselog</title>
-    <link>http://blog.mose.com/tags/perl/</link>
+    <link>https://blog.mose.com/tags/perl/</link>
     <description>Recent content in Perl on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Nov 2015 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code in the dark, perl 6</title>
-      <link>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
+      <link>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
       <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
+      <guid>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
       <description>My attention was brought this week to Code in the dark events. It seems pretty cool. A 15 minutes race in html and css with no preview. But the thing that brought my attention to that format is the special editor used for those events with a special effect on the cursor. It seems to add a really dramatic effect on the competition. We need more ideas like that for pure geek fun.</description>
     </item>
     

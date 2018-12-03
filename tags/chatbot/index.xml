@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chatbot on Moselog</title>
-    <link>http://blog.mose.com/tags/chatbot/</link>
+    <link>https://blog.mose.com/tags/chatbot/</link>
     <description>Recent content in Chatbot on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
+      <link>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
+      <guid>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
       <description>A collection of events occurred since my last post. I was really hoping to get some deep dive into writing more about collective intelligence, in the background. But various things came and distracted me from that initial trajectory.
 Hubot revival First, there has been a revival of the Hubot project. I wrote a bunch of plugins for that chatbot for internal usage at Gandi in the past year. I have been poking around in the community complaining that it became some sort of abandonware.</description>
     </item>
     
     <item>
       <title>My lovely Chatbots, sick already?</title>
-      <link>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</link>
+      <link>https://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</link>
       <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</guid>
+      <guid>https://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</guid>
       <description>Recently I have been to a meetup about chatbots. I was expecting something technical. But it seems that I was totally mislead on what chatbots are. They are visibly now more of a marketing tool than just a cool piece of technology.
 I&amp;rsquo;m pretty convinced that web interfaces are going to die slowly in favor of more conversational interfaces. But in past technology shift we had some time between appearance and marketability.</description>
     </item>
     
     <item>
       <title>Chatops and machine learning</title>
-      <link>http://blog.mose.com/2016/07/30/chatops-and-machine-learning/</link>
+      <link>https://blog.mose.com/2016/07/30/chatops-and-machine-learning/</link>
       <pubDate>Sat, 30 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/30/chatops-and-machine-learning/</guid>
+      <guid>https://blog.mose.com/2016/07/30/chatops-and-machine-learning/</guid>
       <description>Since I slowly becomes the chatops specialist where I work, I get to think I want more. Since the beginning we have been interacting with programs essentially with graphical interfaces. First asynchronous if we think about the web, now more and more synchronous, but they are interfaces that are not human. They are designed for giving control to the operators of those interfaces.
 But the more we advance in autonomy of our programs, the more we should trust them to sort the information by priorities.</description>
     </item>
     
     <item>
       <title>2 years</title>
-      <link>http://blog.mose.com/2015/02/01/2-years/</link>
+      <link>https://blog.mose.com/2015/02/01/2-years/</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/01/2-years/</guid>
+      <guid>https://blog.mose.com/2015/02/01/2-years/</guid>
       <description>Ghost You certainly heard about it, this week there was a new huge Linux vulnerability on glibc revealed. Actually it was leaked by a stupid communication agency few hours before it should have been announced. When such big bug is discovered usually there is a small period of time where the news spread into some limited circles. They keep it embargoed until major distro vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.</description>
     </item>
     

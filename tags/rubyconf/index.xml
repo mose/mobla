@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rubyconf on Moselog</title>
-    <link>http://blog.mose.com/tags/rubyconf/</link>
+    <link>https://blog.mose.com/tags/rubyconf/</link>
     <description>Recent content in Rubyconf on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Sep 2015 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/rubyconf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/rubyconf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rubyconf TW</title>
-      <link>http://blog.mose.com/2015/09/13/rubyconf-tw/</link>
+      <link>https://blog.mose.com/2015/09/13/rubyconf-tw/</link>
       <pubDate>Sun, 13 Sep 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/09/13/rubyconf-tw/</guid>
+      <guid>https://blog.mose.com/2015/09/13/rubyconf-tw/</guid>
       <description>So these last 2 days we went to RubyConfTW here in Taipei, like every year. At that occasion I kinda forced my buddies to take part in this rant section. So, that occasion of meeting the ruby community was as usual very enjoyable. Year after year we see the same people, the community is solid and persistent.
 Like last years Matz was here and he talked about ruby 3 and, that was a surprise to me, he talked about getting rid of the GIL very soon.</description>
     </item>
     
     <item>
       <title>Meet at rubyconf</title>
-      <link>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
+      <link>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
       <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
+      <guid>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
       <description>Next friday we will be at rubyconf Taiwan. Last year there was around 300 attendees and there is 256 this year. But maybe there will be more last minute registration, there is still some spots available (well just 14 at this time). I will also be at the pre-conf evening on wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers there).
 Some stats on greenruby From time to time I check an export of the subscribers list and do some stats out of curiosity.</description>
     </item>
     
     <item>
       <title>RubyConf Taiwan 2015</title>
-      <link>http://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</link>
+      <link>https://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</link>
       <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</guid>
+      <guid>https://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</guid>
       <description>In September 11 and 12 there is a Rubyconf here in Taiwan. I have been at some past editions and it&amp;rsquo;s always a good time to meet people. Because we are close to Japan there is usually pretty good ruby core contributors from there. We get to see Matz, father of ruby, at each edition. But this time it seems that the organizers pulled some kind of special trick and the famous Aaron Patterson will be present.</description>
     </item>
     
     <item>
       <title>RubyConf Taiwan 2015 CFP</title>
-      <link>http://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</link>
+      <link>https://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</link>
       <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</guid>
+      <guid>https://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</guid>
       <description>Hey it&amp;rsquo;s time to give it a try, talking at a rubyconf is a great upgrade for any coder. That rubyconf will happen on september 11-12th in Taipei. Check it out.
 NSA on Github Looks like someone is trying to fight back a reputation of obscurity. While they are still pushing on more invasion of privacy, they also release some open source code. Check the NSA github repository, they released something already.</description>
     </item>
     
     <item>
       <title>RubyConf 2012</title>
-      <link>http://blog.mose.com/2012/12/10/rubyconf-2012/</link>
+      <link>https://blog.mose.com/2012/12/10/rubyconf-2012/</link>
       <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/12/10/rubyconf-2012/</guid>
+      <guid>https://blog.mose.com/2012/12/10/rubyconf-2012/</guid>
       <description>initPhotoSwipeFromDOM(&#39;.gallery&#39;);  Ruby Conf Taiwan 2012. Quite a great event.
 http://rubyconf.tw/2012/</description>
     </item>

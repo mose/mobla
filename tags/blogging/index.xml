@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging on Moselog</title>
-    <link>http://blog.mose.com/tags/blogging/</link>
+    <link>https://blog.mose.com/tags/blogging/</link>
     <description>Recent content in Blogging on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Apr 2017 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enough sleeping</title>
-      <link>http://blog.mose.com/2017/04/28/enough-sleeping/</link>
+      <link>https://blog.mose.com/2017/04/28/enough-sleeping/</link>
       <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/28/enough-sleeping/</guid>
+      <guid>https://blog.mose.com/2017/04/28/enough-sleeping/</guid>
       <description>A few months ago, I got tired of leading Greenruby publication and Xenor accepted to jump in and take the publisher role. I&amp;rsquo;m very grateful about it. But as a secundary effect, I lost that ranting channel I got used to abuse. Each week, I was getting somehow acustomed to send some rant with the list of links.
 Now it&amp;rsquo;s time to get back into a publisher mood. I have various thoughts that could deserve sharing, or at least, publication.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
+      <link>https://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <guid>https://blog.mose.com/2015/03/08/about-blogging/</guid>
       <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     

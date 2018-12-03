@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Moselog</title>
-    <link>http://blog.mose.com/tags/ruby/</link>
+    <link>https://blog.mose.com/tags/ruby/</link>
     <description>Recent content in Ruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Feb 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About tests and documentation</title>
-      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
+      <link>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
       <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
+      <guid>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
       <description>This aspect of development, called Documentation, is the source of various frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like testing. When you begin your craft as a coder, all what matters is the code. It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you in the neck. Like, huho, now that I need to refactor, I really should use something that tells me if all still works.</description>
     </item>
     
     <item>
       <title>Packaging a gem for Debian</title>
-      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
+      <link>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
       <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
+      <guid>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
       <description>Recently I had to package a gem for debian as a .deb. As a matter of fact, there is a lot of companies that are not in the ruby ecosystem and they rely on things they trust rather than rubygems. For a while debian was way behind on the inclusion of ruby and versions were outdated there. So a parallel distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby for ruby and bundler and rubygems for the packages.</description>
     </item>
     
     <item>
       <title>The power of DSL</title>
-      <link>http://blog.mose.com/2015/11/01/the-power-of-dsl/</link>
+      <link>https://blog.mose.com/2015/11/01/the-power-of-dsl/</link>
       <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/01/the-power-of-dsl/</guid>
+      <guid>https://blog.mose.com/2015/11/01/the-power-of-dsl/</guid>
       <description>While I was playing with react.rb and exploring opal, I felt in a totally different world. The power of the DSL already prove its shine on various occasions. I got to experience it in activeadmin, rspec, and puppet (but I kind of dislike the one in puppet).
 As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility that can be found in ruby. Really, ruby is a maker tool.</description>
     </item>
     
     <item>
       <title>Multiple inheritance simulation</title>
-      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
+      <link>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
+      <guid>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
       <description>This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out this code, it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
 About vaping Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
+      <link>https://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <guid>https://blog.mose.com/2015/03/08/about-blogging/</guid>
       <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     
     <item>
       <title>Working abroad</title>
-      <link>http://blog.mose.com/2015/03/01/working-abroad/</link>
+      <link>https://blog.mose.com/2015/03/01/working-abroad/</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/working-abroad/</guid>
+      <guid>https://blog.mose.com/2015/03/01/working-abroad/</guid>
       <description>Our craft as webdev is clearly in huge demand. This provides an opportunity for us to travel abroad, discover new cultures, widen our horizon. When I went to live in Taiwan, I was not worried about finding a job. But when hunting for a job abroad it can be tricky to find companies that will sponsor a visa, a work permit, or whatever legal requirement is involved in each countries.</description>
     </item>
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://blog.mose.com/2015/01/18/greenruby-102/</link>
+      <link>https://blog.mose.com/2015/01/18/greenruby-102/</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/18/greenruby-102/</guid>
+      <guid>https://blog.mose.com/2015/01/18/greenruby-102/</guid>
       <description>While42 This week I got in contact with Sylvain from while42. It&amp;rsquo;s a social network for french tech engineers, but with a special touch on it. There is no facebook page or google group. They intentionally decided to be irl-first. For people that are most likely to be online all the time, this sounds so therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter. If you want to know more (and are french, engineer, and living in Taipei) just drop me a mail.</description>
     </item>
     
     <item>
       <title>S3 backups</title>
-      <link>http://blog.mose.com/2014/06/12/s3-backups/</link>
+      <link>https://blog.mose.com/2014/06/12/s3-backups/</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/12/s3-backups/</guid>
+      <guid>https://blog.mose.com/2014/06/12/s3-backups/</guid>
       <description>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).
  http://meskyanichi.github.io/backup/v4/  But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</description>
     </item>
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
+      <link>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
+      <guid>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
       <description>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).
 ruby -ropen-uri -rpp -ryaml \ -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39; [&amp;quot;metric_fu&amp;quot;, &amp;quot;flyerhzm-metric_fu&amp;quot;, &amp;quot;edouard-metric_fu&amp;quot;, &amp;quot;devver-metric_fu&amp;quot;, &amp;quot;goldstar-metric_fu&amp;quot;, &amp;quot;socializer&amp;quot;, &amp;quot;trollface&amp;quot;, &amp;quot;guard-rails_best_practices&amp;quot;, &amp;quot;rferraz-metric_fu&amp;quot;, &amp;quot;git-hooks-helper&amp;quot;, &amp;quot;odor&amp;quot;, &amp;quot;rake_check&amp;quot;, &amp;quot;koality&amp;quot;, &amp;quot;danmayer-metric_fu&amp;quot;, &amp;quot;bf4-metric_fu&amp;quot;, &amp;quot;metrics_satellite&amp;quot;, &amp;quot;code_hunter&amp;quot;, &amp;quot;kinit&amp;quot;, &amp;quot;rails-audit&amp;quot;, &amp;quot;pronto-rails_best_practices&amp;quot;, &amp;quot;free_disk_space&amp;quot;, &amp;quot;warder&amp;quot;, &amp;quot;ruby_osx_app&amp;quot;, &amp;quot;sanelint&amp;quot;]  Out of curiosity I counted some wellknown gems usages by adding a .</description>
     </item>
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://blog.mose.com/2014/05/22/hackpad-cli/</link>
+      <link>https://blog.mose.com/2014/05/22/hackpad-cli/</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/22/hackpad-cli/</guid>
+      <guid>https://blog.mose.com/2014/05/22/hackpad-cli/</guid>
       <description>In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.
  https://github.com/mose/hackpad-cli  </description>
     </item>
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://blog.mose.com/2013/02/10/geeky-podcasts/</link>
+      <link>https://blog.mose.com/2013/02/10/geeky-podcasts/</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts/</guid>
+      <guid>https://blog.mose.com/2013/02/10/geeky-podcasts/</guid>
       <description>Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.
 I began this when starting working with rails, because that was a great flow of information, that had various sources:</description>
     </item>

@@ -2,168 +2,168 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Culture on Moselog</title>
-    <link>http://blog.mose.com/tags/culture/</link>
+    <link>https://blog.mose.com/tags/culture/</link>
     <description>Recent content in Culture on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Sep 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/culture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The art of learning</title>
-      <link>http://blog.mose.com/2016/09/18/the-art-of-learning/</link>
+      <link>https://blog.mose.com/2016/09/18/the-art-of-learning/</link>
       <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/18/the-art-of-learning/</guid>
+      <guid>https://blog.mose.com/2016/09/18/the-art-of-learning/</guid>
       <description>In my review this week I read that Old Geek post, which has a lot of comments under its feet. This is quite interesting. But I feel there is a confusion here.
 From my experience, age is often related to stagnation. The more you accumulate, the heavier you are. It&amp;rsquo;s heart-breaking to abandon years of investment in one type of knowledge. Therefore, generally speaking, older people are less flexible and less likely to surf on the waves of the new technologies.</description>
     </item>
     
     <item>
       <title>Get out</title>
-      <link>http://blog.mose.com/2016/09/04/get-out/</link>
+      <link>https://blog.mose.com/2016/09/04/get-out/</link>
       <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/04/get-out/</guid>
+      <guid>https://blog.mose.com/2016/09/04/get-out/</guid>
       <description>If you only ever have lived in only one country, you really should consider fixing it. Going live in another country for some years or more is just such a way towards a richer life. It&amp;rsquo;s usually easy to recognize people that are multi-rooted, as they often have an increased depth in their personal philosophy.
 We are lucky, in our craft, to have various opportunities to travel and work remotely, or for foreign companies.</description>
     </item>
     
     <item>
       <title>To be remote or not to be remote</title>
-      <link>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</link>
+      <link>https://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</link>
       <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</guid>
+      <guid>https://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</guid>
       <description>Earlier this week I read an article on linkedin, deliberately anti-remote, and a bit later on another one very pro-remote on freecodecamp. I&amp;rsquo;m tempted to think one is the response to the other. But maybe not.
 The fact is that switching to a remote organization is a tricky move. It feels like the move from monolith to micro-services, honestly. People that make decisions about it rarely envision the extent of the change.</description>
     </item>
     
     <item>
       <title>Working out</title>
-      <link>http://blog.mose.com/2016/08/21/working-out/</link>
+      <link>https://blog.mose.com/2016/08/21/working-out/</link>
       <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/21/working-out/</guid>
+      <guid>https://blog.mose.com/2016/08/21/working-out/</guid>
       <description>During the past year I have been doing some working out. No no there is no fitbit involved. Are you crazy? My physical activity includes a strict refusal of pointless efforts. I deliberately choose to use the bike rather than the bus, it has the purpose of transportation,. But just getting sweaty for the sake of it, well, that&amp;rsquo;s not my thing. I&amp;rsquo;m talking about a git-commit working out. I decided to have one commit a day on github (minimum) and instead of the fitbit or whatever phone app, I used the github timeline as a monitor.</description>
     </item>
     
     <item>
       <title>The reign of the virtual</title>
-      <link>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</link>
+      <link>https://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</link>
       <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</guid>
+      <guid>https://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</guid>
       <description>Yesterday morning, the hunt for Pokemons opened here in Taiwan. I have been watching the crazy adoption of this new trend in the past few weeks. And knowing the asian culture, I suspect Japan and Taiwan are going to make the craziness in the rest of the world just like mild interest.
 There are few occasions to notice a huge shift in civilization as clearly as this one. For sure we have noticed that our fellow human neighbors spend more and more time the nose on their mobile devices.</description>
     </item>
     
     <item>
       <title>Innovation and Consensus</title>
-      <link>http://blog.mose.com/2016/07/24/innovation-and-consensus/</link>
+      <link>https://blog.mose.com/2016/07/24/innovation-and-consensus/</link>
       <pubDate>Sun, 24 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/24/innovation-and-consensus/</guid>
+      <guid>https://blog.mose.com/2016/07/24/innovation-and-consensus/</guid>
       <description>Last week I got to check out 2 javascript frontend frameworks, Choo (the cute framwework) and Cycle.js (the streams power). It feels that nowadays React is eating the frontend world, but there is actually a lot of non-marginal alternatives. It made me think that there is something tricky with the process of innovation. It is born from disagreement. It feeds with discontent.
 Those frameworks are born from the refusal to consider React as a consensus, hence it generates an alternative path, exploring different paradigms.</description>
     </item>
     
     <item>
       <title>Open code, a chance for improvement</title>
-      <link>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</link>
+      <link>https://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</link>
       <pubDate>Sun, 03 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</guid>
+      <guid>https://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</guid>
       <description>Since I&amp;rsquo;m writing code I try to publish as much as I can as open source components. But I had occasion to work in situations where it was not possible. And I noticed some serious differences in the result.
 When you publish some code on, say, Github, you can just throw it as is and be done with it. Then you merely use github as a repository provider and don&amp;rsquo;t care much about anything else.</description>
     </item>
     
     <item>
       <title>Scarcity and abundance</title>
-      <link>http://blog.mose.com/2016/06/05/scarcity-and-abundance/</link>
+      <link>https://blog.mose.com/2016/06/05/scarcity-and-abundance/</link>
       <pubDate>Sun, 05 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/05/scarcity-and-abundance/</guid>
+      <guid>https://blog.mose.com/2016/06/05/scarcity-and-abundance/</guid>
       <description>As you may remember, this newsletter is using the generous free plan from Mailchimp. But it has limits. Only 2000 emails ca subscribe to that newsletter. It&amp;rsquo;s already a great gift, and I&amp;rsquo;m pretty sure it&amp;rsquo;s a good business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which means we need to address that so pervasive concept of scarcity.
 I can remember when it shifted. With the first web pages in 96.</description>
     </item>
     
     <item>
       <title>Aprils lame fools</title>
-      <link>http://blog.mose.com/2016/04/03/aprils-lame-fools/</link>
+      <link>https://blog.mose.com/2016/04/03/aprils-lame-fools/</link>
       <pubDate>Sun, 03 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/03/aprils-lame-fools/</guid>
+      <guid>https://blog.mose.com/2016/04/03/aprils-lame-fools/</guid>
       <description>I think there is nothing I hate more than pranks. It&amp;rsquo;s just another way to bully someone else. Even innocent pranks are having victims. Single out the one that fall for it to make laugh the ones that don&amp;rsquo;t. Well, I may very well be a boring fellow. Or it&amp;rsquo;s just that, working so much with information management, any perversion of it seems off.
 And then on april fools day, so much goes wrong.</description>
     </item>
     
     <item>
       <title>kik the fuss</title>
-      <link>http://blog.mose.com/2016/03/27/kik-the-fuss/</link>
+      <link>https://blog.mose.com/2016/03/27/kik-the-fuss/</link>
       <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
+      <guid>https://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
       <description>There have been some noise last week about npm, coming from that article. It merely revealed that various open source organization are privately held by some individuals and they can either be pressured or take weird decisions. Honestly I consider this incident anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened to be very vocal and pissed off about it.
 And it carried various threads of discussion on Twitter and elsewhere, in a huge controversy.</description>
     </item>
     
     <item>
       <title>the Adwar</title>
-      <link>http://blog.mose.com/2016/03/13/the-adwar/</link>
+      <link>https://blog.mose.com/2016/03/13/the-adwar/</link>
       <pubDate>Sun, 13 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/13/the-adwar/</guid>
+      <guid>https://blog.mose.com/2016/03/13/the-adwar/</guid>
       <description>This week I got 2 links that explore both sides of the adwar. The war on advertisement exists on the web since it became popular enough to attract advertisers. There are no acceptable ads takes the side of the users, while A Never-Ending Story On Ad-Blockers seems to defend and advise the publishers.
 Some media already have blocked the blockers. It&amp;rsquo;s forbidden to escape ads? This position may appear not to be sustainable.</description>
     </item>
     
     <item>
       <title>The thin line between chaos and harmony</title>
-      <link>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
+      <link>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
       <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
+      <guid>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
       <description>In the long road of my developer life I had the chance to experience a very wide variety of organizational models. The most pleasant was in the context of very large open source projects, where actions are not planned but still organized, and things fall in their place seemingly naturally. Of course there is nothing natural in that. There is a category of people, that can be called catalysts, working as gardeners and building the pathways to collaboration.</description>
     </item>
     
     <item>
       <title>Code in the dark, perl 6</title>
-      <link>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
+      <link>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
       <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
+      <guid>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
       <description>My attention was brought this week to Code in the dark events. It seems pretty cool. A 15 minutes race in html and css with no preview. But the thing that brought my attention to that format is the special editor used for those events with a special effect on the cursor. It seems to add a really dramatic effect on the competition. We need more ideas like that for pure geek fun.</description>
     </item>
     
     <item>
       <title>More about bullies</title>
-      <link>http://blog.mose.com/2015/11/15/more-about-bullies/</link>
+      <link>https://blog.mose.com/2015/11/15/more-about-bullies/</link>
       <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/15/more-about-bullies/</guid>
+      <guid>https://blog.mose.com/2015/11/15/more-about-bullies/</guid>
       <description>This week I read the reaction of Avdi to the rant of Linus last week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;. It rejoins the damage that I consider the coder-hero culture brings to our industry.
 Certainly the creative process of writing software attract creative people. They have strong personalities, some have tendencies to mild autism. They move mountains and their pride make them work day and night to achieve unbelievable things.</description>
     </item>
     
     <item>
       <title>Sexism and competition</title>
-      <link>http://blog.mose.com/2015/08/16/sexism-and-competition/</link>
+      <link>https://blog.mose.com/2015/08/16/sexism-and-competition/</link>
       <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/16/sexism-and-competition/</guid>
+      <guid>https://blog.mose.com/2015/08/16/sexism-and-competition/</guid>
       <description>The ruby community is quite blessed in the way that there are very vocal activist promoting diversity, especially on gender parity. It&amp;rsquo;s not exclusive to ruby I noticed the same intention in other communities (like the pyladies in python).
 Anybody that spent some years in IT cannot avoid to notice that there are mostly guys. The ladies are either frowned upon or very special cases. For ages I have been wondering why.</description>
     </item>
     
     <item>
       <title>Digital Generations</title>
-      <link>http://blog.mose.com/2015/07/05/digital-generations/</link>
+      <link>https://blog.mose.com/2015/07/05/digital-generations/</link>
       <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/05/digital-generations/</guid>
+      <guid>https://blog.mose.com/2015/07/05/digital-generations/</guid>
       <description>I enjoyed very much watching the keynote from Grady Booch at ICSE last week. He retraces the whole history of computing and software engineering in a very talented way.
 Later on I also watched the keynote of Stephen Bourne at BSDCan, which also talked about history, but on a specific topic of the creation of Unix and the shell.
 Usually, I have to say, I consider myself as an old geek.</description>
@@ -171,67 +171,67 @@ Usually, I have to say, I consider myself as an old geek.</description>
     
     <item>
       <title>The yin and yang of software development</title>
-      <link>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
+      <link>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
+      <guid>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
       <description>The topic I talked about last week led me to think about it more widely. And I ended up with the thinking that many problems in software companies are a clear problem of balance between their yin and their yang.
 This old chinese principle is documented in a very old-fashioned way, opposing genders and principles. But actually it sums up in the fact that many dynamics are to be based in a balance between two opposing principles.</description>
     </item>
     
     <item>
       <title>A word about project gardening</title>
-      <link>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
+      <link>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
+      <guid>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
       <description>In the last 2 companies where I worked, there was this recurring issue. Actually I noticed it for a while but for some reasons it became more obvious to me with time passing. The project management role is usually badly fulfilled.
 But at some point, and even from the point of view of a developer, there is in projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s all about daily ungrateful clearing the bad weeds, making sure the soil is rich enough, and that the seeds are all planted where they should be planted, that soil pH is adequate for this or that variety.</description>
     </item>
     
     <item>
       <title>Thought about python from a rubyist</title>
-      <link>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
+      <link>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
+      <guid>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
       <description>This weekend there was a python conference here in Taipei (pycon apac). As Gandi was sponsoring it, I went there and tried to figure out how python and ruby communities differ in my local area. As a matter of fact, I also push my python coding skills a bit. I kind of like to nurture a general polyglot approach.
 It first seems that the python community is more largely supported by sponsors than ruby one.</description>
     </item>
     
     <item>
       <title>The side effects of recruitment</title>
-      <link>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
+      <link>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
+      <guid>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
       <description>Recently I had to look for a new devops for our team. I have been handling technical recruitment at many occasions, and each time I have to explain my colleagues that I have a special process. The fact is, the technical sphere is a small one, we are all linked, more or less, to a community. Well, in my case, I always have had to recruit people in companies that were hiring the kind of people that commit on github, have some kind of community activity, at least.</description>
     </item>
     
     <item>
       <title>RFID world</title>
-      <link>http://blog.mose.com/2015/05/03/rfid-world/</link>
+      <link>https://blog.mose.com/2015/05/03/rfid-world/</link>
       <pubDate>Sun, 03 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/03/rfid-world/</guid>
+      <guid>https://blog.mose.com/2015/05/03/rfid-world/</guid>
       <description>They begin to appear everywhere. I saw mine first on my passport, then I just got my new credit card and it has one in it. Those things are nice if you consider them naively. But the fact is that they are flawed and insecure. We carry around more and more of those items that can be read at a proximity by specially crafter devices. Gosh, did they not learn already from the ingenuity of our kids?</description>
     </item>
     
     <item>
       <title>State surveillance in France</title>
-      <link>http://blog.mose.com/2015/04/19/state-surveillance-in-france/</link>
+      <link>https://blog.mose.com/2015/04/19/state-surveillance-in-france/</link>
       <pubDate>Sun, 19 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/19/state-surveillance-in-france/</guid>
+      <guid>https://blog.mose.com/2015/04/19/state-surveillance-in-france/</guid>
       <description>What happened this week in France is quite shocking. How can they be so long to make useful laws and so quick to pass harmful ones? Well the move began in December last year. Some call it a French Patriot act. This is not the first time there is an attempt from French government to enforce stronger control on the internet. The pressure of lobbies and media industries have been pushing hard to preserve their interests.</description>
     </item>
     
     <item>
       <title>Drones and makers</title>
-      <link>http://blog.mose.com/2015/03/22/drones-and-makers/</link>
+      <link>https://blog.mose.com/2015/03/22/drones-and-makers/</link>
       <pubDate>Sun, 22 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/22/drones-and-makers/</guid>
+      <guid>https://blog.mose.com/2015/03/22/drones-and-makers/</guid>
       <description>This is now obvious. We are going to get invaded by drones. Of course we will pretend we control them, for a while. But I can bet it&amp;rsquo;s not going to stand too long. Their autonomy is a competitive factor, and, in our current society, competitive is the Darwinian selective factor. It can be a bit scary.
 But on another hand, when we geeks look at those things with our (never-aging) kids eyes, we see fun toys.</description>
     </item>

@@ -2,659 +2,659 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moselog</title>
-    <link>http://blog.mose.com/</link>
+    <link>https://blog.mose.com/</link>
     <description>Recent content on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jan 2018 06:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The evolution of requirements for observability</title>
-      <link>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</link>
+      <link>https://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</link>
       <pubDate>Thu, 11 Jan 2018 06:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</guid>
+      <guid>https://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</guid>
       <description>The most crucial aspect in infrastructure management is to know what&amp;rsquo;s going on. During the course of evolution of systems, from dedicated servers to virtual machines to containers, the granularity of data changed drastically. Observability of systems really needs to follow some kind of evolution.
 We usually distinguish 3 big stages of evolutions in recent infrastructure history: - the dedicated servers era, each having unique names, treated like pets, each server hosting various services, or sometimes dedicated to an application, alone or in cluster.</description>
     </item>
     
     <item>
       <title>Collective Intelligence in Space and Time</title>
-      <link>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</link>
+      <link>https://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</link>
       <pubDate>Wed, 27 Sep 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</guid>
+      <guid>https://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</guid>
       <description>In my previous post, I described the elements necessary for fostering collective intelligence in Open Source projects. That synthetic description was very absolute, and for a proper implementation it needs some adjustment regarding both space and time.
 The space variable is environmental, where the project takes in account its surrounding. Partnerships, dependencies, markets, and customers are some of the impacting external factors that need to be taken in account.</description>
     </item>
     
     <item>
       <title>Collective Intelligence and open source</title>
-      <link>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</link>
+      <link>https://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</link>
       <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</guid>
+      <guid>https://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</guid>
       <description>For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I held a leadership position in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>Collective Intelligence or Collecting Intelligence</title>
-      <link>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</link>
+      <link>https://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</link>
       <pubDate>Fri, 16 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</guid>
+      <guid>https://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</guid>
       <description>Because I had some time recently I watched the whole batch of videos of the &amp;ldquo;Collective Intelligence Conference&amp;rdquo; from 2014 on youtube. It&amp;rsquo;s part of my exploration of that field, see what changed in the past years.
 Well, those were pretty interesting talks but it stroke me that there was a clear ambiguity of terms there. It&amp;rsquo;s related to the english usage of the &amp;ldquo;intelligence&amp;rdquo; word. The exact same word in french only means the capacity to process information and take decisions.</description>
     </item>
     
     <item>
       <title>bye bye Green Ruby</title>
-      <link>http://blog.mose.com/2017/06/05/bye-bye-green-ruby/</link>
+      <link>https://blog.mose.com/2017/06/05/bye-bye-green-ruby/</link>
       <pubDate>Mon, 05 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/06/05/bye-bye-green-ruby/</guid>
+      <guid>https://blog.mose.com/2017/06/05/bye-bye-green-ruby/</guid>
       <description>Today I&amp;rsquo;m closing Green Ruby. That newsletter, started on february 2013, has been a self-imposed weekly duty for more than 4 years. I take a lot of pride not to have missed one single week during those 225 weeks.
 But now that we decided, my friends and I, to put it to an end, there is an interesting question popping up. What will happen with the list of 2,000 subscribers?</description>
     </item>
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
+      <link>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
+      <guid>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
       <description>A collection of events occurred since my last post. I was really hoping to get some deep dive into writing more about collective intelligence, in the background. But various things came and distracted me from that initial trajectory.
 Hubot revival First, there has been a revival of the Hubot project. I wrote a bunch of plugins for that chatbot for internal usage at Gandi in the past year. I have been poking around in the community complaining that it became some sort of abandonware.</description>
     </item>
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</link>
+      <link>https://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</guid>
+      <guid>https://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</guid>
       <description>I plan to share some thoughts about Collective Intelligence from a software perspective. But this comes from an old story that I thought I should make public first.
 The origins When I first began to program web applications, it was mostly for my own needs as an activist (freedom of speech on internet, cryptography, and such matters). Around 1998 I had a fully working solution called &amp;lsquo;Collaborative writer&amp;rsquo; or cWriter for short, written in PHP.</description>
     </item>
     
     <item>
       <title>Interview-based knowledge sharing</title>
-      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
+      <link>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
+      <guid>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
       <description>For years I noticed the difficulty to extract decent information from developers and craftsmen about their work. Developers clearly lack the skill or the taste for documentation. It extends to the specifications, which also provides an occasion to notice bad performance.
 To work this around, specialized project managers have to fill this role, but it can create a gap between developers ownership and the final result. Sometimes luck creates the inspiration and developers produce a decent amount of documentation.</description>
     </item>
     
     <item>
       <title>Enough sleeping</title>
-      <link>http://blog.mose.com/2017/04/28/enough-sleeping/</link>
+      <link>https://blog.mose.com/2017/04/28/enough-sleeping/</link>
       <pubDate>Fri, 28 Apr 2017 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/28/enough-sleeping/</guid>
+      <guid>https://blog.mose.com/2017/04/28/enough-sleeping/</guid>
       <description>A few months ago, I got tired of leading Greenruby publication and Xenor accepted to jump in and take the publisher role. I&amp;rsquo;m very grateful about it. But as a secundary effect, I lost that ranting channel I got used to abuse. Each week, I was getting somehow acustomed to send some rant with the list of links.
 Now it&amp;rsquo;s time to get back into a publisher mood. I have various thoughts that could deserve sharing, or at least, publication.</description>
     </item>
     
     <item>
       <title>My lovely Chatbots, sick already?</title>
-      <link>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</link>
+      <link>https://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</link>
       <pubDate>Sun, 13 Nov 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</guid>
+      <guid>https://blog.mose.com/2016/11/13/my-lovely-chatbots-sick-already/</guid>
       <description>Recently I have been to a meetup about chatbots. I was expecting something technical. But it seems that I was totally mislead on what chatbots are. They are visibly now more of a marketing tool than just a cool piece of technology.
 I&amp;rsquo;m pretty convinced that web interfaces are going to die slowly in favor of more conversational interfaces. But in past technology shift we had some time between appearance and marketability.</description>
     </item>
     
     <item>
       <title>Is Facebook the new NPM?</title>
-      <link>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</link>
+      <link>https://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</link>
       <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</guid>
+      <guid>https://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</guid>
       <description>This week there is a lot of noise in the JS ecosystem, on various trends. But the most noticeable is about Yarn. Yet another package manager for js, that states it opens a war against NPM (in soft terms but clearly enough). The long post from Facebook about it demonstrates a clear effort to push things forward about NPM shortcomings. The reaction on hacker news is pretty verbose.
 It provoked a public response from NPM to try to explain that, nop, it&amp;rsquo;s not a war.</description>
     </item>
     
     <item>
       <title>The JS toolback hell</title>
-      <link>http://blog.mose.com/2016/10/09/the-js-toolback-hell/</link>
+      <link>https://blog.mose.com/2016/10/09/the-js-toolback-hell/</link>
       <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/09/the-js-toolback-hell/</guid>
+      <guid>https://blog.mose.com/2016/10/09/the-js-toolback-hell/</guid>
       <description>This week I laughed a lot while reading How it feels to learn JavaScript in 2016. That article had a pretty good response, like it hits a nerve.
 But seriously it&amp;rsquo;s clear that we are at a transition time in Javascript evolution, and there is a huge chaos of possible alternatives to everything. It feels like an ecosystem where the natural selection didn&amp;rsquo;t operate its magic yet. It&amp;rsquo;s like there are things in suspension that are going to fall in order at some point eventually.</description>
     </item>
     
     <item>
       <title>I&#39;m in holidays</title>
-      <link>http://blog.mose.com/2016/10/02/im-in-holidays/</link>
+      <link>https://blog.mose.com/2016/10/02/im-in-holidays/</link>
       <pubDate>Sun, 02 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/02/im-in-holidays/</guid>
+      <guid>https://blog.mose.com/2016/10/02/im-in-holidays/</guid>
       <description>Great occasion to kick thunderbird byebye and spend some time on configuring my mutt to make it real again, after 6 years of click-click for mail. I was a mutt user for a very long time, and my pause for trying a GUI mail client just had to have an end. But the mail has clearly become something else now. Actually much more volume, but much more automated things, and news feeds.</description>
     </item>
     
     <item>
       <title>A stress-free life</title>
-      <link>http://blog.mose.com/2016/09/25/a-stress-free-life/</link>
+      <link>https://blog.mose.com/2016/09/25/a-stress-free-life/</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/25/a-stress-free-life/</guid>
+      <guid>https://blog.mose.com/2016/09/25/a-stress-free-life/</guid>
       <description>Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For people that get heavy pressure from their work, it can give some air. But I wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them by principle, but I&amp;rsquo;m usually not really eager to get them.</description>
     </item>
     
     <item>
       <title>The art of learning</title>
-      <link>http://blog.mose.com/2016/09/18/the-art-of-learning/</link>
+      <link>https://blog.mose.com/2016/09/18/the-art-of-learning/</link>
       <pubDate>Sun, 18 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/18/the-art-of-learning/</guid>
+      <guid>https://blog.mose.com/2016/09/18/the-art-of-learning/</guid>
       <description>In my review this week I read that Old Geek post, which has a lot of comments under its feet. This is quite interesting. But I feel there is a confusion here.
 From my experience, age is often related to stagnation. The more you accumulate, the heavier you are. It&amp;rsquo;s heart-breaking to abandon years of investment in one type of knowledge. Therefore, generally speaking, older people are less flexible and less likely to surf on the waves of the new technologies.</description>
     </item>
     
     <item>
       <title>Observability and Digestibility</title>
-      <link>http://blog.mose.com/2016/09/11/observability-and-digestibility/</link>
+      <link>https://blog.mose.com/2016/09/11/observability-and-digestibility/</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/11/observability-and-digestibility/</guid>
+      <guid>https://blog.mose.com/2016/09/11/observability-and-digestibility/</guid>
       <description>This is a word I love. I found it again in a recent blog post about system blindness and it reminded me how critical this need is. Our systems get more and more numerous and small. The reliability and debugging of a platform now goes into various loops given the multiplication of actors.
 Observability should be one core pre-requisite when designing a service oriented architecture with micro-services. But just having everything plugged to some ELK is not going to help that much.</description>
     </item>
     
     <item>
       <title>Get out</title>
-      <link>http://blog.mose.com/2016/09/04/get-out/</link>
+      <link>https://blog.mose.com/2016/09/04/get-out/</link>
       <pubDate>Sun, 04 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/04/get-out/</guid>
+      <guid>https://blog.mose.com/2016/09/04/get-out/</guid>
       <description>If you only ever have lived in only one country, you really should consider fixing it. Going live in another country for some years or more is just such a way towards a richer life. It&amp;rsquo;s usually easy to recognize people that are multi-rooted, as they often have an increased depth in their personal philosophy.
 We are lucky, in our craft, to have various opportunities to travel and work remotely, or for foreign companies.</description>
     </item>
     
     <item>
       <title>To be remote or not to be remote</title>
-      <link>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</link>
+      <link>https://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</link>
       <pubDate>Sun, 28 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</guid>
+      <guid>https://blog.mose.com/2016/08/28/to-be-remote-or-not-to-be-remote/</guid>
       <description>Earlier this week I read an article on linkedin, deliberately anti-remote, and a bit later on another one very pro-remote on freecodecamp. I&amp;rsquo;m tempted to think one is the response to the other. But maybe not.
 The fact is that switching to a remote organization is a tricky move. It feels like the move from monolith to micro-services, honestly. People that make decisions about it rarely envision the extent of the change.</description>
     </item>
     
     <item>
       <title>Working out</title>
-      <link>http://blog.mose.com/2016/08/21/working-out/</link>
+      <link>https://blog.mose.com/2016/08/21/working-out/</link>
       <pubDate>Sun, 21 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/21/working-out/</guid>
+      <guid>https://blog.mose.com/2016/08/21/working-out/</guid>
       <description>During the past year I have been doing some working out. No no there is no fitbit involved. Are you crazy? My physical activity includes a strict refusal of pointless efforts. I deliberately choose to use the bike rather than the bus, it has the purpose of transportation,. But just getting sweaty for the sake of it, well, that&amp;rsquo;s not my thing. I&amp;rsquo;m talking about a git-commit working out. I decided to have one commit a day on github (minimum) and instead of the fitbit or whatever phone app, I used the github timeline as a monitor.</description>
     </item>
     
     <item>
       <title>The reign of the virtual</title>
-      <link>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</link>
+      <link>https://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</link>
       <pubDate>Sun, 07 Aug 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</guid>
+      <guid>https://blog.mose.com/2016/08/07/the-reign-of-the-virtual/</guid>
       <description>Yesterday morning, the hunt for Pokemons opened here in Taiwan. I have been watching the crazy adoption of this new trend in the past few weeks. And knowing the asian culture, I suspect Japan and Taiwan are going to make the craziness in the rest of the world just like mild interest.
 There are few occasions to notice a huge shift in civilization as clearly as this one. For sure we have noticed that our fellow human neighbors spend more and more time the nose on their mobile devices.</description>
     </item>
     
     <item>
       <title>Chatops and machine learning</title>
-      <link>http://blog.mose.com/2016/07/30/chatops-and-machine-learning/</link>
+      <link>https://blog.mose.com/2016/07/30/chatops-and-machine-learning/</link>
       <pubDate>Sat, 30 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/30/chatops-and-machine-learning/</guid>
+      <guid>https://blog.mose.com/2016/07/30/chatops-and-machine-learning/</guid>
       <description>Since I slowly becomes the chatops specialist where I work, I get to think I want more. Since the beginning we have been interacting with programs essentially with graphical interfaces. First asynchronous if we think about the web, now more and more synchronous, but they are interfaces that are not human. They are designed for giving control to the operators of those interfaces.
 But the more we advance in autonomy of our programs, the more we should trust them to sort the information by priorities.</description>
     </item>
     
     <item>
       <title>Innovation and Consensus</title>
-      <link>http://blog.mose.com/2016/07/24/innovation-and-consensus/</link>
+      <link>https://blog.mose.com/2016/07/24/innovation-and-consensus/</link>
       <pubDate>Sun, 24 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/24/innovation-and-consensus/</guid>
+      <guid>https://blog.mose.com/2016/07/24/innovation-and-consensus/</guid>
       <description>Last week I got to check out 2 javascript frontend frameworks, Choo (the cute framwework) and Cycle.js (the streams power). It feels that nowadays React is eating the frontend world, but there is actually a lot of non-marginal alternatives. It made me think that there is something tricky with the process of innovation. It is born from disagreement. It feeds with discontent.
 Those frameworks are born from the refusal to consider React as a consensus, hence it generates an alternative path, exploring different paradigms.</description>
     </item>
     
     <item>
       <title>nothing to report</title>
-      <link>http://blog.mose.com/2016/07/17/nothing-to-report/</link>
+      <link>https://blog.mose.com/2016/07/17/nothing-to-report/</link>
       <pubDate>Sun, 17 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/17/nothing-to-report/</guid>
+      <guid>https://blog.mose.com/2016/07/17/nothing-to-report/</guid>
       <description>Yeah there are weeks like that, I don&amp;rsquo;t have inspiration. Or I&amp;rsquo;m lazy. Or I&amp;rsquo;m too busy writing javascript tests with mocha, chai and or sinon. Already having 3 times more lines of code in tests that in code and even if coverage says 80% I know for a fact that there are many more cases I need to test. Anyways, there is too much fun for me to just go beyond the traditional gathering of the links for this week.</description>
     </item>
     
     <item>
       <title>The (in)culture of encryption</title>
-      <link>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</link>
+      <link>https://blog.mose.com/2016/07/10/the-inculture-of-encryption/</link>
       <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</guid>
+      <guid>https://blog.mose.com/2016/07/10/the-inculture-of-encryption/</guid>
       <description>A couple weeks ago I had found out that a friend was keeping his passwords in a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean, not more technical than the next guy, or just a little. He&amp;rsquo;s using the web interface of gmail for his mail, like many people do (I even know very technical people doing it, which is still boggling me). I looked around and found mailvelope.</description>
     </item>
     
     <item>
       <title>Open code, a chance for improvement</title>
-      <link>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</link>
+      <link>https://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</link>
       <pubDate>Sun, 03 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</guid>
+      <guid>https://blog.mose.com/2016/07/03/open-code-a-chance-for-improvement/</guid>
       <description>Since I&amp;rsquo;m writing code I try to publish as much as I can as open source components. But I had occasion to work in situations where it was not possible. And I noticed some serious differences in the result.
 When you publish some code on, say, Github, you can just throw it as is and be done with it. Then you merely use github as a repository provider and don&amp;rsquo;t care much about anything else.</description>
     </item>
     
     <item>
       <title>Remote working</title>
-      <link>http://blog.mose.com/2016/06/26/remote-working/</link>
+      <link>https://blog.mose.com/2016/06/26/remote-working/</link>
       <pubDate>Sun, 26 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/26/remote-working/</guid>
+      <guid>https://blog.mose.com/2016/06/26/remote-working/</guid>
       <description>For some random strange reason I had a lot of links this week about remote working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see a lot of companies that have hard time coping with the concept.
 On one hand, there is a shortage of technically skilled staff. The growth of the tech industry and especially the online services is way too fast for the education system to catch up.</description>
     </item>
     
     <item>
       <title>The virtues of duplication</title>
-      <link>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</link>
+      <link>https://blog.mose.com/2016/06/19/the-virtues-of-duplication/</link>
       <pubDate>Sun, 19 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</guid>
+      <guid>https://blog.mose.com/2016/06/19/the-virtues-of-duplication/</guid>
       <description>Few weeks ago I began to prepare a copy of the Green Ruby Template system for the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some point of view, this code is a sin and was not written in the perspective to be generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s joyfully messy and blatantly suboptimal. It was a quick and dirty scripting solution, it could have been a set of shell scripts, well it happens to be using ruby.</description>
     </item>
     
     <item>
       <title>Playing with crystal</title>
-      <link>http://blog.mose.com/2016/06/12/playing-with-crystal/</link>
+      <link>https://blog.mose.com/2016/06/12/playing-with-crystal/</link>
       <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/12/playing-with-crystal/</guid>
+      <guid>https://blog.mose.com/2016/06/12/playing-with-crystal/</guid>
       <description>Last week I went to a remote meetup of Paris.rb (fr). Well, it was at 1am in my timezone, but I wanted to check how remote meetups can go and there was some presentation about crystal and about kemal. It was a great moment (video is online if you can understand french), and gave me the push to give crystal a try. It was low on my todo list but it was there, waiting for the proper conditions.</description>
     </item>
     
     <item>
       <title>Scarcity and abundance</title>
-      <link>http://blog.mose.com/2016/06/05/scarcity-and-abundance/</link>
+      <link>https://blog.mose.com/2016/06/05/scarcity-and-abundance/</link>
       <pubDate>Sun, 05 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/05/scarcity-and-abundance/</guid>
+      <guid>https://blog.mose.com/2016/06/05/scarcity-and-abundance/</guid>
       <description>As you may remember, this newsletter is using the generous free plan from Mailchimp. But it has limits. Only 2000 emails ca subscribe to that newsletter. It&amp;rsquo;s already a great gift, and I&amp;rsquo;m pretty sure it&amp;rsquo;s a good business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which means we need to address that so pervasive concept of scarcity.
 I can remember when it shifted. With the first web pages in 96.</description>
     </item>
     
     <item>
       <title>GreenRuby IRL and Remote meetup</title>
-      <link>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</link>
+      <link>https://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</link>
       <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</guid>
+      <guid>https://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</guid>
       <description>Last week I posted a link about Remote Meetups, but, as it sometimes happens, it didn&amp;rsquo;t stop there. The basic principle was appealing to me. It&amp;rsquo;s true that we don&amp;rsquo;t all live in the Bay area or in New York. Having high quality speakers in meetups is hard when you live in a small city or a remote country. And this is exactly what that initiative tries to address.
 So I jumped in and had some talk with Franze.</description>
     </item>
     
     <item>
       <title>First GreenRuby Meetup</title>
-      <link>http://blog.mose.com/2016/05/22/first-greenruby-meetup/</link>
+      <link>https://blog.mose.com/2016/05/22/first-greenruby-meetup/</link>
       <pubDate>Sun, 22 May 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/05/22/first-greenruby-meetup/</guid>
+      <guid>https://blog.mose.com/2016/05/22/first-greenruby-meetup/</guid>
       <description>Recently Gandi moved to a much bigger office in Neihu, Taipei. And I got permission to use the space to organize events. We got a great space, sound system with wireless mikes, a beamer for presentations. So, if you are in Taipei, feel free to join us on wednesday next week. I will try to make it a remote meetup, and give more details next week.</description>
     </item>
     
     <item>
       <title>It&#39;s the fault of the bike</title>
-      <link>http://blog.mose.com/2016/05/08/its-the-fault-of-the-bike/</link>
+      <link>https://blog.mose.com/2016/05/08/its-the-fault-of-the-bike/</link>
       <pubDate>Sun, 08 May 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/05/08/its-the-fault-of-the-bike/</guid>
+      <guid>https://blog.mose.com/2016/05/08/its-the-fault-of-the-bike/</guid>
       <description>Well, in the last two weeks I get short in links gathered on our slack pinned list. Usually I&amp;rsquo;m reading various RSS feeds while commuting, and I post them on slack, for later one pinning them. Then I have a script in go that will grab all the pinned url, and remove the pins at the moment I use and check them for inclusion in the publication.
 But 2 weeks ago, I decided to change my habits and go to the office by bike.</description>
     </item>
     
     <item>
       <title>Nanoservices</title>
-      <link>http://blog.mose.com/2016/04/25/nanoservices/</link>
+      <link>https://blog.mose.com/2016/04/25/nanoservices/</link>
       <pubDate>Mon, 25 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/25/nanoservices/</guid>
+      <guid>https://blog.mose.com/2016/04/25/nanoservices/</guid>
       <description>That link to Shoutcloud made me laugh and then made me think. It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years ago there was some talk about nano-services as an antipattern. But when you push the logic a little further, and at a very large scale, maybe it&amp;rsquo;s a projection of what the future will be.
 Imagine our software totally destructured, calling functions taht are stored on the net, using some load balanced worldwide environment.</description>
     </item>
     
     <item>
       <title>Go again</title>
-      <link>http://blog.mose.com/2016/04/10/go-again/</link>
+      <link>https://blog.mose.com/2016/04/10/go-again/</link>
       <pubDate>Sun, 10 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/10/go-again/</guid>
+      <guid>https://blog.mose.com/2016/04/10/go-again/</guid>
       <description>That&amp;rsquo;s years that I&amp;rsquo;m trying to do something real with go. I mean, it is a very attractive language with quite a special workflow and toolbox. From time to time I write some small script for keeping contact with that language. Last week I made this one to list links pinned in our Greenruby slackroom to prepare the letter, So I can open them all at once to check them in my browser.</description>
     </item>
     
     <item>
       <title>Aprils lame fools</title>
-      <link>http://blog.mose.com/2016/04/03/aprils-lame-fools/</link>
+      <link>https://blog.mose.com/2016/04/03/aprils-lame-fools/</link>
       <pubDate>Sun, 03 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/03/aprils-lame-fools/</guid>
+      <guid>https://blog.mose.com/2016/04/03/aprils-lame-fools/</guid>
       <description>I think there is nothing I hate more than pranks. It&amp;rsquo;s just another way to bully someone else. Even innocent pranks are having victims. Single out the one that fall for it to make laugh the ones that don&amp;rsquo;t. Well, I may very well be a boring fellow. Or it&amp;rsquo;s just that, working so much with information management, any perversion of it seems off.
 And then on april fools day, so much goes wrong.</description>
     </item>
     
     <item>
       <title>kik the fuss</title>
-      <link>http://blog.mose.com/2016/03/27/kik-the-fuss/</link>
+      <link>https://blog.mose.com/2016/03/27/kik-the-fuss/</link>
       <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
+      <guid>https://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
       <description>There have been some noise last week about npm, coming from that article. It merely revealed that various open source organization are privately held by some individuals and they can either be pressured or take weird decisions. Honestly I consider this incident anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened to be very vocal and pissed off about it.
 And it carried various threads of discussion on Twitter and elsewhere, in a huge controversy.</description>
     </item>
     
     <item>
       <title>No rant this week</title>
-      <link>http://blog.mose.com/2016/03/20/no-rant-this-week/</link>
+      <link>https://blog.mose.com/2016/03/20/no-rant-this-week/</link>
       <pubDate>Sun, 20 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/20/no-rant-this-week/</guid>
+      <guid>https://blog.mose.com/2016/03/20/no-rant-this-week/</guid>
       <description>Well it&amp;rsquo;s not the first time. I just don&amp;rsquo;t feel inspired. So I better shut up rather than writing useless rant. It&amp;rsquo;s so easy to fill up space with meaningless content. But I&amp;rsquo;m not doing that ever. I only speak out when I have something to say. And yes, I&amp;rsquo;m very comfortable to contradict myself by writing a useless rant. This is the beauty of the human being: our ability to abstract makes possible all sort of paradoxes.</description>
     </item>
     
     <item>
       <title>the Adwar</title>
-      <link>http://blog.mose.com/2016/03/13/the-adwar/</link>
+      <link>https://blog.mose.com/2016/03/13/the-adwar/</link>
       <pubDate>Sun, 13 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/13/the-adwar/</guid>
+      <guid>https://blog.mose.com/2016/03/13/the-adwar/</guid>
       <description>This week I got 2 links that explore both sides of the adwar. The war on advertisement exists on the web since it became popular enough to attract advertisers. There are no acceptable ads takes the side of the users, while A Never-Ending Story On Ad-Blockers seems to defend and advise the publishers.
 Some media already have blocked the blockers. It&amp;rsquo;s forbidden to escape ads? This position may appear not to be sustainable.</description>
     </item>
     
     <item>
       <title>About tests and documentation</title>
-      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
+      <link>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
       <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
+      <guid>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
       <description>This aspect of development, called Documentation, is the source of various frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like testing. When you begin your craft as a coder, all what matters is the code. It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you in the neck. Like, huho, now that I need to refactor, I really should use something that tells me if all still works.</description>
     </item>
     
     <item>
       <title>Timezones are outdated</title>
-      <link>http://blog.mose.com/2016/02/21/timezones-are-outdated/</link>
+      <link>https://blog.mose.com/2016/02/21/timezones-are-outdated/</link>
       <pubDate>Sun, 21 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/21/timezones-are-outdated/</guid>
+      <guid>https://blog.mose.com/2016/02/21/timezones-are-outdated/</guid>
       <description>This week I checked out The radical plan to destroy timezones, which proposes to adopt UTC worldwide. It goes even further in proposing a change in our calendar for adopting the Hanke-Henry Permanent Calendar. It&amp;rsquo;s not the first time people propose change in our western gregorian calendar system (which is almost 500 yearsold), but it&amp;rsquo;s quite not easy to get anything adopted. Still, we developers consider Timezones as one of our nightmares.</description>
     </item>
     
     <item>
       <title>The thin line between chaos and harmony</title>
-      <link>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
+      <link>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
       <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
+      <guid>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
       <description>In the long road of my developer life I had the chance to experience a very wide variety of organizational models. The most pleasant was in the context of very large open source projects, where actions are not planned but still organized, and things fall in their place seemingly naturally. Of course there is nothing natural in that. There is a category of people, that can be called catalysts, working as gardeners and building the pathways to collaboration.</description>
     </item>
     
     <item>
       <title>3 years of Green Ruby</title>
-      <link>http://blog.mose.com/2016/01/31/3-years-of-green-ruby/</link>
+      <link>https://blog.mose.com/2016/01/31/3-years-of-green-ruby/</link>
       <pubDate>Sun, 31 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/31/3-years-of-green-ruby/</guid>
+      <guid>https://blog.mose.com/2016/01/31/3-years-of-green-ruby/</guid>
       <description>Well, almost 3 years. Green Ruby #1 was sent on feb 12th, 2013. Since then, we sent 156 editions, one per week without discontinuation, including a total of 5556 links. There is now 1691 subscribers to the newsletter. That&amp;rsquo;s quite something, for a mail that was just sent to some friends at the beginning.
 During all this time, things didn&amp;rsquo;t change that much. In july 2013 the code was put on github and the process didn&amp;rsquo;t change much since then.</description>
     </item>
     
     <item>
       <title>The future of under-engineering</title>
-      <link>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</link>
+      <link>https://blog.mose.com/2016/01/24/the-future-of-under-engineering/</link>
       <pubDate>Sun, 24 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</guid>
+      <guid>https://blog.mose.com/2016/01/24/the-future-of-under-engineering/</guid>
       <description>Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more used to 70% research and specification, 20% implementation and 10% debugging. He was working in the hardhware industry for a while, and just came to a service-based company. This is actually a very interesting remark and it reminded me when I was in my twenties when I was working as a construction worker.</description>
     </item>
     
     <item>
       <title>That micro-service thing</title>
-      <link>http://blog.mose.com/2016/01/10/that-micro-service-thing/</link>
+      <link>https://blog.mose.com/2016/01/10/that-micro-service-thing/</link>
       <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/10/that-micro-service-thing/</guid>
+      <guid>https://blog.mose.com/2016/01/10/that-micro-service-thing/</guid>
       <description>For a while now, and more even since the rise of docker, it becomes a trend to split applications in parts and approach them as a collection of micro-services. This is not exactly new, I remember in 2002 having seen various applications based on this concept. But they had shortcomings. Development was harder and it imported a whole bunch of increased complexity because there was a lot of moving parts.</description>
     </item>
     
     <item>
       <title>Here is 2016</title>
-      <link>http://blog.mose.com/2016/01/03/here-is-2016/</link>
+      <link>https://blog.mose.com/2016/01/03/here-is-2016/</link>
       <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/03/here-is-2016/</guid>
+      <guid>https://blog.mose.com/2016/01/03/here-is-2016/</guid>
       <description>Well in this last week of 2015, the have not been that much publication and the list of links is shorter than usual. Everybody is probably just having a life for a change, which is a good things :)
 There is a lot of promising trends that may unleash in the coming year. I hope to see what ruby 3 will bring. Rails 5 is already almost out there too. But there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s still very young and hacky in my opinion.</description>
     </item>
     
     <item>
       <title>SlackCast 2016</title>
-      <link>http://blog.mose.com/2015/12/27/slackcast-2016/</link>
+      <link>https://blog.mose.com/2015/12/27/slackcast-2016/</link>
       <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/12/27/slackcast-2016/</guid>
+      <guid>https://blog.mose.com/2015/12/27/slackcast-2016/</guid>
       <description>Happy end of 2015 Take good time, use the calendar rotation as a pretext to have good resolutions, get wasted like if you were a teenager (wait, what? we all are teenagers here?), or do whatever makes you happy if like me you prefer to remain sober. See you in 2016.
 SlackCast 2016 We had a lot of discussion with Nauman Tariq about how to make slack usage more lively, more useful, and such things.</description>
     </item>
     
     <item>
       <title>150 weeks</title>
-      <link>http://blog.mose.com/2015/12/20/150-weeks/</link>
+      <link>https://blog.mose.com/2015/12/20/150-weeks/</link>
       <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/12/20/150-weeks/</guid>
+      <guid>https://blog.mose.com/2015/12/20/150-weeks/</guid>
       <description>It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter is an occasion to see where we are. At this day there are 1,610 subscribers to the email newsletter. The website has around 250 unique visits per day, which mostly are RSS readers. Those are anecdotal numbers. As we have no intention to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter in the red zone in the amount of subscribers and we will need to push some people out, those who forgot about the newsletter but also forgot to unsubscribe.</description>
     </item>
     
     <item>
       <title>Busy hackathon in Taipei</title>
-      <link>http://blog.mose.com/2015/12/06/busy-hackathon-in-taipei/</link>
+      <link>https://blog.mose.com/2015/12/06/busy-hackathon-in-taipei/</link>
       <pubDate>Sun, 06 Dec 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/12/06/busy-hackathon-in-taipei/</guid>
+      <guid>https://blog.mose.com/2015/12/06/busy-hackathon-in-taipei/</guid>
       <description>This weekend we had our first hackathon in Taipei, organized by Gandi. That was pretty fun, to be there on the side of the organizers without actually being in charge of the organization for once. Such geek events are always so great for meeting and sharing, being forbidden to participate didn&amp;rsquo;t prevent me to push some ideas around.
 During the course of the weekend, I joined mickey to push the creation of a Taiwan group for Elixir, for which we had an idea of a stream capture feature to gather slack discussion and index them.</description>
     </item>
     
     <item>
       <title>Code in the dark, perl 6</title>
-      <link>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
+      <link>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</link>
       <pubDate>Sun, 29 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
+      <guid>https://blog.mose.com/2015/11/29/code-in-the-dark-perl-6/</guid>
       <description>My attention was brought this week to Code in the dark events. It seems pretty cool. A 15 minutes race in html and css with no preview. But the thing that brought my attention to that format is the special editor used for those events with a special effect on the cursor. It seems to add a really dramatic effect on the competition. We need more ideas like that for pure geek fun.</description>
     </item>
     
     <item>
       <title>A Hackathon in Taipei</title>
-      <link>http://blog.mose.com/2015/11/22/a-hackathon-in-taipei/</link>
+      <link>https://blog.mose.com/2015/11/22/a-hackathon-in-taipei/</link>
       <pubDate>Sun, 22 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/22/a-hackathon-in-taipei/</guid>
+      <guid>https://blog.mose.com/2015/11/22/a-hackathon-in-taipei/</guid>
       <description>In 2 weeks Gandi organizes with .taipei registry a Hackhaton with pretty wide topic. It will be at at the Hi-tech Promotion Center in Taipei on December 5 and 6. I will be there (part of the jury), so if you want to have some week-end fun and are in Taipei at that time, feel free to join in. There will be prizes, free domains and hosting. I would love to see some ruby projects there.</description>
     </item>
     
     <item>
       <title>More about bullies</title>
-      <link>http://blog.mose.com/2015/11/15/more-about-bullies/</link>
+      <link>https://blog.mose.com/2015/11/15/more-about-bullies/</link>
       <pubDate>Sun, 15 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/15/more-about-bullies/</guid>
+      <guid>https://blog.mose.com/2015/11/15/more-about-bullies/</guid>
       <description>This week I read the reaction of Avdi to the rant of Linus last week. He proposes a short but insightful angle by just naming it &amp;lsquo;bullying&amp;rsquo;. It rejoins the damage that I consider the coder-hero culture brings to our industry.
 Certainly the creative process of writing software attract creative people. They have strong personalities, some have tendencies to mild autism. They move mountains and their pride make them work day and night to achieve unbelievable things.</description>
     </item>
     
     <item>
       <title>Packaging a gem for Debian</title>
-      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
+      <link>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
       <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
+      <guid>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
       <description>Recently I had to package a gem for debian as a .deb. As a matter of fact, there is a lot of companies that are not in the ruby ecosystem and they rely on things they trust rather than rubygems. For a while debian was way behind on the inclusion of ruby and versions were outdated there. So a parallel distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby for ruby and bundler and rubygems for the packages.</description>
     </item>
     
     <item>
       <title>The power of DSL</title>
-      <link>http://blog.mose.com/2015/11/01/the-power-of-dsl/</link>
+      <link>https://blog.mose.com/2015/11/01/the-power-of-dsl/</link>
       <pubDate>Sun, 01 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/01/the-power-of-dsl/</guid>
+      <guid>https://blog.mose.com/2015/11/01/the-power-of-dsl/</guid>
       <description>While I was playing with react.rb and exploring opal, I felt in a totally different world. The power of the DSL already prove its shine on various occasions. I got to experience it in activeadmin, rspec, and puppet (but I kind of dislike the one in puppet).
 As I&amp;rsquo;m also writing some python, I can see a real difference in expressibility that can be found in ruby. Really, ruby is a maker tool.</description>
     </item>
     
     <item>
       <title>DST sucks, Thunderbird too, Gmail too</title>
-      <link>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</link>
+      <link>https://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</link>
       <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</guid>
+      <guid>https://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</guid>
       <description>This week-end they changed time in France. As I work with those guys to cover the watching of servers, then I need to change time too. This is totally lame. In the context of largely distributed teams, DST is heresy. It happens in the US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have that in Taiwan.
 Thunderbird sucks too Despite the respect I have for mozilla products and for their efforts toward the community, I have to say that I have been using thunderbird for a while and I don&amp;rsquo;t like it.</description>
     </item>
     
     <item>
       <title>Slack overflow</title>
-      <link>http://blog.mose.com/2015/10/11/slack-overflow/</link>
+      <link>https://blog.mose.com/2015/10/11/slack-overflow/</link>
       <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/10/11/slack-overflow/</guid>
+      <guid>https://blog.mose.com/2015/10/11/slack-overflow/</guid>
       <description>Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope Telegram will kill it, honestly.
 I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull.</description>
     </item>
     
     <item>
       <title>Rubyconf TW</title>
-      <link>http://blog.mose.com/2015/09/13/rubyconf-tw/</link>
+      <link>https://blog.mose.com/2015/09/13/rubyconf-tw/</link>
       <pubDate>Sun, 13 Sep 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/09/13/rubyconf-tw/</guid>
+      <guid>https://blog.mose.com/2015/09/13/rubyconf-tw/</guid>
       <description>So these last 2 days we went to RubyConfTW here in Taipei, like every year. At that occasion I kinda forced my buddies to take part in this rant section. So, that occasion of meeting the ruby community was as usual very enjoyable. Year after year we see the same people, the community is solid and persistent.
 Like last years Matz was here and he talked about ruby 3 and, that was a surprise to me, he talked about getting rid of the GIL very soon.</description>
     </item>
     
     <item>
       <title>Meet at rubyconf</title>
-      <link>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
+      <link>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
       <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
+      <guid>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
       <description>Next friday we will be at rubyconf Taiwan. Last year there was around 300 attendees and there is 256 this year. But maybe there will be more last minute registration, there is still some spots available (well just 14 at this time). I will also be at the pre-conf evening on wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers there).
 Some stats on greenruby From time to time I check an export of the subscribers list and do some stats out of curiosity.</description>
     </item>
     
     <item>
       <title>The dimensions of coding</title>
-      <link>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</link>
+      <link>https://blog.mose.com/2015/08/31/the-dimensions-of-coding/</link>
       <pubDate>Mon, 31 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</guid>
+      <guid>https://blog.mose.com/2015/08/31/the-dimensions-of-coding/</guid>
       <description>Today while wandering around in my weekly hunt for good links, my eye has been attracted by a post named Coding is three dimensional. It&amp;rsquo;s quite an interesting way to consider it. But the reason why it struck me is that it was missing the fourth dimension. That makes all the difference when you get years of coding. You know that time is a parameter.
 Code don&amp;rsquo;t exist out of time.</description>
     </item>
     
     <item>
       <title>Moving to Hugo</title>
-      <link>http://blog.mose.com/2015/08/28/moving-to-hugo/</link>
+      <link>https://blog.mose.com/2015/08/28/moving-to-hugo/</link>
       <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/28/moving-to-hugo/</guid>
+      <guid>https://blog.mose.com/2015/08/28/moving-to-hugo/</guid>
       <description>As I love website pre-generation concept I have been using Jekyll and Octopress quite a lot. But now I wanted to give a try to Hugo.
 Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I wanted to see how it was made. Then I had a period of time where I was publishing tips on the Faria Devtips website, which is down now.</description>
     </item>
     
     <item>
       <title>Just met Hugo</title>
-      <link>http://blog.mose.com/2015/08/23/just-met-hugo/</link>
+      <link>https://blog.mose.com/2015/08/23/just-met-hugo/</link>
       <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/23/just-met-hugo/</guid>
+      <guid>https://blog.mose.com/2015/08/23/just-met-hugo/</guid>
       <description>Some weeks ago I was talking about Octopress. I think pre-generation of websites is a very sensible approach. And I heard about Hugo for some time now. It&amp;rsquo;s like a cousin of Jekyll but writen in Go. The author of Middleman (another site generation engine) confessed in a recent podcast that he would try the Golang way if he had to start from scratch today.
 I got interested into Hugo mostly because one of the side projects I&amp;rsquo;m working on.</description>
     </item>
     
     <item>
       <title>Sexism and competition</title>
-      <link>http://blog.mose.com/2015/08/16/sexism-and-competition/</link>
+      <link>https://blog.mose.com/2015/08/16/sexism-and-competition/</link>
       <pubDate>Sun, 16 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/16/sexism-and-competition/</guid>
+      <guid>https://blog.mose.com/2015/08/16/sexism-and-competition/</guid>
       <description>The ruby community is quite blessed in the way that there are very vocal activist promoting diversity, especially on gender parity. It&amp;rsquo;s not exclusive to ruby I noticed the same intention in other communities (like the pyladies in python).
 Anybody that spent some years in IT cannot avoid to notice that there are mostly guys. The ladies are either frowned upon or very special cases. For ages I have been wondering why.</description>
     </item>
     
     <item>
       <title>Octopress 3 and other thoughts</title>
-      <link>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</link>
+      <link>https://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</link>
       <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</guid>
+      <guid>https://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</guid>
       <description>I&amp;rsquo;m currently involved in a community project and I installed a wordpress. From time to time I get one up to see how it evolves. But really this thing is not to my taste. To much trouble for making simple things. I reckon it can be useful for people with no technical knowledge but then they are going to mess up everything. The technical advisor still can&amp;rsquo;t be avoided.
 So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the previous attempts, I will give a try to the new octopress 3.</description>
     </item>
     
     <item>
       <title>RubyConf Taiwan 2015</title>
-      <link>http://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</link>
+      <link>https://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</link>
       <pubDate>Sun, 02 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</guid>
+      <guid>https://blog.mose.com/2015/08/02/rubyconf-taiwan-2015/</guid>
       <description>In September 11 and 12 there is a Rubyconf here in Taiwan. I have been at some past editions and it&amp;rsquo;s always a good time to meet people. Because we are close to Japan there is usually pretty good ruby core contributors from there. We get to see Matz, father of ruby, at each edition. But this time it seems that the organizers pulled some kind of special trick and the famous Aaron Patterson will be present.</description>
     </item>
     
     <item>
       <title>Back on tweeting</title>
-      <link>http://blog.mose.com/2015/07/26/back-on-tweeting/</link>
+      <link>https://blog.mose.com/2015/07/26/back-on-tweeting/</link>
       <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/26/back-on-tweeting/</guid>
+      <guid>https://blog.mose.com/2015/07/26/back-on-tweeting/</guid>
       <description>I really don&amp;rsquo;t like my phone. As an old timer I&amp;rsquo;m reluctant to trust my android, but it would be the same on an iphone. The way applications require access to the device, on android, is especially annoying and dishonest. They make the slope slippery for the sake of saving seconds in adopting new apps, but it&amp;rsquo;s leading to a total remission of users control over their devices.
 But well, I still have a commute several times a week and I use my phone to listen to various podcasts.</description>
     </item>
     
     <item>
       <title>RubyConf Taiwan 2015 CFP</title>
-      <link>http://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</link>
+      <link>https://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</link>
       <pubDate>Sun, 19 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</guid>
+      <guid>https://blog.mose.com/2015/07/19/rubyconf-taiwan-2015-cfp/</guid>
       <description>Hey it&amp;rsquo;s time to give it a try, talking at a rubyconf is a great upgrade for any coder. That rubyconf will happen on september 11-12th in Taipei. Check it out.
 NSA on Github Looks like someone is trying to fight back a reputation of obscurity. While they are still pushing on more invasion of privacy, they also release some open source code. Check the NSA github repository, they released something already.</description>
     </item>
     
     <item>
       <title>Javascript and thoughts on programming</title>
-      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
+      <link>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
+      <guid>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
       <description>Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me the same feeling I have each time I get back to that language. I feel dirty. Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder, more like an acrobat.</description>
     </item>
     
     <item>
       <title>Digital Generations</title>
-      <link>http://blog.mose.com/2015/07/05/digital-generations/</link>
+      <link>https://blog.mose.com/2015/07/05/digital-generations/</link>
       <pubDate>Sun, 05 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/05/digital-generations/</guid>
+      <guid>https://blog.mose.com/2015/07/05/digital-generations/</guid>
       <description>I enjoyed very much watching the keynote from Grady Booch at ICSE last week. He retraces the whole history of computing and software engineering in a very talented way.
 Later on I also watched the keynote of Stephen Bourne at BSDCan, which also talked about history, but on a specific topic of the creation of Unix and the shell.
 Usually, I have to say, I consider myself as an old geek.</description>
@@ -662,172 +662,172 @@ Usually, I have to say, I consider myself as an old geek.</description>
     
     <item>
       <title>a taste of FreeBSD</title>
-      <link>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</link>
+      <link>https://blog.mose.com/2015/06/28/a-taste-of-freebsd/</link>
       <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</guid>
+      <guid>https://blog.mose.com/2015/06/28/a-taste-of-freebsd/</guid>
       <description>This weekend I installed FreeBSD 10.1 on a disk of my desktop. Beyond the fact that we are using that system at work, more and more, I was just curious about the setup for a desktop. I was pleasantly surprised and everything went very smoothly.
 I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very easy. The general impression is that actually the system is simpler than on Linux, maybe more consistent.</description>
     </item>
     
     <item>
       <title>The yin and yang of software development</title>
-      <link>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
+      <link>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
+      <guid>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
       <description>The topic I talked about last week led me to think about it more widely. And I ended up with the thinking that many problems in software companies are a clear problem of balance between their yin and their yang.
 This old chinese principle is documented in a very old-fashioned way, opposing genders and principles. But actually it sums up in the fact that many dynamics are to be based in a balance between two opposing principles.</description>
     </item>
     
     <item>
       <title>A word about project gardening</title>
-      <link>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
+      <link>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
+      <guid>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
       <description>In the last 2 companies where I worked, there was this recurring issue. Actually I noticed it for a while but for some reasons it became more obvious to me with time passing. The project management role is usually badly fulfilled.
 But at some point, and even from the point of view of a developer, there is in projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s all about daily ungrateful clearing the bad weeds, making sure the soil is rich enough, and that the seeds are all planted where they should be planted, that soil pH is adequate for this or that variety.</description>
     </item>
     
     <item>
       <title>Thought about python from a rubyist</title>
-      <link>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
+      <link>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
+      <guid>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
       <description>This weekend there was a python conference here in Taipei (pycon apac). As Gandi was sponsoring it, I went there and tried to figure out how python and ruby communities differ in my local area. As a matter of fact, I also push my python coding skills a bit. I kind of like to nurture a general polyglot approach.
 It first seems that the python community is more largely supported by sponsors than ruby one.</description>
     </item>
     
     <item>
       <title>linux trick: too many logs</title>
-      <link>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
+      <link>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
       <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
+      <guid>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
       <description>Recently I found my self again in that situation on a linux server. The partition where logs are stored went 100%. In such case, It&amp;rsquo;s clever top purge old useless logfiles. Typical move for me would be to run logrotate manually with
 logrotate -f /etc/logrotate.conf  But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just gathering way too much information, more than what I could free with some janitoring.</description>
     </item>
     
     <item>
       <title>The side effects of recruitment</title>
-      <link>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
+      <link>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
+      <guid>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
       <description>Recently I had to look for a new devops for our team. I have been handling technical recruitment at many occasions, and each time I have to explain my colleagues that I have a special process. The fact is, the technical sphere is a small one, we are all linked, more or less, to a community. Well, in my case, I always have had to recruit people in companies that were hiring the kind of people that commit on github, have some kind of community activity, at least.</description>
     </item>
     
     <item>
       <title>Noobs rule the planet</title>
-      <link>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</link>
+      <link>https://blog.mose.com/2015/05/17/noobs-rule-the-planet/</link>
       <pubDate>Sun, 17 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</guid>
+      <guid>https://blog.mose.com/2015/05/17/noobs-rule-the-planet/</guid>
       <description>There is something that I always did in my career managing internet tools. I volunteer helping non-technical people to get a presence online, build up communities and such things. But I have to confess, this comes with a price. A price on your nerves when you realize that easy obvious things that you take for granted are actually not clear at all by the average Joe.
 Yeah sure they can post of facebook.</description>
     </item>
     
     <item>
       <title>Greenruby Better process and numbers</title>
-      <link>http://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</link>
+      <link>https://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</link>
       <pubDate>Sun, 10 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</guid>
+      <guid>https://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</guid>
       <description>That&amp;rsquo;s a few weeks now that we are getting organized better, with Xenor and Tysliu, on the preparation of this newsletter. The guys are now putting more attention to the news gathering and preformatting the yaml source file that I use to generate the letter and the website. After some time of practice, it is much better for me, as now I don&amp;rsquo;t spend 5 hours each sunday anymore and I can manage the publication process in less than 2 hours.</description>
     </item>
     
     <item>
       <title>RFID world</title>
-      <link>http://blog.mose.com/2015/05/03/rfid-world/</link>
+      <link>https://blog.mose.com/2015/05/03/rfid-world/</link>
       <pubDate>Sun, 03 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/03/rfid-world/</guid>
+      <guid>https://blog.mose.com/2015/05/03/rfid-world/</guid>
       <description>They begin to appear everywhere. I saw mine first on my passport, then I just got my new credit card and it has one in it. Those things are nice if you consider them naively. But the fact is that they are flawed and insecure. We carry around more and more of those items that can be read at a proximity by specially crafter devices. Gosh, did they not learn already from the ingenuity of our kids?</description>
     </item>
     
     <item>
       <title>Welcome Jessie</title>
-      <link>http://blog.mose.com/2015/04/26/welcome-jessie/</link>
+      <link>https://blog.mose.com/2015/04/26/welcome-jessie/</link>
       <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/26/welcome-jessie/</guid>
+      <guid>https://blog.mose.com/2015/04/26/welcome-jessie/</guid>
       <description>Ok, right. Maybe you don&amp;rsquo;t care, but this saturday Jessie was officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as fast as Ubuntu, but the stuff in there is more stable. And well, in my personal case, I work in a place where everything is in debian wheezy and can now finally get upgraded.</description>
     </item>
     
     <item>
       <title>State surveillance in France</title>
-      <link>http://blog.mose.com/2015/04/19/state-surveillance-in-france/</link>
+      <link>https://blog.mose.com/2015/04/19/state-surveillance-in-france/</link>
       <pubDate>Sun, 19 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/19/state-surveillance-in-france/</guid>
+      <guid>https://blog.mose.com/2015/04/19/state-surveillance-in-france/</guid>
       <description>What happened this week in France is quite shocking. How can they be so long to make useful laws and so quick to pass harmful ones? Well the move began in December last year. Some call it a French Patriot act. This is not the first time there is an attempt from French government to enforce stronger control on the internet. The pressure of lobbies and media industries have been pushing hard to preserve their interests.</description>
     </item>
     
     <item>
       <title>Multiple inheritance simulation</title>
-      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
+      <link>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
+      <guid>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
       <description>This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out this code, it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
 About vaping Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it.</description>
     </item>
     
     <item>
       <title>Green Ruby New Generation</title>
-      <link>http://blog.mose.com/2015/03/29/green-ruby-new-generation/</link>
+      <link>https://blog.mose.com/2015/03/29/green-ruby-new-generation/</link>
       <pubDate>Sun, 29 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/29/green-ruby-new-generation/</guid>
+      <guid>https://blog.mose.com/2015/03/29/green-ruby-new-generation/</guid>
       <description>We had this week a very productive meeting with xenor and tysliu in our preferred coffee shop. I explained more in detail my workflow and my quality criterias. So now they can feed the links section and become the major editors of Green Ruby. I Still keep the role of the publisher. I get their links, I clean up stuff, verify freshness and reachability, remove superlatives, fix category if needed.</description>
     </item>
     
     <item>
       <title>Drones and makers</title>
-      <link>http://blog.mose.com/2015/03/22/drones-and-makers/</link>
+      <link>https://blog.mose.com/2015/03/22/drones-and-makers/</link>
       <pubDate>Sun, 22 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/22/drones-and-makers/</guid>
+      <guid>https://blog.mose.com/2015/03/22/drones-and-makers/</guid>
       <description>This is now obvious. We are going to get invaded by drones. Of course we will pretend we control them, for a while. But I can bet it&amp;rsquo;s not going to stand too long. Their autonomy is a competitive factor, and, in our current society, competitive is the Darwinian selective factor. It can be a bit scary.
 But on another hand, when we geeks look at those things with our (never-aging) kids eyes, we see fun toys.</description>
     </item>
     
     <item>
       <title>Time to upgrade</title>
-      <link>http://blog.mose.com/2015/03/15/time-to-upgrade/</link>
+      <link>https://blog.mose.com/2015/03/15/time-to-upgrade/</link>
       <pubDate>Sun, 15 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/15/time-to-upgrade/</guid>
+      <guid>https://blog.mose.com/2015/03/15/time-to-upgrade/</guid>
       <description>This is a long time I plan to re-engineer the way Green Ruby is produced. Last week I told Xenor and Simon I was thinking about giving it a break. I&amp;rsquo;m not that much anymore in the flow. Now my days are full ops and not that much dev. But the guys didn&amp;rsquo;t want to let me stop.
 So we are going to organize things a little differently. Xenor and Simon, which are full time rails developers, are going to handle the content more extensively, and I will just manage the publication, plus some devops links.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
+      <link>https://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <guid>https://blog.mose.com/2015/03/08/about-blogging/</guid>
       <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     
     <item>
       <title>Working abroad</title>
-      <link>http://blog.mose.com/2015/03/01/working-abroad/</link>
+      <link>https://blog.mose.com/2015/03/01/working-abroad/</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/working-abroad/</guid>
+      <guid>https://blog.mose.com/2015/03/01/working-abroad/</guid>
       <description>Our craft as webdev is clearly in huge demand. This provides an opportunity for us to travel abroad, discover new cultures, widen our horizon. When I went to live in Taiwan, I was not worried about finding a job. But when hunting for a job abroad it can be tricky to find companies that will sponsor a visa, a work permit, or whatever legal requirement is involved in each countries.</description>
     </item>
     
     <item>
       <title>Happy year of the Goat</title>
-      <link>http://blog.mose.com/2015/02/22/happy-year-of-the-goat/</link>
+      <link>https://blog.mose.com/2015/02/22/happy-year-of-the-goat/</link>
       <pubDate>Sun, 22 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/22/happy-year-of-the-goat/</guid>
+      <guid>https://blog.mose.com/2015/02/22/happy-year-of-the-goat/</guid>
       <description>Here it was Chinese New Year this week. A good occasion for those who are not familiar with chinese state of the web to read about its web design trends 2015. This article is pretty deep and reflects accurately how China uses its connectivity.
 So, xin nian kuai le, and of course, gong xi fa cai. And if you need related icons, here are some.
 Hello in Firefox Now that I&amp;rsquo;m working from Taiwan with a French company, I was have been searching for a decent solution for video conferencing.</description>
@@ -835,64 +835,64 @@ Hello in Firefox Now that I&amp;rsquo;m working from Taiwan with a French compan
     
     <item>
       <title>Make it static</title>
-      <link>http://blog.mose.com/2015/02/08/make-it-static/</link>
+      <link>https://blog.mose.com/2015/02/08/make-it-static/</link>
       <pubDate>Sun, 08 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/08/make-it-static/</guid>
+      <guid>https://blog.mose.com/2015/02/08/make-it-static/</guid>
       <description>Damn omnivore Last week Green Ruby was sent with a delay. For some obscure reason my publication was blocked by Omnivore the automated fraud detection system from Mailchimp. My account was instantly blocked and it was pending a human review. Of course the human review made it clear that the publication was clean but it took 2 days and I still don&amp;rsquo;t know why this omnivore beast went mad at me.</description>
     </item>
     
     <item>
       <title>2 years</title>
-      <link>http://blog.mose.com/2015/02/01/2-years/</link>
+      <link>https://blog.mose.com/2015/02/01/2-years/</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/01/2-years/</guid>
+      <guid>https://blog.mose.com/2015/02/01/2-years/</guid>
       <description>Ghost You certainly heard about it, this week there was a new huge Linux vulnerability on glibc revealed. Actually it was leaked by a stupid communication agency few hours before it should have been announced. When such big bug is discovered usually there is a small period of time where the news spread into some limited circles. They keep it embargoed until major distro vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.</description>
     </item>
     
     <item>
       <title>More Screens</title>
-      <link>http://blog.mose.com/2015/01/25/more-screens/</link>
+      <link>https://blog.mose.com/2015/01/25/more-screens/</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/25/more-screens/</guid>
+      <guid>https://blog.mose.com/2015/01/25/more-screens/</guid>
       <description>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I wanted to have on linux the same screen experience that I had with the macbook pro connected to 2 thunderbolts. So I got an asus UX301L plus 2 Dell screens U2713HM who supports a 2560x1440 resolution. The laptop in itself is amazing, dazzling fast, and all worked well with an ubuntu install. This was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.</description>
     </item>
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://blog.mose.com/2015/01/18/greenruby-102/</link>
+      <link>https://blog.mose.com/2015/01/18/greenruby-102/</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/18/greenruby-102/</guid>
+      <guid>https://blog.mose.com/2015/01/18/greenruby-102/</guid>
       <description>While42 This week I got in contact with Sylvain from while42. It&amp;rsquo;s a social network for french tech engineers, but with a special touch on it. There is no facebook page or google group. They intentionally decided to be irl-first. For people that are most likely to be online all the time, this sounds so therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter. If you want to know more (and are french, engineer, and living in Taipei) just drop me a mail.</description>
     </item>
     
     <item>
       <title>Greenruby 101</title>
-      <link>http://blog.mose.com/2015/01/11/greenruby-101/</link>
+      <link>https://blog.mose.com/2015/01/11/greenruby-101/</link>
       <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/11/greenruby-101/</guid>
+      <guid>https://blog.mose.com/2015/01/11/greenruby-101/</guid>
       <description>1000 subscribers After the 100th Greenruby last week, we get the 1000th subscriber to the email newsletter this week. Welcome George :) So for the occasion I refreshed the subscribers map on cartodb. About half of the subscribers are in the US, but there is a total of 73 countries represented, which is pretty neat. But this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.</description>
     </item>
     
     <item>
       <title>Greenruby 100</title>
-      <link>http://blog.mose.com/2015/01/04/greenruby-100/</link>
+      <link>https://blog.mose.com/2015/01/04/greenruby-100/</link>
       <pubDate>Sun, 04 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/04/greenruby-100/</guid>
+      <guid>https://blog.mose.com/2015/01/04/greenruby-100/</guid>
       <description>This week is the 100th edition of Green Ruby, it&amp;rsquo;s also the first one of 2015. This week the Linux Outlaws broadcasted their last show, and Rebecca Watson left the Skeptics Guide to the Universe. Those are 2 podcasts that I never list in the Green Ruby list (they are not really on topic) but I rarely miss any of them. Too bad they leave. I thought about it too, but no, I will stay.</description>
     </item>
     
     <item>
       <title>Console columns</title>
-      <link>http://blog.mose.com/2014/09/10/console-columns/</link>
+      <link>https://blog.mose.com/2014/09/10/console-columns/</link>
       <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/09/10/console-columns/</guid>
+      <guid>https://blog.mose.com/2014/09/10/console-columns/</guid>
       <description>When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The column command was recently brought to my attention by https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr and despite years of console life, godamn I was unaware of this simple tool.
 It is very useful for displaying csv files in a readable way, for example:
 $ head members_export_0bfc48c38f.csv LATITUDE,LONGITUDE,CC,REGION 24.7798,120.93,TW,HSZ 52.0927,5.1158,NL,UT 25.0389,121.509,TW,TPE 47.6836,-122.122,US,WA 24.1403,120.682,TW,TXG 37.4055,-122.078,US,CA 37.4055,-122.078,US,CA 37.4055,-122.078,US,CA 26.1405,-80.1738,US,FL  yuck. Let&amp;rsquo;s prettify it.</description>
@@ -900,10 +900,10 @@ $ head members_export_0bfc48c38f.csv LATITUDE,LONGITUDE,CC,REGION 24.7798,120.93
     
     <item>
       <title>Pretty json</title>
-      <link>http://blog.mose.com/2014/09/10/pretty-json/</link>
+      <link>https://blog.mose.com/2014/09/10/pretty-json/</link>
       <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/09/10/pretty-json/</guid>
+      <guid>https://blog.mose.com/2014/09/10/pretty-json/</guid>
       <description>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:
 ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;  { &amp;quot;ip&amp;quot; =&amp;gt; &amp;quot;59.115.120.166&amp;quot;, &amp;quot;about&amp;quot; =&amp;gt; &amp;quot;/about&amp;quot;, &amp;quot;Pro!&amp;quot; =&amp;gt; &amp;quot;http://getjsonip.com&amp;quot; }  because when you are rubyist everything can be solve with ruby, obviously.
 But well, then one day I did
@@ -912,20 +912,20 @@ pip install pjson  and then</description>
     
     <item>
       <title>Digitalocean CLI</title>
-      <link>http://blog.mose.com/2014/08/07/digitalocean-cli/</link>
+      <link>https://blog.mose.com/2014/08/07/digitalocean-cli/</link>
       <pubDate>Thu, 07 Aug 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/08/07/digitalocean-cli/</guid>
+      <guid>https://blog.mose.com/2014/08/07/digitalocean-cli/</guid>
       <description>We host some dev boxes on Digitalocean, and I tried varioous CLI because I like to stay in the console. Recently I was pretty happy to find Tugboat, as it saves default droplet size, region and image, and convers the whole API. Its fuzzy droplet name matching also can find great usage.
 The only problem it has, is its counter-intuitive damn name (I forgot how to launch it 2 hours after using it the first time haha).</description>
     </item>
     
     <item>
       <title>Tree command</title>
-      <link>http://blog.mose.com/2014/07/11/tree-command/</link>
+      <link>https://blog.mose.com/2014/07/11/tree-command/</link>
       <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/07/11/tree-command/</guid>
+      <guid>https://blog.mose.com/2014/07/11/tree-command/</guid>
       <description>There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s tree.
 apt-get install tree  or
 brew install tree  Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to find sometimes. But I mostly use it for having a quick overview of the content of a dir.</description>
@@ -933,10 +933,10 @@ brew install tree  Its very basic usage is to show the content of a dir in an ar
     
     <item>
       <title>SQL in a shell</title>
-      <link>http://blog.mose.com/2014/07/04/sql-in-a-shell/</link>
+      <link>https://blog.mose.com/2014/07/04/sql-in-a-shell/</link>
       <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/07/04/sql-in-a-shell/</guid>
+      <guid>https://blog.mose.com/2014/07/04/sql-in-a-shell/</guid>
       <description>There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called parallel.
 apt-get install parallel  or on mac
 brew install parallel  The parallel command is a pretty complex beast, but the package also comes with the sql command, which simplifies queries to any database from the console. There is just one command whatever the sql backend you use.
@@ -945,40 +945,40 @@ I first setup my dburl in .</description>
     
     <item>
       <title>Knife remote command</title>
-      <link>http://blog.mose.com/2014/06/26/knife-remote-command/</link>
+      <link>https://blog.mose.com/2014/06/26/knife-remote-command/</link>
       <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/26/knife-remote-command/</guid>
+      <guid>https://blog.mose.com/2014/06/26/knife-remote-command/</guid>
       <description>Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the fabric scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.
 So I created a new file in .chef/plugins/knife/ named apt.</description>
     </item>
     
     <item>
       <title>Less first</title>
-      <link>http://blog.mose.com/2014/06/19/less-first/</link>
+      <link>https://blog.mose.com/2014/06/19/less-first/</link>
       <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/19/less-first/</guid>
+      <guid>https://blog.mose.com/2014/06/19/less-first/</guid>
       <description>When working on a remote server, I use less instead of tail or vi to check files, the more I can.
 filter  with &amp;amp;searchstring it will hide all lines not matching searchstring, like a very simple grep from the console just &amp;amp; with nothing to get back to full view  edit file  when in less /etc/hosts if I find out I need to edit it I just type v it opens it in vi when you quit the editor you are back in less  follow mode  when in less production.</description>
     </item>
     
     <item>
       <title>S3 backups</title>
-      <link>http://blog.mose.com/2014/06/12/s3-backups/</link>
+      <link>https://blog.mose.com/2014/06/12/s3-backups/</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/12/s3-backups/</guid>
+      <guid>https://blog.mose.com/2014/06/12/s3-backups/</guid>
       <description>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).
  http://meskyanichi.github.io/backup/v4/  But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</description>
     </item>
     
     <item>
       <title>Make a gem</title>
-      <link>http://blog.mose.com/2014/06/04/make-a-gem/</link>
+      <link>https://blog.mose.com/2014/06/04/make-a-gem/</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/04/make-a-gem/</guid>
+      <guid>https://blog.mose.com/2014/06/04/make-a-gem/</guid>
       <description>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:
 Make a Rubygems account  first ensure create an ccount on https://rubygems.org/ initialize your credentials: ``` curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials Enter host password for user &amp;lsquo;username&amp;rsquo;:  chmod 0600 ~/.gem/credentials ```
 Prepare the code These steps are my typical path, nothing is really mandatory there.</description>
@@ -986,109 +986,109 @@ Prepare the code These steps are my typical path, nothing is really mandatory th
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
+      <link>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
+      <guid>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
       <description>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).
 ruby -ropen-uri -rpp -ryaml \ -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39; [&amp;quot;metric_fu&amp;quot;, &amp;quot;flyerhzm-metric_fu&amp;quot;, &amp;quot;edouard-metric_fu&amp;quot;, &amp;quot;devver-metric_fu&amp;quot;, &amp;quot;goldstar-metric_fu&amp;quot;, &amp;quot;socializer&amp;quot;, &amp;quot;trollface&amp;quot;, &amp;quot;guard-rails_best_practices&amp;quot;, &amp;quot;rferraz-metric_fu&amp;quot;, &amp;quot;git-hooks-helper&amp;quot;, &amp;quot;odor&amp;quot;, &amp;quot;rake_check&amp;quot;, &amp;quot;koality&amp;quot;, &amp;quot;danmayer-metric_fu&amp;quot;, &amp;quot;bf4-metric_fu&amp;quot;, &amp;quot;metrics_satellite&amp;quot;, &amp;quot;code_hunter&amp;quot;, &amp;quot;kinit&amp;quot;, &amp;quot;rails-audit&amp;quot;, &amp;quot;pronto-rails_best_practices&amp;quot;, &amp;quot;free_disk_space&amp;quot;, &amp;quot;warder&amp;quot;, &amp;quot;ruby_osx_app&amp;quot;, &amp;quot;sanelint&amp;quot;]  Out of curiosity I counted some wellknown gems usages by adding a .</description>
     </item>
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://blog.mose.com/2014/05/22/hackpad-cli/</link>
+      <link>https://blog.mose.com/2014/05/22/hackpad-cli/</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/22/hackpad-cli/</guid>
+      <guid>https://blog.mose.com/2014/05/22/hackpad-cli/</guid>
       <description>In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.
  https://github.com/mose/hackpad-cli  </description>
     </item>
     
     <item>
       <title>Eddie Vim and rcfiles</title>
-      <link>http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles/</link>
+      <link>https://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles/</link>
       <pubDate>Thu, 15 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles/</guid>
+      <guid>https://blog.mose.com/2014/05/15/eddie-vim-and-rcfiles/</guid>
       <description>Mose sometimes uses vim on the side of ST3, and can&amp;rsquo;t do it without the pretty good eddie kao set of config files.
 Check it out at https://github.com/kaochenlong/eddie-vim it&amp;rsquo;s tailored for rails dev. I gathered it (plus my oh-my-zsh setup) in my github rcfiles repo https://github.com/mose/rcfiles with an installer that I runs when I install a new server.</description>
     </item>
     
     <item>
       <title>Dictionnary in sublimetext</title>
-      <link>http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext/</link>
+      <link>https://blog.mose.com/2014/05/08/dictionnary-in-sublimetext/</link>
       <pubDate>Thu, 08 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/08/dictionnary-in-sublimetext/</guid>
+      <guid>https://blog.mose.com/2014/05/08/dictionnary-in-sublimetext/</guid>
       <description>I recently have been annoyed by his own typoes and has been looking for a way to fix it. This is actually pretty simple to cmd-shift-p and install a package called Dictionnaries. Then by hitting F6 you switch on and off the spellcheck highlighting. When you write a lot of documentation that is very helpful (and you want to write a lot of documentation, don&amp;rsquo;t you ?).
 The spellcheck auto-highlight can be enabled for specific file extensions (like .</description>
     </item>
     
     <item>
       <title>SSH to socket</title>
-      <link>http://blog.mose.com/2014/05/01/ssh-to-socket/</link>
+      <link>https://blog.mose.com/2014/05/01/ssh-to-socket/</link>
       <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/01/ssh-to-socket/</guid>
+      <guid>https://blog.mose.com/2014/05/01/ssh-to-socket/</guid>
       <description>I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your .ssh/config
 Host * ControlMaster auto ControlPath /tmp/%r@%h:%p  It will save your first connection to a host as a socket in /tmp and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open on the server that I should close.</description>
     </item>
     
     <item>
       <title>About Green Ruby</title>
-      <link>http://blog.mose.com/2013/04/07/about-green-ruby/</link>
+      <link>https://blog.mose.com/2013/04/07/about-green-ruby/</link>
       <pubDate>Sun, 07 Apr 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/04/07/about-green-ruby/</guid>
+      <guid>https://blog.mose.com/2013/04/07/about-green-ruby/</guid>
       <description>Green Ruby is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.
 Genesis The Newsletter began in june 2012 from the habit I had to send weekly newsletter in Codegreen for our team to know what is happening in our company,.</description>
     </item>
     
     <item>
       <title>Install BigBlueButton in a VM on Ubuntu 1204</title>
-      <link>http://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</link>
+      <link>https://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</link>
       <pubDate>Fri, 22 Mar 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</guid>
+      <guid>https://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</guid>
       <description>BigBlueButton is an amazing piece of free software, designed for virtual classrooms but can also be used for webinars, conferences, technical support and other uses. It gathers in the same place a video-conference system, with a shared PDF on which the presenter can doodle, an SIP bridge that make people can join using a phone, and a deskshare java applet for showing others pieces of your screen. Pretty neat. It’s around since 2007 and I had occasion to play with it with the Tikiwiki community.</description>
     </item>
     
     <item>
       <title>Geeky podcasts</title>
-      <link>http://blog.mose.com/2013/02/10/geeky-podcasts/</link>
+      <link>https://blog.mose.com/2013/02/10/geeky-podcasts/</link>
       <pubDate>Sun, 10 Feb 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/02/10/geeky-podcasts/</guid>
+      <guid>https://blog.mose.com/2013/02/10/geeky-podcasts/</guid>
       <description>Sometimes when doing some mechanical operation on my home workstation, involving repetitive action or something requiring low level of attention (like sorting mails, lurking on irc, updating a distro, …), I like to put the headset and listen to stuff. But I never had any taste for music, I prefer listening to people that talk about some interesting topic.
 I began this when starting working with rails, because that was a great flow of information, that had various sources:</description>
     </item>
     
     <item>
       <title>RubyConf 2012</title>
-      <link>http://blog.mose.com/2012/12/10/rubyconf-2012/</link>
+      <link>https://blog.mose.com/2012/12/10/rubyconf-2012/</link>
       <pubDate>Mon, 10 Dec 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/12/10/rubyconf-2012/</guid>
+      <guid>https://blog.mose.com/2012/12/10/rubyconf-2012/</guid>
       <description>initPhotoSwipeFromDOM(&#39;.gallery&#39;);  Ruby Conf Taiwan 2012. Quite a great event.
 http://rubyconf.tw/2012/</description>
     </item>
     
     <item>
       <title>Sublimetext2, plugins, sshfs</title>
-      <link>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</link>
+      <link>https://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</link>
       <pubDate>Sun, 28 Oct 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</guid>
+      <guid>https://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</guid>
       <description>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.
 But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called sublimetext2.</description>
     </item>
     
     <item>
       <title>Rubygems back on twitter</title>
-      <link>http://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</link>
+      <link>https://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</link>
       <pubDate>Sun, 16 Sep 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</guid>
+      <guid>https://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</guid>
       <description>I was used to checkout the new gems on twitter while in public transportation, but the flow stopped 2 weeks ago. So after a while I just wrote my own webhook, that was amazingly easy and just took 2 hours (well it’s not elaborated and test-backed and all but it works)
 https://github.com/mose/rubygems-alt
 Now I can follow the feed again on https://twitter.com/RubyGemsAlt and even better, I can change the formatting of it haha.</description>

@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collective Intelligence on Moselog</title>
-    <link>http://blog.mose.com/tags/collective-intelligence/</link>
+    <link>https://blog.mose.com/tags/collective-intelligence/</link>
     <description>Recent content in Collective Intelligence on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Sep 2017 09:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Collective Intelligence in Space and Time</title>
-      <link>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</link>
+      <link>https://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</link>
       <pubDate>Wed, 27 Sep 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</guid>
+      <guid>https://blog.mose.com/2017/09/27/collective-intelligence-in-space-and-time/</guid>
       <description>In my previous post, I described the elements necessary for fostering collective intelligence in Open Source projects. That synthetic description was very absolute, and for a proper implementation it needs some adjustment regarding both space and time.
 The space variable is environmental, where the project takes in account its surrounding. Partnerships, dependencies, markets, and customers are some of the impacting external factors that need to be taken in account.</description>
     </item>
     
     <item>
       <title>Collective Intelligence and open source</title>
-      <link>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</link>
+      <link>https://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</link>
       <pubDate>Tue, 11 Jul 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</guid>
+      <guid>https://blog.mose.com/2017/07/11/collective-intelligence-and-open-source/</guid>
       <description>For the past 20 years, I have been for an open source author and contributor (I will use the term &amp;lsquo;open source&amp;rsquo; but I could say &amp;lsquo;free software&amp;rsquo;). I had the occasion to think about proper collaborative environments for group collaboration around writing some piece of software. When I held a leadership position in the Tikiwiki community my main concern was to enable an efficient context for massive participation. At that time I was called a &amp;lsquo;reluctant leader&amp;rsquo; for the project, while I was considering myself an &amp;lsquo;attentive gardener&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>Collective Intelligence or Collecting Intelligence</title>
-      <link>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</link>
+      <link>https://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</link>
       <pubDate>Fri, 16 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</guid>
+      <guid>https://blog.mose.com/2017/06/16/collective-intelligence-or-collecting-intelligence/</guid>
       <description>Because I had some time recently I watched the whole batch of videos of the &amp;ldquo;Collective Intelligence Conference&amp;rdquo; from 2014 on youtube. It&amp;rsquo;s part of my exploration of that field, see what changed in the past years.
 Well, those were pretty interesting talks but it stroke me that there was a clear ambiguity of terms there. It&amp;rsquo;s related to the english usage of the &amp;ldquo;intelligence&amp;rdquo; word. The exact same word in french only means the capacity to process information and take decisions.</description>
     </item>
     
     <item>
       <title>How I came to collective intelligence</title>
-      <link>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</link>
+      <link>https://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</link>
       <pubDate>Mon, 01 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</guid>
+      <guid>https://blog.mose.com/2017/05/01/how-i-came-to-collective-intelligence/</guid>
       <description>I plan to share some thoughts about Collective Intelligence from a software perspective. But this comes from an old story that I thought I should make public first.
 The origins When I first began to program web applications, it was mostly for my own needs as an activist (freedom of speech on internet, cryptography, and such matters). Around 1998 I had a fully working solution called &amp;lsquo;Collaborative writer&amp;rsquo; or cWriter for short, written in PHP.</description>
     </item>
     
     <item>
       <title>Interview-based knowledge sharing</title>
-      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
+      <link>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
+      <guid>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
       <description>For years I noticed the difficulty to extract decent information from developers and craftsmen about their work. Developers clearly lack the skill or the taste for documentation. It extends to the specifications, which also provides an occasion to notice bad performance.
 To work this around, specialized project managers have to fill this role, but it can create a gap between developers ownership and the final result. Sometimes luck creates the inspiration and developers produce a decent amount of documentation.</description>
     </item>
     
     <item>
       <title>The thin line between chaos and harmony</title>
-      <link>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
+      <link>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</link>
       <pubDate>Sun, 14 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
+      <guid>https://blog.mose.com/2016/02/14/the-thin-line-between-chaos-and-harmony/</guid>
       <description>In the long road of my developer life I had the chance to experience a very wide variety of organizational models. The most pleasant was in the context of very large open source projects, where actions are not planned but still organized, and things fall in their place seemingly naturally. Of course there is nothing natural in that. There is a category of people, that can be called catalysts, working as gardeners and building the pathways to collaboration.</description>
     </item>
     

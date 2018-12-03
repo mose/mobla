@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slack on Moselog</title>
-    <link>http://blog.mose.com/tags/slack/</link>
+    <link>https://blog.mose.com/tags/slack/</link>
     <description>Recent content in Slack on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Dec 2015 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SlackCast 2016</title>
-      <link>http://blog.mose.com/2015/12/27/slackcast-2016/</link>
+      <link>https://blog.mose.com/2015/12/27/slackcast-2016/</link>
       <pubDate>Sun, 27 Dec 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/12/27/slackcast-2016/</guid>
+      <guid>https://blog.mose.com/2015/12/27/slackcast-2016/</guid>
       <description>Happy end of 2015 Take good time, use the calendar rotation as a pretext to have good resolutions, get wasted like if you were a teenager (wait, what? we all are teenagers here?), or do whatever makes you happy if like me you prefer to remain sober. See you in 2016.
 SlackCast 2016 We had a lot of discussion with Nauman Tariq about how to make slack usage more lively, more useful, and such things.</description>
     </item>
     
     <item>
       <title>Slack overflow</title>
-      <link>http://blog.mose.com/2015/10/11/slack-overflow/</link>
+      <link>https://blog.mose.com/2015/10/11/slack-overflow/</link>
       <pubDate>Sun, 11 Oct 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/10/11/slack-overflow/</guid>
+      <guid>https://blog.mose.com/2015/10/11/slack-overflow/</guid>
       <description>Okay I reckon I&amp;rsquo;m very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope Telegram will kill it, honestly.
 I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull.</description>
     </item>

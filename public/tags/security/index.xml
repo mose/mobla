@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Moselog</title>
-    <link>http://blog.mose.com/tags/security/</link>
+    <link>https://blog.mose.com/tags/security/</link>
     <description>Recent content in Security on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Jul 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The (in)culture of encryption</title>
-      <link>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</link>
+      <link>https://blog.mose.com/2016/07/10/the-inculture-of-encryption/</link>
       <pubDate>Sun, 10 Jul 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/07/10/the-inculture-of-encryption/</guid>
+      <guid>https://blog.mose.com/2016/07/10/the-inculture-of-encryption/</guid>
       <description>A couple weeks ago I had found out that a friend was keeping his passwords in a google sheets document. I was horrified. But he&amp;rsquo;s a normal person. I mean, not more technical than the next guy, or just a little. He&amp;rsquo;s using the web interface of gmail for his mail, like many people do (I even know very technical people doing it, which is still boggling me). I looked around and found mailvelope.</description>
     </item>
     
     <item>
       <title>2 years</title>
-      <link>http://blog.mose.com/2015/02/01/2-years/</link>
+      <link>https://blog.mose.com/2015/02/01/2-years/</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/01/2-years/</guid>
+      <guid>https://blog.mose.com/2015/02/01/2-years/</guid>
       <description>Ghost You certainly heard about it, this week there was a new huge Linux vulnerability on glibc revealed. Actually it was leaked by a stupid communication agency few hours before it should have been announced. When such big bug is discovered usually there is a small period of time where the news spread into some limited circles. They keep it embargoed until major distro vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.</description>
     </item>
     

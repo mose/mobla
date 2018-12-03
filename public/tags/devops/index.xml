@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on Moselog</title>
-    <link>http://blog.mose.com/tags/devops/</link>
+    <link>https://blog.mose.com/tags/devops/</link>
     <description>Recent content in Devops on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jan 2018 06:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The evolution of requirements for observability</title>
-      <link>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</link>
+      <link>https://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</link>
       <pubDate>Thu, 11 Jan 2018 06:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</guid>
+      <guid>https://blog.mose.com/2018/01/11/the-evolution-of-requirements-for-observability/</guid>
       <description>The most crucial aspect in infrastructure management is to know what&amp;rsquo;s going on. During the course of evolution of systems, from dedicated servers to virtual machines to containers, the granularity of data changed drastically. Observability of systems really needs to follow some kind of evolution.
 We usually distinguish 3 big stages of evolutions in recent infrastructure history: - the dedicated servers era, each having unique names, treated like pets, each server hosting various services, or sometimes dedicated to an application, alone or in cluster.</description>
     </item>
     
     <item>
       <title>linux trick: too many logs</title>
-      <link>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
+      <link>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
       <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
+      <guid>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
       <description>Recently I found my self again in that situation on a linux server. The partition where logs are stored went 100%. In such case, It&amp;rsquo;s clever top purge old useless logfiles. Typical move for me would be to run logrotate manually with
 logrotate -f /etc/logrotate.conf  But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just gathering way too much information, more than what I could free with some janitoring.</description>
     </item>
     
     <item>
       <title>Greenruby 101</title>
-      <link>http://blog.mose.com/2015/01/11/greenruby-101/</link>
+      <link>https://blog.mose.com/2015/01/11/greenruby-101/</link>
       <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/11/greenruby-101/</guid>
+      <guid>https://blog.mose.com/2015/01/11/greenruby-101/</guid>
       <description>1000 subscribers After the 100th Greenruby last week, we get the 1000th subscriber to the email newsletter this week. Welcome George :) So for the occasion I refreshed the subscribers map on cartodb. About half of the subscribers are in the US, but there is a total of 73 countries represented, which is pretty neat. But this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.</description>
     </item>
     
     <item>
       <title>Digitalocean CLI</title>
-      <link>http://blog.mose.com/2014/08/07/digitalocean-cli/</link>
+      <link>https://blog.mose.com/2014/08/07/digitalocean-cli/</link>
       <pubDate>Thu, 07 Aug 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/08/07/digitalocean-cli/</guid>
+      <guid>https://blog.mose.com/2014/08/07/digitalocean-cli/</guid>
       <description>We host some dev boxes on Digitalocean, and I tried varioous CLI because I like to stay in the console. Recently I was pretty happy to find Tugboat, as it saves default droplet size, region and image, and convers the whole API. Its fuzzy droplet name matching also can find great usage.
 The only problem it has, is its counter-intuitive damn name (I forgot how to launch it 2 hours after using it the first time haha).</description>
     </item>
     
     <item>
       <title>Knife remote command</title>
-      <link>http://blog.mose.com/2014/06/26/knife-remote-command/</link>
+      <link>https://blog.mose.com/2014/06/26/knife-remote-command/</link>
       <pubDate>Thu, 26 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/26/knife-remote-command/</guid>
+      <guid>https://blog.mose.com/2014/06/26/knife-remote-command/</guid>
       <description>Recently we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the fabric scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don&amp;rsquo;t need fabric anymore.
 So I created a new file in .chef/plugins/knife/ named apt.</description>
     </item>
     
     <item>
       <title>S3 backups</title>
-      <link>http://blog.mose.com/2014/06/12/s3-backups/</link>
+      <link>https://blog.mose.com/2014/06/12/s3-backups/</link>
       <pubDate>Thu, 12 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/12/s3-backups/</guid>
+      <guid>https://blog.mose.com/2014/06/12/s3-backups/</guid>
       <description>We use S3 to backup various kind of files on MB. We use the very convenient backup gem for that (we still use 3.9.0).
  http://meskyanichi.github.io/backup/v4/  But at some point it appeared that backing up our audio recording was hammering disk IO on our server, because the syncer is calculating md5 footprint for each file each time a backup happens. When you get thousands of big files that is pretty expensive process (in our case 20k files and 50G total).</description>
     </item>
     
     <item>
       <title>Install BigBlueButton in a VM on Ubuntu 1204</title>
-      <link>http://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</link>
+      <link>https://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</link>
       <pubDate>Fri, 22 Mar 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</guid>
+      <guid>https://blog.mose.com/2013/03/22/install-bigbluebutton-in-a-vm-on-ubuntu-1204/</guid>
       <description>BigBlueButton is an amazing piece of free software, designed for virtual classrooms but can also be used for webinars, conferences, technical support and other uses. It gathers in the same place a video-conference system, with a shared PDF on which the presenter can doodle, an SIP bridge that make people can join using a phone, and a deskshare java applet for showing others pieces of your screen. Pretty neat. It’s around since 2007 and I had occasion to play with it with the Tikiwiki community.</description>
     </item>
     

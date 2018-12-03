@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lifestyle on Moselog</title>
-    <link>http://blog.mose.com/tags/lifestyle/</link>
+    <link>https://blog.mose.com/tags/lifestyle/</link>
     <description>Recent content in Lifestyle on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2017 20:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
+      <link>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
+      <guid>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
       <description>A collection of events occurred since my last post. I was really hoping to get some deep dive into writing more about collective intelligence, in the background. But various things came and distracted me from that initial trajectory.
 Hubot revival First, there has been a revival of the Hubot project. I wrote a bunch of plugins for that chatbot for internal usage at Gandi in the past year. I have been poking around in the community complaining that it became some sort of abandonware.</description>
     </item>
     
     <item>
       <title>A stress-free life</title>
-      <link>http://blog.mose.com/2016/09/25/a-stress-free-life/</link>
+      <link>https://blog.mose.com/2016/09/25/a-stress-free-life/</link>
       <pubDate>Sun, 25 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/25/a-stress-free-life/</guid>
+      <guid>https://blog.mose.com/2016/09/25/a-stress-free-life/</guid>
       <description>Next friday, I&amp;rsquo;ve been told that I have to stop working for 2 weeks. Well, for people that have a normal life and/or kids, it&amp;rsquo;s a pretty good news. For people that get heavy pressure from their work, it can give some air. But I wondered why I didn&amp;rsquo;t feel like I ever felt the need for holidays. I take them by principle, but I&amp;rsquo;m usually not really eager to get them.</description>
     </item>
     
     <item>
       <title>Remote working</title>
-      <link>http://blog.mose.com/2016/06/26/remote-working/</link>
+      <link>https://blog.mose.com/2016/06/26/remote-working/</link>
       <pubDate>Sun, 26 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/26/remote-working/</guid>
+      <guid>https://blog.mose.com/2016/06/26/remote-working/</guid>
       <description>For some random strange reason I had a lot of links this week about remote working websites. I know it&amp;rsquo;s a very real topic for our craft. But I still see a lot of companies that have hard time coping with the concept.
 On one hand, there is a shortage of technically skilled staff. The growth of the tech industry and especially the online services is way too fast for the education system to catch up.</description>
     </item>
     
     <item>
       <title>Noobs rule the planet</title>
-      <link>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</link>
+      <link>https://blog.mose.com/2015/05/17/noobs-rule-the-planet/</link>
       <pubDate>Sun, 17 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/17/noobs-rule-the-planet/</guid>
+      <guid>https://blog.mose.com/2015/05/17/noobs-rule-the-planet/</guid>
       <description>There is something that I always did in my career managing internet tools. I volunteer helping non-technical people to get a presence online, build up communities and such things. But I have to confess, this comes with a price. A price on your nerves when you realize that easy obvious things that you take for granted are actually not clear at all by the average Joe.
 Yeah sure they can post of facebook.</description>
     </item>
     
     <item>
       <title>Multiple inheritance simulation</title>
-      <link>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
+      <link>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</link>
       <pubDate>Sun, 05 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
+      <guid>https://blog.mose.com/2015/04/05/multiple-inheritance-simulation/</guid>
       <description>This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out this code, it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
 About vaping Well this has been my burden for 30 years, and I&amp;rsquo;m not proud of it.</description>
     </item>
     
     <item>
       <title>Working abroad</title>
-      <link>http://blog.mose.com/2015/03/01/working-abroad/</link>
+      <link>https://blog.mose.com/2015/03/01/working-abroad/</link>
       <pubDate>Sun, 01 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/01/working-abroad/</guid>
+      <guid>https://blog.mose.com/2015/03/01/working-abroad/</guid>
       <description>Our craft as webdev is clearly in huge demand. This provides an opportunity for us to travel abroad, discover new cultures, widen our horizon. When I went to live in Taiwan, I was not worried about finding a job. But when hunting for a job abroad it can be tricky to find companies that will sponsor a visa, a work permit, or whatever legal requirement is involved in each countries.</description>
     </item>
     

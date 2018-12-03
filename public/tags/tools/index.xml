@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Moselog</title>
-    <link>http://blog.mose.com/tags/tools/</link>
+    <link>https://blog.mose.com/tags/tools/</link>
     <description>Recent content in Tools on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Apr 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go again</title>
-      <link>http://blog.mose.com/2016/04/10/go-again/</link>
+      <link>https://blog.mose.com/2016/04/10/go-again/</link>
       <pubDate>Sun, 10 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/10/go-again/</guid>
+      <guid>https://blog.mose.com/2016/04/10/go-again/</guid>
       <description>That&amp;rsquo;s years that I&amp;rsquo;m trying to do something real with go. I mean, it is a very attractive language with quite a special workflow and toolbox. From time to time I write some small script for keeping contact with that language. Last week I made this one to list links pinned in our Greenruby slackroom to prepare the letter, So I can open them all at once to check them in my browser.</description>
     </item>
     
     <item>
       <title>linux trick: too many logs</title>
-      <link>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
+      <link>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</link>
       <pubDate>Sun, 31 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
+      <guid>https://blog.mose.com/2015/05/31/linux-trick-too-many-logs/</guid>
       <description>Recently I found my self again in that situation on a linux server. The partition where logs are stored went 100%. In such case, It&amp;rsquo;s clever top purge old useless logfiles. Typical move for me would be to run logrotate manually with
 logrotate -f /etc/logrotate.conf  But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just gathering way too much information, more than what I could free with some janitoring.</description>
     </item>
     
     <item>
       <title>Happy year of the Goat</title>
-      <link>http://blog.mose.com/2015/02/22/happy-year-of-the-goat/</link>
+      <link>https://blog.mose.com/2015/02/22/happy-year-of-the-goat/</link>
       <pubDate>Sun, 22 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/22/happy-year-of-the-goat/</guid>
+      <guid>https://blog.mose.com/2015/02/22/happy-year-of-the-goat/</guid>
       <description>Here it was Chinese New Year this week. A good occasion for those who are not familiar with chinese state of the web to read about its web design trends 2015. This article is pretty deep and reflects accurately how China uses its connectivity.
 So, xin nian kuai le, and of course, gong xi fa cai. And if you need related icons, here are some.
 Hello in Firefox Now that I&amp;rsquo;m working from Taiwan with a French company, I was have been searching for a decent solution for video conferencing.</description>
@@ -43,28 +43,28 @@ Hello in Firefox Now that I&amp;rsquo;m working from Taiwan with a French compan
     
     <item>
       <title>More Screens</title>
-      <link>http://blog.mose.com/2015/01/25/more-screens/</link>
+      <link>https://blog.mose.com/2015/01/25/more-screens/</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/25/more-screens/</guid>
+      <guid>https://blog.mose.com/2015/01/25/more-screens/</guid>
       <description>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I wanted to have on linux the same screen experience that I had with the macbook pro connected to 2 thunderbolts. So I got an asus UX301L plus 2 Dell screens U2713HM who supports a 2560x1440 resolution. The laptop in itself is amazing, dazzling fast, and all worked well with an ubuntu install. This was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.</description>
     </item>
     
     <item>
       <title>Greenruby 102</title>
-      <link>http://blog.mose.com/2015/01/18/greenruby-102/</link>
+      <link>https://blog.mose.com/2015/01/18/greenruby-102/</link>
       <pubDate>Sun, 18 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/18/greenruby-102/</guid>
+      <guid>https://blog.mose.com/2015/01/18/greenruby-102/</guid>
       <description>While42 This week I got in contact with Sylvain from while42. It&amp;rsquo;s a social network for french tech engineers, but with a special touch on it. There is no facebook page or google group. They intentionally decided to be irl-first. For people that are most likely to be online all the time, this sounds so therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter. If you want to know more (and are french, engineer, and living in Taipei) just drop me a mail.</description>
     </item>
     
     <item>
       <title>Console columns</title>
-      <link>http://blog.mose.com/2014/09/10/console-columns/</link>
+      <link>https://blog.mose.com/2014/09/10/console-columns/</link>
       <pubDate>Wed, 10 Sep 2014 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/09/10/console-columns/</guid>
+      <guid>https://blog.mose.com/2014/09/10/console-columns/</guid>
       <description>When you live in your console, it&amp;rsquo;s always good to find ways to stay there. The column command was recently brought to my attention by https://sysadmincasts.com/episodes/36-cli-monday-column-and-tr and despite years of console life, godamn I was unaware of this simple tool.
 It is very useful for displaying csv files in a readable way, for example:
 $ head members_export_0bfc48c38f.csv LATITUDE,LONGITUDE,CC,REGION 24.7798,120.93,TW,HSZ 52.0927,5.1158,NL,UT 25.0389,121.509,TW,TPE 47.6836,-122.122,US,WA 24.1403,120.682,TW,TXG 37.4055,-122.078,US,CA 37.4055,-122.078,US,CA 37.4055,-122.078,US,CA 26.1405,-80.1738,US,FL  yuck. Let&amp;rsquo;s prettify it.</description>
@@ -72,10 +72,10 @@ $ head members_export_0bfc48c38f.csv LATITUDE,LONGITUDE,CC,REGION 24.7798,120.93
     
     <item>
       <title>Pretty json</title>
-      <link>http://blog.mose.com/2014/09/10/pretty-json/</link>
+      <link>https://blog.mose.com/2014/09/10/pretty-json/</link>
       <pubDate>Wed, 10 Sep 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/09/10/pretty-json/</guid>
+      <guid>https://blog.mose.com/2014/09/10/pretty-json/</guid>
       <description>JSON prettifying is a reccurent topic, every coder needs it to keep some sanity. My way to do it has been something like this for a while:
 ruby -rjson -ropen-uri -rawesome_print -e &amp;quot;ap JSON.load(open(&#39;http://jsonip.com/&#39;))&amp;quot;  { &amp;quot;ip&amp;quot; =&amp;gt; &amp;quot;59.115.120.166&amp;quot;, &amp;quot;about&amp;quot; =&amp;gt; &amp;quot;/about&amp;quot;, &amp;quot;Pro!&amp;quot; =&amp;gt; &amp;quot;http://getjsonip.com&amp;quot; }  because when you are rubyist everything can be solve with ruby, obviously.
 But well, then one day I did
@@ -84,10 +84,10 @@ pip install pjson  and then</description>
     
     <item>
       <title>Tree command</title>
-      <link>http://blog.mose.com/2014/07/11/tree-command/</link>
+      <link>https://blog.mose.com/2014/07/11/tree-command/</link>
       <pubDate>Fri, 11 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/07/11/tree-command/</guid>
+      <guid>https://blog.mose.com/2014/07/11/tree-command/</guid>
       <description>There is a shell tool that I install systematically on any new machine/server, it&amp;rsquo;s tree.
 apt-get install tree  or
 brew install tree  Its very basic usage is to show the content of a dir in an arborescent way, and there are a lot of options. It can be a good alternative to find sometimes. But I mostly use it for having a quick overview of the content of a dir.</description>
@@ -95,10 +95,10 @@ brew install tree  Its very basic usage is to show the content of a dir in an ar
     
     <item>
       <title>SQL in a shell</title>
-      <link>http://blog.mose.com/2014/07/04/sql-in-a-shell/</link>
+      <link>https://blog.mose.com/2014/07/04/sql-in-a-shell/</link>
       <pubDate>Fri, 04 Jul 2014 14:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/07/04/sql-in-a-shell/</guid>
+      <guid>https://blog.mose.com/2014/07/04/sql-in-a-shell/</guid>
       <description>There is a package that is not installed by default that I now grab systematically, it&amp;rsquo;s called parallel.
 apt-get install parallel  or on mac
 brew install parallel  The parallel command is a pretty complex beast, but the package also comes with the sql command, which simplifies queries to any database from the console. There is just one command whatever the sql backend you use.
@@ -107,40 +107,40 @@ I first setup my dburl in .</description>
     
     <item>
       <title>Less first</title>
-      <link>http://blog.mose.com/2014/06/19/less-first/</link>
+      <link>https://blog.mose.com/2014/06/19/less-first/</link>
       <pubDate>Thu, 19 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/19/less-first/</guid>
+      <guid>https://blog.mose.com/2014/06/19/less-first/</guid>
       <description>When working on a remote server, I use less instead of tail or vi to check files, the more I can.
 filter  with &amp;amp;searchstring it will hide all lines not matching searchstring, like a very simple grep from the console just &amp;amp; with nothing to get back to full view  edit file  when in less /etc/hosts if I find out I need to edit it I just type v it opens it in vi when you quit the editor you are back in less  follow mode  when in less production.</description>
     </item>
     
     <item>
       <title>Hackpad cli</title>
-      <link>http://blog.mose.com/2014/05/22/hackpad-cli/</link>
+      <link>https://blog.mose.com/2014/05/22/hackpad-cli/</link>
       <pubDate>Thu, 22 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/22/hackpad-cli/</guid>
+      <guid>https://blog.mose.com/2014/05/22/hackpad-cli/</guid>
       <description>In Faria we use hackpad a lot, it&amp;rsquo;s pretty useful. Mose made a command line interface so he can download all the pads locally and grep them all in one go. It also transforms the markdown much better than the original hackpad markdown export, which totally sucks (as for now). So pads can be recycled easily in github wiki pages.
  https://github.com/mose/hackpad-cli  </description>
     </item>
     
     <item>
       <title>SSH to socket</title>
-      <link>http://blog.mose.com/2014/05/01/ssh-to-socket/</link>
+      <link>https://blog.mose.com/2014/05/01/ssh-to-socket/</link>
       <pubDate>Thu, 01 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/01/ssh-to-socket/</guid>
+      <guid>https://blog.mose.com/2014/05/01/ssh-to-socket/</guid>
       <description>I use a special trick because he&amp;rsquo;s often ssh&amp;rsquo;ing all over the place. Add in your .ssh/config
 Host * ControlMaster auto ControlPath /tmp/%r@%h:%p  It will save your first connection to a host as a socket in /tmp and then all subsequent ssh connections to the same host are open instantly because there is no key renegotiation on the way. The side effect is that the child-connections cannot be closed until the first one closes, but I find it convenient because it tells me that I still have a console open on the server that I should close.</description>
     </item>
     
     <item>
       <title>Sublimetext2, plugins, sshfs</title>
-      <link>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</link>
+      <link>https://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</link>
       <pubDate>Sun, 28 Oct 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</guid>
+      <guid>https://blog.mose.com/2012/10/28/sublimetext2-plugins-sshfs/</guid>
       <description>For 15 years I have been using vim and I don’t like IDEs. Of course I had to use eclipse and netbeans sometimes when coding in java. Java probably can’t be really well handled without a full-blown IDE anyways.But I didn’t like it, you get distance from your code, stuff happens behind the scene and I like to keep visibility on everything that happens.
 But since I went into rails, I tried what was out there and there is a popular editor for the few rails coder that use Linux and not mac, called sublimetext2.</description>
     </item>

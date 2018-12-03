@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Freebsd on Moselog</title>
-    <link>http://blog.mose.com/tags/freebsd/</link>
+    <link>https://blog.mose.com/tags/freebsd/</link>
     <description>Recent content in Freebsd on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 12:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>a taste of FreeBSD</title>
-      <link>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</link>
+      <link>https://blog.mose.com/2015/06/28/a-taste-of-freebsd/</link>
       <pubDate>Sun, 28 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/28/a-taste-of-freebsd/</guid>
+      <guid>https://blog.mose.com/2015/06/28/a-taste-of-freebsd/</guid>
       <description>This weekend I installed FreeBSD 10.1 on a disk of my desktop. Beyond the fact that we are using that system at work, more and more, I was just curious about the setup for a desktop. I was pleasantly surprised and everything went very smoothly.
 I&amp;rsquo;m quite familiar with Linux and that was enough for making the ride very easy. The general impression is that actually the system is simpler than on Linux, maybe more consistent.</description>
     </item>
     
     <item>
       <title>About blogging</title>
-      <link>http://blog.mose.com/2015/03/08/about-blogging/</link>
+      <link>https://blog.mose.com/2015/03/08/about-blogging/</link>
       <pubDate>Sun, 08 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/08/about-blogging/</guid>
+      <guid>https://blog.mose.com/2015/03/08/about-blogging/</guid>
       <description>Well, since that whole blogging thing began, I never have been very active on it. Well, I have a blog on Tumblr because I wanted to know how they are doing it, I published various posts in the faria devtips, and after all, this rant could also count as a publication. So I think I will gather them all under one unique site. A Jekyll github-pages kind, easy and cheap.</description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Timezones on Moselog</title>
-    <link>http://blog.mose.com/tags/timezones/</link>
+    <link>https://blog.mose.com/tags/timezones/</link>
     <description>Recent content in Timezones on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Feb 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/timezones/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/timezones/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Timezones are outdated</title>
-      <link>http://blog.mose.com/2016/02/21/timezones-are-outdated/</link>
+      <link>https://blog.mose.com/2016/02/21/timezones-are-outdated/</link>
       <pubDate>Sun, 21 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/21/timezones-are-outdated/</guid>
+      <guid>https://blog.mose.com/2016/02/21/timezones-are-outdated/</guid>
       <description>This week I checked out The radical plan to destroy timezones, which proposes to adopt UTC worldwide. It goes even further in proposing a change in our calendar for adopting the Hanke-Henry Permanent Calendar. It&amp;rsquo;s not the first time people propose change in our western gregorian calendar system (which is almost 500 yearsold), but it&amp;rsquo;s quite not easy to get anything adopted. Still, we developers consider Timezones as one of our nightmares.</description>
     </item>
     
     <item>
       <title>DST sucks, Thunderbird too, Gmail too</title>
-      <link>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</link>
+      <link>https://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</link>
       <pubDate>Sun, 25 Oct 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</guid>
+      <guid>https://blog.mose.com/2015/10/25/dst-sucks-thunderbird-too-gmail-too/</guid>
       <description>This week-end they changed time in France. As I work with those guys to cover the watching of servers, then I need to change time too. This is totally lame. In the context of largely distributed teams, DST is heresy. It happens in the US too, but not even at the same time. Man I hate DST. I&amp;rsquo;m happy we don&amp;rsquo;t have that in Taiwan.
 Thunderbird sucks too Despite the respect I have for mozilla products and for their efforts toward the community, I have to say that I have been using thunderbird for a while and I don&amp;rsquo;t like it.</description>
     </item>

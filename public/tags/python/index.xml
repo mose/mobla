@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Moselog</title>
-    <link>http://blog.mose.com/tags/python/</link>
+    <link>https://blog.mose.com/tags/python/</link>
     <description>Recent content in Python on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jun 2015 12:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Thought about python from a rubyist</title>
-      <link>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
+      <link>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</link>
       <pubDate>Sun, 07 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
+      <guid>https://blog.mose.com/2015/06/07/thought-about-python-from-a-rubyist/</guid>
       <description>This weekend there was a python conference here in Taipei (pycon apac). As Gandi was sponsoring it, I went there and tried to figure out how python and ruby communities differ in my local area. As a matter of fact, I also push my python coding skills a bit. I kind of like to nurture a general polyglot approach.
 It first seems that the python community is more largely supported by sponsors than ruby one.</description>
     </item>

@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webdev on Moselog</title>
-    <link>http://blog.mose.com/tags/webdev/</link>
+    <link>https://blog.mose.com/tags/webdev/</link>
     <description>Recent content in Webdev on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Jun 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Playing with crystal</title>
-      <link>http://blog.mose.com/2016/06/12/playing-with-crystal/</link>
+      <link>https://blog.mose.com/2016/06/12/playing-with-crystal/</link>
       <pubDate>Sun, 12 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/12/playing-with-crystal/</guid>
+      <guid>https://blog.mose.com/2016/06/12/playing-with-crystal/</guid>
       <description>Last week I went to a remote meetup of Paris.rb (fr). Well, it was at 1am in my timezone, but I wanted to check how remote meetups can go and there was some presentation about crystal and about kemal. It was a great moment (video is online if you can understand french), and gave me the push to give crystal a try. It was low on my todo list but it was there, waiting for the proper conditions.</description>
     </item>
     
     <item>
       <title>Here is 2016</title>
-      <link>http://blog.mose.com/2016/01/03/here-is-2016/</link>
+      <link>https://blog.mose.com/2016/01/03/here-is-2016/</link>
       <pubDate>Sun, 03 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/03/here-is-2016/</guid>
+      <guid>https://blog.mose.com/2016/01/03/here-is-2016/</guid>
       <description>Well in this last week of 2015, the have not been that much publication and the list of links is shorter than usual. Everybody is probably just having a life for a change, which is a good things :)
 There is a lot of promising trends that may unleash in the coming year. I hope to see what ruby 3 will bring. Rails 5 is already almost out there too. But there is some interesting move on the side of Elixir as well, even if it&amp;rsquo;s still very young and hacky in my opinion.</description>
     </item>
     
     <item>
       <title>Moving to Hugo</title>
-      <link>http://blog.mose.com/2015/08/28/moving-to-hugo/</link>
+      <link>https://blog.mose.com/2015/08/28/moving-to-hugo/</link>
       <pubDate>Fri, 28 Aug 2015 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/28/moving-to-hugo/</guid>
+      <guid>https://blog.mose.com/2015/08/28/moving-to-hugo/</guid>
       <description>As I love website pre-generation concept I have been using Jekyll and Octopress quite a lot. But now I wanted to give a try to Hugo.
 Also, I have had various spaces of blogging in the past few years, so I thought I should just recenter everything in a unique place. There was an old blog on tumblr because I wanted to see how it was made. Then I had a period of time where I was publishing tips on the Faria Devtips website, which is down now.</description>
     </item>
     
     <item>
       <title>Just met Hugo</title>
-      <link>http://blog.mose.com/2015/08/23/just-met-hugo/</link>
+      <link>https://blog.mose.com/2015/08/23/just-met-hugo/</link>
       <pubDate>Sun, 23 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/23/just-met-hugo/</guid>
+      <guid>https://blog.mose.com/2015/08/23/just-met-hugo/</guid>
       <description>Some weeks ago I was talking about Octopress. I think pre-generation of websites is a very sensible approach. And I heard about Hugo for some time now. It&amp;rsquo;s like a cousin of Jekyll but writen in Go. The author of Middleman (another site generation engine) confessed in a recent podcast that he would try the Golang way if he had to start from scratch today.
 I got interested into Hugo mostly because one of the side projects I&amp;rsquo;m working on.</description>
     </item>
     
     <item>
       <title>Octopress 3 and other thoughts</title>
-      <link>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</link>
+      <link>https://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</link>
       <pubDate>Sun, 09 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</guid>
+      <guid>https://blog.mose.com/2015/08/09/octopress-3-and-other-thoughts/</guid>
       <description>I&amp;rsquo;m currently involved in a community project and I installed a wordpress. From time to time I get one up to see how it evolves. But really this thing is not to my taste. To much trouble for making simple things. I reckon it can be useful for people with no technical knowledge but then they are going to mess up everything. The technical advisor still can&amp;rsquo;t be avoided.
 So because now I saw a recent wordpress and didn&amp;rsquo;t like it more than the previous attempts, I will give a try to the new octopress 3.</description>
     </item>
     
     <item>
       <title>Make it static</title>
-      <link>http://blog.mose.com/2015/02/08/make-it-static/</link>
+      <link>https://blog.mose.com/2015/02/08/make-it-static/</link>
       <pubDate>Sun, 08 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/08/make-it-static/</guid>
+      <guid>https://blog.mose.com/2015/02/08/make-it-static/</guid>
       <description>Damn omnivore Last week Green Ruby was sent with a delay. For some obscure reason my publication was blocked by Omnivore the automated fraud detection system from Mailchimp. My account was instantly blocked and it was pending a human review. Of course the human review made it clear that the publication was clean but it took 2 days and I still don&amp;rsquo;t know why this omnivore beast went mad at me.</description>
     </item>
     

@@ -2,126 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engineering on Moselog</title>
-    <link>http://blog.mose.com/tags/engineering/</link>
+    <link>https://blog.mose.com/tags/engineering/</link>
     <description>Recent content in Engineering on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Apr 2017 22:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Interview-based knowledge sharing</title>
-      <link>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
+      <link>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</link>
       <pubDate>Sat, 29 Apr 2017 22:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
+      <guid>https://blog.mose.com/2017/04/29/interview-based-knowledge-sharing/</guid>
       <description>For years I noticed the difficulty to extract decent information from developers and craftsmen about their work. Developers clearly lack the skill or the taste for documentation. It extends to the specifications, which also provides an occasion to notice bad performance.
 To work this around, specialized project managers have to fill this role, but it can create a gap between developers ownership and the final result. Sometimes luck creates the inspiration and developers produce a decent amount of documentation.</description>
     </item>
     
     <item>
       <title>Observability and Digestibility</title>
-      <link>http://blog.mose.com/2016/09/11/observability-and-digestibility/</link>
+      <link>https://blog.mose.com/2016/09/11/observability-and-digestibility/</link>
       <pubDate>Sun, 11 Sep 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/09/11/observability-and-digestibility/</guid>
+      <guid>https://blog.mose.com/2016/09/11/observability-and-digestibility/</guid>
       <description>This is a word I love. I found it again in a recent blog post about system blindness and it reminded me how critical this need is. Our systems get more and more numerous and small. The reliability and debugging of a platform now goes into various loops given the multiplication of actors.
 Observability should be one core pre-requisite when designing a service oriented architecture with micro-services. But just having everything plugged to some ELK is not going to help that much.</description>
     </item>
     
     <item>
       <title>The virtues of duplication</title>
-      <link>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</link>
+      <link>https://blog.mose.com/2016/06/19/the-virtues-of-duplication/</link>
       <pubDate>Sun, 19 Jun 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/06/19/the-virtues-of-duplication/</guid>
+      <guid>https://blog.mose.com/2016/06/19/the-virtues-of-duplication/</guid>
       <description>Few weeks ago I began to prepare a copy of the Green Ruby Template system for the usage of the Remote Meetup team. It&amp;rsquo;s kind of ironic because, from some point of view, this code is a sin and was not written in the perspective to be generic. It&amp;rsquo;s deliberately not constrained to code best practices, it&amp;rsquo;s joyfully messy and blatantly suboptimal. It was a quick and dirty scripting solution, it could have been a set of shell scripts, well it happens to be using ruby.</description>
     </item>
     
     <item>
       <title>Nanoservices</title>
-      <link>http://blog.mose.com/2016/04/25/nanoservices/</link>
+      <link>https://blog.mose.com/2016/04/25/nanoservices/</link>
       <pubDate>Mon, 25 Apr 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/04/25/nanoservices/</guid>
+      <guid>https://blog.mose.com/2016/04/25/nanoservices/</guid>
       <description>That link to Shoutcloud made me laugh and then made me think. It&amp;rsquo;s not the first time I see some micro-service publicly available. 2 years ago there was some talk about nano-services as an antipattern. But when you push the logic a little further, and at a very large scale, maybe it&amp;rsquo;s a projection of what the future will be.
 Imagine our software totally destructured, calling functions taht are stored on the net, using some load balanced worldwide environment.</description>
     </item>
     
     <item>
       <title>About tests and documentation</title>
-      <link>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
+      <link>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</link>
       <pubDate>Sun, 28 Feb 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
+      <guid>https://blog.mose.com/2016/02/28/about-tests-and-documentation/</guid>
       <description>This aspect of development, called Documentation, is the source of various frustrations. It&amp;rsquo;s hard to get do it, but why? My feeling is that it&amp;rsquo;s like testing. When you begin your craft as a coder, all what matters is the code. It&amp;rsquo;s only after some iterations that some non-code aspects come back bite you in the neck. Like, huho, now that I need to refactor, I really should use something that tells me if all still works.</description>
     </item>
     
     <item>
       <title>The future of under-engineering</title>
-      <link>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</link>
+      <link>https://blog.mose.com/2016/01/24/the-future-of-under-engineering/</link>
       <pubDate>Sun, 24 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/24/the-future-of-under-engineering/</guid>
+      <guid>https://blog.mose.com/2016/01/24/the-future-of-under-engineering/</guid>
       <description>Recently Marcelo told me, that&amp;rsquo;s weird, how we do 10% research and specification, 40% implementation and 50% debugging in this industry. I&amp;rsquo;m more used to 70% research and specification, 20% implementation and 10% debugging. He was working in the hardhware industry for a while, and just came to a service-based company. This is actually a very interesting remark and it reminded me when I was in my twenties when I was working as a construction worker.</description>
     </item>
     
     <item>
       <title>That micro-service thing</title>
-      <link>http://blog.mose.com/2016/01/10/that-micro-service-thing/</link>
+      <link>https://blog.mose.com/2016/01/10/that-micro-service-thing/</link>
       <pubDate>Sun, 10 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/10/that-micro-service-thing/</guid>
+      <guid>https://blog.mose.com/2016/01/10/that-micro-service-thing/</guid>
       <description>For a while now, and more even since the rise of docker, it becomes a trend to split applications in parts and approach them as a collection of micro-services. This is not exactly new, I remember in 2002 having seen various applications based on this concept. But they had shortcomings. Development was harder and it imported a whole bunch of increased complexity because there was a lot of moving parts.</description>
     </item>
     
     <item>
       <title>The dimensions of coding</title>
-      <link>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</link>
+      <link>https://blog.mose.com/2015/08/31/the-dimensions-of-coding/</link>
       <pubDate>Mon, 31 Aug 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/08/31/the-dimensions-of-coding/</guid>
+      <guid>https://blog.mose.com/2015/08/31/the-dimensions-of-coding/</guid>
       <description>Today while wandering around in my weekly hunt for good links, my eye has been attracted by a post named Coding is three dimensional. It&amp;rsquo;s quite an interesting way to consider it. But the reason why it struck me is that it was missing the fourth dimension. That makes all the difference when you get years of coding. You know that time is a parameter.
 Code don&amp;rsquo;t exist out of time.</description>
     </item>
     
     <item>
       <title>Javascript and thoughts on programming</title>
-      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
+      <link>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
+      <guid>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
       <description>Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me the same feeling I have each time I get back to that language. I feel dirty. Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder, more like an acrobat.</description>
     </item>
     
     <item>
       <title>The yin and yang of software development</title>
-      <link>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
+      <link>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</link>
       <pubDate>Sun, 21 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
+      <guid>https://blog.mose.com/2015/06/21/the-yin-and-yang-of-software-development/</guid>
       <description>The topic I talked about last week led me to think about it more widely. And I ended up with the thinking that many problems in software companies are a clear problem of balance between their yin and their yang.
 This old chinese principle is documented in a very old-fashioned way, opposing genders and principles. But actually it sums up in the fact that many dynamics are to be based in a balance between two opposing principles.</description>
     </item>
     
     <item>
       <title>A word about project gardening</title>
-      <link>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
+      <link>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</link>
       <pubDate>Sun, 14 Jun 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
+      <guid>https://blog.mose.com/2015/06/14/a-word-about-project-gardening/</guid>
       <description>In the last 2 companies where I worked, there was this recurring issue. Actually I noticed it for a while but for some reasons it became more obvious to me with time passing. The project management role is usually badly fulfilled.
 But at some point, and even from the point of view of a developer, there is in projects the need for a dedicated person for doing some gardening. Yeah it&amp;rsquo;s all about daily ungrateful clearing the bad weeds, making sure the soil is rich enough, and that the seeds are all planted where they should be planted, that soil pH is adequate for this or that variety.</description>
     </item>
     
     <item>
       <title>The side effects of recruitment</title>
-      <link>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
+      <link>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</link>
       <pubDate>Sun, 24 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
+      <guid>https://blog.mose.com/2015/05/24/the-side-effects-of-recruitment/</guid>
       <description>Recently I had to look for a new devops for our team. I have been handling technical recruitment at many occasions, and each time I have to explain my colleagues that I have a special process. The fact is, the technical sphere is a small one, we are all linked, more or less, to a community. Well, in my case, I always have had to recruit people in companies that were hiring the kind of people that commit on github, have some kind of community activity, at least.</description>
     </item>
     

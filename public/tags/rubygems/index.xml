@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rubygems on Moselog</title>
-    <link>http://blog.mose.com/tags/rubygems/</link>
+    <link>https://blog.mose.com/tags/rubygems/</link>
     <description>Recent content in Rubygems on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jun 2014 09:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Make a gem</title>
-      <link>http://blog.mose.com/2014/06/04/make-a-gem/</link>
+      <link>https://blog.mose.com/2014/06/04/make-a-gem/</link>
       <pubDate>Wed, 04 Jun 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/06/04/make-a-gem/</guid>
+      <guid>https://blog.mose.com/2014/06/04/make-a-gem/</guid>
       <description>Making and publishing your own gems is so incredibly simple. Here is my setp by step process when I want to publish one:
 Make a Rubygems account  first ensure create an ccount on https://rubygems.org/ initialize your credentials: ``` curl -u username https://rubygems.org/api/v1/api_key.yaml &amp;gt; ~/.gem/credentials Enter host password for user &amp;lsquo;username&amp;rsquo;:  chmod 0600 ~/.gem/credentials ```
 Prepare the code These steps are my typical path, nothing is really mandatory there.</description>
@@ -24,20 +24,20 @@ Prepare the code These steps are my typical path, nothing is really mandatory th
     
     <item>
       <title>Gem reverse dependencies</title>
-      <link>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
+      <link>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</link>
       <pubDate>Tue, 27 May 2014 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
+      <guid>https://blog.mose.com/2014/05/27/gem-reverse-dependencies/</guid>
       <description>I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don&amp;rsquo;t tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).
 ruby -ropen-uri -rpp -ryaml \ -e &#39;pp YAML.load(open(&amp;quot;https://rubygems.org/api/v1/gems/rails_best_practices/reverse_dependencies.yaml&amp;quot;))&#39; [&amp;quot;metric_fu&amp;quot;, &amp;quot;flyerhzm-metric_fu&amp;quot;, &amp;quot;edouard-metric_fu&amp;quot;, &amp;quot;devver-metric_fu&amp;quot;, &amp;quot;goldstar-metric_fu&amp;quot;, &amp;quot;socializer&amp;quot;, &amp;quot;trollface&amp;quot;, &amp;quot;guard-rails_best_practices&amp;quot;, &amp;quot;rferraz-metric_fu&amp;quot;, &amp;quot;git-hooks-helper&amp;quot;, &amp;quot;odor&amp;quot;, &amp;quot;rake_check&amp;quot;, &amp;quot;koality&amp;quot;, &amp;quot;danmayer-metric_fu&amp;quot;, &amp;quot;bf4-metric_fu&amp;quot;, &amp;quot;metrics_satellite&amp;quot;, &amp;quot;code_hunter&amp;quot;, &amp;quot;kinit&amp;quot;, &amp;quot;rails-audit&amp;quot;, &amp;quot;pronto-rails_best_practices&amp;quot;, &amp;quot;free_disk_space&amp;quot;, &amp;quot;warder&amp;quot;, &amp;quot;ruby_osx_app&amp;quot;, &amp;quot;sanelint&amp;quot;]  Out of curiosity I counted some wellknown gems usages by adding a .</description>
     </item>
     
     <item>
       <title>Rubygems back on twitter</title>
-      <link>http://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</link>
+      <link>https://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</link>
       <pubDate>Sun, 16 Sep 2012 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</guid>
+      <guid>https://blog.mose.com/2012/09/16/rubygems-back-on-twitter/</guid>
       <description>I was used to checkout the new gems on twitter while in public transportation, but the flow stopped 2 weeks ago. So after a while I just wrote my own webhook, that was amazingly easy and just took 2 hours (well it’s not elaborated and test-backed and all but it works)
 https://github.com/mose/rubygems-alt
 Now I can follow the feed again on https://twitter.com/RubyGemsAlt and even better, I can change the formatting of it haha.</description>

@@ -2,154 +2,154 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greenruby on Moselog</title>
-    <link>http://blog.mose.com/tags/greenruby/</link>
+    <link>https://blog.mose.com/tags/greenruby/</link>
     <description>Recent content in Greenruby on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Jun 2017 09:25:00 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/greenruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bye bye Green Ruby</title>
-      <link>http://blog.mose.com/2017/06/05/bye-bye-green-ruby/</link>
+      <link>https://blog.mose.com/2017/06/05/bye-bye-green-ruby/</link>
       <pubDate>Mon, 05 Jun 2017 09:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/06/05/bye-bye-green-ruby/</guid>
+      <guid>https://blog.mose.com/2017/06/05/bye-bye-green-ruby/</guid>
       <description>Today I&amp;rsquo;m closing Green Ruby. That newsletter, started on february 2013, has been a self-imposed weekly duty for more than 4 years. I take a lot of pride not to have missed one single week during those 225 weeks.
 But now that we decided, my friends and I, to put it to an end, there is an interesting question popping up. What will happen with the list of 2,000 subscribers?</description>
     </item>
     
     <item>
       <title>The virtues of transitions</title>
-      <link>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
+      <link>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</link>
       <pubDate>Wed, 31 May 2017 20:25:00 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
+      <guid>https://blog.mose.com/2017/05/31/the-virtues-of-transitions/</guid>
       <description>A collection of events occurred since my last post. I was really hoping to get some deep dive into writing more about collective intelligence, in the background. But various things came and distracted me from that initial trajectory.
 Hubot revival First, there has been a revival of the Hubot project. I wrote a bunch of plugins for that chatbot for internal usage at Gandi in the past year. I have been poking around in the community complaining that it became some sort of abandonware.</description>
     </item>
     
     <item>
       <title>GreenRuby IRL and Remote meetup</title>
-      <link>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</link>
+      <link>https://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</link>
       <pubDate>Sun, 29 May 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</guid>
+      <guid>https://blog.mose.com/2016/05/29/greenruby-irl-and-remote-meetup/</guid>
       <description>Last week I posted a link about Remote Meetups, but, as it sometimes happens, it didn&amp;rsquo;t stop there. The basic principle was appealing to me. It&amp;rsquo;s true that we don&amp;rsquo;t all live in the Bay area or in New York. Having high quality speakers in meetups is hard when you live in a small city or a remote country. And this is exactly what that initiative tries to address.
 So I jumped in and had some talk with Franze.</description>
     </item>
     
     <item>
       <title>First GreenRuby Meetup</title>
-      <link>http://blog.mose.com/2016/05/22/first-greenruby-meetup/</link>
+      <link>https://blog.mose.com/2016/05/22/first-greenruby-meetup/</link>
       <pubDate>Sun, 22 May 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/05/22/first-greenruby-meetup/</guid>
+      <guid>https://blog.mose.com/2016/05/22/first-greenruby-meetup/</guid>
       <description>Recently Gandi moved to a much bigger office in Neihu, Taipei. And I got permission to use the space to organize events. We got a great space, sound system with wireless mikes, a beamer for presentations. So, if you are in Taipei, feel free to join us on wednesday next week. I will try to make it a remote meetup, and give more details next week.</description>
     </item>
     
     <item>
       <title>3 years of Green Ruby</title>
-      <link>http://blog.mose.com/2016/01/31/3-years-of-green-ruby/</link>
+      <link>https://blog.mose.com/2016/01/31/3-years-of-green-ruby/</link>
       <pubDate>Sun, 31 Jan 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/01/31/3-years-of-green-ruby/</guid>
+      <guid>https://blog.mose.com/2016/01/31/3-years-of-green-ruby/</guid>
       <description>Well, almost 3 years. Green Ruby #1 was sent on feb 12th, 2013. Since then, we sent 156 editions, one per week without discontinuation, including a total of 5556 links. There is now 1691 subscribers to the newsletter. That&amp;rsquo;s quite something, for a mail that was just sent to some friends at the beginning.
 During all this time, things didn&amp;rsquo;t change that much. In july 2013 the code was put on github and the process didn&amp;rsquo;t change much since then.</description>
     </item>
     
     <item>
       <title>150 weeks</title>
-      <link>http://blog.mose.com/2015/12/20/150-weeks/</link>
+      <link>https://blog.mose.com/2015/12/20/150-weeks/</link>
       <pubDate>Sun, 20 Dec 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/12/20/150-weeks/</guid>
+      <guid>https://blog.mose.com/2015/12/20/150-weeks/</guid>
       <description>It&amp;rsquo;s kind of a round number, this 150th edition of the Green Ruby Newsletter is an occasion to see where we are. At this day there are 1,610 subscribers to the email newsletter. The website has around 250 unique visits per day, which mostly are RSS readers. Those are anecdotal numbers. As we have no intention to monetize this initiative, it doesn&amp;rsquo;t matter that much. Soon we will enter in the red zone in the amount of subscribers and we will need to push some people out, those who forgot about the newsletter but also forgot to unsubscribe.</description>
     </item>
     
     <item>
       <title>Meet at rubyconf</title>
-      <link>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
+      <link>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</link>
       <pubDate>Sun, 06 Sep 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
+      <guid>https://blog.mose.com/2015/09/06/meet-at-rubyconf/</guid>
       <description>Next friday we will be at rubyconf Taiwan. Last year there was around 300 attendees and there is 256 this year. But maybe there will be more last minute registration, there is still some spots available (well just 14 at this time). I will also be at the pre-conf evening on wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers there).
 Some stats on greenruby From time to time I check an export of the subscribers list and do some stats out of curiosity.</description>
     </item>
     
     <item>
       <title>Back on tweeting</title>
-      <link>http://blog.mose.com/2015/07/26/back-on-tweeting/</link>
+      <link>https://blog.mose.com/2015/07/26/back-on-tweeting/</link>
       <pubDate>Sun, 26 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/26/back-on-tweeting/</guid>
+      <guid>https://blog.mose.com/2015/07/26/back-on-tweeting/</guid>
       <description>I really don&amp;rsquo;t like my phone. As an old timer I&amp;rsquo;m reluctant to trust my android, but it would be the same on an iphone. The way applications require access to the device, on android, is especially annoying and dishonest. They make the slope slippery for the sake of saving seconds in adopting new apps, but it&amp;rsquo;s leading to a total remission of users control over their devices.
 But well, I still have a commute several times a week and I use my phone to listen to various podcasts.</description>
     </item>
     
     <item>
       <title>Greenruby Better process and numbers</title>
-      <link>http://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</link>
+      <link>https://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</link>
       <pubDate>Sun, 10 May 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</guid>
+      <guid>https://blog.mose.com/2015/05/10/greenruby-better-process-and-numbers/</guid>
       <description>That&amp;rsquo;s a few weeks now that we are getting organized better, with Xenor and Tysliu, on the preparation of this newsletter. The guys are now putting more attention to the news gathering and preformatting the yaml source file that I use to generate the letter and the website. After some time of practice, it is much better for me, as now I don&amp;rsquo;t spend 5 hours each sunday anymore and I can manage the publication process in less than 2 hours.</description>
     </item>
     
     <item>
       <title>Green Ruby New Generation</title>
-      <link>http://blog.mose.com/2015/03/29/green-ruby-new-generation/</link>
+      <link>https://blog.mose.com/2015/03/29/green-ruby-new-generation/</link>
       <pubDate>Sun, 29 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/29/green-ruby-new-generation/</guid>
+      <guid>https://blog.mose.com/2015/03/29/green-ruby-new-generation/</guid>
       <description>We had this week a very productive meeting with xenor and tysliu in our preferred coffee shop. I explained more in detail my workflow and my quality criterias. So now they can feed the links section and become the major editors of Green Ruby. I Still keep the role of the publisher. I get their links, I clean up stuff, verify freshness and reachability, remove superlatives, fix category if needed.</description>
     </item>
     
     <item>
       <title>Time to upgrade</title>
-      <link>http://blog.mose.com/2015/03/15/time-to-upgrade/</link>
+      <link>https://blog.mose.com/2015/03/15/time-to-upgrade/</link>
       <pubDate>Sun, 15 Mar 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/03/15/time-to-upgrade/</guid>
+      <guid>https://blog.mose.com/2015/03/15/time-to-upgrade/</guid>
       <description>This is a long time I plan to re-engineer the way Green Ruby is produced. Last week I told Xenor and Simon I was thinking about giving it a break. I&amp;rsquo;m not that much anymore in the flow. Now my days are full ops and not that much dev. But the guys didn&amp;rsquo;t want to let me stop.
 So we are going to organize things a little differently. Xenor and Simon, which are full time rails developers, are going to handle the content more extensively, and I will just manage the publication, plus some devops links.</description>
     </item>
     
     <item>
       <title>2 years</title>
-      <link>http://blog.mose.com/2015/02/01/2-years/</link>
+      <link>https://blog.mose.com/2015/02/01/2-years/</link>
       <pubDate>Sun, 01 Feb 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/02/01/2-years/</guid>
+      <guid>https://blog.mose.com/2015/02/01/2-years/</guid>
       <description>Ghost You certainly heard about it, this week there was a new huge Linux vulnerability on glibc revealed. Actually it was leaked by a stupid communication agency few hours before it should have been announced. When such big bug is discovered usually there is a small period of time where the news spread into some limited circles. They keep it embargoed until major distro vendors get patched packages ready. Well, it didn&amp;rsquo;t go that well this time.</description>
     </item>
     
     <item>
       <title>Greenruby 101</title>
-      <link>http://blog.mose.com/2015/01/11/greenruby-101/</link>
+      <link>https://blog.mose.com/2015/01/11/greenruby-101/</link>
       <pubDate>Sun, 11 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/11/greenruby-101/</guid>
+      <guid>https://blog.mose.com/2015/01/11/greenruby-101/</guid>
       <description>1000 subscribers After the 100th Greenruby last week, we get the 1000th subscriber to the email newsletter this week. Welcome George :) So for the occasion I refreshed the subscribers map on cartodb. About half of the subscribers are in the US, but there is a total of 73 countries represented, which is pretty neat. But this is based on the ip used for subscribing, so it&amp;rsquo;s not totally accurate.</description>
     </item>
     
     <item>
       <title>Greenruby 100</title>
-      <link>http://blog.mose.com/2015/01/04/greenruby-100/</link>
+      <link>https://blog.mose.com/2015/01/04/greenruby-100/</link>
       <pubDate>Sun, 04 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/04/greenruby-100/</guid>
+      <guid>https://blog.mose.com/2015/01/04/greenruby-100/</guid>
       <description>This week is the 100th edition of Green Ruby, it&amp;rsquo;s also the first one of 2015. This week the Linux Outlaws broadcasted their last show, and Rebecca Watson left the Skeptics Guide to the Universe. Those are 2 podcasts that I never list in the Green Ruby list (they are not really on topic) but I rarely miss any of them. Too bad they leave. I thought about it too, but no, I will stay.</description>
     </item>
     
     <item>
       <title>About Green Ruby</title>
-      <link>http://blog.mose.com/2013/04/07/about-green-ruby/</link>
+      <link>https://blog.mose.com/2013/04/07/about-green-ruby/</link>
       <pubDate>Sun, 07 Apr 2013 09:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2013/04/07/about-green-ruby/</guid>
+      <guid>https://blog.mose.com/2013/04/07/about-green-ruby/</guid>
       <description>Green Ruby is a weekly newsletter that I’m publishing about ruby, rails, javascript and web development in general. I am preparing a website to make it more collective and here is the ‘about’ page, not yet published, but I was thinking it could be interesting to share it before the website is all ready.
 Genesis The Newsletter began in june 2012 from the habit I had to send weekly newsletter in Codegreen for our team to know what is happening in our company,.</description>
     </item>

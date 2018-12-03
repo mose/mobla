@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Moselog</title>
-    <link>http://blog.mose.com/tags/javascript/</link>
+    <link>https://blog.mose.com/tags/javascript/</link>
     <description>Recent content in Javascript on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Oct 2016 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is Facebook the new NPM?</title>
-      <link>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</link>
+      <link>https://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</link>
       <pubDate>Sun, 16 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</guid>
+      <guid>https://blog.mose.com/2016/10/16/is-facebook-the-new-npm/</guid>
       <description>This week there is a lot of noise in the JS ecosystem, on various trends. But the most noticeable is about Yarn. Yet another package manager for js, that states it opens a war against NPM (in soft terms but clearly enough). The long post from Facebook about it demonstrates a clear effort to push things forward about NPM shortcomings. The reaction on hacker news is pretty verbose.
 It provoked a public response from NPM to try to explain that, nop, it&amp;rsquo;s not a war.</description>
     </item>
     
     <item>
       <title>The JS toolback hell</title>
-      <link>http://blog.mose.com/2016/10/09/the-js-toolback-hell/</link>
+      <link>https://blog.mose.com/2016/10/09/the-js-toolback-hell/</link>
       <pubDate>Sun, 09 Oct 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/10/09/the-js-toolback-hell/</guid>
+      <guid>https://blog.mose.com/2016/10/09/the-js-toolback-hell/</guid>
       <description>This week I laughed a lot while reading How it feels to learn JavaScript in 2016. That article had a pretty good response, like it hits a nerve.
 But seriously it&amp;rsquo;s clear that we are at a transition time in Javascript evolution, and there is a huge chaos of possible alternatives to everything. It feels like an ecosystem where the natural selection didn&amp;rsquo;t operate its magic yet. It&amp;rsquo;s like there are things in suspension that are going to fall in order at some point eventually.</description>
     </item>
     
     <item>
       <title>kik the fuss</title>
-      <link>http://blog.mose.com/2016/03/27/kik-the-fuss/</link>
+      <link>https://blog.mose.com/2016/03/27/kik-the-fuss/</link>
       <pubDate>Sun, 27 Mar 2016 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
+      <guid>https://blog.mose.com/2016/03/27/kik-the-fuss/</guid>
       <description>There have been some noise last week about npm, coming from that article. It merely revealed that various open source organization are privately held by some individuals and they can either be pressured or take weird decisions. Honestly I consider this incident anecdotal. It&amp;rsquo;s not the first time such thing happens. One guy just happened to be very vocal and pissed off about it.
 And it carried various threads of discussion on Twitter and elsewhere, in a huge controversy.</description>
     </item>
     
     <item>
       <title>Javascript and thoughts on programming</title>
-      <link>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
+      <link>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</link>
       <pubDate>Sun, 12 Jul 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
+      <guid>https://blog.mose.com/2015/07/12/javascript-and-thoughts-on-programming/</guid>
       <description>Recently I&amp;rsquo;ve been playing with Hubot plugins code in coffeescript for our company. That&amp;rsquo;s a while I didn&amp;rsquo;t do much js but I used it for a long time and I didn&amp;rsquo;t find it too difficult to catch up. But for some reason, it brought me the same feeling I have each time I get back to that language. I feel dirty. Still I can do what I need to do, for sure, but I don&amp;rsquo;t feel like a builder, more like an acrobat.</description>
     </item>
     

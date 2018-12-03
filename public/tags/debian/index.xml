@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on Moselog</title>
-    <link>http://blog.mose.com/tags/debian/</link>
+    <link>https://blog.mose.com/tags/debian/</link>
     <description>Recent content in Debian on Moselog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Nov 2015 22:10:31 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.mose.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Packaging a gem for Debian</title>
-      <link>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
+      <link>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</link>
       <pubDate>Sun, 08 Nov 2015 22:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
+      <guid>https://blog.mose.com/2015/11/08/packaging-a-gem-for-debian/</guid>
       <description>Recently I had to package a gem for debian as a .deb. As a matter of fact, there is a lot of companies that are not in the ruby ecosystem and they rely on things they trust rather than rubygems. For a while debian was way behind on the inclusion of ruby and versions were outdated there. So a parallel distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby for ruby and bundler and rubygems for the packages.</description>
     </item>
     
     <item>
       <title>Welcome Jessie</title>
-      <link>http://blog.mose.com/2015/04/26/welcome-jessie/</link>
+      <link>https://blog.mose.com/2015/04/26/welcome-jessie/</link>
       <pubDate>Sun, 26 Apr 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/04/26/welcome-jessie/</guid>
+      <guid>https://blog.mose.com/2015/04/26/welcome-jessie/</guid>
       <description>Ok, right. Maybe you don&amp;rsquo;t care, but this saturday Jessie was officially released. It&amp;rsquo;s the next stable version of debian, version 8.0, and it&amp;rsquo;s great that it finally got out. Debian release cycles are certainly not as fast as Ubuntu, but the stuff in there is more stable. And well, in my personal case, I work in a place where everything is in debian wheezy and can now finally get upgraded.</description>
     </item>
     
     <item>
       <title>More Screens</title>
-      <link>http://blog.mose.com/2015/01/25/more-screens/</link>
+      <link>https://blog.mose.com/2015/01/25/more-screens/</link>
       <pubDate>Sun, 25 Jan 2015 12:10:31 +0800</pubDate>
       
-      <guid>http://blog.mose.com/2015/01/25/more-screens/</guid>
+      <guid>https://blog.mose.com/2015/01/25/more-screens/</guid>
       <description>Some time ago, when I left Faria, I bought a laptop with a clear purpose. I wanted to have on linux the same screen experience that I had with the macbook pro connected to 2 thunderbolts. So I got an asus UX301L plus 2 Dell screens U2713HM who supports a 2560x1440 resolution. The laptop in itself is amazing, dazzling fast, and all worked well with an ubuntu install. This was not cheap but that was a while I didn&amp;rsquo;t spend anything on hardware.</description>
     </item>
     
